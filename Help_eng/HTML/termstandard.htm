@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Standard functions for terms</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="distance">
+        <PARAM NAME="Keyword" VALUE="angle">
+        <PARAM NAME="Keyword" VALUE="measure">
+        <PARAM NAME="Keyword" VALUE="term">
+</OBJECT>
+
+<A NAME="idh_standardfunc"></A>
+
+<H2>The standard functions for terms</H2>
+<HR>
+
+<p>The following list contains the mathematical <b>standard functions</b> that can be used in terms. The function names are not case sensitiv. All trigonometric function work in degrees. <br>
+<br>
+Some of the functions have a limited definition range, partly for <font color="#0000FF"> mathematical reasons</font> (as with the ARCSIN- and ARCCOS-function the arguments of which must always be in the interval <nobr>[-1; 1]</nobr>), partly for <font color="#0000FF">hardware-related reasons</font> (as with the rounding functions RND, INT, FLOOR und CEIL the arguments of which must always be in the INTEGER range). If a function is called with an invalid argument, the whole term is declared <b>invalid</b>.</p>
+
+<br>
+<ul>
+<li><font color="#FF0000"><b>ABS():</b></font><br>
+<ul>delivers the absolute value of the argument.<br>
+<font color="#0000FF"><i>Examples:</i></font><br>
+ABS(-2.5) gives 2.5, ABS(0.5) gives 0.5, ABS(0) gives 0.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>SQRT() and SQR():</b></font><br>
+<ul>delivers the square root resp. the square of the argument.<br>
+<font color="#0000FF"><i>Examples:</i></font><br>
+SQRT(9) gives 3, SQRT(pi) gives the square root of Pi,<br>
+SQR(d(P,Q)) gives the square of the distance of the points P and Q.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>EXP(), LN() and LOG():</b></font><br>
+<ul>deliver the values of the natural exponential function, the natural logarithmic function and the logarithm to base 10.<br>
+<font color="#0000FF"><i>Examples:</i></font><br>
+EXP(1) gives e (=2,718281...), LN(e) gives 1,<br>
+LOG(1000) gives 3, LOG(0,01) gives -2.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>SIN(), COS() and TAN():</b></font><br>
+<ul>deliver the values of the trigonometric functions; the argument must be given in degrees.<br>
+<font color="#0000FF"><i>Examples:</i></font><br>
+SIN(30) gives 0.5, COS(180) gives -1, TAN(w(A;B;C)) gives the tangens of the angle defined by the 3 points A, B und C, with B being the vertex.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>ARCTAN(), ARCSIN() and ARCCOS():</b></font><br>
+<ul>deliver the (main) values of the invers trigonometric functions; the result must be interpreted in degrees.<br>
+<font color="#0000FF"><i>Examples:</i></font><br>
+ARCTAN(1) gives 45 (Grad!), ARCSIN(0.5) gives 30, ARCCOS(0.5) gives 60.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>BOGEN() and GRAD():</b></font><br>
+<ul>allow to convert from degrees to radians  and reverse.<br>
+<font color="#0000FF"><i>Examples:</i></font><br>
+BOGEN(90) gives Pi/2, GRAD(PI/3) gives 60.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>SGN():</b></font><br>
+<ul>delivers 1, 0 oder -1, according to the sign of the argument.<br>
+<font color="#0000FF"><i>Examples:</i></font><br>
+SGN(3) gives 1, SGN(-PI) gives -1, SGN(0) gives 0;<br>
+if the absolute value of the argument is smaller than the internal accuracy (standard value: 1E-8) then the argument is assumed to be zero.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>RND():</b></font><br>
+<ul>rounds the argument to the next integer; if it lies exactly in the middle between two integers, the one with the greater absolute value is taken as result.<br>
+<font color="#0000FF"><i>Examples:</i></font><br>
+RND(3.6) gives 4, RND(-3.6) gives -4, RND(-3.2) gives -3;<br>
+RND(2.5) gives 3, RND(-2.5) gives -3.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>INT() and FRAC():</b></font><br>
+<ul>these functions serve to cut a floating point number into an integer part and a real fractional part; INT delivers the integer with the greatest possible absolute value that the argument contains; FRAC always delivers the value <nobr>{x - INT(x)}</nobr>.<br>
+<font color="#0000FF"><i>Examples:</i></font><br>
+INT(3.6) gives 3, FRAC(3.6) gives 0.6;<br>
+INT(-3.6) gives -3, FRAC(-3.6) gives -0.6.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>FLOOR() and CEIL():</b></font><br>
+<ul>these are functions that deliver an integer next to the argument; FLOOR is always rounding downwards, CEIL is always rounding upwards. <br>
+<font color="#0000FF"><i>Examples:</i></font><br>
+FLOOR(3.7) gives 3, FLOOR(-3.2) gives -4,<br>
+CEIL (3.1) gives 4, CEIL (-3.9) gives -3.<br>
+<br>
+</ul>
+</li>
+</ul>
+</body>
+</html>

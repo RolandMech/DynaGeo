@@ -1,0 +1,63 @@
+<P><font size="-1">(<a HREF="JavaScript:HHCTRL.TextPopup(pop_autorepeat,popfont,10,10,-1,-1)"
+Title="Click to see a definition!">automatically repeatable</a>)</font></P>
+
+  abhängen von 			==> to depend on
+  gegenseitig			==> mutual
+
+Abkürzungen:
+
+  z.B   ==> e.g.
+  d.h.  ==> i.e.
+  bzw.  ==> respectively (resp.)
+  usw.  ==> etc.
+
+Abbildungen:
+  
+  Zentrische Streckung		==> dilation
+  Affine Abbildung 		==> affinity, affine transformation/mapping
+  Achsenaffinität		==> affinity with axis
+  Scherung			==> shear
+  Orthogonale axiale Streckung	==> simple orthogonal elongation
+  Schrägspiegelung		==> shear reflection
+  Euler'sche Affinität		==> scaling
+  Affine Drehung		==> affine rotation
+
+Funktionen und Kurven:
+
+  Wertetabelle			==> table of values
+  Funktions-Schaubild		==> graph of a function
+  Tangente an eine Kurve	==> tangent (line) to a curve
+  Normale an eine Kurve		==> normal (line) to a curve
+  Asymptote			==> asymptote
+  Berührpunkt			==> point of tangency
+  Ortslinie			==> locus (line)
+
+Kegelschnitte:
+
+  Kegelschnitt			==> conic
+  Ellipse			==> ellipse
+  Parabel			==> parabola
+  Hyperbel			==> hyperbola
+  Brennpunkt			==> focus, focal point  
+  Scheitel einer Ellipse	==> vertex of an ellipse
+  Nebenkreis			==> minor auxiliary circle
+  Hauptkreis			==> major auxiliary circle
+  Konjugierte Punkte		==> conjugate points
+  Leitgerade			==> directrix
+  Pol				==> pole, polar point
+  Polare			==> polar, polar line
+
+Sonstiges:
+
+  Geodreieck			==> setsquare  
+  Gitterpunkt			==> lattice point
+  Mittelsenkrechte		==> perpendicular bisector
+  Winkelhalbierende		==> bisector
+  Parallele			==> parallel line
+  Orthogonale			==> orthogonal line
+  Strecke einschieben		==> insert(ion of) a line segment
+  Chordale			==> radical axis
+  Außenwinkel			==> exterior angle
+  Einschiebelineal		==> insertion ruler
+  Umkreis			==> circumcircle
+  Umkreismittelpunkt		==> circumcentre  

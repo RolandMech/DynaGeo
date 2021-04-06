@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Das Problem der Winkel-Ma&szlig;einheit</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Einstellungen">
+        <PARAM NAME="Keyword" VALUE="Optionen">
+</OBJECT>
+
+<A NAME="idh_AngleUnit"></A>
+
+<H2>The problem of the angle unit</H2>
+<HR>
+
+<p>To measure angle widths there are two different possibilities: in the lower classes, usually angles are measured in <b>degrees</b>, while later the <b>radian</b> measurement is introduced. But to many pupils, the radian unit remains a mystery during their whole school life. So when implementing angle widths in DynaGeo it was clear that angle widths have to be measured in degrees. Whenever an angle width had to be entered, the user entered a number which was interpreted by DynaGeo as the angle width in degrees - without mentioning the angle unit "degrees" explicitly.<br>
+<br>
+<br>
+
+<h3><font color="#0000FF"><i>The expulsion from the paradise of the degree unit</i></font></h3>
+
+At the latest when DynaGeo learned to draw function graphs as well, the time for the limited world of the degree unit was over: when you want to represent <b>trigonometric functions</b>, the radian unit can no longer be avoided. So the terms of Function objects were calculated using the radian angle unit, while angles in the constructed drawing continued to the meant in degrees. But this made it more difficult to exchange angle data between these two worlds: if in a function term an angle width was to be used, the angle object delivered the width in degrees, while the function term needed it in radians.<br>
+<br>
+
+To solve these problems, some transfer functions were provided: while entering function terms the standard functions "grad()" and "bogen()" were available to convert an angle width from radian to degrees and in the opposite direction. But these functions demanded a considerable overview from the user about how DynaGeo was dealing with angle widths in the different cases. And so, many users ended up in confusion and never succeeded to manage when an angle was delivered in degrees and needed in radians.<br>
+<br>
+<br>
+
+<h3><font color="#0000FF"><i>The new simplicity by explicit indicating the unit</i></font></h3>
+
+Since version 3.5 DynaGeo tries to solve these problems. This is done in a rather easy way: every angle width, that is to be interpreted as degrees, must be followed by a <b>degree sign (°)</b>. If there is no degree sign, the angle width is taken to be in radians. Interestingly enough, this solution is technically convincing too: the term compiler interprets the degree sign as a command to multiply the preceeding value by (&#x03C0;/180). So the degree sign triggers the conversion from degrees to radians, and internally, all angle widths are in radians!<br>
+<br>
+
+Now it is also clear how to deal with angle references: if a term refers an existing angle in the drawing (e.g. T<sub>1</sub>&nbsp;=&nbsp;w(<font face="Symbol">a</font><sub>1</sub>), then the angle object delivers the angle width already in radians, and so no degree sign is allowed here! But if a term contains a reference to a number object or a term object, that delivers an angle width meant in degrees, then the reference in the term must be followed by a degree sign. If for example a number object Z1 is set to a range of [0..180] and it is to serve as the angle width for a "line of determined angle", then you must set the angle term to "Z1°". Altogether there are the following <b>rules about the angle width input</b>:<br>
+<br>
+<table align="center" width="80%">
+<tr>
+  <td>
+  <ul>
+	<li>When you enter a (constant) angle width <b>in degrees</b>, you must add a <b>degree sign</b> to the number, so e.g. "30°".</li>
+	<li>When you enter <b>no degree sign</b> the value is taken <b>in radians</b>, so e.g. "&#x03C0;/2" for a right angle.</li>
+	<li><b>References to existing angles</b> must not be followed by a degree sign.</li>
+         <li><b>References to number or term objects</b> that deliver an angle width in degrees must be followed by a degree sign. If this is omitted, the value is taken to be in radians.</li>
+  </ul>
+  </td>
+</tr>
+</table>
+<br>
+<br>
+
+<h3><font color="#0000FF"><i>An example to clear the details</i></font></h3>
+
+The above explanations show how to input angle values correctly in DynaGeo. But what about the output, e.g. in a term object? To study the details of this problem let's have a look at the following example:<br>
+<br>
+A drawing may contain a triangle with an angle &#x03B1;. You want to show the width of this angle in a term object, and later construct the bisector of this angle by using the "line of determined angle" command. So first you choose the command "Create term object" from the "Measure &amp; Calculate Bar" and enter a reference to the angle &#x03B1; (by just clicking on the angle measure object in the drawing): <br>
+<br>
+<div align="center"><img src="../IMAGES/angle_01.png" width="643" height="471" border="0" alt=""></div>
+<br>
+A final click on the "Okay" button closes the window.<br>
+Then the drawing presents itself in this state:<br>
+<br>
+<div align="center"><img src="../IMAGES/angle_02.png" width="555" height="472" border="0" alt=""></div>
+<br>
+This is somewhat disappointing: instead of the angle width "49°" the term object shows the decimal number <nobr>"0,8604"</nobr>. The experts may notice that this is the angle width in radians, but most of the younger pupils will stay confused. So we open the term object's context menu and select the command "Edit term object". Then the following window appears:<br>
+<br>
+<div align="center"><img src="../IMAGES/angle_03.png" width="560" height="533" border="0" alt=""></div>
+<br>
+Here a tick is set at the option "Show name" hinzugef&uuml;gt. Additionally, in the new radio box <b>"Output format"</b> the option "degrees" is selected instead of the default value "normal". After closing the window, this is the new situation:<br>
+<br>
+<div align="center"><img src="../IMAGES/angle_04.png" width="577" height="456" border="0" alt=""></div>
+<br>
+Now the angle width shows up in degrees, and even with higher accuracy than in the angle measurement object. But be aware! The changing of the output format only affects the representation of the value on the screen, not its stored value! Internally, the term object holds the width of the angle &#x03B1; in radians. You will see this when we use the term object to construct the bisector of &#x03B1;: the command "line of determined angle" first asks for the width of the new angle. A click at the term object inserts a reference "T1" into the edit field, and we can add "/2" by the keyboard, because the bisector only needs half of the existing angle:<br>
+<br>
+<div align="center"><img src="../IMAGES/angle_05.png" width="581" height="452" border="0" alt=""></div>
+<br>
+A click on the "Okay" button closes the window. After entering the two defining points of the new "line of determined angle" we get the desired result. The next image shows the bisector. Additionally, it's angle is measured, just to verify the bisector property: <br>
+<br>
+<div align="center"><img src="../IMAGES/angle_06.png" width="511" height="455" border="0" alt=""></div>
+<br>
+<br>
+<br>
+
+<h3><font color="#0000FF"><i>The tedious problem of compatibility</i></font></h3>
+
+Although the situation becomes even clearer than it ever was before when we switch to the new "explicitly indicating the angle unit", but the user must get accustomed to this change. Because this is not easy, DynaGeo tries to help - just as good as a simple program can.<br>
+<br>
+The next problem is the import of old drawings which were produced with earlier versions of DynaGeo. The change from initially complete degree orientation to now nearly complete radian orientation leads to the sad fact that DynaGeo cannot read the old GEO files without converting them to the new angle unit situation. Be sure that DynaGeo will try to do its very best, but a simple algorithmic program is too stupid to do this tricky job in all cases without making errors. Experience shows that the imaginativeness of the users too big. So there may be many cases that DynaGeo will successfully convert an old GEO file to the new situation. But there will also be some other cases where the automatic conversion fails. Then the drawing acts strange, and its left to the intelligent head in front of the screen to find the reason and manually convert the construction. Some tips how to proceed in this case:<br>
+<br>
+<ol start="1" type="i">
+<li>Look at the <b>construction text</b> of the drawing to identify those objects that depend from terms. Fortunately, there are not really much of this kind; the most important ones are <i>points with determined co-ordinates</i>, <i>circles with determined radius</i> and <i>lines of determined angle</i>. Additionally every <i>term object</i> contains a term - naturally!<br>
+<br></li>
+<li>Close the construction text and check the terms in all of these objects. You can edit the terms by using the appropriate cammands in the <b>context menu</b> of every of these objects. First check if the terms contain any references to angle widths and if these are treated according to the new situation. Then check the arguments of all trigonometric functions. In many cases, the addition of a single degree sign may solve the problem.<br>
+<br></li>
+<li>Some <i>mappings</i> may also depend on angle terms, as e.g. the rotation. Especially malicious is the case that the rotation angle is delivered by a hidden term object: before you can edit its term you must switch this term object <i>visible</i>!<br>
+<br></li>
+</ol>
+
+Unfortunately, there exists no algorithm how to convert an old construction. But despite these difficulties, the switch to "explicitly indicating the angle unit" is a step in the right direction, because now the logic of the program's interface is more consistent than before.<br>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

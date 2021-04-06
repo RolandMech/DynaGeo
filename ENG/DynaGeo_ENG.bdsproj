@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">W32ResourceDLL.Personality</Option>
+			<Option Name="ProjectType">ResourceDLL</Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{45AB2D40-B76D-4848-8FA6-38EE6489BF8A}</Option>
+		</Option>
+	</PersonalityInfo>
+	<W32ResourceDLL.Personality>
+		<Source>
+			<Source Name="MainSource">DynaGeo.dpr</Source>
+		</Source>
+		<Options>
+			<Options Name="BaseLang">1031</Options>
+			<Options Name="TargetName">..\DynaGeo.ENG</Options>
+			<Options Name="BRCC_IncludePath"></Options>
+			<Options Name="Company"></Options>
+			<Options Name="Configuration"></Options>
+			<Options Name="Copyright"></Options>
+			<Options Name="Description"></Options>
+			<Options Name="Trademark"></Options>
+			<Options Name="Product"></Options>
+			<Options Name="ProductVersion"></Options>
+			<Options Name="Title"></Options>
+			<Options Name="FileVersion"></Options>
+			<Options Name="Evidence"></Options>
+			<Options Name="KeyFile"></Options>
+			<Options Name="KeyName"></Options>
+		</Options>
+		<FileList>
+			<File FileName="OKCANCL1.dfm" ContainerId="W32Form" ModuleName="OKCANCL1.dfm"/>
+			<File FileName="AboutWin.dfm" ContainerId="W32Form" ModuleName="AboutWin.dfm"/>
+			<File FileName="AniParams.dfm" ContainerId="W32Form" ModuleName="AniParams.dfm"/>
+			<File FileName="AskUser1.dfm" ContainerId="W32Form" ModuleName="AskUser1.dfm"/>
+			<File FileName="AssAffAbb_1.dfm" ContainerId="W32Form" ModuleName="AssAffAbb_1.dfm"/>
+			<File FileName="AssAffAbb_2.dfm" ContainerId="W32Form" ModuleName="AssAffAbb_2.dfm"/>
+			<File FileName="AssAffAbb_2a.dfm" ContainerId="W32Form" ModuleName="AssAffAbb_2a.dfm"/>
+			<File FileName="AssAffAbb_2b.dfm" ContainerId="W32Form" ModuleName="AssAffAbb_2b.dfm"/>
+			<File FileName="AssAffAbb_2c.dfm" ContainerId="W32Form" ModuleName="AssAffAbb_2c.dfm"/>
+			<File FileName="AssAffAbb_2d.dfm" ContainerId="W32Form" ModuleName="AssAffAbb_2d.dfm"/>
+			<File FileName="AssAffAbb_2e.dfm" ContainerId="W32Form" ModuleName="AssAffAbb_2e.dfm"/>
+			<File FileName="AssAffAbb_3.dfm" ContainerId="W32Form" ModuleName="AssAffAbb_3.dfm"/>
+			<File FileName="AssAffAbb_3a.dfm" ContainerId="W32Form" ModuleName="AssAffAbb_3a.dfm"/>
+			<File FileName="AssAffAbb_3b.dfm" ContainerId="W32Form" ModuleName="AssAffAbb_3b.dfm"/>
+			<File FileName="CommentWin.dfm" ContainerId="W32Form" ModuleName="CommentWin.dfm"/>
+			<File FileName="ConstrWin.dfm" ContainerId="W32Form" ModuleName="ConstrWin.dfm"/>
+			<File FileName="CoordWin.dfm" ContainerId="W32Form" ModuleName="CoordWin.dfm"/>
+			<File FileName="EditMappingWin.dfm" ContainerId="W32Form" ModuleName="EditMappingWin.dfm"/>
+			<File FileName="ExpertOptWin.dfm" ContainerId="W32Form" ModuleName="ExpertOptWin.dfm"/>
+			<File FileName="FileProp.dfm" ContainerId="W32Form" ModuleName="FileProp.dfm"/>
+			<File FileName="GroupWin.dfm" ContainerId="W32Form" ModuleName="GroupWin.dfm"/>
+			<File FileName="HTMLDynaGeoJSettings.dfm" ContainerId="W32Form" ModuleName="HTMLDynaGeoJSettings.dfm"/>
+			<File FileName="HTMLDynaGeoXSettings.dfm" ContainerId="W32Form" ModuleName="HTMLDynaGeoXSettings.dfm"/>
+			<File FileName="IniFDlg.dfm" ContainerId="W32Form" ModuleName="IniFDlg.dfm"/>
+			<File FileName="KonstEing.dfm" ContainerId="W32Form" ModuleName="KonstEing.dfm"/>
+			<File FileName="KoordEing.dfm" ContainerId="W32Form" ModuleName="KoordEing.dfm"/>
+			<File FileName="LinkWin.dfm" ContainerId="W32Form" ModuleName="LinkWin.dfm"/>
+			<File FileName="MainWin.dfm" ContainerId="W32Form" ModuleName="MainWin.dfm"/>
+			<File FileName="MakHelpEdit.dfm" ContainerId="W32Form" ModuleName="MakHelpEdit.dfm"/>
+			<File FileName="MakHelpShow.dfm" ContainerId="W32Form" ModuleName="MakHelpShow.dfm"/>
+			<File FileName="MemberWin.dfm" ContainerId="W32Form" ModuleName="MemberWin.dfm"/>
+			<File FileName="MenuCfgNew.dfm" ContainerId="W32Form" ModuleName="MenuCfgNew.dfm"/>
+			<File FileName="NameDlg.dfm" ContainerId="W32Form" ModuleName="NameDlg.dfm"/>
+			<File FileName="NetOptDlg.dfm" ContainerId="W32Form" ModuleName="NetOptDlg.dfm"/>
+			<File FileName="OkayWin.dfm" ContainerId="W32Form" ModuleName="OkayWin.dfm"/>
+			<File FileName="OKCheckConfWin.dfm" ContainerId="W32Form" ModuleName="OKCheckConfWin.dfm"/>
+			<File FileName="Preview.dfm" ContainerId="W32Form" ModuleName="Preview.dfm"/>
+			<File FileName="PrnCfg.dfm" ContainerId="W32Form" ModuleName="PrnCfg.dfm"/>
+			<File FileName="QuantPoint.dfm" ContainerId="W32Form" ModuleName="QuantPoint.dfm"/>
+			<File FileName="RangeEdit.dfm" ContainerId="W32Form" ModuleName="RangeEdit.dfm"/>
+			<File FileName="RegWin.dfm" ContainerId="W32Form" ModuleName="RegWin.dfm"/>
+			<File FileName="RiemannSum.dfm" ContainerId="W32Form" ModuleName="RiemannSum.dfm"/>
+			<File FileName="SelectWin.dfm" ContainerId="W32Form" ModuleName="SelectWin.dfm"/>
+			<File FileName="SelectXCmd.dfm" ContainerId="W32Form" ModuleName="SelectXCmd.dfm"/>
+			<File FileName="Symbols.dfm" ContainerId="W32Form" ModuleName="Symbols.dfm"/>
+			<File FileName="SysMem.dfm" ContainerId="W32Form" ModuleName="SysMem.dfm"/>
+			<File FileName="TagSelDlg.dfm" ContainerId="W32Form" ModuleName="TagSelDlg.dfm"/>
+			<File FileName="TermEdit.dfm" ContainerId="W32Form" ModuleName="TermEdit.dfm"/>
+			<File FileName="ValidateResultWin.dfm" ContainerId="W32Form" ModuleName="ValidateResultWin.dfm"/>
+			<File FileName="WertEing.dfm" ContainerId="W32Form" ModuleName="WertEing.dfm"/>
+			<File FileName="WerteTabelle.dfm" ContainerId="W32Form" ModuleName="WerteTabelle.dfm"/>
+			<File FileName="DynaGeo_DRC.rc" ContainerId="W32RC" ModuleName="DynaGeo_DRC.rc"/>
+		</FileList>
+	</W32ResourceDLL.Personality>
+</BorlandProject>

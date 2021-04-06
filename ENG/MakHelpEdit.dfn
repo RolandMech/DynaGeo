@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\MakHelpEdit.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\MakHelpEdit.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715740741</prop>
+        <prop prop-type="OrigDateTime">38375.6561574074</prop>
+        <prop prop-type="XlatDateTime">36484.6325462963</prop>
+        <prop prop-type="Translated">6</prop>
+        <prop prop-type="UnTranslated">49</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:MakHelpDlg.Left" resname="O:MakHelpDlg.Left">
+        <source>304</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256810185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.Top" resname="O:MakHelpDlg.Top">
+        <source>227</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256814815</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.BorderIcons" resname="O:MakHelpDlg.BorderIcons">
+        <source>[biSystemMenu]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256809028</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.BorderStyle" resname="O:MakHelpDlg.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256809028</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.Caption" resname="O:MakHelpDlg.Caption">
+        <source>'Makro-Beschreibung'</source>
+        <target>'Macro description'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256809028</prop><prop prop-type="Status">1</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.ClientHeight" resname="O:MakHelpDlg.ClientHeight">
+        <source>210</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256809028</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.ClientWidth" resname="O:MakHelpDlg.ClientWidth">
+        <source>384</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256809028</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.Color" resname="O:MakHelpDlg.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256809028</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.Font.Charset" resname="O:MakHelpDlg.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256810185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.Font.Color" resname="O:MakHelpDlg.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256810185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.Font.Height" resname="O:MakHelpDlg.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256810185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.Font.Name" resname="O:MakHelpDlg.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256810185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.Font.Style" resname="O:MakHelpDlg.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256810185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.OldCreateOrder" resname="O:MakHelpDlg.OldCreateOrder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256814815</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.Position" resname="O:MakHelpDlg.Position">
+        <source>poMainFormCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.OnShow" resname="O:MakHelpDlg.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256814815</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.PixelsPerInch" resname="O:MakHelpDlg.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256814815</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.TextHeight" resname="O:MakHelpDlg.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256814815</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TMakHelpDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Label1.Left" resname="O:MakHelpDlg.O:Label1.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.42568125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Label1.Top" resname="O:MakHelpDlg.O:Label1.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.42568125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Label1.Width" resname="O:MakHelpDlg.O:Label1.Width">
+        <source>53</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.42568125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Label1.Height" resname="O:MakHelpDlg.O:Label1.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.42568125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Label1.AutoSize" resname="O:MakHelpDlg.O:Label1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.42568125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Label1.Caption" resname="O:MakHelpDlg.O:Label1.Caption">
+        <source>'Name :'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.42568125</prop><prop prop-type="Status">1</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Label2.Left" resname="O:MakHelpDlg.O:Label2.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256813657</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Label2.Top" resname="O:MakHelpDlg.O:Label2.Top">
+        <source>39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256813657</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Label2.Width" resname="O:MakHelpDlg.O:Label2.Width">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256813657</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Label2.Height" resname="O:MakHelpDlg.O:Label2.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.42568125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Label2.AutoSize" resname="O:MakHelpDlg.O:Label2.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.42568125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Label2.Caption" resname="O:MakHelpDlg.O:Label2.Caption">
+        <source>'Hilfetext :'</source>
+        <target>'Help text :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.42568125</prop><prop prop-type="Status">1</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Bevel1.Left" resname="O:MakHelpDlg.O:Bevel1.Left">
+        <source>273</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256811343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Bevel1.Top" resname="O:MakHelpDlg.O:Bevel1.Top">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256811343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Bevel1.Width" resname="O:MakHelpDlg.O:Bevel1.Width">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256811343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Bevel1.Height" resname="O:MakHelpDlg.O:Bevel1.Height">
+        <source>195</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256811343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Bevel1.Shape" resname="O:MakHelpDlg.O:Bevel1.Shape">
+        <source>bsLeftLine</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256811343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Edit1.Left" resname="O:MakHelpDlg.O:Edit1.Left">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256811343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Edit1.Top" resname="O:MakHelpDlg.O:Edit1.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.42568125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Edit1.Width" resname="O:MakHelpDlg.O:Edit1.Width">
+        <source>182</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.42568125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Edit1.Height" resname="O:MakHelpDlg.O:Edit1.Height">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256811343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Edit1.TabOrder" resname="O:MakHelpDlg.O:Edit1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256811343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Edit1.Text" resname="O:MakHelpDlg.O:Edit1.Text">
+        <source>'Edit1'</source>
+        <target>''</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256811343</prop><prop prop-type="Status">1</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Memo1.Left" resname="O:MakHelpDlg.O:Memo1.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256813657</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Memo1.Top" resname="O:MakHelpDlg.O:Memo1.Top">
+        <source>59</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256813657</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Memo1.Width" resname="O:MakHelpDlg.O:Memo1.Width">
+        <source>241</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256813657</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Memo1.Height" resname="O:MakHelpDlg.O:Memo1.Height">
+        <source>137</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256813657</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Memo1.TabOrder" resname="O:MakHelpDlg.O:Memo1.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256813657</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Okay.Left" resname="O:MakHelpDlg.O:Okay.Left">
+        <source>288</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256813657</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Okay.Top" resname="O:MakHelpDlg.O:Okay.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256814815</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Okay.Width" resname="O:MakHelpDlg.O:Okay.Width">
+        <source>83</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256814815</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Okay.Height" resname="O:MakHelpDlg.O:Okay.Height">
+        <source>28</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256813657</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Okay.Caption" resname="O:MakHelpDlg.O:Okay.Caption">
+        <source>'Okay'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256813657</prop><prop prop-type="Status">1</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Okay.Font.Charset" resname="O:MakHelpDlg.O:Okay.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374848032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Okay.Font.Color" resname="O:MakHelpDlg.O:Okay.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374848032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Okay.Font.Height" resname="O:MakHelpDlg.O:Okay.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374848032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Okay.Font.Name" resname="O:MakHelpDlg.O:Okay.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374848032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Okay.Font.Style" resname="O:MakHelpDlg.O:Okay.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374848032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Okay.ParentFont" resname="O:MakHelpDlg.O:Okay.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374848032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Okay.TabOrder" resname="O:MakHelpDlg.O:Okay.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256814815</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Okay.OnClick" resname="O:MakHelpDlg.O:Okay.OnClick">
+        <source>OkayClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256814815</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Abbrechen.Left" resname="O:MakHelpDlg.O:Abbrechen.Left">
+        <source>288</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256810185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Abbrechen.Top" resname="O:MakHelpDlg.O:Abbrechen.Top">
+        <source>59</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256811343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Abbrechen.Width" resname="O:MakHelpDlg.O:Abbrechen.Width">
+        <source>83</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256811343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Abbrechen.Height" resname="O:MakHelpDlg.O:Abbrechen.Height">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256810185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Abbrechen.Caption" resname="O:MakHelpDlg.O:Abbrechen.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Cancel'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256810185</prop><prop prop-type="Status">1</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Abbrechen.Font.Charset" resname="O:MakHelpDlg.O:Abbrechen.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374848032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Abbrechen.Font.Color" resname="O:MakHelpDlg.O:Abbrechen.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374848032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Abbrechen.Font.Height" resname="O:MakHelpDlg.O:Abbrechen.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374848032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Abbrechen.Font.Name" resname="O:MakHelpDlg.O:Abbrechen.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374848032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Abbrechen.Font.Style" resname="O:MakHelpDlg.O:Abbrechen.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374848032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Abbrechen.ParentFont" resname="O:MakHelpDlg.O:Abbrechen.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374848032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Abbrechen.TabOrder" resname="O:MakHelpDlg.O:Abbrechen.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256811343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:MakHelpDlg.O:Abbrechen.OnClick" resname="O:MakHelpDlg.O:Abbrechen.OnClick">
+        <source>AbbrechenClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256810185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

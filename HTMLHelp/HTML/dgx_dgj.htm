@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Warum ActiveX und nicht JAVA?</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="DynaGeoX">
+        <PARAM NAME="Keyword" VALUE="DynaGeoJ">
+        <PARAM NAME="Keyword" VALUE="JAVA">
+        <PARAM NAME="Keyword" VALUE="HTML">
+        <PARAM NAME="Keyword" VALUE="ActiveX">
+</OBJECT>
+
+<A NAME="idh_dgx_dgj"></A>
+
+<H2>DynaGeoJ versus DynaGeoX: warum zwei M&ouml;glichkeiten?</H2>
+<HR>
+
+<P>
+<B>Darstellung dynamischer Zeichnungen in HTML-Seiten</B></P>
+<ul>
+<p>Keiner der markt&uuml;blichen Browser kann von Haus aus dynamische Zeichungen darstellen. Um die F&auml;higkeiten eines Browsers zu erweitern, kann man ihm entsprechende Hilfsprogramme (&uuml;blicherweise "PlugIns" genannt) zur Seite stellen. Soll also eine Internet-Seite mit einer eingebetteten dynamischen Zeichnung dargestellt werden, dann ruft der Browser zur eigentlichen Darstellung der Zeichnung ein "Viewer-Programm" auf. Dieser <b>Viewer</b> erm&ouml;glicht dar&uuml;berhinaus auch die Interaktion des Benutzers mit der Zeichnung.</p>
+
+<p> Es gibt mehrere technische M&ouml;glichkeiten, wie ein solcher Viewer realisiert werden kann. Am h&auml;ufigsten kommen wohl <b>JAVA-Applets</b> zum Einsatz, die in der von der Firma SUN entwickelten Programmiersprache JAVA erstellt werden. Gelegentlich werden aber auch <b>ActiveX-Komponenten</b> eingesetzt, die die von Microsoft entwickelte ActiveX-Technologie benutzen und in verschiedenen Programmiersprachen erstellt werden k&ouml;nnen.</p>
+</ul>
+
+<P>
+<B>Sicherheits-Aspekte</B></P>
+<ul>
+<P>Grunds&auml;tzlich stellt jede Art von aktiven Objekten in HTML-Seiten ein nicht unerhebliches <B>Sicherheitsrisiko</B> dar. Um dieses zu beherrschen, wurde f&uuml;r die JAVA-Technologie die "sand box" entwickelt, ein "Sandkasten" innerhalb Ihres Rechners also, mit einer genau definierten Begrenzung. Durch diesen "Rand" wird festgelegt, was das aktive Objekt auf dem Rechner darf und was nicht. Obwohl auch die "sand box"-Technik ihre T&uuml;cken hat und nicht frei von Risiken und Nebenwirkungen ist, muss man fairerweise zugeben, dass ActiveX-Komponenten ein weit <B>gr&ouml;&szlig;eres Ma&szlig; an Vertrauen</B> vom Anwender einfordern als gew&ouml;hnliche JAVA-Applets. ActiveX-Komponenten sind effektiv "verkleidete EXE-Dateien" und k&ouml;nnen damit denselben Schaden auf dem Rechner des Anwenders anrichten wie jedes andere ausf&uuml;hrbare Programm. Der Anwender ist also darauf angewiesen, dass der Programmierer einer solchen Komponente daf&uuml;r sorgt, dass sie zur Laufzeit keinen Unsinn auf dem Rechner anstellen wird. (Hoffen wir, dass er das kann!) </P>
+
+<P>An dieser Situation &auml;ndert auch die ganze <B>Zertifizierung</B>s-Maschinerie wenig, die MS inszeniert hat, um der ActiveX-Technologie den Ruch der Gef&auml;hrlichkeit zu nehmen. Der Hersteller einer ActiveX-Komponente muss einen nicht gerade geringen Aufwand betreiben, um ein Zertifikat zu erhalten: man kauft ein solches Authenticode-Zertifikat von einer "Certification Authority", z.B. dem deutschen "TC TrustCenter", welches dabei die Aufgabe &uuml;bernimmt, f&uuml;r die Echtheit der Signatur einer damit unterschriebenen Software zu garantieren. Den eigentlichen Anspruch, den User verl&auml;sslich dar&uuml;ber zu informieren, welcher Code vertrauenw&uuml;rdig ist und welcher nicht, kann aber auch die Authenticode-Technologie letztlich nicht einl&ouml;sen: zum Schluss muss stets der Benutzer selbst entscheiden, ob er eine heruntergeladene Datei &ouml;ffnet oder nicht. </P>
+
+<p>Der <b>Sicherheits-Vorsprung</b> von JAVA-Applets gegen&uuml;ber ActiveX-Komponenten schmilzt aber langsam dahin. Auch bei SUN hat man n&auml;mlich eingesehen, dass Applets, die sich nur innerhalb einer "sand box" bewegen, f&uuml;r viele Anwendungsf&auml;lle nicht leistungsf&auml;hig genug sind. Deshalb wurde die M&ouml;glichkeit geschaffen, die Reichweite eines JAVA-Applets zu vergr&ouml;&szlig;ern, indem man es "signiert", es also genau wie eine ActiveX-Komponente mit einem Zertifikat versieht. Solche signierten Applets k&ouml;nnen dann zum Beispiel denselben Zugriff auf das Dateisystem des Anwender-Rechners haben wie eine (signierte) ActiveX-Komponente.  Damit wird aber die vielgepriesene "Sicherheit von JAVA-Applets" zu einem M&auml;rchen aus der Vergangenheit...;-)<br>
+<ul><font size="-1"><br>
+W&auml;hrend die Signaturen f&uuml;r ActiveX-Komponenten teuer bei den entsprechenden "Certification Authorities" gekauft werden m&uuml;ssen, kann jeder einigerma&szlig;en sachkundige Programmierer in 10 Minuten eine g&uuml;ltige JAVA-Signatur selbst herstellen und damit ein eigenes Applet unterschreiben: das Java-SDK enth&auml;lt alle Tools, die man dazu ben&ouml;tigt. Eine genaue Anleitung finden Sie z.B. in dem sch&ouml;nen Buch "Java ist auch eine Insel" von Christian Ullenboom. Die Vertrauensw&uuml;rdigkeit einer solchen selbsterstellten JAVA-Signatur kann prinzipiell &uuml;berhaupt nicht getestet werden.</font></ul>
+</p>
+
+<p>Bei einem Programm, das vorwiegend f&uuml;r den Einsatz im Schulunterricht gedacht ist, muss man aber auch die reale Situation an den Schulen in Betracht ziehen. Und unter den <b>Administratoren der Schulnetze</b> wird die ActiveX-Technologie von Microsoft nahezu einstimmig abgelehnt: sie ist im Netzwerk schwierig zu verwalten und gilt als gef&auml;hrlich. Dies f&uuml;hrt dazu, dass mit DynaGeoX erstellte Internet-Seiten in den allermeisten Schulnetzen nicht funktionieren: das f&uuml;r die Zeichnung vorgesehene Fenster bleibt einfach leer. Andererseits ist in nahezu allen Schulnetzen eine Laufzeitumgebung von JAVA installiert, weil dieselben Administratoren meinen, dass <b>JAVA-Applets notwendig, n&uuml;tzlich und sicher</b> seien. </p>
+</ul>
+<br>
+
+<P>
+<B>Die DynaGeo-Viewer</B></P>
+<ul>
+<p>EUKLID DynaGeo ist ein genuines <B>Windows-Programm</B>, das mit Borland Delphi in der Sprache Object Pascal erstellt wurde. In dieser Situation ist die Erstellung einer ActiveX-Komponente zur Darstellung dynamischer Zeichnungen in Webseiten sehr viel einfacher zu realisieren als die Programmierung eines entsprechenden JAVA-Applets. Letztere erfordert n&auml;mlich eine aufw&auml;ndige Portierung der DynaGeo-Objektbibliotheken von Pascal nach JAVA, weshalb ich mich entschlossen habe, zun&auml;chst einmal den <b>DynaGeoX</b>-Viewer in der Microsoft-eigenen ActiveX-Technologie zur Verf&uuml;gung zu stellen. Seit der im Jahr 2000 erschienen Version 2.3 ist nun ein komfortabler "DynaGeoX-Export" verf&uuml;gbar. </P>
+
+<P>Viele DynaGeo-Benutzer w&uuml;nschten sich aber auch eine JAVA-basierte M&ouml;glichkeit des Exports von dynamischen Zeichnungen in Webseiten. Daher implementierte ich im Jahr 2000 die M&ouml;glichkeit des Exports von Zeichnungen in HTML-Seiten, die dann zur Darstellung das JAVA-Applet <b>"Geometria" von Dr. Timo Ehmke</b> benutzten. Ein komfortabler Men&uuml;befehl f&uuml;r diesen "Geometria-Export" wurde 2001 mit DynaGeo 2.4 nachgeliefert. Weil es sich bei "Geometria" aber um ein <u>externes</u> Tool eines anderen Autors handelte, gab es diverse Inkompatibilit&auml;ten zwischen den beiden Programmen. Dies f&uuml;hrte f&uuml;r den Benutzer zu deutlichen Einschr&auml;nkungen in der Praxis. Insgesamt erfreute sich der Geometria-Export unter den DynaGeo-Benutzern keiner gro&szlig;en Beliebtheit, weshalb er schlie&szlig;lich mit der Version 3.5 wieder entfernt wurde. </p>
+
+<p>Schon im Jahr 2006 begannen n&auml;mlich die Arbeiten an <b>DynaGeoJ</b>, einem "eigenen" JAVA-basierten Viewer f&uuml;r DynaGeo-Zeichnungen. Ich hatte damals an meiner Schule einen au&szlig;ergew&ouml;hnlich leistungsf&auml;higen Informatik-Kurs mit zahlreichen hochmotivierten und erfahrenen JAVA-Kundigen, die sich f&uuml;r dieses Projekt begeisterten und es recht eigentlich auf den Weg brachten. Leider machten diese Sch&uuml;ler dann schon bald ihr Abitur und gingen ihrer Wege, so dass ich schlie&szlig;lich alleine zur&uuml;ckblieb mit den bis dahin erarbeiteten Quelltexten. Die weiteren Arbeiten zogen sich in die L&auml;nge, bis endlich 2009 mit DynaGeo 3.5 eine erste Version des "DynaGeoJ-Viewers" ver&ouml;ffentlicht werden konnte. Zwar litt diese noch unter deutlichen Einschr&auml;nkungen und Inkompatibilit&auml;ten gegen&uuml;ber dem DynaGeo-"Mutter"-Programm; aber weil DynaGeoJ nun ein eigenes Programm ist, kann es auch weiterentwickelt und mit DynaGeo synchron gehalten werden.<br>
+<ul><font size="-1"><br>
+W&auml;hrend der Entwicklung von DynaGeoJ konnte ich mich davon &uuml;berzeugen, dass ein h&auml;ufig geh&ouml;rtes Argument gegen JAVA inzwischen immer weniger begr&uuml;ndet ist, n&auml;mlich dass JAVA-Programme langsam sind. Nat&uuml;rlich produziert JAVA als plattform&uuml;begreifende Sprache nicht so performante Programme wie ein maschinensprache-erzeugender Pascal-Compiler, dessen Output dem Prozessor "auf den Leib geschrieben" ist: die zus&auml;tzliche Softwareschicht der "VM", der "Virtual Machine" fordert eben ihren Tribut! Aber in der Praxis verliert dieser Unterschied immer mehr an Bedeutung: die Leistungsf&auml;higkeit der Hardware steigt st&auml;ndig, und die JAVA-Entwickler arbeiten nat&uuml;rlich auch selbst an diesem Problem. Insgesamt kann man wohl sagen, dass ein moderner Rechner dem Software-Aufwand von JAVA gewachsen ist.</font></p> </ul>
+</ul>
+<br>
+
+<P>
+<B>DynaGeoX versus DynaGeoJ: ein Vergleich</B></P>
+
+<ul>
+<P>Der gr&ouml;&szlig;te Vorteil von JAVA ist eben, dass es eine plattform&uuml;bergreifende Programmierung erlaubt: "write once, run everywhere" ist das Versprechen der JAVA-Entwickler! Es ist also zu erwarten, dass f&uuml;r DynaGeoJ erstellte Internet-Seiten auch auf dem MAC und unter Linux korrekt angesehen werden k&ouml;nnen, w&auml;hrend Sie bei Seiten, die f&uuml;r DynaGeoX erzeugt wurden, auf Windows und den Internet Explorer beschr&auml;nkt bleiben.</p>
+
+<p> Auf der anderen Seite verf&uuml;gt DynaGeoX &uuml;ber eine viel vollst&auml;ndigere Implementierung der F&auml;higkeiten von DynaGeo, wohingegen DynaGeoJ diesen Grad an inniger Verwandtschaft m&ouml;glicherweise nie erreichen wird. Je nach dem, welches Argument f&uuml;r Sie wichtiger ist, haben Sie nun die Wahl. Die folgende Tabelle soll Ihnen einen &Uuml;berblick &uuml;ber die spezifischen Vor- und Nachteile der beiden Viewer-Varianten geben:</P>
+
+<table cellpadding="10" bgcolor="#DFDFDF" align="center" frame="box" bordercolor="#000000">
+<tr>
+ <th>&nbsp;</th>
+ <th>DynaGeoX </th>
+ <th>DynaGeoJ </th>
+</tr>
+<tr align="center">
+ <th>Betriebssystem </th>
+ <td bgcolor="#FF8080">nur Windows</td>
+ <td bgcolor="#80FF80">plattform-&uuml;bergreifend</td>
+</tr>
+<tr align="center">
+ <th>Browser </th>
+ <td bgcolor="#FF8080">nur MS Internet Explorer</td>
+ <td bgcolor="#80FF80">alle JAVA-f&auml;higen Browser</td>
+</tr>
+<tr align="center">
+ <th>Verf&uuml;gbarkeit in Schulnetzen </th>
+ <td bgcolor="#FF8080">mangelhaft</td>
+ <td bgcolor="#80FF80">sehr gut</td>
+</tr>
+<tr align="center">
+ <th>Kompatibilit&auml;t mit DynaGeo </th>
+ <td bgcolor="#80FF80">sehr gut </td>
+ <td bgcolor="#FFFF80">befriedigend<br>(wird besser werden...) </td>
+</tr>
+<tr align="center">
+ <th>Performance </th>
+ <td bgcolor="#80FF80">gut</td>
+ <td bgcolor="#FFFF80">befriedigend</td>
+</tr>
+<tr align="center">
+ <th>Sicherheit</th>
+ <td bgcolor="#FFFF80">befriedigend</td>
+ <td bgcolor="#FFFF80">befriedigend</td>
+</tr>
+</table>
+<br>
+
+<p>Wenn Sie sich ein wenig wundern, dass ich die Sicherheit beider Viewer <u>gleich</u> beurteile: ja, ich bin ernsthaft der Meinung, dass es hier keinen wesentlichen Unterschied gibt. Aktive Inhalte sind <b>immer</b> gef&auml;hrlich - da macht es keinen Unterschied, ob es sich um eine signierte ActiveX-Komponente oder ein signiertes JAVA-Applet handelt! Beide haben ein vergleichbar hohes Schadenspotenzial, und bei beiden ist es f&uuml;r den Anwender &auml;hnlich schwierig, zu entscheiden, ob sie vertrauensw&uuml;rdig sind oder nicht.</p>
+</ul>
+<br>
+<br>
+
+</FONT>
+</BODY>
+</HTML>

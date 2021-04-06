@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Automatic locus lines</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="locus line">
+</OBJECT>
+
+<A NAME="idh_locline_auto"></A>
+
+<H2>Automatic locus lines</H2>
+<HR>
+
+<P>Automatic locus lines are a special kind of dynamic locus lines. </P>
+
+<P>A dynamic locus line is build using a <b>position table</b> that lists (in the first column) the relative positions of the dragging point on its carrier line and (in the second column) the corresponding positions of the generator point. Updating the locus line means: re-calculating the second column, i.e. the generator point's positions. Normally, the the first column with the dragging point's positions remains untouched after the locus line's recording is finished.</p>
+
+<p>But when you drag your drawing, it may happen that the listed positions of the generator point will move away leaving larger gaps between one another. This will lead to a loss of accuracy, and the locus line displayed may show significant differences from the true trace. Especially locus lines with <B>peaks</B> are due to this effect.</P>
+
+<P>In this case it is necessary to rebuild not only the second column of the position table but the first too. This is exactly what <B>automatic locus lines</B> do: whenever you release the mouse button after dragging your drawing, the position table of an automatic locus line is totally re-calculated: the first column is filled with <b>new</b> dragging point's positions, and care is taken that the subsequently listed positions of the dragging point are <b>sufficiently closed to one another</b>. Then the second column with the generator point's positions is updated.</p>
+
+<ul><font size="-1">In fact, things are a bit more complicated. The criterion for "sufficiently closed" is derived from the expected curvature of the locus line: where it bends a lot, more positions are added to the list. So the choice of the dragging point's positions and the re-calculating of the generator point's positions cannot be carried out one after the other, but must be done simultaneously. Even then not all possible differences from the true trace can be avoided. Please note that EUKLID DynaGeo only delivers a <b>numerical approximation</b>. The stability of the displayed locus lines cannot be guaranteed under all possible circumstances.</font></ul>
+<br>
+<br>
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="olinedyn.htm">Dynamic locus lines</a></li>
+<li><a href="olinestandard.htm">Standard locus lines</a></li>
+<li><a href="ortslinie.htm">Record a point's locus line</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

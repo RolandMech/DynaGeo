@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Das Problem der Springenden Punkte</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Einstellungen">
+        <PARAM NAME="Keyword" VALUE="Optionen">
+</OBJECT>
+
+<A NAME="idh_jump_pt"></A>
+
+<H2>Das Problem der "Springenden Punkte"</H2>
+<HR>
+
+<h3><font color="#0000FF"><i>Didaktische Forderungen</i></font></h3>
+
+<P>Als Ende der 80er Jahre mit "Cabri g&eacute;om&egrave;tre" das erste dynamische Geometrieprogramm auf den deutschen Markt kam, begann sogleich eine heftige didaktische Diskussion &uuml;ber die M&ouml;glichkeiten und Grenzen dieses neue Unterrichtsmittels. Recht bald formulierten die Didaktiker Forderungen an ein dynamisches Geometrieprogramm, die sich vor allem auf den Zugmodus bezogen, wie z.B. die beiden folgenden: </P>
+<ul>
+<li><p><b><font color="#FF0000">Determinismus-Forderung:</font></b><br>
+Wenn der Benutzer nach dem Verziehen einer Zeichnung alle Basisobjekte in ihre urspr&uuml;ngliche Lage zur&uuml;ckbringt, dann sollen auch alle abh&auml;ngigen Objekte wieder in ihrer urspr&uuml;nglichen Lage sein.</p></li>
+
+<li><p><b><font color="#FF0000">Stetigkeits-Forderung:</font></b><br>
+Wenn der Benutzer ein Basisobjekt um ein kleines St&uuml;ck verschiebt, dann sollen sich alle abh&auml;ngigen Objekte ebenfalls nur um ein kleines St&uuml;ck verschieben.</p></li>
+</ul>
+
+<p>Beide Forderungen erscheinen auf den ersten Blick nicht nur naheliegend und sinnvoll, sondern sogar in gewisser Weise "nat&uuml;rlich" zu sein: wenn jemand einen diesen W&uuml;nschen widersprechenden Anspruch formuliert h&auml;tte, w&auml;re er in gro&szlig;en Begr&uuml;ndungsnotstand geraten!</p>
+
+<p>Also nahmen die Programmierer dynamischer Geometriesoftware diese beiden Forderungen brav in ihre Pflichtenhefte auf und gingen daran, ihre Programme auch in dieser Beziehung zu vervollkommnen. Dabei traten jedoch eigent&uuml;mliche Schwierigkeiten auf, die im folgenden Abschnitt erl&auml;utert werden sollen, und zwar am inzwischen klassischen Beispiel der Winkelhalbierenden.</p>
+<br>
+
+<h3><font color="#0000FF"><i>Das Problem</i></font></h3>
+
+<p>Die folgende Abbildung zeigt den Winkel AMZ, wobei Z an einen Kreis k um M gebunden ist. Dieser Winkel wird durch die Gerade w halbiert:<br>
+<ul>
+<img src="../images/Wiha01.gif" width="341" height="219" border="0" alt="">
+</ul>
+Wenn man nun den Punkt Z auf dem Kreis k entlang f&uuml;hrt, bis er (nach einem vollen Umlauf) wieder an sein Ausgangsposition kommt, dann haben alle Basisobjekte der Zeichnung wieder dieselbe Lage wie am Anfang. Und zun&auml;chst sieht es so aus, als w&uuml;rde das auch f&uuml;r alle abh&auml;ngigen Objekte gelten. Dass dem aber nicht so ist, kann man erkennen, wenn man z.B. einen zus&auml;tzlichen Punkt P auf die Winkelhalbierende w setzt. Dann erh&auml;lt man die folgenden Bilder:<br>
+<ul>Vorher:<br>
+<img src="../images/Wiha02.gif" width="333" height="210" border="0" alt=""><br>
+Nachher:<br>
+<img src="../images/Wiha03.gif" width="407" height="208" border="0" alt="">
+</ul>
+</p>
+
+<p>Was hat sich ge&auml;ndert? Am Verhalten des Punktes P sieht man, dass die <b>Orientierung</b> der Winkelhalbierenden umgekippt ist. Und in der Tat: w&auml;hrend Z und die Halbgerade [MZ) bei dem Zugvorgang eine <u>volle</u> Drehung ausf&uuml;hren, bringt es die Winkelhalbierende nur auf eine <u>halbe</u> Drehung! In vielen Konstruktionen ist dies ein unwesentliches Detail, das sich nicht weiter auswirkt. Wenn aber in der obigen Zeichnung weitere Objekte mit Hilfe des Punktes P konstruiert werden, dann kann es schon sehr darauf ankommen, in welche Richtung w orientiert ist und wo genau P liegt. M&ouml;glicherweise erh&auml;lt man in den beiden F&auml;llen zwei ziemlich verschiedene Zeichnungen.</p>
+
+<p>Offenbar ist also durch die Position der Basisobjekte die Lage der abh&auml;ngigen Objekte noch nicht unbedingt eindeutig festgelegt. (Dies bedeutet &uuml;brigens auch, dass eine Zeichnung durch eine Konstruktionsbeschreibung noch nicht vollst&auml;ndig determiniert sein mu&szlig;!) Eine n&auml;here Betrachtung zeigt, dass die Zeichenfl&auml;che mit der Einf&uuml;hrung des Zugmodus von der Euklidischen Ebene zur Riemannschen Fl&auml;che zu mutieren droht: je nach Konstruktion kann sie nun mehrfach &uuml;berdeckt sein, d.h. mehrere Varianten zur selben Konfiguration der Basisobjekte (und das hei&szlig;t auch: zur selben Konstruktionsbeschreibung!) enthalten. Und auf welchem "Blatt" wir uns gerade befinden (d.h.: welche Variante wir gerade sehen), dar&uuml;ber entscheidet die Vorgeschichte der Zeichnung.</p>
+
+<p>Die <b>Determinismusforderung</b> kann nun als der Versuch gesehen werden, die einfache Euklidische Ebene auch im Zugmodus zu retten. Sie bedeutet letztlich, dass die Zeichnung <u>kein Ged&auml;chtnis</u> haben darf: die Lage aller abh&auml;ngigen Objekte der Zeichnung soll vollst&auml;ndig durch die <u>Lage</u> der Basisobjekte determiniert sein und nicht von deren <u>Vorgeschichte</u> abh&auml;ngen, also davon, wie sich diese Objekte zuvor bewegt haben. Im hier betrachteten Falle kann man die Schwierigkeiten dadurch beheben, dass man der Winkelhalbierenden immer eine solche Orientierung gibt, dass sie in das kleinere der beiden Winkelfelder AMZ und ZMA zeigt. Allerdings ist diese L&ouml;sung nicht ganz nebenwirkungsfrei: wenn wir n&auml;mlich in der obigen Zeichung den Punkt Z einmal rund um den Kreis K ziehen, dann muss w&auml;hrend dieses Vorgangs die Orientierung von w "umspringen", und zwar genau dann, wenn die Gr&ouml;&szlig;e des Winkels AMZ den Wert von 180° &uuml;berschreitet. Und nat&uuml;rlich muss dabei der Punkt P ebenfalls "umspringen": er wird am Punkt M gespiegelt werden! Damit hat eine kleine &Auml;nderung des Ortes von Z eine heftige &Auml;nderung des Ortes von P zur Folge - im Widerspruch zu der oben aufgestellten <b>Stetigkeitsforderung</b>.</p>
+
+<p>Wir k&ouml;nnen also das folgende <B>Ergebnis</B> festhalten:
+<ul><b>
+<li>Wenn wir Determinismus erzwingen, verlieren wir die Stetigkeit. </li>
+<br>
+<li>Wenn wir Stetigkeit erzwingen, verlieren wir den Determinismus. </li>
+</b></ul>
+Die beiden zun&auml;chst so unverd&auml;chtig und "nat&uuml;rlich" aussehenden Forderungen erweisen sich also als logisch unvereinbar und schlie&szlig;en sich gegenseitig aus.</P>
+<br>
+
+<h3><font color="#0000FF"><i>Entweder / oder !</i></font></h3>
+
+<p>In dieser Situation muss sich der Autor eines dynamischen Geometrieprogramms entscheiden: entweder er baut ein deterministisches Programm oder ein stetiges. Bei vielen der bisher verf&uuml;gbaren dynamischen Geometrieprogramme haben die Autoren in Anlehnung an "Cabri g&eacute;om&egrave;tre" beschlossen, ihre Anstrengungen eher in die Erf&uuml;llung der Determinismusforderung zu investieren, - mit der Nebenwirkung, dass sich die Benutzer mit gelegentlich "springenden Punkten" abfinden m&uuml;ssen. Erst Ende der 90er Jahre kam mit "Cinderella" ein Programm auf den Markt, das konsequent die Stetigkeitsforderung erf&uuml;llte - mit der Nebenwirkung, dass der Benutzer nicht immer wieder genau dieselbe Zeichnung erh&auml;lt, wenn er einen Zugvorgang zur&uuml;cknimmt.</p>
+
+<p>Dass es &uuml;brigens so lange gedauert hat, bis ein "richtig stetiges" dynamisches Geometrieprogramm auf den Markt kam, legt die Vermutung nahe, dass die Stetigkeitsforderung wohl sehr viel schwieriger zu erf&uuml;llen ist als die Determinismusforderung. Die Autoren von "Cinderella" haben dankenswerterweise die Konstruktionsprinzipien ihres Programms in mehreren Ver&ouml;ffentlichungen beschrieben. Deren Lekt&uuml;re zeigt, dass zumindest der in diesem Programm  betriebene mathematische Aufwand f&uuml;r die Implementierung der Stetigkeit ziemlich gro&szlig; ist.</p>
+
+<p>Eines der Hauptprobleme dabei sind die Punktepaare, die beim Schnitt mit einem Kreis entstehen: wenn z.B. eine Gerade g einen Kreis k in zwei Punkten S und T schneidet, dann k&ouml;nnen diese beiden Punkte beim folgenden Verziehen der Zeichnung zusammenfallen oder auch "verschwinden", d.h. nicht-reell werden. Die Schwierigkeit besteht nun darin, quer &uuml;ber alle m&ouml;glichen Zust&auml;nde der Zugfigur hinweg eine stabile Zuordnung der L&ouml;sungen der zugrundeliegenden quadratischen Schnittgleichung zu den realen Schnittpunkten in der Zeichung zu etablieren:<br>
+<ul>
+<li>Bei den "deterministischen" Programmen kann diese Frage z.B. mit Hilfe der Orientierung der Geraden g entschieden werden: z.B. kann als erster Schnittpunkt S immer der genommen werden, der beim orientierten Durchlaufen der Geraden zuerst angetroffen wird. Wenn nun aber die Orientierung der Geraden beim Verziehen "springt", weil z.B. die Gerade eine Winkelhalbierende ist, dann tauschen pl&ouml;tzlich S und T ihre Rollen - im Widerspruch zur Stetigkeitsforderung.<br></li>
+<br>
+<li>In einem "stetigen" Geometrieprogramme wird die Zuordnung der L&ouml;sungen der Schnittgleichung zu den reellen Schnittpunkten dadurch geleistet, dass die Bahn der beiden Schnittpunkte S und T sehr genau verfolgt wird. Dabei muss man aber peinlich darauf achten, dass sich die beiden Punkte niemals zu nahe kommen, weil dann ihre Unterscheidbarkeit verloren ginge. Bei "Cinderella" werden auch im Falle, dass es gar keinen reellen Schnitt gibt, die beiden nun virtuellen Punkte intern weiterhin kontrolliert durch den nicht-reellen Raum gef&uuml;hrt. Wenn dann beim weiteren Verziehen der Zeichnung schlie&szlig;lich wieder ein reeller Schnitt entsteht, tauchen S und T gelegentlich an durchaus unerwarteten Stellen auf - und verletzten damit die Determinismusforderung.</p></li>
+</ul>
+<br>
+
+<h3><font color="#0000FF"><i>Die Quadratur des Kreises?</i></font></h3>
+
+<p>Wie verh&auml;lt sich eigentlich EUKLID DynaGeo in dieser Frage? Nun, von der grunds&auml;tzlichen Ausrichtung her war das Programm bis zur Version 2.3 dem Lager der "deterministischen" L&ouml;sungen zuzurechnen. Allerdings hatte ich bei meinen Forschungen zu diesem Thema f&uuml;r den Spezialfall der Winkelhalbierenden eine relativ einfache "stetige" L&ouml;sung gefunden und konnte dann der Versuchung nicht widerstehen, zumindest f&uuml;r die Winkelhalbierenden "stetiges" Verhalten zu implementieren, - auch auf die Gefahr hin, dass EUKLID DynaGeo in den Augen manches strengen Didaktikers als eine charakterlose Chim&auml;re gelten w&uuml;rde.</p>
+
+<p>Im Zusammenhang mit den dynamischen Ortslinien gab es jedoch immer wieder Situationen, in denen sich der Mangel an klarer mathematischer Linie st&ouml;rend bemerkbar machte. Dar&uuml;berhinaus mehrten sich die F&auml;lle, in denen man sich eine konsequentere Ausrichtung auf die Realisierung der Stetigkeitsforderung gew&uuml;nscht h&auml;tte. Also entwickelte ich eine Strategie, mit der die beiden Schnittpunkte mit einem Kreis (einigerma&szlig;en) sicher verfolgt und identifiziert werden k&ouml;nnen. Als Ergebnis dieser Arbeit ist zus&auml;tzlich zur schon vorher existierenden deterministischen nun auch eine stetige Zugmodus-Strategie implementiert. Sie als Benutzer k&ouml;nnen damit ab sofort selbst entscheiden, wie sich EUKLID DynaGeo verhalten soll: unter <a href="optintern.htm"><i>Einstellungen | Internes</i></a> k&ouml;nnen Sie die Aktualisierungsstrategie f&uuml;r den Zugmodus w&auml;hlen!</p>
+
+<p>An dieser Stelle sollte man sich aber ein prinzipielles Problem jeglicher Simulations-Software vergegenw&auml;rtigen: jedes solche Programm ist zur Entscheidung einer mehrdeutigen Situation immer auf numerische Bewertungen angewiesen, und gelegentlich stellen die Ergebnisse solcher "Messungen" keine korrekte Beurteilung der Wirklichkeit dar. Fehlentscheidungen k&ouml;nnen daher nicht ausgeschlossen werden. Trotzdem sollte EUKLID DynaGeo inzwischen in beiden Zugmodus-Aktualisierungs-Varianten zumindest in der &uuml;berwiegenden Mehrzahl der F&auml;lle korrekt, betriebssicher und erwartungskonform arbeiten.</p>
+
+<p>Die Quadratur des Kreises ist das trotzdem nicht: Sie werden <b>kein</b> Geometrie-Programm finden, das Ihnen "das Beste aus beiden Welten" zur gleichen Zeit, d.h. in derselben Zeichnung bietet, einfach weil dies aus den oben dargelegten Gr&uuml;nden logisch nicht m&ouml;glich ist. Aber EUKLID DynaGeo 2.4 ist <u>das erste Programm, das Ihnen die Wahl l&auml;sst!</u></p>
+<br>
+
+<h3><font color="#0000FF"><i>Eine abschlie&szlig;ende Warnung</i></font></h3>
+
+<p>Bei der kontinuierlichen Verfolgung der Bahn eines Objekts mit Hilfe eines in diskreten Schritten arbeitenden Algorithmus st&ouml;&szlig;t man an ganz <b>prinzipielle Grenzen</b>. Bei einer <b>stetigen Aktualisierungsstrategie</b> ist die Darstellung der Zeichnung gelegentlich sogar abh&auml;ngig vom Verh&auml;ltnis der Prozessor-Taktfrequenz zur Geschwindigkeit der Zugbewegung! Dar&uuml;berhinaus gibt es gerade im Zusammenhang mit den dynamischen Ortslinien einige recht <b>verzwickte algorithmische Probleme</b> zu l&ouml;sen - und Sie k&ouml;nnen nicht sicher sein, dass das Hirn des Programmierers ausgereicht hat, diese Aufgabe <u>so</u> zu l&ouml;sen, dass auch gerade <u>Ihre</u> Zeichnung beim Verziehen korrekt reagieren wird.</p>
+
+<p>Insgesamt sind die deterministischen Aktualisierungsalgorithmen einfacher, was dazu f&uuml;hrt, dass sich ein <b>deterministischer Zugmodus</b> in der Praxis durch eine <b>gr&ouml;&szlig;ere Stabilit&auml;t</b> und <b>h&ouml;here Zuverl&auml;ssigkeit</b> sowie eine <b>geringere Abh&auml;ngigkeit von der verf&uuml;gbaren "Hardwarepower"</b> auszeichnet. Deshalb habe ich mich entschlossen, zu den Wurzeln zur&uuml;ckzukehren und die deterministische Aktualisierungsstrategie als Standard f&uuml;r jede neue DynaGeo-Zeichnung festzulegen. Es bleibt jedem Benutzer unbenommen, auf den stetigen Modus umzuschalten -- er sollte dann aber darauf gefasst sein, dass das Ergebnis eines Zugvorgangs bei mancher hinreichend komplizierten Zeichnung m&ouml;glicherweise nicht in allen Belangen seinen (berechtigten) Erwartungen entspricht.</p>
+
+<p>EUKLID DynaGeo ist von seiner Entwicklungsgeschichte her ein eher auf Reversibilit&auml;t ausgerichtetes Geometrie-Programm. Sollte es bei der weiteren Entwicklung zu Situationen kommen, in denen eine Entscheidung zwischen deterministischer und reversibler Aktualisierungsstrategie unausweichlich erscheint, dann wird stets der <b>Reversibilit&auml;t</b> der Vorrang einger&auml;umt werden.
+</p>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\NetOptDlg.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\NetOptDlg.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715972222</prop>
+        <prop prop-type="OrigDateTime">39607.449212963</prop>
+        <prop prop-type="XlatDateTime">37885.4310185185</prop>
+        <prop prop-type="Translated">36</prop>
+        <prop prop-type="UnTranslated">243</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:NetOptionsDlg.Left" resname="O:NetOptionsDlg.Left">
+        <source>488</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.Top" resname="O:NetOptionsDlg.Top">
+        <source>155</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.BorderStyle" resname="O:NetOptionsDlg.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.Caption" resname="O:NetOptionsDlg.Caption">
+        <source>'Netzwerk-Einstellungen'</source>
+        <target>'Network options'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">1</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.ClientHeight" resname="O:NetOptionsDlg.ClientHeight">
+        <source>431</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.ClientWidth" resname="O:NetOptionsDlg.ClientWidth">
+        <source>495</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.Color" resname="O:NetOptionsDlg.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.Font.Charset" resname="O:NetOptionsDlg.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.Font.Color" resname="O:NetOptionsDlg.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.Font.Height" resname="O:NetOptionsDlg.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.Font.Name" resname="O:NetOptionsDlg.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.Font.Style" resname="O:NetOptionsDlg.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.OldCreateOrder" resname="O:NetOptionsDlg.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.Position" resname="O:NetOptionsDlg.Position">
+        <source>poOwnerFormCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.OnCreate" resname="O:NetOptionsDlg.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.OnDestroy" resname="O:NetOptionsDlg.OnDestroy">
+        <source>FormDestroy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.PixelsPerInch" resname="O:NetOptionsDlg.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.TextHeight" resname="O:NetOptionsDlg.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TNetOptionsDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.Left" resname="O:NetOptionsDlg.O:GroupBox2.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.Top" resname="O:NetOptionsDlg.O:GroupBox2.Top">
+        <source>209</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.Width" resname="O:NetOptionsDlg.O:GroupBox2.Width">
+        <source>481</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.Height" resname="O:NetOptionsDlg.O:GroupBox2.Height">
+        <source>215</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.Caption" resname="O:NetOptionsDlg.O:GroupBox2.Caption">
+        <source>'  Management der Menü-Konfigurationen  '</source>
+        <target>'  Management of menue configurations  '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164926736</prop><prop prop-type="Status">1</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox2.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.Font.Color" resname="O:NetOptionsDlg.O:GroupBox2.Font.Color">
+        <source>clHotLight</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.Font.Height" resname="O:NetOptionsDlg.O:GroupBox2.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.Font.Name" resname="O:NetOptionsDlg.O:GroupBox2.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.Font.Style" resname="O:NetOptionsDlg.O:GroupBox2.Font.Style">
+        <source>[fsItalic]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.ParentFont" resname="O:NetOptionsDlg.O:GroupBox2.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.TabOrder" resname="O:NetOptionsDlg.O:GroupBox2.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label1.Left" resname="O:NetOptionsDlg.O:GroupBox2.O:Label1.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label1.Top" resname="O:NetOptionsDlg.O:GroupBox2.O:Label1.Top">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label1.Width" resname="O:NetOptionsDlg.O:GroupBox2.O:Label1.Width">
+        <source>202</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label1.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:Label1.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label1.AutoSize" resname="O:NetOptionsDlg.O:GroupBox2.O:Label1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label1.Caption" resname="O:NetOptionsDlg.O:GroupBox2.O:Label1.Caption">
+        <source>'Private Menü-Konfigurationen : '</source>
+        <target>'Private menue configurations : '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">1</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label1.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox2.O:Label1.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label1.Font.Color" resname="O:NetOptionsDlg.O:GroupBox2.O:Label1.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label1.Font.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:Label1.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label1.Font.Name" resname="O:NetOptionsDlg.O:GroupBox2.O:Label1.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label1.Font.Style" resname="O:NetOptionsDlg.O:GroupBox2.O:Label1.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label1.ParentFont" resname="O:NetOptionsDlg.O:GroupBox2.O:Label1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label2.Left" resname="O:NetOptionsDlg.O:GroupBox2.O:Label2.Left">
+        <source>267</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label2.Top" resname="O:NetOptionsDlg.O:GroupBox2.O:Label2.Top">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label2.Width" resname="O:NetOptionsDlg.O:GroupBox2.O:Label2.Width">
+        <source>202</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label2.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:Label2.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label2.AutoSize" resname="O:NetOptionsDlg.O:GroupBox2.O:Label2.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label2.Caption" resname="O:NetOptionsDlg.O:GroupBox2.O:Label2.Caption">
+        <source>'Globale Menü-Konfigurationen :'</source>
+        <target>'Global menue configurations :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">1</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label2.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox2.O:Label2.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label2.Font.Color" resname="O:NetOptionsDlg.O:GroupBox2.O:Label2.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label2.Font.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:Label2.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label2.Font.Name" resname="O:NetOptionsDlg.O:GroupBox2.O:Label2.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label2.Font.Style" resname="O:NetOptionsDlg.O:GroupBox2.O:Label2.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label2.ParentFont" resname="O:NetOptionsDlg.O:GroupBox2.O:Label2.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.Left" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.Left">
+        <source>267</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.Top" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.Top">
+        <source>150</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.Width" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.Width">
+        <source>202</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.Alignment" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.Alignment">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.AutoSize" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.Caption" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.Caption">
+        <source>'Globale Konfiguration ...'</source>
+        <target>'Global configuration ...'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37754.4560335185</prop><prop prop-type="Status">1</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.Enabled" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.Enabled">
+        <source></source>
+        <target>False</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37885.4335102315</prop><prop prop-type="Status">1</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.Font.Color" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.Font.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.Font.Name" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164927894</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.Font.Style" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.ParentFont" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label3.Visible" resname="O:NetOptionsDlg.O:GroupBox2.O:Label3.Visible">
+        <source></source>
+        <target>False</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37754.3682148843</prop><prop prop-type="Status">1</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Bevel1.Left" resname="O:NetOptionsDlg.O:GroupBox2.O:Bevel1.Left">
+        <source>241</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Bevel1.Top" resname="O:NetOptionsDlg.O:GroupBox2.O:Bevel1.Top">
+        <source>130</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Bevel1.Width" resname="O:NetOptionsDlg.O:GroupBox2.O:Bevel1.Width">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Bevel1.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:Bevel1.Height">
+        <source>79</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Bevel1.Shape" resname="O:NetOptionsDlg.O:GroupBox2.O:Bevel1.Shape">
+        <source>bsLeftLine</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.Left" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.Top" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.Top">
+        <source>150</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.Width" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.Width">
+        <source>202</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.Alignment" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.Alignment">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.AutoSize" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.Caption" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.Caption">
+        <source>'Private Konfiguration ...'</source>
+        <target>'Private configuration ...'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37754.4560336343</prop><prop prop-type="Status">1</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.Enabled" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.Enabled">
+        <source></source>
+        <target>False</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37885.4335102315</prop><prop prop-type="Status">1</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.Font.Color" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.Font.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.Font.Name" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.Font.Style" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.ParentFont" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Label6.Visible" resname="O:NetOptionsDlg.O:GroupBox2.O:Label6.Visible">
+        <source></source>
+        <target>False</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37754.368215</prop><prop prop-type="Status">1</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Left" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Left">
+        <source>228</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Top" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Top">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Width" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Width">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Height">
+        <source>27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Hint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Hint">
+        <source>'Ausgewählte private Konfiguration global machen'</source>
+        <target>'Change the selected private configuration to global'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">1</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Caption" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Caption">
+        <source>'=&gt;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">1</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Font.Color" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Font.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Font.Name" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Font.Style" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.ParentFont" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.ParentShowHint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.ShowHint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.OnClick" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Global.OnClick">
+        <source>btnShiftConfig2GlobalClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Left" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Left">
+        <source>228</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Top" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Top">
+        <source>98</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Width" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Width">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Height">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Hint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Hint">
+        <source>'Ausgewählte globale Konfiguration privat machen'</source>
+        <target>'Change the selected global configuration to private'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">1</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Caption" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Caption">
+        <source>'&lt;='</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">1</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Font.Color" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Font.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Font.Name" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Font.Style" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.ParentFont" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164929051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.ParentShowHint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.ShowHint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.OnClick" resname="O:NetOptionsDlg.O:GroupBox2.O:btnShiftConfig2Privat.OnClick">
+        <source>btnShiftConfig2PrivatClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TSpeedButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Bevel2.Left" resname="O:NetOptionsDlg.O:GroupBox2.O:Bevel2.Left">
+        <source>241</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Bevel2.Top" resname="O:NetOptionsDlg.O:GroupBox2.O:Bevel2.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Bevel2.Width" resname="O:NetOptionsDlg.O:GroupBox2.O:Bevel2.Width">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Bevel2.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:Bevel2.Height">
+        <source>46</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:Bevel2.Shape" resname="O:NetOptionsDlg.O:GroupBox2.O:Bevel2.Shape">
+        <source>bsLeftLine</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Left" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Left">
+        <source>267</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Top" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Top">
+        <source>169</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Width" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Width">
+        <source>202</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Hint" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Hint">
+        <source>'Trägt die ausgewählte globale Menü-Konfiguration als Standard für alle Benutzer ein'</source>
+        <target>'Register the selected global menu configuration as standard for all users'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">1</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Caption" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Caption">
+        <source>'.. als Standard eintragen'</source>
+        <target>'Set as default'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">1</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Font.Color" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Font.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Font.Name" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Font.Style" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.ParentFont" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.ParentShowHint" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.ShowHint" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.TabOrder" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.OnClick" resname="O:NetOptionsDlg.O:GroupBox2.O:BtnSetAsDefaultMenuConfig.OnClick">
+        <source>BtnSetAsDefaultMenuConfigClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Left" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Top" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Top">
+        <source>46</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Width" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Width">
+        <source>202</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Height">
+        <source>98</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>121</source>
+          <target>137</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.262721169</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Font.Color" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Font.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Font.Name" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Font.Style" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.ItemHeight" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.ItemHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.ParentFont" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.TabOrder" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.OnClick" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_PrivCfgs.OnClick">
+        <source>LB_CfgsClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Left" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Left">
+        <source>267</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Top" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Top">
+        <source>46</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Width" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Width">
+        <source>202</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Height">
+        <source>98</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>121</source>
+          <target>137</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.262721169</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Font.Color" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Font.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164930208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Font.Name" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Font.Style" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.ItemHeight" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.ItemHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.ParentFont" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.TabOrder" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.OnClick" resname="O:NetOptionsDlg.O:GroupBox2.O:LB_GlobCfgs.OnClick">
+        <source>LB_CfgsClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TListBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Left" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Top" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Top">
+        <source>169</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Width" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Width">
+        <source>53</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Hint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Hint">
+        <source>'Erzeugt eine neue private Menü-Konfiguration'</source>
+        <target>'Creates a new private menue configuration'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">1</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Caption" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Caption">
+        <source>'Neu...'</source>
+        <target>'New...'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">1</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Font.Color" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Font.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Font.Name" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Font.Style" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.ParentFont" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.ParentShowHint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.ShowHint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.TabOrder" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.OnClick" resname="O:NetOptionsDlg.O:GroupBox2.O:btnNewCfg.OnClick">
+        <source>btnNewCfgClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Left" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Left">
+        <source>78</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Top" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Top">
+        <source>169</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Width" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Width">
+        <source>66</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Hint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Hint">
+        <source>'Editiert die ausgewählte private Menü-Konfiguration'</source>
+        <target>'Edits the selected private menue configuration'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">1</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Caption" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Caption">
+        <source>'Editieren...'</source>
+        <target>'Edit...'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">1</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Font.Color" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Font.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Font.Name" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Font.Style" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.ParentFont" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.ParentShowHint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.ShowHint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.TabOrder" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.OnClick" resname="O:NetOptionsDlg.O:GroupBox2.O:btnEditCfg.OnClick">
+        <source>btnEditCfgClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Left" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Left">
+        <source>156</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Top" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Top">
+        <source>169</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Width" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Width">
+        <source>59</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Hint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Hint">
+        <source>'Löscht die ausgewählte private Menü-Konfiguration'</source>
+        <target>'Deletes the selected private menue configuration'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">1</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Caption" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Caption">
+        <source>'Löschen'</source>
+        <target>'Delete'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164931366</prop><prop prop-type="Status">1</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Font.Color" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">205</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Font.Height" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">206</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Font.Name" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">207</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Font.Style" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">208</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.ParentFont" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">209</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.ParentShowHint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">210</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.ShowHint" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">211</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.TabOrder" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.TabOrder">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">212</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.OnClick" resname="O:NetOptionsDlg.O:GroupBox2.O:btnDelCfg.OnClick">
+        <source>btnDelCfgClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">213</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.Left" resname="O:NetOptionsDlg.O:GroupBox3.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">214</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.Top" resname="O:NetOptionsDlg.O:GroupBox3.Top">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">215</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.Width" resname="O:NetOptionsDlg.O:GroupBox3.Width">
+        <source>481</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">216</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.Height" resname="O:NetOptionsDlg.O:GroupBox3.Height">
+        <source>194</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">217</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.Caption" resname="O:NetOptionsDlg.O:GroupBox3.Caption">
+        <source>'  Konfigurations - Rechte  '</source>
+        <target>'  Permission of configuration '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">1</prop><prop prop-type="Order">218</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox3.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">219</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.Font.Color" resname="O:NetOptionsDlg.O:GroupBox3.Font.Color">
+        <source>clHotLight</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">220</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.Font.Height" resname="O:NetOptionsDlg.O:GroupBox3.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">221</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.Font.Name" resname="O:NetOptionsDlg.O:GroupBox3.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">222</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.Font.Style" resname="O:NetOptionsDlg.O:GroupBox3.Font.Style">
+        <source>[fsItalic]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">223</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.ParentFont" resname="O:NetOptionsDlg.O:GroupBox3.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">224</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.TabOrder" resname="O:NetOptionsDlg.O:GroupBox3.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">225</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label5.Left" resname="O:NetOptionsDlg.O:GroupBox3.O:Label5.Left">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">226</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label5.Top" resname="O:NetOptionsDlg.O:GroupBox3.O:Label5.Top">
+        <source>23</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">227</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label5.Width" resname="O:NetOptionsDlg.O:GroupBox3.O:Label5.Width">
+        <source>163</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">228</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label5.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:Label5.Height">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">229</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label5.AutoSize" resname="O:NetOptionsDlg.O:GroupBox3.O:Label5.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">230</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label5.Caption" resname="O:NetOptionsDlg.O:GroupBox3.O:Label5.Caption">
+        <source>'Die Benutzer dürfen ...'</source>
+        <target>'The user are allowed to ...'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">1</prop><prop prop-type="Order">231</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label5.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox3.O:Label5.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">232</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label5.Font.Color" resname="O:NetOptionsDlg.O:GroupBox3.O:Label5.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">233</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label5.Font.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:Label5.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">234</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label5.Font.Name" resname="O:NetOptionsDlg.O:GroupBox3.O:Label5.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">235</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label5.Font.Style" resname="O:NetOptionsDlg.O:GroupBox3.O:Label5.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">236</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label5.ParentFont" resname="O:NetOptionsDlg.O:GroupBox3.O:Label5.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">237</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.Left" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.Left">
+        <source>345</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">238</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.Top" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.Top">
+        <source>71</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">239</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.Width" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.Width">
+        <source>124</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">240</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">241</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.Alignment" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.Alignment">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">242</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.AutoSize" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">243</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.Caption" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.Caption">
+        <source>'Diese Einstellungen ...'</source>
+        <target>'These settings ...'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37754.45603375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">244</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.Enabled" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.Enabled">
+        <source></source>
+        <target>False</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37885.4335103472</prop><prop prop-type="Status">1</prop><prop prop-type="Order">245</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">246</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.Font.Color" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">247</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.Font.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164932523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">248</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.Font.Name" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">249</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.Font.Style" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">250</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.ParentFont" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">251</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Label7.Visible" resname="O:NetOptionsDlg.O:GroupBox3.O:Label7.Visible">
+        <source></source>
+        <target>False</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37754.3682151157</prop><prop prop-type="Status">1</prop><prop prop-type="Order">252</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Bevel3.Left" resname="O:NetOptionsDlg.O:GroupBox3.O:Bevel3.Left">
+        <source>325</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">253</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Bevel3.Top" resname="O:NetOptionsDlg.O:GroupBox3.O:Bevel3.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">254</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Bevel3.Width" resname="O:NetOptionsDlg.O:GroupBox3.O:Bevel3.Width">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">255</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Bevel3.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:Bevel3.Height">
+        <source>172</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">256</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:Bevel3.Shape" resname="O:NetOptionsDlg.O:GroupBox3.O:Bevel3.Shape">
+        <source>bsLeftLine</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">257</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Left" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">258</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Top" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Top">
+        <source>78</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">259</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Width" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Width">
+        <source>306</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">260</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">261</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Caption" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Caption">
+        <source>'... aus den vorhandenen Menü-Konfigurationen auswählen'</source>
+        <target>'... choose from existing menue configurations'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">1</prop><prop prop-type="Order">262</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Checked" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Checked">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">263</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">264</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Font.Color" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">265</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Font.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">266</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Font.Name" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">267</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Font.Style" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">268</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.ParentFont" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">269</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.State" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.State">
+        <source>cbChecked</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">270</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.TabOrder" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">271</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.OnClick" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowChooseMenu.OnClick">
+        <source>CB_AllowSvOptChMenuClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">272</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Left" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">273</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Top" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Top">
+        <source>98</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">274</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Width" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Width">
+        <source>287</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">275</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">276</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Caption" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Caption">
+        <source>'... eigene Menü-Konfigurationen erstellen'</source>
+        <target>'... create their own menue configurations'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">1</prop><prop prop-type="Order">277</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Checked" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Checked">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">278</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">279</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Font.Color" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">280</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Font.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">281</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Font.Name" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">282</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Font.Style" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">283</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.ParentFont" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">284</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.State" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.State">
+        <source>cbChecked</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">285</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.TabOrder" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditMenues.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">286</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Left" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Left">
+        <source>345</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">287</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Top" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Top">
+        <source>91</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">288</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Width" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Width">
+        <source>124</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">289</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Height">
+        <source>38</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">290</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Hint" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Hint">
+        <source>'Speichert die Rechte der Benutzer bezüglich privater Einstellungen'</source>
+        <target>'Saves the permissions concerning the user'#39's private configuration'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">1</prop><prop prop-type="Order">291</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Caption" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Caption">
+        <source>'... speichern'</source>
+        <target>'Save these rights'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">1</prop><prop prop-type="Order">292</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164933681</prop><prop prop-type="Status">0</prop><prop prop-type="Order">293</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Font.Color" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">294</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Font.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">295</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Font.Name" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">296</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Font.Style" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">297</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.ParentFont" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">298</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.ParentShowHint" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">299</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.ShowHint" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">300</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.TabOrder" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">301</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.OnClick" resname="O:NetOptionsDlg.O:GroupBox3.O:BtnSaveNetOptions.OnClick">
+        <source>BtnSaveNetOptionsClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">302</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Left" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">303</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Top" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Top">
+        <source>39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">304</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Width" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Width">
+        <source>306</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">305</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">306</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Caption" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Caption">
+        <source>'... ihre aktuellen Programm-Einstellungen ändern'</source>
+        <target>'... change their actual program settings'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">1</prop><prop prop-type="Order">307</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Checked" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Checked">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">308</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">309</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Font.Color" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">310</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Font.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">311</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Font.Name" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">312</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Font.Style" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">313</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.ParentFont" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">314</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.State" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.State">
+        <source>cbChecked</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">315</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.TabOrder" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">316</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.OnClick" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowEditOptions.OnClick">
+        <source>CB_AllowEditOptionsClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">317</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Left" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">318</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Top" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Top">
+        <source>59</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">319</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Width" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Width">
+        <source>306</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">320</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">321</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Caption" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Caption">
+        <source>'... ihre aktuellen Programm-Einstellungen speichern'</source>
+        <target>'... save their actual program settings'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">1</prop><prop prop-type="Order">322</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Checked" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Checked">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">323</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">324</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Font.Color" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">325</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Font.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">326</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Font.Name" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">327</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Font.Style" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">328</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.ParentFont" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">329</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.State" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.State">
+        <source>cbChecked</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">330</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.TabOrder" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">331</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.OnClick" resname="O:NetOptionsDlg.O:GroupBox3.O:CB_AllowSaveOptions.OnClick">
+        <source>CB_AllowSvOptChMenuClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164934838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">332</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Left" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Left">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">333</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Top" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Top">
+        <source>128</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">334</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Width" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Width">
+        <source>289</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">335</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Height">
+        <source>57</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">336</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Caption" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Caption">
+        <source>' Ort der Konfigurations-Datei : '</source>
+        <target>' Location of the configuration file : '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">1</prop><prop prop-type="Order">337</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Font.Charset" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">338</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Font.Color" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Font.Color">
+        <source>clBlack</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">339</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Font.Height" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">340</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Font.Name" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">341</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Font.Style" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">342</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.ItemIndex" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.ItemIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">343</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Items.Strings[0]" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Items.Strings[0]">
+        <source>'möglichst im Profil  des Benutzers  ( empfohlen ! )'</source>
+        <target>'in the user'#39's profil if possible  ( recommended ! )'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">1</prop><prop prop-type="Order">344</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Items.Strings[1]" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.Items.Strings[1]">
+        <source>'im DynaGeo-Verzeichnis  ( nur für Experten ! )'</source>
+        <target>'in the DynaGeo folder  ( for experts only ! )'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">1</prop><prop prop-type="Order">345</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.ParentFont" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">346</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.TabOrder" resname="O:NetOptionsDlg.O:GroupBox3.O:RG_UserOptFile.TabOrder">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460545023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">347</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

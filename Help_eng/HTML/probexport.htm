@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Problems when exporting drawings</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+
+<A NAME="idh_prob_export"></A>
+
+<H2>Problems when exporting drawings</H2>
+<HR>
+
+<P><B>a) Clipping problems:</B></P>
+
+<blockquote><P>When a drawing is totally or partly exported into the clipboard, and then imported to another program (e.g. an older version of WORD), then it is possible that the print-out has the straight lines just outside the picture area running straight through the neighbouring text, although the screen and perhaps even the printer preview is okay.</P>
+
+<P>Such an error is apparently due to the printer driver which does not carry out correct clipping when interpreting vector graphic data. In most cases this problem can be overcome by putting an additional frame around the drawing in the receiving program. In WORD for example, it is sufficient just to surround the imported drawing with a positioning frame. This also eases changes in the document’s layout. (Some people are however somewhat allergic to WORD positioning frames!)</P>
+<br>
+</blockquote>
+<br>
+
+<P><B>b) Size and aspect problems:</B></P>
+
+<blockquote><P>Some older text programs do not import drawings in correct size from the clipboard. Even worse, sometimes the imported drawing even shows wrong aspect ratio. Though it is nearly always possible to easily resize the drawing after importing it, you unfortunately have to guess the correct aspect.</P>
+
+<P>This ugly behaviour of some text systems is due to the fact that they don’t know the new EMF graphics format, but only the older WMF format. This is even true for WORD up to version 7! WORD 97 (i.e. WORD 8) is the first version supporting the EMF format and so preserving size and aspect of vector graphics imported from the clipboard. But you can pre-distort the exported file by setting the scaling for clipboard exports on appropriate values (see register page "<a href="optexport.htm">Export</a>" in the "<i>Options</i>").</P>
+<br>
+</blockquote>
+<br>
+
+<P><B>c) Touching up exported drawings:</B></P>
+
+<blockquote><P>For most word processing programs it is <b>not recommended</b> to re-work an imported EUKLID DynaGeo drawing. So the MSDraw program used in WORD has only limited drawing capabilities, and does not understand (for example) the arcs used in EUKLID DynaGeo.</P>
+<br>
+</blockquote>
+<br>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\ExpertOptWin.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\ExpertOptWin.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715046296</prop>
+        <prop prop-type="OrigDateTime">40195.5478935185</prop>
+        <prop prop-type="XlatDateTime">40195.5478935185</prop>
+        <prop prop-type="Translated">10</prop>
+        <prop prop-type="UnTranslated">99</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:ExpertOptWin.Left" resname="O:ExpertOptWin.Left">
+        <source>683</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.Top" resname="O:ExpertOptWin.Top">
+        <source>119</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.HelpContext" resname="O:ExpertOptWin.HelpContext">
+        <source>1224</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.BorderStyle" resname="O:ExpertOptWin.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.Caption" resname="O:ExpertOptWin.Caption">
+        <source>'  Gefährliche Optionen für mutige Benutzer...'</source>
+        <target>'  Dangerous options for courageous users...'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">1</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.ClientHeight" resname="O:ExpertOptWin.ClientHeight">
+        <source>344</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.ClientWidth" resname="O:ExpertOptWin.ClientWidth">
+        <source>457</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.Color" resname="O:ExpertOptWin.Color">
+        <source>clTeal</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.Font.Charset" resname="O:ExpertOptWin.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.Font.Color" resname="O:ExpertOptWin.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.Font.Height" resname="O:ExpertOptWin.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.Font.Name" resname="O:ExpertOptWin.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.Font.Style" resname="O:ExpertOptWin.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.OldCreateOrder" resname="O:ExpertOptWin.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.Position" resname="O:ExpertOptWin.Position">
+        <source>poOwnerFormCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.OnShow" resname="O:ExpertOptWin.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.PixelsPerInch" resname="O:ExpertOptWin.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.TextHeight" resname="O:ExpertOptWin.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TExpertOptWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.Left" resname="O:ExpertOptWin.O:GroupBox1.Left">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.Top" resname="O:ExpertOptWin.O:GroupBox1.Top">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.Width" resname="O:ExpertOptWin.O:GroupBox1.Width">
+        <source>408</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.Height" resname="O:ExpertOptWin.O:GroupBox1.Height">
+        <source>305</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.Caption" resname="O:ExpertOptWin.O:GroupBox1.Caption">
+        <source>' Achtung !!! '</source>
+        <target>' Caution !!! '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">1</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.Color" resname="O:ExpertOptWin.O:GroupBox1.Color">
+        <source>clTeal</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.Font.Charset" resname="O:ExpertOptWin.O:GroupBox1.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.Font.Color" resname="O:ExpertOptWin.O:GroupBox1.Font.Color">
+        <source>clRed</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.Font.Height" resname="O:ExpertOptWin.O:GroupBox1.Font.Height">
+        <source>-27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.Font.Name" resname="O:ExpertOptWin.O:GroupBox1.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.Font.Style" resname="O:ExpertOptWin.O:GroupBox1.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.ParentColor" resname="O:ExpertOptWin.O:GroupBox1.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.ParentFont" resname="O:ExpertOptWin.O:GroupBox1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.TabOrder" resname="O:ExpertOptWin.O:GroupBox1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:Label2.Left" resname="O:ExpertOptWin.O:GroupBox1.O:Label2.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:Label2.Top" resname="O:ExpertOptWin.O:GroupBox1.O:Label2.Top">
+        <source>38</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:Label2.Width" resname="O:ExpertOptWin.O:GroupBox1.O:Label2.Width">
+        <source>332</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:Label2.Height" resname="O:ExpertOptWin.O:GroupBox1.O:Label2.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:Label2.Alignment" resname="O:ExpertOptWin.O:GroupBox1.O:Label2.Alignment">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:Label2.AutoSize" resname="O:ExpertOptWin.O:GroupBox1.O:Label2.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:Label2.Caption" resname="O:ExpertOptWin.O:GroupBox1.O:Label2.Caption">
+        <source>'Hier sollten nur Experten Änderungen vornehmen!'</source>
+        <target>'Here only the experts should make changes!'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">1</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:Label2.Font.Charset" resname="O:ExpertOptWin.O:GroupBox1.O:Label2.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:Label2.Font.Color" resname="O:ExpertOptWin.O:GroupBox1.O:Label2.Font.Color">
+        <source>clLime</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:Label2.Font.Height" resname="O:ExpertOptWin.O:GroupBox1.O:Label2.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:Label2.Font.Name" resname="O:ExpertOptWin.O:GroupBox1.O:Label2.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:Label2.Font.Style" resname="O:ExpertOptWin.O:GroupBox1.O:Label2.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:Label2.ParentFont" resname="O:ExpertOptWin.O:GroupBox1.O:Label2.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Left" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Left">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Top" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Top">
+        <source>83</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Width" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Width">
+        <source>365</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Height" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Height">
+        <source>66</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Caption" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Caption">
+        <source>'  Aktualisierungsstrategie im Zugmodus  '</source>
+        <target>'  Update strategy of the drag mode  '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">1</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Font.Charset" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Font.Color" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Font.Color">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Font.Height" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Font.Name" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Font.Style" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.ItemIndex" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.ItemIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Items.Strings[0]" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Items.Strings[0]">
+        <source>'Determinismus ist wichtiger, trotz "springender Punkte"'</source>
+        <target>'Determinism is more important, despite "jumping points"'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">1</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Items.Strings[1]" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.Items.Strings[1]">
+        <source>'Stetigkeit ist wichtiger, soweit eben möglich'</source>
+        <target>'Continuity is more important, as far as possible'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">1</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.ParentFont" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.TabOrder" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.OnClick" resname="O:ExpertOptWin.O:GroupBox1.O:RG_DragStrategy.OnClick">
+        <source>RG_DragStrategyClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Left" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Left">
+        <source>44</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Top" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Top">
+        <source>251</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Width" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Width">
+        <source>189</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Height" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Caption" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Caption">
+        <source>'Änderung übernehmen'</source>
+        <target>'Save the changes'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">1</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Default" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Font.Charset" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Font.Color" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Font.Color">
+        <source>clRed</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Font.Height" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Font.Height">
+        <source>-15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Font.Name" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Font.Style" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.ModalResult" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.ParentFont" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.TabOrder" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.OnClick" resname="O:ExpertOptWin.O:GroupBox1.O:BtnSetExpertOpts.OnClick">
+        <source>BtnSetExpertOptsClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Left" resname="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Left">
+        <source>256</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Top" resname="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Top">
+        <source>251</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Width" resname="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Width">
+        <source>105</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Height" resname="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Cancel" resname="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Caption" resname="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Abort'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">1</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Font.Charset" resname="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Font.Color" resname="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Font.Color">
+        <source>clRed</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Font.Height" resname="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Font.Height">
+        <source>-15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Font.Name" resname="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Font.Style" resname="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.ModalResult" resname="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.ParentFont" resname="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.TabOrder" resname="O:ExpertOptWin.O:GroupBox1.O:BtnCancel.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Left" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Left">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Top" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Top">
+        <source>160</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Width" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Width">
+        <source>365</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Height" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Height">
+        <source>57</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Caption" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Caption">
+        <source>'  Rekursion  '</source>
+        <target>'  Recursion  '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">1</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Font.Charset" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Font.Color" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Font.Color">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Font.Height" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Font.Name" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Font.Style" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.ParentFont" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.TabOrder" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.O:CB_Recursion.Left" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.O:CB_Recursion.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.O:CB_Recursion.Top" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.O:CB_Recursion.Top">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.O:CB_Recursion.Width" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.O:CB_Recursion.Width">
+        <source>281</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.O:CB_Recursion.Height" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.O:CB_Recursion.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.O:CB_Recursion.Caption" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.O:CB_Recursion.Caption">
+        <source>'Rekursive Funktionen erlauben'</source>
+        <target>'Allow recursive functions'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">1</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.O:CB_Recursion.TabOrder" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.O:CB_Recursion.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.O:CB_Recursion.OnClick" resname="O:ExpertOptWin.O:GroupBox1.O:GroupBox2.O:CB_Recursion.OnClick">
+        <source>RG_DragStrategyClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458418287</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

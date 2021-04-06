@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\MemberWin.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\MemberWin.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715740741</prop>
+        <prop prop-type="OrigDateTime">38873.8465972222</prop>
+        <prop prop-type="XlatDateTime">39159.8572222222</prop>
+        <prop prop-type="Translated">5</prop>
+        <prop prop-type="UnTranslated">88</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:AddMemberWin.Left" resname="O:AddMemberWin.Left">
+        <source>519</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.Top" resname="O:AddMemberWin.Top">
+        <source>127</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.BorderIcons" resname="O:AddMemberWin.BorderIcons">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.BorderStyle" resname="O:AddMemberWin.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.Caption" resname="O:AddMemberWin.Caption">
+        <source>'Objekte zur Gruppe hinzufügen oder entfernen'</source>
+        <target>'Edit a visibility group'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">1</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.ClientHeight" resname="O:AddMemberWin.ClientHeight">
+        <source>166</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.ClientWidth" resname="O:AddMemberWin.ClientWidth">
+        <source>502</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.Color" resname="O:AddMemberWin.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.Font.Charset" resname="O:AddMemberWin.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.Font.Color" resname="O:AddMemberWin.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.Font.Height" resname="O:AddMemberWin.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.Font.Name" resname="O:AddMemberWin.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.Font.Style" resname="O:AddMemberWin.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.FormStyle" resname="O:AddMemberWin.FormStyle">
+        <source>fsStayOnTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.OldCreateOrder" resname="O:AddMemberWin.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.Position" resname="O:AddMemberWin.Position">
+        <source>poDefault</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.OnShow" resname="O:AddMemberWin.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.PixelsPerInch" resname="O:AddMemberWin.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.TextHeight" resname="O:AddMemberWin.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TAddMemberWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:Bevel1.Left" resname="O:AddMemberWin.O:Bevel1.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:Bevel1.Top" resname="O:AddMemberWin.O:Bevel1.Top">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:Bevel1.Width" resname="O:AddMemberWin.O:Bevel1.Width">
+        <source>481</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:Bevel1.Height" resname="O:AddMemberWin.O:Bevel1.Height">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:Bevel1.Shape" resname="O:AddMemberWin.O:Bevel1.Shape">
+        <source>bsTopLine</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.Left" resname="O:AddMemberWin.O:BtnOkay.Left">
+        <source>113</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374849884</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.Top" resname="O:AddMemberWin.O:BtnOkay.Top">
+        <source>120</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.Width" resname="O:AddMemberWin.O:BtnOkay.Width">
+        <source>137</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.Height" resname="O:AddMemberWin.O:BtnOkay.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.Caption" resname="O:AddMemberWin.O:BtnOkay.Caption">
+        <source>'Okay'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.Default" resname="O:AddMemberWin.O:BtnOkay.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.Font.Charset" resname="O:AddMemberWin.O:BtnOkay.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.Font.Color" resname="O:AddMemberWin.O:BtnOkay.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.Font.Height" resname="O:AddMemberWin.O:BtnOkay.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.Font.Name" resname="O:AddMemberWin.O:BtnOkay.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.Font.Style" resname="O:AddMemberWin.O:BtnOkay.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.ModalResult" resname="O:AddMemberWin.O:BtnOkay.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.ParentFont" resname="O:AddMemberWin.O:BtnOkay.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.TabOrder" resname="O:AddMemberWin.O:BtnOkay.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnOkay.OnClick" resname="O:AddMemberWin.O:BtnOkay.OnClick">
+        <source>BtnOkayClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.Left" resname="O:AddMemberWin.O:BtnCancel.Left">
+        <source>265</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.Top" resname="O:AddMemberWin.O:BtnCancel.Top">
+        <source>120</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.Width" resname="O:AddMemberWin.O:BtnCancel.Width">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.Height" resname="O:AddMemberWin.O:BtnCancel.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.Cancel" resname="O:AddMemberWin.O:BtnCancel.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.Caption" resname="O:AddMemberWin.O:BtnCancel.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Cancel'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">1</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.Font.Charset" resname="O:AddMemberWin.O:BtnCancel.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.Font.Color" resname="O:AddMemberWin.O:BtnCancel.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.Font.Height" resname="O:AddMemberWin.O:BtnCancel.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.Font.Name" resname="O:AddMemberWin.O:BtnCancel.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.Font.Style" resname="O:AddMemberWin.O:BtnCancel.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.ModalResult" resname="O:AddMemberWin.O:BtnCancel.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.ParentFont" resname="O:AddMemberWin.O:BtnCancel.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.TabOrder" resname="O:AddMemberWin.O:BtnCancel.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnCancel.OnClick" resname="O:AddMemberWin.O:BtnCancel.OnClick">
+        <source>BtnCancelClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:StaticText1.Left" resname="O:AddMemberWin.O:StaticText1.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TStaticText</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:StaticText1.Top" resname="O:AddMemberWin.O:StaticText1.Top">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TStaticText</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:StaticText1.Width" resname="O:AddMemberWin.O:StaticText1.Width">
+        <source>273</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TStaticText</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:StaticText1.Height" resname="O:AddMemberWin.O:StaticText1.Height">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TStaticText</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:StaticText1.AutoSize" resname="O:AddMemberWin.O:StaticText1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TStaticText</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:StaticText1.Caption" resname="O:AddMemberWin.O:StaticText1.Caption">
+        <source>'Um ein Objekt hinzuzufügen oder zu entfernen, klicken Sie es in der Zeichnung an. Wenn Sie auf "Okay" klicken, werden alle blinkenden Objekte in die Gruppe übernommen. '</source>
+        <target>'Clicking any object will toggle its blinking mode. When you finally click "Okay", then all blinking objects will be added to the visibility group. '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">1</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TStaticText</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:StaticText1.Font.Charset" resname="O:AddMemberWin.O:StaticText1.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TStaticText</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:StaticText1.Font.Color" resname="O:AddMemberWin.O:StaticText1.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TStaticText</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:StaticText1.Font.Height" resname="O:AddMemberWin.O:StaticText1.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TStaticText</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:StaticText1.Font.Name" resname="O:AddMemberWin.O:StaticText1.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TStaticText</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:StaticText1.Font.Style" resname="O:AddMemberWin.O:StaticText1.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TStaticText</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:StaticText1.ParentFont" resname="O:AddMemberWin.O:StaticText1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TStaticText</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:StaticText1.TabOrder" resname="O:AddMemberWin.O:StaticText1.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TStaticText</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnSelectAll.Left" resname="O:AddMemberWin.O:BtnSelectAll.Left">
+        <source>312</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnSelectAll.Top" resname="O:AddMemberWin.O:BtnSelectAll.Top">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnSelectAll.Width" resname="O:AddMemberWin.O:BtnSelectAll.Width">
+        <source>169</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnSelectAll.Height" resname="O:AddMemberWin.O:BtnSelectAll.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnSelectAll.Caption" resname="O:AddMemberWin.O:BtnSelectAll.Caption">
+        <source>'Alle Objekte anwählen'</source>
+        <target>'Select all objects'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">1</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnSelectAll.Font.Charset" resname="O:AddMemberWin.O:BtnSelectAll.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnSelectAll.Font.Color" resname="O:AddMemberWin.O:BtnSelectAll.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnSelectAll.Font.Height" resname="O:AddMemberWin.O:BtnSelectAll.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnSelectAll.Font.Name" resname="O:AddMemberWin.O:BtnSelectAll.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnSelectAll.Font.Style" resname="O:AddMemberWin.O:BtnSelectAll.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnSelectAll.ParentFont" resname="O:AddMemberWin.O:BtnSelectAll.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnSelectAll.TabOrder" resname="O:AddMemberWin.O:BtnSelectAll.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnSelectAll.OnClick" resname="O:AddMemberWin.O:BtnSelectAll.OnClick">
+        <source>BtnSelectAllClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnUnselectAll.Left" resname="O:AddMemberWin.O:BtnUnselectAll.Left">
+        <source>312</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnUnselectAll.Top" resname="O:AddMemberWin.O:BtnUnselectAll.Top">
+        <source>56</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnUnselectAll.Width" resname="O:AddMemberWin.O:BtnUnselectAll.Width">
+        <source>169</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnUnselectAll.Height" resname="O:AddMemberWin.O:BtnUnselectAll.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnUnselectAll.Caption" resname="O:AddMemberWin.O:BtnUnselectAll.Caption">
+        <source>'Alle Objekte abwählen'</source>
+        <target>'Unselect all objects'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">1</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnUnselectAll.Font.Charset" resname="O:AddMemberWin.O:BtnUnselectAll.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnUnselectAll.Font.Color" resname="O:AddMemberWin.O:BtnUnselectAll.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnUnselectAll.Font.Height" resname="O:AddMemberWin.O:BtnUnselectAll.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnUnselectAll.Font.Name" resname="O:AddMemberWin.O:BtnUnselectAll.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnUnselectAll.Font.Style" resname="O:AddMemberWin.O:BtnUnselectAll.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnUnselectAll.ParentFont" resname="O:AddMemberWin.O:BtnUnselectAll.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnUnselectAll.TabOrder" resname="O:AddMemberWin.O:BtnUnselectAll.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AddMemberWin.O:BtnUnselectAll.OnClick" resname="O:AddMemberWin.O:BtnUnselectAll.OnClick">
+        <source>BtnUnselectAllClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737485162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

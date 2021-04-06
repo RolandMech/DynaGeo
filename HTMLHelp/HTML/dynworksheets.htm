@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Wie stelle ich dynamische Arbeitsbl&auml;tter her?</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="DynaGeoX">
+        <PARAM NAME="Keyword" VALUE="HTML">
+        <PARAM NAME="Keyword" VALUE="ActiveX">
+</OBJECT>
+
+<A NAME="idh_dgxj_work"></A>
+
+<H2>Wie stelle ich dynamische Arbeitsbl&auml;tter her?</H2>
+<HR>
+
+<P>Am einfachsten benutzen Sie dazu die Men&uuml;befehle <i>Als DynaGeoX-HTML-Seite speichern</i> bzw. <i>Als DynaGeoJ-HTML-Seite speichern</i>. Wenn EUKLID DynaGeo einen dieser Befehle ausf&uuml;hrt, werden stets zwei Dateien mit <u>verschiedenen Erweiterungen</u> ins Zielverzeichnis geschrieben:<br>
+<ul>
+<li>die erste ist eine <B>HTML-Datei</B>, die das Fenster enth&auml;lt, in welchem die Zeichnung erscheinen soll;</li>
+<li>die zweite ist eine <b>GEO-Datei</b>, die die Zeichnung enth&auml;lt, welche in diesem Fenster dargestellt werden soll.</li>
+</ul>
+</P>
+
+<P>Die Einbindung der dynamischen Zeichnung geschieht nun in dieser HTML-Datei mit Hilfe spezieller "Tags": im Falle von DynaGeoX mit einem &lt;OBJECT&gt;-Tag, im Falle von DynaGeoJ mit einem &lt;APPLET&gt;-Tag. Sie k&ouml;nnen die HTML-Datei mit einem passenden Editor <B>weiterbearbeiten</B>, m&uuml;ssen aber peinlich darauf achten, dass dieser nicht eigenm&auml;chtig das &lt;OBJECT&gt;- bzw. &lt;APPLET&gt;-Tag ver&auml;ndert. Manche HTML-Editoren gehen recht r&uuml;cksichtslos mit Dingen um, von denen sie nichts verstehen...</P>
+
+<P>Nat&uuml;rlich k&ouml;nnen Sie stattdessen auch das &lt;OBJECT&gt;- bzw. &lt;APPLET&gt;-Tag <B>in ein anderes HTML-Dokument kopieren</B>. Schlie&szlig;lich lassen sich auch <B>mehrere Zeichnungen</B> in mehreren Fenstern desselben HTML-Dokuments anzeigen, indem Sie einfach mehrere solche Tags in den HTML-Quelltext einf&uuml;gen. Achten Sie aber in jedem Fall darauf, dass zur Laufzeit auch <b>die jeweils zugeh&ouml;rige GEO-Datei</b> im selben Verzeichnis steht wie die HTML-Datei!
+<ul><font size="-1">Obwohl mehrere Viewer-Fenster im selben HTML-Dokument m&ouml;glich sind, wird dies nicht empfohlen: in manchen F&auml;llen kommt der Browser mit der Verwaltung mehrerer parallel arbeitender Viewer-Instanzen nicht zurecht. </font></ul></P>
+<br>
+<br>
+<br>
+
+<p><font size="+1"><b>Tipps f&uuml;r den Export von Zeichungen in HTML-Dokumente:</b></font><br>
+<br>
+Obwohl der Vorgang durch die entsprechenden Men&uuml;-Befehle technisch weitgehend problemlos ist, sollten Sie dabei doch einige Vorsicht walten lassen, damit die erzielten Ergebnisse auch Ihren Erwartungen entsprechen. Unabh&auml;ngig vom verwendeten Viewer sollten Sie die folgenden Punkte beachten:
+<ul>
+<li>W&auml;hlen Sie die <b>Gr&ouml;&szlig;e des Viewer-Fensters</b> mit Bedacht. Machen Sie es nicht gr&ouml;&szlig;er als n&ouml;tig; in jedem Fall sollte es vollst&auml;ndig im Browser-Fenster dargestellt werden k&ouml;nnen. Andererseits sollte es mindestens so gro&szlig; sein, dass m&ouml;glichst alle Objekte der Zeichnung (zumindest bei der Initialisierung) im Viewer-Fenster sichtbar sind.<br>
+<br>
+</li>
+<li>Wenn Sie <b>Befehlskn&ouml;pfe</b> zur Verf&uuml;gung stellen wollen, sollten Sie deren Anzahl so klein wie m&ouml;glich halten. Das Viewer-Fenster muss dabei mindestens so hoch sein, dass es alle Kn&ouml;pfe untereinander darstellen kann.<br>
+<br>
+</li>
+<li>Verwenden Sie m&ouml;glichst <b>keine Textboxen</b> in der Zeichnung. Diese kosten nur wertvollen Platz im Viewer-Fenster. Begleitende Texte sind im umgebenden HTML-Dokument besser aufgehoben!</li>
+</ul>
+<br>
+<b>DynaGeoX</b> benutzt dieselben Datenstrukturen wie EUKLID DynaGeo; daher k&ouml;nnen Sie davon ausgehen, dass im Normalfall eine Zeichnung, die sich unter EUKLID DynaGeo erwartungsgem&auml;&szlig; verh&auml;lt, dann auch in DynaGeoX korrekt dargestellt werden wird. Hingegen verlangt der Export f&uuml;r <b>DynaGeoJ</b> noch etwas mehr Vorsicht von Ihnen, weil es sich hier um ein eigenst&auml;ndiges JAVA-Programm handelt, das sich naturgem&auml;&szlig; in einigen internen Details wesentlich von EUKLID DynaGeo unterscheidet. Dar&uuml;berhinaus sind einige wenige der in DynaGeo verf&uuml;gbaren Arten geometrischer Objekte in DynaGeoJ bisher noch nicht implementiert; dies betrifft derzeit z.B. die Strecken fester L&auml;nge.
+</p>
+ <P>Bevor Sie nun anfangen, Ihr ultimatives Online-Geometrie-Buch zu schreiben, sollten Sie sich mit Geduld wappnen, denn die verwendeten Technologien haben durchaus ihre T&uuml;cken. Auch sollten Sie gelegentlich BackUps Ihrer Daten machen. Das hat noch nie gro&szlig;en Schaden angerichtet, aber schon so manche Katastrophe verh&uuml;tet. </P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Internal options</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="options">
+        <PARAM NAME="Keyword" VALUE="print">
+</OBJECT>
+
+<A NAME="idh_opt_intern"></A>
+
+<H2>Options | Internals</H2>
+<HR>
+
+<P><B>Mouse capture area:</B><br>
+<ul>This parameter controls how close the mouse pointer must be to a geometrical point before it is captured. The capture distance is measured in pixels.<br>
+Range:&xnbsp;&xnbsp; [ 1........ (5) ......... 10 ]</ul><br>
+</P>
+
+<P><B>Zoom factor:</B><br>
+<ul>This is the &quot;stretching&quot; factor by which the picture is expanded or reduced when a zoom command is applied.<br>
+Range:&xnbsp;  [ 1 ...... (1.5) ....... 10 ]</ul><br>
+</P>
+
+<P><B>Tolerance for angle comparison:</B><br>
+<ul>An angle w<SUB>1</SUB>&xnbsp;is taken as being the same as another angle w<SUB>2</SUB> &xnbsp;when w<SUB>1</SUB> &xnbsp;lies within the interval <nobr>[w<sub>2</sub>-dw, w<sub>2</sub>+dw]</nobr>. Here, the dw value in degrees can be set.<br>
+Range:&xnbsp;&xnbsp; [ 10<SUP>-5</SUP>........(0.5)........10 ]</ul><br>
+</P>
+
+<P><B>Tolerance for distance comparison:</B><BR>
+<ul>A distance d<sub>1</sub>&xnbsp;is taken as being the same as another distance d<sub>2</sub> &xnbsp;when d<sub>1</sub> &xnbsp;lies within the interval <nobr>[d<sub>2</sub>-dd, d<sub>2</sub>+dd]</nobr>. Here, the dd value in pixels can be set.<br>
+Range: [ 1*10<sup>-20</sup>.......(1*10<sup>-8</sup>).......10 ]</ul><BR>
+</P>
+
+<P><B>Point command with extended capabilities:</B><br>
+<ul>When you check this checkbox, the command "<i>Point</i>" will be so extended that it can also create a "<i>point on a line</i>" and even produce "<i>intersection points</i>". The following list shows all possible cases:<br>
+<br>
+<ul>
+<li>When you click at a free spot of your drawing where there is <u>no line</u>, then a new basis point is created. This is the normal function of the "point" command.</li>
+<li>When at your click spot there is exactly <u>1 line</u>, then a new point is created which immediately is bound to this line.</li>
+<li>When at your click spot there are exactly <u>2 lines</u>, then this intersection point is created. But if DynaGeo finds more intersection points of the 2 lines, these are created too!</li>
+<li>When at your click spot there are <u>3 or more lines</u>, then you'll get an error message, because DynaGeo cannot decide what to do. The command is canceled.</li>
+</ul>
+<br>
+It is recommended to let this checkbox deactivated. The clear concept of separated commands is better than a superficial "comfort".</ul><BR>
+</P>
+
+<P><B>Animate the correctness check:</B><BR>
+<ul>When you check this box, then the dragging process during a correctness check is dispayed on the screen, so you can look how DynaGeo thinks! But this may be rather time-consuming. If you want to work faster, it is recommended to let the box unchecked. Then the dragging process is only calculated internally.</ul><BR>
+</P>
+
+<P><B>Use fat mouse pointers:</B><BR>
+<ul>This option is provided for persons that are partially sighted. If you check this box, a second mouse cursor set is used with fat cursor pictures that can be seen easier.</ul><BR>
+</P>
+
+<P><B>XML output format:</B><BR>
+<ul>Here you can choose between 4 different internal formats for the GEO files. If you don't have strong reasons to alter the preset, it is best to stick to the recommended choice ("short rows"). </ul><BR>
+</P>
+
+<P><B>Options for Experts only...</B><BR>
+<ul>This button leads to an own window where the real experts can adjust very dangerous parameters. Never open this window before you know DynaGeo's help file by heart...;-)</ul><BR>
+</P>
+
+
+</ul>
+</ul>
+</p>
+
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

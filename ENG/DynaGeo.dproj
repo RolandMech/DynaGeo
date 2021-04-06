@@ -1,0 +1,271 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{A872A662-B947-443B-810F-C89DBB564997}</ProjectGuid>
+			<MainSource>DynaGeo.dpr</MainSource>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<ProjectVersion>12.0</ProjectVersion>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Basis' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_DependencyCheckOutputName>DynaGeo.ENG</DCC_DependencyCheckOutputName>
+			<GenDll>true</GenDll>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_Platform>x86</DCC_Platform>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="DynaGeo.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="AboutWin.dfm">
+				<Form>AboutBox</Form>
+			</DCCReference>
+			<DCCReference Include="AniParams.dfm">
+				<Form>AniParamsWin</Form>
+			</DCCReference>
+			<DCCReference Include="AskUser1.dfm">
+				<Form>AskUser1Dlg</Form>
+			</DCCReference>
+			<DCCReference Include="AssAffAbb_1.dfm">
+				<ModuleName>OKBottomDlg</ModuleName>
+				<Form>AffAbb_1_Dlg</Form>
+			</DCCReference>
+			<DCCReference Include="AssAffAbb_2.dfm">
+				<ModuleName>TermForm</ModuleName>
+				<Form>AffAbb_2_Dlg</Form>
+			</DCCReference>
+			<DCCReference Include="AssAffAbb_2a.dfm">
+				<ModuleName>AffAbb_2_Dlg</ModuleName>
+				<Form>AffAbb_2a_Dlg</Form>
+			</DCCReference>
+			<DCCReference Include="AssAffAbb_2b.dfm">
+				<ModuleName>AffAbb_2_Dlg</ModuleName>
+				<Form>AffAbb_2b_Dlg</Form>
+			</DCCReference>
+			<DCCReference Include="AssAffAbb_2c.dfm">
+				<ModuleName>AffAbb_2_Dlg</ModuleName>
+				<Form>AffAbb_2c_Dlg</Form>
+			</DCCReference>
+			<DCCReference Include="AssAffAbb_2d.dfm">
+				<ModuleName>AffAbb_2_Dlg</ModuleName>
+				<Form>AffAbb_2d_Dlg</Form>
+			</DCCReference>
+			<DCCReference Include="AssAffAbb_2e.dfm">
+				<ModuleName>AffAbb_2_Dlg</ModuleName>
+				<Form>AffAbb_2e_Dlg</Form>
+			</DCCReference>
+			<DCCReference Include="AssAffAbb_3.dfm">
+				<Form>AffAbb_3_Dlg</Form>
+			</DCCReference>
+			<DCCReference Include="AssAffAbb_3a.dfm">
+				<Form>AffAbb_3a_Dlg</Form>
+			</DCCReference>
+			<DCCReference Include="AssAffAbb_3b.dfm">
+				<Form>AffAbb_3b_Dlg</Form>
+			</DCCReference>
+			<DCCReference Include="CommentWin.dfm">
+				<Form>TextWin</Form>
+			</DCCReference>
+			<DCCReference Include="ConstrWin.dfm">
+				<Form>ConstrTextWin</Form>
+			</DCCReference>
+			<DCCReference Include="CoordWin.dfm">
+				<Form>CoordDlg</Form>
+			</DCCReference>
+			<DCCReference Include="EditMappingWin.dfm">
+				<ModuleName>TermForm</ModuleName>
+				<Form>EditMappingDlg</Form>
+			</DCCReference>
+			<DCCReference Include="ExpertOptWin.dfm">
+				<Form>ExpertOptWin</Form>
+			</DCCReference>
+			<DCCReference Include="FileProp.dfm">
+				<Form>FileProps</Form>
+			</DCCReference>
+			<DCCReference Include="GroupWin.dfm">
+				<ModuleName>TermForm</ModuleName>
+				<Form>EditGroupWin</Form>
+			</DCCReference>
+			<DCCReference Include="HTMLDynaGeoJSettings.dfm">
+				<Form>HTMLDynaGeoJDataForm</Form>
+			</DCCReference>
+			<DCCReference Include="HTMLDynaGeoXSettings.dfm">
+				<Form>HTMLDynaGeoXDataForm</Form>
+			</DCCReference>
+			<DCCReference Include="IniFDlg.dfm">
+				<Form>OptionsDlg</Form>
+			</DCCReference>
+			<DCCReference Include="KonstEing.dfm">
+				<Form>KonstEingabeDlg</Form>
+			</DCCReference>
+			<DCCReference Include="KoordEing.dfm">
+				<ModuleName>TermForm</ModuleName>
+				<Form>KoordEingabeDlg</Form>
+			</DCCReference>
+			<DCCReference Include="LinkWin.dfm">
+				<Form>EditLinkDlg</Form>
+			</DCCReference>
+			<DCCReference Include="MainWin.dfm">
+				<Form>Hauptfenster</Form>
+			</DCCReference>
+			<DCCReference Include="MakHelpEdit.dfm">
+				<Form>MakHelpDlg</Form>
+			</DCCReference>
+			<DCCReference Include="MakHelpShow.dfm">
+				<Form>MakHelpWin</Form>
+			</DCCReference>
+			<DCCReference Include="MemberWin.dfm">
+				<Form>AddMemberWin</Form>
+			</DCCReference>
+			<DCCReference Include="MenuCfgNew.dfm">
+				<Form>EditMenuConfigWin</Form>
+			</DCCReference>
+			<DCCReference Include="NameDlg.dfm">
+				<Form>ObjNameDlg</Form>
+			</DCCReference>
+			<DCCReference Include="NetOptDlg.dfm">
+				<Form>NetOptionsDlg</Form>
+			</DCCReference>
+			<DCCReference Include="OkayWin.dfm">
+				<Form>OkayButton</Form>
+			</DCCReference>
+			<DCCReference Include="OKCheckConfWin.dfm">
+				<Form>ConfigOKCheckDlg</Form>
+			</DCCReference>
+			<DCCReference Include="Preview.dfm">
+				<Form>PrintPreview</Form>
+			</DCCReference>
+			<DCCReference Include="PrnCfg.dfm">
+				<Form>PrinterCfgDlg</Form>
+			</DCCReference>
+			<DCCReference Include="QuantPoint.dfm">
+				<Form>QuantPtWin</Form>
+			</DCCReference>
+			<DCCReference Include="RangeEdit.dfm">
+				<Form>RangeEditWin</Form>
+			</DCCReference>
+			<DCCReference Include="RegWin.dfm">
+				<Form>RegisterDlg</Form>
+			</DCCReference>
+			<DCCReference Include="RiemannSum.dfm">
+				<ModuleName>TermForm</ModuleName>
+				<Form>RiemannForm</Form>
+			</DCCReference>
+			<DCCReference Include="SelectWin.dfm">
+				<Form>SelectDlg</Form>
+			</DCCReference>
+			<DCCReference Include="SelectXCmd.dfm">
+				<Form>SelectXCmdForm</Form>
+			</DCCReference>
+			<DCCReference Include="Symbols.dfm">
+				<Form>SymbolWin</Form>
+			</DCCReference>
+			<DCCReference Include="SysMem.dfm">
+				<Form>SysMemWin</Form>
+			</DCCReference>
+			<DCCReference Include="TagSelDlg.dfm">
+				<Form>TagSelectDlg</Form>
+			</DCCReference>
+			<DCCReference Include="TermEdit.dfm">
+				<ModuleName>TermForm</ModuleName>
+				<Form>TermEditDlg</Form>
+			</DCCReference>
+			<DCCReference Include="ValidateResultWin.dfm">
+				<Form>ValidationResultWin</Form>
+			</DCCReference>
+			<DCCReference Include="WertEing.dfm">
+				<ModuleName>TermForm</ModuleName>
+				<Form>WertEingabeDlg</Form>
+			</DCCReference>
+			<DCCReference Include="WerteTabelle.dfm">
+				<Form>FunkTableWin</Form>
+			</DCCReference>
+			<RcCompile Include="DynaGeo_DRC.rc">
+				<ContainerId>RC</ContainerId>
+				<ContainerId>RC</ContainerId>
+				<Form>DynaGeo_DRC.res</Form>
+			</RcCompile>
+			<BuildConfiguration Include="Basis">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>VCLApplication</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">DynaGeo.dpr</Source>
+					</Source>
+					<Parameters>
+						<Parameters Name="HostApplication">D:\Delphi6\DynaGeo25c\English\DynaGeo.exe</Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<Language>
+						<Language Name="ProjectLang">$00000407</Language>
+					</Language>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">True</VersionInfo>
+						<VersionInfo Name="MajorVer">3</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">3</VersionInfo>
+						<VersionInfo Name="Build">30</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">2057</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">Software-Entwicklung Roland Mechling</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription">EUKLID 2,  32 Bit</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.0.3.30</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright">(c) 94,03 Roland Mechling</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks">DynaGeo</VersionInfoKeys>
+						<VersionInfoKeys Name="OriginalFilename">euklid.exe</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName">EUKLID</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">2.0 e</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments">für Win 95....Win NT 4</VersionInfoKeys>
+					</VersionInfoKeys>
+				</Delphi.Personality>
+				<ModelSupport>False</ModelSupport>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

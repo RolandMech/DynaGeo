@@ -1,0 +1,63 @@
+ IDH_AUTOCHOOSE 27000
+ IDH_BASISOBJEKT 27001
+
+ idh_contents	; inhalt.htm
+ idh_impress	; impressum.htm
+
+ internals	; internedetails.htm 
+
+ cm_menueditdraw	; zeichnungeditieren.htm
+
+ dgx_winsys	; changewinsys.htm
+ thanks	; danke.htm;
+
+ autochoose	; def_autosel.htm
+ basisobjekt	; def_baseobj.htm
+ verziehen 	; def_drag.htm  
+ contextmenu 	; def_kontextmenu.htm
+ menukonf 	; def_menukonf.htm
+ autorepeat 	; def_repeatcmd.htm
+ auswahlrahmen 	; def_selframe.htm
+ term	; def_terme.htm
+
+ hotkeys	; specialkeys.htm
+ relativities	; relations.htm
+ angles	; winkeldetails.htm
+ 
+ dynadrawhtml	; dynadrawhtml.htm
+ dynageox	; dynageox.htm
+ dgx_include	; dgxinhtml.htm
+ dgx_work	; dynworksheets.htm
+ dgx_nojava	; whyax.htm
+ geometria	; geometria.htm 
+
+ coordsystem	; koordsysbasics.htm
+ delbasics	; loeschbasics.htm
+ makro_details	; makrodetails.htm
+ startparams	; startparams.htm
+ pt2	; tip2.htm,  entfernen!
+ update	; update.htm
+
+ mousecursors	; mousearrows.htm 
+ required	; voraussetzungen.htm
+ nethints	; netinst.htm
+ 
+ locline_auto	; olineauto.htm
+ locline_dyna	; olinedyn.htm
+ opt_olines	; olineopt.htm 
+ opt_map	; optabb.htm
+ opt_darst	; optdarst.htm
+ opt_export	; optexport.htm
+ opt_intern	; optintern.htm
+ opt_kons	; optkonstrtext.htm
+ opt_meas	; optmeasure.htm
+ opt_start	; optstart.htm
+
+ prob_darst	; probdarst.htm
+ prob_export	; probexport.htm
+ prob_help	; probhelp.htm
+ problems	; problems.htm
+ prob_print	; probprint.htm
+ prob_skal	; probskal.htm
+
+ 

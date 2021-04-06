@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Das Problem der Schnittmengen</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Schnitt">
+        <PARAM NAME="Keyword" VALUE="Schnittpunkt">
+</OBJECT>
+
+<A NAME="idh_intersect"></A>
+
+<H2>Das Problem der Schnittmengen</H2>
+<HR>
+
+<h3><font color="#0000FF"><i>Elementare Schnittaufgaben</i></font></h3>
+
+<P>Zu den elementaren Aufgaben der Geometrie geh&ouml;rt die Bestimmung der gemeinsamen Punkte zweier Punktmengen. In der klassischen Geometrie sind diese Punktmengen zumeist Linien, und im Hinblick auf die Elementarwerkzeuge Zirkel und Lineal ergeben sich zun&auml;chst die folgenden Standard-Aufgaben: </P>
+<ol style="1" start="1">
+<li>Schnitt zweier Geraden</li>
+<li>Schnitt einer Gerade mit einem Kreis</li>
+<li>Schnitt zweier Kreise</li>
+</ol>
+
+<p>Die erste Aufgabe scheint einfach zu sein: sind die Geraden nicht parallel, dann gibt es genau einen Schnittpunkt. Bei parallelen, aber verschiedenen Geraden gibt es in der euklidischen Ebene keinen Schnittpunkt. Gelegentlich redet man von einem "uneigentlichen Schnittpunkt" oder einem "Schnittpunkt im Unendlichen", was erst im Rahmen der projektiven Geometrie verst&auml;ndlich wird. Da das Bildschirmfenster von DynaGeo aber stets sehr endlich ist, braucht uns ein solcher unendlich weit entfernter Punkt zun&auml;chst nicht weiter zu interessieren. Wenn die Geraden jedoch parallel sind und sogar zusammenfallen, dann ist jeder Punkt auf der einen Geraden ein gemeinsamer Punkt beider Geraden. Die Schnittmenge ist in diesem Fall also die ganze Gerade (wobei es egal w&auml;re, welche wir nehmen w&uuml;rden). </p>
+
+<p>Das ist eine f&uuml;r ein Geometrie-Programm schwierig zu handhabende Situation: die Schnittmenge besteht meist aus genau einem Punkt, manchmal ist sie aber auch leer, und manchmal enth&auml;lt sie gar eine ganze Gerade! Ein derartiges Ausma&szlig; an Polymorphie ist schwer zu verdauen. Daher unterdr&uuml;ckt DynaGeo den letzten Fall: das Programm behandelt intern statt "Schnittmengen" nur "Schnittpunktmengen" zweier Linien, und diese sollen stets nur endlich viele isolierte Punkte enthalten. Damit wird das Schnittproblem zweier zusammmenfallender Geraden programmintern als unl&ouml;sbar angesehen. DynaGeo bem&uuml;ht sich also, "den" Schnittpunkt der zwei vom Benutzer angegebenen Geraden zu berechnen, und wenn das gelungen ist, wird dieser Schnittpunkt dargestellt; andernfalls wird "der" Schnittpunkt ung&uuml;ltig und verschwindet vom Bildschirm. </p>
+
+<p>Die zweite Aufgabe ist nicht viel schwieriger zu l&ouml;sen: eine Gerade und ein Kreis k&ouml;nnen keinen, einen oder zwei Schnittpunkte haben, je nachdem, ob die Gerade Passante, Tangente oder Sekante f&uuml;r den Kreis ist. Im ersten Fall hat die Schnittaufgabe also keine L&ouml;sung, im zweiten Fall genau eine, aber im dritten Fall zwei! Um f&uuml;r alle m&ouml;glichen F&auml;lle gewappnet zu sein, erzeugt DynaGeo zur L&ouml;sung einer solchen Schnittaufgabe ein Punktepaar: wenn es nur einen gemeinsamen Punkt gibt, wird nur einer der beiden Punkte verwendet. Bei nachfolgenden Zugvorg&auml;ngen kann sich aber die Zahl der Schnittpunkte &auml;ndern, so dass dann auch der zweite, bisher ungenutzte Punkt zum Einsatz kommt, oder aber m&ouml;glicherweise auch beide Punkte ung&uuml;ltig werden. </p>
+
+<p>Die dritte Aufgabe bringt nun nichts Neues mehr: zwei Kreise k&ouml;nnen keinen, einen oder zwei gemeinsame Punkte haben - der Fall zweier Kreise mit gemeinsamem Mittelpunkt und gleichem Radius wird wieder als unl&ouml;sbar angesehen. Also gen&uuml;gt auch in diesem Fall ein Punktepaar, um alle m&ouml;glichen L&ouml;sungen der Aufgabe zu repr&auml;sentieren.</p>
+<br>
+
+<h3><font color="#0000FF"><i>Weitere Schnittaufgaben</i></font></h3>
+
+<p>Wie jedes Geometrieprogramm kann auch DynaGeo sehr viel mehr "Linien" erzeugen als nur Kreise und Geraden. Zum Beispiel k&ouml;nnen Sie eine logarithmische Spirale als Ortslinie konstruieren. Und seit neuestem sind auch alle m&ouml;glichen Funktionsgraphen leicht zug&auml;nglich, wie z.B. das Schaubild der Tangens-Funktion. Wer hindert uns daran, DynaGeo nach der Schnittmenge der logarithmischen Spirale mit der Tangenskurve zu fragen? Nun, hindern kann uns da niemand, aber eine Antwort werden wir von diesem Programm nicht bekommen.</p>
+
+<p>DynaGeo l&auml;sst n&auml;mlich als Argumente des Schnittbefehls nur eine sehr kleine Menge von m&ouml;glichen Objektarten zu. Neben Geraden und Kreisen geh&ouml;ren dazu alle Linien, die Teile von Geraden und Kreisen sind. Dar&uuml;berhinaus sind derzeit nur noch Kegelschnitte als "schnitt-taugliche" Kurven zugelassen. Warum ist das so? Nun, jede Schnittaufgabe f&uuml;hrt auf eine Gleichung, aus deren L&ouml;sungen sich die Schnittpunkte ermitteln lassen. DynaGeo kann nur diejenigen Gleichungen l&ouml;sen, f&uuml;r die die L&ouml;sungsalgorithmen implementiert wurden. Derzeit endet der mathematische Horizont von DynaGeo bei algebraischer Gleichungen vom Grad 4. Dies gen&uuml;gt zur Berechnung aller Schnittaufgaben, die mit Geraden, Kreisen und Kegelschnitten formuliert werden k&ouml;nnen. </p>
+
+<p>Die oben angef&uuml;hrte Aufgabe des Schnitts der logarithmischen Spirale mit der Tangenskurve f&uuml;hrt hingegen auf eine transzendente Gleichung. Solche Aufgaben sind selbst f&uuml;r Computer-Algebra-Systeme nicht ganz einfach zu l&ouml;sen... Es ist derzeit unwahrscheinlich, dass DynaGeo mathematisch noch wesentlich leistungsf&auml;higer werden wird. Allerdings gen&uuml;gen die bisher implementierten Rechenf&auml;higkeiten noch f&uuml;r viele weitere denkbare Aufgaben. So w&auml;ren z.B. die Bestimmung der Schnittpunkte zweier ganzrationaler Funktionen von h&ouml;chstens 4. Grad durchaus noch innerhalb der Reichweite der derzeit realisierten Algorithmen. </p>
+
+<p>Die gegenw&auml;rtig "h&auml;rteste" Aufgabe f&uuml;r DynaGeo ist die Berechnung der Schnittpunkte zweier Kegelschnitte. Die zugeh&ouml;rige Gleichung hat bis zu 4 L&ouml;sungen. Daher erzeugt DynaGeo f&uuml;r die L&ouml;sung solcher Aufgaben ein Schnittpunkte-Quadrupel. Treten weniger als 4 Schnittpunkte auf, werden einige dieser 4 Schnittpunkte als ung&uuml;ltig deklariert und nicht auf dem Bildschirm gezeigt. Ahnen Sie schon, worin das Problem besteht?</p>
+
+<p>Die eigentliche Schwierigkeit bei der Verwaltung dieser Schnittpunktmengen taucht bei der Aktualisierung der Schnittpunkte w&auml;hrend eines Zugvorgangs auf: wenn man z.B. f&uuml;r den Schnitt einer Ellipse mit einem Kreis die zugeh&ouml;rige Gleichung 4. Grades gel&ouml;st hat, wie findet man dann heraus, welche der L&ouml;sungen zu welchem Schnittpunkt geh&ouml;rt?</p>
+<br>
+
+<h3><font color="#0000FF"><i>Das Zuordnungs-Problem</i></font></h3>
+
+<p>Dieses Problem hat die Programmierer von Geometrie-Software schon beim Schnitt eines Kreises mit einer Geraden besch&auml;ftigt. Dort sind die L&ouml;sungen einer quadratischen Gleichung den (bis zu) zwei Schnittpunkten zuzuordnen. Aufgrund der Tatsache, dass die Koeffizienten der Gleichnung ihrerseits wieder Funktionen der Daten von Kreis und Gerade sind, diese sich aber w&auml;hrend des Zugmodus st&auml;ndig &auml;ndern, sind die Hoffnungen gering, dass sich eine stabile Zuordnung direkt aus dem L&ouml;sungsalgorithmus ergeben kann. Es zeigt sich, dass diese Skepsis berechtigt ist. </p>
+
+<p>Im Falle des Schnitts einer Geraden mit einem Kreis kann man allerdings die beiden Schnittpunkte durchaus in eine stabile (An-)Ordnung bringen, wenn man die Gerade orientiert! Da die beiden Schnittpunkte ja auch Geradenpunkte sind, kommt der eine auf dieser Geraden "vor" dem anderen. Mit dieser Zusatzinformation kann man die sich aus den neuen L&ouml;sungen der Gleichung ergebenden Schnittpunkte nachtr&auml;glich so sortieren, dass die neuen Lagen der Schnittpunkte wieder so auf der Geraden angeordnet sind, wie es die alten waren.</p>
+
+<p>Auch im Falle des Schnitts zweier Kreise kann man die beiden Schnittpunkte mit diesem Trick in eine zugstabile Anordnung zwingen: als Referenz kann hier die Orientierung des Vektors gelten, der vom Mittelpunkt des ersten Kreises zum Mittelpunkt des zweiten zeigt. (Wenn die beiden Kreise wirklich genau zwei Schnittpunkte haben, dann k&ouml;nnen ihre Mittelpunkte nicht zusammenfallen!) Man kann dann die Schnittpunkte z.B. so anordnen, dass die Richtung des Verbindungsvektors vom ersten zum zweiten Schnittpunkt aus der des oben konstruierten Verbindungsvektors der Kreismittelpunkte durch eine Drehung um 90° gegen den Uhrzeigersinn hervorgeht. Mithin ergibt sich die Zuordnung der L&ouml;sungen der quadratischen Gleichung zu den entsprechenden Schnittpunkten rein aus der Lage der zu schneidenden Objekte - genau wie die Anh&auml;nger der deterministischen Zug-Strategie sich das w&uuml;nschen!</p>
+
+<p>Leider ist das Verfahren nicht so einfach auf den Fall der 4 Schnittpunkte beim Schnitt zweier Kegelschnitte zu &uuml;bertragen. Bleiben wir beim oben geschilderten Beispiel des Schnitts einer Ellipse mit einem Kreis, und nehmen wir mal an, dass es wirklich 4 Schnittpunkte gibt. Wenn wir nun den Kreis oder die Ellipse verziehen, m&uuml;ssen wir eine neue Gleichung 4.Grades l&ouml;sen, und deren 4 L&ouml;sungen f&uuml;hren dann zu neuen Lagen f&uuml;r die 4 Schnittpunkte. Nur: welche der neuen Lagen geh&ouml;rt nun zu welchem Schnittpunkt? Der L&ouml;sungs-Algorithmus f&uuml;r die Gleichnung 4. Grades liefert diese Information leider nicht. Und alle Versuche, die obige Idee von der Anordnung eines Schnittpunkte-Paares auf ein Schnittpunkte-Quadrupel zu verallgemeinern, brachten keine brauchbaren Ergebnisse: bisher hat noch niemand einen &uuml;berzeugenden Algorithmus gefunden, mit dem nur aus der Lage von Ellipse und Kreis eine zugstabile Anordnung der 4 Schnittpunkte bestimmt werden kann. Es scheint derzeit so, als g&auml;be es keine L&ouml;sung dieses Problems, die sich an der Grundidee der deterministischen Zug-Strategie orientiert.</p>
+
+<p>Andererseits: wie k&ouml;nnte eine L&ouml;sung aussehen, die sich an die Prinzipien der stetigen Zug-Strategie anlehnt? Man k&ouml;nnte doch nach der Berechnung der neuen Lagen der Schnittpunkte jedem Schnittpunkt diejenige neue Lage zuordnet, die zur geringsten Bewegung dieses Schnittpunkts f&uuml;hrt. Ein auf dieser Idee beruhender Zuordnungs-Algorithmus ist nat&uuml;rlich im Detail noch um einiges komplizierter (speziell im Hinblick auf die Verwaltung der ung&uuml;ltigen Schnittpunkte), aber eine erste einigerma&szlig;en stabil funktionierende Variante ist in DynaGeo 3.0 eingebaut. </p>
+<br>
+
+<h3><font color="#0000FF"><i>Was kann man erreichen?</i></font></h3>
+
+<p>Wenn Sie nun das oben schon mehrfach genannte Beispiel des Schnitts einer Ellipse mit einem Kreis in DynaGeo nachkonstruieren und dann mit ausf&uuml;hrlichen Zugexperimenten die Stabilit&auml;t der Schnittpunktlagen testen, wird Ihnen auffallen, dass die Punkte immer noch gelegentlich ihre Rollen wechseln, ohne dass daf&uuml;r zun&auml;chst ein nachvollziehbarer Grund erkennbar ist. Dies passiert aber vor allem dann, wenn Schnittpunkte zun&auml;chst ung&uuml;ltig werden, um dann sp&auml;ter wieder an anderer Stelle aufzutauchen. Wenn die Stelle der "Wiedergeburt" eines solchen Schnittpunkts nur weit genug von den alten Lagen des "Verschwindens" entfernt liegt, dann k&ouml;nnen diese alten Lagen keine hilfreichen Informationen mehr zur Entscheidungsfindung beim aktuellen Zuordnungsproblem liefern - und DynaGeo muss raten!</p>
+
+<p>Ich bin nicht sicher, ob an dieser Front &uuml;berhaupt noch wesentliche Fortschritte erzielt werden k&ouml;nnen, ohne den Aufwand in schwindelnde H&ouml;hen treiben zu m&uuml;ssen. Man muss sich auch davor h&uuml;ten, Forderungen zu stellen, die sich hinterher als unerf&uuml;llbar erweisen. Betrachten wir nochmals den Schnitt einer Ellipse mit einem Kreis. Um die Einordnung von neu g&uuml;ltig gewordenen Schnittpunkten zu regeln, k&ouml;nnte man z.B. fordern, dass die Schnittpunkte immer in derselben Reihenfolge angetroffen werden sollen, wenn man die Ellipse einmal gegen den Uhrzeigersinn durchl&auml;uft. Dies w&auml;re der Versuch einer logischen Weiterentwicklung der Idee, die beim Schnitt von Kreis und Gerade zu einer reproduzierbaren und stabilen Zuordnung gef&uuml;hrt hatte. Sie k&ouml;nnen sich aber selbst experimentell davon &uuml;berzeugen, dass diese Forderung notwendigerweise zu "springenden Punkten" f&uuml;hren muss. Man darf also <u>nicht</u> verlangen, dass die Anordnung der Schnittpunkte auf den Kurven immer dieselbe bleibt, wenn man unstetige Bewegungen der Schnittpunkte vermeiden will!</p>
+
+<p>Aber auch wenn die w&auml;hrend eines Zugvorgangs neu auftauchenden Schnittpunkte nach wie vor f&uuml;r einige &Uuml;berraschungen gut bleiben: zumindest f&uuml;r den Fall, dass die Anzahl der g&uuml;ltigen Schnittpunkte l&auml;ngs eines Zugvorgangs konstant ist, sollte der oben skizzierte "N&auml;he-Algorithmus" eine vern&uuml;nftige und mit den Benutzererwartungen konforme stetige Bewegung der einzelnen Schnittpunkte liefern. </p>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

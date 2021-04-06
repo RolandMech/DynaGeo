@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Startprozedur</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Grundlagen">
+        <PARAM NAME="Keyword" VALUE="Installation">
+</OBJECT>
+
+<A NAME="idh_StartProc"></A>
+
+<H2>Initialisierungen beim Programmstart</H2>
+<HR>
+
+<P>Wenn Sie EUKLID DynaGeo starten, erscheint zun&auml;chst ein <B>Titelfenster</B>. Dieses zeigt neben dem Programmnamen, der Versionsnummer, einem Copyrightvermerk und dem Programmsymbol die Lizenzdaten des vorliegenden Exemplars von EUKLID DynaGeo an: bei einer lizenzierten Version sind dies Name und Anschrift des Lizenznehmers sowie die Lizenznummer; bei einer Freeware-Version erscheint lediglich der Hinweis, dass es eben eine solche ist.</P>
+
+<P>Am unteren Rand des Titelfensters erscheint ein Schalter, der zun&auml;chst die Aufschrift  <I>Bitte warten</I>  tr&auml;gt. Solange Sie diese Aufschrift sehen, hat ein Anklicken dieses Schalters keine Wirkung. EUKLID DynaGeo braucht etwas Zeit, um das Programm zu <B>initialisieren</B> und zu <B>&uuml;berpr&uuml;fen</B>, ob eine FreeWare- oder eine lizenzierte Version vorliegt. Dar&uuml;berhinaus wird bei jedem Start &uuml;berpr&uuml;ft, ob die Programmdatei im Originalzustand vorliegt: Sollte EUKLID DynaGeo feststellen, dass die <I>EXE</I>-Datei ver&auml;ndert wurde, wird die Programmausf&uuml;hrung mit einem entsprechenden Hinweis abgebrochen. Sollte Ihnen das passieren, nehmen Sie die Fehlermeldung bitte sehr ernst: in aller Regel ist dies ein Hinweis darauf, dass Ihr Rechner tats&auml;chlich von einem <b>Virus</b> befallen wurde!</P>
+<br>
+
+<P>EUKLID DynaGeo liest die <B>Initialisierungsdaten</B> aus zwei Dateien:<br>
+<ol start="1" type="1">
+<li><b>Die globalen Standard-Vorgaben</b> werden aus einer Datei namens DYNAGEO.INI gelesen, die im EUKLID
+DynaGeo-Verzeichnis stehen muss. Gibt es diese Datei dort noch nicht, wird versucht, sie zu erzeugen. Gelingt dies nicht, dann bricht das Programm mit einer entsprechenden Fehlermeldung ab: die DYNAGEO.INI ist f&uuml;r den Programmstart unbedingt notwendig!<br>
+</li>
+<br>
+<li><b>Die Benutzer-spezifischen ("privaten") Einstellungen</b> werden aus einer zweiten Initialisierungsdatei namens <i>EDG_USER.INI</i> gelesen. In &auml;lteren Windows-Versionen (95, 98, ME) steht diese Datei ebenfalls im DynaGeo-Verzeichnis; auf neueren NT-Versionen wird sie ins Profil des aktuellen Benutzers geschrieben, und zwar ins Verzeichnis %appdata%\dynageo\.<br>
+</li>
+</ol>
+</p>
+<P>Sofern Sie nichts anderes vorschreiben, wird das Programm versuchen, <B>denselben Zustand</B> wiederherzustellen, in dem der <B>letzte Programmlauf</B> beendet wurde. Dies betrifft die Einstellungen der Bildschirmdarstellung f&uuml;r die geometrischen Objekte (Darstellungsmodus, Punktgr&ouml;&szlig;e, Fangbereich usw.) als auch die <A HREF="JavaScript:HHCTRL.TextPopup(pop_menuconf,popfont,10,10,-1,-1)"
+Title="Klicken Sie, um eine Definition zu sehen!">Men&uuml;konfiguration</A>, eine Liste der zuletzt ge&ouml;ffneten GEO-Dateien und die zuvor geladenen Makros.</P>
+<br>
+
+<P>Wenn diese Prozedur erfolgreich abgeschlossen werden kann, erscheint auf dem Schalter die Aufschrift <I>Okay</I>; ein Klick auf diesen Schalter schlie&szlig;t dann das Titelfenster. Direkt nach dem Programmstart wird das Titelfenster automatisch geschlossen, sobald die Initialisierungen erledigt sind. Nun erst erscheint das eigentliche <B>EUKLID DynaGeo-Fenster</B>.</P>
+<br>
+<br>
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<li><a href="startparams.htm">Startparameter beim Programmaufruf</a></li>
+</ul>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

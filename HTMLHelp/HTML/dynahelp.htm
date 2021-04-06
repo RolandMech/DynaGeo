@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Dynamisches Hilfefenster</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Textbox">
+        <PARAM NAME="Keyword" VALUE="Konstruktionstext">
+</OBJECT>
+
+<A NAME="idh_cm_DynaHelp"></A>
+
+<H2>Dynamisches Hilfefenster erstellen</H2>
+<HR>
+
+<P>Dieser Befehl erstellt ein <b>dynamisches Hilfefenster</b>. Das ist eine Textbox mit erweiterten F&auml;higkeiten:<br>
+<ol start="1" type="1">
+<li>Zur Laufzeit erscheint zun&auml;chst nur der <b>erste Absatz</b> des gesamten Textes. Durch Klick auf einen kleinen "Pfeil nach unten" unter der letzten Zeile des angezeigten Textes kann der jeweils <b>n&auml;chste Absatz</b> sichtbar gemacht werden. So kann der Text also vom Benutzer nach Bedarf "aufgebl&auml;ttert" werden. Ist das <b>Textende</b> erreicht, wird unter der letzten Textzeile stattdessen ein "Pfeil nach oben" angezeigt; ein Klick darauf verbirgt alle Abs&auml;tze bis auf den ersten, setzt also die Anzeige in den urspr&uuml;nglichen Zustand zur&uuml;ck.<br>
+<br>
+Das jeweilige <b>Absatz-Ende</b> wird zur Design-Zeit definiert, indem mit Hilfe des <nobr>"<i>Absatz-Ende</i>"-Knopfes</nobr> eine horizontale Linie in den Text eingef&uuml;gt wird.<br>
+<br></li>
+<li>Im Text eines dynamischen Hilfefensters k&ouml;nnen <b>Links</b> zu anderen GEO-Dateien (bzw. HTML-Dateien) definiert werden. Ein Klick auf den <nobr>"<i>Link einf&uuml;gen</i>"-Knopf</nobr> liefert ein Fenster, in dem Sie den <b>Text</b> des Links sowie die <b>Ziel-Datei</b> angeben k&ouml;nnen. Der Pfad zur Ziel-Datei muss als relativer Pfad bez&uuml;glich der aktuellen GEO-Datei formuliert werden. Befinden sich beide Dateien im selben Verzeichnis, gen&uuml;gt also der Name der Zieldatei.<br>
+Zur Laufzeit f&uuml;hrt ein Doppelklick des Benutzers auf den Link dazu, dass die darin angegebene Datei geladen wird.<br>
+<br></li>
+</ol>
+<br>
+Ansonsten verhalten sich dynamische Hilfefenster genau wie gew&ouml;hnliche Textboxen. Lediglich der automatische Aufruf des Textbox-Editors beim <b>Doppelklick</b> auf ein dynamisches Hilfefenster ist deaktiviert, weil der Doppelklick nun f&uuml;r die Aktivierung eventuell im Hilfetext vorhandener Links gebraucht wird. Um ein vorhandenes dynamisches Hilfefenster zu editieren, k&ouml;nnen Sie den Befehl "Editieren..." aus dem Kontext-Men&uuml; dieses Objekts benutzen.<br>
+<br>
+Ein dynamisches Hilfefenster kann nicht nur zu seinem urspr&uuml;nglichen Zweck verwendet werden kann: Sie k&ouml;nnen stattdessen auch die bei der Initialisierung hineingeschriebenen Inhalte komplett l&ouml;schen und das Fenster dann als ein gew&ouml;hnliches Textfenster benutzen. In der Tat ist dies derzeit der einzige Weg, einen <b>Link in einem "normalen" Textfeld</b> unterzubringen!<br>
+<br>
+Wenn Sie einen <b>bestehenden Link editieren</b> wollen, stellen Sie den Cursor auf den Linktext, bevor Sie auf den Knopf <nobr><i>Link einf&uuml;gen</i></nobr> klicken. Dann wird das Fenster zur Eingabe des Links mit den Daten dieses schon existierenden Links initialisiert.<br>
+<br>
+<br>
+<br>
+<font color="#FF0000"><b><i>Achtung !</i></b></font>
+<ul>
+<li>Wenn Sie in einem dynamischen Hilfefenster einen "aufbl&auml;tterbaren" Hilfe-Text zur Verf&uuml;gung stellen wollen, dann muss jedes "logische Blatt" dieses Textes <u>von Absatzende-Markierungen umschlossen</u> sein. DynaGeo kann zwar eine am Ende des gesamten Textes fehlende Absatzende-Markierung selbst&auml;ndig erg&auml;nzen; die im laufenden Text ben&ouml;tigten jedoch m&uuml;ssen <u>Sie</u> setzen. Wenn Ihr Text nur <u>eine</u> Absatzende-Markierung ganz an seinem Ende enth&auml;lt, wird diese entfernt, weil es dann keinen von solchen Markierungen <u>umschlossenen</u> Absatz gibt.<br>
+<br>
+</li>
+<li>Wenn der Text Ihres dynamischen Hilfefensters beim Schlie&szlig;en des Editorfensters weder einen Link noch eine (g&uuml;ltige) Absatzende-Markierung enth&auml;lt, dann verliert das entsprechende Textobjekt den Status "dynamisch" und wird zu einer "normalen" Textbox. Wenn Sie diese Textbox sp&auml;ter nochmals editieren (mit dem Befehl "Editieren..." aus dem Kontext-Men&uuml;), dann werden die Befehlskn&ouml;pfe <i>Link einf&uuml;gen</i> und <i>Absatz-Ende</i> nicht mehr zur Verf&uuml;gung stehen.<br>
+<br>
+</li>
+</ul>
+<br>
+<br>
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<li><a href="textbox.htm">Textbox einf&uuml;gen</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

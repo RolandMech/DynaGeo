@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>DynaGeoJ</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Exportieren">
+        <PARAM NAME="Keyword" VALUE="DynaGeoJ">
+        <PARAM NAME="Keyword" VALUE="Speichern">
+</OBJECT>
+
+<A NAME="idh_dgj_include"></A>
+
+<H2>Wie wird DynaGeoJ in eine HTML-Seite eingebunden?</H2>
+<HR>
+<P>Normalerweise werden Sie den in diesem Abschnitt beschriebenen HTML-Code <B>nicht selbst erzeugen</B> m&uuml;ssen. Dies erledigt EUKLID DynaGeo f&uuml;r Sie, wenn Sie den Befehl <i>Datei | Als DynaGeoJ-HTML-Seite speichern...</i> anw&auml;hlen. Falls Sie das HTML-Dokument jedoch weiterbearbeiten wollen oder den erzeugten HTML-Code in anderen HTML-Dokumenten weiterverwenden wollen, sollten Sie verstehen, wie DynaGeoJ eingebunden wird. Daher wird hier der HTML-Code f&uuml;r die Verwendung von DynaGeoJ beschrieben: </P>
+
+<P>Sie haben mit EUKLID DynaGeo eine Zeichung erstellt und diese in einer GEO-Datei abgespeichert, z.B. unter C:\Programme\DynaGeo\Daten\BEISPIEL.GEO. Wenn Sie nun diese Zeichnung in einer HTML-Seite angezeigt haben wollen, dann m&uuml;ssen Sie an der entsprechenden Stelle des HTML-Quelltextes die folgende "&lt;APPLET&gt;...&lt;/APPLET&gt;"-Deklaration einf&uuml;gen:</P>
+
+<font color="#0000FF">
+<ul>
+<p>&lt;APPLET
+  <ul>code="applet.DynaGeoJ"<br>
+  archive="../dynageoj.jar"<br>
+  width=501<br>
+  height=330<br>
+  </ul>
+&gt;<BR>
+&lt;param name="geofile" value="beispiel.geo"&gt;<BR>
+&lt;/APPLET&gt;</P>
+</ul>
+</font>
+
+<P>Ein paar Erl&auml;uterungen zu den einzelnen Parametern:</P>
+<UL >
+<LI>"code" enth&auml;lt eine eindeutige <B>Identifikation</B> f&uuml;r das DynaGeoJ-Applet.<br>
+<ul><font size="-1">Fr&uuml;here Versionen von DynaGeoJ hatten hier einen unsch&ouml;nen Pfad-Bandwurm stehen. Dieses Manko ist nun beseitigt, ehe die Versionsnummer 1.0 erreicht wird ;-)</font></ul><br>
+</LI>
+<LI>"archive" enth&auml;lt einen Pfad zur JAR-Datei, die das DynaGeoJ-Applet enth&auml;lt: entweder den relativen Pfad von der HTML-Datei selbst zur JAR-Datei (wenn sich beide Dateien auf demselben Server befinden) - oder eine volle <B>Internet-Adresse</B>, unter der der DynaGeoJ-Viewer verf&uuml;gbar ist (z.B. "http://www.dynageo.de/download/dynageoj.jar").<br>
+<br></LI>
+
+<LI>"width" und "height" geben die <B>Abmessungen</B> des Ausgabefensters (in Pixeln) an.<br>
+<br></LI>
+
+<LI>"param" enth&auml;lt den <B>Namen der GEO-Datei</B>, die die Zeichnung enth&auml;lt:<BR>
+"name" muss hier den Wert "geofile" haben, und in "value" steht der Name (ohne Pfad!) der anzuzeigenden GEO-Datei. Dabei wird vorausgesetzt, dass sich diese Datei <b>im selben Verzeichnis</b> befindet wie die HTML-Datei.<br></LI>
+</UL>
+<p>
+<br>
+<br>
+<b>Weitere Hinweise:</b><br>
+<ul>
+<li>Wenn Sie das HTML-Dokument weiterbearbeiten, m&uuml;ssen Sie ein paar <b>Syntax-Regeln</b> beachten. Damit Sie sich die M&ouml;glichkeit einer zuk&uuml;nftigen &Uuml;berarbeitung der Datei in EUKLID DynaGeo erhalten, muss sichergestellt werden, dass EUKLID DynaGeo die DynaGeoJ-Objekte auch stets zuverl&auml;ssig erkennen kann:
+<ul>
+<li><u>Gro&szlig;- und Kleinschreibung</u> spielt bei den Tag-Namen keine Rolle. Seien Sie aber bei <u>Dateinamen</u> in dieser Beziehung sehr vorsichtig, wenn Sie ihre Dateien ins Netz stellen wollen: im Gegensatz zur Praxis unter WINDOWS ist f&uuml;r LINUX-Server die Gro&szlig;- und Kleinschreibung bei Pfadangaben signifikant! </li>
+<li>Achten Sie stets darauf, dass die umschlie&szlig;enden Tags "&lt;APPLET..." und "&lt;/APPLET&gt;" immer <u>alleine in einer eigenen Zeile</u> des HTML-Quelltextes stehen. Es darf also weder <u>vor</u> dem "&lt;APPLET..."-Tag noch <u>nach</u> dem "&lt;/APPLET&gt;"-Tag irgend eine andere wesentliche HTML-Information stehen. Lediglich ein Zeilenumbruch ("&lt;BR&gt;") ist erlaubt.</li>
+</ul>
+Am besten belassen Sie die "&lt;APPLET&gt;"-Tags einfach in dem Zustand, in dem sie von EUKLID&nbsp;DynaGeo erzeugt wurden!<br>
+<br></li>
+<li>Bei neu erzeugten DynaGeoJ-HTML-Seiten stimmen &uuml;blicherweise der Dateiname des HTML-Dokuments und der Dateiname der referenzierten Zeichnung bis auf die Erweiterung &uuml;berein. Sie k&ouml;nnen diese <b>strenge Synchronisation</b> zwischen den Dateinamen aufbrechen, indem Sie im Fenster <i>"Als DynaGeoJ-HTML-Seite speichern"</i> eine andere, eventuell schon bestehende HTML-Datei als Ziel ausw&auml;hlen. Auf diese Art und Weise ist es sogar m&ouml;glich, <u>mehrere</u> DynaGeoJ-Fenster in <u>eine</u> HTML-Seite einzuf&uuml;gen. Beachten Sie aber, dass Sie in einem solchen Fall selbst daf&uuml;r verantwortlich sind, dass beim Transport der HTML-Datei in eine andere Umgebung auch alle zugeh&ouml;rigen GEO-Dateien mitgenommen werden! Normalerweise sollten Sie sich auf <b><nobr><u>ein</u> DynaGeoJ-Objekt</nobr> <nobr>pro HTML-Seite</nobr></b> beschr&auml;nken und die Dateinamen synchron belassen.<br>
+<br></li>
+<li>Wenn Sie bei selbsterstellten DynaGeoJ-HTML-Dokumenten f&uuml;r "archive" eine vollst&auml;ndige <b>Internet-Adresse</b> verwenden, dann erhalten Sie frei verschiebbare HTML-Dokumente; hingegen ist ein <u>relativer</u> Pfad zu einer <u>lokalen</u> JAR-Datei nat&uuml;rlich nicht mehr g&uuml;ltig, wenn Sie das Dokument auf einen <u>anderen Rechner</u> transportieren!<br>
+Trotzdem empfiehlt es sich, f&uuml;r eigene Ver&ouml;ffentlichungen im Netz einen <u>relativen</u> Pfad zu verwenden, der vom HTML-Dokument zu einer lokalen Kopie von "dynageoj.jar" auf dem <u>eigenen Server</u> zeigt. Dies sichert Ihnen die Unabh&auml;ngigkeit Ihrer Site von externen Ressourcen!</li>
+</ul>
+</P>
+<br>
+<br>
+
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,62 @@
+
+  MaxXMLTypeIndex = 53;
+  XMLTypeNames : Array [1..MaxXMLTypeIndex, 0..1] of String =
+          (('TGAngle',             'Angle'),                => tangle
+           ('TGArea',              'Area'),                 => tarea
+           ('TGLocLine',           'Trace'),                => ttrace
+           ('TGPolygon',           'Polygon'),              => tpolygon
+           ('TGCircle',            'Circle'),               => tcircle 
+           ('TGArc',               'Arc'),                  => tarc
+           ('TGBaseCircle',        'BasisCircle'),          => tcircle
+           ('TGFixCircle',         'CircleWDR'),            => tcircle  // nur Export !
+           ('TGXCircle',           'CircleWDR'),            => tcircle
+           ('TGMirrorCircle',      'MirroredCircle'),       => tcircle
+
+           ('TGMovedCircle',       'MovedCircle'),          => tcircle 
+           ('TGOLCircle',          'CircleTrace'),          => tcircle
+           ('TGRotatedCircle',     'RotatedCircle'),        => tcircle 
+           ('TGStretchedCircle',   'StretchedCircle'),      => tcircle
+           ('TGHalfLine',          'Ray'),                  => tline
+           ('TGLongLine',          'Line'),                 => tline
+           ('TGBaseLine',          'BasisLine'),            => tline 
+           ('TGAxis',              'Axis'),		    => tline
+           ('TGMirrorLongLine',    'MirroredLine'),         => tline    
+           ('TGMovedLongLine',     'MovedLine'),            => tline
+
+           ('TGRotatedLongLine',   'RotatedLine'),          => tline
+           ('TGStretchedLongLine', 'StretchedLine'),        => tline  
+           ('TGDirLine',           'LineWDD'),              => tdirline // nur Export !
+           ('TGXLine',             'LineWDD'),              => tdirline
+           ('TGLot',               'Perpendicular'),        => tline
+           ('TGSenkr',             'Perpendicular'),        => tline
+           ('TGMSenkr',            'PerpBisector'),         => tline  
+           ('TGMirrorLine',        'MirroredLine'),         => tline   // nur Export !
+           ('TGOLLongLine',        'LineTrace'),            => tline
+           ('TGParall',            'ParallelLine'),         => tline
+           ('TGWHalb',             'Bisector'),             => tline
+
+           ('TGShortLine',         'Segment'),              => tline
+           ('TGFixLine',           'Stick'),                => tstick
+           ('TGVector',            'Vector'),               => tline
+           ('TGNumberObj',         'Number'),               => tnumber
+           ('TGTermObj',           'Term'),                 => tterm
+           ('TGPoint',             'Point'),                => tpoint 
+           ('TGCoordPt',           'PointWDC'),             => tpoint  // nur Export !
+           ('TGDoublePt',          'DoubleIntersection'),   => tdoubleintersect
+           ('TGLxLPt',             'SingleIntersection'),   => tpoint
+           ('TGMiddlePt',          'MidPoint'),             => tpoint
+
+           ('TGMirrorPt',          'MirroredPoint'),        => tpoint 
+           ('TGMovedPt',           'MovedPoint'),           => tpoint
+           ('TGOrigin',            'Origin'),               => torigin
+           ('TGRotatedPt',         'RotatedPoint'),         => tpoint 
+           ('TGSecondPt',          'SecondIntersectPoint'), => tpoint
+           ('TGStretchedPt',       'StretchedPoint'),       => tpoint
+           ('TGXPoint',            'PointWDC'),             => tpoint
+           ('TGaugePoint',         'UnityPoint'),           => tunitpoint
+           ('TGComment',           'TextBox'),              => ttextobj
+           ('TGDistLine',          'MeasureDistance'),      => tdistance
+
+           ('TGAngleWidth',        'MeasureAngle'),         => tdistance
+           ('TGName',              'ObjectName'));          => ttextobj
+

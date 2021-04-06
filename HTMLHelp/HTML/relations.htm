@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Beziehungen zwischen EUKLID-Objekten</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Verwandtschaft">
+</OBJECT>
+
+<A NAME="idh_Relativities"></A>
+
+<H2>Beziehungen zwischen EUKLID DynaGeo - Objekten</H2>
+<HR>
+
+<P>Die folgenden Ausf&uuml;hrungen sind f&uuml;r den normalen Gebrauch des EUKLID DynaGeo - Programms nicht wichtig. Sie sollen Ihnen lediglich einen kleinen Einblick in die verwendeten Datenstrukturen geben, damit Sie sich m&ouml;glicherweise ein von Ihren Erwartungen abweichendes Verhalten des Programms vielleicht sogar selbst erkl&auml;ren k&ouml;nnen. Aber auch manche Beschr&auml;nkung des EUKLID DynaGeo - Programms k&ouml;nnte beim Studium der folgenden Abschnitte verst&auml;ndlich werden.</P>
+
+<P>Die geometrischen Objekte des EUKLID DynaGeo - Programms stehen untereinander in verschiedenen verwandtschaftlichen Beziehungen. Am h&auml;ufigsten ist hier eine <B>Eltern-Kind-Beziehung</B>. Wird z.B. zur Strecke mit den Endpunkten P<SUB>1</SUB> und P<SUB>2</SUB> die Mittelsenkrechte m<SUB>s</SUB> konstruiert, dann ist die Lage der Mittelsenkrechten durch die Lage der beiden Punkte P<SUB>1</SUB> und P<SUB>2</SUB> eindeutig festgelegt. Im EUKLID DynaGeo - Programm werden diese beiden Punkte daher als die <B>Eltern</B> der Mittelsenkrechten m<SUB>s</SUB> bezeichnet, m<SUB>s</SUB> selbst ist ein <B>Kind</B> von P<SUB>1</SUB> und P<SUB>2</SUB>.</P>
+
+<P>Selbstverst&auml;ndlich k&ouml;nnen auch Kinder ihrerseits wieder Kinder haben, so dass ganze Stammb&auml;ume von geometrischen Objekten entstehen k&ouml;nnen. Au&szlig;er dieser <B>gew&ouml;hnlichen Vererbung</B> gibt es auch noch das Ph&auml;nomen der <B>Adoption</B>: wenn Sie einen Punkt an eine Linie binden, wird dieser Punkt ein Kind dieser Linie, die Linie ein Elter des Punktes. </P>
+
+<P>Der Friede dieses h&uuml;bsch &uuml;berschaubaren, weil streng hierarchischen Stammbaums wird grob gest&ouml;rt durch die Einf&uuml;hrung der Strecken mit fester L&auml;nge. Die Endpunkte einer solchen Strecke sollen zun&auml;chst einmal gleichartig auf irgendwelche Manipulationen reagieren. Wenn allerdings der eine Endpunkt verzogen wird, dann muss der andere im Abstand der Streckenl&auml;nge hinterhergezogen werden; praktisch wird er damit zu einem Kind des gezogenen Endpunkts, der seinerseits die Eltern-Rolle &uuml;bernimmt . H&auml;tten Sie jedoch am anderen Endpunkt der Strecke gezogen, w&auml;ren die Elter- und Kind-Rolle vertauscht. Die gegenseitige Verwandtschaftsbeziehung solcher Punkte wird in EUKLID DynaGeo <B>Freundschaft</B> genannt: unter (echten) <B>Freunden</B> gibt stets derjenige den Ton an, der dies nach der aktuellen Lage der Dinge gerade am besten kann. </P>
+
+<P>Somit kann ein EUKLID DynaGeo - Objekt also Eltern, Kinder und Freunde haben. Damit nun keine sinnwidrigen <B>zirkul&auml;ren Verwandschaftsbeziehungen</B> entstehen, bei denen ein Objekt z.B. sein eigener Gro&szlig;vater wird (und damit auch nat&uuml;rlich sein eigener Enkel!), ist speziell der Vorgang der Adoption durch recht restriktive Randbedingungen eingeschr&auml;nkt: so kann ein Punkt nie an eine Linie gebunden werden, die von diesem Punkt abstammt; dar&uuml;berhinaus darf die Linie noch nicht einmal von einem Freund des zu bindenden Punktes abstammen, weil sonst zumindest zeitweise eine zirkul&auml;re Verwandtschaft zustande kommen k&ouml;nnte (je nachdem, an welchem <A HREF="JavaScript:HHCTRL.TextPopup(pop_baseobj,popfont,10,10,-1,-1)"
+Title="Klicken Sie, um eine Definition zu sehen!">Basisobjekt</A> Sie z.B. ziehen).</P>
+
+<P>Mit diesen eingebauten Schutzmechanismen soll erreicht werden, dass der Stammbaum der geometrischen Objekte in keinem Betriebszustand zirkul&auml;re Verwandtschaften enth&auml;lt. Diese k&ouml;nnen im noch harmlosen (aber trotzdem &auml;rgerlichen) Fall zu <B>Fehlinterpretationen</B> von Strecken fester L&auml;nge f&uuml;hren, welche dann beim Verziehen scheinbar ihre feste L&auml;nge vergessen. Im schlimmsten Fall l&auml;uft EUKLID DynaGeo in eine nicht mehr abbrechende Rekursion hinein, was den sicheren Totalabsturz des Programms zur Folge hat. Leider k&ouml;nnen Sie nicht ganz sicher sein, dass das Hirn des Programmierers ausgereicht hat, zirkul&auml;re Verwandtschaften unter allen Umst&auml;nden zu vermeiden; sollte sich z.B. in Ihrer Zeichnung beim Verziehen ein Streckenendpunkt von seiner Strecke l&ouml;sen, dann liegt der Verdacht nahe, dass es Ihnen gelungen ist, die internen Sperren gegen zirkul&auml;re Verwandtschaften zu &uuml;berlisten.</P>
+
+<P>Leider haben die Schutzmechanismen gegen zirkul&auml;re Verwandtschaften die unsch&ouml;ne Folge, dass es nicht m&ouml;glich ist, einen <B>geschlossenen</B> Ring aus Strecken fester L&auml;nge zu konstruieren. Die Konstruktion z.B. eines Vierecks mit 4 Seiten bestimmter L&auml;nge ist in EUKLID DynaGeo nur m&ouml;glich, wenn Sie dabei Kreise mit bestimmtem Radius benutzen. Dann ist aber mindestens eine Ecke des Vierecks <b>kein</b> Basispunkt. </P>
+
+<p>EUKLID DynaGeo bem&uuml;ht sich intern st&auml;ndig darum, den &Uuml;berblick &uuml;ber den Stammbaum der Objekte zu behalten. So wird z.B. daf&uuml;r gesorgt, da&szlig; die Eltern stets <b>vor</b> den Kindern "da sind". Vielleicht erscheint Ihnen das trivial, denn schlie&szlig;lich haben Sie ja f&uuml;r jedes konstruierte Objekt immer zuerst die Eltern angeben m&uuml;ssen. Allerdings kann eine nachtr&auml;gliche Bindung eines Basispunktes an eine erst lange <u>nach</u> ihm erzeugte Gerade den Stammbaum ganz sch&ouml;n durcheinanderbringen, speziell dann, wenn von diesem Basispunkt weitere Objekte abh&auml;ngen! Die Anordnung der Objekte Ihrer Zeichnung in der internen Objektliste muss daher bei jeder Bindung &uuml;berpr&uuml;ft und gegebenenfalls korrigiert werden. Wundern Sie sich also nicht, wenn Ihre Objekte pl&ouml;tzlich in einer <b>anderen Reihenfolge</b> in der Konstruktionsbeschreibung auftauchen! </p>
+
+<P>Nicht alle der in EUKLID DynaGeo zur Verf&uuml;gung gestellten geometrischen Objekte sind ”zeugungsf&auml;hig”. Normale Ortslinien und Polygone haben z.B. prinzipiell keine Kinder: man kann sie nicht mit anderen Linien schneiden. Allerdings kann man inzwischen Punkte an diese Linien binden, womit sie zumindest die Rolle von "Adoptiv-Eltern" &uuml;bernehmen k&ouml;nnen. Und f&uuml;r die F&auml;lle der linearen und der kreisf&ouml;rmigen Ortslinien k&ouml;nnen die eigentlichen Ortslinien durch entsprechende Geraden- bzw. Kreisobjekte ersetzt werden, die dann in der Zeichnung "weiterverwendbar" sind.</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Details zu Makros</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Makros">
+</OBJECT>
+
+<A NAME="idh_MakroDetails"></A>
+
+<H2>Details zu Makros</H2>
+<HR>
+<br>
+<b><i>Was ist ein Makro?</i></b>
+<ul>Ein Makro ist eine <b>Zusammenfassung mehrerer Konstruktionsbefehle</b> zu einem neuen "Meta-Befehl". Um ein Makro zu erstellen, m&uuml;ssen Sie die Konstruktion, die das Makro ausf&uuml;hren soll, zun&auml;chst einmal vollst&auml;ndig in Ihrer aktuellen Zeichnung durchf&uuml;hren. Erst dann k&ouml;nnen Sie das Makro "aufzeichnen", indem Sie zun&auml;chst die vollst&auml;ndige Reihe aller "Startobjekte" angeben, also alle Objekte, von denen die zu erzeugenden abh&auml;ngen, und sodann die "Zielobjekte", also eben diese zu erzeugenden Objekte. Eine genaue Beschreibung des Vorgangs der Makro-Aufzeichnung finden Sie unter <a href="makroneu.htm">Neues Makro erstellen</a>.</ul>
+<br>
+<b><i>Makro-Verwaltung:</i></b>
+<ul>
+<P>Makros geh&ouml;ren nach ihrer Erzeugung zu der Zeichnung, in der sie definiert wurden, und werden mit dieser Zeichnung abgespeichert. Wenn Sie die Zeichnung sp&auml;ter erneut laden, stehen die Makros ebenfalls wieder zur Verf&uuml;gung. Damit Sie aber ein solches Makro auch in einer <b>anderen</b> Zeichnung benutzen k&ouml;nnen, m&uuml;ssen Sie es aus der aktuellen Zeichnung <a href="makrosave.htm">exportieren</a> und in die andere Zeichnung <a href="makroload.htm">importieren</a>. Beim Export wird das Makro in eine Datei mit der Kennung ".mak" geschrieben. Es ist zwar nicht (mehr) unbedingt n&ouml;tig, jedes Makro in eine eigene ".mak"-Datei zu schreiben, weil es ja mit der Zeichnung abgespeichert wird. Gleichwohl ist es empfehlenswert, dies trotzdem zu tun, um n&auml;mlich die erstellten Makros f&uuml;r <b>alle</b> Zeichnungen verf&uuml;gbar zu machen.</P>
+</ul>
+<br>
+<b><i>Welche Objekte k&ouml;nnen in einem Makro verwendet werden?</i></b>
+<ul>
+<P>Fast alle geometrischen Objekte, die Sie als ”Eltern” in Konstruktionen verwenden, k&ouml;nnen auch in einer Makro-Konstruktion verwendet werden. Lediglich <B>Ortslinien</B> sind prinzipiell von der Verwendung in Makros ausgeschlossen. Vorsicht ist auch bei der Verwendung von <b>Kegelschnitten</b> in Makros geboten:  je nach Konstruktion kann es n&ouml;tig sein, dass der zur Laufzeit eingesetzte Kegelschnitt von der gleichen Sorte sein muss wie der zur Designzeit verwendete. Entsprechend m&uuml;ssen Sie bei der Verwendung von <B>Polygonen</B> darauf achten, dass die <B>Anzahl der Ecken</B> zur Laufzeit des Makros mit der zur Designzeit vorliegenden Eckenzahl &uuml;bereinstimmt. Andernfalls erhalten Sie eine Fehlermeldung, und die Makroausf&uuml;hrung wird abgebrochen.</P>
+
+<P>Beachten Sie, dass <B>jedes Zielobjekt</B> sich vollst&auml;ndig aus den jeweils <B>angegebenen Startobjekten</B> ableiten lassen muss. Dies ist speziell beim Einsatz von Kreisen mit bestimmtem Radius oder Geraden in bestimmtem Winkel zu bedenken, denn die <a href="termsyntax.htm"><b>Terme</b></a> f&uuml;r Radien oder Winkel k&ouml;nnen durchaus Bez&uuml;ge auf andere Objekte beinhalten, an die Sie zun&auml;chst nicht gedacht haben. Als Datenquellen f&uuml;r solche "bestimmten Radien" bzw. "bestimmte Winkel" eignen sich derzeit ausschlie&szlig;lich <b>Schieberegler</b>, die inzwischen f&uuml;r den Makro-Einsatz aufger&uuml;stet wurden.</P>
+</ul>
+<br>
+<b><i>Interne Details zu Start-Objekten:</i></b>
+<ul>
+<P>Auf Wunsch einiger EUKLID DynaGeo - Anwender wurde eine Automatik in die Makroaufnahme eingebaut, die dazu f&uuml;hrt, dass mit einer <B>Strecke</B> als Startobjekt auch ihre <B>Endpunkte</B> im Makro verf&uuml;gbar werden. Es werden also die Streckenendpunkte als <B>implizite Startobjekte</B> mitregistriert. Diese auf den ersten Blick komfortabel erscheinende Erweiterung erweist sich jedoch manchmal als unpraktisch, weil der Anwender dann zur Laufzeit des Makros die <B>Orientierung</B> dieser Startstrecke nicht mehr kontrollieren kann. In allen F&auml;llen, in denen es Ihnen also auf die Orientierung einer Startstrecke ankommt, sollten Sie auch weiterhin als Startobjekte statt einer Strecke ihre Endpunkte verwenden. Weitere implizite Startobjekte sind f&uuml;r Kreise die jeweiligen Mittelpunkte und f&uuml;r Polygone alle Eckpunkte. Dar&uuml;berhinaus kennt jedes Makro als generelle implizite Startobjekte die Achsen und den Ursprung des Koordiantensystems.</P>
+
+<P>Die Typen der Startobjekte, die Sie zur Entwurfszeit eines Makros w&auml;hlen, legen die zul&auml;ssigen Typen der Startobjekte zur Laufzeit fest, und zwar gem&auml;&szlig; der folgenden Tabelle:</P>
+
+<div align="center">
+<TABLE border cols="2" cellpadding="10" cellspacing="0" frame="void" width="500">
+
+<TR VALIGN="top">
+<TD width=40%> <B>Startobjekt zur <br>Entwurfszeit</B>
+</TD>
+<TD width=60%><B>M&ouml;gliche Startobjekt-Typen <br>zur Laufzeit</B>
+</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>ein Punkt</TD>
+<TD width=60%>alle Punkt-Typen</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>eine Strecke</TD>
+<TD width=60%>alle Strecken-Typen</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>eine Gerade</TD>
+<TD width=60%>alle Geraden- und Strecken-Typen</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>ein Kreis</TD>
+<TD width=60%>alle Kreis-Typen</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>ein Kegelschnitt</TD>
+<TD width=60%>alle Kegelschnitte <br>(eventuell von der gleichen Sorte)</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>ein Polygon mit n Ecken</TD>
+<TD width=60%>alle Polygone mit n Ecken</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>ein Schieberegler</TD>
+<TD width=60%>alle Schieberegler</TD>
+</TR>
+</TABLE><BR>
+</div>
+
+<P>Bitte beachten Sie dabei besonders die Behandlung von Strecken und Geraden: <BR>
+Wenn Sie wollen, dass der Benutzer Ihres Makros f&uuml;r ein bestimmtes Startobjekt <B>eine Strecke oder eine Gerade</B> eingaben kann, dann m&uuml;ssen Sie zur Entwurfszeit f&uuml;r dieses Startobjekt <B>eine Gerade</B> benutzen; nehmen Sie zur Entwurfszeit eine Strecke, dann kann der Benutzer zur Laufzeit auch nur eine Strecke verwenden! <BR>
+(Mit anderen Worte: in der Klasse der Geraden ist die Klasse der Strecken enthalten.)</P>
+<br>
+</ul>
+
+<b><i>Genau planen und dokumentieren!</i></b>
+<ul>
+<P>Wenn Sie ein Makro programmieren, sollten Sie mit <B>viel Umsicht</B> zu Werke gehen. Selbst dann kann es passieren, dass beim Ablauf des Makros nicht genau die Objekte erzeugt werden, die Sie sich vorgestellt hatten. Pr&uuml;fen Sie in diesem Fall, ob die <B>Randbedingungen</B> zur Ablaufzeitzeit hinreichend genau mit denen zur Aufnahmezeit &uuml;bereinstimmen. </P>
+
+<P>Planen Sie beim Entwurf eines Makros die relativen <B>Orientierungen</B> von Start- und Zielobjekten bewusst mit ein. Falls mehrere Startobjekte gleichen Typs direkt nacheinander einzugeben sind, sollten Sie dem Benutzer im <B>Hilfetext</B> des Makros auch erkl&auml;ren, welchen Einfluss die Reihenfolge der Startobjekte auf die Lage der Zielobjekte hat.</P>
+</ul>
+<br>
+
+<br>
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<li><a href="menumakro.htm">Men&uuml; Makro</a></li>
+</ul>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

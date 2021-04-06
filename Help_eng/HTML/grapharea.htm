@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Area below a function graph</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Konstruieren">
+        <PARAM NAME="Keyword" VALUE="Funktion">
+        <PARAM NAME="Keyword" VALUE="Fl&auml;che">
+        <PARAM NAME="Keyword" VALUE="Schaubild">
+        <PARAM NAME="Keyword" VALUE="Integral">
+</OBJECT>
+
+<A NAME="idh_cm_grapharea"></A>
+
+<H2>Area below a function graph&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../images/toolgrapharea.gif" ALT="" BORDER=0></H2>
+<HR>
+
+<P>This command draws an <b>"integral area"</b>.
+<ul><font size="-1">The following description assumes that the "upper border function" runs completely above the "lower border function" resp. above the x-axis. It is clear that DynaGeo can also draw integral areas that do not fullfill this precondition. So this is not a restriction of the program, but serves only to keep the following description simple.<br></font></ul>
+
+To define the wanted area, please follow these 3 steps:</p>
+
+<P>
+<ol type="1" start="1">
+<li>First, click on the <b>function graph</b> that is to serve as the "upper border".<br>
+<br></li>
+<li>Second, mark the <b>interval of integration</b>: indicate <b>two points</b> the <nobr>x-coordinates</nobr> of which define the interval of integration. You can use already existing points, or create new basis points by a mouse click. If the two points are free basis points, they are snapped to the x-axis.<br>
+<br></li>
+<li>
+Finally, the <b>lower border</b> of the area must be specified. There are two possibilities:<br>
+<br>
+<ol start="a" type="a">
+<li>A simple "area below a graph" has the <nobr>x-axis</nobr> as lower border.<br>
+In this case, click on the <nobr><b>x-axis</b></nobr>.<br>
+<br></li>
+<li>If you want to define an "area between two graphs",<br>
+then click on a <b>second function graph</b>.</li>
+</ol>
+</li>
+</ol>
+After that, the appropriate integral area object is created and displayed. <br>
+<br>
+<br>
+</P>
+
+<b>Please note:  </b>
+<br>
+<ul>
+<li>The left and right border of an integral area is always determined by line segments orthogonal to the x-axis. The upper border is always given by a function graph, while the lower border can be delivered by the x-axis or by a second function graph.<br>
+<br>
+</li>
+<li>To use the size value of such an integral area in a term, there is a standard function <i>area()</i>. If the integral area has the name "Int1", then the term <nobr>"area(Int1)"</nobr> delivers the actual size of this area. But please note, that this value gives the so-called "<b>oriented size</b>", which is delivered by the usual integration: so the area between a full period of the sine curve and the x-axis has the oriented size 0 !<br>
+<br>
+</li>
+<li>As long as the border functions are <b>continuous</b> and <b>defined for all real numbers</b>, the calculation of integral areas is done without problems. But if there are gaps in the function's range, then the interval of integration <b>must not</b> contain any of these gaps. If you do not take care for this, the integral area may disappear from your drawing, or the "area()" function will deliver wrong values. E.g., when you use a fractional rational function as border, then the interval of integration must not contain any of the poles of this border function.<br>
+<br>
+</li>
+<li>A special case is given by <u>discontinuous border functions with limited jumps</u> like e.g. the "floor()" function. DynaGeo tries to calculate the corresponding integral areas too, but the results are not as accurate as in the case of continuous border functions, especially when the interval of integration is not completely inside the visible window. <br>
+</li>
+</ul>
+<br>
+<br>
+<p><b>ALT command: <a href="riemannsum.htm">Riemann sum</a></b><br>
+<ul>When you select the command <I>Area below a function graph</I> on the <i>Curves bar</i> and you hold down the <I>ALT key</I> while clicking the button, then instead of the integral area a Riemann sum is created. This needs some additional input informations. The details are described in the section about the command <a href="riemannsum.htm">Riemann sum</a>. </ul>
+</P>
+</FONT>
+</BODY>
+</HTML>

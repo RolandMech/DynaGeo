@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Optionen f&uuml;r interne Programmparameter</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Einstellungen">
+        <PARAM NAME="Keyword" VALUE="Optionen">
+        <PARAM NAME="Keyword" VALUE="Drucken">
+</OBJECT>
+
+<A NAME="idh_opt_intern"></A>
+
+<H2>Einstellungen | Internes</H2>
+<HR>
+<p></p>
+
+<P><B>Mausfangbereich:</B><br>
+<ul>Dieser Parameter regelt, wie dicht der Mauszeiger bei einem geometrischen Objekt stehen muss, damit dieses eingefangen wird.<br>
+Bereich  [ 1........ (<b>5</b>) ......... 25 ]</ul><br>
+</P>
+
+<P><B>Zoomfaktor:</B><br>
+<ul>Dies ist der Streckfaktor, mit dem das Bild zentrisch gestreckt wird, wenn Sie den Men&uuml;befehl Bearbeiten | Zeichnung vergr&ouml;&szlig;ern anw&auml;hlen.<br>
+Bereich:  [ 1 ...... (<b>1.5</b>) ....... 10 ]</ul><br>
+</P>
+
+<P><B>Genauigkeit beim Winkelvergleich:</B><br>
+<ul>Ein Winkel w<SUB>1</SUB> wird einem anderen Winkel w<SUB>2</SUB> als gleich erachtet, wenn w<SUB>1</SUB> im Intervall  <nobr>[w<sub>2</sub>-dw, w<sub>2</sub>+dw]</nobr>  liegt. In diesem Feld k&ouml;nnen Sie dw eingeben, wobei der Wert (ausnahmsweise!) im Gradma&szlig; interpretiert wird, ohne dass ein Gradzeichen nachgestellt wird: die Einheit ist schon hinter dem Eingabefeld vermerkt.<br>
+Bereich:  [ 10<SUP>-5</SUP>........(<b>0.5</b>)........10 ]</ul><br>
+</P>
+
+<P><B>Genauigkeit beim L&auml;ngenvergleich:</B><BR>
+<ul>Zwei L&auml;ngen d1 und d2 werden als gleich erachtet, wenn d1 im Intervall <nobr>[d2-dd, d2+dd]</nobr> liegt. In diesem Feld k&ouml;nnen Sie dd in der Einheit Pixel eingeben.<BR>
+Bereich:  [ 1*10<SUP>-12</SUP>.......(<b>1*10<sup>-8</sup></b>).......1 ]</ul><BR>
+</P>
+
+<P><B>"Punkt"-Befehl mit erweiterter Funktionalit&auml;t:</B><br>
+<ul>Wenn Sie diese Option aktivieren, wird der Befehl "<i>Punkt erzeugen</i>" so erweitert, dass er auch einen <i>Punkt auf einer Linie</i> bzw. <i>Schnittpunkte</i> erzeugen kann. Im Einzelnen k&ouml;nnen folgende F&auml;lle auftreten:<br>
+<br>
+<ul>
+<li>Wenn Sie an eine freie Stelle Ihrer Zeichnung klicken, an der es <u>keine Linie</u> gibt, wird ein neuer Basispunkt erzeugt. Das ist die normale Funktion dieses Befehls.</li>
+<li>Wenn Sie auf eine Stelle klicken, an der es <u>genau eine Linie</u> gibt, wird ein neuer Basispunkt erzeugt und an diese Linie gebunden.</li>
+<li>Wenn sich an der Stelle, auf die Sie klicken, <u>genau zwei Linien</u> kreuzen, wird dieser Schnittpunkt der beiden Linien erzeugt. Sollten diese beiden Linien jedoch noch mehr Schnittpunkte haben, werden diese ebenfalls erzeugt: DynaGeo erzeugt stets die gesamte Schnittmenge zweier Linien.</li>
+<li>Wenn durch die angeklickte Stelle <u>drei oder mehr Linien</u> verlaufen, erhalten Sie nur eine Fehlermeldung, weil DynaGeo dann nicht entscheiden kann, was nun sinnvollerweise zu tun w&auml;re.</li>
+</ul>
+<br>
+Wem eine klare logische Konzeption wichtiger ist als vordergr&uuml;ndiger Oberfl&auml;chen-Komfort, der wird diese Option deaktiviert lassen: nicht umsonst wird in DynaGeo konsequent zwischen Basispunkten und abh&auml;ngigen Punkten unterschieden!
+</ul>
+<BR>
+</P>
+
+<p><b>Korrektheits-Pr&uuml;fung animiert durchf&uuml;hren:</b><br>
+<ul>Wenn dieses K&auml;stchen markiert ist, wird w&auml;hrend einer Korrektheitspr&uuml;fung der von DynaGeo intern durchgef&uuml;hrte Zugvorgang auf dem Bildschirm dargestellt. Damit k&ouml;nnen Sie DynaGeo sozusagen "beim Nachdenken zuschauen". Wenn Sie die Markierung entfernen, wird der Zugvorgang nur intern durchgerechnet. Der Verzicht auf die Darstellung auf dem Bildschirm beschleunigt den Vorgang enorm.</ul><br>
+</p>
+
+<p><b>Fette Mauszeiger verwenden:</b><br>
+<ul>Diese Option ist f&uuml;r Sehbehinderte gedacht, die die d&uuml;nnen Linien der Standard-Auswahl-Cursor von EUKLID DynaGeo nicht gut genug erkennen k&ouml;nnen. Wenn Sie dieses K&auml;stchen markieren, werden dicker gezeichnete Auswahl-Cursor verwendet.</ul><br>
+</p>
+
+<p><b>XML-Ausgabe-Format:</b><br>
+<ul>Hier k&ouml;nnen Sie interne Details &uuml;ber das Format der GEO-Dateien einstellen. Es stehen 4 Optionen zur Verf&uuml;gung:<br>
+<br>
+<ol start="1" type="1">
+<li><b>ZIP-komprimiert:</b><br>
+dies f&uuml;hrt zu recht kompakten GEO-Dateien, die allerdings den f&uuml;r XML typischen Vorteil einb&uuml;&szlig;en, lesbaren Klartext zu enthalten.<br>
+<br></li>
+<li><b>unformatiert:</b><br>
+dies f&uuml;hrt zu relativ kleinen GEO-Dateien, die in geeigneten Text-Editoren darstellbar sind. Beim Versenden als EMail-Attachments k&ouml;nnen solche Dateien jedoch Probleme bereiten, wenn ein EMail-Programm nicht korrekt mit den hierbei verwendeten langen Zeichenketten umgehen kann. <br>
+<br></li>
+<li><b>kurze Zeilen:</b><br>
+dies ist das voreingestellte und <b><u>empfohlene GEO-Format</u></b>. Bei der Erstellung der Datei werden Zeilenumbr&uuml;che eingef&uuml;gt, so dass erst gar keine zu langen Zeilen entstehen und somit auch  kaum Probleme zu erwarten sind, wenn Sie diese GEO-Dateien als EMail-Attachments versenden. Allerdings sind solche Dateien durch die zus&auml;tzlichen Zeichen etwas gr&ouml;&szlig;er als die jeweils entsprechende "unformatierte" Version.<br>
+<br></li>
+<li><b>"pretty print":</b><br>
+hier werden zus&auml;tzlich zu den Zeilenumbr&uuml;chen des "Kurze Zeilen"-Formats noch Tabulatorzeichen eingef&uuml;gt, um die Hierarchie-Stufen innerhalb der XML-Datei zu verdeutlichen. Die Dateien werden dadurch jedoch nochmals deutlich vergr&ouml;&szlig;ert, was sich nur lohnt, wenn Sie sie regelm&auml;&szlig;ig in einem Text-Editor Ihrer Wahl betrachten wollen.<br>
+<br></li>
+</ol>
+Im Normalfall sollten Sie das empfohlene Format "Kurze Zeilen" eingestellt lassen, sofern Sie nicht ernsthafte Gr&uuml;nde daf&uuml;r haben, eine andere Variante zu w&auml;hlen. Wenn Sie den Inhalt der GEO-Datei trotzdem "sch&ouml;n dargestellt" sehen wollen, laden Sie die Datei einfach in den Internet-Explorer: dieser stellt sogar die von der "unformatierten" Variante gelieferten XML-Daten sehr &uuml;bersichtlich dar!<br>
+<br>
+<br>
+</ul>
+</p>
+
+<p><b>Experten-Optionen:</b><br>
+<ul>Dieser Knopf f&uuml;hrt Sie (<i><u>nach einer sehr ernstgemeinten Warnung!</u></i>) zu einem eigenen Fenster, indem Sie einige nicht ganz ungef&auml;hrliche interne Parameter von DynaGeo einstellen k&ouml;nnen:<br><br>
+<ol start="1" type="1">
+<li>Im Kasten <b>"Aktualisierungsstrategie im Zugmodus"</b> k&ouml;nnen Sie die Strategie w&auml;hlen, nach der im Zugmodus die Lage der jeweils abh&auml;ngigen Objekte festgelegt wird. Sie entscheiden damit, ob Ihnen die <u>Determiniertheit</u> oder die <u>Kontinuit&auml;t</u> Ihrer Zeichnung wichtiger ist. Als <b><font color="#FF0000">Standard</font></b> f&uuml;r jede neu erstellte Zeichnung ist eine <b><font color="#FF0000">reversible Aktualisierungsstrategie</font></b> eingestellt. Weitere Details zu diesem nicht ganz einfachen Thema finden Sie im Abschnitt &uuml;ber <a href="jumpingpoints.htm">Das Problem der "Springenden Punkte"</a>.<br>
+<br>
+Die vom Autor f&uuml;r seine Zeichnung gew&uuml;nschte Aktualisierungsstrategie wird in der GEO-Datei mit abgespeichert und bei jedem sp&auml;teren &Ouml;ffnen der Zeichnung automatisch wieder eingestellt. <i>Sie sollten diese Einstellung nur &auml;ndern, wenn Sie sehr genau wissen, was Sie tun!</i><br>
+<br>
+<font color="#FF0000"><b><i>Achtung !</i></b></font><br>
+<br>
+<ul>EUKLID DynaGeo ist von seiner Anlage her ein eher auf Reversibilit&auml;t ausgerichtetes Geometrie-Programm. Sollte es bei der weiteren Entwicklung zu Situationen kommen, in denen eine Entscheidung zwischen deterministischer und reversibler Aktualisierungsstrategie unausweichlich erscheint, dann wird stets der <b>Reversibilit&auml;t</b> der Vorrang einger&auml;umt werden.
+</ul><br>
+</li>
+<li>Im Kasten "<b>Rekursion</b>" k&ouml;nnen Sie dar&uuml;ber entscheiden, ob DynaGeo rekursive Funktions-Definitionen zulassen soll oder nicht. Im Normalfall lehnt DynaGeo jegliche Rekursion ab. Weitere Details zu diesem nicht ganz einfachen Thema finden Sie im Abschnitt "<a href="recurs_fkt.htm">Das Problem der rekursiven Funktionen</a>".<br>
+<br>
+<font color="#FF0000"><b><i>Achtung !</i></b></font><br>
+<br>
+<ul>Die Definition einer rekursiven Funktion ist ein trickreicher und fehleranf&auml;lliger Vorgang. In der Standard-Konfiguration ist diese Option in EUKLID DynaGeo abgew&auml;hlt, so dass das Programm jeden Versuch einer rekursiven Definition ablehnt. Wenn Sie auf Stabilit&auml;t Wert legen, dann sollten Sie es dabei belassen.
+</ul><br>
+</li>
+</ol>
+</ul>
+</p>
+</FONT>
+</BODY>
+</HTML>

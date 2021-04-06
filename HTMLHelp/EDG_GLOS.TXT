@@ -1,0 +1,36 @@
+.topic IDH_BASISOBJEKT
+Basisobjekt:
+     Ein Objekt, dessen Daten nicht von anderen Objekten abhängen, heißt Basisobjekt. Wenn Sie z.B. einen Punkt durch einen Mausklick erzeugen, dann ist dies ein Basispunkt: er erhält seine Koordinaten 
+von der Maus. Wenn jedoch ein Punkt als Schnittpunkt zweier Geraden definiert ist, dann ist er 
+kein Basispunkt: seine Koordinaten hängen von der Lage dieser beiden Geraden ab.
+Basisobjekte lassen sich jederzeit mit der Maus ziehen. Neben Basispunkten kennt EUKLID DynaGeo 
+noch Basisgeraden und Basiskreise.
+
+.topic IDH_AUTOCHOOSE
+Automatische Auswahl:
+Wenn Sie im Editier-Modus an eine Stelle des Bildschirms klicken,\nan der sich mehrere Objekte 
+befinden, bemüht sich EUKLID DynaGeo herauszufinden, welches der Objekte Sie nun wohl meinen. 
+Dazu ist jeder der verschiedenen Objektarten eine charakteristische Priorität zugeordnet, und zwar 
+gemäß der folgenden (nach abnehmender Priorität geordneten) Reihe:
+     Punkte - Strecken - Geraden - Kreise - Namen - Maßobjekte - Polygone.
+Kann EUKLID DynaGeo nach dieser Reihe zweifelsfrei entscheiden, welches Objekt gemeint ist, dann 
+wird ohne weitere Nachfrage dieses Objekt bearbeitet. Andernfalls fragt EUKLID DynaGeo mit einer 
+Auswahlbox nach, welches Objekt Sie nun tatsächlich bearbeiten wollen.
+
+pop_drag="Verziehen:\n\tWenn Sie mit dem Maus-Cursor auf das zu ziehende Objekt fahren,\ndie linke Maustaste drücken und sie gedrückt halten und dann die Maus\nverschieben, dann folgt das Objekt der Bewegung des Maus-Cursors, bis\nSie die linke Maustaste wieder loslassen."
+ 
+pop_term="Bei der Term-Eingabe sind die folgenden Sprachmittel verfügbar:\n\nOperationen:\t+, -, *, /, ^\n\nStandard-Funktionen:\n\tsqrt(), sin(), cos(), tan(), arctan(), arcsin(), arccos(),\n\tabs(), exp(), ln(), log(), sqr(), int(), frac()\n\tDie trigonometrischen Funktionen arbeiten alle\n\tim Gradmaß.\n\nKonstanten:\tpi, e\n\nWeitere Funktionen:\n   d(Obj1,Obj2)\tAbstand der Objekte Obj1 und Obj2\n   w(A,S,Z)\tGradmaß des Winkels ASZ\n   val(Z), val(T)\tAktueller Wert eines Zahl- bzw. Termobjekts\n   cx(P), cy(P)\tKoordinaten des Punktes P\n   radius(k)\tRadius des Kreises k\n   len(s)\t\tLänge der Strecke s\n   area(N)\tFlächeninhalt des Polygons N"
+
+pop_autorepeat="Automatische Befehlswiederholung:\n\tWenn Sie beim Klicken auf ein Symbol der Werkzeugleiste\ndie Umschalt-Taste gedrückt halten, wird der zugehörige Befehl\n(sofern möglich) im Modus der automatischen Wiederholung aktiviert:\ndadurch wird der Befehl nach seiner vollständigen Ausführung solange\nwiederholt, bis Sie diesen Modus mit der ESC-Taste abbrechen."
+
+pop_selframe="Auswahlrahmen:\n\tWenn Sie mit der linken Maustaste an eine Stelle der aktuellen\nZeichnung klicken, an der sich kein Objekt befindet, und dann bei\ngedrückt gehaltener Maustaste die Maus ziehen, erscheint ein gestrichelt\ngezeichneter Auswahlrahmen.\n\nEin solcher Rahmen ist lediglich für den Export in die Zwischenablage\nsowie das Abspeichern von Zeichnungen im BMP-Format von Bedeutung:\ndann wird statt der gesamten Zeichnung nur der Inhalt des Rahmens\nkopiert bzw. abgespeichert.\n\nUm den Rahmen wieder zu entfernen, klicken Sie mit der linken Maustaste\nauf eine andere, freie Stelle des Zeichenblattes."
+
+pop_contextmenu="Kontext-Menü:\n\tWenn Sie mit der rechten Maustaste auf ein Objekt klicken,\ndann erscheint sein Kontext-Menü. Es enthält für gewöhnliche\ngeometrische Objekte z.B. die Einträge\n\t'Verbergen', 'Benennen' und 'Farbe'.\n\nJe nach Typ folgen dann Einträge zu Parametern der Darstellung\ndes Objekts, wie z.B. Punktform, Linienart oder Füllmuster.\n\nFür manche Objekte gibt es weitere spezielle Einträge. Details\ndazu finden Sie bei der Beschreibung der jeweiligen Objekt-Typen."
+
+pop_menuconf="Menükonfiguration:\n\tEine Menükonfiguration ist eine bestimmte Auswahl von aktiven Befehlen\naus der Gesamtheit der möglichen EUKLID DynaGeo - Menübefehle. Sie können den\nBefehlsumfang des Programms reduzieren, indem Sie einige Befehle deaktivieren.\n\nDeaktivierte Menübefehle erscheinen grau (statt schwarz) und können nicht mehr\nangewählt werden; falls zu einem deaktivierten Menübefehl auch ein Icon in einer\nWerkzeugleiste gehört, dann wird dieses Icon ebenfalls deaktiviert und erscheint\ngrau (statt farbig)."
+
+pop_contmenu_draw="Kontext-Menü der Zeichung:\n\tWenn Sie im Zugmodus mit der rechten Maustaste an eine Stelle\nder aktuellen Zeichnung klicken, an der sich kein Objekt befindet, dann\nerscheint ein Kontextmenü, in dem Sie:\n\n  --  das Neu-Zeichnen der aktuellen Konstruktion auslösen können;\n  --  die Basisobjekte blinken lassen können"
+
+pop_anigear="Animations-Steuerobjekte sind:\n\t1. Basis-Punkte, die an eine Strecke, einen Kreis \n\t\toder ein Polygon gebunden sind\n\t2. Zahlobjekte \nDie zu animierenden Objekte müssen in Abhängigkeit von einem solchen \nSteuerobjekt konstruiert werden. Wenn sich dann das Steuerobjekt bewegt, \nbewegen sich alle abhängigen Objekte entsprechend."
+
+

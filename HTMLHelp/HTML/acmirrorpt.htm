@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Objekt an einem Kreis spiegeln</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Abbilden">
+        <PARAM NAME="Keyword" VALUE="Abbildung">
+        <PARAM NAME="Keyword" VALUE="Spiegelung">
+        <PARAM NAME="Keyword" VALUE="Kreisspiegelung">
+        <PARAM NAME="Keyword" VALUE="Inversion">
+</OBJECT>
+
+<A NAME="idh_cm_MirrorPtAtCircle"></A>
+
+<H2>Objekt an einem Kreis spiegeln&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../images/toolmirrorcirclept.gif" ALT="" BORDER=0></H2>
+<HR>
+
+<P><font size="-1">(<a HREF="JavaScript:HHCTRL.TextPopup(pop_autorepeat,popfont,10,10,-1,-1)"
+Title="Klicken Sie, um eine Definition zu sehen!">automatisch wiederholbar</a>)</font></P>
+
+<P>Geben Sie zuerst das abzubildende <b>Objekt</b> an und dann den <b>Kreis</b>, an dem gespiegelt werden soll.<br>
+Dann wird das entsprechende <b>Spiegelobjekt</b> gezeichnet.<br>
+<br>
+</P>
+<br>
+
+<p><b><i>Bitte beachten Sie:</i></b>
+<ul>
+<li>Als Urbildobjekte sind bei dieser Abbildung nur <u>Punkte</u>, <u>Geraden</u> und <u>Kreise</u> zugelassen!<br>
+<br></li>
+<li>Wenn Sie diese Abbildung automatisch wiederholen, wird f&uuml;r alle Wiederholungen der bei der <u>ersten</u> Kreisspiegelung benutzte Spiegelkreis verwendet. Es werden also alle Objekte am <u>selben</u> Kreis gespiegelt!<br>
+<br>
+</li>
+</ul>
+</p>
+
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<li><a href="aspieobj.htm">Objekt an einer Achse spiegeln</a></li>
+<li><a href="apspieobj.htm">Objekt an einem Punkt spiegeln</a><br>
+<br>
+</li>
+</ul>
+<br>
+</P>
+<br>
+
+
+<p><b><i>Ein kleiner mathematischer Exkurs:</i></b></p>
+
+<ul><P>Die Kreisspiegelung geh&ouml;rt bisher noch nicht zum festen Kanon des Mathematik-Unterrichts, weshalb hier eine <b>Definition</b> angegeben werden soll: bei der Spiegelung eines Punktes P an einem Kreis k(M,r) liegt der Bildpunkt P' stets auf der Halbgeraden [MP), und zwar in einer solchen Entfernung vom M, dass gilt:
+<ul><ul><nobr>|MP| * |MP'| = r&sup2;.</nobr></ul></ul></P>
+
+<p>Leider gibt es keine elementare Konstruktion von P' aus P und dem "Spiegelkreis" k(M,r), die f&uuml;r alle m&ouml;glichen relativen Lagen von P und k g&uuml;ltig ist. F&uuml;r den einen Fall, dass sich P <u>innerhalb</u> des Kreises befindet, kann P' gem&auml;&szlig; der folgenden Zeichnung konstruiert werden, in der der Kundige die obige Formel als den Kathetensatz wiedererkennt:<br>
+<br>
+<div align="center"><img src="../images/Kreisspiegelung.png" alt="Elementare Kreisspiegelung" border="0"></div>
+<br>
+Die Konstruktion versagt nat&uuml;rlich, wenn P <u>au&szlig;erhalb</u> des Kreises liegt, weil dann T nicht mehr definiert ist. Im Grunde muss man aber nur P und P' die Rollen tauschen lassen: dieser Hinweis gen&uuml;gt Ihnen wahrscheinlich schon, um ohne gr&ouml;&szlig;ere Schwierigkeiten auch f&uuml;r diesen Fall eine eigene elementare Konstruktion zu entwerfen. Falls Sie noch einen weiteren Tip brauchen: Hilfe ist in Milet zu finden... ;-)<br>
+</p>
+
+<p>Die Kreisspiegelung ist jedoch <b>nicht geradentreu</b>, wie wir dies von den Kongruenz-Abbildungen und auch den affinen Abbildungen gewohnt sind! Nur solche Geraden, die durch den Mittelpunkt des Spiegelkreises gehen, werden auf Geraden abgebildet, und zwar auf sich selbst: sie sind Fixgeraden. Alle anderen Geraden werden auf Kreise abgebildet. Und Kreise werden ihrerseits auf Bildkreise abgebildet; nur diejenigen, die durch den Mittelpunkt des Spiegelkreises verlaufen, werden auf Geraden abgebildet. Fasst man in einer projektiven Betrachtungsweise Geraden als Kreise mit unendlichem Radius auf, dann ist die Kreisspiegelung also <b>"kreistreu"</b>.</p>
+
+<p><i>Zum Weiterdenken:</i><br>
+Leicht sieht man, dass die Kreisspiegelung keine Fixpunktgerade und genau einen Fixpunktkreis hat. Etwas schwieriger ist es schon, die Menge der Fixkreise zu bestimmen. Schaffen Sie das? </p>
+</ul>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

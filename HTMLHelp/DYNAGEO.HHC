@@ -1,0 +1,881 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Inhaltsverzeichnis">
+		<param name="Local" value="html\inhalt.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Einf&uuml;hrung">
+		<param name="Local" value="html\newbies.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Was ist EUKLID DynaGeo?">
+			<param name="Local" value="html\grundlagen.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Voraussetzungen">
+			<param name="Local" value="html\voraussetzungen.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Das EUKLID DynaGeo - Fenster">
+			<param name="Local" value="html\euklwindow.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tastatur und Maus">
+			<param name="Local" value="html\tastaturmaus.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Formen des Mauszeigers">
+			<param name="Local" value="html\mousearrows.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Spezialtasten">
+			<param name="Local" value="html\specialkeys.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Die Men&uuml;-Befehle">
+		<param name="Local" value="html\menues.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Men&uuml; Datei">
+			<param name="Local" value="html\menudatei.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Neu">
+				<param name="Local" value="html\neu.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Ouml;ffnen">
+				<param name="Local" value="html\load.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Speichern">
+				<param name="Local" value="html\speichern.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Speichern unter...">
+				<param name="Local" value="html\saveas.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Als DynaGeoX-HTML-Seite speichern">
+				<param name="Local" value="html\savedgxpage.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Als DynaGeoJ-HTML-Seite speichern">
+				<param name="Local" value="HTML\savedgjpage.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Drucker-Optionen">
+				<param name="Local" value="html\druckeropt.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Druckbild-Vorschau">
+				<param name="Local" value="html\printpreview.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Drucken...">
+				<param name="Local" value="html\drucken.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Ende">
+				<param name="Local" value="html\ende.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Men&uuml; Bearbeiten">
+			<param name="Local" value="html\menubearb.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Einen Konstruktionsschritt zur&uuml;ck">
+				<param name="Local" value="html\stepback.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Letzte L&ouml;schung widerrufen">
+				<param name="Local" value="html\loeschenwiderrufen.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Kopieren">
+				<param name="Local" value="html\kopieren.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Objekt benennen">
+				<param name="Local" value="html\objedit.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Objektdarstellung bearbeiten">
+				<param name="Local" value="html\zeichnungeditieren.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Objekt l&ouml;schen">
+				<param name="Local" value="html\objdel.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Punkt an Linie binden">
+				<param name="Local" value="html\punktbinden.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Bindung eines Punktes l&ouml;sen">
+				<param name="Local" value="html\punktloesen.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Punkt fixieren">
+				<param name="Local" value="html\punktfix.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Punkt auf Gitterpunkt schieben">
+				<param name="Local" value="html\clip2grid.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Punktfixierung aufheben">
+				<param name="Local" value="html\punktunfix.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Punkt in freien Basispunkt verwandeln">
+				<param name="Local" value="HTML\pt2basept.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zwei Punkte zusammenf&uuml;hren">
+				<param name="Local" value="HTML\combinepts.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Neue Textbox einf&uuml;gen">
+				<param name="Local" value="html\textbox.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Textbox editieren">
+				<param name="Local" value="HTML\edittext.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Textbox an Objekt binden">
+				<param name="Local" value="HTML\bindtext2obj.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Bindung einer Textbox l&ouml;sen">
+				<param name="Local" value="HTML\unbindtext.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Hintergrund-Bild laden">
+				<param name="Local" value="HTML\loadbackpic.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Fl&auml;che in den Vordergrund holen">
+				<param name="Local" value="HTML\area2foregr.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Men&uuml; Ansicht">
+			<param name="Local" value="HTML\menuansicht.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Objekt verbergen / anzeigen">
+				<param name="Local" value="html\objhide.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Alle verborgenen Objekte anzeigen">
+				<param name="Local" value="HTML\allobjshow.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Objekte gruppieren...">
+				<param name="Local" value="HTML\objgroup.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Basisobjekte blinken">
+				<param name="Local" value="HTML\blinkbaseobj.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Koordinatensystem">
+				<param name="Local" value="html\koordsys.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Geodreieck anzeigen / verbergen">
+				<param name="Local" value="HTML\geo3eck.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Konstruktionstext zeigen">
+				<param name="Local" value="html\konstrtext.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zeichnung vergr&ouml;&szlig;ern">
+				<param name="Local" value="html\zeichnunggross.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zeichnung auf Originalgr&ouml;&szlig;e zur&uuml;cksetzen">
+				<param name="Local" value="HTML\zeichnungnormal.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zeichnung verkleinern">
+				<param name="Local" value="html\zeichnungklein.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zeichnung verschieben">
+				<param name="Local" value="html\zeichnungversch.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Ansicht aktualisieren">
+				<param name="Local" value="HTML\refreshview.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Men&uuml; Konstruieren">
+			<param name="Local" value="html\menukonstr.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Punkt">
+				<param name="Local" value="html\punkt_basis.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Punkt auf einer Linie">
+				<param name="Local" value="html\ptonline.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Gitterpunkt">
+				<param name="Local" value="HTML\punkt_gitter.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Punkt mit bestimmten Koordinaten (x|y)">
+				<param name="Local" value="html\koordpunkt.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Schnittpunkt(e) zweier Linien">
+				<param name="Local" value="html\schnitt.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mittelpunkt">
+				<param name="Local" value="html\mittelpunkt.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Gitterpunkt">
+				<param name="Local" value="HTML\punkt_gitter.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Strecke zwischen zwei Punkten">
+				<param name="Local" value="html\strecke.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Strecke fester L&auml;nge">
+				<param name="Local" value="html\streckebestl.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Vektor">
+				<param name="Local" value="html\vektor.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Halbgerade">
+				<param name="Local" value="html\strahl.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Gerade durch 2 Punkte">
+				<param name="Local" value="html\gerade_ptpt.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mittelsenkrechte">
+				<param name="Local" value="html\mittelsenkr.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Winkelhalbierende">
+				<param name="Local" value="html\winkelhalb.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Parallele">
+				<param name="Local" value="html\parall.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Orthogonale">
+				<param name="Local" value="html\lot.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Gerade in bestimmtem Winkel">
+				<param name="Local" value="html\gerade_bestw.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Gerade aufziehen">
+				<param name="Local" value="html\gerade_basis.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Kreis um Mittelpunkt durch Kreispunkt">
+				<param name="Local" value="html\kreismpkp.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Kreis mit bestimmtem Radius">
+				<param name="Local" value="html\kreisbestrad.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Kreisbogen">
+				<param name="Local" value="html\kreisbogen.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Kreislinie aufziehen">
+				<param name="Local" value="html\kreis_basis.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dreieck">
+				<param name="Local" value="html\3eck.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="N-Eck">
+				<param name="Local" value="html\neck.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Regul&auml;res N-Eck">
+				<param name="Local" value="HTML\REGNECK.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Strecke einschieben">
+				<param name="Local" value="HTML\streckeeinsch.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Men&uuml; Abbilden">
+			<param name="Local" value="html\menuabb.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Objekt an einer Achse spiegeln">
+				<param name="Local" value="html\aspieobj.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Objekt an einem Punkt spiegeln">
+				<param name="Local" value="html\apspieobj.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Objekt verschieben">
+				<param name="Local" value="html\amoveobj.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Objekt drehen">
+				<param name="Local" value="html\arotobj.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Objekt zentrisch strecken">
+				<param name="Local" value="html\astreckobj.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Objekt an einem Kreis spiegeln">
+				<param name="Local" value="html\acmirrorpt.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Affine Abbildung festlegen">
+				<param name="Local" value="HTML\defaffin.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Abbildungsmatrix anschauen / editieren">
+				<param name="Local" value="HTML\editmat.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Objekt abbilden mit...">
+				<param name="Local" value="HTML\objabb.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Men&uuml; Kurven">
+			<param name="Local" value="HTML\menukurven.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Ortslinie eines Punktes aufzeichnen">
+				<param name="Local" value="html\ortslinie.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Einh&uuml;llende einer Geraden aufzeichnen">
+				<param name="Local" value="HTML\einhuellende.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Funktions-Schaubild">
+				<param name="Local" value="HTML\graph.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Interpolations-Polynom-Funktion">
+				<param name="Local" value="HTML\polynom.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Tangente an eine Kurve">
+				<param name="Local" value="HTML\tangente.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Fl&auml;che unter einer Kurve">
+				<param name="Local" value="HTML\grapharea.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Riemann-Summen">
+				<param name="Local" value="HTML\riemannsum.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Kegelschnitte...">
+				<param name="Local" value="HTML\menuconics.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ellipse aus 2 Brennpunkten und 1 Kurvenpunkt">
+					<param name="Local" value="HTML\ellipseF.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ellipse aus Mittelpunkt, Hauptscheitel und 1 Nebenkreispunkt">
+					<param name="Local" value="HTML\ellipseS.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ellipse aus Mittelpunkt und 2 konjugierten Punkten">
+					<param name="Local" value="HTML\ellipseK.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Parabel aus Brennpunkt und Leitgerade">
+					<param name="Local" value="HTML\parabelF.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Parabel aus 2 Kurvenpunkten und deren Tangentenrichtungen">
+					<param name="Local" value="HTML\parabelT.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Hyperbel aus 2 Brennpunkten und 1 Kurvenpunkt">
+					<param name="Local" value="HTML\hyperbelF.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Hyperbel aus 2 Asymptoten und 1 Kurvenpunkt">
+					<param name="Local" value="HTML\hyperbelA.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Allgemeiner Kegelschnitt durch 5 Punkte">
+					<param name="Local" value="HTML\conic5p.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Polare aus Pol und Kegelschnitt">
+					<param name="Local" value="HTML\polare.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Pol aus Polare und Kegelschnitt">
+					<param name="Local" value="HTML\pol.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Funktionen-Lupe">
+				<param name="Local" value="HTML\magnglass.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Men&uuml; Messen">
+			<param name="Local" value="html\menumess.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Abstand messen">
+				<param name="Local" value="html\abstand.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Winkelweite messen">
+				<param name="Local" value="html\winkel.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Fl&auml;cheninhalt messen">
+				<param name="Local" value="HTML\measure_area.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Termobjekt erstellen">
+				<param name="Local" value="html\termobj.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zahlobjekt erstellen">
+				<param name="Local" value="html\numberobj.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Winkel markieren">
+				<param name="Local" value="html\winkelbogen.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Men&uuml; Makro">
+			<param name="Local" value="html\menumakro.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Neues Makro erstellen">
+				<param name="Local" value="html\makroneu.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Makrobeschreibung editieren">
+				<param name="Local" value="html\makroedithlp.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Vorhandenes Makro l&ouml;schen">
+				<param name="Local" value="html\makrodel.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Makro importieren">
+				<param name="Local" value="html\makroload.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Makro exportieren">
+				<param name="Local" value="html\makrosave.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Makro ausf&uuml;hren">
+				<param name="Local" value="html\makrorun.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Men&uuml; Verschiedenes">
+			<param name="Local" value="html\menudivers.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="R&uuml;ckblende">
+				<param name="Local" value="html\rueckblende.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Spiel &quot;Winkel sch&auml;tzen&quot;">
+				<param name="Local" value="HTML\game_01.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Spiel &quot;Winkel mit dem Geodreieck messen&quot;">
+				<param name="Local" value="HTML\game_02.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Animations-Parameter...">
+				<param name="Local" value="HTML\aniparams.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Korrektheits-Pr&uuml;fung">
+				<param name="Local" value="HTML\okcheckrun.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Autoren-Werkzeuge...">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Copyright-Vermerk editieren">
+					<param name="Local" value="HTML\copyright.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Dynamisches Hilfefenster erstellen">
+					<param name="Local" value="HTML\dynahelp.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Korrektheits-Pr&uuml;fung konfigurieren">
+					<param name="Local" value="HTML\okcheckcfg.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Viewer-Befehle ausw&auml;hlen">
+					<param name="Local" value="HTML\viewercmds.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Einstellungen">
+				<param name="Local" value="html\einstellungen.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Start-Optionen">
+					<param name="Local" value="html\optstart.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Darstellung">
+					<param name="Local" value="html\optdarst.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Messen">
+					<param name="Local" value="html\optmeasure.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Internes">
+					<param name="Local" value="html\optintern.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Men&uuml;-Konfiguration">
+					<param name="Local" value="html\choosemenukonf.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Texte">
+					<param name="Local" value="html\optkonstrtext.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Export">
+					<param name="Local" value="html\optexport.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Abbildungen">
+					<param name="Local" value="html\optabb.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ortslinien">
+					<param name="Local" value="html\olineopt.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Lokales Men&uuml; der &quot;Einstellungen&quot;">
+					<param name="Local" value="html\menukonfdat.htm">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Netzwerk-Einstellungen">
+						<param name="Local" value="HTML\netopt.htm">
+						</OBJECT>
+				</UL>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Men&uuml; Hilfe">
+			<param name="Local" value="html\menuhelp.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Die Werkzeugleisten">
+		<param name="Local" value="html\toolbar.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Die Hauptleiste">
+			<param name="Local" value="html\tool_mainbar.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Die Konstruieren-Leiste">
+			<param name="Local" value="html\tool_konstruieren.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Die Abbilden-Leiste">
+			<param name="Local" value="html\tool_abbilden.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Die Kurven-Leiste">
+			<param name="Local" value="HTML\tool_curves.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Die Form &amp; Farbe-Leiste">
+			<param name="Local" value="html\tool_formfarbe.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Darstellung von Punkten und Linien &auml;ndern">
+				<param name="Local" value="HTML\editobjskin.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Fl&auml;che f&uuml;llen">
+				<param name="Local" value="HTML\fillarea.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Fl&auml;chen-F&uuml;llung zuschneiden">
+				<param name="Local" value="HTML\cutarea.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Die Messen &amp; Rechnen - Leiste">
+			<param name="Local" value="html\tool_messrech.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Die Animations-Leiste">
+			<param name="Local" value="HTML\tool_animation.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Verzeichnis der ALT-Befehle">
+			<param name="Local" value="HTML\altcmds.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ein paar Blicke hinter die Kulissen...">
+		<param name="Local" value="html\lookinside.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Beziehungen zwischen den EUKLID DynaGeo - Objekten">
+			<param name="Local" value="html\relations.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Grunds&auml;tzliches zum Koordinatensystem">
+			<param name="Local" value="html\koordsysbasics.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Grunds&auml;tzliches zum L&ouml;schen von Objekten">
+			<param name="Local" value="html\loeschbasics.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Grunds&auml;tzliches zum Gruppieren von Objekten">
+			<param name="Local" value="HTML\groupbasics.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Details zu Makros">
+			<param name="Local" value="html\makrodetails.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Details zu Polygonen">
+			<param name="Local" value="HTML\polydetails.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Die Syntax von Termen">
+			<param name="Local" value="html\termsyntax.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Standardfunktionen f&uuml;r Terme">
+			<param name="Local" value="HTML\termstandard.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Bool'sche Terme">
+			<param name="Local" value="HTML\boolterm.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Dynamische Ortslinien">
+			<param name="Local" value="html\olinedyn.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Standard-Ortslinien">
+			<param name="Local" value="HTML\olinestandard.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Details zu Funktionsgraphen">
+			<param name="Local" value="HTML\graphdetails.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Details zur Funktionen-Lupe">
+			<param name="Local" value="HTML\tipsLupe.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Grunds&auml;tzliches zu Animationen">
+			<param name="Local" value="HTML\anibasics.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Die Korrektheits-Pr&uuml;fung">
+			<param name="Local" value="HTML\okcheck.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Dynamische Zeichnungen in HTML-Dokumenten ">
+			<param name="Local" value="html\dynadrawhtml.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="DynaGeoJ versus DynaGeoX : warum 2 M&ouml;glichkeiten?">
+				<param name="Local" value="HTML\dgx_dgj.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Wie wird DynaGeoX in eine HTML-Seite eingebunden?">
+				<param name="Local" value="HTML\dgx_html.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Wie wird DynaGeoJ in eine HTML-Seite eingebunden?">
+				<param name="Local" value="HTML\dgj_html.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="DynaGeoX und Windows">
+				<param name="Local" value="HTML\dgx_win.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="DynaGeoJ und Windows">
+				<param name="Local" value="HTML\dgj_win.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Wie stelle ich dynamische Arbeitsbl&auml;tter her?">
+				<param name="Local" value="html\dynworksheets.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Konstruktionsbefehle in DynaGeoX und DynaGeoJ">
+				<param name="Local" value="HTML\DGX_CMDS.HTM">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DynaGeo und Windows: Technische Details">
+			<param name="Local" value="html\adminhints.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Startparameter beim Programmaufruf">
+				<param name="Local" value="html\startparams.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Initialisierungen beim Programmstart">
+				<param name="Local" value="html\startproc.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Berichte aus der Programmier-Werkstatt">
+		<param name="Local" value="HTML\reports.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Das Problem der &quot;Springenden Punkte&quot;">
+			<param name="Local" value="html\JumpingPoints.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Das Problem der Schnittmengen">
+			<param name="Local" value="HTML\Intersections.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Das Problem der rekursiven Funktionen">
+			<param name="Local" value="HTML\recurs_fkt.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Das Problem der Winkelma&szlig;-Einheit">
+			<param name="Local" value="HTML\angle_unit.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Hilfe bei Problemen...">
+		<param name="Local" value="html\problems.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="... beim Programmstart">
+			<param name="Local" value="HTML\probstart.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="... beim Export von Zeichnungen">
+			<param name="Local" value="html\probexport.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="... mit der Skalierung">
+			<param name="Local" value="html\probskal.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="... beim Ausdrucken">
+			<param name="Local" value="html\probprint.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="... beim Laden &auml;lterer GEO-Dateien">
+			<param name="Local" value="html\probcomp.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Wie erhalte ich weitere Hilfe?">
+			<param name="Local" value="html\probhelp.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Installation">
+		<param name="Local" value="HTML\insthints.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Installation auf Einzelarbeitspl&auml;tzen">
+			<param name="Local" value="HTML\install.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Installation in Netzen">
+			<param name="Local" value="html\netinst.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Nachtr&auml;gliche Lizenzierung">
+			<param name="Local" value="html\register.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Lizenzbedingungen und Haftungsausschlu&szlig;">
+		<param name="Local" value="html\lizbed.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Kontakt">
+		<param name="Local" value="html\impressum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Danke...">
+		<param name="Local" value="html\danke.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

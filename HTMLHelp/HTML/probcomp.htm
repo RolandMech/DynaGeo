@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Probleme beim Laden &auml;lterer GEO-Dateien</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+
+<A NAME="idh_prob_comp"></A>
+
+<H2>Probleme beim Laden &auml;lterer GEO-Dateien</H2>
+<HR>
+
+<P><B>Das Kompatibilit&auml;ts-Problem (Diagnose)</B></P>
+
+<P>EUKLID DynaGeo wird nun schon seit fast 20 Jahren stetig weiterentwickelt. Wie die Erfahrung lehrt, kann man es dabei kaum vermeiden, dass sich gewisse <b>Inkompatibilit&auml;ten</b> einschleichen. Nat&uuml;rlich bin ich als Programmautor stets bestrebt, jede neue EUKLID DynaGeo-Version so auszustatten, dass sie die von &auml;lteren Programm-Versionen geschriebenen Daten m&ouml;glichst ohne Probleme importieren kann. Trotzdem kann es vorkommen, dass die aktuelle Version von DynaGeo eine alte GEO-Datei einfach nicht "versteht" und die Zeichnung falsch, verzerrt oder unvollst&auml;ndig auf dem Bildschirm erscheint.</P>
+
+<p>Solch eine Situation kann zum Beispiel auftreten, nachdem in DynaGeo gro&szlig;e Ver&auml;nderungen an den internen Datenstrukturen vorgenommen werden mussten. So wurde z.B. bis zur Version 2.6 zum Abspeichern der GEO-Dateien ein <b>propriet&auml;res bin&auml;res Dateiformat</b> benutzt, f&uuml;r das die Beschreibung "quick'n'dirty" ziemlich zutreffend ist. Deshalb habe ich mich damals entschlossen, mit der Version 2.7 zu einem <b>modernen XML-basierten Datenformat</b> &uuml;berzugehen, das - wenn n&ouml;tig - auch von anderen Programmen gelesen werden kann. Nat&uuml;rlich enth&auml;lt auch DynaGeo 2.7 (- und alle nachfolgenden Versionen ebenfalls -) noch Routinen zum Einlesen von Zeichungen im alten bin&auml;ren Format; nur gerieten diese in der Folgezeit mehr und mehr aus dem Blickfeld des Programmierers, der seine Aufmerksamkeit nat&uuml;rlich vor allem auf die Weiterentwicklung richtete.</p>
+
+<p>Die lange Reihe der Bugfix-Versionen der Serie 2.7 (- es ging immerhin bis zur Version 2.7i ! -) war zu einem guten Teil durch die Notwendigkeit verursacht, solche Inkompatibilit&auml;ten zu beseitigen. Somit ist die Version 2.7i wahrscheinlich diejenige, die das "alte" bin&auml;re GEO-Format noch am besten versteht, aber selbst schon im "neuen" XML-GEO-Format abspeichert. Und wahrscheinlich ahnen Sie nun schon, welche Strategie ich Ihnen vorschlagen werde, um das Kompatibilit&auml;ts-Problem einer L&ouml;sung n&auml;her zu bringen ;-) </p>
+<br>
+
+<P><B>Ein m&ouml;glicher "Work-Around" (Versuch einer Therapie)</B></P>
+
+<p>Die Grundidee ist ganz einfach: wenn eine alte GEO-Datei, die (z.B.) mit Version 2.1b erstellt wurde, von der Version 3.8 nicht mehr verstanden wird, dann unterteilen wir den langen Migrationsweg von 2.1 nach 3.8 in mehrere Abschnitte. Die Hoffnung dabei ist, dass die &Auml;nderungen sich dann auf die einzelnen Abschnitte verteilen und nicht gleich so massiv geh&auml;uft auftreten. Die Erfahrung zeigt, dass dadurch tats&auml;chlich manches Problem gel&ouml;st werden kann. Um die Sache nicht zu aufw&auml;ndig werden zu lassen, beschr&auml;nken wir uns zun&auml;chst mal auf nur <u>eine</u> Zwischenstation, n&auml;mlich die Version 2.7i. Sie k&ouml;nnen sich ein Installationsarchiv dieser alten Version aus dem "EUKLID DynaGeo Forum" holen - gehen Sie dazu auf den DynaGeo-Seiten (<a href="http:\\www.dynageo.de">www.dynageo.de</a>) ins <i>"Forum"</i>, dann dort zu <i>"Mitteilungen | Museum | &Auml;ltere Versionen"</i>. Installieren Sie diese alte Version zus&auml;tzlich zu Ihrer aktuellen Version, und zwar in ein eigenes Verzeichnis. </p>
+
+<p>Gehen Sie dann folgenderma&szlig;en vor:
+<ul>
+   <li>Starten Sie DynaGeo 2.7i, und laden Sie die kritische GEO-Datei (z.B. "thales.geo").<br>
+<br></li>
+   <li>&Uuml;berzeugen Sie sich davon, dass die Zeichnung vom Programm korrekt verstanden wird und sich erwartungsgem&auml;&szlig; verh&auml;lt.<br>
+<br></li>
+   <li>Speichern Sie diese Zeichung unter einem leicht ge&auml;nderten Namen (z.B. "thales27i.geo") wieder ab und schlie&szlig;en Sie dann DynaGeo 2.7i.<br>
+<br></li>
+   <li>Starten Sie nun die aktuelle Version (z.B. 3.8) und laden Sie die neu geschriebene Datei (also z.B. "thales27i.geo").<br>
+<br></li>
+   <li>Wenn das Programm die Konstruktion korrekt l&auml;dt und sie sich erwartungsgem&auml;&szlig; verh&auml;lt, dann sollten Sie die "alte" GEO-Datei vernichten und nur noch mit der "neuen" weiterarbeiten!<br>
+<br></li>
+</ul> </p>
+
+<p>Falls doch noch Ungereimtheiten &uuml;brig bleiben, k&ouml;nnen Sie probieren, den Prozess mit mehr als einer Zwischenstation zu wiederholen. Geeignete Werkzeuge daf&uuml;r w&auml;re z.B. (f&uuml;r nicht gar zu alte Dateien) die Version <nobr>3.1.</nobr> Wenn auch das zu keinem befriedigenden Ergebnis f&uuml;hrt, k&ouml;nnen Sie mir eine <a href="mailto:mechling@dynageo.de">EMail</a> schicken: h&auml;ngen Sie die problematische(n) GEO-Datei(en) einfach als Anhang dran. Bitte beschreiben Sie aber genau, was wie funktionieren sollte, und was Sie schon alles unternommen haben, um das Problem zu l&ouml;sen! In vielen solchen F&auml;llen habe ich die Probleme mit der oben beschriebenen Strategie l&ouml;sen k&ouml;nnen. Allerdings gibt es einen Bodensatz von irreparablen Dateien, die echte Datenfehler enthalten und auch mit der originalen Erstellungs-Version nicht mehr ge&ouml;ffnet werden k&ouml;nnen. In solchen F&auml;llen hilft's nichts: dann ist eine Neukonstruktion angesagt!</p>
+
+<p>Falls Sie Probleme mit <b>Winkeln</b> und trigonometrischen Funktionen haben, dann sollten Sie hier in der Hilfe den Aufsatz &uuml;ber "<a href="angle_unit.htm">Das Problem der Winkelma&szlig;-Einheit</a>" lesen. Mit der Version <nobr>3.5</nobr> wurde EUKLID DynaGeo n&auml;mlich vom internen Gradma&szlig; befreit und auf konsequentes Bogenma&szlig; umgestellt - und leider auch dieses nicht ganz ohne Nebenwirkungen...</p>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

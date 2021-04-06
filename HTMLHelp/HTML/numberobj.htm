@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Zahlobjekt erstellen</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Zahlobjekt">
+        <PARAM NAME="Keyword" VALUE="Termobjekt">
+        <PARAM NAME="Keyword" VALUE="Terme">
+</OBJECT>
+
+<A NAME="idh_cm_NumberObj"></A>
+
+<H2>Zahlobjekt erstellen&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/ToolNumberObj.gif" width="32" height="32" border="0" alt=""></H2>
+<HR>
+
+<P>Ein Zahl-Objekt ist ein Schieberegler, mit dessen Hilfe Sie eine <B>variable Zahl aus einem von Ihnen vorgegebenen Intervall</B> zur Verf&uuml;gung stellen k&ouml;nnen, um sie in Ihrer Zeichnung weiterverwenden zu k&ouml;nnen. Mit Zahlobjekten l&auml;sst sich z.B. ein variabler Streckfaktor f&uuml;r eine zentrische Streckung zur Verf&uuml;gung stellen, oder ein Parameter, mit dessen Hilfe Sie einen Punkt mit bestimmten Koordinaten auf einer festgelegten Bahn entlanglaufen lassen k&ouml;nnen.</P>
+
+<P>Wenn Sie diesen Befehl anw&auml;hlen, wird ein Zahlobjekt mit Standard-Daten erzeugt und automatisch an einer freien Stelle Ihrer Zeichnung angezeigt. In der oberen H&auml;lfte des Objekts werden die untere Intervallgrenze, der aktuelle Zahlwert und die obere Intervallgrenze angezeigt. Darunter erscheint der eigentliche Schieberegler zur Ver&auml;nderung des aktuellen Wertes.<br>
+<br>
+<ul><font size="-1">(In fr&uuml;heren Versionen von EUKLID DynaGeo mussten Sie zus&auml;tzlich noch angeben, <u>wo</u> in Ihrer Zeichnung das Zahlobjekt dargestellt werden sollte; dies ist inzwischen &uuml;berfl&uuml;ssig. Wenn Sie mit der automatischen Plazierung nicht zufrieden sind, k&ouml;nnen Sie das Zahlobjekt ja jederzeit an eine andere Stelle schieben!)</font></ul></p>
+
+<p>Der <b>Zahlbereich</b> ist zun&auml;chst auf das Intervall [-3; 5] festgelegt. Sie k&ouml;nnen die Grenzen dieses Bereichs &uuml;ber das Kontextmen&uuml; editieren (siehe unten). </p>
+
+<p>In der Mitte wird <b>der aktuelle Wert</b> des Zahlobjekts angezeigt; er ist auf 1 voreingestellt. Sie k&ouml;nnen diesen Wert &auml;ndern, indem Sie den Schieber in der unteren H&auml;lfte des Zahlobjekts horizontal verziehen. Der jeweils aktuelle Wert eines Zahlobjekts Z1 kann auch in einem <a href="termobj.htm">Termobjekt</a> verwendet werden:  f&uuml;gen Sie dazu einfach den Namen "Z1" des Zahlobjekts in den Term ein. Weitere Details zu diesem Thema finden Sie auf der Seite &uuml;ber die <nobr><a href="termsyntax.htm">Syntax von Termen</a></nobr>.</P>
+<BR>
+
+<p>Das <A HREF="JavaScript:HHCTRL.TextPopup(pop_contextmenu,popfont,10,10,-1,-1)"
+Title="Klicken Sie, um eine Definition zu sehen!">Kontext-Men&uuml;</A> eines Zahlobjekts enth&auml;lt zus&auml;tzlich zu den &uuml;blichen Eintr&auml;gen noch die folgenden Men&uuml;punkte:<br>
+<ul>
+<li><b>Bereich editieren</b>:<br>
+Wenn Sie diesen Men&uuml;punkt anklicken, &ouml;ffnet sich ein Fenster, in dem Sie die Werte f&uuml;r die <i>Intervallgrenzen</i> und den "<i>aktuellen Wert</i>" direkt setzen k&ouml;nnen.<br>
+<br>
+Dar&uuml;berhinaus k&ouml;nnen Sie ein "<i>Schrittweite</i>" eingeben: damit k&ouml;nnen Sie die Werte des Zahlobjekts in ein bestimmtes Raster zwingen, sie sozusagen "quantisieren". Wenn Sie beispielsweise die Schrittweite auf "1" stellen, dann kann das Zahlobjekt nur noch ganzzahlige Werte annehmen; bei Schrittweite "0,2" ist der Wert stets ein Vielfaches von 0,2.<br>
+</li>
+<br>
+
+<li><b>Minimiert zeigen</b>:<br>
+Ein Klick auf diesen Men&uuml;punkt schaltet das Zahlobjekt in den "minimierten" Zustand: statt eines gro&szlig;en Schiebereglers wird dann nur noch ein kleines Rechteck gezeigt, das neben dem aktuellen Wert nur noch zwei Pfeile enth&auml;lt. Jeder Klick auf den oberen dieser Pfeile erh&ouml;ht den Wert des Zahlobjekts um die jeweils eingestellte <i>Schrittweite</i>, ein Klick auf den unteren Pfeil vermindert den Wert entsprechend. <br>
+<br>
+Diese Darstellung eignet sich besonders f&uuml;r F&auml;lle, in denen der Bildschirmplatz sehr knapp ist. Dann kann ein minimiertes Zahlobjekt z.B. als Schalter zwischen mehreren verschiedenen Zust&auml;nden Ihrer Zeichnung dienen. Eine wesentliche Voraussetzung f&uuml;r den erfolgreichen Einsatz ist aber, dass Sie eine geeignete <i>Schrittweite</i> einstellen, bevor Sie zur minimierten Darstellung wechseln.<br>
+</li>
+<br>
+
+<li><b>In Normalansicht zeigen</b>:<br>
+Dieser Eintrag erscheint nur im Kontextmen&uuml; des minimierten Zahlobjekts, und zwar statt des oben besprochenen Befehls "Minimiert zeigen". Ein Klick auf "In Normalansicht zeigen" schaltet das Zahlobjekt in den normalen Zustand, also in die Schieberegler-Ansicht zur&uuml;ck. <br>
+</li>
+</ul>
+</p>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

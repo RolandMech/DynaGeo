@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Grunds&auml;tzliches zur Korrektheits-Pr&uuml;fung</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Konstruktion">
+        <PARAM NAME="Keyword" VALUE="Beweis">
+        <PARAM NAME="Keyword" VALUE="Korrektheit">
+</OBJECT>
+
+<A NAME="idh_OkCheck"></A>
+
+<H2>Grunds&auml;tzliches zur Korrektheits-Pr&uuml;fung</H2>
+<HR>
+<br>
+EUKLID DynaGeo bietet Lehrern die M&ouml;glichkeit, Arbeitsbl&auml;tter zu erstellen, bei denen die <b>Korrektheit</b> einer vom Sch&uuml;ler durchgef&uuml;hrten Konstruktion automatisch vom Programm &uuml;berpr&uuml;ft werden kann. Das dabei angewendete Verfahren ist dasselbe, das Lehrer &uuml;blicherweise anwenden, wenn Sie schnell eine Sch&uuml;lerkonstruktion &uuml;berpr&uuml;fen wollen: es wird getestet, ob die Konstruktion <b>"zug-stabil"</b> ist, ob also die gew&uuml;nschte Konfiguration der Zeichnung auch erhalten bleibt, wenn man an ihren Basisobjekten zieht. Das kann DynaGeo inzwischen auch selbst tun, indem das Programm einen entsprechenden Zugvorgang intern simuliert.<br>
+<br>
+W&auml;hrend jedoch der Lehrer w&auml;hrend des Zugvorgangs die Ver&auml;nderungen der Zeichnung kritisch beobachten kann und dabei "einfach sieht", ob die Konstruktion "immer noch stimmt", muss man EUKLID DynaGeo bei der Beurteilung der Korrektheit helfen, indem der Ersteller des Arbeitsblattes eine <b>Korrektheits-Bedingung</b> formuliert. Dies ist eine <a href="boolterm.htm">boole'sche Bedingung</a>, die genau dann wahr ist, wenn die Konstruktion korrekt ist.<br>
+<br>
+Ein einfaches <b>Beispiel</b> soll dies verdeutlichen:<br>
+Wenn Sie in einem Arbeitsblatt ein <u>Dreieck ABC</u> vorgeben und dem Sch&uuml;ler die Aufgabe stellen, den <u>Umkreismittelpunkt</u> zu konstruieren, dann ist die Konstruktion des Sch&uuml;lers genau dann korrekt, wenn er einen Punkt M konstruiert, der stets von den drei Punkten A, B und C den jeweils selben Abstand hat, wie auch immer die Zeichnung verzogen wird. In diesem Fall k&ouml;nnte die Korrektheits-Bedingung also so lauten:<br>
+
+<ul><font color="#0000FF">(d(A;M) = d(B;M)) and (d(B;M) = d(C;M))</font></ul>
+
+Damit nun aber der Name der Zielobjekte einer Konstruktion nicht schon bei der Erstellung des Arbeitsblattes festgelegt werden muss, verwendet EUKLID DynaGeo f&uuml;r die Bezeichnung der <b>Zielobjekte</b> in der Korrektheits-Bedingung die <b>Form-Variablen</b> "@1", "@2", "@3", ... "@9". Damit lautet die Korrektheits-Bedingung dann:<br>
+
+<ul><font color="#0000FF">(d(A;@1) = d(B;@1)) and (d(B;@1) = d(C;@1))</font></ul>
+
+Dies hat jedoch zur Folge, dass der Sch&uuml;ler vor der eigentlichen Korrektspr&uuml;fung angeben muss, welche der von ihm konstruierten Objekte die Zielobjekte der Konstruktion sein sollen. Der Befehl "<i>Korrektheit &uuml;berpr&uuml;fen</i>" verlangt daher zun&auml;chst die Eingabe aller Zielobjekte der Konstruktion. Die Situation ist analog zur Eingabe der Startobjekte f&uuml;r irgend einen Konstruktions-Befehl von DynaGeo. Im vorliegenden Beispiel gibt es nur ein Zielobjekt, n&auml;mlich den konstruierten Umkreismittelpunkt.<br>
+<br>
+Nach der Eingabe der Zielobjekte wird der Zugvorgang intern durchgerechnet: wenn dabei in jeder Konfiguration der Zeichnung die Korrektheits-Bedingung erf&uuml;llt ist, dann ist die Zeichnung (mit sehr hoher Wahrscheinlichkeit) korrekt.<br>
+
+<ul><font size="-1">Der Algorithmus einer solchen Korrektheitspr&uuml;fung wurde meines Wissens zuerst von Prof. Richter-Gebert und Prof. Kortenkamp in ihrem Programm "Cinderella" implementiert. Sie nennen diese Funktion dort einen "probabilistischen Beweiser". Obwohl diese Bezeichnung den Zwiespalt zwischen der Sicherheit eines Beweises und der Unsicherheit einer Wahrscheinlichkeitsaussage ziemlich gut zum Ausdruck bringt, erscheint mir die damit einhergehende Vermengung der logischen Kategorien unsch&ouml;n. Ein Beweis ist eine Kette von logisch korrekten Folgerungen, und das Ziel eines Beweises ist die totale logische Sicherheit &uuml;ber den Wahrheitsgehalt der behaupteten Aussage. Der Algorithmus der Korrektheits-Pr&uuml;fung kann aber bauartbedingt nie mehr liefern, als eine Wahrscheinlichkeitsaussage &uuml;ber diesen Wahrheitsgehalt, weil er stets nur endlich viele konkrete F&auml;lle nachpr&uuml;fen kann. Mithin liegt hier eine unvollst&auml;ndige Induktion vor, salopp gesprochen ein "Physiker-Beweis": da sich die Aussage in s&auml;mtlichen konkret <u>untersuchten</u> F&auml;llen als wahr erwiesen hat, erwarten wir, dass sie in <u>allen</u> F&auml;llen gelten wird. Prof. Kortenkamp weist mit Recht darauf hin, dass die Irrtumswahrscheinlichkeit des "probabilistischen Beweisers" wirklich sehr klein ist. Trotzdem erscheint mir die etwas zur&uuml;ckhaltendere Bezeichnung der "Korrektheits-Pr&uuml;fung" angemessener: gelegentlich kommt es n&auml;mlich vor, dass ein Kandidat eine "Pr&uuml;fung" besteht, ohne es wirklich verdient zu haben. Es ist sch&ouml;n, wenn ein solcher Fall sehr selten ist; solange er aber nicht ausgeschlossen werden kann, m&ouml;chte ich nicht von einem "Beweis" reden.</font></ul><br>
+<br>
+
+Die oben angef&uuml;hrte Aufgabe k&ouml;nnte aber auch anders gestellt werden:<br>
+Gegeben sei das Dreieck ABC, gesucht ist der <u>Umkreis</u> dieses Dreiecks. In diesem Fall ist die Aufgabe genau dann korrekt gel&ouml;st, wenn der Sch&uuml;ler einen Kreis konstruiert, der durch die drei Punkte A, B und C verl&auml;uft. Das Zielobjekt ist nun also der Umkreis, nicht sein Mittelpunkt. Entsprechend muss die Korrektheitsbedingung anders formuliert werden, z.B. so:<br>
+
+<ul><font color="#0000FF">incid(A;@1) and incid(B;@1) and incid(C;@1)</font></ul>
+
+Hier wird die boole'sche Funktion "incid(P;s)" verwendet, die genau dann wahr ist, wenn der Punkt P auf der Linie s liegt. Die Korrektheitsbedingung ist damit die nahezu w&ouml;rtliche &Uuml;bersetzung der Definition des Umkreises in einen Term.<br>
+<br>
+Zweifellos besteht die Hauptarbeit bei der Vorbereitung einer Korrektheitspr&uuml;fung darin, eine auf die jeweilige erwartete Konstruktion passende Korrektheits-Bedingung zu formulieren. Die daf&uuml;r zur Verf&uuml;gung gestellten Sprachmittel werden in den unten genannten Abschnitten vorgestellt. Nach der Aufstellung der Korrektheits-Bedingung muss au&szlig;erdem f&uuml;r jede der verwendeten Standard-Variablen entschieden und vermerkt werden, von welchen Typ das ihr zugewiesene Ziel-Objekt der Konstruktion zu sein hat. Nur dann kann zugesichert werden, dass die Korrektheitsbedingung zur Laufzeit auch fehlerfrei ausgewertet werden wird.<br>
+<br>
+<br>
+<br>
+<b><i>Siehe auch:</i></b><br>
+<ul>
+<li><a href="termstandard.htm">Die Syntax von Termen</a></li>
+<li><a href="boolterm.htm">Boole'sche Terme</a></li>
+</ul>
+</li>
+<br>
+</FONT>
+</BODY>
+</HTML>

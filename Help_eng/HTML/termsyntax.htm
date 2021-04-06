@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Term syntax</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="distance">
+        <PARAM NAME="Keyword" VALUE="angle">
+        <PARAM NAME="Keyword" VALUE="measure">
+        <PARAM NAME="Keyword" VALUE="term">
+</OBJECT>
+
+<A NAME="idh_term"></A>
+
+<H2>The syntax of terms</H2>
+<HR>
+
+<p>DynaGeo has a built-in <b>term compiler</b> that can handle a great variety of functions. You can use all the commonly known <B>operations</B> (<font color="#FF0000">+</font>, <font color="#FF0000">-</font> , <font color="#FF0000">*</font> , <font color="#FF0000">/</font>, <font color="#FF0000">^</font>), many <B><a href="termstandard.htm">mathematical standard functions</a></B>, the <b>constants</b> <font color="#FF0000">pi</font> and <font color="#FF0000">e</font> and as many <b>pairs of brackets</b> as you need.</P>
+
+<P>Additionally you can use some special functions to refer to the actual values of <b>distances</b> and <b>angle widths</b> in your drawing. To insert such a reference into an expression, the appropriate measurement object has to be created first (see <a href="abstand.htm"><i>Measure distance</i></a>  bzw. <a href="winkel.htm"><i>Measure angle width</i></a>). When now with the term input window open you click on the measurement object, a suitable function call is inserted in the actually edited term:</P>
+<UL>
+<LI>"<font color="#FF0000"><b>d(Obj1; Obj2)</b></font>"<br>
+<ul>delivers the distance of the objects Obj1 and Obj2.<br>
+<font color="#0000FF"><i>Examples:</i></font><br>
+If in a triangle ABC c is the side [AB] then "d(A;B)" is the length of c, while "d(C; c)" is the distance from point C and the opposite side c (or more precisely: the distance between C and the line that contains the segment [AB] ).<br></ul>
+</LI>
+<br>
+<LI>"<font color="#FF0000"><b>w(P1; P2; P3)</b></font>"<br>
+<ul>delivers the width (in &deg;) of the angle defined by the 3 points P1, P2 and P3.<br>
+<font color="#0000FF"><i>Example:</i></font><br>
+If <font face="Symbol">b</font> is the angle with vertex B whose first side runs through C and the second one through A, then "w(C; B; A)" is the angle width of <font face="Symbol">b</font> in degrees.</ul>
+</LI>
+</UL>
+<br>
+
+<p>Moreover you can insert a <b>number object's value</b> into any term just by inserting the name of the number object. With the term input window open, this can be done by just clicking on the number object:</p>
+<ul>
+<li>"<font color="#FF0000"><b>NObj</b></font>"<br>
+<ul>delivers the actual value of the number object NObj.<br>
+<font color="#0000FF"><i>Example:</i></font><br>
+If your drawing contains a number object named N1, then the term "N1*2" has always twice the value of N1.</ul>
+</li>
+</ul>
+
+<p>In the same manner, a term object's term can reference the <b>actual value of the term</b> of another term object:</p>
+<ul>
+<li>"<font color="#FF0000"><b>TObj</b></font>"<br>
+<ul>delivers the actual value of the term object TObj. But be careful with this function: there is the danger of circular references!<br>
+<font color="#0000FF"><i>Example:</i></font><br>
+A drawing may hold the two term objects T1 and T2. If now you enter in T2 the term "T1^2", then it's up to you to take care, that the term of T1 contains absolutely no reference to T2, even not an indirect one! Otherwise the program will run into a never-ending recursion. This usually leads to a stack overflow and may crash your WINDOWS system!</ul>
+</li>
+</ul>
+<br>
+
+<P>To reference the <B>co-ordinates of a point</B>, a <B>circle's radius</B>, a <b>segment's length</b> and an <b>area's measurement</b> there is no "graphical interface" yet. You have to insert the following functions into your terms by hand:</P>
+
+<UL>
+<LI>"<font color="#FF0000"><b>x(P)</b></font>" and "<font color="#FF0000"><b>y(P)</b></font>"<br>
+<ul> deliver the x- resp. y-co-ordinate of the point P. <br>
+<font color="#0000FF"><i>Example:</i></font><br>
+In a triangle ABC, the terms <nobr>"[x(A)+x(B)+x(C)]/3"</nobr> and <nobr>"[y(A)+y(B)+y(C)]/3"</nobr> always deliver the co-ordinates of the centre of gravity.</ul>
+</LI>
+<br>
+<li>"<font color="#FF0000"><b>radius(C)</b></font>"<br>
+<ul>delivers the radius of the circle C.<br>
+<font color="#0000FF"><i>Example:</i></font><br>
+If in your drawing there is a circle C1, then "radius(C1)" always delivers its actual radius.</ul>
+</li>
+<br>
+<li>"<font color="#FF0000"><b>len(Obj)</b></font>"<br>
+<ul>delivers the length of the given object Obj, as long as Obj is a line of finite length. The following table shows the possible types of objects for the argument Obj and describes the value delivered by the "len" function:<br>
+<br>
+<table align="center" border frame="void" cellspacing="0" cellpadding="10">
+<tr>
+ <th><i>Obj is:</i></th>
+ <th><i>len(Obj) delivers:</i></th>
+</tr>
+<tr align="center">
+ <td> a line segment </td>
+ <td> the segment's length </td>
+</tr>
+<tr align="center">
+ <td> a vector </td>
+ <td> the vector's length </td>
+</tr>
+<tr align="center">
+ <td> a circle </td>
+ <td> the circle's circumference </td>
+</tr>
+<tr align="center">
+ <td> an arc </td>
+ <td> the arc's length </td>
+</tr>
+<tr align="center">
+ <td> a polygon </td>
+ <td> the polygon's circumference </td>
+</tr>
+</table>
+<font color="#0000FF"><i>Example:</i></font><br>
+Is s1 a line segment and c1 a circle in your drawing, then "len(s1)" gives the segment's length and "len(k1)" gives the circle's circumference.</ul>
+</li>
+<br>
+<li>"<font color="#FF0000"><b>area(N)</b></font>", "<font color="#FF0000"><b>area(K)</b></font>"<br>
+<ul>delivers the measurement of the area surrounded by the polygon N resp. by the circle K. However, in the case of the polygon it is supposed that the poygons border does not intersect with itself. Otherwise the "area"-function will give incorrect results.<br>
+<font color="#0000FF"><i>Example:</i></font><br>
+Let N1 be a triangle in your drawing, then "area(N1)" gives the actual value of the triangle's area.</ul>
+</li>
+<br>
+<li>"<font color="#FF0000"><b>tv(A; B; C)</b></font>"<br>
+<ul>delivers the ratio of the point A according to the pair (B, C).<br>
+Then B is the origin and C the point of unity on the ratio scale of th line (BC). If A does not lie on (BC), then instead of A the intersection A' of (BC) with the perpendicular dropped from A on (BC) is taken. If B and C coincide, the ratio is undefined. Then the "tv"-function gives the (wrong!) value 0.<br>
+<font color="#0000FF"><i>Example:</i></font><br>
+Your drawing may contain a triangle ABC. Now drop the perpendicular from A on the line (BC). Let Ha be the intersection of this perpendicular with (BC). Then "tv(A; B; C)" gives the ratio of Ha according to (B, C). If the value of tv(A; B; C) is not in [0; 1] then you can be sure that the triangle has an angle with more than 90&deg;.</ul>
+</li>
+<br>
+<li>"<font color="#FF0000"><b>Fn1(x)</b></font>"<br>
+<ul>delivers the actual value of the function Fn1 at the spot x, with the function object Fn1 having been declared before. Please note to indicate a spot x after the function name to make clear for which argument value the function is to be calculated.<br>
+<font color="#0000FF"><i>Examples:</i></font><br>
+If the drawing already contains a function Fn1, then you can refer this existing function in the definition of a second function object Fn2. When e.g. you use the term <nobr>"-Fn1(x)"</nobr> as function term of Fn2, then Fn2 will be the mirror function of Fn1, reflected in the x-axis. Analogous, the term "Fn1(-x)" delivers a reflection in the y-axis, and with <nobr>"Fn1(x-3) + 2"</nobr>, you get the graph moved 3 cm to the right and 2 cm upwards.<br>
+Naturally, after having defined Fn2 with the help of Fn1, you must not change the definition of Fn1 in the way that it contains a reference to Fn2: this would result in a circular dependency, and those dangerous situations must be avoided strictly.</ul>
+</li>
+<br>
+<li>"<font color="#FF0000"><b>slope(g)</b></font>"<br>
+<ul>delivers the actual value of the slope of a straight line g, with the line g having been defined in the drawing before. Instead of a straight line, the argument can also be a linear(!) function object. <br>
+<font color="#0000FF"><i>Examples:</i></font><br>
+When the drawing contains a straight line g1, then the term "slope(g1)" delivers the actual value of the slope of this line which can be shown in a term object. When g1 is dragged to a position parallel to the y-axis, then the slope no longer has a finite value, and the term "slope(g1)" is declared invalid.<br>
+When Fn1 is a function object with the function term "m/2*x + c" (with references to two number objects m and c), then "slope(Fn1)" delivers the actual value of m/2. </ul>
+</li>
+<br>
+</UL>
+<br>
+</P>
+<p>When you close the term input window by clicking its <i>Okay</i> button, the term is checked for <b>syntactical correctness</b>. If it passes this test, it is delivered to its owner. Otherwise you get an appropriate message, and the term input window remains open.</p>
+<br>
+
+<p>
+<b><font color="#FF0000"><i>Please note:</i></font></b></p>
+<ul>
+</p>Even syntactically correct terms can lead to <b>errors</b> during calculation of their values, due to function calls with invalid arguments. In such a case, the whole term is declared <b>invalid</b>. </p>
+</ul>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

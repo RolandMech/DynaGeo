@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Details zu Funktionsgraphen</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Zeichnen">
+        <PARAM NAME="Keyword" VALUE="Funktionen">
+        <PARAM NAME="Keyword" VALUE="Graph">
+        <PARAM NAME="Keyword" VALUE="Linien">
+</OBJECT>
+
+<A NAME="idh_graph_varproblem"></A>
+
+
+<H2>Details zu Funktionsgraphen</H2>
+<HR>
+<P>
+Schon mit fr&uuml;heren Versionen von EUKLID DynaGeo konnten Funktionsgraphen dargestellt werden, allerdings ein wenig umst&auml;ndlicher, n&auml;mlich als Ortslinien eines Punktes mit bestimmten Koordinaten. Der in Version 3 neu hinzugekommene Befehl "<i>Funktionsschaubild zeichnen</i>" vereinfacht die Erstellung von Funktionsgraphen erheblich, da nun nur noch der Funktionsterm eingegeben werden muss und alle weiteren n&ouml;tigen Aktionen automatisch im Hintergrund ablaufen.</P>
+
+<p>Dieser Komfort mag manchen Benutzer dazu verleiten, nun auch Funktionen mit sehr komplizierten Funktionstermen darstellen zu wollen. Interessanterweise sind es aber gar nicht die komplizierten Funktionsterme, die DynaGeo vor die gr&ouml;&szlig;ten Probleme stellen, sondern eine Klasse von relativ unscheinbar aussehenden Funktionen. Als Beispiel soll hier die Funktion f mit <nobr>f(x) = sin(x^3-x)</nobr> dienen. Wenn Sie diesen Funktionsterm eingeben, erhalten Sie ein Bild wie das folgende:<br>
+<br>
+<div align="center"><img src="../IMAGES/graphpro.png" alt="" border="0"></div><br>
+<br>
+Sie sehen, dass aufgrund des Polynoms dritten Grades die Dichte der Nullstellen dieser Funktion mit wachsendem x-Betrag st&auml;ndig zunimmt, wobei die Funktion jedoch zwischen zwei benachbarten Nullstellen stets wieder den Abstand 1 von der x-Achse erreicht. Somit w&auml;chst die L&auml;nge der darzustellenden Kurve mit wachsendem x-Betrag &uuml;ber alle vern&uuml;nftigen Grenzen, was zu <b>ernsthaften Laufzeitproblemen</b> f&uuml;hren kann: in den &auml;u&szlig;eren Bereichen liegen die Linien des Schaubildes so dicht (nahezu) parallel zur y-Achse nebeneinander, dass sich ein kompakt gef&uuml;llter roter Bereich ergibt. </p>
+
+<p>Anf&auml;llig f&uuml;r solche Verdichtungen sind alle <b>periodischen Funktionen</b>, d.h. also alle Funktionen, in deren Term die Sinus-, Kosinus- oder Tangens-Funktion verwendet werden. Dies gilt in besonderem Ma&szlig;e, wenn in den Argumenten dieser trigonometrischen Funktionen h&ouml;here Potenzen von x stehen. Das Problem ist auch nicht durch programminterne Optimierungen zu umgehen: eine Kurve mit einer &uuml;ber alle Grenzen wachsenden L&auml;nge kann man eben nicht w&auml;hrend eines Wimpernschlags zeichnen, selbst wenn der Prozessor des Computers mit 10 GHz getaktet w&auml;re!</p>
+<br>
+
+<p>Wenn DynaGeo bei der Erzeugung eines Funktionsgraphen den Verdacht hat, dass die Funktion von dieser gef&auml;hrlichen Sorte ist, dann bekommen Sie als Benutzer einen <b>entsprechenden Hinweis</b> angezeigt. Sie sollten dann schleunigst den Darstellungsbereich so einschr&auml;nken, dass m&ouml;glichst keine kompakt gef&uuml;llten Fl&auml;chen &uuml;berdeckt werden m&uuml;ssen, bevor Sie mit dieser Funktion weitere Experimente unternehmen. Und Sie sollten darauf gefasst sein, dass Ihr Rechner m&ouml;glicherweise f&uuml;r folgende Operationen ungew&ouml;hnlich lange braucht.... </p>
+
+<p>Bei Funktionen mit au&szlig;ergew&ouml;hnlich <b>gro&szlig;er Kurvenl&auml;nge</b> verweigert DynaGeo auch die Darstellung mit einer dicken Linie oder einer nicht durchgezogenen Linie. Die Zeichnung der Kurve w&uuml;rde dann n&auml;mlich wesentlich mehr Zeit kosten als die Darstellung mit einer d&uuml;nnen (nur 1 Pixel breiten) und durchgezogenen Linie. Folgerichtig wird bei solchen Funktionen der Men&uuml;punkt "Linien-Stil..." im Kontextmen&uuml; des Graphen &uuml;berhaupt nicht angeboten. Diese Entscheidung h&auml;ngt allerdings vom jeweils aktuell dargestellten Ausschnitt des Funktionsgraphen ab; nach jeder Ver&auml;nderung des Schaubildes wird dar&uuml;ber neu entschieden.</p>
+<br>
+
+<p>Schlie&szlig;lich sei der Hinweis erlaubt, dass es sich bei diesen Problemen nicht um eine spezifische Schw&auml;che des in DynaGeo eingebauten Funktionenplotters handelt, sondern um ein <b>grunds&auml;tzliches Problem</b> aller Plot-Algorithmen, die ein solches Funktionsschaubild auf einem Pixel-Schirm ausgeben m&uuml;ssen. Wesentliche Verbesserungen der Laufzeit sind stets nur um den Preis des Verzichts auf Pr&auml;zision der dargestellten Kurven zu haben. DynaGeo bem&uuml;ht sich stets um eine "ordentliche Darstellung", was eben seine Zeit kostet; es ist die Aufgabe des Benutzers, f&uuml;r "ordentliche Funktionen" zu sorgen <nobr>;-)</nobr> </p>
+<br>
+
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<a href="graph.htm">Funktions-Schaubild</a><br>
+<a href="recurs_fkt.htm">Das Problem der rekursiven Funktionen</a>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

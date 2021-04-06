@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>How to produce dynamic worksheets</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="DynaGeoX">
+        <PARAM NAME="Keyword" VALUE="HTML">
+        <PARAM NAME="Keyword" VALUE="ActiveX">
+</OBJECT>
+
+<A NAME="idh_dgx_work"></A>
+
+<H2>How to produce dynamic worksheets</H2>
+<HR>
+
+<P>The easiest way is to use one of the following menu commands:<br>
+<ul>
+<li><a href="savedgxpage.htm"><i>Save as DynaGeoX HTML page</i></a></li>
+<li><a href="savedgjpage.htm"><i>Save as DynaGeoJ HTML page</i></a></li>
+</ul>
+Whenver  EUKLID DynaGeo executes one of these commands, two files of the <u>same name</u> but <u>different extensions</u> are written to the target directory:<br>
+<ul>
+<li>The first is a <b>HTML file</b> describing the window in which the drawing should appear.</li>
+<li>The second is a <b>GEO file</b> containing the drawing that should be shown.</li>
+</ul>
+</P>
+
+<P>Embedding a dynamic drawing in a HTML page is done by the help of special tags: with DynaGeoX, an &lt;OBJECT&gt; tag is used, while DynaGeoJ uses an &lt;APPLET&gt; tag. You can edit the HTML file with a suitable editor, but you must take great care that the &lt;OBJECT&gt;- resp. &lt;APPLET&gt; tag remain unaltered. Some HTML editors are rather inconsiderate towards things they don't understand...</P>
+
+<P>Of course you can copy the &lt;OBJECT&gt;- resp. &lt;APPLET&gt; tag <B>into another HTML document</B>. So you can create pages with more than one drawing embedded. But please take care that at runtime the corresponding <b>GEO files</b> are available together with the HTML file <b>in one directory</b>!<br>
+<br>
+</P>
+
+<P>Though the task is highly automated by the corresponding menu commands, you ought to act with some caution to assure that the results achieved meet your expectations. In any case please take care for the following items:
+<ul>
+<li>Do not choose the viewer window too large! It ought to be displayed completely inside the browser window. On the other hand, make it large enough to show all relevant objects of your drawing, at least at the start.<br>
+<br>
+</li>
+<li>If ever possible, don't use text boxes inside your drawing! They occupy too much of the valuable space of the viewer window. You'd better put your comments and hints in the surrounding HTML page, next to the viewer window. </li>
+</ul>
+DynaGeoX uses the same data structures as DynaGeo itself. So normally a drawing that works as expected when loaded into DynaGeo, will also work correctly in the DynaGeoX viewer. However, the export to DynaGeoJ needs some more attention because there are a lot of internal differences between DynaGeo and DynaGeoJ.
+</P>
+<br>
+<br>
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="savedgxpage.htm">Save as DynaGeoX HTML page...</a></li>
+<li><a href="savedgjpage.htm">Save as DynaGeoJ HTML page...</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

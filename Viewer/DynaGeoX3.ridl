@@ -1,0 +1,200 @@
+// ************************************************************************ //
+// WARNUNG                                                                    
+// -------                                                                    
+// Diese Datei wird von dem Typbibliotheks-Importer oder dem Typbibliothekseditor 
+// erzeugt. Außer Syntaxfehlern analysiert der Editor an der Datei vorgenommene 
+// Änderungen. Wenn Sie aber Änderungen mit dem Editor vornehmen, wird diese  
+// Datei neu erzeugt und Kommentare oder Formatänderungen gehen verloren.     
+// ************************************************************************ //
+// Datei erzeugt am 09.03.2011 14:37:44 (- $Rev: 12980 $, 10062703).
+
+[
+  uuid(2EF98DE0-183F-11D4-83EC-EC6A1DB6E213), 
+  version(3.5), 
+  helpstring("DynaGeoViewer Bibliothek"), 
+  control
+    
+]
+library DynaGeoX3
+{
+
+  importlib("stdole2.tlb");
+
+  interface IDynaGeoX;
+  dispinterface IDynaGeoXEvents;
+  coclass DynaGeoX;
+
+
+  [
+    uuid(2EF98DE7-183F-11D4-83EC-EC6A1DB6E213), 
+    version(1.0)
+  ]
+  enum TxActiveFormBorderStyle
+  {
+    [helpstring("afbNone")]
+    afbNone = 0, 
+    [helpstring("afbSingle")]
+    afbSingle = 1, 
+    [helpstring("afbSunken")]
+    afbSunken = 2, 
+    [helpstring("afbRaised")]
+    afbRaised = 3
+  };
+
+  [
+    uuid(2EF98DE8-183F-11D4-83EC-EC6A1DB6E213), 
+    version(1.0)
+  ]
+  enum TxPrintScale
+  {
+    [helpstring("poNone")]
+    poNone = 0, 
+    [helpstring("poProportional")]
+    poProportional = 1, 
+    [helpstring("poPrintToFit")]
+    poPrintToFit = 2
+  };
+
+  [
+    uuid(2EF98DE9-183F-11D4-83EC-EC6A1DB6E213), 
+    version(1.0)
+  ]
+  enum TxMouseButton
+  {
+    [helpstring("mbLeft")]
+    mbLeft = 0, 
+    [helpstring("mbRight")]
+    mbRight = 1, 
+    [helpstring("mbMiddle")]
+    mbMiddle = 2
+  };
+
+  [
+    uuid(2EF98DE1-183F-11D4-83EC-EC6A1DB6E213), 
+    version(1.0), 
+    helpstring("Dispatch-Schnittstelle fr DynaGeoX-Element"), 
+    dual, 
+    oleautomation
+  ]
+  interface IDynaGeoX: IDispatch
+  {
+    [propget, id(0x00000001), hidden]
+    HRESULT _stdcall Visible([out, retval] VARIANT_BOOL* Value);
+    [propput, id(0x00000001), hidden]
+    HRESULT _stdcall Visible([in] VARIANT_BOOL Value);
+    [propget, id(0x00000002)]
+    HRESULT _stdcall AutoScroll([out, retval] VARIANT_BOOL* Value);
+    [propput, id(0x00000002)]
+    HRESULT _stdcall AutoScroll([in] VARIANT_BOOL Value);
+    [propget, id(0x00000003)]
+    HRESULT _stdcall AutoSize([out, retval] VARIANT_BOOL* Value);
+    [propput, id(0x00000003)]
+    HRESULT _stdcall AutoSize([in] VARIANT_BOOL Value);
+    [propget, id(0x00000004)]
+    HRESULT _stdcall AxBorderStyle([out, retval] enum TxActiveFormBorderStyle* Value);
+    [propput, id(0x00000004)]
+    HRESULT _stdcall AxBorderStyle([in] enum TxActiveFormBorderStyle Value);
+    [propget, id(0xFFFFFDFA)]
+    HRESULT _stdcall Caption([out, retval] BSTR* Value);
+    [propput, id(0xFFFFFDFA)]
+    HRESULT _stdcall Caption([in] BSTR Value);
+    [propget, id(0xFFFFFE0B)]
+    HRESULT _stdcall Color([out, retval] OLE_COLOR* Value);
+    [propput, id(0xFFFFFE0B)]
+    HRESULT _stdcall Color([in] OLE_COLOR Value);
+    [propget, id(0xFFFFFE00)]
+    HRESULT _stdcall Font([out, retval] IFontDisp** Value);
+    [propput, id(0xFFFFFE00)]
+    HRESULT _stdcall Font([in] IFontDisp* Value);
+    [propputref, id(0xFFFFFE00)]
+    HRESULT _stdcall Font([in] IFontDisp** Value);
+    [propget, id(0x00000005)]
+    HRESULT _stdcall KeyPreview([out, retval] VARIANT_BOOL* Value);
+    [propput, id(0x00000005)]
+    HRESULT _stdcall KeyPreview([in] VARIANT_BOOL Value);
+    [propget, id(0x00000006)]
+    HRESULT _stdcall PixelsPerInch([out, retval] long* Value);
+    [propput, id(0x00000006)]
+    HRESULT _stdcall PixelsPerInch([in] long Value);
+    [propget, id(0x00000007)]
+    HRESULT _stdcall PrintScale([out, retval] enum TxPrintScale* Value);
+    [propput, id(0x00000007)]
+    HRESULT _stdcall PrintScale([in] enum TxPrintScale Value);
+    [propget, id(0x00000008)]
+    HRESULT _stdcall Scaled([out, retval] VARIANT_BOOL* Value);
+    [propput, id(0x00000008)]
+    HRESULT _stdcall Scaled([in] VARIANT_BOOL Value);
+    [propget, id(0x00000009), hidden]
+    HRESULT _stdcall Active([out, retval] VARIANT_BOOL* Value);
+    [propget, id(0x0000000A), hidden]
+    HRESULT _stdcall DropTarget([out, retval] VARIANT_BOOL* Value);
+    [propput, id(0x0000000A), hidden]
+    HRESULT _stdcall DropTarget([in] VARIANT_BOOL Value);
+    [propget, id(0x0000000B), hidden]
+    HRESULT _stdcall HelpFile([out, retval] BSTR* Value);
+    [propput, id(0x0000000B), hidden]
+    HRESULT _stdcall HelpFile([in] BSTR Value);
+    [propget, id(0x0000000C), hidden]
+    HRESULT _stdcall DoubleBuffered([out, retval] VARIANT_BOOL* Value);
+    [propput, id(0x0000000C), hidden]
+    HRESULT _stdcall DoubleBuffered([in] VARIANT_BOOL Value);
+    [propget, id(0x0000000D), hidden]
+    HRESULT _stdcall VisibleDockClientCount([out, retval] long* Value);
+    [propget, id(0xFFFFFDFE), hidden]
+    HRESULT _stdcall Enabled([out, retval] VARIANT_BOOL* Value);
+    [propput, id(0xFFFFFDFE), hidden]
+    HRESULT _stdcall Enabled([in] VARIANT_BOOL Value);
+    [propget, id(0x0000000E)]
+    HRESULT _stdcall Cursor([out, retval] short* Value);
+    [propput, id(0x0000000E)]
+    HRESULT _stdcall Cursor([in] short Value);
+    [id(0xFFFFFDD8)]
+    HRESULT _stdcall AboutBox(void);
+    [propget, id(0x0000000F)]
+    HRESULT _stdcall DataFile([out, retval] BSTR* Value);
+    [propput, id(0x0000000F)]
+    HRESULT _stdcall DataFile([in] BSTR Value);
+  };
+
+  [
+    uuid(2EF98DE3-183F-11D4-83EC-EC6A1DB6E213), 
+    version(1.0), 
+    helpstring("Ereignis-Schnittstelle fr DynaGeoX-Element")
+  ]
+  dispinterface IDynaGeoXEvents
+  {
+    properties:
+    methods:
+    [id(0x00000001)]
+    void OnActivate(void);
+    [id(0x00000002)]
+    void OnClick(void);
+    [id(0x00000003)]
+    void OnCreate(void);
+    [id(0x00000005)]
+    void OnDblClick(void);
+    [id(0x00000006)]
+    void OnDestroy(void);
+    [id(0x00000007)]
+    void OnDeactivate(void);
+    [id(0x0000000B)]
+    void OnKeyPress([in, out] short* Key);
+    [id(0x00000010)]
+    void OnPaint(void);
+    [id(0x000000C9)]
+    void OnResize(void);
+  };
+
+  [
+    uuid(2EF98DE5-183F-11D4-83EC-EC6A1DB6E213), 
+    version(1.0), 
+    helpstring("DynaGeoX Element"), 
+    control
+  ]
+  coclass DynaGeoX
+  {
+    [default] interface IDynaGeoX;
+    [default, source] dispinterface IDynaGeoXEvents;
+  };
+
+};

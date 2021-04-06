@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Netzwerk-Einstellungen</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Grundlagen"></param>
+        <PARAM NAME="Keyword" VALUE="Installation"></param>
+        <PARAM NAME="Keyword" VALUE="Netzwerk"></param>
+</OBJECT>
+
+<A NAME="idh_NetOpt"></A>
+
+<H2>Netzwerk-Einstellungen</H2>
+<HR>
+
+<P>Dieser Dialog ist nur &uuml;ber den Eintrag <i>Netzwerk-Optionen</i> im lokalen Men&uuml; der allgemeinen <i>Einstellungen</i> zug&auml;nglich. Seine Aufgabe ist es, die Festlegung der f&uuml;r alle Benutzer g&uuml;ltigen Vorgaben zu erm&ouml;glichen. Diese <b>Standard-Einstellungen</b> werden in der zentralen DYNAGEO.INI im EUKLID DynaGeo-Verzeichnis abgespeichert, f&uuml;r das die "normalen" Benutzer stets nur Leserechte haben sollten. Da beim Abspeichern dieser Standard-Einstellungen in die <b>DYNAGEO.INI</b> geschrieben werden muss, haben nur solche Benutzer Zugang zu diesem Dialog, die <b>Schreibrechte f&uuml;r diese Datei</b> haben, also z.B. <b>Administratoren</b>. F&uuml;r andere Benutzer erscheint der Men&uuml;eeintrag <i>Netzwerk-Optionen</i> deaktiviert.</p>
+
+</p> Die <b>privaten Einstellungen</b> eines jeden Benutzers werden dagegen in einer Datei namens <b>EDG_USER.INI</b> abgespeichert, die dem jeweiligen Benutzer geh&ouml;rt. Diese Datei steht bei hinreichend modernen und netzwerktauglichen Windows-Varianten (NT4, 2000, XP,...) im Profil des Benutzers, und zwar unter <i>%appdata%\dynageo\</i>. Bei &auml;lteren, nicht netzwerk-orientierten Windows-Versionen (95, 98, ME) steht die Datei in der Regel im DynaGeo-Verzeichnis, welches in diesem Falle nicht schreibgesch&uuml;tzt ist.</p>
+
+<p>Da nat&uuml;rlich auch ein Administrator ein Benutzer ist, hat er ebenfalls eine private Konfigurations-Datei namens EDG_USER.INI. In diesem Dialog k&ouml;nnen nun die daf&uuml;r geeigneten Einstellungen von der lokalen Konfigurationsdatei des Administrators in die globale Konfigurationsdatei, die f&uuml;r alle Benutzer gilt, &uuml;bertragen werden. Im Falle der Men&uuml;-Konfigurationen funktioniert dies auch in der umgekehrten Richtung. Dar&uuml;berhinaus k&ouml;nnen hier <b>die netzwerk-relevanten Rechte der Benutzer</b> verwaltet werden.</p>
+
+<ul><font size="-1">Die in fr&uuml;heren Versionen mitgelieferten "verriegelten Standard-Men&uuml;konfigurationen" sind nun &uuml;berfl&uuml;ssig geworden, weil die Netzwerk-Rechte inzwischen sehr viel feiner abgestuft sind und direkt verwaltet werden. </font></ul>
+
+<p>Der Dialog enth&auml;lt die folgenden zwei Bereiche:</P>
+<br>
+
+<h3><font color="#0000FF">Konfigurations-Rechte</font></h3>
+<ul>
+<P>Hier k&ouml;nnen Sie als Administrator einstellen, was die Benutzer d&uuml;rfen und was nicht. Nach einer Neu-Installation sind die Rechte der Benutzer &uuml;blicherweise <b>nicht</b> eingeschr&auml;nkt. </p>
+
+<ul type="square">
+<li>Wenn Sie den Benutzern verbieten, ihre privaten Einstellungen zu &auml;ndern, dann wird der Men&uuml;punkt <i>Verschiedenes | Einstellungen</i> deaktiviert, und die Benutzer <b>m&uuml;ssen mit den Standard-Einstellungen arbeiten</b>.<br>
+</li>
+<br>
+<li>Wenn Sie den Benutzern das Editieren der privaten Einstellungen erlauben, k&ouml;nnen Sie immer noch erreichen, dass alle Benutzer die n&auml;chste Arbeitssitzung zumindest <b>mit den Standard-Einstellungen beginnen</b>, indem Sie das Abspeichern der eigenen Einstellungen untersagen.<br>
+</li>
+<br>
+<li>Eine Sonderrolle spielen die <b>Men&uuml;konfigurationen</b>, mit denen der Funktionsumfang des Programms geregelt werden kann. Wenn Sie dem Benutzer verbieten, eine andere Men&uuml;-Konfiguration zu w&auml;hlen, dann ist er gezwungen, mit der als Standard <b>voreingestellten Konfiguration</b> auszukommen. In diesem Fall werden die entsprechenden Befehle auf der Registerseite <i>Men&uuml;konfiguration</i> des <i>Einstellungen</i>-Dialogs ausgeblendet.<br>
+</li>
+<br>
+<li>Auch wenn Sie die Auswahl aus den vorgegebenen Konfigurationen erlauben, kann der Benutzer erst dann <b>eigene Konfigurationen</b> herstellen, wenn Sie ihm das explizit erlauben. Diese eigenen Konfigurationen werden in seiner privaten Initialisierungsdatei abgelegt und sind f&uuml;r die anderen Benutzer nicht sichtbar.<br>
+</li>
+<br>
+</ul>
+Die Optionen sind nach fallender St&auml;rke der Einschr&auml;nkung angeordnet. Es sind nur diejenigen Optionen ansprechbar, die in der jeweiligen Situation sinnvollerweise gew&auml;hlt werden k&ouml;nnen, so wie es sich aus den gegenseitigen Abh&auml;ngigkeiten der Optionen ergibt.<br>
+<br>
+Im selben Bereich k&ouml;nnen Sie auch noch w&auml;hlen, an welchen Ort die <b>Konfigurationsdatei</b> f&uuml;r die pers&ouml;nlichen Einstellungen des Benutzers ("EDG_USER.INI") geschrieben werden soll. Bei modernen Windows-Varianten wird steht sie &uuml;blicherweise im Profil des Benutzers, und es wird dringend empfohlen, davon nur in wohlbegr&uuml;ndeten Ausnahmef&auml;llen abzuweichen. Als Alternative kann DynaGeo diese Datei auch ins DynaGeo-Verzeichnis schreiben, also neben "DYNAGEO.EXE" und "DYNAGEO.INI". Dies empfiehlt sich f&uuml;r eine mobile Installation von DynaGeo, z.B. auf einem Memory-Stick.
+</p>
+</ul>
+<br>
+
+<h3><font color="#0000FF">Management der Men&uuml;-Konfigurationen</font></h3>
+<ul>
+<P>Dieses Feld erm&ouml;glicht die komfortable Verwaltung verschiedener Men&uuml;-Konfigurationen. Sie enth&auml;lt zwei nebeneinander stehende Listen:<br>
+<br>
+<ul type="square">
+<li>die linke zeigt die aktuell verf&uuml;gbaren <b>privaten Men&uuml;-Konfigurationen des Administrators</b>, welche in seiner privaten Konfigurations-Datei (EDG_USER.INI) abgespeichert sind;
+</li>
+<li>die rechte enth&auml;lt die <b>globalen Men&uuml;-Konfigurationen</b>, welche in der globalen Konfigurations-Datei (DYNAGEO.INI) abgelegt sind.<br>
+</li>
+</ul>
+<br>
+Mit den beiden kleinen Kn&ouml;pfen zwischen den Listen k&ouml;nnen Sie die jeweils markierte Konfiguration von der einen <b>in die andere Liste transferieren</b>.</p>
+
+<p>Unter der Liste der privaten Men&uuml;-Konfigurationen befinden sich drei Kn&ouml;pfe, mit denen Sie<br>
+<br>
+<ul type="square">
+<li>eine neue Men&uuml;-Konfiguration <b>erzeugen</b></li>
+<li>eine vorhandene Men&uuml;-Konfiguration <b>editieren</b></li>
+<li>eine vorhandene Men&uuml;-Konfiguration <b>l&ouml;schen</b></li>
+</ul>
+<br>
+k&ouml;nnen. Diese drei Kn&ouml;pfe arbeiten genau so, wie die entsprechenden Kn&ouml;pfe auf der Registerseite <i>Men&uuml;konfiguration</i> des <i>Einstellungen</i>-Dialogs.</p>
+
+<p>Unter der Liste der globalen Men&uuml;-Konfigurationen sitzt ein Knopf, mit dem Sie die in der Liste markierte Konfiguration als <b>Standard-Vorgabe</b> in die zentrale Konfigurations-Datei eintragen k&ouml;nnen. </P>
+</ul>
+<br>
+<br>
+<p>In dem gesamten Dialog sind stets nur diejenigen Befehle aktiviert, die in der jeweiligen Situation tats&auml;chlich verf&uuml;gbar sind. Zum Beispiel sind die Kn&ouml;pfe um die Konfigurationslisten nur dann aktiv, wenn ein passender Listeneintrag markiert ist.</p>
+<br>
+
+<P><font color="#FF0000"><b><i>Achtung !</i></b></font>
+<ul><b>Jeder Klick auf einen der Befehlskn&ouml;pfe</b> hat zur direkten Folge, dass die ge&auml;nderten Einstellungen <b>sofort abgespeichert</b> werden, und zwar sowohl die privaten als auch die globalen! Gehen Sie daher mit Bedacht zu Werke, wenn Sie die Netzwerk-Einstellungen editieren.
+</ul>
+</p>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

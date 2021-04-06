@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\MenuCfgNew.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\MenuCfgNew.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715740741</prop>
+        <prop prop-type="OrigDateTime">40195.8977314815</prop>
+        <prop prop-type="XlatDateTime">37753.9324768518</prop>
+        <prop prop-type="Translated">67</prop>
+        <prop prop-type="UnTranslated">61</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:EditMenuConfigWin.Left" resname="O:EditMenuConfigWin.Left">
+        <source>474</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425683912</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.Top" resname="O:EditMenuConfigWin.Top">
+        <source>123</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256849537</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.HelpContext" resname="O:EditMenuConfigWin.HelpContext">
+        <source>31</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256837963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.BorderIcons" resname="O:EditMenuConfigWin.BorderIcons">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256836806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.BorderStyle" resname="O:EditMenuConfigWin.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256836806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.Caption" resname="O:EditMenuConfigWin.Caption">
+        <source>'Menükonfiguration bearbeiten'</source>
+        <target>'Edit menu configuration'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256837963</prop><prop prop-type="Status">1</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.ClientHeight" resname="O:EditMenuConfigWin.ClientHeight">
+        <source>447</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256837963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>410</source>
+          <target>402</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.ClientWidth" resname="O:EditMenuConfigWin.ClientWidth">
+        <source>714</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256837963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.Color" resname="O:EditMenuConfigWin.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256837963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.Font.Charset" resname="O:EditMenuConfigWin.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256837963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.Font.Color" resname="O:EditMenuConfigWin.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256837963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.Font.Height" resname="O:EditMenuConfigWin.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256837963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.Font.Name" resname="O:EditMenuConfigWin.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256837963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.Font.Style" resname="O:EditMenuConfigWin.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256837963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.OldCreateOrder" resname="O:EditMenuConfigWin.OldCreateOrder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256849537</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.Position" resname="O:EditMenuConfigWin.Position">
+        <source>poOwnerFormCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980005787</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.OnCloseQuery" resname="O:EditMenuConfigWin.OnCloseQuery">
+        <source>FormCloseQuery</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256849537</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.PixelsPerInch" resname="O:EditMenuConfigWin.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256849537</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.TextHeight" resname="O:EditMenuConfigWin.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256849537</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TEditMenuConfigWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Label1.Left" resname="O:EditMenuConfigWin.O:Label1.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Label1.Top" resname="O:EditMenuConfigWin.O:Label1.Top">
+        <source>54</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Label1.Width" resname="O:EditMenuConfigWin.O:Label1.Width">
+        <source>209</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Label1.Height" resname="O:EditMenuConfigWin.O:Label1.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256847222</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Label1.AutoSize" resname="O:EditMenuConfigWin.O:Label1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256847222</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Label1.Caption" resname="O:EditMenuConfigWin.O:Label1.Caption">
+        <source>'Liste der deaktivierten Befehle :'</source>
+        <target>'List of deactivated commands :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256847222</prop><prop prop-type="Status">1</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Label1.WordWrap" resname="O:EditMenuConfigWin.O:Label1.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Label4.Left" resname="O:EditMenuConfigWin.O:Label4.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Label4.Top" resname="O:EditMenuConfigWin.O:Label4.Top">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Label4.Width" resname="O:EditMenuConfigWin.O:Label4.Width">
+        <source>156</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Label4.Height" resname="O:EditMenuConfigWin.O:Label4.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Label4.AutoSize" resname="O:EditMenuConfigWin.O:Label4.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Label4.Caption" resname="O:EditMenuConfigWin.O:Label4.Caption">
+        <source>'Name der Menükonfiguration:'</source>
+        <target>'Name of the menu configuration:'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684838</prop><prop prop-type="Status">1</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Label4.WordWrap" resname="O:EditMenuConfigWin.O:Label4.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684838</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Bevel1.Left" resname="O:EditMenuConfigWin.O:Bevel1.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425683912</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Bevel1.Top" resname="O:EditMenuConfigWin.O:Bevel1.Top">
+        <source>384</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425683912</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Bevel1.Width" resname="O:EditMenuConfigWin.O:Bevel1.Width">
+        <source>681</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425683912</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Bevel1.Height" resname="O:EditMenuConfigWin.O:Bevel1.Height">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425683912</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Bevel1.Shape" resname="O:EditMenuConfigWin.O:Bevel1.Shape">
+        <source>bsTopLine</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425683912</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Left" resname="O:EditMenuConfigWin.O:CheckListBox1.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256846065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Top" resname="O:EditMenuConfigWin.O:CheckListBox1.Top">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256847222</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Width" resname="O:EditMenuConfigWin.O:CheckListBox1.Width">
+        <source>681</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256847222</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Height" resname="O:EditMenuConfigWin.O:CheckListBox1.Height">
+        <source>297</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256842593</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>265</source>
+          <target>257</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Columns" resname="O:EditMenuConfigWin.O:CheckListBox1.Columns">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.ItemHeight" resname="O:EditMenuConfigWin.O:CheckListBox1.ItemHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256842593</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[0]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[0]">
+        <source>'Zeichnung laden'</source>
+        <target>'Load drawing'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256842593</prop><prop prop-type="Status">1</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[1]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[1]">
+        <source>'Zeichnung speichern'</source>
+        <target>'Save drawing'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256842593</prop><prop prop-type="Status">1</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[2]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[2]">
+        <source>'Zeichnung speichern unter'</source>
+        <target>'Save drawing as'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[3]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[3]">
+        <source>'Drucker-Optionen'</source>
+        <target>'Printer options'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256844907</prop><prop prop-type="Status">1</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[4]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[4]">
+        <source>'Drucken'</source>
+        <target>'Print'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256846065</prop><prop prop-type="Status">1</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[5]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[5]">
+        <source>'Zeichnung vergrößern'</source>
+        <target>'Enlarge drawing'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256846065</prop><prop prop-type="Status">1</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[6]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[6]">
+        <source>'Zeichnung verkleinern'</source>
+        <target>'Reduce drawing'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256846065</prop><prop prop-type="Status">1</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[7]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[7]">
+        <source>'Zeichenblatt verschieben'</source>
+        <target>'Move drawing'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256846065</prop><prop prop-type="Status">1</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[8]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[8]">
+        <source>'Punkt an Linie binden'</source>
+        <target>'Snap point to line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256846065</prop><prop prop-type="Status">1</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[9]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[9]">
+        <source>'Bindung eines Punktes lösen'</source>
+        <target>'Undo snap point to line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256846065</prop><prop prop-type="Status">1</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[10]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[10]">
+        <source>'Punkt auf einer Linie erzeugen'</source>
+        <target>'Point on a line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256842593</prop><prop prop-type="Status">1</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[11]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[11]">
+        <source>'Punkt mit Koordinaten (x|y) erzeugen'</source>
+        <target>'Point with fixed co-ordinates'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256842593</prop><prop prop-type="Status">1</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[12]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[12]">
+        <source>'Gerade aufziehen'</source>
+        <target>'Basic straight line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256842593</prop><prop prop-type="Status">1</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[13]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[13]">
+        <source>'Kreislinie aufziehen'</source>
+        <target>'Basic circle'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256842593</prop><prop prop-type="Status">1</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[14]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[14]">
+        <source>'Dreieck erzeugen'</source>
+        <target>'Triangle'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[15]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[15]">
+        <source>'N-Eck erzeugen'</source>
+        <target>'Polygon'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[16]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[16]">
+        <source>'Ortslinie aufzeichnen'</source>
+        <target>'Trace line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[17]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[17]">
+        <source>'Mittelpunkt konstruieren'</source>
+        <target>'Midpoint'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[18]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[18]">
+        <source>'Strecke bestimmter Länge zeichnen'</source>
+        <target>'Line segment of fixed length'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Punkt spiegeln'</source>
+          <target>'Mirror point'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[19]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[19]">
+        <source>'Mittelsenkrechte konstruieren'</source>
+        <target>'Perpendicular bisector'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Strecke bestimmter Länge zeichnen'</source>
+          <target>'Line segment of fixed length'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[20]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[20]">
+        <source>'Winkelhalbierende konstruieren'</source>
+        <target>'Bisector'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Mittelsenkrechte konstruieren'</source>
+          <target>'Perpendicular bisector'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[21]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[21]">
+        <source>'Parallele konstruieren'</source>
+        <target>'Parallel line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Winkelhalbierende konstruieren'</source>
+          <target>'Bisector'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[22]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[22]">
+        <source>'Lot / Senkrechte konstruieren'</source>
+        <target>'Perpendicular'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Parallele konstruieren'</source>
+          <target>'Parallel line'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[23]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[23]">
+        <source>'Gerade in bestimmtem Winkel antragen'</source>
+        <target>'Line of determined angle'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Lot / Senkrechte konstruieren'</source>
+          <target>'Perpendicular line'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[24]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[24]">
+        <source>'Kreis mit bestimmtem Radius zeichnen'</source>
+        <target>'Circle with determined radius'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Gerade in bestimmtem Winkel antragen'</source>
+          <target>'Line of determined angle'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[25]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[25]">
+        <source>'Vektor erzeugen'</source>
+        <target>'Vector'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.425684375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Kreis mit bestimmtem Radius zeichnen'</source>
+          <target>'Circle with determined radius'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[26]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[26]">
+        <source>'Objekt an Achse spiegeln'</source>
+        <target>'Reflect object in an axis'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256844907</prop><prop prop-type="Status">1</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Achsenspiegelung definieren'</source>
+          <target>'Define reflection in a line'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[27]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[27]">
+        <source>'Objekt an Punkt spiegeln'</source>
+        <target>'Reflect object in a point'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256844907</prop><prop prop-type="Status">1</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Objekt an Achse spiegeln'</source>
+          <target>'Reflect an object in a line'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[28]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[28]">
+        <source>'Objekt verschieben'</source>
+        <target>'Translate an object'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256844907</prop><prop prop-type="Status">1</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Punktspiegelung definieren'</source>
+          <target>'Define reflection in a point'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[29]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[29]">
+        <source>'Objekt drehen'</source>
+        <target>'Rotate an object'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256844907</prop><prop prop-type="Status">1</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Objekt an Punkt spiegeln'</source>
+          <target>'Reflect an object in a point'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[30]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[30]">
+        <source>'Objekt zentrisch strecken'</source>
+        <target>'Dilate an object'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256844907</prop><prop prop-type="Status">1</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Verschiebung definieren'</source>
+          <target>'Define translation'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[31]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[31]">
+        <source>'Objekt an Kreis spiegeln'</source>
+        <target>'Reflect an object in a circle'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256844907</prop><prop prop-type="Status">1</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Objekt verschieben'</source>
+          <target>'Translate an object'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[32]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[32]">
+        <source>'Abstand messen'</source>
+        <target>'Measure distance'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256844907</prop><prop prop-type="Status">1</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Drehung definieren'</source>
+          <target>'Define rotation'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[33]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[33]">
+        <source>'Winkelweite messen'</source>
+        <target>'Measure angle'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256844907</prop><prop prop-type="Status">1</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Objekt drehen'</source>
+          <target>'Rotate an object'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[34]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[34]">
+        <source>'Flächeninhalt messen'</source>
+        <target>'Measure area'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256844907</prop><prop prop-type="Status">1</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Zentrische Streckung definieren'</source>
+          <target>'Define dilation'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[35]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[35]">
+        <source>'Termobjekt erstellen'</source>
+        <target>'Create term object'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256844907</prop><prop prop-type="Status">1</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Objekt zentrisch strecken'</source>
+          <target>'Dilate an object'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[36]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[36]">
+        <source>'Zahlobjekt erstellen'</source>
+        <target>'Create number object'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256844907</prop><prop prop-type="Status">1</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Punkt an Kreis spiegeln'</source>
+          <target>'Reflect a point in a circle'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[37]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[37]">
+        <source>'Winkel markieren'</source>
+        <target>'Mark angle'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256844907</prop><prop prop-type="Status">1</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Abstände messen'</source>
+          <target>'Measure distance'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[38]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[38]">
+        <source>'Punkt fixieren'</source>
+        <target>'Fix point'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256846065</prop><prop prop-type="Status">1</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Winkelweite messen'</source>
+          <target>'Measure angle width'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[39]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[39]">
+        <source>'Punkt auf Gitterpunkt schieben'</source>
+        <target>'Fix point to a gridpoint'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256846065</prop><prop prop-type="Status">1</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Termobjekt erstellen'</source>
+          <target>'Build a term object'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[40]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[40]">
+        <source>'Punktfixierung aufheben'</source>
+        <target>'Unfix point'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256846065</prop><prop prop-type="Status">1</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Zahlobjekt erstellen'</source>
+          <target>'Build a number object'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[41]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[41]">
+        <source>'Koordinatensystem ändern'</source>
+        <target>'Edit the co-ordinate system'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256846065</prop><prop prop-type="Status">1</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Winkel markieren'</source>
+          <target>'Mark angle'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[42]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[42]">
+        <source>'Neues Makro erstellen'</source>
+        <target>'Create new macro'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3588197917</prop><prop prop-type="Status">1</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Punkt fixieren'</source>
+          <target>'Fix point'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[43]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[43]">
+        <source>'Makrobeschreibung editieren'</source>
+        <target>'Edit macro description'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3588197917</prop><prop prop-type="Status">1</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Punkt auf Gitterpunkt schieben'</source>
+          <target>'Clip point to grid'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[44]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[44]">
+        <source>'Vorhandenes Makro löschen'</source>
+        <target>'Delete macro'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3588197917</prop><prop prop-type="Status">1</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Punktfixierung aufheben'</source>
+          <target>'Undo fix of point'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[45]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[45]">
+        <source>'Makro laden'</source>
+        <target>'Load macro'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3588197917</prop><prop prop-type="Status">1</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Koordinatensystem ändern'</source>
+          <target>'Edit co-ordinate system'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[46]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[46]">
+        <source>'Makro speichern'</source>
+        <target>'Save macro'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3588197917</prop><prop prop-type="Status">1</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Neues Makro erstellen'</source>
+          <target>'Create new macro'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[47]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[47]">
+        <source>'Konstruktionstext zeigen'</source>
+        <target>'Show construction text'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3588197917</prop><prop prop-type="Status">1</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Makrobeschreibung editieren'</source>
+          <target>'Edit macro description'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[48]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[48]">
+        <source>'Funktions-Schaubild zeichnen'</source>
+        <target>'Function graph'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3588197917</prop><prop prop-type="Status">1</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Vorhandenes Makro löschen'</source>
+          <target>'Delete macro'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[49]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[49]">
+        <source>'Tangente in einem Kurvenpunkt'</source>
+        <target>'Tangent to a curve'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3588197917</prop><prop prop-type="Status">1</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Makro laden'</source>
+          <target>'Load macro'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[50]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[50]">
+        <source>'Integralfläche markieren'</source>
+        <target>'Area under a function graph'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980005787</prop><prop prop-type="Status">1</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Makro speichern'</source>
+          <target>'Save macro'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[51]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[51]">
+        <source>'Ellipse aus 2 Brennpunkten und 1 Punkt'</source>
+        <target>'Ellipse from 2 focal points and 1point'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980005787</prop><prop prop-type="Status">1</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Konstruktionstext zeigen'</source>
+          <target>'Show construction text'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627160995</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[52]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[52]">
+        <source>'Ellipse aus Mittelpunkt und 2 Scheiteln'</source>
+        <target>'Ellipse from centre point and 2 vertizes'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">1</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[53]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[53]">
+        <source>'Ellipse aus Mittelpunkt und 2 konj. Durchm.'</source>
+        <target>'Ellipse from centre and 2 conjugate points'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">1</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[54]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[54]">
+        <source>'Parabel aus Brennpunkt und Leitgerade'</source>
+        <target>'Parabola from focal point and directrix'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">1</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[55]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[55]">
+        <source>'Parabel aus 2 Tangenten und Berührpunkten'</source>
+        <target>'Parabola from 2 curve points and their tangent directions'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">1</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[56]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[56]">
+        <source>'Hyperbel aus 2 Brennpunkten und 1 Punkt'</source>
+        <target>'Hyperbola from 2 focal points and 1 point'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">1</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[57]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[57]">
+        <source>'Hyperbel aus Asymptoten und 1 Punkt'</source>
+        <target>'Hyperbola from 2 asymptotes and 1 point'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">1</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[58]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[58]">
+        <source>'Kegelschnitt durch 5 Punkte'</source>
+        <target>'Conic through 5 points'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">1</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[59]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[59]">
+        <source>'Polare'</source>
+        <target>'Polar line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">1</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[60]" resname="O:EditMenuConfigWin.O:CheckListBox1.Items.Strings[60]">
+        <source>'Pol'</source>
+        <target>'Polar point'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">1</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:CheckListBox1.TabOrder" resname="O:EditMenuConfigWin.O:CheckListBox1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256846065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Edit1.Left" resname="O:EditMenuConfigWin.O:Edit1.Left">
+        <source>181</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256847222</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Edit1.Top" resname="O:EditMenuConfigWin.O:Edit1.Top">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256847222</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Edit1.Width" resname="O:EditMenuConfigWin.O:Edit1.Width">
+        <source>324</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256847222</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Edit1.Height" resname="O:EditMenuConfigWin.O:Edit1.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256847222</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Edit1.TabOrder" resname="O:EditMenuConfigWin.O:Edit1.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256847222</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:Edit1.Text" resname="O:EditMenuConfigWin.O:Edit1.Text">
+        <source>'Edit1'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256847222</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnSave.Left" resname="O:EditMenuConfigWin.O:btnSave.Left">
+        <source>206</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164908218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnSave.Top" resname="O:EditMenuConfigWin.O:btnSave.Top">
+        <source>400</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164908218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnSave.Width" resname="O:EditMenuConfigWin.O:btnSave.Width">
+        <source>98</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164908218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnSave.Height" resname="O:EditMenuConfigWin.O:btnSave.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164908218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnSave.Caption" resname="O:EditMenuConfigWin.O:btnSave.Caption">
+        <source>'Speichern'</source>
+        <target>'Save'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164908218</prop><prop prop-type="Status">1</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnSave.Font.Charset" resname="O:EditMenuConfigWin.O:btnSave.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164908218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnSave.Font.Color" resname="O:EditMenuConfigWin.O:btnSave.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164908218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnSave.Font.Height" resname="O:EditMenuConfigWin.O:btnSave.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164908218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnSave.Font.Name" resname="O:EditMenuConfigWin.O:btnSave.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164908218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnSave.Font.Style" resname="O:EditMenuConfigWin.O:btnSave.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164908218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnSave.ParentFont" resname="O:EditMenuConfigWin.O:btnSave.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164908218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnSave.TabOrder" resname="O:EditMenuConfigWin.O:btnSave.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164908218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnSave.OnClick" resname="O:EditMenuConfigWin.O:btnSave.OnClick">
+        <source>btnSaveClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164908218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnCancel.Left" resname="O:EditMenuConfigWin.O:btnCancel.Left">
+        <source>430</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164908218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnCancel.Top" resname="O:EditMenuConfigWin.O:btnCancel.Top">
+        <source>400</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnCancel.Width" resname="O:EditMenuConfigWin.O:btnCancel.Width">
+        <source>98</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnCancel.Height" resname="O:EditMenuConfigWin.O:btnCancel.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnCancel.Caption" resname="O:EditMenuConfigWin.O:btnCancel.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Cancel'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnCancel.Font.Charset" resname="O:EditMenuConfigWin.O:btnCancel.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnCancel.Font.Color" resname="O:EditMenuConfigWin.O:btnCancel.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnCancel.Font.Height" resname="O:EditMenuConfigWin.O:btnCancel.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnCancel.Font.Name" resname="O:EditMenuConfigWin.O:btnCancel.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnCancel.Font.Style" resname="O:EditMenuConfigWin.O:btnCancel.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnCancel.ModalResult" resname="O:EditMenuConfigWin.O:btnCancel.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnCancel.ParentFont" resname="O:EditMenuConfigWin.O:btnCancel.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnCancel.TabOrder" resname="O:EditMenuConfigWin.O:btnCancel.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnHelp.Left" resname="O:EditMenuConfigWin.O:btnHelp.Left">
+        <source>318</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnHelp.Top" resname="O:EditMenuConfigWin.O:btnHelp.Top">
+        <source>400</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnHelp.Width" resname="O:EditMenuConfigWin.O:btnHelp.Width">
+        <source>98</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnHelp.Height" resname="O:EditMenuConfigWin.O:btnHelp.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnHelp.Caption" resname="O:EditMenuConfigWin.O:btnHelp.Caption">
+        <source>'Hilfe'</source>
+        <target>'Help'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">1</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnHelp.Font.Charset" resname="O:EditMenuConfigWin.O:btnHelp.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnHelp.Font.Color" resname="O:EditMenuConfigWin.O:btnHelp.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnHelp.Font.Height" resname="O:EditMenuConfigWin.O:btnHelp.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnHelp.Font.Name" resname="O:EditMenuConfigWin.O:btnHelp.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnHelp.Font.Style" resname="O:EditMenuConfigWin.O:btnHelp.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnHelp.ParentFont" resname="O:EditMenuConfigWin.O:btnHelp.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374855324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnHelp.TabOrder" resname="O:EditMenuConfigWin.O:btnHelp.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:EditMenuConfigWin.O:btnHelp.OnClick" resname="O:EditMenuConfigWin.O:btnHelp.OnClick">
+        <source>btnHelpClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37719.4164909375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

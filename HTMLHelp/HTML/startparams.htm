@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Startparameter</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Grundlagen">
+        <PARAM NAME="Keyword" VALUE="Installation">
+        <PARAM NAME="Keyword" VALUE="Startparameter">
+</OBJECT>
+
+<A NAME="idh_StartParams"></A>
+
+<H2>Startparameter beim Programmaufruf</H2>
+<HR>
+<br>
+
+<b>a)  Grunds&auml;tzliches</b><br>
+<br>
+Windows kann einem Programm beim Aufruf eine Reihe von sogenannten "<b>Kommandozeilen-Parametern</b>" &uuml;bergeben. Dies sind kurze Text-Kommandos, die - durch Leerzeichen getrennt - dem Dateinamen nachgestellt werden. Dazu m&uuml;ssen Sie das Programm &uuml;ber die Kommandozeile des Startmen&uuml;s (Men&uuml;punkt <i>Start | Ausf&uuml;hren</i>) aufrufen: dann zeigt Windows Ihnen ein einzeiliges Editierfeld, in das Sie den vollst&auml;ndigen Pfad zur EXE-Datei sowie die gew&uuml;nschten Parameter eingeben k&ouml;nnen.<br>
+<ul><font size="-1">
+Alternativ k&ouml;nnen Sie auch eine <b>Verkn&uuml;pfung</b> zu diesem Programm editieren (mit "Eigenschaften" im Kontextmen&uuml; der Verkn&uuml;pfung) und dort dem Pfad zur EXE-Datei die Parameter nachstellen. Beachten Sie aber, dass das Programm dann &uuml;ber diese Verkn&uuml;pfung <b>immer</b> mit diesen Parametern aufgerufen wird! F&uuml;r eine einmalige Anwendung eines Start-Parameters ist die oben beschriebene Methode &uuml;ber die Kommandozeile des Startmen&uuml;s vorzuziehen.</font>
+</ul>
+<br>
+<br>
+
+<b>b)  M&ouml;gliche Parameter f&uuml;r EUKLID DynaGeo</b><br>
+<br>
+EUKLID DynaGeo versteht die folgenden Kommandozeilen-Parameter:<br>
+<OL start="1" type="1">
+        <LI>den Namen bzw. den vollst&auml;ndigen Pfad einer <B>GEO-Datei</B>, die dann beim Start von EUKLID DynaGeo automatisch ge&ouml;ffnet wird; diese Eigenschaft hat zur Folge, dass durch einen Doppelklick auf eine GEO-Datei im Explorer automatisch EUKLID DynaGeo gestartet und diese Datei geladen wird, sofern im Betriebssystem eine ordnungsgem&auml;&szlig;e Verkn&uuml;pfung der GEO-Dateien mit dem EUKLID DynaGeo-Programm registriert wurde;<BR>
+<BR>
+        <li><i>/debug </i><br>
+        Diesen Parameter sollten Sie nur in sehr speziellen F&auml;llen hartn&auml;ckiger Schwierigkeiten mit EUKLID DynaGeo einsetzen. Falls Sie dies tun, startet EUKLID DynaGeo mit einer Diagnose Ihres Windows-Systems. Die Ergebnisse werden in eine Textdatei namens "debug.txt" ins Verzeichnis "{Anwendungsdaten}\DynaGeo" geschrieben, das sich im Profil des aktuellen Benutzers befindet.<br>
+<font size="-1"><ul><br>
+Derzeit steht in dieser Debug-Datei lediglich, welche Windows-Version Sie benutzen und ob bzw. in welcher Version der Internet-Explorer und die HTML-Hilfe-Funktionen auf Ihrem Rechner installiert sind. Au&szlig;erdem enth&auml;lt sie ein Protokoll des Startvorgangs von DynaGeo. Dar&uuml;berhinaus werden in einigen wenigen kniffligen Programmsituationen zus&auml;tzliche Laufzeit-Informationen in diese Datei geschrieben. In Zukunft k&ouml;nnte dieser Mechanismus verst&auml;rkt auch für gr&uuml;ndlichere Diagnosen eingesetzt werden.</ul></font><br>
+</li>
+</ol>
+<br>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Network options</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="basics"></param>
+        <PARAM NAME="Keyword" VALUE="installation"></param>
+        <PARAM NAME="Keyword" VALUE="network"></param>
+</OBJECT>
+
+<A NAME="idh_netopt"></A>
+
+<H2>Network options</H2>
+<HR>
+
+<P>This dialogue is called by the menu item <i>Network options</i> in the local menu of the <i>Options</i> window. Because this menu item is enabled only for users with write access to DYNAGEO.INI, this dialogue is accessible for administrators only.</p>
+
+</p>The <b>private options</b> of each individual user are saved in a private file named <b>EDG_USER.INI</b>. With modern network versions of WINDOWS (Win2000, WinXP, Vista,...), this file is saved to the profile of the user (in the directory <i>%appdata%\dynageo\</i>).</p>
+
+<p>For the administrator is a user too, he also has a private configuration data file named EDG_USER.INI. With this dialogue, the suitable options can be transfered from this private configuration file to the common configuration file DYNAGEO.INI. Additionally, the <b>network related rights of the user</b> are managed here.</p>
+
+<p>The dialogue contains the following two sections:</P>
+<br>
+
+<h3><font color="#0000FF">Permission of configuration</font></h3>
+<ul>
+<P>Here the administrator can grant or revoke the rights of the users to manage their DynaGeo configuration on their own. Direct after a new installation, the rights of the users are <u>not restricted</u> at all. </p>
+
+<ul type="square">
+<li>If the administrator does not allow the users to <b>edit</b> their private configuration and change their settings, then the menu item <i>Miscellaneous | Options</i> is deactivated for the users, and they <b>must work with the standard configuration</b>.<br>
+</li>
+<br>
+<li>Even if the administrator allows the users to edit their configuration, he still can deny the right to <b>save</b> the modified configuration. So all users at least <u>start</u> with the standard configuration.<br>
+</li>
+<br>
+<li>The <b>menu configurations</b> are a special case: <br>
+If the administrator denies the right to choose another menu configuration, then the user must be content with the standard menu configuration. On the tabsheet <i>Menu configuration</i> of the <i>Options</i> dialogue, he will find the menu commands disabled. <br>
+</li>
+<br>
+<li>Even if the administrator allows the user to change the menu configuration, a user can only create his own menu configuration if he is expressly allowed to do this. Such private menu configurations are saved in the user's private configuration file and thus are invisible to others. <br>
+</li>
+<br>
+</ul>
+The options are ordered by decreasing restriction. The mutual dependences of the options are managed automatically. <br>
+</p>
+</ul>
+<br>
+
+<h3><font color="#0000FF">Management of menu configurations</font></h3>
+<ul>
+<P>This section allows the comfortable administration of the menu configurations. It contains two lists next to each other:<br>
+<br>
+<ul type="square">
+<li>the left one shows the actually available <b>private menu configurations of the administrator</b>, contained in his private configuration file (EDG_USER.INI);
+</li>
+<li>the right one shows the <b>global menu configurations</b>, contained in the global configuration file (DYNAGEO.INI).<br>
+</li>
+</ul>
+<br>
+The two little arrow buttons between the lists allow the administrator to <b>move</b> a selected menu configuration from one list to the other.</p>
+
+<p>Below the list with the private menu configurations there are three buttons. You can<br>
+<br>
+<ul type="square">
+<li><b>create</b> a new menu configuration</b></li>
+<li><b>edit</b> an existing menu configuration</b></li>
+<li><b>delete</b> one of the existing menu configurations</b></li>
+</ul>
+<br>
+These 3 buttons work the same way as the corresponding buttons of the tabsheet <i>Menu configuration</i> of the <i>Option</i> dialogue.</p>
+
+<p>Below the list of the global menu configuration there is a button which allows the administrator to register the selected global menu configuration as <b>standard menu configuration for all users</b>. </P>
+</ul>
+<br>
+<br>
+<p>In the whole dialogue, only those commands are enabled that are suitable in the present situation. E.g. the buttons beneath the configuration lists are active only if an corresponding configuration in the list is selected.</p>
+<br>
+
+<P><font color="#FF0000"><b><i>Please note:</i></b></font>
+<ul><b>Whenever you'll click a button the changed configuration will always be written to the correponding configuration file at once! So take care of what you're doing in this dialogue!
+</ul>
+</p>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

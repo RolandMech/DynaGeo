@@ -1,0 +1,1224 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8B9CF0D9-3015-475D-B4E3-45925DCDC9B0}</ProjectGuid>
+        <MainSource>DynaGeo.dpr</MainSource>
+        <Config Condition="'$(Config)'==''">Release</Config>
+        <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+        <ProjectVersion>18.8</ProjectVersion>
+        <FrameworkType>VCL</FrameworkType>
+        <Base>True</Base>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <TargetedPlatforms>1</TargetedPlatforms>
+        <AppType>Application</AppType>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
+        <Cfg_1_Win32>true</Cfg_1_Win32>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+        <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <DCC_SYMBOL_PLATFORM>false</DCC_SYMBOL_PLATFORM>
+        <DCC_UNIT_PLATFORM>false</DCC_UNIT_PLATFORM>
+        <DCC_UsePackage>vcl;rtl;vclx;vclimg;vclactnband;dbrtl;vcldb;vcldbx;bdertl;vcltouch;xmlrtl;dsnap;dsnapcon;TeeUI;TeeDB;Tee;vclib;ibxpress;adortl;IndyCore;IndySystem;IndyProtocols;inet;intrawebdb_100_140;Intraweb_100_140;VclSmp;vclie;inetdb;webdsnap;websnap;inetdbbde;inetdbxpress;soaprtl;vclribbon;DbxCommonDriver;DbxClientDriver;DBXInterBaseDriver;DBXMySQLDriver;dbexpress;dbxcds;MathEdit;HTMLEdit;$(DCC_UsePackage)</DCC_UsePackage>
+        <DCC_Optimize>false</DCC_Optimize>
+        <DCC_OutputDRCFile>true</DCC_OutputDRCFile>
+        <DCC_IOChecking>false</DCC_IOChecking>
+        <DCC_RangeChecking>true</DCC_RangeChecking>
+        <DCC_DependencyCheckOutputName>DynaGeo.exe</DCC_DependencyCheckOutputName>
+        <DCC_UnitSearchPath>D:\Dokumente\Delphi2010\Projekte\MathEdit;D:\Dokumente\Delphi2010\Projekte\HTMLEdit;C:\Program Files (x86)\Embarcadero\RAD Studio\7.0\lib\ZipForge\Lib\Delphi 2010 and C++ Builder 2010;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <DCC_WriteableConstants>true</DCC_WriteableConstants>
+        <DCC_ImageBase>00400000</DCC_ImageBase>
+        <DCC_Platform>x86</DCC_Platform>
+        <SanitizedProjectName>DynaGeo</SanitizedProjectName>
+        <DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Winapi;System.Win;Xml.Win;$(DCC_Namespace)</DCC_Namespace>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_AutoGenVersion>true</VerInfo_AutoGenVersion>
+        <VerInfo_MajorVer>4</VerInfo_MajorVer>
+        <VerInfo_Build>681</VerInfo_Build>
+        <VerInfo_Locale>1031</VerInfo_Locale>
+        <VerInfo_Keys>CompanyName=Roland Mechling;FileDescription=DynaGeo;FileVersion=4.0.0.681;InternalName=;LegalCopyright=© 2016  Roland Mechling;LegalTrademarks=DynaGeo;OriginalFilename=DynaGeo.exe;ProductName=EUKLID DynaGeo;ProductVersion=4.0;Comments=</VerInfo_Keys>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <DCC_Namespace>Data.Win;Datasnap.Win;Web.Win;Soap.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+        <BT_BuildType>Debug</BT_BuildType>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(MSBuildProjectName)</VerInfo_Keys>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <Debugger_RunParams>/debug  D:\Dokumente\Delphi2010\Projekte\DynaGeo38\Data\MagnGlass_1.geo</Debugger_RunParams>
+        <Icon_MainIcon>DynaGeo_Icon.ico</Icon_MainIcon>
+        <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
+        <UWP_DelphiLogo44>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_44.png</UWP_DelphiLogo44>
+        <UWP_DelphiLogo150>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png</UWP_DelphiLogo150>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <DCC_RangeChecking>false</DCC_RangeChecking>
+        <DCC_MapFile>3</DCC_MapFile>
+        <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+        <DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+        <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+        <DCC_DebugInformation>0</DCC_DebugInformation>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+        <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
+        <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <DCC_RangeChecking>true</DCC_RangeChecking>
+        <DCC_IOChecking>true</DCC_IOChecking>
+        <DCC_IntegerOverflowCheck>true</DCC_IntegerOverflowCheck>
+        <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
+        <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
+    </PropertyGroup>
+    <ItemGroup>
+        <DelphiCompile Include="$(MainSource)">
+            <MainSource>MainSource</MainSource>
+        </DelphiCompile>
+        <DCCReference Include="Declar.pas"/>
+        <DCCReference Include="GlobVars.pas"/>
+        <DCCReference Include="SpeedBtnData.pas"/>
+        <DCCReference Include="TBaum.pas"/>
+        <DCCReference Include="mathlib.pas"/>
+        <DCCReference Include="FileIO.pas"/>
+        <DCCReference Include="FileIO2.pas"/>
+        <DCCReference Include="Utility.pas"/>
+        <DCCReference Include="GeoTypes.pas"/>
+        <DCCReference Include="GeoMakro.pas"/>
+        <DCCReference Include="IniFDlg.pas">
+            <Form>OptionsDlg</Form>
+        </DCCReference>
+        <DCCReference Include="WertEing.pas">
+            <Form>WertEingabeDlg</Form>
+        </DCCReference>
+        <DCCReference Include="NameDlg.pas">
+            <Form>ObjNameDlg</Form>
+        </DCCReference>
+        <DCCReference Include="OkayWin.pas">
+            <Form>OkayButton</Form>
+        </DCCReference>
+        <DCCReference Include="ConstrWin.pas">
+            <Form>ConstrTextWin</Form>
+        </DCCReference>
+        <DCCReference Include="CoordWin.pas">
+            <Form>CoordDlg</Form>
+        </DCCReference>
+        <DCCReference Include="TermEdit.pas">
+            <Form>TermEditDlg</Form>
+        </DCCReference>
+        <DCCReference Include="PrnCfg.pas">
+            <Form>PrinterCfgDlg</Form>
+        </DCCReference>
+        <DCCReference Include="RegWin.pas">
+            <Form>RegisterDlg</Form>
+        </DCCReference>
+        <DCCReference Include="SelectWin.pas">
+            <Form>SelectDlg</Form>
+        </DCCReference>
+        <DCCReference Include="CommentWin.pas">
+            <Form>TextWin</Form>
+        </DCCReference>
+        <DCCReference Include="KonstEing.pas">
+            <Form>KonstEingabeDlg</Form>
+        </DCCReference>
+        <DCCReference Include="KoordEing.pas">
+            <Form>KoordEingabeDlg</Form>
+        </DCCReference>
+        <DCCReference Include="MakHelpShow.pas">
+            <Form>MakHelpWin</Form>
+        </DCCReference>
+        <DCCReference Include="MakHelpEdit.pas">
+            <Form>MakHelpDlg</Form>
+        </DCCReference>
+        <DCCReference Include="SysMem.pas">
+            <Form>SysMemWin</Form>
+        </DCCReference>
+        <DCCReference Include="MenuCfgNew.pas">
+            <Form>EditMenuConfigWin</Form>
+        </DCCReference>
+        <DCCReference Include="MainWin.pas">
+            <Form>Hauptfenster</Form>
+        </DCCReference>
+        <DCCReference Include="FileProp.pas">
+            <Form>FileProps</Form>
+        </DCCReference>
+        <DCCReference Include="AboutWin.pas">
+            <Form>AboutBox</Form>
+        </DCCReference>
+        <DCCReference Include="TermForm.pas"/>
+        <DCCReference Include="Preview.pas">
+            <Form>PrintPreview</Form>
+        </DCCReference>
+        <DCCReference Include="DragDrop.pas"/>
+        <DCCReference Include="RangeEdit.pas">
+            <Form>RangeEditWin</Form>
+        </DCCReference>
+        <DCCReference Include="Tables.pas"/>
+        <DCCReference Include="QuantPoint.pas">
+            <Form>QuantPtWin</Form>
+        </DCCReference>
+        <DCCReference Include="AniParams.pas">
+            <Form>AniParamsWin</Form>
+        </DCCReference>
+        <DCCReference Include="SelectXCmd.pas">
+            <Form>SelectXCmdForm</Form>
+        </DCCReference>
+        <DCCReference Include="NetOptDlg.pas">
+            <Form>NetOptionsDlg</Form>
+        </DCCReference>
+        <DCCReference Include="GeoEvents.pas"/>
+        <DCCReference Include="Viewer\ToolBarProc.pas"/>
+        <DCCReference Include="GeoImage.pas"/>
+        <DCCReference Include="TagSelDlg.pas">
+            <Form>TagSelectDlg</Form>
+        </DCCReference>
+        <DCCReference Include="RTF2HTMLConv.pas"/>
+        <DCCReference Include="GeoVerging.pas"/>
+        <DCCReference Include="GeoConic.pas"/>
+        <DCCReference Include="GroupWin.pas">
+            <Form>EditGroupWin</Form>
+        </DCCReference>
+        <DCCReference Include="MemberWin.pas">
+            <Form>AddMemberWin</Form>
+        </DCCReference>
+        <DCCReference Include="GeoGroup.pas"/>
+        <DCCReference Include="GeoTransf.pas"/>
+        <DCCReference Include="GeoLocLines.pas"/>
+        <DCCReference Include="GeoHelper.pas"/>
+        <DCCReference Include="Unit_LGS.pas"/>
+        <DCCReference Include="AssAffAbb_1.pas">
+            <Form>AffAbb_1_Dlg</Form>
+        </DCCReference>
+        <DCCReference Include="AssAffAbb_2.pas">
+            <Form>AffAbb_2_Dlg</Form>
+        </DCCReference>
+        <DCCReference Include="AssAffAbb_3.pas">
+            <Form>AffAbb_3_Dlg</Form>
+        </DCCReference>
+        <DCCReference Include="AssAffAbb_2a.pas">
+            <Form>AffAbb_2a_Dlg</Form>
+        </DCCReference>
+        <DCCReference Include="AssAffAbb_2b.pas">
+            <Form>AffAbb_2b_Dlg</Form>
+        </DCCReference>
+        <DCCReference Include="AssAffAbb_2c.pas">
+            <Form>AffAbb_2c_Dlg</Form>
+        </DCCReference>
+        <DCCReference Include="AssAffAbb_2d.pas">
+            <Form>AffAbb_2d_Dlg</Form>
+        </DCCReference>
+        <DCCReference Include="AssAffAbb_2e.pas">
+            <Form>AffAbb_2e_Dlg</Form>
+        </DCCReference>
+        <DCCReference Include="AssAffAbb_3a.pas">
+            <Form>AffAbb_3a_Dlg</Form>
+        </DCCReference>
+        <DCCReference Include="AssAffAbb_3b.pas">
+            <Form>AffAbb_3b_Dlg</Form>
+        </DCCReference>
+        <DCCReference Include="LinkWin.pas">
+            <Form>EditLinkDlg</Form>
+        </DCCReference>
+        <DCCReference Include="OKCheckConfWin.pas">
+            <Form>ConfigOKCheckDlg</Form>
+        </DCCReference>
+        <DCCReference Include="ValidateResultWin.pas">
+            <Form>ValidationResultWin</Form>
+        </DCCReference>
+        <DCCReference Include="Symbols.pas">
+            <Form>SymbolWin</Form>
+        </DCCReference>
+        <DCCReference Include="AskUser1.pas">
+            <Form>AskUser1Dlg</Form>
+        </DCCReference>
+        <DCCReference Include="RiemannSum.pas">
+            <Form>RiemannForm</Form>
+        </DCCReference>
+        <DCCReference Include="EditMappingWin.pas">
+            <Form>EditMappingDlg</Form>
+        </DCCReference>
+        <DCCReference Include="WerteTabelle.pas">
+            <Form>FunkTableWin</Form>
+        </DCCReference>
+        <DCCReference Include="FileIO3.pas"/>
+        <DCCReference Include="ExpertOptWin.pas">
+            <Form>ExpertOptWin</Form>
+        </DCCReference>
+        <DCCReference Include="HTMLDynaGeoXSettings.pas">
+            <Form>HTMLDynaGeoXDataForm</Form>
+        </DCCReference>
+        <DCCReference Include="HTMLDynaGeoJSettings.pas">
+            <Form>HTMLDynaGeoJDataForm</Form>
+        </DCCReference>
+        <DCCReference Include="xxcode.pas"/>
+        <DCCReference Include="debuglog.pas"/>
+        <DCCReference Include="ascrypt.pas"/>
+        <DCCReference Include="MyWebWin.pas">
+            <Form>BrowserWin</Form>
+        </DCCReference>
+        <DCCReference Include="MagnGlassWin.pas">
+            <Form>MyMagnGlassWin</Form>
+        </DCCReference>
+        <DCCReference Include="GameAngles1Dlg.pas">
+            <Form>Angles1Dlg</Form>
+        </DCCReference>
+        <DCCReference Include="GameRes1.pas">
+            <Form>GameRes1Dlg</Form>
+        </DCCReference>
+        <DCCReference Include="GameAngles2Dlg.pas">
+            <Form>Angles2Dlg</Form>
+        </DCCReference>
+        <DCCReference Include="FloatEdit.pas"/>
+        <DCCReference Include="FormatEdit.pas"/>
+        <DCCReference Include="FormatText.pas"/>
+        <DCCReference Include="IntEdit.pas"/>
+        <None Include="..\DynaGeo38\ModelSupport_DynaGeo\default.txaPackage"/>
+        <None Include="..\DynaGeo38\ModelSupport_DynaGeo\default.txvpck"/>
+        <None Include="..\DynaGeo38\ModelSupport_DynaGeo\GeoTypes\default.txvpck"/>
+        <None Include="..\DynaGeo38\ModelSupport_DynaGeo\DynaGeo\default.txvpck"/>
+        <None Include="Viewer\DynaGeoX3.dpr"/>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+        <BorlandProject>
+            <Delphi.Personality>
+                <Source>
+                    <Source Name="MainSource">DynaGeo.dpr</Source>
+                </Source>
+                <Parameters>
+                    <Parameters Name="UseLauncher">False</Parameters>
+                    <Parameters Name="LoadAllSymbols">True</Parameters>
+                    <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+                    <Parameters Name="RunParams">/debug  D:\Dokumente\Delphi2010\Projekte\DynaGeo38\Data\MagnGlass_1.geo</Parameters>
+                </Parameters>
+                <VersionInfo>
+                    <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+                    <VersionInfo Name="AutoIncBuild">True</VersionInfo>
+                    <VersionInfo Name="MajorVer">4</VersionInfo>
+                    <VersionInfo Name="MinorVer">0</VersionInfo>
+                    <VersionInfo Name="Release">0</VersionInfo>
+                    <VersionInfo Name="Build">681</VersionInfo>
+                    <VersionInfo Name="Debug">False</VersionInfo>
+                    <VersionInfo Name="PreRelease">False</VersionInfo>
+                    <VersionInfo Name="Special">False</VersionInfo>
+                    <VersionInfo Name="Private">False</VersionInfo>
+                    <VersionInfo Name="DLL">False</VersionInfo>
+                    <VersionInfo Name="Locale">1031</VersionInfo>
+                    <VersionInfo Name="CodePage">1252</VersionInfo>
+                </VersionInfo>
+                <VersionInfoKeys>
+                    <VersionInfoKeys Name="CompanyName">Roland Mechling</VersionInfoKeys>
+                    <VersionInfoKeys Name="FileDescription">DynaGeo</VersionInfoKeys>
+                    <VersionInfoKeys Name="FileVersion">4.0.0.681</VersionInfoKeys>
+                    <VersionInfoKeys Name="InternalName"/>
+                    <VersionInfoKeys Name="LegalCopyright">© 2016  Roland Mechling</VersionInfoKeys>
+                    <VersionInfoKeys Name="LegalTrademarks">DynaGeo</VersionInfoKeys>
+                    <VersionInfoKeys Name="OriginalFilename">DynaGeo.exe</VersionInfoKeys>
+                    <VersionInfoKeys Name="ProductName">EUKLID DynaGeo</VersionInfoKeys>
+                    <VersionInfoKeys Name="ProductVersion">4.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="Comments"/>
+                </VersionInfoKeys>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k140.bpl">Microsoft Office 2000 Beispiele für gekapselte Komponenten für Automation Server</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclofficexp140.bpl">Microsoft Office XP Beispiele für gekapselte Komponenten für Automation Server</Excluded_Packages>
+                </Excluded_Packages>
+                <Language>
+                    <Language Name="ProjectLang">$00000407</Language>
+                    <Language Name="RootDir">C:\Users\Thilo\Git\OpenSource\spinthil_DynaGeo\</Language>
+                </Language>
+                <Resource_DLL_Projects>
+                    <Resource_DLL_Projects Name="Item0">Englisch (Großbritannien)*$00000809*ENG*ENG</Resource_DLL_Projects>
+                </Resource_DLL_Projects>
+                <RDP_Source_Files>
+                    <RDP_Source_Files Name="Item0">IniFDlg.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item1">WertEing.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item2">NameDlg.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item3">OkayWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item4">ConstrWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item5">CoordWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item6">TermEdit.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item7">PrnCfg.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item8">RegWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item9">SelectWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item10">CommentWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item11">KonstEing.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item12">KoordEing.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item13">MakHelpShow.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item14">MakHelpEdit.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item15">SysMem.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item16">MenuCfgNew.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item17">MainWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item18">FileProp.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item19">AboutWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item20">Preview.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item21">RangeEdit.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item22">QuantPoint.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item23">AniParams.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item24">SelectXCmd.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item25">NetOptDlg.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item26">TagSelDlg.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item27">GroupWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item28">MemberWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item29">AssAffAbb_1.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item30">AssAffAbb_2.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item31">AssAffAbb_3.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item32">AssAffAbb_2a.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item33">AssAffAbb_2b.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item34">AssAffAbb_2c.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item35">AssAffAbb_2d.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item36">AssAffAbb_2e.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item37">AssAffAbb_3a.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item38">AssAffAbb_3b.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item39">LinkWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item40">OKCheckConfWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item41">ValidateResultWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item42">Symbols.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item43">AskUser1.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item44">RiemannSum.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item45">EditMappingWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item46">WerteTabelle.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item47">ExpertOptWin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item48">HTMLDynaGeoXSettings.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item49">HTMLDynaGeoJSettings.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item50">OKCANCL1.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item51">DynaGeo.drc</RDP_Source_Files>
+                </RDP_Source_Files>
+            </Delphi.Personality>
+            <ModelSupport>False</ModelSupport>
+            <Deployment Version="3">
+                <DeployFile LocalName="..\DynaGeo38\ModelSupport_DynaGeo\default.txaPackage" Configuration="Release" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\DynaGeo38\ModelSupport_DynaGeo\default.txvpck" Configuration="Release" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="DynaGeo.exe" Configuration="Release" Class="ProjectOutput">
+                    <Platform Name="Win32">
+                        <RemoteName>DynaGeo.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\DynaGeo38\ModelSupport_DynaGeo\GeoTypes\default.txvpck" Configuration="Release" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\DynaGeo38\ModelSupport_DynaGeo\DynaGeo\default.txvpck" Configuration="Release" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Viewer\DynaGeoX3.dpr" Configuration="Release" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployClass Name="AdditionalDebugSymbols">
+                    <Platform Name="OSX32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidClassesDexFile">
+                    <Platform Name="Android">
+                        <RemoteDir>classes</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>classes</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidFileProvider">
+                    <Platform Name="Android">
+                        <RemoteDir>res\xml</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\xml</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidGDBServer">
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\armeabi-v7a</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidLibnativeArmeabiFile">
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\armeabi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>library\lib\armeabi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidLibnativeArmeabiv7aFile">
+                    <Platform Name="Android64">
+                        <RemoteDir>library\lib\armeabi-v7a</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidLibnativeMipsFile">
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\mips</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>library\lib\mips</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidServiceOutput">
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\armeabi-v7a</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>library\lib\arm64-v8a</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidServiceOutput_Android32">
+                    <Platform Name="Android64">
+                        <RemoteDir>library\lib\armeabi-v7a</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidSplashImageDef">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidSplashStyles">
+                    <Platform Name="Android">
+                        <RemoteDir>res\values</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\values</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidSplashStylesV21">
+                    <Platform Name="Android">
+                        <RemoteDir>res\values-v21</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\values-v21</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_Colors">
+                    <Platform Name="Android">
+                        <RemoteDir>res\values</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\values</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_DefaultAppIcon">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon144">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-xxhdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable-xxhdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon36">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-ldpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable-ldpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon48">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-mdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable-mdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon72">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-hdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable-hdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon96">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-xhdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable-xhdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_NotificationIcon24">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-mdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable-mdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_NotificationIcon36">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-hdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable-hdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_NotificationIcon48">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-xhdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable-xhdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_NotificationIcon72">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-xxhdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable-xxhdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_NotificationIcon96">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-xxxhdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable-xxxhdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_SplashImage426">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-small</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable-small</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_SplashImage470">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-normal</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable-normal</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_SplashImage640">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-large</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable-large</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_SplashImage960">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-xlarge</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\drawable-xlarge</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_Strings">
+                    <Platform Name="Android">
+                        <RemoteDir>res\values</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>res\values</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="DebugSymbols">
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="DependencyFramework">
+                    <Platform Name="OSX32">
+                        <Operation>1</Operation>
+                        <Extensions>.framework</Extensions>
+                    </Platform>
+                    <Platform Name="OSX64">
+                        <Operation>1</Operation>
+                        <Extensions>.framework</Extensions>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="DependencyModule">
+                    <Platform Name="OSX32">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="OSX64">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                        <Extensions>.dll;.bpl</Extensions>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Required="true" Name="DependencyPackage">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="OSX64">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                        <Extensions>.bpl</Extensions>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="File">
+                    <Platform Name="Android">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice32">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="OSX64">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch1024x768">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch1536x2048">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch1668">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch1668x2388">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch2048x1536">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch2048x2732">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch2224">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch2388x1668">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch2732x2048">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch768x1024">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch1125">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch1136x640">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch1242">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch1242x2688">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch1334">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch1792">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch2208">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch2436">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch2688x1242">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch320">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch640">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch640x1136">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch750">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch828">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectAndroidManifest">
+                    <Platform Name="Android">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectiOSDeviceDebug">
+                    <Platform Name="iOSDevice32">
+                        <RemoteDir>..\$(PROJECTNAME).app.dSYM\Contents\Resources\DWARF</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <RemoteDir>..\$(PROJECTNAME).app.dSYM\Contents\Resources\DWARF</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectiOSDeviceResourceRules"/>
+                <DeployClass Name="ProjectiOSEntitlements"/>
+                <DeployClass Name="ProjectiOSInfoPList"/>
+                <DeployClass Name="ProjectiOSResource">
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectOSXDebug"/>
+                <DeployClass Name="ProjectOSXEntitlements"/>
+                <DeployClass Name="ProjectOSXInfoPList"/>
+                <DeployClass Name="ProjectOSXResource">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\Resources</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\Resources</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Required="true" Name="ProjectOutput">
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\armeabi-v7a</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android64">
+                        <RemoteDir>library\lib\arm64-v8a</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Linux64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="OSX64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectOutput_Android32">
+                    <Platform Name="Android64">
+                        <RemoteDir>library\lib\armeabi-v7a</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectUWPManifest">
+                    <Platform Name="Win32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Win64">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="UWP_DelphiLogo150">
+                    <Platform Name="Win32">
+                        <RemoteDir>Assets</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Win64">
+                        <RemoteDir>Assets</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="UWP_DelphiLogo44">
+                    <Platform Name="Win32">
+                        <RemoteDir>Assets</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Win64">
+                        <RemoteDir>Assets</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <ProjectRoot Platform="iOSDevice64" Name="$(PROJECTNAME).app"/>
+                <ProjectRoot Platform="Win64" Name="$(PROJECTNAME)"/>
+                <ProjectRoot Platform="iOSDevice32" Name="$(PROJECTNAME).app"/>
+                <ProjectRoot Platform="Linux64" Name="$(PROJECTNAME)"/>
+                <ProjectRoot Platform="Win32" Name="$(PROJECTNAME)"/>
+                <ProjectRoot Platform="OSX32" Name="$(PROJECTNAME)"/>
+                <ProjectRoot Platform="Android" Name="$(PROJECTNAME)"/>
+                <ProjectRoot Platform="OSX64" Name="$(PROJECTNAME)"/>
+                <ProjectRoot Platform="iOSSimulator" Name="$(PROJECTNAME).app"/>
+                <ProjectRoot Platform="Android64" Name="$(PROJECTNAME)"/>
+            </Deployment>
+            <Platforms>
+                <Platform value="Win32">True</Platform>
+            </Platforms>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <Import Project="$(MSBuildProjectName).deployproj" Condition="Exists('$(MSBuildProjectName).deployproj')"/>
+    <Import Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj" Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')"/>
+</Project>

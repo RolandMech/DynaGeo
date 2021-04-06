@@ -1,0 +1,116 @@
+; EUKLID Help-Ids aus Declar.pas
+
+;  cm_Drag         =  0;
+;  cm_MoveName     =  1;
+;  cm_MarkRect     =  2;
+;  cm_BlinkBaseObj =  3;
+
+  cm_Options      = 20;
+  opt_start       = 21;
+  opt_darst       = 22;
+  opt_meas        = 23;
+  opt_intern      = 24;
+  opt_menu        = 25;
+  opt_kons        = 26;
+  opt_export      = 27
+  opt_newcfg      = 31;
+
+;  cm_GRichtTerm   = 41;
+  cm_PtCoord      = 42;
+  cm_Strahl       = 43;
+  cm_Arc          = 44;
+  cm_MirrorObj    = 45;
+
+  cm_Poly2Foregr  = 81;
+;  cm_TogglePolyF  = 82;
+;  cm_EditComment  = 88;
+;  cm_MeasureSL    = 89;
+  cm_Comment      = 90;
+  cm_ConstrText   = 92;
+  cm_DataInput    = 94;
+  cm_ToolBar      = 96;
+;  cm_CallHelp     = 97;
+;  cm_CheckFiles   = 99;
+
+  cm_New       = 101;
+  cm_Load      = 102;
+  cm_Save      = 103;
+  cm_SaveAs    = 104;
+  cm_PrnInit   = 105;
+  cm_Print     = 106;
+  cm_Exit      = 107;
+  cm_FileProp  = 108;
+
+  cm_Work      = 110;
+  cm_Construct = 111;
+  cm_ToggleVis = 112;
+  cm_NameObj   = 113;
+  cm_DelObj    = 114;
+  cm_ZoomUp    = 115;
+  cm_ZoomDn    = 116;
+  cm_Slide     = 117;
+  cm_EditDraw  = 119;
+
+  cm_Draw      = 120;
+  cm_PCreate   = 121;
+  cm_SCreate   = 122;
+  cm_GCreate   = 123;
+  cm_KCreate   = 124;
+  cm_DCreate   = 125;
+  cm_RCreate   = 126;
+  cm_FCreate   = 127;
+  cm_LCreate   = 128;
+  cm_MCreate   = 129;
+  cm_NCreate   = 131;
+
+  cm_PonLine   = 109;
+  cm_Schnitt   = 132;
+  cm_Mitte     = 133;
+  cm_MirrorPt  = 134;
+  cm_MSenkr    = 135;
+  cm_WHalb     = 136;
+  cm_Parall    = 137;
+  cm_Lot       = 138;
+  cm_GRicht    = 139;
+
+  cm_DefMakro     = 141;
+  cm_DelMakro     = 142;
+  cm_LoadMakro    = 143;
+  cm_SaveMakro    = 144;
+  cm_RunMakro     = 145;
+  cm_EditHlpMakro = 146;
+
+  cm_ShowGrowth   = 151;
+  cm_BindP2L      = 152;
+  cm_ReleaseP     = 153;
+  cm_MarkAngle    = 154;
+  cm_MeasureAngle = 155;
+  cm_MeasureDist  = 156;
+  cm_TermInput    = 157;
+  cm_MakeLocLine  = 158;
+
+  cm_HelpIndex    = 161;
+  cm_HelpBasics   = 164;
+  cm_HelpScreen   = 165;
+  cm_HelpKeyMouse = 166;
+  cm_Licence      = 167;
+  cm_Register     = 168;
+
+;{ für Makro-Einträge reservierte Menü-Ids :
+;                 = 170
+;               ... 199  }
+
+  cm_WriteToCB    = 201;
+;  cm_ReadFromCB   = 202;  { wird noch nicht benutzt }
+  cm_Undo         = 203;
+  cm_UndoUndo     = 204;
+
+  cm_Hauptleiste  = 220;
+
+  cm_Meas_Calc    = 240;
+  cm_CoordSys     = 241;
+  cm_FixPt        = 242;
+  cm_UnfixPt	  = 243;
+  cm_Clip2Grid	  = 244;
+
+

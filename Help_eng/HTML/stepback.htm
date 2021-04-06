@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Undo last construction</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="delete">
+        <PARAM NAME="Keyword" VALUE="object">
+        <PARAM NAME="Keyword" VALUE="undo">
+</OBJECT>
+
+<A NAME="idh_cm_undo"></A>
+
+<H2>Undo last construction&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../images/toolb112.gif" ALT="" BORDER=0></H2>
+<HR>
+
+<P>This command takes the construction process one-step-back. The object which was constructed last is deleted, and any snapping of other objects to this one are lost. The Undo last construction command is thus equivalent to deleting the last created object by <i>Edit | Delete object</i>. In both cases the deleted object may be re-activated by the command <i>Edit | Redo last undo</i>.</P>
+<br>
+<P><font color="#FF0000"><b><i>Please note:</i></b></font>
+<ul>The command only refers to the last executed <b>construction step</b>. In this way it differs from the <i>one-step-back command</i> in other WINDOWS programs. An example may show the difference: when you<br>
+<ol start="1" type="1">
+<li>use <i>Construct | Line segment between 2 points</i> to draw a line from point to point, then</li>
+<li>use <i>Edit | Edit drawing</i> to colour the end points red, and now</li>
+<li>use <i>Edit | Undo last construction</i></li>
+</ol>
+then the points will not return to black (as when you use the one-step-back in e.g. PaintBrush), but the line will be deleted. The points will remain red.</ul></P>
+<br>
+<br>
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="loeschbasics.htm">About deleting objects</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

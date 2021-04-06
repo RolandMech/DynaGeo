@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\RiemannSum.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\RiemannSum.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715972222</prop>
+        <prop prop-type="OrigDateTime">40195.553125</prop>
+        <prop prop-type="XlatDateTime">40195.553125</prop>
+        <prop prop-type="Translated">6</prop>
+        <prop prop-type="UnTranslated">95</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:RiemannForm.Left" resname="O:RiemannForm.Left">
+        <source>511</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.Top" resname="O:RiemannForm.Top">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.BorderIcons" resname="O:RiemannForm.BorderIcons">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.BorderStyle" resname="O:RiemannForm.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.Caption" resname="O:RiemannForm.Caption">
+        <source>'Riemann-Summe erzeugen'</source>
+        <target>'Create a Riemann sum'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">1</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.ClientHeight" resname="O:RiemannForm.ClientHeight">
+        <source>193</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.ClientWidth" resname="O:RiemannForm.ClientWidth">
+        <source>402</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.Color" resname="O:RiemannForm.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.Font.Charset" resname="O:RiemannForm.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.Font.Color" resname="O:RiemannForm.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.Font.Height" resname="O:RiemannForm.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.Font.Name" resname="O:RiemannForm.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.Font.Style" resname="O:RiemannForm.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.OldCreateOrder" resname="O:RiemannForm.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.Position" resname="O:RiemannForm.Position">
+        <source>poMainFormCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.OnShow" resname="O:RiemannForm.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.PixelsPerInch" resname="O:RiemannForm.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.TextHeight" resname="O:RiemannForm.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TRiemannForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label1.Left" resname="O:RiemannForm.O:Label1.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label1.Top" resname="O:RiemannForm.O:Label1.Top">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label1.Width" resname="O:RiemannForm.O:Label1.Width">
+        <source>185</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label1.Height" resname="O:RiemannForm.O:Label1.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label1.Alignment" resname="O:RiemannForm.O:Label1.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label1.AutoSize" resname="O:RiemannForm.O:Label1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label1.Caption" resname="O:RiemannForm.O:Label1.Caption">
+        <source>'Art der Riemann-Summe: '</source>
+        <target>'Kind of Riemann sum: '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">1</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label1.Font.Charset" resname="O:RiemannForm.O:Label1.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label1.Font.Color" resname="O:RiemannForm.O:Label1.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label1.Font.Height" resname="O:RiemannForm.O:Label1.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label1.Font.Name" resname="O:RiemannForm.O:Label1.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label1.Font.Style" resname="O:RiemannForm.O:Label1.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label1.ParentFont" resname="O:RiemannForm.O:Label1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label2.Left" resname="O:RiemannForm.O:Label2.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label2.Top" resname="O:RiemannForm.O:Label2.Top">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label2.Width" resname="O:RiemannForm.O:Label2.Width">
+        <source>185</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label2.Height" resname="O:RiemannForm.O:Label2.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label2.Alignment" resname="O:RiemannForm.O:Label2.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label2.AutoSize" resname="O:RiemannForm.O:Label2.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label2.Caption" resname="O:RiemannForm.O:Label2.Caption">
+        <source>'Anzahl der Teilintervalle: '</source>
+        <target>'Number of intervals: '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">1</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label2.Font.Charset" resname="O:RiemannForm.O:Label2.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label2.Font.Color" resname="O:RiemannForm.O:Label2.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label2.Font.Height" resname="O:RiemannForm.O:Label2.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label2.Font.Name" resname="O:RiemannForm.O:Label2.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label2.Font.Style" resname="O:RiemannForm.O:Label2.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Label2.ParentFont" resname="O:RiemannForm.O:Label2.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Bevel1.Left" resname="O:RiemannForm.O:Bevel1.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Bevel1.Top" resname="O:RiemannForm.O:Bevel1.Top">
+        <source>128</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Bevel1.Width" resname="O:RiemannForm.O:Bevel1.Width">
+        <source>385</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Bevel1.Height" resname="O:RiemannForm.O:Bevel1.Height">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Bevel1.Shape" resname="O:RiemannForm.O:Bevel1.Shape">
+        <source>bsTopLine</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button1.Left" resname="O:RiemannForm.O:Button1.Left">
+        <source>64</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button1.Top" resname="O:RiemannForm.O:Button1.Top">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button1.Width" resname="O:RiemannForm.O:Button1.Width">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button1.Height" resname="O:RiemannForm.O:Button1.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button1.Caption" resname="O:RiemannForm.O:Button1.Caption">
+        <source>'Okay'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button1.Font.Charset" resname="O:RiemannForm.O:Button1.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button1.Font.Color" resname="O:RiemannForm.O:Button1.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button1.Font.Height" resname="O:RiemannForm.O:Button1.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button1.Font.Name" resname="O:RiemannForm.O:Button1.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button1.Font.Style" resname="O:RiemannForm.O:Button1.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button1.ParentFont" resname="O:RiemannForm.O:Button1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460653472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button1.TabOrder" resname="O:RiemannForm.O:Button1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button1.OnClick" resname="O:RiemannForm.O:Button1.OnClick">
+        <source>Button1Click</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button2.Left" resname="O:RiemannForm.O:Button2.Left">
+        <source>208</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button2.Top" resname="O:RiemannForm.O:Button2.Top">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button2.Width" resname="O:RiemannForm.O:Button2.Width">
+        <source>113</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button2.Height" resname="O:RiemannForm.O:Button2.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button2.Caption" resname="O:RiemannForm.O:Button2.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Abort'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">1</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button2.Font.Charset" resname="O:RiemannForm.O:Button2.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button2.Font.Color" resname="O:RiemannForm.O:Button2.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button2.Font.Height" resname="O:RiemannForm.O:Button2.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button2.Font.Name" resname="O:RiemannForm.O:Button2.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button2.Font.Style" resname="O:RiemannForm.O:Button2.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button2.ParentFont" resname="O:RiemannForm.O:Button2.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button2.TabOrder" resname="O:RiemannForm.O:Button2.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:Button2.OnClick" resname="O:RiemannForm.O:Button2.OnClick">
+        <source>Button2Click</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:RadioGroup1.Left" resname="O:RiemannForm.O:RadioGroup1.Left">
+        <source>208</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:RadioGroup1.Top" resname="O:RiemannForm.O:RadioGroup1.Top">
+        <source>56</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:RadioGroup1.Width" resname="O:RiemannForm.O:RadioGroup1.Width">
+        <source>137</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:RadioGroup1.Height" resname="O:RiemannForm.O:RadioGroup1.Height">
+        <source>57</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:RadioGroup1.Font.Charset" resname="O:RiemannForm.O:RadioGroup1.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:RadioGroup1.Font.Color" resname="O:RiemannForm.O:RadioGroup1.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:RadioGroup1.Font.Height" resname="O:RiemannForm.O:RadioGroup1.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:RadioGroup1.Font.Name" resname="O:RiemannForm.O:RadioGroup1.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:RadioGroup1.Font.Style" resname="O:RiemannForm.O:RadioGroup1.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:RadioGroup1.ItemIndex" resname="O:RiemannForm.O:RadioGroup1.ItemIndex">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:RadioGroup1.Items.Strings[0]" resname="O:RiemannForm.O:RadioGroup1.Items.Strings[0]">
+        <source>'Obersumme'</source>
+        <target>'upper sum'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">1</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:RadioGroup1.Items.Strings[1]" resname="O:RiemannForm.O:RadioGroup1.Items.Strings[1]">
+        <source>'Untersumme'</source>
+        <target>'lower sum'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">1</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:RadioGroup1.ParentFont" resname="O:RiemannForm.O:RadioGroup1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:RadioGroup1.TabOrder" resname="O:RiemannForm.O:RadioGroup1.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:EditTerm.Left" resname="O:RiemannForm.O:EditTerm.Left">
+        <source>208</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:EditTerm.Top" resname="O:RiemannForm.O:EditTerm.Top">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:EditTerm.Width" resname="O:RiemannForm.O:EditTerm.Width">
+        <source>137</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:EditTerm.Height" resname="O:RiemannForm.O:EditTerm.Height">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:EditTerm.Cursor" resname="O:RiemannForm.O:EditTerm.Cursor">
+        <source>crDefault</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:EditTerm.ParentColor" resname="O:RiemannForm.O:EditTerm.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:EditTerm.TabOrder" resname="O:RiemannForm.O:EditTerm.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:EditTerm.DefaultFont.Charset" resname="O:RiemannForm.O:EditTerm.DefaultFont.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:EditTerm.DefaultFont.Color" resname="O:RiemannForm.O:EditTerm.DefaultFont.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:EditTerm.DefaultFont.Height" resname="O:RiemannForm.O:EditTerm.DefaultFont.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:EditTerm.DefaultFont.Name" resname="O:RiemannForm.O:EditTerm.DefaultFont.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RiemannForm.O:EditTerm.DefaultFont.Style" resname="O:RiemannForm.O:EditTerm.DefaultFont.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460655324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

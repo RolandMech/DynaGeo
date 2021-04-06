@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Das Problem der Winkel-Ma&szlig;einheit</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Einstellungen">
+        <PARAM NAME="Keyword" VALUE="Optionen">
+</OBJECT>
+
+<A NAME="idh_AngleUnit"></A>
+
+<H2>Das Problem der Winkel-Ma&szlig;einheit</H2>
+<HR>
+
+<p>F&uuml;r die Messung von Winkeln gibt es in der (Schul-) Mathematik zwei konkurrierende M&ouml;glichkeiten: einerseits die in der Unterstufe eingef&uuml;hrte Messung im <b>Gradma&szlig;</b> und andererseits die in der Mittelstufe nachgeschobene Messung im <b>Bogenma&szlig;</b>. Letztere bleibt vielen Sch&uuml;lern w&auml;hrend ihrer gesamten Schulzeit ein Mysterium. Daher war es bei der Erstellung der fr&uuml;hen Versionen von DynaGeo klar, dass Winkel in einem Geometrie-Programm in Grad zu messen seien. Also wurde die gesamte Oberfl&auml;che des Programms aufs Gradma&szlig; eingestellt: wann immer ein Winkelwert einzugeben war, beschr&auml;nkte sich DynaGeo auf die Entgegennahme der Ma&szlig;zahl, ohne dass eine explizite Nennung der Einheit "Grad" je n&ouml;tig war.<br>
+<br>
+<br>
+
+<h3><font color="#0000FF"><i>Die Vertreibung aus dem Paradies des Gradma&szlig;es</i></font></h3>
+
+Sp&auml;testens als DynaGeo lernte, Funktionsschaubilder zu zeichnen, war es vorbei mit der heilen Welt des Gradma&szlig;es: wenn man <b>trigonometrische Funktionen</b> darstellen will, kommt man um das Bogenma&szlig; nicht herum. Diesem Faktum wurde Gen&uuml;ge getan, indem Terme von Funktions-Objekten stets im Bogenma&szlig; ausgewertet wurden, wohingegen z.B. der Term, der die Richtung einer "Geraden in bestimmtem Winkel" angibt, weiterhin im Gradma&szlig; interpretiert wurde. Dies allerdings erschwerte den Datenaustausch zwischen den Termen: wenn in einem Funktionsterm eine Referenz auf den Winkel einer "Geraden in bestimmtem Winkel" eingef&uuml;gt werden sollte, dann lieferte die Gerade den aktuellen Winkelwert im Gradma&szlig;, wohingegen der Funktionsterm seinen Argument-Term im Bogenma&szlig; auswerten wollte.<br>
+<br>
+
+Damit der Benutzer diese Probleme l&ouml;sen konnte, wurden ihm Transfer-Funktionen f&uuml;r die Umrechnung zwischen Grad- und Bogenma&szlig; zur Verf&uuml;gung gestellt, n&auml;mlich die in allen Termen verf&uuml;gbaren Funktionen "grad()" und "bogen()". Diese leisten zwar das Gew&uuml;nschte, verlangen aber bei ihrer Anwendung eine nicht unerhebliche mathematische Sachkenntnis sowie einen detaillierten &Uuml;berblick dar&uuml;ber, wie DynaGeo mit Winkelma&szlig;en umging. Folgerichtig kam es bei vielen Benutzern immer mal wieder zu Irritationen, wenn sich die erstellten Zeichnungen unerwartet verhielten, weil eine Winkelweite z.B. im Bogenma&szlig; gebraucht, aber im Gradma&szlig; geliefert wurde.<br>
+<br>
+<br>
+
+<h3><font color="#0000FF"><i>Die neue Einfachheit durch explizite Einheiten-Angabe</i></font></h3>
+
+Ab der Version 3.5 versucht DynaGeo, diesen unbefriedigenden Zustand deutlich zu verbessern. Der dabei gew&auml;hlte Weg aus der Krise besteht darin, dass nun jeder im Gradma&szlig; gemeinten Winkelweiten-Eingabe das <b>Gradzeichen als Einheit</b> explizit angeh&auml;ngt wird: statt f&uuml;r eine Winkelweite einfach nur "30" einzugeben und die Interpretation dieser Zahl dem Programm zu &uuml;berlassen, ist nun "30°" einzugeben, womit der Term-Compiler dann direkt angewiesen wird, dass dies als Winkelweite im Gradma&szlig; zu lesen ist. Die konsequente Verwendung des Gradzeichens (°) vereinfacht die L&ouml;sung des Gradma&szlig;/Bogenma&szlig;-Konflikts: wenn einer Konstanten das Zeichen "°" folgt, ist sie als Gradma&szlig; zu interpretieren, wenn kein Gradzeichen folgt, ist ein Bogenma&szlig; gemeint.<br>
+<br>
+
+Interessanterweise ist diese L&ouml;sung auch technisch &uuml;berzeugend: der Term-Compiler interpretiert das Gradzeichen n&auml;mlich als eine Multiplikation der vorangehenden Konstanten mit (&#x03C0;/180). Mithin l&ouml;st das Gradzeichen eine Umrechnung der Winkelweite ins Bogenma&szlig; aus - so dass dann intern ausnahmslos <b>alle Winkel im Bogenma&szlig;</b> verarbeitet werden! Daraus folgt auch sofort, wie mit Winkelrefenzen umzugehen ist: wenn in einem Term ein schon in der Zeichnung vorhandener Winkel referenziert werden soll [&nbsp;also z.B. T<sub>1</sub>&nbsp;=&nbsp;w(<font face="Symbol">a</font><sub>1</sub>)&nbsp;], dann liefert das Winkel-Objekt den aktuellen Winkelwert intern schon im Bogenma&szlig;, weshalb hier kein Gradzeichen stehen darf!<br>
+<br>
+Enth&auml;lt ein Term jedoch eine Referenz auf ein Zahl- oder Termobjekt, das eine Winkelweite im Gradma&szlig; liefert, dann muss diese Referenz im Term von einem Gradzeichen gefolgt werden. Wenn Sie z.B. den Winkel einer "Geraden in bestimmtem Winkel" zwischen 0° und 180° variieren wollen und daf&uuml;r ein Zahlobjekt Z1 mit dem Wertebereich [0..180] erzeugen, dann muss f&uuml;r den Winkelterm der Geraden "Z1°" eingetragen werden.Insgesamt erh&auml;lt man also die folgenden <b>Regeln f&uuml;r die Eingabe von Winkelweiten</b>:<br>
+<br>
+<table align="center" width="80%">
+<tr>
+  <td>
+  <ul>
+	<li>Wenn Sie eine (konstante) Winkelweite <b>im Gradma&szlig;</b> eingeben wollen, m&uuml;ssen Sie der Ma&szlig;zahl das <b>Gradzeichen</b> anh&auml;ngen, also z.B. "30°".</li>
+	<li>Wenn Sie <b>kein Gradzeichen</b> eingeben, wird der Wert <b>im Bogenma&szlig;</b> interpretiert, also z.B. "&#x03C0;/2" f&uuml;r einen rechten Winkel.</li>
+	<li><b>Referenzen auf andere Winkel</b>, die in der Zeichnung schon vorhanden sind, d&uuml;rfen nicht von einem Gradzeichen gefolgt werden.</li>
+         <li><b>Referenzen auf Zahl- und Termobjekte</b> hingegen, die einen Winkelwert im Gradma&szlig; liefern,  m&uuml;ssen von einem Gradzeichen gefolgt werden. Andernfalls wird der Wert des Zahl- oder Termobjekts im Bogenma&szlig; interpretiert.</li>
+  </ul>
+  </td>
+</tr>
+</table>
+<br>
+<br>
+
+<h3><font color="#0000FF"><i>Ein Beispiel zur Kl&auml;rung der Details</i></font></h3>
+
+Die obigen Ausf&uuml;hrungen zeigen, wie Winkelwerte in DynaGeo korrekt eingegeben werden. Wie aber steht es mit der Ausgabe, z.B. in einem Term-Objekt? Betrachten wir zum Studium der nicht ganz einfachen Details dieses Problems ein Beispiel:<br>
+<br>
+Eine Zeichnung enth&auml;lt ein Dreieck mit einen Winkel &#x03B1;. Sie wollen die Weite dieses Winkels in einem Term-Objekt anzeigen, und dann mit dem Befehl "Gerade in bestimmtem Winkel" die Halbierende dieses Winkels konstruieren. Also w&auml;hlen Sie den Befehl "Term-Objekt erstellen" auf der Registerkarte "Messen & Rechnen" und geben die Referenz auf den Winkel &#x03B1; ein (indem Sie einfach auf die Winkelma&szlig;anzeige in der Zeichnung klicken): <br>
+<br>
+<div align="center"><img src="../IMAGES/angle_01.png" width="643" height="471" border="0" alt=""></div>
+<br>
+Ein abschlie&szlig;ender Klick auf den "Okay"-Knopf schlie&szlig;t das Fenster.<br>
+Danach stellt sich die Zeichnung folgenderma&szlig;en dar:<br>
+<br>
+<div align="center"><img src="../IMAGES/angle_02.png" width="555" height="472" border="0" alt=""></div>
+<br>
+Das ist einigerma&szlig;en entt&auml;uschend: statt der Winkelweite "49°" zeigt das Term-Objekt die Dezimalzahl <nobr>"0,8604"</nobr> an. Dem Kundigen ist diese Zahl nat&uuml;rlich gleich als das Bogenma&szlig; des Winkels &#x03B1; erkennbar, aber ein normaler Unterstufensch&uuml;ler d&uuml;rfte durch diese Ausgabe schon einigerma&szlig;en verwirrt werden. Wenn man aber im Kontextmen&uuml; des Term-Objekts den Befehl "Term-Objekt editieren" anw&auml;hlt, dann erh&auml;lt man das folgende Fenster:<br>
+<br>
+<div align="center"><img src="../IMAGES/angle_03.png" width="560" height="533" border="0" alt=""></div>
+<br>
+Hier wurde schon ein H&auml;kchen bei "Name anzeigen" hinzugef&uuml;gt. Au&szlig;erdem wurde in der neuen Auswahlbox <b>"Ausgabe-Format"</b> die Option "Gradma&szlig;" gew&auml;hlt statt der voreingestellten Option "normal". Nach dem Schlie&szlig;en des Fensters stellt sich die Zeichnung folgenderma&szlig;en dar:<br>
+<br>
+<div align="center"><img src="../IMAGES/angle_04.png" width="577" height="456" border="0" alt=""></div>
+<br>
+Jetzt erscheint die Winkelweite wirklich im Gradma&szlig;, und zwar mit h&ouml;herer Genauigkeit als sie das Winkelma&szlig;-Objekt in der Zeichnung bietet. Beachten Sie aber, dass durch die Wahl eines anderen Ausgabe-Formats nur die <b>Darstellung</b> des Wertes auf dem Bildschirm &auml;ndert, nicht jedoch der intern abgespeicherte Wert! Dies zeigt sich, wenn man jetzt den Wert des Term-Objekts benutzt, um die Winkelhalbierende von &#x03B1; zu konstruieren: der Befehl "Gerade in bestimmtem Winkel" fragt als erstes nach dem Wert dieses neuen Winkels. Ein Klick auf das Term-Objekt f&uuml;gt eine Referenz "T1" in das Eingabefeld ein, was durch Tastatureingaben um "/2" zu erg&auml;nzen ist, weil wir f&uuml;r die Winkelhalbierende ja nur den halben Winkel brauchen:<br>
+<br>
+<div align="center"><img src="../IMAGES/angle_05.png" width="581" height="452" border="0" alt=""></div>
+<br>
+Ein Klick auf den "Okay"-Knopf schlie&szlig;t das Fenster. Nach dem Anklicken der beiden definierenden Punkte f&uuml;r die "Gerade in bestimmtem Winkel" erh&auml;lt man schlie&szlig;lich das gew&uuml;nschte Ergebnis. Das folgende Bild zeigt den konstruierten Winkel, der zur Kontrolle noch gemessen wurde.<br>
+<br>
+<div align="center"><img src="../IMAGES/angle_06.png" width="511" height="455" border="0" alt=""></div>
+<br>
+<br>
+<br>
+
+<h3><font color="#0000FF"><i>Das leidige Problem der Kompatibilit&auml;t</i></font></h3>
+
+Zwar wird mit der Umstellung auf "explizite Winkel-Einheiten" die Situation deutlich &uuml;bersichtlicher als sie es zuvor war. Aber die Benutzer m&uuml;ssen sich an neue Konventionen gew&ouml;hnen, und das ist nicht ganz einfach. DynaGeo versucht zu helfen, so gut das ein dummes Programm eben kann: so werden z.B. Winkelma&szlig;-Eingaben darauf &uuml;berpr&uuml;ft, ob da eventuell ein "°"-Zeichen fehlt, und wenn es DynaGeo so vorkommt, wird der Benutzer nochmals gefragt.<br>
+<br>
+Ein weiteres Problem stellt der Import alter Daten dar. Die Umstellung von anfangs kompletter Grad-Interpretation hin zu nun nahezu kompletter Bogenma&szlig;-Interpretation hat zur Folge, dass mit &auml;lteren Versionen von DynaGeo hergestellte Zeichnungen beim Import in die aktuelle Version m&ouml;glicherweise den neuen Verh&auml;ltnissen angepasst werden m&uuml;ssen. DynaGeo bem&uuml;ht sich, dies m&ouml;glichst unauff&auml;llig und im Hintergrund zu tun: jede "alte" Datei wird zun&auml;chst einer <b>automatischen Konversion</b> unterzogen. Was dabei aber im Einzelnen zu tun ist, ist f&uuml;r ein automatisch arbeitendes Programm nicht immer einfach zu entscheiden, ja, in manchen F&auml;llen kann es &uuml;berhaupt nicht automatisch entschieden werden. Daher wird gelegentlich der Fall eintreten, dass eine solche Zeichnung sich nach dem Import in die neue Version nicht erwartungsgem&auml;&szlig; verh&auml;lt. Dann muss der intelligente Kopf <u>vor</u> dem Bildschirm alle Terme der Zeichnung &uuml;berpr&uuml;fen und sinngem&auml;&szlig; ins neue Format konvertieren - leider!<br>
+<br>
+Und wie sollten Sie nun vorgehen, wenn eine solche <b>manuelle Konversion</b> n&ouml;tig ist? Dazu hier ein paar Hinweise:
+<ol start="1" type="i">
+<li>Identifizieren Sie zun&auml;chst in der <b>Konstruktionsbeschreibung</b> der Zeichnung diejenigen Objekte, die von Termen abh&auml;ngen. Davon gibt es gl&uuml;cklicherweise nicht gar so viele; die wichtigsten sind die <i>Punkte mit bestimmten Koordinaten</i>, die <i>Kreise mit bestimmtem Radius</i> und die <i>Geraden in bestimmter Richtung</i>. Au&szlig;erdem enth&auml;lt jedes <i>Termobjekt</i> selbst nat&uuml;rlich auch einen Term.<br>
+<br></li>
+<li>Schlie&szlig;en Sie dann die Konstruktionsbeschreibung und greifen Sie &uuml;ber das <b>Kontextmen&uuml;</b> jedes dieser Objekte auf die in ihm enthaltenen Terme zu. &Uuml;berpr&uuml;fen Sie sich diese Terme daraufhin an, ob sie z.B. eine Referenz auf einen Winkel oder eine trigonometrische Funktion enthalten, oder ob sie einen Winkelwert liefern. H&auml;ufig ist das Problem schon durch ein hinzugef&uuml;gtes Gradzeichen (°) im Term-String zu l&ouml;sen.<br>
+<br></li>
+<li>Manche <i>Abbildungen</i> k&ouml;nnen auch von Winkel-Termen abh&auml;ngen, wie z.B. die gew&ouml;hnliche Drehung. Besonders t&uuml;ckisch ist der Fall, dass der Drehwinkel von einem verborgenen Term-Objekt geliefert wird: an dessen Term kommen Sie n&auml;mlich erst heran, nachdem Sie dieses Objekt <i>sichtbar</i> geschaltet haben!<br>
+<br></li>
+<li>
+Leider kann ich Ihnen keine algorithmische Anleitung geben, wie Sie in allen F&auml;llen zu einer korrekt konvertierten und erwartungsgem&auml;&szlig; funktionierenden Zeichnung kommen k&ouml;nnen - die gelegentliche Notwendigkeit manueller Korrekturen resultiert ja gerade daraus, dass ich nicht alle m&ouml;glichen Situationen vorausgesehen haben kann! In einem solchen Fall bleibt dann <u>Ihnen</u> die schwierige Aufgabe, die obigen grunds&auml;tzlichen Ausf&uuml;hrungen &uuml;ber den Wechsel vom Grad- zum Bogenma&szlig; auf die jeweils vorliegende konkrete Konstruktion sinngem&auml;&szlig; und zielf&uuml;hrend anzuwenden ;-)<br>
+</li>
+</ol>
+Trotz dieser m&ouml;glichen Schwierigkeiten ist der strategische Schwenk zu expliziten Winkel-Einheiten eine gute Sache, denn die inh&auml;rente Logik der Benutzeroberfl&auml;che nimmt damit zu. Auch wenn es im Augenblick noch einige Probleme mit der Umstellung gibt, wird sich diese zumindest mittelfristig als positiv erweisen.<br>
+<br>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

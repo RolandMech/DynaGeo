@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>DynaGeoX Seiten</title>
+<meta name="description" content="DynaGeoX Seiten">
+<meta name="author" content="Mechling">
+<meta name="keywords" content="DynaGeoX, Euklid, DynaGeo, Geometrie, Schule, Unterricht">
+<meta name="generator" content="Ulli Meybohms HTML EDITOR">
+        <SCRIPT LANGUAGE="JavaScript">
+        <!--/
+            strbuf = navigator.appName.toUpperCase();
+            expl_pos = strbuf.lastIndexOf("EXPLORER");
+            strbuf = navigator.appVersion;
+            vnum = strbuf.charAt(0);
+            if (expl_pos < 0  || (expl_pos >= 0 && vnum < "4"))
+               {
+                   alert("Ungeeigneter Browser!\n\rDiese Seite braucht den Internet Explorer ab Version 4!");
+                   history.go(-1);
+               };
+        //-->
+        </SCRIPT>
+</head>
+<body  BACKGROUND="../../pictures/euklback.png" BGPROPERTIES=fixed TEXT="#000000" LINK="#FF0000" VLINK="#0000FF">
+<font face="Arial">
+<div align="center"><B><FONT SIZE=5>Die H&ouml;henschnittpunktskurve</FONT></B></div>
+<div align="right">
+<a href="d_gal_020.html"><img src="../buttons/pf_bl_li.png" alt="Zum vorigen Kapitel" border="0"></a>
+<a href="dgx_gal.html"><img src="../buttons/pf_bl_hoho.png" alt="Zum Inhaltsverzeichnis" border="0"></a>
+<!--
+<a href=""><img src="../buttons/pf_bl_re.png" alt="Zum nächsten Kapitel" border="0"></a>
+-->
+</div>
+
+<HR>
+<P>
+<br>
+Das folgende Bild zeigt die Konstruktion des <b>H&ouml;henschnittpunktes H</b> eines Dreiecks ABC. Dabei ist die Ecke C dieses Dreiecks an einen Kreis k gebunden. Wenn sich nun C auf diesem Kreis bewegt, dann bewegt sich H auf einer Bahn, die durch die Lage von A, B und k eindeutig bestimmt ist. Die Zeichnung enth&auml;lt die Aufzeichnung dieser Bahn; sie wird eine <b>Ortslinie des Punktes H</b> genannt.<br>
+<br>
+Sie k&ouml;nnen nun aber nicht nur C auf k bewegen, sondern auch die Lage von A, B und k ver&auml;ndern, indem Sie diese Objekte verziehen (im Falle von k m&uuml;ssen sie die Punkte M und K ziehen, durch welche k definiert ist). <b>In jedem Fall</b> wird nicht nur das Dreieck ABC und sein H&ouml;henschnittpunkt H wieder korrekt restauriert, sondern sogar die Ortslinie frisch berechnet und dargestellt, gerade so, als h&auml;tten Sie sie in der neuen Lage der Zeichnungselemente neu erzeugt!
+<br>
+<div align="center">
+<OBJECT
+  classid="clsid:2EF98DE5-183F-11D4-83EC-EC6A1DB6E213"
+  codebase="http://www.dynageo.de/download/dynageoviewer.cab#version=2,3,2,0"
+  width=550
+  height=450
+  align=center
+  hspace=20
+  vspace=20
+>
+<param name="DataFile" value="d_gal_100a.geox">
+</OBJECT>
+</div>
+<br>
+Eine &Uuml;bersicht &uuml;ber die m&ouml;glichen Formen dieser H&ouml;henschnittpunktskurve erhalten Sie im letzten Teil des kleinen Aufsatzes &uuml;ber "<b>EUKLID von innen</b>", der im Forum unter "<i>Mitteilungen und Informationen | Hintergr&uuml;nde zur Computer-Geometrie | EUKLID von innen</i>" steht. Dort habe ich die informatischen Prinzipien dargestellt habe, nach denen Programme wie EUKLID DynaGeo gebaut sind. In diesem Aufsatz gibt's allerdings nur statische Bilder...<br>
+<br>
+Die obige Zeichnung ist aber auch geeignet, die <b>Grenzen</b> der derzeit in EUKLID DynaGeo verwirklichten Ortslinien-Berechnungsmethoden zu zeigen. In speziellen Lagen (welche herauszufinden ich bewu&szlig;t Ihnen &uuml;berlasse!) wird n&auml;mlich eine Ortslinie gezeichnet, die nicht mit der <b>wahren Bahn</b> des Punktes H &uuml;bereinstimmt. Dies liegt daran, da&szlig; die Ortslinie als Bezierkurve durch nur endlich viele "Simulationspunkte" (= Orte f&uuml;r H, w&auml;hrend C auf k wandert) gelegt wird. Diese <i><u>Punkte</u></i> werden exakt berechnet, aber was die Kurve <i><u>dazwischen</u></i> macht, dar&uuml;ber kann das Programm nur spekulieren, und gelegentlich gehen Spekulationen eben daneben! Die jeweils dargestellte Ortslinie ist also nur eine <b>numerische Approximation</b> f&uuml;r die wahre Ortslinie!
+<br>
+<br>
+<br>
+Interessante Sonderf&auml;lle erh&auml;lt man, wenn man den Kreismittelpunkt K an die Mittelsenkrechte von [AB] bindet:<br>
+<div align="center">
+<OBJECT
+  classid="clsid:2EF98DE5-183F-11D4-83EC-EC6A1DB6E213"
+  codebase="http://www.dynageo.de/download/dynageoviewer.cab#version=2,3,2,0"
+  width=550
+  height=450
+  align=center
+  hspace=20
+  vspace=20
+>
+<param name="DataFile" value="d_gal_100b.geox">
+</OBJECT>
+</div>
+<br>
+<i><u>Zwei Fragen zum Weiterdenken:</u></i>
+<ol start="1" type="1">
+<li>Die zweite Zeichnung zeigt in der N&auml;he des Falles "k geht durch A und B" massive Instabilit&auml;ten. Wenn man aber lange genug mit ihr spielt, kann man auf die Idee verfallen, da&szlig; die Ortslinie in diesem Fall m&ouml;glicherweise ein Kreis ist, und zwar das Bild von k bei Spiegelung an der Geraden (AB)!<br>
+Stellen Sie eine eigene Zeichnung her, die diesen Spezialfall zuverl&auml;ssiger illustriert. K&ouml;nnen Sie die Behauptung beweisen?<br>
+<br>
+</li>
+<li>K&ouml;nnen Sie ein Kriterium angeben, wann man ganz allgemein eine (achsen-)symmetrische Ortslinie zu erwarten hat? Es ist <b>nicht</b> so, da&szlig; einfach die erzeugende Zeichnung (achsen-)symmetrisch sein mu&szlig;!</li>
+</ol>
+<br>
+<hr noshade size="1">
+<div align="center">
+<a href="d_gal_020.html"><img src="../buttons/pf_bl_li.png" alt="Zum vorigen Kapitel" border="0"></a>
+<a href="dgx_gal.html"><img src="../buttons/pf_bl_hoho.png" alt="Zum Inhaltsverzeichnis" border="0"></a>
+<!--
+<a href=""><img src="../buttons/pf_bl_re.png" alt="Zum nächsten Kapitel" border="0"></a>
+-->
+</div>
+<br>
+</font>
+</body>
+</html>

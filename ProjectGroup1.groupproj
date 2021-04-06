@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{DB1208FA-AE98-4E87-883A-8A15CC24C2FD}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="DynaGeo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Viewer\DynaGeoX3.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ENG\DynaGeo_ENG.bdsproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="DynaGeo">
+			<MSBuild Projects="DynaGeo.dproj"/>
+		</Target>
+		<Target Name="DynaGeo:Clean">
+			<MSBuild Targets="Clean" Projects="DynaGeo.dproj"/>
+		</Target>
+		<Target Name="DynaGeo:Make">
+			<MSBuild Targets="Make" Projects="DynaGeo.dproj"/>
+		</Target>
+		<Target Name="DynaGeoX3">
+			<MSBuild Projects="Viewer\DynaGeoX3.dproj"/>
+		</Target>
+		<Target Name="DynaGeoX3:Clean">
+			<MSBuild Targets="Clean" Projects="Viewer\DynaGeoX3.dproj"/>
+		</Target>
+		<Target Name="DynaGeoX3:Make">
+			<MSBuild Targets="Make" Projects="Viewer\DynaGeoX3.dproj"/>
+		</Target>
+		<Target Name="DynaGeo_ENG">
+			<MSBuild Projects="ENG\DynaGeo_ENG.bdsproj"/>
+		</Target>
+		<Target Name="DynaGeo_ENG:Clean">
+			<MSBuild Targets="Clean" Projects="ENG\DynaGeo_ENG.bdsproj"/>
+		</Target>
+		<Target Name="DynaGeo_ENG:Make">
+			<MSBuild Targets="Make" Projects="ENG\DynaGeo_ENG.bdsproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="DynaGeo;DynaGeoX3;DynaGeo_ENG"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="DynaGeo:Clean;DynaGeoX3:Clean;DynaGeo_ENG:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="DynaGeo:Make;DynaGeoX3:Make;DynaGeo_ENG:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Dynamic locus lines</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="locus line"></param>
+</OBJECT>
+
+<A NAME="idh_locline_dyna"></A>
+
+<H2>Dynamic locus lines</H2>
+<HR>
+
+<P>When you record a point's locus line, EUKLID DynaGeo will always try to create a <b>dynamic locus line</b>. If later you drag your drawing, this locus line is dragged too and updated accordingly:<br>
+<ul>
+<li>If the generator point depends on the position of a <b>dragging point</b>, then the dragging point itself must be bound to a line. You record the locus line by dragging the dragging point on its carrier line.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>or:</i> </li>
+<li>The co-ordinates of the generator point depend on the value of a <b>number object</b>. Then you record the locus line by dragging the control knob of the number object. </li>
+</ul>
+During a locus line's recording a "position table" is created listing the subsequent relative positions of the dragging point and the corresponding positions of the producing point. Afterwards the locus line is shown, normally as a smooth line through the recorded producing point's positions. </P>
+
+<p>If now you drag your drawing, EUKLID DynaGeo has to update not only all the other objects but also the locus line. So an internal <b>simulation</b> is run: the dragging point is set to each and every of its formerly recorded relative positions, and the corresponding positions of the producing point are calculated. Thus, the position table is updated. Then the locus line can be drawn in its new state.</p>
+
+<ul><font size="-1">When you try to record a locus line with a dragging point that is not snapped to a line then EUKLID DynaGeo does not create a dynamic locus line but a <b>static trace line</b>: static trace lines will not be updated during subsequent dragging operations but stay at their initial position. For special cases, a dynamic locus line can be converted to a static trace by unselecting the item <i>"Dynamic"</i> in the locus line's context menu.</font></ul>
+<br>
+
+<P>Please note that EUKLID DynaGeo can only produce a <B>numerical approximation</B> of a dynamic locus line, and there may happen errors. The following <b><font color="#0000FF">hints</font></b> are to help you getting satisfying results:</P>
+
+<OL>
+<LI><font color="#0000FF">The position of the generator point must be <b>unambiguously</b> determined by the position of the dragging point.</font><br>
+If there are <b>several</b> possible generator point's position belonging to <b>one</b> dragging point position, the locus line has several branches. At the time being, EUKLID DynaGeo cannot handle multi-branch locus lines satisfactory. So only <b>one branch</b> will be displayed. <br>
+<br>
+</LI>
+
+<LI><font color="#0000FF">While recording a dynamic locus line the dragging point must run along its carrier line only once.</b></font> <BR>
+When later you drag your drawing EUKLID DynaGeo will update the locus line in an internal simulation that makes the dragging point run along its carrier line only one time, too. So any tricky back and forth during recording will be lost.<BR>
+<br></LI>
+
+<li><font color="#0000FF">The recorded positions of the generator points must be sufficiently near to one another.</font><br>
+You can adjust the minimal distance of the recorded positions on the page <a href="OLINEOPT.HTM"><i>Locus lines</i></a> of the <a href="einstellungen.htm"><i>Options</i></a>. But even if you initially meet this requirement, it may fail during subsequent dragging actions. In this case you’d better switch the locus line to "<a href="olineauto.htm">automatic mode</a>".<br>
+<br></li>
+</OL>
+
+<P>Even if you meet these requirements, normal dynamic locus lines are <b>not true line objects</b>: though they can be named, edited, saved and loaded like any normal line, they cannot serve as parents for other objects, i.e. they cannot intersect with other lines! In the special cases of linear or circular locus lines, you can convert the locus line to a true (and reusable) object by switching it to "<a href="olinestandard.htm">standard mode</a>".</p>
+<br>
+<br>
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="olinestandard.htm">Standard locus lines</a></li>
+<li><a href="ortslinie.htm">Record a point's locus line</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

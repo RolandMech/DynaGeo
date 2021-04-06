@@ -1,0 +1,43 @@
+; This file is maintained by HCW. Do not modify this file directly.
+
+[OPTIONS]
+HCW=0
+COMPRESS=12 Hall Zeck
+LCID=0x809 0x0 0x0 ;Englisch (Groﬂbritannien)
+REPORT=Yes
+CONTENTS=cm_HelpIndex
+TITLE=EUKLID help
+COPYRIGHT=(c) 1994,2000  R. Mechling
+CITATION=(from the help file of  Euklid 2.0)
+PREFIX=cm_
+BMROOT=..\BMP\help
+ROOT=.
+HLP=euklid.hlp
+
+[FILES]
+Euklide.rtf
+
+[ALIAS]
+cm_DataInput=cm_MCreate
+
+[MAP]
+#include ..\Cmd_ids2.txt
+cm_Angle=20000
+cm_Basics=20001
+cm_ConfigMenues=20011
+cm_File=20012
+cm_Help=20013
+cm_HotKeys=20002
+cm_LocLine=20003
+cm_Makro=20014
+cm_Measure=20004
+cm_MenuEditDraw=20005
+cm_Misc=20015
+cm_MouseCursors=20006
+cm_Problem=20009
+cm_Required=20010
+cm_StartUp=20017
+opt_konfdat=20016
+
+[CONFIG]
+BrowseButtons()

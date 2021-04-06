@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>The problem of the jumping points</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="point">
+        <PARAM NAME="Keyword" VALUE="drag">
+</OBJECT>
+
+<A NAME="idh_jump_pt"></A>
+
+<H2>The problem of the "jumping points"</H2>
+<HR>
+
+<h3><font color="#0000FF"><i>Didactic demands</i></font></h3>
+
+<P>When at the end of the eighties there appeared "Cabri g&eacute;om&egrave;tre" as the first "dynamic geometry software" in the European market, a great didactic discussion was started about the chances that this new tool was supposed to bring into the classrooms. It did not take a long time until the professionals in didactics  set up some demands concerning the fundamental new feature that made geometry "dynamic", namely the drag mode: </P>
+<ul>
+<li><p><b><font color="#FF0000">Demand for reversibility:</font></b><br>
+Whenever the user first drags his drawing and afterwards brings back all basis objects to their previous positions, then all dependent objects must be at their previous places too.</p></li>
+
+<li><p><b><font color="#FF0000">Demand for continuity:</font></b><br>
+Whenever the user drags a basis object by a small displacement, the induced displacements of all the corresponding dependent objects must be small too.</p></li>
+</ul>
+
+<p>These two demands not only seemed to be appropriate but even natural: when anyone had ever claimed they were suspicious, he would have caused great protest. </p>
+
+<p>So the programmers of new "dynamic geometry systems" added these two demands to their programmes' specifications. But whenever they tried to perfect their programmes to meet both of these two demands, there were some strange difficulties. To understand the situation, let us study the classical problem of the angle's bisector now: </p>
+<br>
+
+<h3><font color="#0000FF"><i>The problem</i></font></h3>
+
+<p>The following picture shows an angle AMZ, with Z bound to a circle k with centre M. This angle is divided by the line w in two equal parts:<br>
+<ul>
+<img src="../images/Wiha01.gif" width="341" height="219" border="0" alt="">
+</ul>
+When you drag the point Z on the circle k then after a full rotation Z will reach its original position once again. And at a first glance, it may look that this holds for all other objects of this drawing too. But this is not the fact. To see this, we bind another point P to the line w and repeat the experiment. Then we get the following two pictures: <br>
+<ul>Beforehand:<br>
+<img src="../images/Wiha02.gif" width="333" height="210" border="0" alt=""><br>
+Afterwards:<br>
+<img src="../images/Wiha03.gif" width="407" height="208" border="0" alt="">
+</ul>
+</p>
+
+<p>What has changed? Looking a the point P you see that the <b>orientation</b> of the bisector w has changed. Indeed: while Z and the ray [MZ) described a <u>full</u> rotation during the dragging, the bisector w performed only a <u>half</u> rotation! In many constructions, this is an irrelevant detail without any further consequences. But when in the drawing above there were some more objects depending on the newly added point P, then it can surely make a difference in which direction the line w is oriented. It is possible that you get two totally different drawings!</p>
+
+<p>Obviously, the position of all basis objects of a drawing does not always determine the positions of all dependent objects. (Besides, this means that a drawing may not yet be determined by its normal construction text!) A closer view at the problem shows that with the introduction of the drag mode, the ordinary Euclidian plane tends to mutate into a Riemann surface: depending on the construction it may become "multilayered" and so can hold more than one construction configuration that matches the same construction text. And which of the "layers" is the actual one, seems to be decided by the drawing's drag history! </p>
+
+<p>The <b>demand for reversibility</b> can be seen as an attempt to maintain the simple Euclidian plane despite the introduction of the drag mode. Finally this means, that the drawing must not have a <u>memory</u>: the state of all dependent objects of the drawing must be totally determined by the <u>position</u> of the basis objects and must not depend on their <u>drag history</u>. In the above case, the difficulties can be overcome by letting the bisector w always point in the smaller one of the two angles AMZ and ZMA. Unfortunately, this "solution" induces some side effects: while we drag the point Z in the drawing above round a full circle, there must be a time when the orientation of the bisector w has to jump from one direction to the opposite one. This will happen, wenn the width of the angle AMZ passes the value 180&deg;. And the point P must jump too: actually it is reflected in the point M! So a very small displacement of the point Z causes a huge displacement of the point P - in strict contradiction to the <b>demand of continuity</b>.</p>
+
+<p>So we reach the following <B>result</B> :
+<ul><b>
+<li>Whenever we force reversebility, we lose continuity. </li>
+<br>
+<li>Whenever we force continuity, we lose reversibility. </li>
+</b></ul>
+Finally these two "natural" demands prove to be mutually exclusive. </P>
+<br>
+
+<h3><font color="#0000FF"><i>Either / or !</i></font></h3>
+
+<p>In this situation the author of a dynamic geometry software must make a decision: either he builds a reversible DGS or a continuous one. Most of the DGS authors chose the reversibility way, like "Cabri g&eacute;om&egrave;tre" did. The users of these DGS had to put up with occasional jumps of points or even whole parts of the drawing. Only at the end of the nineties, "Cinderella" appeared. This was the first programme that consequently implemented a continuous drag strategy - with the side effect that when the user reversed a dragging, the drawing does not always get back to the previous state. </p>
+
+<p>Why did it take such a long time until a "continuous" DGS was created? The authors of "Cinderella" have published the basic ideas behind Cinderella in several papers. So everyone who is interested in the details can comprehend that some rather big mathematical problems had to be solved before the continuous dragging could run as smoothly as it does now. For example: while DynaGeo does all its calculation in a 2-dimensional Euclidian plane, where an x- and an y-co-ordinate are sufficient to describe the place of a point, the calculations in Cinderella run in a 6-dimensional space, that models a projective plane with complex co-ordinates. </p>
+
+<p>One main problem of the DGS lies in the point pairs that are created by intersecting a circle with a line (or another circle). When e.g. a line g and a circle k intersect in two points S and T. It is quite easy to get the intersection points' co-ordinates, because you just have to solve a quadratic equation. But during the next dragging, then these two points may coincide or even "vanish" because g and k do no longer intersect. The problem is to guaranty a stable assignement of the solutions of this equation to the two possible points of intersection, even when they "vanish", i.e. when the equation has no real solution any more:<br>
+<ul>
+<li>In the "reversible" DGS, this question can be decided by using the orientation of the line g: the two points of intersection appear in order on this line, one is the first, the other is the second. This assures a stable assignment from the calculated co-ordinates to S and T But when the orientation of g changes during dragging (because g may be a bisector), then the two points S and T change their roles and jump - in contradiction to the demand for continuity. <br></li>
+<br>
+<li>In a "continuous" DGS, the assignement of the calculated solutions to the intersection points S and T is assured by a very precise tracking of the path of these two points. In "Cinderella" S and T are kept under control even if there are no "real" intersection points. Then the two points are "imaginary", nevertheless their paths can be traces exactly. Special care is taken that S and T never come too close together. But when at last they become "real" again, e.g. because the user reversed the dragging, it may be that S and T appear at unexpected locations, i.e. T appears where S vanished, and vice versa - in contradiction to the demand for reversibility. </p></li>
+</ul>
+<br>
+
+<h3><font color="#0000FF"><i>Squaring the circle?</i></font></h3>
+
+<p>DynaGeo started as a programme with strict "reversible drag strategy". But while studying the reversibility-versus-continuity problem, I found an easy way to implement "continuous" behaviour for bisectors in DynaGeo. When working with locus lines, there were some more cases where a more "continous" behaviour seemed preferable. So I tried to implement a complete "continuous drag strategy" besides the already existing "reversible" one. So the user can decide himself which drag strategy he wants to run. On <a href="optintern.htm"><i>Options | Internals</i></a> you can go to the "<i>Expert options</i>" and choose the drag strategy!</p>
+
+<p>But remember the limitations of every numerically deciding simulation software: every programme of this kind must decide every ambiguous situation by means of numerical calculations. Sometimes the results of these calculations may not be a correct representation of the actual situation, and the programme's decision is wrong. Nevertheless, DynaGeo is expected to work correctly and according to the users expectations, in most of the situations that appear in normal use, no matter which drag strategy you chose. </p>
+
+<p>Still, this is not "squaring the circle". You must always decide if you prefer reversibility more than continuity, or if continuity is more important to you than reversibility. You will never find a DGS, that offers you "the best out of the 2 worlds" at the same time, simply because continuity logically excludes reversibility, and vice versa. But: DynaGeo was the first programme that left the choice to the user! </p>
+<br>
+
+<h3><font color="#0000FF"><i>A final remark</i></font></h3>
+
+<p>All in all, the reversible drag strategy is easier to implement than a continuous one. This means that the algorithms of the reversible drag strategy tend to work more stable and reliable than those of the continuous one, especially on older computers where the hardware ressources are limited. So I decided to go back to the roots and set the reversible drag strategy as standard for every new DynaGeo drawing. It is left to the user to change this setting, but it is recommended to stick to the standard setting. If during further development I should have to decide between reversible and continuous drag strategy, then I shall take the turn to the reversible drag strategy.</p>
+
+<p>Finally, you should remember that the content of this whole page is absolutely irrelevant for most of the DGS drawings that "normal users" create in "normal life". Every special tool has some aspects the user must become accustomed to. With a reversible DGS, these are the "jumping points". But I think that a clever brain before the screen should be able to get along with this rarely appearing problem, especially after studying this side and understanding the true facts behind the effect.</p>
+<br>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

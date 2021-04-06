@@ -1,0 +1,779 @@
+
+Internal Details
+
+
+
+This section
+contains some information about the internal running of the EUKLIDDynaGeo
+program.
+
+
+
+          Start procedure cm_StartUp
+
+          Hints about
+installation in networksNetHints
+
+          Co-ordinate system
+basicsCoordSystem
+
+          Relationships between
+EUKLID DynaGeo objectsRelativities
+
+
+
+
+
+
+#$K+Start procedure:
+
+
+
+When EUKLID
+DynaGeo is started, first of all the title window appeares. This shows
+the program name, the version number, a copyright notice, the program symbol,
+and the license data of the present version of the program. (When a fully
+licensed version is used this consists of the name and address of the license
+holder and the license number.) A shareware version displays only that it is a
+shareware version.
+
+
+
+At the bottom of
+the title window there is an action button, that at first displays Please
+wait. As long as this text is shown, clicking on the button produces no
+reaction. EUKLID DynaGeo needs some time to initialise and check
+if a shareware or fully licensed version is being used. In addition, a check is
+made at every new start that the program file is in its original condition. If
+EUKLID DynaGeo finds that the .EXE file has been altered, then the
+program is stopped with an appropriate notice.
+
+
+
+EUKLIDDynaGeo
+reads the initialisation data from a file called EUKLID DynaGeo.INI  that is looked for in the current directory.
+If the file is not found there, then the program looks for it in the directory
+where the EXE file is to be found. If it is not found even there, then
+the program is terminated with an appropriate error message. As the INI
+data is essential for EUKLID DynaGeo’s operation, this file should be carefully
+preserved.
+
+
+
+Normally the
+program tries to return to the same conditions as existed when it was
+last ended. This concerns the options for the screen display of geometrical
+objects (point size, capture area, etc.) and the menu configurationopt_menu as well as previously loaded
+macros.
+
+
+
+When this
+procedure is successfully carried out, the button displays Okay, and a
+click on it closes the title window.
+
+
+
+Also see: 
+
+          Notes
+about start parametersStartParams
+
+
+
+
+
+
+#$K+Command line parameters
+
+
+
+On calling the
+program, it is possible to place 2 parameters after the program name:
+
+
+
+ 
+(1)      The name (or full path) of
+a GEO-file that should be loaded automatically at the start of EUKLID
+DynaGeo. This property allows to associate GEO files with the EUKLIDDynaGeo
+program: if you double click on a GEO file (e.g. in the WINDOWS file manager or
+in Explorer), EUKLID DynaGeo will start automatically, and the file will be
+loaded.
+If this association isn’t established yet and you double click a GEO file,
+WINDOWS will ask with which of the registered programs you want to edit the
+files of this type. Since EUKLID DynaGeo normally doesn’t write anything into
+the WINDOWS registry, the program isn’t registered. So you have to choose
+“Other...” and enter the full path to EUKLID DynaGeo.EXE. From now on, WINDOWS
+will know that GEO files are to be edited by EUKLID DynaGeo.
+
+
+
+ 
+(2)      A parameter in the
+form   /c=x. This selects a menu
+configurationopt_menu
+which should be loaded automatically at the start of EUKLID DynaGeo. The x
+is either 0 or the (positive) number of a configuration registered in
+the EUKLID DynaGeo.INI file. With the start parameter  /c=0  the complete
+command set is chosen.
+
+
+
+The order in
+which these parameters are given is unimportant, and each of them may be used
+alone.
+
+
+
+
+
+
+#$K+Hints about installation in networks
+
+
+
+The following
+information is aimed primarily at those who wish to install EUKLID DynaGeo on a
+network.
+
+
+
+The files EUKLID
+DynaGeo.EXE and EUKLID DynaGeo.HLP must be together in any selected
+directory, which hereafter will be called the EUKLID DynaGeo directory.
+On calling the program, the EUKLID DynaGeo directory does not have to be the
+present directory. The file EUKLID DynaGeo.INI can either be in the
+present directory or in the EUKLID DynaGeo directory. These three files must be
+available for every EUKLID DynaGeo user, but only read access is necessary. It
+is a good idea that the user has no write access in the EUKLIDDynaGeo
+directory, so that the original files are strictly protected. In some networks
+it might be helpful to declare EUKLID DynaGeo.EXE and especially EUKLID
+DynaGeo.HLP as shareable so that many users have parallel access.
+
+
+
+In order that a
+user may save his private options, he requires write access for the EUKLID
+DynaGeo.INI file. This may mean, for example, that he possesses a copy
+of  EUKLID DynaGeo.INI  in his HOME directory. This HOME
+directory should be the actual directory (or working directory) when EUKLID
+DynaGeo is started, and so you have to call the program by giving the full
+path. If there is a file EUKLID DynaGeo.INI in the EUKLIDDynaGeo
+directory, as well as in the actual directory, then the actual directory has
+precedence. EUKLID DynaGeo notes the path to this file when starting, and later
+accesses it as required, even when in the meantime the actual directory (or
+drive) has changed.
+
+
+
+The place where
+the data files are kept (*.GEO and *.MAK) is irrelevant to EUKLID
+DynaGeo. A user has access within the program to all drives and directories
+known to him within the network.
+
+
+
+
+
+
+#$K+Coordinate system basics
+
+
+
+Every EUKLID
+DynaGeo drawing contains a Cartesian co-ordinate system with a unit
+length of 1 cm. The origin can be draggedVerziehen with the mouse. Thus the axes and co-ordinate
+points are also moved, and all other dependent objects too.
+
+
+
+The co-ordinate
+system can be hidden, but remains available for use. This means that even with
+no co-ordinate system displayed, a point with fixed co-ordinates can still be
+produced. To keep the use relatively simple, any scaling of the co-ordinate
+system has been omitted. As long as your drawing contains points with fixed
+co-ordinates, it therefore makes little sense to expand or contract the
+drawing, as this action only affects those objects without a direct
+relationship to the co-ordinate system. Co-ordinate points stay in their old
+places.
+
+
+
+It is very likely
+that the displayed co-ordinate system on the screen is not exactly to scale.
+Due to the poor screen resolution, the WINDOWS screen centimeter often is as
+long as 15 real millimeter. It is however not of any great importance that you
+cannot &quot;scratch around&quot; with a Tri-square and compasses on the
+display screen, as all measurements are accomplished via software with EUKLID
+DynaGeo, and can be displayed exactly. Hard copy print-outs should
+however be to scale, and can therefore be worked on with a ruler and compasses.
+The WINDOWS printer centimetre is a great deal more reliable than the WINDOWS
+screen centimetre.
+
+
+
+
+
+
+#$K+Relationships between EUKLID DynaGeo-objects
+
+
+
+The following
+explanation is not essential for the normal use of EUKLID DynaGeo. It may
+however give you a small view of the data structures used, to give you a chance
+to perhaps understand the situation when the program behaviour deviates from
+that expected. Also the causes for some of the limitations of the EUKLID
+DynaGeo program may become clear by studying this section.
+
+
+
+The geometrical
+objects used in the EUKLID DynaGeo program have various relationships with each
+other. The most important and often used one is the parent-child
+relationship. If for example, on a line with the end points P1 and P2  a perpendicular bisector ms is
+constructed, then the position of the bisector is uniquely defined by the
+points P1 and P2. These two points are therefore called the parents
+of the perpendicular bisector ms, and ms itself is the child of the two
+points P1 and P2.
+
+
+
+Obviously,
+children can also produce children, so that a family-tree-like structure of
+geometrical objects can be built up. In addition to this normal descent,
+there is also adoption: when a point is bound (snapped) to a line, then
+the point becomes a child of that line, and the line becomes a parent of the
+point.
+
+
+
+The peace of this
+beautifully clear, but strictly hierarchical family tree, is severely disturbed
+through introduction of line segments with a fixed length. The endpoints of
+such segments should react equally to manipulation. When however one endpoint
+is dragged, then the other must be dragged after it at the other end of the
+segment. It becomes practically a child of the dragged endpoint, which in turn,
+takes the parent role. If however you have dragged the other end of the
+segment, the parent and child roles are reversed. This reciprocal relationship
+of such points is called friendship within EUKLID DynaGeo. Among (real) friends
+he decides who can best, under the prevailing conditions.
+
+
+
+Thus an EUKLID
+DynaGeo object can have parents, children and friends. In order that no
+senseless circular relationships can develop with objects, where for
+example one point could be its own grandfather (and at the same time its own grandchild!),
+the process of adoption must be strictly limited. Thus a point can never be
+bound to a line that was born from that point. Additionally, the line may not
+even have been born from a friend of the point to be bound, while otherwise, at
+least at times, a circular relationship could be formed. (Depending for
+example, on which basis objectBasisobjekt
+you drag).
+
+
+
+With this
+protective mechanism in place, it should be guaranteed that the family tree of
+the geometrical objects never shows a circular relationship. But if it does,
+this can lead to cases of harmless, (but annoying) false interpretation of
+line segments with a fixed length, which apparently forget their fixed length
+when being dragged. In the worst case, EUKLID DynaGeo runs in a recursive loop,
+which cannot be broken, and ends with a total hang up of the program.
+Unfortunately, you can never be sure if the brain of the programmer has worked
+out to prevent circular relationships in all cases. If, whilst dragging in your
+drawing, a point should become loose from its line segment, then it is quite
+likely that you have succeeded in fooling the internal protection against
+circular relationships.
+
+
+
+
+
+
+#$K+Problems and limits
+
+
+
+Like every
+program, EUKLID DynaGeo has its limits. The following description should enable
+you to understand the resulting limitations.
+
+
+
+Problems with object representation on the
+screenProb6
+
+Problems with the clipboardProb5
+
+Problems with scalingProb2
+
+Problems with printingProb4
+
+
+
+How to get further help with more
+difficult problems cm_Problem
+
+
+
+
+
+
+#+Problems with scaling
+
+
+
+a) Scaling on
+the screen:
+
+
+
+EUKLIDDynaGeo
+obtains its information about the available computer hardware from WINDOWS,
+and WINDOWS cannot always know everything. When WINDOWS finds that there is a
+15 inch monitor connected, run with 1024 x 768 pixels, then the result is
+so-many pixels per centimetre. This is transferred to EUKLID DynaGeo, and it is
+started so that a line segment of 5 cm occupies exactly 5 WINDOWS-cm on the
+screen. But due to the poor resolution of the actually available screens,
+usually the WINDOWS screen centimetre is about 50% longer than the real world
+centimeter.
+
+
+
+
+
+Scaling on the
+printer:
+
+
+
+If the scaling
+factor is set to 1.00 (in the Printer options dialogue), then the
+drawing is printed as if WINDOWS believed the scale is 1:1, i.e. every WINDOWS
+centimeter will be converted to a printer centimeter. As printers are generally
+more truthful than monitors, this is mostly almost correct. However, using a
+scaling factor &gt; 1.00 ( &lt; 1.00 ) allows the print-out to be expanded (or
+contracted).
+
+
+
+
+
+
+#+Problems with printing
+
+
+
+a) Why do some
+objects not appear in the print-out ?
+
+
+
+When a EUKLID
+DynaGeo drawing is sent to a black and white printer, then the screen colours
+are changed into grey scales or black and white by the printer driver.
+The resultant print quality depends almost entirely on how well the driver does
+its job. You should test to see which colours print out best, and then use this
+knowledge when colouring the drawing.
+
+
+
+When for example,
+the co-ordinate system is missing from your print-out, even though displayed on
+the screen, then it is a sign that the printer driver interprets the light grey
+(standard colour) of the co-ordinate system as white. In that case use another
+colour for the co-ordinate system (such as black), then it should print
+correctly.
+
+
+
+
+
+b) Why do my
+dashed lines become solid when printed?
+
+
+
+Many older
+printers cannot produce dashed or dotted lines. If this is true for your
+printer too, EUKLID DynaGeo can simulate these attributes when printing. If you
+choose the appropriate options on the Export page of the Options dialogue cm_Options, the program produces a
+series of short solid lines instead of one dashed line.
+
+
+
+
+
+
+#+Problems with the clipboard
+
+
+
+Clipping
+problems:
+
+
+
+When a drawing is
+totally, or partly exported into the clipboard, and then imported to another
+program (e.g. WINWORD), then it is possible that the print-out has the straight
+lines just outside the picture area running straight through the
+neighbouring text, although the screen and perhaps even the printer preview
+is okay.
+
+
+
+Such an error is
+apparently due to the printer driver which does not carry out correct
+clipping when interpreting vector graphic data. In most cases this problem can
+be overcome by putting an additional frame around the drawing in the receiving
+program. In WINWORD for example, it is sufficient just to surround the imported
+drawing with a positioning frame. This also eases changes in the
+document’s layout. (Some people are however somewhat allergic to WINWORD
+positioning frames!)
+
+
+
+
+
+b) Size and
+aspect problems:
+
+
+
+Some older text
+programs do not import drawings in correct size from the clipboard. Even worse,
+sometimes the imported drawing even shows wrong aspect ratio. Though it is
+nearly always possible to easily resize the drawing after importing it, you
+unfortunately have to guess the correct aspect.
+
+
+
+This ugly
+behaviour of some text systems is due to the fact that they don’t know the new EMF
+graphics format, but only the older WMF format. This is even true for
+WINWORD up to version 7! WORD 97 (i.e. WINWORD 8) is the first version
+supporting the EMF format and so preserving size and aspect of vector graphics
+imported from the clipboard.
+
+
+
+
+
+c) Why can’t I
+work on my drawing after importing it?
+
+
+
+If you try to
+work on an imported EUKLID DynaGeo drawing, you often will get unsatisfying
+results. This is due to the fact that many vector graphic editors don’t know
+all of the objects and commands used by EUKLID DynaGeo in WMF/EMF data streams.
+So it’s better not to edit imported EUKLID DynaGeo drawings any more.
+
+
+
+
+
+
+#+Problems with object representation on the screen:
+
+
+
+Why do parts
+of lines sometimes remain on the screen?
+
+
+
+This is
+apparently a WINDOWS problem. It seems that WINDOWS, in rare cases of internal
+confusion (stress due to overloading?), breaks off a graphics output, before it
+has correctly ended. EUKLID DynaGeo relies however on that every
+graphics output is exactly carried out, right down to the pixel. If this does
+not occur, then unsightly traces are left on the screen.
+
+
+
+If you notice
+such traces on your drawing, then you must make EUKLID DynaGeo draw a totally
+new output. In many WINDOWS graphics programs, there is a menu point redraw.
+EUKLID DynaGeo does not have such a menu item, however the same effect is
+obtained with a press of  the U-key
+(screen Update).
+
+
+
+
+
+b) Why do some
+straight lines not show?
+
+
+
+On some few
+computer systems, EUKLID DynaGeo correctly draws line segments, but no (long)
+lines. This is due to a faulty graphics driver which fails to clip lines
+correctly. To avoid this problem, EUKLID DynaGeo can do the clipping internally
+(see Options | Internalsopt_intern
+).
+
+
+
+
+
+
+
+Acknowledgments:
+
+
+
+I wish to thank
+my wife who in the difficult time of program development supported her computer
+addicted husband with patience and constructive help. My thanks also go to my
+colleagues who taught me the techniques of programming, like Bernd Ebbmeier,
+Dr. Klaus Heidler and Dr. Konrad Dammeier. I also want to thank all those who
+helped me with the English version, especially Joergen Christiansen, Leo
+Poulsen, R. Philpott and W. Hellwig, who were busy with translating, and last
+not least H.J.Elschenbroich, who pulled the strings and made up the
+connections.
+
+
+
+
+
+
+
+
+#$K+ How do I get help with problems ?
+
+
+
+If your version
+of EUKLID DynaGeo behaves strangely or has any kind of errors, then try the
+on-line help. I should especially point to the section Requirements cm_Required as well as section Limits
+and problemsProblems. In the
+last named section are explanations concerning unexpected behaviour of the
+program.
+
+
+
+When you cannot
+find anything helpful in the on-line help, then look at the EUKLIDDynaGeo
+homepage:
+
+http://www.mechling.de
+
+to see if there
+can be found anything about your problem. If not, send me a problem
+description, preferably via e-mail ( roland@mechling.de ), perhaps with
+an attached GEO or MAK file showing the problem (if several then please ZIP
+them!).
+
+
+
+You can also send
+me a letter:
+
+Roland Mechling,
+Fuchshaldeweg 24a, D-77654 Offenburg, Germany
+
+or a Fax
+(+49(0)781 - 43268), but I think the easiest way to exchange information is
+e-mail.
+
+
+
+The more accurate
+your bug description, the greater the chances I can help you! Always include a
+description of your hardware (processor speed, graphic card, memory) and
+software (operation system version, network software)! In any case I shall try
+to help you as fast as possible.
+
+
+
+
+
+
+#
+
+Dragging with the mouse:
+
+
+
+Place the mouse cursor over the object to be dragged.
+Press the left mouse button, and hold it pressed, while pushing the mouse. The
+object follows the movement of the mouse cursor until the left mouse button is
+released.
+
+
+
+
+
+
+#
+
+Basis objects:
+
+
+
+An object whose data is not related to any other
+object is called a basis object. If, for example, you produce a point using a
+mouse click, then it is a basis point. It obtains its co-ordinates from the
+mouse. When however, a point is defined as the intersection point of two lines,
+then it is not a basis point. Its co-ordinates are dependent on the location of
+the two lines.
+
+
+
+Basis objects may be draggedVerziehen at any time. EUKLIDDynaGeo
+acknowledges the following basis objects:
+
+
+
+Basis points are points whose positions are independent of all
+other objects, and have thus been set using the mouse.
+
+
+
+Basis lines are lines whose direction is set at their creation
+and cannot later be changed. Such lines can be pushed or dragged, but not
+rotated.
+
+
+
+Basis circles are circles whose radius is set at their creation
+and cannot be changed later. Their centre point is not useable as an object (as
+otherwise the circle would be dependent on this point) and is thus never
+displayed.
+
+
+
+
+
+
+#
+
+Selection frames:
+
+
+
+Click with the left mouse button on a spot of the
+present drawing, that contains no object, and then holding the button
+pressed, drag the mouse. There appears a dotted selection frame.
+
+
+
+Such a frame is actually intended for export into the
+clipboard, as well as saving a part of a EUKLID DynaGeo drawing in BMP or
+WMF/EMF format to a file. Then, instead of the entire drawing, only this
+section is copied or saved.
+
+
+
+To remove the frame again, click with the left mouse
+button on another free spot of the drawing or press the ESC key.
+
+
+
+
+
+
+#
+
+Formulas or expressions:
+
+
+
+When typing in formula or expressions, then all
+customary mathematical operations (+, - , * , /, ^), some elementary functions
+(e.g. sqrt, sin, cos, tan, exp, and the inverse functions) as well as brackets
+may be used. Additionally, the actually displayed length or angle measurements
+may be used as variables within the expression. Just click on the value
+given in the drawing, and the appropriate variable will be inserted in the
+expression being worked on.
+
+
+
+
+
+
+#
+
+Menu configuration:
+
+
+
+A menu configuration is a particular choice of active
+commands from the whole of the EUKLID DynaGeo command set. You can reduce the
+command possibilities by de-activating some commands.
+
+
+
+De-activated menu commands are displayed in grey
+(instead of black) and cannot be selected. If an icon from a toolbar belongs to
+the de-activated command, then this icon is also removed.
+
+
+
+
+
+
+#
+
+Repeating commands automatically:
+
+
+
+When you hold down the Shift key while
+clicking on a tool bar icon, the appropriate command will be activated in Auto
+repeat mode: if the command is suited for this, it will be called again
+automatically after having finished its work successfully.
+
+
+
+You leave the Auto repeat mode by clicking the ESC
+key.
+
+
+
+
+
+
+
+
+
+
+
+
+#+Automatic select
+
+
+
+When you are in
+Edit mode and click on the screen where there are several objects, EUKLID
+DynaGeo must find out which object you mean. Therefore, the different
+object types are sorted in an order of decreasing priority:
+
+
+
+        Point / Line segment / Line /
+Circle / Name / Measurement object / Polygon.
+
+
+
+If, when applying
+this priority list, EUKLID DynaGeo is able to distinguish without doubt
+which object you mean, then this object will be edited. If however, the cursor
+is in a position where two different line segments - but no point - might be in
+question, EUKLID DynaGeo will open a selection box asking you to
+specify.
+
+
+
+When creating and
+deleting objects, this automatic selection is disabled, so that EUKLID DynaGeo does not create or delete the wrong object by mistake.
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Das Problem der rekursiven Funktionen</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Einstellungen">
+        <PARAM NAME="Keyword" VALUE="Optionen">
+</OBJECT>
+
+<A NAME="idh_Recursion"></A>
+
+<H2>Das Problem der rekursiven Funktionen</H2>
+<HR>
+
+<p>Normalerweise (d.h.: mit den Standard-Einstellungen) l&auml;sst DynaGeo <b>keine rekursiven Funktionsdefinitionen</b> zu. Sofern Sie nicht sehr gute Gr&uuml;nde daf&uuml;r haben, sollten Sie es bei dieser Einstellung belassen: Sie bekommen durch den Verzicht auf die mit vielen Problemen behaftete Rekursion ein deutlich h&ouml;heres Ma&szlig; an Stabilit&auml;t und Zuverl&auml;ssigkeit!<br>
+<br>
+F&uuml;r die mutigen und experimentierfreudigen Benutzer ist trotzdem die M&ouml;glichkeit eingebaut, mit rekursiven Funktionen arbeiten zu k&ouml;nnen. Sie sollten sich dabei der Gefahren f&uuml;r die geladene Zeichnung bewusst sein: machen Sie solche Experimente nicht mit wertvollen Original-Konstruktionen, sondern nur mit eigens hergestellten Arbeitskopien. Insgesamt weist der Programmautor ausdr&uuml;cklich jede Verantwortung f&uuml;r eventuelle Folgen weit von sich, selbst wenn ein Rekursions-Crash von DynaGeo Ihren Computer in den Abgrund rei&szlig;t....<br>
+<br>
+F&uuml;r die trotzdem nicht Abzuschreckenden folgen ein paar Erl&auml;uterungen, die einen Zugang zum Minenfeld der Rekursion skizzieren.</p>
+<br>
+
+<h3><font color="#0000FF"><i>Rekursion braucht zirkul&auml;re Bez&uuml;ge</i></font></h3>
+
+<P>Die einfachste Art, eine Funktion f rekursiv zu definieren ist die, dass der Funktionterm von f eine Referenz auf eben diese Funktion f enth&auml;lt. Also zum Beispiel:
+<ul>f(x) := f(x-1) + 1</ul>
+Ganz offensichtlich f&uuml;hrt eine solche Definition bei der n&auml;chsten Wertberechnung zum Absturz des Programms: wird z.B. f(5) gefragt, muss (rekursiv!) erst f(4) berechnet werden, dies braucht aber f(3) und dies braucht f(2) usw usw usw.... ohne Ende: es fehlt hier der Rekursions-Anfang. Dieser l&auml;sst sich mit der if()-Funktion implementieren:
+<ul>f(x) := if(x &lt; 0; 0; f(x-1) + 1) </ul>
+F&uuml;r alle negativen x-Werte ist der Funktionswert also Null; nur bei den positiven x-Werten greift der rekursive Abstieg. Das Schaubild dieser Funktion ist entt&auml;uschend &uuml;berschaubar:<br>
+<br>
+<div align="center"><img src="../IMAGES/rec_fkt_01.png" alt="" border="0"></div>
+</P>
+
+<p>Daneben gibt es aber auch die indirekte rekursive Definition, bei der mehrere beteiligte Funktionen sich durch gegenseitige Referenzen in Abh&auml;ngigkeit voneinander definieren. Ein Beispiel:
+<ul>f(x) := if(x &lt; 0; 0; g(x) + 1) </ul>
+<ul>g(x) := f(x-1)</ul>
+Das Schaubild dieser Funktion f stimmt mit dem oben abgebildeten &uuml;berein, das der Funktion g ist um eine Einheit in positiver x-Richtung verschoben.
+</p>
+
+<p>Formal ist jede Rekursion eine zirkul&auml;re Verwandtschaft. Man sieht das speziell beim zweiten Beispiel sehr deutlich: in der Definition von f wird auf g verwiesen, in der Definition von g auf f. In der Liste der geometrischen Objekte, die DynaGeo intern f&uuml;hrt, sind solche Konstrukte ein unbedingt zu vermeidender Krisenfall; tritt er ein, ergibt sich beim n&auml;chsten Update der Objektliste in der Regel ein Stack-&Uuml;berlauf! Bei Funktionen hingegen kann man bei hinreichendem Geschick durch einen geeigneten Rekursionsanfang den unendlichen Regress vermeiden, indem in den Referenzen das Argument der Funktionen variiert wird. </p>
+<br>
+
+<h3><font color="#0000FF"><i>Das Eingabe-Problem</i></font></h3>
+
+<p>Ein erstes Problem ergibt sich aber schon bei der Eingabe rekursiver Funktionsterme: will man n&auml;mlich in einem Term Referenzen auf andere Objekte einf&uuml;gen, dann k&ouml;nnen diese Referenzen sich nur auf schon existierende Objekte beziehen, welche also schon zuvor in der Objektliste verbucht wurden. Mithin kann eine neu zu erstellende Funktion mit Namen "Fn1" ihren eigenen Namen erst dann in der Objektliste finden, nachdem sie in eben diese Liste eingef&uuml;gt wurde! Hier hilft ein kleiner Trick weiter: man erstellt diese Funktion zun&auml;chst mit einem anderen (z.B. konstanten) Funktionsterm, f&uuml;gt dieses Funktionsobjekt der Objektliste hinzu, und editiert den Term dann nachtr&auml;glich.</p>
+
+<p>Im Falle der obigen indirekten Rekursion zwischen den Funktionen f und g w&auml;re entsprechend folgenderma&szlig;en vorzugehen:
+<ul>
+<li>Man definiert g vorl&auml;ufig als g(x) := 3</li>
+<li>Dann wird f definiert: f(x) := if(x &lt; 0; 0; g(x) + 1) </li>
+<li>Schlie&szlig;lich editiert man den Term von g: g(x) := f(x-1) </li>
+</ul>
+Erst beim letzten Schritt schie&szlig;t sich der Kreis der Referenzen, und DynaGeo gibt eine entsprechende Warnung aus.</p>
+<br>
+
+<h3><font color="#0000FF"><i>Das Stabilit&auml;ts-Problem</i></font></h3>
+
+<p>Leider ist das technische Problem der Eingabe nicht die einzige Schwierigkeit, die die Rekursion bietet. Viel gravierender ist, dass es programmtechnisch kaum m&ouml;glich ist, alle m&ouml;glichen inhaltlichen Probleme sicher abzufangen. Die Definition des obigen Funktionspaares f und g verkehrt sich in kompletten Unsinn, wenn Sie nur das Minuszeichen in der Definition von g in ein Pluszeichen verwandeln. Dies zeigt, dass eine pr&auml;ventive Syntaxanalyse zwar w&uuml;nschenswert w&auml;re, aber wohl kaum realisierbar sein wird: zu gro&szlig; ist der "Spielraum" des Benutzers bei der Definition rekursiver Zusammenh&auml;nge.</p>
+
+<p>Sie sind also bei der Definition rekursiver Funktionen auf Ihr eigenes mathematisches Feingef&uuml;hl angewiesen. DynaGeo kann auf diesem Gebiet nur in sehr begrenztem Ma&szlig;e vorbeugende Hilfe leisten - und wir sollten dies von einem Programm auch nicht im Ernst erwarten: in der Vergangenheit hat sich schon zu oft gezeigt, dass die Fantasie und Kreativit&auml;t der Benutzer die Erwartungen des Programm-Autors um Gr&ouml;&szlig;enordnungen &uuml;bersteigen!</p>
+<br>
+
+<h3><font color="#0000FF"><i>Das Laufzeit-Problem</i></font></h3>
+
+<p>Selbst wenn Sie nun Ihre rekursiven Funktionsterme erfolgreich eingegeben haben, sind noch nicht alle Schwierigkeiten &uuml;berwunden. Unter Informatik-Profis gilt Rekursion als zwar elegantes Programmier-Hilfsmittel,das aber zu umst&auml;ndlichem und langsamem Code f&uuml;hrt. Ein sch&ouml;nes Beispiel daf&uuml;r ist die klassische Definition der Fibonacci-Folge:
+<ul>f(x) := if(x &lt; 2; 1; f(x-2) + f(x-1))</ul>
+Wenn Ihr sch&ouml;ner neuer Rechner mit der Aufgabe konfrontiert wird, diese Funktion darzustellen, dann kommt es sehr darauf an, wie gro&szlig; Ihr DynaGeo-Fenster im Augenblick ist. F&uuml;r negative Argumente ist die Sache ja einfach, und f&uuml;r x &lt; 5 ist ebenfalls noch nichts Schlimmes zu bemerken. Wenn Sie aber den rechten Fensterrand nach au&szlig;en ziehen, so dass dann auch x = 15 noch berechnet werden muss, wird sich der Rechner doch deutlich tr&auml;ge anf&uuml;hlen. Allein f&uuml;r f(15) sind insgesamt 1973 Aufrufe von f n&ouml;tig. Klar, dass Ihr flotter Rechner das mit links macht; aber leider verlangt DynaGeo an jeder Unstetigkeitsstelle der Funktion einen zumindest numerischen Nachweis des "Sprungs", wof&uuml;r dann eine ganze Serie von Werten rund um diese Stellen zu berechnen sind. Und wenn Sie immer noch an die Hardware glauben, dann berechnen Sie eben mal f(30) - nach 2692537 Aufrufen von f werden Sie schon fertig sein ;-)  </p>
+
+<p>Das flotte Wachstum des Aufwandes bei der Berechnung der Fibonacci-Zahlen ist darauf zur&uuml;ck zu f&uuml;hren, dass in der Funktionsdefinition die Funktion f sich selbst <u>zweimal</u> referenziert. Dies f&uuml;hrt zu einer exponenziellen Zunahme des Rechenaufwandes. Bei hinreichend komplizierten rekursiven Funktionen kann es durchaus sein, dass Ihr Rechner vor der Darstellung des Schaubildes f&uuml;r mehrere Stunden in dumpfes Br&uuml;ten versinkt. Zus&auml;tzlich zu allen oben beschriebenen Schwierigkeiten hat man also auch noch ein potenzielles Laufzeit-Problem.</P>
+<br>
+
+<h3><font color="#0000FF"><i>Viel Gl&uuml;ck!</i></font></h3>
+
+<p>M&ouml;glicherweise haben Sie jetzt gar keine Lust mehr, mit DynaGeo rekursive Funktionen zu untersuchen. Damit w&uuml;rden Sie sich und dem Programm einiges ersparen, handelt es sich doch bei DynaGeo um eine "Dynamische Geometrie-Software", also ein Programm, das sich vorwiegend mit Punkten, Geraden und Kreisen besch&auml;ftigt!</p>
+
+<p>Vielleicht aber reizt Sie ja gerade das Abenteuer, das die Erkundung eines derma&szlig;en gef&auml;hrlichen Terrains darstellt. Dann hoffe ich, dass Sie mit solider Planung vorgehen werden und sich durch gelegentliche Abst&uuml;rze nicht entmutigen lassen.
+</p>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,873 @@
+<html>
+<head>
+<title>EUKLID DynaGeo XML file format</title>
+<meta name="author" content="Roland Mechling">
+<meta name="generator" content="Ulli Meybohms HTML EDITOR">
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#FF0000" alink="#FF0000" vlink="#FF0000">
+<font face="VERDANA,ARIAL,HELVETICA">
+<div align="center"><h1>Specification of the DynaGeo XML file format</h1>
+</div>
+<br>
+Contents:
+<ul>
+<a href="#preface">1&nbsp;&nbsp;Preface</a><br>
+<a href="#helperdec">2&nbsp;&nbsp;Helper declarations</a><br>
+<a href="#datatypes">3&nbsp;&nbsp;Data Types</a><br>
+<a href="#filestruct">4&nbsp;&nbsp;File structures</a><br>
+</ul>
+<br>
+<hr noshade size="3">
+<h2><a name="preface"><u>1&nbsp;&nbsp;&nbsp;Preface</u></a></h2>
+<br>
+<p><h3>1.1&nbsp;&nbsp;&nbsp;Version of this document</h3>
+Version number: 1.3 <br>
+Last changes: 01.01.2009<br>
+</p>
+<br>
+<p><h3>1.2&nbsp;&nbsp;&nbsp;Preconditions</h3>
+This document contains a specification of the DynaGeo XML file format. To derive benefit from reading it, you should be familiar with the basic principles of dynamic geometry software, XML and XML schema. About XML see <a href="http://www.w3.org/TR/2000/REC-xml-20001006.html">http://www.w3.org/TR/2000/REC-xml-20001006.html</a> and related documents.</p>
+<br>
+<p><h3>1.3&nbsp;&nbsp;&nbsp;Overview</h3>
+One of the great advantages of XML schema over DTD is that the schema allows precise and detailed declaration of user defined types and formats. The DynaGeo XML file format definitions are determined in the <a href="dg13.xsd">DynaGeo XML schema definition file</a>. This file can be used to test any text file for correct DynaGeo XML data syntax automatically: you have just to check the data file against the XSD file with a suitable XML editor.<br>
+<br>
+This document gives detailed explanations of the contents of the <a href="dg13.xsd">DynaGeo XML schema definition file</a>. It explains all the data types used to describe the different geometric object types. You need these informations whenever you want to read and understand any DynaGeo XML data file (with file extension ".geo").
+<font size="-1"><ul>
+There are some additional declarations in the XSD file not explained here. These are used to store macros in XML format, too. But this is beyond the scope of this document, and these details are not needed to understand a DynaGeo XML data file.
+</ul></font>
+In an additional document about <a href="dggeotypes.html">Geometric Types used in DynaGeo</a> there are some more information that deal with the relations between the objects and the respective "update algorithms". These details are only neccessary if you want to understand how the new positions of the objects are calculated while the drawing is dragged by the user.</p>
+<br>
+<p><h3>1.4&nbsp;&nbsp;&nbsp;Conventions</h3>
+The main feature of XML data encoding is that all data are converted to a text representation. To define the DynaGeo XML format, a private namespace called "dg" is created. Additionally to the usual rules of XML and XML schema, the following conventions are valid in the "dg" namespace:<br>
+<br>
+<ul type="disc">
+<li>All private type identifiers start with the letter "<b>t</b>". <br>
+<br></li>
+<li>If not otherwise stated, numerical data are written in decimal representation.<br>
+<br></li>
+<li>Float numbers always use the point ("<b>.</b>") as decimal separator. Scientific notation may be used.<br>
+<br></li>
+<li>Only the negative sign ("<b>-</b>") should be written to numerical data strings, any leading "<b>+</b>" indicating a positive sign must be omitted.<br>
+<br></li>
+<li>If not otherwise stated, all coordiante values are given with regard to the user coordinate system defined in the "windowdata" node. The same is true for distance values.<br>
+<br></li>
+<li>Angle data values are always given in "rad" units, though at runtime DynaGeo normally presents them to the user in "degree" units.<br>
+<br></li>
+</ul>
+</p>
+<br>
+<br>
+<br>
+<h2><a name="helperdec"><u>2&nbsp;&nbsp;&nbsp;Helper declarations</u></a></h2>
+This section contains some type definitions that are used to structure the data of the geometric objects.
+<br>
+<p><h3>2.1&nbsp;&nbsp;&nbsp;<i>thex8str</i></h3>
+A type defining the usual hex representation of an <i>integer</i> value of 4 <i>byte</i> length. It is used to code colour values, for instance.<br>
+<ul><i>Example:</i> "<font color="#000000"><b>$008BCF34</b></font>"</ul></p>
+<br>
+<p><h3>2.2&nbsp;&nbsp;&nbsp;<i>tintpair</i></h3>
+A type that combines 2 <i>integer</i> values delimited by a semicolon. The 2 numbers may be negative, but they may not have more than 8 digits. There is no space allowed in the whole string.<br>
+<ul><i>Example:</i> "<font color="#000000"><b>234;-87654321</b></font>"</ul></p>
+<br>
+<p><h3>2.3&nbsp;&nbsp;&nbsp;<i>tintlist</i></h3>
+A type defining the format of a list of (positive) <i>integer</i> values delimited by semicolons. Note that there are no spaces allowed inside the whole list. Note further that there is no semicolon at the end of the list: a number not followed by a semicolon marks the end of the list. This type is used to store lists of id numbers to describe the relationships between geometric objects.<br>
+<ul><i>Example:</i> "<font color="#000000"><b>12;3;54;1;123;78</b></font>"</ul></p>
+<br>
+<p><h3>2.4&nbsp;&nbsp;&nbsp;<i>tfloatpair</i></h3>
+A type containing 2 <i>float</i> numbers delimited by a semicolon. The decimal separator is the point ".". Note that there are no spaces allowed inside the whole string, and there must not be a semicolon at the end.<br>
+<ul><i>Example:</i> "<font color="#000000"><b>-1.2;3.5e-2</b></font>"</ul></p>
+<br>
+<p><h3>2.5&nbsp;&nbsp;&nbsp;<i>tfloattriple</i></h3>
+The same as before, but now with 3 <i>float</i> numbers.<br>
+<ul><i>Example:</i> "<font color="#000000"><b>0.123e-3;12.3e4;-13.725</b></font>"</ul></p>
+<br>
+<p><h3>2.6&nbsp;&nbsp;&nbsp;<i>tintpairlist</i></h3>
+A list of instances of <i>tintpair</i> type, delimited by blanks. The list is to contain at least one <i>tintpair</i> instance.<br>
+<ul><i>Example (with 3 list items):</i> "<font color="#000000"><b>13;-5 123;27 -12;-5</b></font>"</ul></p>
+<br>
+<p><h3>2.7&nbsp;&nbsp;&nbsp;<i>tfloatpairlist</i></h3>
+A list of instances of <i>tfloatpair</i> type, delimited by blanks. The list is to contain at least one <i>tfloatpair</i> instance. This type is used to store coordinates.<br>
+<ul><i>Example (with 4 list items):</i> "<font color="#000000"><b>-0.12;-7 23.4;5 -13;0.003 0.4e4;-1.75e-5</b></font>"</ul></p>
+<br>
+<p><h3>2.8&nbsp;&nbsp;&nbsp;<i>tfloattriplelist</i></h3>
+A list of instances of <i>tfloattriple</i> type, delimited by blanks. The list is to contain at least one <i>tfloattriple</i> instance. This type is used to store locus lines, see below.<br>
+<ul><i>Example (with only 2 list items):</i> "<font color="#000000"><b>-0.12;-7;23.4 5;-13;0.003</b></font>"</ul></p>
+<br>
+<br>
+<br>
+<h2><a name="datatypes"><u>3&nbsp;&nbsp;&nbsp;Data types</u></a></h2>
+<p>This section containes the <u>data types</u> used in the DynaGeo XML file to structure the data. These types must not be confused with the <u>geometric object types</u> discussed in the document about the <a href="dggeotypes.html">Geometric types used in DynaGeo</a>. Several objects of different geometric object types may be represented by the same data type structure, if only their data are sufficiently similiar. Occasionally, the only difference between two such object types is that the corresponding objects use different "update" methods.</p>
+<br>
+<p><h3>3.1&nbsp;&nbsp;&nbsp;<i>tgeoobj</i></h3>
+This is an abstract type from which all other data types for geometric objects are derived. The main node has two required attributes:<br>
+<ul type="circle">
+<li><b>id</b> is a required <i>integer</i> value that serves to identify the object. So, there must not be two objects with equal <b>id</b> values in one drawing!<br>
+<br></li>
+<li><b>name</b> is a required <i>string</i> that contains a user-defined name for the object. These names have to be unique, because DynaGeo may use them to reference the object in expressions. So, the names must not contain neither spaces nor any character representing a mathematical operation or relation. Using only letters (and digits) leaves you on the safe side.<br>
+<br></li>
+</ul>
+The main node contains a sequence of three optional child nodes:<br>
+<ul type="disc">
+<li><b>appearance</b> contains several optional parameter attributes that determine the outer appearance of the object:<br>
+<br>
+<ul type="circle">
+<li><b>color</b> is a <i>thex8str</i> parameter holding the colour of the object in the form '$00RRGGBB' where RR, GG and BB are the red, green and blue value <i>byte</i> in hex notation). The default value is "$00000000", what means black.<br>
+<br></li>
+<li><b>pen_style</b> is a non-negative <i>integer</i> parameter that determines the line style of the object. The default value is "0", what means a solid line.  The possible values and their meanings are:<br>
+<br>
+<div align="center">
+<table width="400" border="1" frame="void" cellpadding="5">
+<tr>
+ <th> pen_style </th>
+ <th> resulting line style </th>
+</tr>
+<tr>
+ <td align="center"> 0 </td>
+ <td> solid line </td>
+</tr>
+<tr>
+ <td align="center"> 1 </td>
+ <td> dashed line </td>
+</tr>
+<tr>
+ <td align="center"> 2 </td>
+ <td> dotted line </td>
+</tr>
+<tr>
+ <td align="center"> 3 </td>
+ <td> dash-dotted line </td>
+</tr>
+</table>
+</div>
+<br>
+</li>
+<li><b>line_width</b> is a small positive <i>integer</i> coding the line width of the object. The default value is "1", what is a fine line. Prefered values are "1", "3" and perhaps "5".<br>
+<br></li>
+<li><b>shape</b> is a non-negative <i>integer</i> parameter coding the shape of point objects. The default value is "1", what stands for a filled rectangle. The possible values and their meanings are:<br>
+<br>
+<div align="center">
+<table width="400" border="1" frame="void" cellpadding="5">
+<tr>
+ <th width="35%"> shape </th>
+ <th width="65%"> resulting point shape </th>
+</tr>
+<tr>
+ <td align="center"> 0 </td>
+ <td> filled circle </td>
+</tr>
+<tr>
+ <td align="center"> 1 </td>
+ <td> filled rectangle </td>
+</tr>
+<tr>
+ <td align="center"> 2 </td>
+ <td> hollow circle </td>
+</tr>
+<tr>
+ <td align="center"> 3 </td>
+ <td> hollow rectangle </td>
+</tr>
+<tr>
+ <td align="center"> 4 </td>
+ <td> upright cross </td>
+</tr>
+<tr>
+ <td align="center"> 5 </td>
+ <td> diagonal cross </td>
+</tr>
+</table></div>
+<br></li>
+<li><b>brush_style</b> is a non-negative <i>integer</i> parameter that codes the pattern used to fill a flat object. The default value is "1", what means no filling. The possible values and their meanings are:<br>
+<br>
+<div align="center">
+<table width="400" border="1" frame="void" cellpadding="5">
+<tr>
+ <th width="35%"> brush_style </th>
+ <th width="65%"> resulting filling </th>
+</tr>
+<tr>
+ <td align="center"> 0 </td>
+ <td> solid </td>
+</tr>
+<tr>
+ <td align="center"> 1 </td>
+ <td> (no filling) </td>
+</tr>
+<tr>
+ <td align="center"> 2 </td>
+ <td> diagonal forward </td>
+</tr>
+<tr>
+ <td align="center"> 3 </td>
+ <td> diagonal backward</td>
+</tr>
+<tr>
+ <td align="center"> 4 </td>
+ <td> crossed </td>
+</tr>
+<tr>
+ <td align="center"> 5 </td>
+ <td> diagonally crossed </td>
+</tr>
+<tr>
+ <td align="center"> 6 </td>
+ <td> horizontally hatched </td>
+</tr>
+<tr>
+ <td align="center"> 7 </td>
+ <td> vertically hatched </td>
+</tr>
+<tr>
+ <td align="center"> 8 </td>
+ <td> user-defined pattern</td>
+</tr>
+</table>
+</div>
+</li>
+<br>
+<li><b>visible</b> is a <i>boolean</i> parameter that determines whether or not the object will be shown in the drawing. The default value is "true", so normally the object is visible.<br>
+<br></li>
+<li><b>add_data2name</b> is an optional <i>boolean</i> parameter with default value "false". It decides if with the object's name an additional string is shown holding its coordinate values or its equation.<br>
+<br></li>
+</ul>
+If all of the object's <b>appearance</b> parameters have the appropriate default values, this node can be omitted completely.<br>
+<br></li>
+<li><b>parents</b> is a <i>tintlist</i> parameter that contains the series of id numbers of the actual object's parents. If the object is a basis object without any parents, this node can be omitted completely. But if the object depends on any parent object, this node is required and must hold a complete list of all the parents' ids.<br>
+<br></li>
+</ul>
+All other object data types are derived from <i>tgeoobj</i> by adding specific extensions to this declaration.<br>
+</p>
+<br>
+<p><h3>3.2&nbsp;&nbsp;&nbsp;<i>tpoint</i></h3>
+This is the data type of all point-like object types. It expands the type <i>tgeoobj</i> by adding three more attributes:<br>
+<ul type="circle">
+<li><b>quant</b> is an optional parameter of floating point type <i>double</i>. Is is only used for basis points that are to move in jumps ("quantisized") across the plane. This parameter determines the width of these jumps.<br>
+<br></li>
+<li><b>ani_step</b> is also an optional <i>double</i> parameter. Is is only used for basis points bound to a line that are used as steering objects of an animation. This parameter determines the increment of the point's bound parameter when a single animation step is performed.<br>
+<br></li>
+<li><b>plist_index</b> is an optional <i>integer</i> parameter. It is only used by points that are part of a set holding the intersection points of two lines. The parameter's value indicates the position of this point in the (ordered) list of intersection points. The default value is (-1) what is not a valid index.<br>
+<br></li>
+</ul>
+Besides, there are two more items added to the sequence of child nodes:<br>
+<ul type="disc">
+<li><b>position</b> is a required node holding information about the locus of the point:<br>
+  <ol start="1" type="1">
+  <li>The required attributes <b>x</b> and <b>y</b> hold the actual coordinates of the point as <i>double</i>   values.<br></li>
+  <li>The optional <i>string</i> parameters <b>x_term</b> and <b>y_term</b> are used by points with determined coordinates. They hold the expressions that define how the coordinate values are to be calculated. These strings are in HTML format with the special characters "&lt;" and "&gt;" masked by "&amp;lt;" and "&amp;gt;" if they are not part of a tag. </li>
+  </ol><br>
+</li>
+<li><b>friends</b> is an optional <i>tintlist</i> parameter that is only used by basis points. It contains a series of id numbers of the friends of the actual object. These are all those points with which this point is connected via a line of fixed length. If there are no lines of fixed length starting from this point, this node is omitted completely.<br>
+</li>
+</ul>
+</p>
+<br>
+<p><h3>3.3&nbsp;&nbsp;&nbsp;<i>torigin</i></h3></p>
+This data type expands <i>tpoint</i>. It is used to store the origin's data. Beside its job as a special point of reference for all other objects, the origin determines how the coordinate system will be displayed. To make this possible, <i>torigin</i> adds two more items to the attibute list of <i>tpoint</i>:<br>
+<ul type="circle">
+<li><b>cosys_type</b> is a required <i>integer</i> attribute. The possible values and their respective meanings are:<br>
+<br>
+<div align="center">
+<table width="500" border="1" frame="void" cellpadding="5">
+<tr>
+ <th width="30%" align="center"> cosys_type </th>
+ <th width="70%" align="center"> resulting coordinate system </th>
+</tr>
+<tr>
+ <td align="center"> &lt;0 </td>
+ <td> coordsys is not displayed </td>
+</tr>
+<tr>
+ <td align="center"> 0 </td>
+ <td> only origin and axis are displayed </td>
+</tr>
+<tr>
+ <td align="center"> 1 </td>
+ <td> origin, axis and narrow grid </td>
+</tr>
+<tr>
+ <td align="center"> 2 </td>
+ <td> origin, axis and normal grid </td>
+</tr>
+<tr>
+ <td align="center"> 5 </td>
+ <td> origin, axis and wide grid </td>
+</tr>
+</table></div>
+</li>
+<br>
+<li><b>show_numbers</b> is an optional <i>boolean</i> attribute. It decides if numbers will be shown at the axis of the coordinate system or not. The default value is "true", so normally the axis will appear lettered with numbers.<br>
+</li>
+<br>
+<li><b>grid_marks</b> is an optional <i>integer</i> attribute that decides how the coordinate system's grid will be displayed. The default value is "0" resulting in small crosses at the grid points. The possible values and their respective meanings are:<br>
+<br>
+<div align="center">
+<table width="500" border="1" frame="void" cellpadding="5">
+<tr>
+ <th width="30%" align="center"> grid_marks </th>
+ <th width="70%" align="center"> resulting grid representation </th>
+</tr>
+<tr>
+ <td align="center"> 0 </td>
+ <td> small crosses at the grid points </td>
+</tr>
+<tr>
+ <td align="center"> 1 </td>
+ <td> solid grid lines </td>
+</tr>
+<tr>
+ <td align="center"> 2 </td>
+ <td> dotted grid lines </td>
+</tr>
+</table></div>
+</li>
+<br>
+</ul>
+</p>
+<br>
+<p><h3>3.4&nbsp;&nbsp;&nbsp;<i>tmulti_intersect</i></h3></p>
+This data type expands <i>tgeoobj</i>. A <i>tmulti_intersect</i> object is always invisible. It is used to calculate, update and manage the coordinates of the points that are created by the intersection of two lines. There is one item added to the sequence of child nodes:<br>
+<ul type="disc">
+<li><b>pointlist</b> is a required <i>tfloatpairlist</i> parameter that holds the coordinate data of all possible intersection points.<br>
+<ul><i>Example:</i> When you intersect a conic with a circle, you'll get up to 4 intersection points. The coordinates of all of these points are stored in this <b>pointlist</b> parameter.</ul></li>
+</ul>
+</p>
+<br>
+<p><h3>3.5&nbsp;&nbsp;&nbsp;<i>tline</i></h3>
+This data type expands <i>tgeoobj</i> by adding an optional child node to store position data for all line-type objects:<br>
+<ul type="disc">
+<li><b>position</b> is a node containing the 4 <i>double</i> attributes <b>x1</b>, <b>y1</b>, <b>x2</b> and <b>y2</b> and an <i>integer</i> attribute <b>vcount</b>. The first two attributes are required (if the node exists at all), the remaining three are optional. The four <i>double</i> attributes are used to store coordinate values. The <i>vcount</i> is used by regular polygons only and holds the respective number of vertices.</li>
+</ul>
+Moreover, the data type <i>tline</i> adds an optional <i>string</i> attribute <b>label</b> to the main node. The default value is an empty string. Up to now, this attribute is only used by very few line type objects.<br>
+<br>
+The <i>tline</i> data type is not only the ancestor of all straight line data types. Even the data types for circle and arc are derived from it. That is why the <b>position </b> node is declared as optional: there are some descendant that do not provide suitable data for this node.<br>
+</p>
+<br>
+<p><h3>3.6&nbsp;&nbsp;&nbsp;<i>ttermline</i></h3>
+This data type expands <i>tline</i> by adding a required child node to store the direction angle of a line:<br>
+<ul type="disc">
+<li><b>term</b> is a node containing a <i>string</i> that holds a constant or an expression. Its numerical value gives the orientated angle (in radians) between the positive x-axis and the direction of the line.</li>
+</ul>
+</p>
+<br>
+<p><h3>3.7&nbsp;&nbsp;&nbsp;<i>tstick</i></h3>
+This data type expands <i>tline</i> by adding a required child node to store the length of the line:<br>
+<ul type="disc">
+<li><b>length</b> is a node holding the length of the line as a <i>double</i> parameter.</li>
+</ul>
+</p>
+<br>
+<p><h3>3.8&nbsp;&nbsp;&nbsp;<i>tcircle</i></h3>
+This data type expands <i>tline</i> by adding a required child node to store the circle's radius:<br>
+<ul type="disc">
+<li><b>radius</b> is a node holding the circle's radius in a <i>string</i> parameter. This string can hold a <i>double</i> constant or an expression.</li>
+</ul>
+</p>
+<br>
+<p><h3>3.9&nbsp;&nbsp;&nbsp;<i>tarc</i></h3>
+This data type expands <i>tcircle</i> by adding a required child node to store an additional point to determine the end of the arc:<br>
+<ul type="disc">
+<li><b>direction</b> is a node holding the two required <i>double</i> attributes <b>x3</b> and <b>y3</b> and the optional <i>boolean</i> attribute <b>inverted</b>. The default value of <b>inverted</b> is "false".</li>
+</ul>
+</p>
+<br>
+<p><h3>3.10&nbsp;&nbsp;&nbsp;<i>ttrace</i></h3>
+This data type expands <i>tline</i> to allow to store locus lines. It adds one more attribute to the main node:<br>
+<ul type="circle">
+<li><b>trace_status</b> is an optional <i>integer</i> attribute with default value "7". There are only a few bits carrying information in this parameter (at the time being):<br>
+<br>
+<div align="center">
+<table width="550" border="1" frame="void" cellpadding="5">
+<tr>
+ <th width="15%"> bit nr </th>
+ <th width="40%"> "1" </th>
+ <th width="45%"> "0" </th>
+</tr>
+<tr>
+ <td align="center"> 0 (LSB) </td>
+ <td> dynamic locus line </td>
+ <td> static trace </td>
+</tr>
+<tr>
+ <td align="center"> 1 </td>
+ <td> show as spline </td>
+ <td> show as series of points </td>
+</tr>
+<tr>
+ <td align="center"> 2 </td>
+ <td> auto-update is on </td>
+ <td> auto-update is off </td>
+</tr>
+<tr>
+ <td align="center"> 16 </td>
+ <td> locus line is straight </td>
+ <td> &nbsp;&nbsp;&nbsp;&nbsp;- </td>
+</tr>
+<tr>
+ <td align="center"> 17 </td>
+ <td> locus line is a circle </td>
+ <td> &nbsp;&nbsp;&nbsp;&nbsp;- </td>
+</tr>
+<tr>
+ <td align="center"> 18 </td>
+ <td> locus line is a conic </td>
+ <td> &nbsp;&nbsp;&nbsp;&nbsp;- </td>
+</tr>
+</table>
+</div>
+<br>
+</li>
+</ul>
+Moreover, there is an additional required child node:<br>
+<ul type="disc">
+<li><b>points</b> is a required node containing a <i>tfloattriplelist</i> parameter. It holds a list of coordinate tripels (x;y;z). The points (x|y) are the consecutive positions of the locus line's producing point while the line is recorded. The third coordinate z stores the accompanying bound parameter of the locus line's dragging point.</li>
+</ul>
+</p>
+<br>
+<br>
+<p><h3>3.11&nbsp;&nbsp;&nbsp;<i>tconic</i></h3>
+This data type expands <i>tgeoobj</i> to allow storing of conics. Two required child nodes are added:<br>
+<ul type="disc">
+<li><b>params</b> holds six <i>double</i> attributes <b>a</b>, <b>b</b>, <b>c</b>, <b>d</b>, <b>e</b> and <b>f</b>, that are the coefficients of the conic's equation: ax&sup2; + 2bxy + cy&sup2; + 2dx + 2ey + f = 0. <br>
+<br></li>
+<li><b>points</b> contains a <i>tfloatpairlist</i> parameter that holds a list of conic points (x|y). They can be used to display the conic e.g. by a bezier line.<br>
+<br></li>
+</ul>
+</p>
+<br>
+<p><h3>3.12&nbsp;&nbsp;&nbsp;<i>tarea</i></h3>
+This data type expands <i>tgeoobj</i> to allow storing of filled areas. First, some new attributes are added to the main node:<br>
+<ul type="circle">
+<li><b>brush_bmp</b> is an optional <i>string</i> attribute that holds a description of the pattern bitmap which is used to fill the area. This bitmap is written to a file stream in BMP format. Then the streams content is compressed using the "Z-lib" library. The string starts with the length of the uncompressed data in decimal representation followed by a semicolon and a line feed. Then the compressed stream's bytes are added in hex text format, but without the usually leading "$" mark.<br>
+<br></li>
+<li><b>type</b> is an optional <i>string</i> attribute used by RiemannArea objects that can have the values "lowersum" or "uppersum".<br>
+<br></li>
+<li><b>intervals</b> is an optional <i>integer</i> attribute used by RiemannArea objects. It holds a positive integer value that gives the number of rectangular columns the Riemann area is build of. All these columns have equal width. <br>
+<br></li>
+</ul>
+Then two optional child nodes are added:<br>
+<ul type="disc">
+<li><b>orientation</b> is a node holding a <i>boolean</i> value. It indicates if the area inside or outside the border line is to be filled.<br>
+<br></li>
+<li><b>operators</b> is a node holding a <i>string</i> parameter used by composed Area objects. When there is more than one parent object, this string determines how the several parts are to be combined to get the whole area.<br>
+<br></li>
+</ul>
+</p>
+<br>
+<p><h3>3.13&nbsp;&nbsp;&nbsp;<i>tpicture</i></h3>
+This data type expands <i>tgeoobj</i> to allow storing of background pictures. Two required child nodes are added:<br>
+<br>
+<ul>
+<li><b>position</b> is a node holding two <i>tfloatpair</i> attributes <b>lefttop</b> and <b>rightbottom</b>. They determine the picture's position and size.<br>
+<br></li>
+<li><b>data</b> is a text node containing a CDATA section. The string inside this CDATA section holds a complete PNG data file in XX-encrypted form. The codec algorithm used does not need any administrative data to properly manage the end of the data byte stream. So the string contains only the pure data. If you need further information about the codec algorithm, here is the original pascal source file <a href="xxcode.pas">xxcode.pas</a>.<br>
+<br></li>
+</ul>
+</p>
+<br>
+<p><h3>3.14&nbsp;&nbsp;&nbsp;<i>ttextobj</i></h3>
+This data type expands <i>tgeoobj</i> to allow storing of comments and name objects. Three child nodes are added:
+<ul type="disc">
+<li><b>position</b> is a required node that contains four required attributes: <b>x</b> and <b>y</b> are <i>double</i> parameters describing the upper-left position of the text area in logical coordinates. <b>width</b> and <b>height</b> are <i>integer</i> values describing the object's extension in pixels on the original screen.<br>
+<br>
+</li>
+<li><b>text</b> is a required node that contains a CDATA section with the object's text contents in HTML format. Supported HTML tags are: &lt;b&gt;, &lt;i&gt;, &lt;u&gt; and &lt;font&gt; with the attributes &lt;face&gt; and &lt;size&gt;. The structure of the HTML text must comply with the HTML syntax rules. Especially, nested tags are not allowed. <br>
+<br></li>
+</ul>
+</p>
+<br>
+<p><h3>3.15&nbsp;&nbsp;&nbsp;<i>tmeasure</i></h3>
+This data type expands <i>ttextobj</i> to allow storing measurement objects (distances and angles). It adds a required node:<br>
+<ul type="disc">
+<li><b>line</b> stores the data of a line linking the measured object with the textbox showing the actual value. All of the six <i>double</i> attributes of <b>line</b> are required: <b>x1</b>, <b>y1</b>, <b>x2</b> and <b>y2</b> describe the two points, <b>dx</b> and <b>dy</b> contain a displacement vector. The geometric meaning of the parameters depends on the object type that uses this data type.</li>
+</ul>
+</p>
+<br>
+<p><h3>3.16&nbsp;&nbsp;&nbsp;<i>tterm</i></h3>
+This data type expands <i>tgeoobj</i> to allow storing of term objects. There are three optional attributes added to the main node:<br>
+<ul type="circle">
+<li><b>show_name</b> is a <i>boolean</i> parameter. Its value decides whether the object's name will be shown or not. The default value is "true".<br>
+<br></li>
+<li><b>show_term</b> is a <i>boolean</i> parameter. Its value decides whether a string representing the object's term will be shown or not. The default value is "true".<br>
+<br></li>
+<li><b>show_format</b> is an <i>integer</i> parameter. Its value decides about the output format used to render the term value on the screen. The default value is "0". The possible values and their meanings are:<br>
+<br>
+<div align="center">
+<table width="400" border="1" frame="void" cellpadding="5" >
+<tr>
+ <th>show_format</th>
+ <th>meaning</th>
+</tr>
+<tr>
+ <td align="center">0</td>
+ <td align="center">normal output</td>
+</tr>
+<tr>
+ <td align="center">1</td>
+ <td align="center">output value in degrees<br>
+     (only for angle values) </td>
+</tr>
+<tr>
+ <td align="center">2</td>
+ <td align="center">output value in multiples of pi<br>
+      (only for angle values)</td>
+</tr>
+</table>
+</div>
+<br></li>
+</ul>
+If at least one of the first two values is "true", then the object's representation shows two lines, the upper one holding the object's name and/or the term, the lower one showing its actual value. If both of the boolean values are "false" then a small representation of the object shows only the actual term value in one line.<br>
+<br>
+Additionally, two child nodes are added:
+<ul type="disc">
+<li><b>position</b> is a required node that contains four required attributes: <b>x</b> and <b>y</b> are <i>double</i> parameters describing the upper-left position of the text area in logical coordinates. <b>width</b> and <b>height</b> are <i>integer</i> values describing the object's extension in pixels on the original screen.<br>
+<br>
+</li>
+<li><b>value</b> is a required node that contains the object's term in a required <i>string</i> attribute named <b>term</b>. The string is in HTML format with the special characters "&lt;" and "&gt;" masked by "&amp;lt;" and "&amp;gt;" if they are not part of a tag. There may be another <i>string</i> attribute named <b>comment</b> that holds a user defined comment. This attribute is optional: the default value of the comment is "".<br>
+<br></li>
+</ul>
+</p>
+<br>
+<p><h3>3.17&nbsp;&nbsp;&nbsp;<i>tnumber</i></h3>
+This data type expands <i>tgeoobj</i> to provide storing of number objects. These are used to allow entering and editing numerical data during runtime. There is an optional attribute added to the main node:<br>
+<ul type="circle">
+<li><b>show_name</b> is an optional <i>boolean</i> parameter. Its value decides whether the object's name is shown or not. The default value is "false".</li>
+</ul>
+Then there are two required child nodes added:<br>
+<br>
+<ul type="disc">
+<li><b>position</b> is a required node that contains four required attributes: <b>x</b> and <b>y</b> are <i>double</i> parameters describing the upper-left position of the number object in logical coordinates. <b>width</b> and <b>height</b> are <i>integer</i> values describing the object's extension in pixels on the original screen.<br>
+<br></li>
+<li><b>value</b> is a required node that contains the numerical data of the object. There are three required <i>double</i> attributes:<br>
+<br>
+<ul tape="circle">
+<li><b>actual</b> holds the actual number value of the object;<br>
+<br></li>
+<li><b>min</b> and<br>
+<br></li>
+<li><b>max</b> contain the borders of the allowed range.<br>
+<br></li>
+</ul>
+Additionally, there are two optional <i>double</i> attributes:<br>
+<br>
+<ul type="circle">
+<li><b>quant</b> is used to decide how the number value can be changed. If <b>quant</b> has its default value "0", then the number value can be changed by any increment. Otherwise, the value can only be changed in jumps  of the width given in <b>quant</b> ("quantisized").<br>
+<br></li>
+<li><b>ani_step</b> is also an optional <i>double</i> parameter with default value "0". Is is only important when the number object is used as a steering object of an animation. Then this parameter determines the increment of the point's bound parameter when a single animation step is performed.<br>
+<br></li>
+</ul>
+</li>
+</ul>
+</p>
+<br>
+<p><h3>3.18&nbsp;&nbsp;&nbsp;<i>tangle</i></h3>
+This data type expands <i>tgeoobj</i> to allow storing angle objects. Two required child nodes are added:<br>
+<ul>
+<li><b>position</b> describes the position of the angle. It has six required <i>double</i> attributes <b>x1</b>, <b>y1</b>, <b>x2</b>, <b>y2</b>, <b>x3</b>, <b>y3</b>. These hold the coordinates of the three points defining the angle.<br>
+<br></li>
+<li><b>line</b> describes how the angle is marked. The required <i>double</i> attribute <b>radius</b> holds the radius of the angle's arc. The optional <i>boolean</i> attribute <b>reversed</b> has default value "false". It decides whether the angle is drawn counter-clockwise  or reversed.<br>
+<br></li>
+</ul>
+</p>
+<br>
+<p><a name="#tmapping"></a><h3>3.19&nbsp;&nbsp;&nbsp;<i>tmapping</i></h3>
+This data type expands <i>tgeoobj</i> to allow storing of mappings:<br>
+<br>
+<ul>
+<li><b>map_type</b> is a required <i>integer</i> attribute added to the <i>tgeoobj</i> type to specify the type of the mapping. For details about the possible values and their meaning see <a href="dggeotypes.html#iho">Geometric types | Invisible helper objects</a> where the actually used DynaGeo mapping objects are specified.<br>
+<br></li>
+<li><b>matrix</b> is an optional child node that has six <i>string</i> attributes <b>a11</b>, <b>a21</b>, <b>a12</b>, <b>a22</b>, <b>a31</b>, <b>a32</b>. Each of these attributes holds a string representation of a double value or a more complex expression. Such an expression even may contain references to other objects of the drawing. In this case, the <i>parent</i> list must contain all the objects referenced by any of these expressions. If the point <i>P(x,y)</i> has the image <i>P'(x',y')</i>, then the coordinates of <i>P'</i> are given by:<br>
+<br>
+<div align="center">
+<i>x'</i> =  <b>a11</b> * <i>x</i> + <b>a21</b> * <i>y</i> + <b>a31</b><br>
+<i>y'</i> =  <b>a12</b> * <i>x</i> + <b>a22</b> * <i>y</i> + <b>a32</b>
+</div>
+</li>
+</ul>
+</p>
+<br>
+<p><a name="#tmapping"></a><h3>3.20&nbsp;&nbsp;&nbsp;<i>tcco</i></h3>
+This data type expands <i>tgeoobj</i> to allow storing of the data needed to check if the actual construction is correct. There is a required child node named <b>cc_data</b> with 3 required attributes:<br>
+<br>
+<ul>
+<li><b>term</b> is a <i>string</i> attribute holding the term of the correctness function. This function must return "true" iff the actual construction is considered to be correct. The function term may refer to some objects of the drawing that have been created at the correctness check's design time. These objects are referred to by name. Moreover, the correctness term must contain at least 1 reference to a "target" object constructed by the user just before he runs the correctness check. Inside the term, these target objects are represented by the variables "@1", "@2", "@3",... and they are substituted by the names of the user constructed objects just before the correctness test is run.<br>
+<br></li>
+<li><b>vars</b> is a required <i>string</i> attribute containing the type information for the "@x" variables used in the correctness term. It holds a series of small strings of the form "@x=&lt;typeId&gt;;" where &lt;typeId&gt; identifies the variable's type. The small strings are seperated from one another by a trailing semicolon and a blank; the last one is terminated by a semincolon only.<br>
+<br>
+</li>
+<li><b>hint</b> is a required <i>string</i> attribute. It contains a text that should inform the user which target objects must be entered when running a correctness check.<br>
+<br>
+</li>
+</ul>
+</p>
+<br>
+<br>
+<br>
+<h2><a name="#filestruct"><u>4&nbsp;&nbsp;&nbsp;File structures</u></a></h2>
+This section contains the file structure data types and the declaration of the main element of any DynaGeo XML data file.<br>
+<br>
+<p><a name="thead"><h3>4.1&nbsp;&nbsp;&nbsp;<i>theader</i></h3></a>
+This data type contains information about the file's history. It holds a sequence of up to three child nodes:<br>
+<ul type="disc">
+<li><b>created</b> is a required node containing information about the program used to create this file. There are three attributes:<br>
+<br>
+<ul type="circle">
+<li><b>prog_name</b> is a required <i>string</i> that holds the name of the creator program.<br>
+<br></li>
+<li><b>prog_version</b> is an optional <i>string</i> that holds the creator program's version.<br>
+<br></li>
+<li><b>date</b> is an <i>xsd:dateTime</i> parameter that holds the creation date and time.<br>
+<br></li>
+</ul>
+</li>
+<li><b>edited</b> is an optional node containing information about the program used to edit this file recently. The node has the same three attributes as the previous one:<br>
+<br>
+<ul type="circle">
+<li><b>prog_name</b> is a required <i>string</i> that holds the name of the editor program.<br>
+<br></li>
+<li><b>prog_version</b> is an optional <i>string</i> that holds the editor program's version.<br>
+<br></li>
+<li><b>date</b> is an <i>xsd:dateTime</i> parameter that holds the date and time of the last editing process.<br>
+<br></li>
+</ul>
+</li>
+<li><b>copyright</b> is also an optional node. It contains a <i>string</i> with a copyright information of the author of this file. There is one optional attribute:<br>
+<br>
+<ul>
+<li><b>sign_code</b> is an <i>integer</i> value that is used internally by the DynaGeo program to decide whether the copyright notice can be edited by the actual user or not. Only the author himself can edit his copyright text later.<br>
+Other programs than DynaGeo should not edit any copyright note. If they load a file with a copyright note then the whole <b>copyright</b> node has to be written to any edited copy of that file without any changes.<br>
+<br></li>
+</ul>
+</li>
+<li><b>environment</b> is an optional node. There may be 2 child nodes:<br>
+<br>
+<ul type="circle">
+<li><b>commands</b> is an optional <i>string</i> node that decides which construction commands should be provided when this file is loaded into the DynaGeoX viewer. The default value of this string is "". If it is not empty, it contains a series of command ids (in two-digit hex format, but without the usual "$" prefix). The string lists the ids just one after the other, with no seperation character between them. The following table shows the possible ids and their meaning:<br>
+<br>
+<div align="center">
+<table width="520" border="1" frame="void" cellpadding="5">
+<tr>
+ <th width="80">hex id</th>
+ <th>command</th>
+</tr>
+<tr>
+ <td align="center">66</td>
+ <td>create a (basis) point</td>
+</tr>
+<tr>
+ <td align="center">6D</td>
+ <td>create a point on a line</td>
+</tr>
+<tr>
+ <td align="center">84</td>
+ <td>create an intersection of two lines</td>
+</tr>
+<tr>
+ <td align="center">85</td>
+ <td>create a mid point</td>
+</tr>
+<tr>
+ <td align="center">7A</td>
+ <td>create a segment between 2 points</td>
+</tr>
+<tr>
+ <td align="center">2D</td>
+ <td>create a vector</td>
+</tr>
+<tr>
+ <td align="center">7B</td>
+ <td>create a line through 2 points</td>
+</tr>
+<tr>
+ <td align="center">8B</td>
+ <td>create a line with determined direction</td>
+</tr>
+<tr>
+ <td align="center">8A</td>
+ <td>create a perpendicular</td>
+</tr>
+<tr>
+ <td align="center">89</td>
+ <td>create a parallel line</td>
+</tr>
+<tr>
+ <td align="center">87</td>
+ <td>create a perpendicular bisector</td>
+</tr>
+<tr>
+ <td align="center">88</td>
+ <td>create a bisector</td>
+</tr>
+<tr>
+ <td align="center">7C</td>
+ <td>create a circle</td>
+</tr>
+<tr>
+ <td align="center">81</td>
+ <td>create a circle with determined radius</td>
+</tr>
+<tr>
+ <td align="center">83</td>
+ <td>create a polygon</td>
+</tr>
+<tr>
+ <td align="center">2F</td>
+ <td>reflect an object in an axis</td>
+</tr>
+<tr>
+ <td align="center">31</td>
+ <td>reflect an object in a point</td>
+</tr>
+<tr>
+ <td align="center">33</td>
+ <td>move an object</td>
+</tr>
+<tr>
+ <td align="center">35</td>
+ <td>rotate an object</td>
+</tr>
+<tr>
+ <td align="center">37</td>
+ <td>stretch an object</td>
+</tr>
+<tr>
+ <td align="center">38</td>
+ <td>reflect a point in a circle</td>
+</tr>
+<tr>
+ <td align="center">9E</td>
+ <td>record a trace line</td>
+</tr>
+<tr>
+ <td align="center">72</td>
+ <td>delete an object</td>
+</tr>
+<tr>
+ <td align="center">9C</td>
+ <td>measure the distance between 2 objects</td>
+</tr>
+<tr>
+ <td align="center">9B</td>
+ <td>measure the width of an angle</td>
+</tr>
+<tr>
+ <td align="center">68</td>
+ <td>save drawing as...</td>
+</tr>
+<tr>
+ <td align="center">D7</td>
+ <td>start/stop animation</td>
+</tr>
+<tr>
+ <td align="center">5A</td>
+ <td>create a textbox</td>
+</tr>
+<tr>
+ <td align="center">4E</td>
+ <td>create a number object</td>
+</tr>
+<tr>
+ <td align="center">4F</td>
+ <td>create a term object</td>
+</tr>
+<tr>
+ <td align="center">91</td>
+ <td>run a macro</td>
+</tr>
+</table>
+</div>
+<br></li>
+<li><b>links</b> is an optinal node holding up to two <i>string</i> attributes <b>forward</b> and <b>back</b> that contain the relativ path to a following and a previous document if there is any.<br>
+<br></li>
+</ul>
+</li>
+</ul>
+</p>
+<br>
+<p><a name="twin"><h3>4.2&nbsp;&nbsp;&nbsp;<i>twindowdata</i></h3></a>
+This data type contains information about the window in which the drawing was displayed last. There are the following possible child nodes:<br>
+<br>
+<ul>
+<li><b>log_window</b> is a required node that holds four required <i>double</i> attributes: <b>xmin</b>, <b>ymin</b>, <b>xmax</b> and <b>ymax</b> describe the lower-left and upper-right corner of the drawings viewport in logical user coordiantes.<br>
+<br></li>
+<li><b>screen_window</b> is a required node that holds two required <i>integer</i> attributes: <b>width</b> and <b>height</b> describe the extension of the screen window in which the drawing was displayed last.<br>
+<br></li>
+<li><b>back_col</b> is an optional <i>thex8str</i> attribute that determines the background colour of the drawing. The default value is "$00FFFFFF", what means "white".<br>
+<br></li>
+<li><b>startfont</b> is an optional node holding a default font. This is used as initial font for every HTML text rendered to the actual drawing. If the text is to appear in another font, it must contain the appropriate tags to change the settings from the startfont to the desired individual font.<br>
+The startfont's data are contained in the attributes of this node: <b>fontname</b> is a <i>string</i> with the font's name, <b>fontsize</b> and <b>fontcharset</b> are two <i>integer</i> values, and <b>attr_bold</b>, <b>attr_italic</b>, <b>attr_underline</b> and <b>attr_strikeout</b> are four <i>boolean</i> values giving the text attributes of the startfont. All these attributes are optional: the default settings of the startfont is a 12 pt Arial font with charset = 1 and all of the supported text attributes reset to false.<br>
+<br></li>
+<li><b>options</b> is an optional node that may contain several optional attributes:<br>
+<br>
+<ul>
+<li><b>LengthDecimals</b> is an <i>integer</i> value giving the number of digits used to show distance measurement values. The default value is 3.<br>
+<br></li>
+<li><b>AreaDecimals</b> is an <i>integer</i> value giving the number of digits used to show areameasurement values. The default value is 2.<br>
+<br></li>
+<li><b>AngleDecimals</b> is an <i>integer</i> value giving the number of digits used to show angle measurement values. The default value is 1.<br>
+<br></li>
+<li><b>LengthUnit</b> is a <i>string</i> value that contains the unit of distance measures. The default string is " cm ".<br>
+<br></li>
+<li><b>AreaUnit</b> is a <i>string</i> value that contains the unit of area measures. The default string is " cm&sup2; ".<br>
+<br></li>
+<li><b>AngleUnit</b> is a <i>string</i> value that contains the unit of angle measures. The default string is " ° ".<br>
+<br></li>
+<li><b>SignedAngles</b> is a <i>boolean</i> value indicating whether angle values are meant to be orientated or not. The default value is "true".<br>
+<br></li>
+<li><b>DefLocLineStatus</b> is an <i>integer</i> value giving the status of newly created locus lines. The default value is 7, that means: new locus lines are created as dynamic and automatic and are displayed as curves. For further details about the meaning of this value see the description of the data type <i>ttrace</i> above.<br></li>
+</ul>
+<br></li>
+</ul>
+</p>
+<br>
+<p><a name="tml"><h3>4.3&nbsp;&nbsp;&nbsp;<i>tmacrolist</i></h3></a>
+This data type is used to store a list of macros in the DynaGeo data file. The format of the macros is beyond the scope of this document. It is not necessary to understand the specific way how DynaGeo implements macros when you want to learn how to read and write DynaGeo drawings. So you can just omit this part of a DynaGeo data file.<br>
+<br>
+This topic remains undocumented for the time being because it is probable that severe changes will be made in the future concerning the internal handling of user macros. Maybe, the actually used type of macros will be skipped at all and replaced by a superior concept.<br>
+<br>
+</p>
+<br>
+<p><a name="tol"><h3>4.4&nbsp;&nbsp;&nbsp;<i>tobjlist</i></h3></a>
+This data type holds all the individual objects of the drawing. Every object is represented by a node which is of one of the above defined data types. The <u>name</u> of each of this nodes indicates the <u>geometric type</u> of the stored object. The data types used to store these objects of several geometric types are described above in the section about <a href="#datatypes">Data Types</a>. Additionally, the document <a href="dggeotypes.html">Geometric Types Used In DynaGeo</a> lists all of the possible geometric node types and provides information about the stored geometric objects.<br>
+<br>
+Additionally, there is only one optional attribute of the tobjlist type:<br>
+<ul>
+<li><b>ani_source</b> can hold the id of an animation steering object. If this attribute is missing or if no object with such an id exists then the drawing is not prepared to be animated.<br>
+<br></li>
+</ul>
+<br>
+</p>
+<br>
+<p><a name="grl"><h3>4.5&nbsp;&nbsp;&nbsp;<i>tgrouplist</i></h3></a>
+The objects in a drawing may be gathered in several groups that share the same visibility. This means that they can be hidden and unhidden all together. A group can be <i>static</i> or <i>dynamic</i>. Static groups can be set to visible and non-visible directly by the user. Dynamic groups decide about the visibility of their objects by calculating a certain boolean expression.<br>
+<br>
+The <i>tgrouplist</i> data type holds a list of the groups of objects. It consists of a series of <b>group</b> nodes which carry the data in their attributes: <br>
+<ul>
+<li><b>id</b> is a required non-negativ integer attribute used to identify the group.<br>
+<br></li>
+<li><b>comment</b> is a required string attribute that holds a description of the group.<br>
+<br></li>
+<li>If a group is <i>static</i>, then there should be a boolean <b>visible</b> attribute that decides whether the group's objects will be shown or hidden. Its default value is "false".<br>
+<br></li>
+<li>If a group is <i>dynamic</i>, then there is a required <b>condition</b> attribute. It must hold a string with a boolean expression the value of which determines about the object's visibility. If an error occures while calculating this value, the result should be set to "false".<br>
+<br></li>
+</ul>
+</p>
+<br>
+<p><h3>4.6&nbsp;&nbsp;&nbsp;The drawing element</h3>
+This is the one and only main element in a DynaGeo XML data file. It consists of 3, 4 or 5 child nodes:<br>
+<ul type="disc">
+<li><b>header</b> is a required <a href="#thead"><i>theader</i></a> node.</li>
+<li><b>windowdata</b> is a required <a href="#twin"><i>twindowdata</i></a> node.</li>
+<li><b>macrolist</b> is an optional <a href="#tml"><i>tmacrolist</i></a> node.</li>
+<li><b>objlist</b> is a required <a href="#tol"><i>tobjlist</i></a> node.</li>
+<li><b>grouplist</b> is an optional <a href="#grl"><i>tgrouplist</i></a> node.</li>
+</ul>
+<br>
+<br>
+<br>
+<hr noshade size="3">
+<br>
+<font size="-1">(c) 2005/2008  Roland Mechling</font>
+</font>
+</body>
+</html>

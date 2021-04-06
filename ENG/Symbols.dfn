@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\Symbols.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\Symbols.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715972222</prop>
+        <prop prop-type="OrigDateTime">39661.6775462963</prop>
+        <prop prop-type="XlatDateTime">38910.7063425926</prop>
+        <prop prop-type="Translated">1</prop>
+        <prop prop-type="UnTranslated">36</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:SymbolWin.Left" resname="O:SymbolWin.Left">
+        <source>496</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.Top" resname="O:SymbolWin.Top">
+        <source>130</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.BorderIcons" resname="O:SymbolWin.BorderIcons">
+        <source>[biSystemMenu]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.BorderStyle" resname="O:SymbolWin.BorderStyle">
+        <source>bsToolWindow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.Caption" resname="O:SymbolWin.Caption">
+        <source>' Sonderzeichen einfügen'</source>
+        <target>' Special chars to insert...'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.ClientHeight" resname="O:SymbolWin.ClientHeight">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.ClientWidth" resname="O:SymbolWin.ClientWidth">
+        <source>372</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.Color" resname="O:SymbolWin.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.Font.Charset" resname="O:SymbolWin.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.Font.Color" resname="O:SymbolWin.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.Font.Height" resname="O:SymbolWin.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.Font.Name" resname="O:SymbolWin.Font.Name">
+        <source>'Symbol'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.Font.Style" resname="O:SymbolWin.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.FormStyle" resname="O:SymbolWin.FormStyle">
+        <source>fsStayOnTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.OldCreateOrder" resname="O:SymbolWin.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.OnCreate" resname="O:SymbolWin.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.PixelsPerInch" resname="O:SymbolWin.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.TextHeight" resname="O:SymbolWin.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TSymbolWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.Left" resname="O:SymbolWin.O:SymbolGrid.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.Top" resname="O:SymbolWin.O:SymbolGrid.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.Width" resname="O:SymbolWin.O:SymbolGrid.Width">
+        <source>353</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.Height" resname="O:SymbolWin.O:SymbolGrid.Height">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.ColCount" resname="O:SymbolWin.O:SymbolGrid.ColCount">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.DefaultColWidth" resname="O:SymbolWin.O:SymbolGrid.DefaultColWidth">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.FixedCols" resname="O:SymbolWin.O:SymbolGrid.FixedCols">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.RowCount" resname="O:SymbolWin.O:SymbolGrid.RowCount">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.FixedRows" resname="O:SymbolWin.O:SymbolGrid.FixedRows">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.Font.Charset" resname="O:SymbolWin.O:SymbolGrid.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.Font.Color" resname="O:SymbolWin.O:SymbolGrid.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.Font.Height" resname="O:SymbolWin.O:SymbolGrid.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.Font.Name" resname="O:SymbolWin.O:SymbolGrid.Font.Name">
+        <source>'Symbol'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.Font.Style" resname="O:SymbolWin.O:SymbolGrid.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.ParentFont" resname="O:SymbolWin.O:SymbolGrid.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.ScrollBars" resname="O:SymbolWin.O:SymbolGrid.ScrollBars">
+        <source>ssNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.TabOrder" resname="O:SymbolWin.O:SymbolGrid.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.OnDblClick" resname="O:SymbolWin.O:SymbolGrid.OnDblClick">
+        <source>SymbolGridDblClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SymbolWin.O:SymbolGrid.OnMouseDown" resname="O:SymbolWin.O:SymbolGrid.OnMouseDown">
+        <source>SymbolGridMouseDown</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374889583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TStringGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,114 @@
+// Nicht bearbeiten. Diese Datei wurde vom Ressourcen-DLL-Experten erzeugt.
+
+library DynaGeo;
+
+{ITE} {DFMFileType} {AboutWin.dfm}
+{ITE} {DFMFileType} {AniParams.dfm}
+{ITE} {DFMFileType} {AskUser1.dfm}
+{ITE} {DFMFileType} {AssAffAbb_1.dfm}
+{ITE} {DFMFileType} {AssAffAbb_2.dfm}
+{ITE} {DFMFileType} {AssAffAbb_2a.dfm}
+{ITE} {DFMFileType} {AssAffAbb_2b.dfm}
+{ITE} {DFMFileType} {AssAffAbb_2c.dfm}
+{ITE} {DFMFileType} {AssAffAbb_2d.dfm}
+{ITE} {DFMFileType} {AssAffAbb_2e.dfm}
+{ITE} {DFMFileType} {AssAffAbb_3.dfm}
+{ITE} {DFMFileType} {AssAffAbb_3a.dfm}
+{ITE} {DFMFileType} {AssAffAbb_3b.dfm}
+{ITE} {DFMFileType} {CommentWin.dfm}
+{ITE} {DFMFileType} {ConstrWin.dfm}
+{ITE} {DFMFileType} {CoordWin.dfm}
+{ITE} {DFMFileType} {EditMappingWin.dfm}
+{ITE} {DFMFileType} {ExpertOptWin.dfm}
+{ITE} {DFMFileType} {FileProp.dfm}
+{ITE} {DFMFileType} {GroupWin.dfm}
+{ITE} {DFMFileType} {HTMLDynaGeoJSettings.dfm}
+{ITE} {DFMFileType} {HTMLDynaGeoXSettings.dfm}
+{ITE} {DFMFileType} {IniFDlg.dfm}
+{ITE} {DFMFileType} {KonstEing.dfm}
+{ITE} {DFMFileType} {KoordEing.dfm}
+{ITE} {DFMFileType} {LinkWin.dfm}
+{ITE} {DFMFileType} {MainWin.dfm}
+{ITE} {DFMFileType} {MakHelpEdit.dfm}
+{ITE} {DFMFileType} {MakHelpShow.dfm}
+{ITE} {DFMFileType} {MemberWin.dfm}
+{ITE} {DFMFileType} {MenuCfgNew.dfm}
+{ITE} {DFMFileType} {NameDlg.dfm}
+{ITE} {DFMFileType} {NetOptDlg.dfm}
+{ITE} {DFMFileType} {OkayWin.dfm}
+{ITE} {DFMFileType} {OKCANCL1.dfm}
+{ITE} {DFMFileType} {OKCheckConfWin.dfm}
+{ITE} {DFMFileType} {Preview.dfm}
+{ITE} {DFMFileType} {PrnCfg.dfm}
+{ITE} {DFMFileType} {QuantPoint.dfm}
+{ITE} {DFMFileType} {RangeEdit.dfm}
+{ITE} {DFMFileType} {RegWin.dfm}
+{ITE} {DFMFileType} {RiemannSum.dfm}
+{ITE} {DFMFileType} {SelectWin.dfm}
+{ITE} {DFMFileType} {SelectXCmd.dfm}
+{ITE} {DFMFileType} {Symbols.dfm}
+{ITE} {DFMFileType} {SysMem.dfm}
+{ITE} {DFMFileType} {TagSelDlg.dfm}
+{ITE} {DFMFileType} {TermEdit.dfm}
+{ITE} {DFMFileType} {ValidateResultWin.dfm}
+{ITE} {DFMFileType} {WertEing.dfm}
+{ITE} {DFMFileType} {WerteTabelle.dfm}
+{ITE} {RCFileType} {DynaGeo_DRC.rc}
+
+{$R 'AboutWin.dfm' AboutBox:TForm}
+{$R 'AniParams.dfm' AniParamsWin:TForm}
+{$R 'AskUser1.dfm' AskUser1Dlg:TForm}
+{$R 'AssAffAbb_1.dfm' AffAbb_1_Dlg:TForm(OKBottomDlg)}
+{$R 'AssAffAbb_2.dfm' AffAbb_2_Dlg:TForm(TermForm)}
+{$R 'AssAffAbb_2a.dfm' AffAbb_2a_Dlg:TForm(AffAbb_2_Dlg)}
+{$R 'AssAffAbb_2b.dfm' AffAbb_2b_Dlg:TForm(AffAbb_2_Dlg)}
+{$R 'AssAffAbb_2c.dfm' AffAbb_2c_Dlg:TForm(AffAbb_2_Dlg)}
+{$R 'AssAffAbb_2d.dfm' AffAbb_2d_Dlg:TForm(AffAbb_2_Dlg)}
+{$R 'AssAffAbb_2e.dfm' AffAbb_2e_Dlg:TForm(AffAbb_2_Dlg)}
+{$R 'AssAffAbb_3.dfm' AffAbb_3_Dlg:TForm}
+{$R 'AssAffAbb_3a.dfm' AffAbb_3a_Dlg:TForm}
+{$R 'AssAffAbb_3b.dfm' AffAbb_3b_Dlg:TForm}
+{$R 'CommentWin.dfm' TextWin:TForm}
+{$R 'ConstrWin.dfm' ConstrTextWin:TForm}
+{$R 'CoordWin.dfm' CoordDlg:TForm}
+{$R 'EditMappingWin.dfm' EditMappingDlg:TForm(TermForm)}
+{$R 'ExpertOptWin.dfm' ExpertOptWin:TForm}
+{$R 'FileProp.dfm' FileProps:TForm}
+{$R 'GroupWin.dfm' EditGroupWin:TForm(TermForm)}
+{$R 'HTMLDynaGeoJSettings.dfm' HTMLDynaGeoJDataForm:TForm}
+{$R 'HTMLDynaGeoXSettings.dfm' HTMLDynaGeoXDataForm:TForm}
+{$R 'IniFDlg.dfm' OptionsDlg:TForm}
+{$R 'KonstEing.dfm' KonstEingabeDlg:TForm}
+{$R 'KoordEing.dfm' KoordEingabeDlg:TForm(TermForm)}
+{$R 'LinkWin.dfm' EditLinkDlg:TForm}
+{$R 'MainWin.dfm' Hauptfenster:TForm}
+{$R 'MakHelpEdit.dfm' MakHelpDlg:TForm}
+{$R 'MakHelpShow.dfm' MakHelpWin:TForm}
+{$R 'MemberWin.dfm' AddMemberWin:TForm}
+{$R 'MenuCfgNew.dfm' EditMenuConfigWin:TForm}
+{$R 'NameDlg.dfm' ObjNameDlg:TForm}
+{$R 'NetOptDlg.dfm' NetOptionsDlg:TForm}
+{$R 'OkayWin.dfm' OkayButton:TForm}
+{$R 'OKCANCL1.dfm' OKBottomDlg:TForm}
+{$R 'OKCheckConfWin.dfm' ConfigOKCheckDlg:TForm}
+{$R 'Preview.dfm' PrintPreview:TForm}
+{$R 'PrnCfg.dfm' PrinterCfgDlg:TForm}
+{$R 'QuantPoint.dfm' QuantPtWin:TForm}
+{$R 'RangeEdit.dfm' RangeEditWin:TForm}
+{$R 'RegWin.dfm' RegisterDlg:TForm}
+{$R 'RiemannSum.dfm' RiemannForm:TForm(TermForm)}
+{$R 'SelectWin.dfm' SelectDlg:TForm}
+{$R 'SelectXCmd.dfm' SelectXCmdForm:TForm}
+{$R 'Symbols.dfm' SymbolWin:TForm}
+{$R 'SysMem.dfm' SysMemWin:TForm}
+{$R 'TagSelDlg.dfm' TagSelectDlg:TForm}
+{$R 'TermEdit.dfm' TermEditDlg:TForm(TermForm)}
+{$R 'ValidateResultWin.dfm' ValidationResultWin:TForm}
+{$R 'WertEing.dfm' WertEingabeDlg:TForm(TermForm)}
+{$R 'WerteTabelle.dfm' FunkTableWin:TForm}
+{$R 'DynaGeo_DRC.res' 'DynaGeo_DRC.rc'}
+
+{$E ENG}
+
+begin
+end.

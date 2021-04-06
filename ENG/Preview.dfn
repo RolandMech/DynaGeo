@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\Preview.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\Preview.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715972222</prop>
+        <prop prop-type="OrigDateTime">37731.7413888889</prop>
+        <prop prop-type="XlatDateTime">36690.9278009259</prop>
+        <prop prop-type="Translated">1</prop>
+        <prop prop-type="UnTranslated">13</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:PrintPreview.Left" resname="O:PrintPreview.Left">
+        <source>598</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.Top" resname="O:PrintPreview.Top">
+        <source>159</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.HelpContext" resname="O:PrintPreview.HelpContext">
+        <source>205</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.BorderIcons" resname="O:PrintPreview.BorderIcons">
+        <source>[biSystemMenu]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37754.4560351389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.BorderStyle" resname="O:PrintPreview.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37754.4560351389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.Caption" resname="O:PrintPreview.Caption">
+        <source>'Druckbild-Vorschau'</source>
+        <target>'Print preview'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.ClientHeight" resname="O:PrintPreview.ClientHeight">
+        <source>362</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37754.4560351389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.ClientWidth" resname="O:PrintPreview.ClientWidth">
+        <source>340</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37754.4560351389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.Color" resname="O:PrintPreview.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.Font.Charset" resname="O:PrintPreview.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.Font.Color" resname="O:PrintPreview.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.Font.Height" resname="O:PrintPreview.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.Font.Name" resname="O:PrintPreview.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.Font.Style" resname="O:PrintPreview.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.OldCreateOrder" resname="O:PrintPreview.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.Position" resname="O:PrintPreview.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.OnCloseQuery" resname="O:PrintPreview.OnCloseQuery">
+        <source>FormCloseQuery</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.OnKeyPress" resname="O:PrintPreview.OnKeyPress">
+        <source>FormKeyPress</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.OnShow" resname="O:PrintPreview.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.PixelsPerInch" resname="O:PrintPreview.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.TextHeight" resname="O:PrintPreview.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TPrintPreview</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.O:PaintBox1.Left" resname="O:PrintPreview.O:PaintBox1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TPaintBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.O:PaintBox1.Top" resname="O:PrintPreview.O:PaintBox1.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TPaintBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.O:PaintBox1.Width" resname="O:PrintPreview.O:PaintBox1.Width">
+        <source>340</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TPaintBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.O:PaintBox1.Height" resname="O:PrintPreview.O:PaintBox1.Height">
+        <source>362</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TPaintBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.O:PaintBox1.Align" resname="O:PrintPreview.O:PaintBox1.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TPaintBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.O:PaintBox1.Color" resname="O:PrintPreview.O:PaintBox1.Color">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TPaintBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.O:PaintBox1.ParentColor" resname="O:PrintPreview.O:PaintBox1.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TPaintBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:PrintPreview.O:PaintBox1.OnPaint" resname="O:PrintPreview.O:PaintBox1.OnPaint">
+        <source>PaintBox1Paint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172556713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TPaintBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

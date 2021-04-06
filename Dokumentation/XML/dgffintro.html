@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html/loose.dtd">
+<html>
+<head>
+<title>EUKLID DynaGeo XML file format</title>
+<meta name="author" content="Roland Mechling">
+<meta name="generator" content="Ulli Meybohms HTML EDITOR">
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#FF0000" alink="#FF0000" vlink="#FF0000">
+<font face="VERDANA,ARIAL,HELVETICA">
+<div align="center"><h1>The DynaGeo XML file format</h1>
+</div>
+<br>
+<hr noshade size="3">
+<div align="right"><font size="-1">"The international language of science<br>
+and technology is broken english."
+</font>
+</div>
+<br>
+<h2><a name="intro"><u>Introduction</u></a></h2>
+Since version 2.7, EUKLID DynaGeo writes its data files using an XML based file format. The change from the previously used binary file format to the new one was made with the primary intention to simplify internal code structures: the maintenance of the binary format across a long series of version numbers has become increasingly complicated. Moreover, there was the <b>idea of information interchange</b> between some of the actual "dynamic geometry" programs. At first glance, it seemed desirable to get all the authors of those programs together to finally reach at <b>a common file format for "dynamic" drawings</b>. But though there is some convergence between those programs from a user's point of view, internally there are severe differences that make it very difficult to establish a common file format. It seems more likely that the authors of the individual programs will build <b>import and export filters</b> to realize the information interchange between their programs. The new XML based DynaGeo file format is explicitly designed to support this process and provide the appropriate informations.<br>
+<br>
+The core of the documentation is the <a href="dg13.xsd">XML schema file</a> of the EUKLID DynaGeo format. It contains all information used to test any file if it contains valid DynaGeo data. You can use an appropriate XML editor to do this (like <a href="http://www.altova.com">XMLSPY</a> or any other program of your choice). To help you to become familiar with the DynaGeo file format, you can read the paragraph below where <a href="#exa">an example</a> is discussed. This section is added to provide a more convenient way to the basics of the the DynaGeo XML file format. The exact and complete specification is given in the <a href="dgffspec.html">DynaGeo XML file format specification document</a>.<br>
+<br>
+One of the big questions when designing a new file format is which of the data the file should hold. Those who are  experienced in designing databases quickly demand an orthogonalized data set without any redundancy. Such an attempt leads to a rather small amount of data, and often this is the best solution. So any data item must be omitted that can be reconstructed from the other items after loading. In the actual case, this means for example that only the basis objects should write their coordinates into the data file, while the coordinates of the dependent objects can be recalculated after loading. But with that, you force any program loading such a data file to be capable of recalculating the coordinates of all dependent objects. In other words: it has to be a full (dynamic) geometry program.<br>
+<br>
+If on the other hand, a simple viewer program should also be able to show the drawing, then the data file definitely must hold the actual coordinates of <u>all</u> the objects. So it may seem wise to allow a certain amount of redundancy. It's a question of what you want to use the data file for. I decided to provide all information to reconstruct the drawing not only as a dynamic construction, but as a static picture too. So <u>all</u> object's coordinates are written to the DynaGeo XML data files.<br>
+<br>
+Everybody who wants to use the DynaGeo XML file format for any purpose is invited to do so. This is especially (but not exclusively) adressing the programmers of other geometry programs who plan to use the DynaGeo XML file format specification to construct import/export filters for their programs. If you are working on such a project and you are not satisfied with the information provided here about the DynaGeo XML file format, please let me know. I shall make some efforts to ensure that the next version of these documents will deliver a more accurate description.<br>
+<br>
+<br>
+<br>
+<h2><a name="exa"><u>An example</u></a></h2>
+If you open the file <a href="example.geo" target="_blank">example.geo</a> with a text editor, it may show up totally unformatted. There may even be only a few lines of huge length. That is because an original DynaGeo XML file does not contain any line breaks. So you'd better load the same file into your browser, where it may appear like this:<br>
+<font color="#0000FF"><pre>
+
+    &lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+  - &lt;<font color="#804000">dg:drawing</font> <font color="#FF0000">xmlns:dg</font>="<font color="#FF0000"><b>http://www.dynageo.com/xml/dg12</b></font>"
+     <font color="#FF0000">xmlns:xsi</font>="<font color="#FF0000"><b>http://www.w3.org/2001/XMLSchema-instance</b></font>"
+     <font color="#804000">xsi:schemaLocation</font>="<font color="#000000"><b>http://www.dynageo.com/xml/dg12 http://www.dynageo.com/xml/dg12.xsd</b></font>"&gt;
+    - &lt;<font color="#804000">header</font>&gt;
+        &lt;<font color="#804000">created prog_name</font>="<font color="#000000"><b>EUKLID DynaGeo</b></font>" <font color="#804000">prog_version</font>="<font color="#000000"><b>2.6</b></font>" /&gt;
+        &lt;<font color="#804000">edited prog_name</font>="<font color="#000000"><b>EUKLID DynaGeo</b></font>" <font color="#804000">prog_version</font>="<font color="#000000"><b>3.0.6.3</b></font>" <font color="#804000">date</font>="<font color="#000000"><b>2008-04-02T08:39:28</b></font>" /&gt;
+      &lt;/<font color="#804000">header</font>&gt;
+    - &lt;<font color="#804000">windowdata</font>&gt;
+        &lt;<font color="#804000">log_window xmin</font>="<font color="#000000"><b>-9.63083333333333</b></font>" <font color="#804000"> xmax</font>="<font color="#000000"><b>13.97</b></font>" <font color="#804000"> ymin</font>="<font color="#000000"><b>-8.51958333333333</b></font>" <font color="#804000"> ymax</font>="<font color="#000000"><b>6.50875</b></font>" /&gt;
+        &lt;<font color="#804000">scr_window width</font>="<font color="#000000"><b>892</b></font>" <font color="#804000">height</font>="<font color="#000000"><b>568</b></font>" /&gt;
+        &lt;<font color="#804000">startfont fontname</font>="<font color="#000000"><b>Arial</b></font>" <font color="#804000">fontsize</font>="<font color="#000000"><b>12</b></font>" <font color="#804000">fontcharset</font>="<font color="#000000"><b>0</b></font>" /&gt;
+        &lt;<font color="#804000">options AreaDecimals</font>="<font color="#000000"><b>5</b></font>" <font color="#804000">DefLocLineStatus</font>="<font color="#000000"><b>7</b></font>" /&gt;
+      &lt;/<font color="#804000">windowdata</font>&gt;
+    - &lt;<font color="#804000">objlist</font>&gt;
+      - &lt;<font color="#804000">Origin id</font>="<font color="#000000"><b>1</b></font>" <font color="#804000">name</font>="<font color="#000000"><b>O</b></font>" <font color="#804000">cosys_type</font>="<font color="#000000"><b>-1</b></font>"&gt;
+          &lt;<font color="#804000">appearance color</font>="<font color="#000000"><b>$00C0C0C0</b></font>" /&gt;
+          &lt;<font color="#804000">position x</font>="<font color="#000000"><b>0</b></font>" <font color="#804000">y</font>="<font color="#000000"><b>0</b></font>" /&gt;
+        &lt;/<font color="#804000">Origin</font>&gt;
+      - &lt;<font color="#804000">Axis id</font>="<font color="#000000"><b>2</b></font>" <font color="#804000">name</font>="<font color="#000000"><b>xa</b></font>" <font color="#804000">label</font>="<font color="#000000"><b>x</b></font>"&gt;
+          &lt;<font color="#804000">appearance color</font>="<font color="#000000"><b>$00C0C0C0</b></font>" <font color="#804000">shape</font>="<font color="#000000"><b>0</b></font>" <font color="#804000">brush_style</font>="<font color="#000000"><b>0</b></font>" /&gt;
+          &lt;<font color="#804000">parents</font>&gt;<font color="#000000"><b>1</b></font>&lt;/<font color="#804000">parents</font>&gt;
+          &lt;<font color="#804000">position x1</font>="<font color="#000000"><b>0</b></font>" <font color="#804000">y1</font>="<font color="#000000"><b>0</b></font>" <font color="#804000">x2</font>="<font color="#000000"><b>1</b></font>" <font color="#804000">y2</font>="<font color="#000000"><b>0</b></font>" /&gt;
+        &lt;/<font color="#804000">Axis</font>&gt;
+      - &lt;<font color="#804000">Axis id</font>="<font color="#000000"><b>3</b></font>" <font color="#804000">name</font>="<font color="#000000"><b>ya</b></font>"  <font color="#804000">label</font>="<font color="#000000"><b>y</b></font>"&gt;
+          &lt;<font color="#804000">appearance color</font>="<font color="#000000"><b>$00C0C0C0</b></font>" <font color="#804000">shape</font>="<font color="#000000"><b>0</b></font>" <font color="#804000">brush_style</font>="<font color="#000000"><b>0</b></font>" /&gt;
+          &lt;<font color="#804000">parents</font>&gt;<font color="#000000"><b>1</b></font>&lt;/<font color="#804000">parents</font>&gt;
+          &lt;<font color="#804000">position x1</font>="<font color="#000000"><b>0</b></font>" <font color="#804000">y1</font>="<font color="#000000"><b>0</b></font>" <font color="#804000">x2</font>="<font color="#000000"><b>0</b></font>" <font color="#804000">y2</font>="<font color="#000000"><b>-1</b></font>" /&gt;
+        &lt;/<font color="#804000">Axis</font>&gt;
+      - &lt;<font color="#804000">UnityPoint id</font>="<font color="#000000"><b>4</b></font>" <font color="#804000">name</font>="<font color="#000000"><b>X_1</b></font>" <font color="#804000">plist_index</font>="<font color="#000000"><b>1</b></font>"&gt;
+          &lt;<font color="#804000">appearance color</font>="<font color="#000000"><b>$00C0C0C0</b></font>" <font color="#804000">brush_style</font>="<font color="#000000"><b>0</b></font>" <font color="#804000">visible</font>="<font color="#000000"><b>false</b></font>" /&gt;
+          &lt;<font color="#804000">parents</font>&gt;<font color="#000000"><b>2</b></font>&lt;/<font color="#804000">parents</font>&gt;
+          &lt;<font color="#804000">position x</font>="<font color="#000000"><b>1</b></font>" <font color="#804000">y</font>="<font color="#000000"><b>0</b></font>" /&gt;
+        &lt;/<font color="#804000">UnityPoint</font>&gt;
+      - &lt;<font color="#804000">UnityPoint id</font>="<font color="#000000"><b>5</b></font>" <font color="#804000">name</font>="<font color="#000000"><b>Y_1</b></font>" <font color="#804000">plist_index</font>="<font color="#000000"><b>2</b></font>"&gt;
+          &lt;<font color="#804000">appearance color</font>="<font color="#000000"><b>$00C0C0C0</b></font>" <font color="#804000">brush_style</font>="<font color="#000000"><b>0</b></font>" <font color="#804000">visible</font>="<font color="#000000"><b>false</b></font>" /&gt;
+          &lt;<font color="#804000">parents</font>&gt;<font color="#000000"><b>3</b></font>&lt;/<font color="#804000">parents</font>&gt;
+          &lt;<font color="#804000">position x</font>="<font color="#000000"><b>0</b></font>" <font color="#804000">y</font>="<font color="#000000"><b>1</b></font>" /&gt;
+        &lt;/<font color="#804000">UnityPoint</font>&gt;
+      - &lt;<font color="#804000">Point id</font>="<font color="#000000"><b>6</b></font>" <font color="#804000">name</font>="<font color="#000000"><b>P1</b></font>"&gt;
+          &lt;<font color="#804000">appearance brush_style</font>="<font color="#000000"><b>0</b></font>" /&gt;
+          &lt;<font color="#804000">position x</font>="<font color="#000000"><b>-6.40291666666667</b></font>" <font color="#804000">y</font>="<font color="#000000"><b>0.873125</b></font>" /&gt;
+        &lt;/<font color="#804000">Point</font>&gt;
+      - &lt;<font color="#804000">Point id</font>="<font color="#000000"><b>7</b></font>" <font color="#804000">name</font>="<font color="#000000"><b>P2</b></font>"&gt;
+          &lt;<font color="#804000">appearance brush_style</font>="<font color="#000000"><b>0</b></font>" /&gt;
+          &lt;<font color="#804000">position x</font>="<font color="#000000"><b>-0.714375</b></font>" <font color="#804000">y</font>="<font color="#000000"><b>2.778125</b></font>" /&gt;
+        &lt;/<font color="#804000">Point</font>&gt;
+      - &lt;<font color="#804000">Segment id</font>="<font color="#000000"><b>8</b></font>" <font color="#804000">name</font>="<font color="#000000"><b>s1</b></font>"&gt;
+          &lt;<font color="#804000">appearance shape</font>="<font color="#000000"><b>0</b></font>" <font color="#804000">brush_style</font>="<font color="#000000"><b>0</b></font>" /&gt;
+          &lt;<font color="#804000">parents</font>&gt;<font color="#000000"><b>6;7</b></font>&lt;/<font color="#804000">parents</font>&gt;
+          &lt;<font color="#804000">position x1</font>="<font color="#000000"><b>-6.40291666666667</b></font>" <font color="#804000">y1</font>="<font color="#000000"><b>0.873125</b></font>" <font color="#804000">x2</font>="<font color="#000000"><b>-0.714375</b></font>" <font color="#804000">y2</font>="<font color="#000000"><b>2.778125</b></font>" /&gt;
+        &lt;/<font color="#804000">Segment</font>&gt;
+      - &lt;<font color="#804000">MidPoint id</font>="<font color="#000000"><b>9</b></font>" <font color="#804000">name</font>="<font color="#000000"><b>M</b></font>"&gt;
+          &lt;<font color="#804000">appearance shape</font>="<font color="#000000"><b>0</b></font>" <font color="#804000">brush_style</font>="<font color="#000000"><b>0</b></font>" /&gt;
+          &lt;<font color="#804000">parents</font>&gt;<font color="#000000"><b>6;7</b></font>&lt;/<font color="#804000">parents</font>&gt;
+          &lt;<font color="#804000">position x</font>="<font color="#000000"><b>-3.55864583333333</b></font>" <font color="#804000">y</font>="<font color="#000000"><b>1.825625</b></font>" /&gt;
+        &lt;/<font color="#804000">MidPoint</font>&gt;
+      - &lt;<font color="#804000">Circle id</font>="<font color="#000000"><b>10</b></font>" <font color="#804000">name</font>="<font color="#000000"><b>k1</b></font>"&gt;
+          &lt;<font color="#804000">appearance shape</font>="<font color="#000000"><b>0</b></font>" <font color="#804000">brush_style</font>="<font color="#000000"><b>0</b></font>" /&gt;
+          &lt;<font color="#804000">parents</font>&gt;<font color="#000000"><b>9;7</b></font>&lt;/<font color="#804000">parents</font>&gt;
+          &lt;<font color="#804000">position x1</font>="<font color="#000000"><b>-3.55864583333333</b></font>" <font color="#804000">y1</font>="<font color="#000000"><b>1.825625</b></font>" <font color="#804000">x2</font>="<font color="#000000"><b>-0.714375</b></font>" <font color="#804000">y2</font>="<font color="#000000"><b>2.778125</b></font>" /&gt;
+          &lt;<font color="#804000">radius</font>&gt;<font color="#000000"><b>2.99952209916025</b></font>&lt;/<font color="#804000">radius</font>&gt;
+        &lt;/<font color="#804000">Circle</font>&gt;
+      - &lt;<font color="#804000">ObjectName id</font>="<font color="#000000"><b>11</b></font>" <font color="#804000">name</font>="<font color="#000000"><b>dummy1</b></font>"&gt;
+          &lt;<font color="#804000">parents</font>&gt;<font color="#000000"><b>9</b></font>&lt;/<font color="#804000">parents</font>&gt;
+          &lt;<font color="#804000">position x</font>="<font color="#000000"><b>-3.413125</b></font>" <font color="#804000">y</font>="<font color="#000000"><b>1.68010416666667</b></font>" <font color="#804000">width</font>="<font color="#000000"><b>13</b></font>" <font color="#804000">height</font>="<font color="#000000"><b>18</b></font>" /&gt;
+        - &lt;<font color="#804000">text</font>&gt;
+            &lt;![CDATA[ M ]]&gt;
+          &lt;/<font color="#804000">text</font>&gt;
+        &lt;/<font color="#804000">ObjectName</font>&gt;
+      &lt;/<font color="#804000">objlist</font>&gt;
+   &lt;/<font color="#804000">dg:drawing</font>&gt;
+</pre></font>
+<br>
+The first line identifies the file as an XML document. In the second line starts the main element, called "dg:drawing". The "dg:" denotes the namespace of the document. The attribute "xsi:schemaLocation" contains the URL of the schema definition XSD file.<br>
+<br>
+The <b>"drawing" element</b> contains a sequence of 3 child nodes:<br>
+<ol start="1" type="1">
+<li>A <b>"header"</b> node:<br>
+It contains information about the programs the drawing was created and/or edited with, and the date of the last changes.<br>
+<br></li>
+<li>A <b>"windowdata"</b> node:<br>
+It holds information about the logical coordinate system of the drawing. The node "log_window" contains the range of x and y coordinate values. The node "scr_window" holds the width and height of the screen window the drawing was last edited in.<br>
+<br></li>
+<li>An <b>"objlist"</b> node:<br>
+This is a list of the objects the drawing contains. Every object is represented by a node. The node's name (i.e. "Point") gives the type of the geometric object, the node's attributes "id" and "name" serve to identify the object instance. The object's data are given in the child nodes of the object node (and in further attributes of the object node, if applicable).</li>
+</ol>
+Many of the object nodes have child nodes named "parents". They serve to store the relations between the individual objects. Near the end of the above listing, the node of the object "k1" has the parent node "<parents>9;7</parents>". This means that "k1" has the two objects with the "id" values "9" and "7" as parents. You see that these objects are the two points "M" and "P2".<br>
+<br>
+<br>
+<br>
+<br>
+<h2><a name="exa"><u>Further reading:</u></a></h2>
+<ul>
+<li><a href="dgffspec.html">DynaGeo XML file format specification</a></li>
+<li><a href="dggeotypes<br>
+.html">Geometric Types used in DynaGeo</a></li>
+</ul>
+<br>
+<br>
+<hr noshade size="3">
+<br>
+<font size="-1">(c) 2005/2008  Roland Mechling</font>
+</font>
+</body>
+</html>

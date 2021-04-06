@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Objekt drehen</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Abbilden">
+        <PARAM NAME="Keyword" VALUE="Abbildung">
+        <PARAM NAME="Keyword" VALUE="Drehung">
+</OBJECT>
+
+<A NAME="idh_cm_RotateObj"></A>
+
+<H2>Objekt drehen&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../images/toolrotobj.gif" ALT="" BORDER=0></H2>
+<HR>
+
+<P><font size="-1">(<a HREF="JavaScript:HHCTRL.TextPopup(pop_autorepeat,popfont,10,10,-1,-1)"
+Title="Klicken Sie, um eine Definition zu sehen!">automatisch wiederholbar</a>)</font></P>
+
+<P>Geben Sie das abzubildende Objekt, das Drehzentrum und den Drehwinkel an.</P>
+
+<p>Bevor Sie ein Objekt drehen k&ouml;nnen, muss der zu verwendende <b>Drehwinkel</b> schon in Ihrer Zeichnung vorhanden sein. Es gibt verschiedene M&ouml;glichkeiten, wie Sie den Winkel f&uuml;r eine Drehung angeben k&ouml;nnen:
+<ul>
+<li>Sie k&ouml;nnen einen schon in Ihrer Zeichnung vorhandenen <b>Winkel</b> verwenden. Wenn Sie z.B. in einem Dreieck zuvor schon einen Winkel markiert haben, k&ouml;nnen Sie nun bei der Eingabe des Drehwinkels auf diesen Winkelbogen klicken. Dann wird f&uuml;r ihre Drehung die aktuelle Weite dieses Winkels verwendet.<br>
+<br>
+</li>
+<li>Sie k&ouml;nnen auf ein schon in Ihrer Zeichnung vorhandenes <b>Zahlobjekt</b> klicken. Dann wird dessen aktueller Wert als Weite des Drehwinkels (im Bogenma&szlig;) verwendet. Wenn Sie den Wert im Gradma&szlig; interpretiert haben wollen, f&uuml;gen Sie bitte ein Gradzeichen (°) an. Dadurch wird die interne Konversion ins Bogenma&szlig; angesto&szlig;en.<br>
+<br>
+</li>
+<li>Sie k&ouml;nnen auf ein schon vorhandenes <b>Termobjekt</b> klicken. Auch in diesem Fall wird der aktuellen Wert des Termobjekts als Weite des Drehwinkels (im Bogenma&szlig;) verwendet. Der im Termobjekts gespeicherte Term k&ouml;nnte z.B. eine Konstante sein, die Sie zuvor auf den gew&uuml;nschten Wert einstellen; Sie k&ouml;nnen aber auch einen <a href="termsyntax.htm">komplizierten Term</a> angeben, der von mehreren Objekten Ihrer Zeichnung abh&auml;ngt. Soll der Termwert als Winkelweite im Gradma&szlig; interpretiert werden, dann f&uuml;gen Sie zus&auml;tzlich ein Gradzeichen hinzu. (Ist der Term eine Summe mit mehreren Summanden, m&uuml;ssen Sie gegebenenfalls den ganzen Term klammern, ehe Sie das Gradzeichen anf&uuml;gen.)<br>
+<br>
+</li>
+</ul>
+</p>
+
+<P>Nach der Eingabe des abzubildenden Punktes, des Drehzemtrums und des Drehwinkels wird das entsprechende Bildobjekt gezeichnet. Alle Punkt-Bildpunkt-Paare werden durch Spuren verbunden, sofern Sie die automatische Spurerzeugung nicht deaktiviert haben (siehe <a href="optabb.htm"><i>Einstellungen | Abbildungen</i></a>).<br>
+</P>
+<br>
+
+<p><B><I>Bitte beachten Sie:</I></B>
+<ul>
+<li>EUKLID DynaGeo interpretiert die Drehwinkel stets mathematisch positiv orientiert; es wird also <u>gegen</u> den Uhrzeigersinn dreht. Wenn Sie eine Drehung <u>im</u> Uhrzeigersinn ausf&uuml;hren wollen, m&uuml;ssen Sie einen <u>negativen</u> Wert f&uuml;r den Drehwinkel angeben.<br>
+<br>
+</li>
+<li>Wenn Sie diese Abbildung automatisch wiederholen, wird f&uuml;r alle Wiederholungen das bei der <u>ersten</u> Drehung benutzte Drehzentrum und der dort benutzte Drehwinkel verwendet. Es werden also alle Objekte um <u>denselben</u> Punkt und um <u>denselben</u> Winkel gedreht!<br>
+<br>
+</li>
+<br>
+</ul>
+</p>
+
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

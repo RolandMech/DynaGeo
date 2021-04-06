@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>About deleting objects</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="object">
+        <PARAM NAME="Keyword" VALUE="delete">
+        <PARAM NAME="Keyword" VALUE="basics">
+</OBJECT>
+
+<A NAME="idh_delbasics"></A>
+
+<H2>About deleting objects</H2>
+<HR>
+
+<P>When you delete an object it is no longer visible on the screen. However, it is <b>not yet physically deleted</b>, but saved internally in case you regret it was deleted. Actually, such an object internally behaves very much like a hidden object. It is not visible on the screen, and you cannot use it as a parent to construct other objects. It is only marked to be deleted soon.</P>
+
+<P>Does EUKLID DynaGeo keep remembering all these delete-marked objects forever?</P>
+
+<P>Of course not. As long as you do not save your drawing, you have the possibility to revive all
+delete-marked objects by the command <i>Redo last undo</i>. But if there are many delete-marked objects in your drawing, they will take up space in memory and slow down the program. To avoid this, just <b>save your drawing</b>: while writing the GEO file, DynaGeo will physically delete all those delete-marked objects. But keep in mind that then these objects are <b>lost forever</b>.</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

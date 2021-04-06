@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Copy</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="copy">
+        <PARAM NAME="Keyword" VALUE="clipboard">
+</OBJECT>
+
+<A NAME="idh_cm_writetocb"></A>
+
+<H2>Copy</H2>
+<HR>
+
+<P>This command copies the current contents of the EUKLID DynaGeo window to the clipboard. So you can import EUKLID DynaGeo drawings into other WINDOWS programs.</P>
+
+<P>If before copying you have made a <A HREF="JavaScript:HHCTRL.TextPopup(pop_selframe,popfont,10,10,-1,-1)" Title="Click to see a definition!">selection frame</A> on the drawing, then only the framed part of the drawing will be copied.</P>
+
+<P>The drawing is copied to the clipboard in two formats:
+<OL start="1" type="1">
+        <LI>in <B>BMP format</B> (i.e. as pixel graphic)</LI>
+        <LI>in <B>EMF format</B> (i.e. as vector graphic)</LI>
+</OL>
+<P>When you import an EUKLID DynaGeo drawing from the clipboard into e.g. WORD, then WORD will insert it as a EMF image in vector format. This means that after inserting the image with a positioning frame at the right position in the text, you may change the size of the image without reducing its quality. You should not however try to re-work the drawing with MSDraw. This program has only limited drawing capabilities, and does not understand (for example) the arcs used in EUKLID DynaGeo.
+</P>
+<p>When you export an EUKLID DynaGeo drawing, a BMP version is also written to the clipboard. Usually, the resolution of this copy is equal to the normal screen resolution, and so later printouts may look poorly. To avoid this, you can increase the resolution of DynaGeo's pixel graphic export: just set the "resolution of pixel graphic exports" to a higher value. You find this parameter via the menu item "Miscellaneous | Options | Export". </p>
+<br>
+<br>
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="probexport.htm">Problems when exporting drawings</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

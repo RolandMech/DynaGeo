@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Standardfunktionen f&uuml;r Terme</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Abst&auml;nde">
+        <PARAM NAME="Keyword" VALUE="Winkel">
+        <PARAM NAME="Keyword" VALUE="Messen">
+        <PARAM NAME="Keyword" VALUE="Terme">
+</OBJECT>
+
+<A NAME="idh_StandardFunc"></A>
+
+<H2>Die Standard-Funktionen f&uuml;r Terme</H2>
+<HR>
+
+<p>Die folgende Liste enth&auml;lt die mathematischen <b>Standard-Funktionen</b>, die in Termen verwendet werden k&ouml;nnen. Bei den verwendeten Funktionsbezeichnern kommt es nicht auf Gro&szlig;- oder Kleinschreibung an. Alle trigonometrischen Funktionen arbeiten im Bogenma&szlig;. Sie k&ouml;nnen jedoch Argumente im Gradma&szlig; eingeben, wenn Sie hinter der Ma&szlig;zahl das Gradzeichen (°) als Einheit angeben: "sin(30°)" liefert dasselbe Ergebnis wie "sin(pi/6)".<br>
+<br>
+Einige der Funktionen haben einen <b>beschr&auml;nkten Definitionsbereich</b>, sei es <font color="#0000FF">aus mathematischen Gr&uuml;nden</font> (wie z.B. bei der ARCSIN- und ARCCOS-Funktion, denen nur Werte aus dem Intervall [-1; 1] &uuml;bergeben werden d&uuml;rfen), sei es <font color="#0000FF">aus maschinen-internen Gr&uuml;nden</font> (wie z.B. bei den Rundungsfunktionen RND, INT, FLOOR und CEIL, deren Argumente stets im Bereich der darstellbaren INTEGER-Zahlen liegen m&uuml;ssen). Wenn eine Funktion mit einem ung&uuml;ltigen Argument aufgerufen wird, dann wird der ganze Term ung&uuml;ltig.</p>
+
+<br>
+<ul>
+<li><font color="#FF0000"><b>ABS():</b></font><br>
+<ul>liefert den Absolutbetrag des &uuml;bergebenen Arguments.<br>
+<font color="#0000FF"><i>Beispiel:</i></font><br>
+ABS(-2.5) liefert 2.5, ABS(0.5) liefert 0.5, ABS(0) liefert 0.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>SQRT() und SQR():</b></font><br>
+<ul>berechnet die Quadratwurzel bzw. das Quadrat des &uuml;bergebenen Arguments.<br>
+<font color="#0000FF"><i>Beispiele:</i></font><br>
+SQRT(9) liefert 3, SQRT(pi) liefert die Wurzel aus Pi, SQR(d(P,Q)) liefert das Quadrat des Abstandes der Punkte P und Q.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>EXP(), LN() und LOG():</b></font><br>
+<ul>liefert die Werte der nat&uuml;rlichen Exponentialfunktion, der nat&uuml;rlichen Logarithmusfunktion und den Logarithmus zur Basis 10.<br>
+<font color="#0000FF"><i>Beispiele:</i></font><br>
+EXP(1) liefert e (=2,718281...), LN(e) liefert 1, LOG(1000) liefert 3.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>SIN(), COS() und TAN():</b></font><br>
+<ul>berechnet die Werte der Winkelfunktionen; das Argument muss dabei im Bogenma&szlig; angegeben werden. Wenn Sie als Argument einen Wert im Gradma&szlig; eingeben wollen, dann m&uuml;ssen Sie ein Gradzeichen(°) anf&uuml;gen; dadurch wird die interne automatische Konversion ins Bogenma&szlig; angesto&szlig;en.<br>
+<font color="#0000FF"><i>Beispiele:</i></font><br>
+COS(<font face="Symbol">p</font>) liefert -1, SIN(30°) liefert 0.5, TAN(w(A;B;C)) liefert den Tangens des Winkels, der durch die drei Punkte A, B und C festgelegt ist, wobei B der Scheitel ist.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>ARCTAN(), ARCSIN() und ARCCOS():</b></font><br>
+<ul>berechnet die Hauptwerte der Umkehrfunktionen zu den vorgenannten trigonometrischen Funktionen; der gelieferte Funktionswert ist im Bogenma&szlig; zu interpretieren.<br>
+<font color="#0000FF"><i>Beispiele:</i></font><br>
+ARCTAN(1) liefert <font face="Symbol">p</font>/4, ARCSIN(0.5) liefert <font face="Symbol">p</font>/6, ARCCOS(0.5) liefert <font face="Symbol">p</font>/3.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>BOGEN() und GRAD():</b></font><br>
+<ul>erm&ouml;glichen die Konversion von Winkelma&szlig;en vom Grad- ins Bogenma&szlig; und zur&uuml;ck. Diese Funktionen sollten inzwischen weitgehend &uuml;berfl&uuml;ssig sein, weil DynaGeo nun den Umgang mit dem Gradzeichen (°) gelernt hat.<br>
+<font color="#0000FF"><i>Beispiele:</i></font><br>
+BOGEN(90) liefert <font face="Symbol">p</font>/2, GRAD(PI/3) liefert 60.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>SGN():</b></font><br>
+<ul>liefert 1, 0 oder -1, je nach dem Vorzeichen des &uuml;bergebenen Arguments.<br>
+<font color="#0000FF"><i>Beispiele:</i></font><br>
+SGN(3) liefert 1, SGN(-PI) liefert -1, SGN(0) liefert 0;<br>
+ist der Betrag des &uuml;bergebenen Arguments kleiner als die interne Rechengenauigkeit (voreingestellter Wert: 1E-8), dann wird das Argument als Null interpretiert.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>RND():</b></font><br>
+<ul>rundet das &uuml;bergebene Argument zur n&auml;chstgelegenen ganzen Zahl; liegt das Argument genau zwischen zwei ganzen Zahlen, so wird die betragsgr&ouml;&szlig;ere als Ergebnis zur&uuml;ckgegeben. <br>
+<font color="#0000FF"><i>Beispiele:</i></font><br>
+RND(3.6) liefert 4, RND(-3.6) liefert -4, RND(-3.2) liefert -3;<br>
+RND(2.5) liefert 3, RND(-2.5) liefert -3.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>INT() und FRAC():</b></font><br>
+<ul>diese Funktionen dienen zum Zerlegen einer Flie&szlig;kommazahl in einen ganzzahligen und einen echt gebrochenen Anteil; dabei schneidet INT den Nachkomma-Anteil des Arguments immer zur Null hin ab, w&auml;hrend FRAC stets den Wert <nobr>{x - INT(x)}</nobr> hat.<br>
+<font color="#0000FF"><i>Beispiele:</i></font><br>
+INT(3.6) liefert 3, FRAC(3.6) liefert 0.6; INT(-3.6) liefert -3, FRAC(-3.6) liefert -0.6.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>FLOOR() und CEIL():</b></font><br>
+<ul>dies sind Funktionen, die eine dem &uuml;bergebenen Argument benachbarte ganze Zahl zur&uuml;ckgeben; FLOOR implementiert die "Gau&szlig;-Klammer"-Funktion ("Gr&ouml;&szlig;te-Ganze"-Funktion), welche das Argument immer nach unten abrundet; CEIL implementiert das entsprechende Gegenst&uuml;ck ("Kleinste-Ganze"-Funktion) und rundet stets nach oben auf.<br>
+<font color="#0000FF"><i>Beispiele:</i></font><br>
+FLOOR(3.7) liefert 3, FLOOR(-3.2) liefert -4,<br>
+CEIL (3.1) liefert 4, CEIL (-3.9) liefert -3.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>IF():</b></font><br>
+<ul>ist eine "Schalterfunktion". Sie hat drei Argumente, die durch Strichpunkte voneinander getrennt werden m&uuml;ssen: &nbsp;&nbsp;&nbsp; <nobr><font color="#FF0000">IF(&lt;bed&gt;; &lt;term1&gt;; &lt;term2&gt;)</font></nobr><br>
+Dabei ist &lt;bed&gt; eine Bedingung, also ein boole'scher Ausdruck, der entweder wahr oder falsch ist; &lt;term1&gt; und &lt;term2&gt; sind zwei beliebige Terme. Ist die Bedingung &lt;bed&gt; wahr, dann wird als Funktionsergebnis der Wert von &lt;term1&gt; zur&uuml;ckgeliefert; ist sie hingegen <u>nicht</u> erf&uuml;llt, wird der Wert von &lt;term2&gt; zur&uuml;ckgeliefert.<br>
+Die Bedingung kann dabei auch Referenzen auf Objekte der Zeichnung enthalten. Eine typische Anwendung der Schalterfunktion ist der Einsatz zur Implementierung abschnittsweise definierter Kurven.<br>
+<font color="#0000FF"><i>Beispiel:</i></font><br>
+Sei S ein an die x-Achse gebundener Punkt und P ein Punkt mit den bestimmten Koordinaten<br>
+<ul>x : x(S)<br>
+y : if(x&lt;0; 2-0.25*x^2; 2*cos(x))</ul>
+Dann beschreibt die Ortslinie von P links von der y-Achse die H&auml;lfte einer nach unten ge&ouml;ffneten Parabel, w&auml;hrend sich rechts das Schaubild einer Kosinus-Funktion anschlie&szlig;t.<br>
+<br>
+</ul>
+</li>
+<li><font color="#FF0000"><b>RANDOM():</b></font><br>
+<ul>ist eine "Zufalls-Funktion". Sie hat ein Argument: &nbsp;&nbsp;&nbsp; <nobr><font color="#FF0000">RANDOM(&lt;n&gt;)</font></nobr><br>
+Dabei ist &lt;n&gt; eine nicht-negative ganze Zahl. F&uuml;r n = 0 liefert die Funktion eine rationale Zufallszahl aus dem halboffenen Intervall [0..1), f&uuml;r gr&ouml;&szlig;ere n liefert sie eine ganze Zufallszahl aus dem Intervall [0..n).<br>
+Eine typische Anwendung der Zufalls-Funktion ist der Einsatz zur Implementierung von zuf&auml;llig erzeugten Koordinaten f&uuml;r die definierenden Punkte einer Zeichnung, um eine Aufgabenstellung zu variieren.<br>
+<font color="#0000FF"><i>Beispiel:</i></font><br>
+Sei P ein Punkt mit den bestimmten Koordinaten<br>
+<ul>x : Random(9) - 4<br>
+y : 6 * Random(0) - 3</ul>
+Dann ist P ein Punkt, dessen x-Koordinate eine ganze Zufallszahl aus der Menge {-4, -3,....2, 3, 4} ist, wohingegen seine y-Koordinate eine rationale Zufallszahl aus dem Intervall [-3; 3) ist. </ul>
+</li>
+
+</ul>
+<br>
+<br>
+<b><i>Siehe auch:</i></b><br>
+<ul>
+<li><a href="termsyntax.htm">Die Syntax von Termen</a></li>
+<li><a href="boolterm.htm">Boole'sche Terme</a></li>
+</ul>
+<br>
+</body>
+</html>

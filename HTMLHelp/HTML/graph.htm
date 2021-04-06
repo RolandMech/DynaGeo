@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Funktions-Schaubild</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Konstruieren">
+        <PARAM NAME="Keyword" VALUE="Funktion">
+        <PARAM NAME="Keyword" VALUE="Schaubild">
+        <PARAM NAME="Keyword" VALUE="Ortslinien">
+</OBJECT>
+
+<A NAME="idh_cm_graph"></A>
+
+<H2>Funktions-Schaubild&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../images/toolgraph.gif" ALT="" BORDER=0></H2>
+<HR>
+
+<P>Wenn Sie diesen Befehl anw&auml;hlen, &ouml;ffnet sich ein kleines Fenster, in dem Sie den <b>Term</b> der gew&uuml;nschten Funktion eingeben k&ouml;nnen. Nach einem abschlie&szlig;enden Klick auf <i>Okay</i> verschwindet das Fenster. EUKLID DynaGeo erstellt ein entsprechendes Schaubild-Objekt und zeichnet das Schaubild Ihrer Funktion ins Koordinatensystem der Zeichnung ein.<br>
+<br>
+<br>
+</P>
+
+<P><b>Bemerkungen:</b>
+<ol start="1" type="1">
+<li>Innerhalb des Funktionsterms k&ouml;nnen Sie alle &uuml;blichen mathematischen <b>Standard-Funktionen</b> benutzen. Dar&uuml;berhinaus kann der Funktionsterm auch <b>Referenzen auf Objekte</b> Ihrer Zeichnung enthalten. Genaueres zu diesem Thema finden Sie auf der Seite <a href="termsyntax.htm"><nobr>Die Syntax von Termen</nobr></a> und den darauf folgenden Seiten.<br>
+<br>
+</li>
+<li>Obwohl EUKLID DynaGeo alle f&uuml;r die Zeichnung relevanten Winkelweiten stets im Bogenma&szlig; berechnet, k&ouml;nnen Sie in einem Funktionsterm eine Winkelweite auch im Gradma&szlig; eingeben, indem Sie nach der Angabe der Winkelweite ein Gradzeichen (&deg;) hinzuf&uuml;gen. Dadurch wird die interne Konversion der eingegebenen Winkelweite ins Bogenma&szlig; angesto&szlig;en.  Weitere Details zu diesem Thema finden Sie hier: <a href="angle_unit.htm">Das Problem der Winkelma&szlig;-Einheit</a>.<br>
+<br>
+</li>
+<li>Der <b>Zeichenbereich</b> f&uuml;r ein Funktions-Schaubild ist stets das gesamte sichtbare Intervall der <nobr>x-Achse.</nobr> Wenn der <b>Definitionsbereich</b> der Funktion nur Teile davon abdeckt, dann wird das Schaubild nur in denjenigen Bereichen dargestellt, in denen EUKLID DynaGeo g&uuml;ltige Werte des Funktionsterms findet.<br>
+<br>
+</li>
+<li>
+Das <A HREF="JavaScript:HHCTRL.TextPopup(pop_contextmenu,popfont,10,10,-1,-1)"
+Title="Klicken Sie, um eine Definition zu sehen!">Kontextmen&uuml;</A> eines Funktions-Schaubilds zeigt neben den &uuml;blichen Eintr&auml;gen zus&auml;tzlich die folgenden Men&uuml;punkte:<br>
+<br>
+<UL>
+<li><b>Farbe...</b>:<br>
+<ul>hier k&ouml;nnen Sie eine beliebige Zeichenfarbe w&auml;hlen;<br></ul>
+<br>
+</li>
+<LI><B>Linienart...</B>:<br>
+<ul>hier k&ouml;nnen Sie einen Linienstil w&auml;hlen;<br>
+dieser Punkt kann bei manchen Funktionen fehlen (<a href="graphdetails.htm">weitere Details dazu</a>).<BR></ul>
+<br>
+</LI>
+<LI><B>Funktionsterm editieren</B>:<br>
+<ul>hier k&ouml;nnen Sie den Funktionsterm nachtr&auml;glich bearbeiten.<BR></ul>
+<br>
+</LI>
+<LI><B>Wertetabelle anzeigen</B>:<br>
+<ul>ruft ein Fenster auf, das eine Wertetabelle dieser Funktion anzeigt. Voreingestellt ist ein x-Bereich, der dem aktuell im Zeichenfenster sichtbaren x-Bereich entspricht, und die Schrittweite 1. Sie k&ouml;nnen jedoch sowohl die Grenzen des x-Bereichs als auch die Schrittweite in diesem Fenster frei skalieren. Zus&auml;tzlich zu den Werten der ausgew&auml;hlten Funktion k&ouml;nnen Sie in weiteren Spalten die Werte aller anderen Funktionen der aktuellen Zeichnung anzeigen. Die Fenstergr&ouml;&szlig;e ist ver&auml;nderbar; wenn die Tabelle nicht ins Fenster passt, wird ein entsprechender Rollbalken angezeigt.<br>
+Die Tabelle hat ebenfalls ein Kontextmen&uuml;, &uuml;ber das Sie z.B. den Tabelleninhalt in die Zwischenablage kopieren k&ouml;nnen. Die anderen Men&uuml;-Eintr&auml;ge sind selbsterkl&auml;rend: "Tabelle aktualisieren" und "Fenster schlie&szlig;en".<BR></ul>
+<br>
+</LI>
+</UL>
+</li>
+</ol>
+</P>
+
+<p><b>ALT-Variante: Interpolations-Polynom-Funktion</b><br>
+<ul>Wenn Sie den Befehl <I>Funktions-Schaubild</I> &uuml;ber die Werkzeugleiste anw&auml;hlen und beim Klicken auf das entsprechende Icon die <I>ALT</I>-Taste gedr&uuml;ckt halten, dann erwartet der Befehl statt eines Funktionsterms eine Liste von schon existierenden Punkten, durch die das gew&uuml;nschte Schaubild hindurchgehen soll. Intern wird dazu ein Interpolations-Polynom f errechnet, das genau durch die Punkte Pi(xi,yi) verl&auml;uft, also f(xi) = yi liefert f&uuml;r alle Punkte der Liste. Details &uuml;ber die Eingabe der Kontrollpunkte finden Sie unter <a href="polynom.htm">Interpolations-Polynom-Funktion</a>. </ul>
+</p>
+
+<br>
+<br>
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<a href="termstandard.htm">Die Standard-Funktionen f&uuml;r Terme</a><br>
+<a href="graphdetails.htm">Details zu Funktionsgraphen</a><br>
+<a href="polynom.htm">Interpolations-Polynom-Funktion</a><br>
+<a href="recurs_fkt.htm">Das Problem der rekursiven Funktionen</a>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

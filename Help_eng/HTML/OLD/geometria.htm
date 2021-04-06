@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Geometria</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="export">
+        <PARAM NAME="Keyword" VALUE="Geometria">
+        <PARAM NAME="Keyword" VALUE="save">
+</OBJECT>
+
+<A NAME="idh_geometria"></A>
+
+<H2>Geometria: the JAVA way</H2>
+<HR>
+
+<P><B>Geometria</B> is a JAVA program written by <b>Dr. Timo Ehmke</b>. It allows to create interactive HTML pages with dynamic drawings. The abilities of Geometria go far beyond those of the DynaGeoX viewer. So Geometria allows to create "worksheets with feedback" by specifying reactions to the user's input.</p>
+
+<p>Dr. Ehmke supplies the Geometria program as freeware. For further details see his Geometria internet pages at <a href="http://www.geometria.de/">http://www.geometria.de/</a>. There you can find a <B>detailed documentation</B>, some <B>examples</B> and a link to the pages of the "Institut f&uuml;r Mathematik der Universit&auml;t Flensburg" where you can visit a <B>great gallery</B> of geometric problems illustrated with the help of Geometria.</P>
+<br>
+
+<p>Before you use EUKLID DynaGeo to <a href="savegmapage.htm">create HTML pages for Geometria</a>, please make sure that an actual JAVA VM is installed on a your computer. Then download "geometria.jar" from the <nobr><a href="http://www.geometria.de/">Geometria homepage</a></nobr> and copy it into the subdirectory "viewer" of your EUKLID DynaGeo directory.</P>
+
+<P>Due to the different data structures used in Geometria and EUKLID DynaGeo there are the following incompatibilities:</P>
+<UL>
+        <li>Use only letters and digits in <b>object names</b>. Avoid any special characters even if EUKLID DynaGeo would allow them. Take care not to use names that differ only in capitalization.<br><br></li>
+
+        <LI>Geometria does not support <B>segments of fixed length</B>; they are exported as normal segments between two points.<BR><BR></LI>
+
+        <LI>Only the <B>distance of a point</B> to another point, a line or a circle can be exported correctly. In the last case, the point has to lie outside the circle.<BR><BR></LI>
+
+        <LI>Geometria does not support individual <b>line styles</b>. All lines are displayed as thin solid lines. Only the colour can be exported correctly.<br><br></LI>
+
+        <li>Geometria does not support <b>ratio expressions</b> in the same way EUKLID DynaGeo does. Please avoid terms containing ratio expressions.<br><br></li>
+
+        <li>Geometria always puts all the <b>number objects</b> ("slider") at the lower edge of its window, side by side in one line. But if the window is not wide enough then some of the sliders are omitted. In this case you can reduce the sliders' width in the SCRIPT file by hand. For further details see the Geometria documentation.<br><br></li>
+</UL>
+
+<p>If a SRIPT file does not work correctly you may debug it. SCRIPT files are normal text files and can be edited with every ASCII editor. Any construction step can be deactivated by inserting "//" in front of the corresponding line. You may now deactivate all of the construction steps but the first few, then test the file again. Now re-activate the construction commands one by one, always testing the file again, until you find the error spot.</p>
+
+<P>However, most of your EUKLID DynaGeo drawings may be exported to the Geometria format without problems. </p>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

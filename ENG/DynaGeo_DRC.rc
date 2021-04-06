@@ -1,0 +1,2231 @@
+#pragma code_page(1252)
+/* VER210
+  Generiert vom CodeGear Delphi Pascal-Compiler, weil -GD oder --drc an den Compiler übergeben wurde..
+
+  Diese Datei enthält vom Compiler erzeugte Ressourcen, die an die ausführbare Datei gebunden wurden. Wenn diese Datei leer ist, dann wurden keine vom Compiler generierten Ressourcen an die erzeugte ausführbare Datei gebunden.
+*/
+
+#define TBaum_tbmsg20 64448
+#define TBaum_tbmsg21 64449
+#define TBaum_tbmsg22 64450
+#define TBaum_tbmsg23 64451
+#define TBaum_bbmsg01 64452
+#define TBaum_bbmsg02 64453
+#define TBaum_bbmsg03 64454
+#define TBaum_tbmsg04 64464
+#define TBaum_tbmsg05 64465
+#define TBaum_tbmsg06 64466
+#define TBaum_tbmsg07 64467
+#define TBaum_tbmsg08 64468
+#define TBaum_tbmsg09 64469
+#define TBaum_tbmsg10 64470
+#define TBaum_tbmsg11 64471
+#define TBaum_tbmsg12 64472
+#define TBaum_tbmsg13 64473
+#define TBaum_tbmsg14 64474
+#define TBaum_tbmsg15 64475
+#define TBaum_tbmsg16 64476
+#define TBaum_tbmsg17 64477
+#define TBaum_tbmsg18 64478
+#define TBaum_tbmsg19 64479
+#define ZFDecConst_sProtectionCircular 64480
+#define ZFDecConst_sStringFormatExists 64481
+#define ZFDecConst_sInvalidStringFormat 64482
+#define ZFDecConst_sInvalidFormatString 64483
+#define ZFDecConst_sFMT_COPY 64484
+#define ZFDecConst_sFMT_HEX 64485
+#define ZFDecConst_sFMT_HEXL 64486
+#define ZFDecConst_sFMT_MIME64 64487
+#define ZFDecConst_sFMT_UU 64488
+#define ZFDecConst_sFMT_XX 64489
+#define ZFDecConst_sInvalidKeySize 64490
+#define ZFDecConst_sNotInitialized 64491
+#define TBaum_tbmsg00 64492
+#define TBaum_tbmsg01 64493
+#define TBaum_tbmsg02 64494
+#define TBaum_tbmsg03 64495
+#define OleConst_SBadPropValue 64496
+#define OleConst_SCannotActivate 64497
+#define OleConst_SNoWindowHandle 64498
+#define OleConst_SInvalidLicense 64499
+#define OleConst_SNotLicensed 64500
+#define OleConst_sNoRunningObject 64501
+#define ZFConst_SConfirmOverwrite 64502
+#define ZFConst_SPasswordTitle 64503
+#define ZFConst_SPasswordPrompt 64504
+#define ZFConst_SOnRequestBlankDisk 64505
+#define ZFConst_SOnRequestFirstDisk 64506
+#define ZFConst_SOnRequestLastDisk 64507
+#define ZFConst_SOnRequestMiddleDisk 64508
+#define ZFConst_SOnDiskFull 64509
+#define ZFConst_SOnProcessFileFailure 64510
+#define ZFConst_SWrongDiskRequestLastDisk 64511
+#define pnglang_EInvalidNewSize 64512
+#define pnglang_EInvalidSpec 64513
+#define JConsts_sChangeJPGSize 64514
+#define JConsts_sJPEGError 64515
+#define JConsts_sJPEGImageFile 64516
+#define Integers_sFLPAbort 64517
+#define Integers_sFLPDivByZero 64518
+#define Integers_sFLPDuplicatePtr 64519
+#define Integers_sFLPFileError 64520
+#define Integers_sFLPIndexError 64521
+#define Integers_sFLPInvalidArg 64522
+#define Integers_sFLPOverflow 64523
+#define Integers_sFLPSizeError 64524
+#define Integers_sFLPStreamError 64525
+#define Integers_sINT0002 64526
+#define Integers_sINT0005 64527
+#define pnglang_EPNGInvalidFileHeaderText 64528
+#define pnglang_EPNGIHDRNotFirstText 64529
+#define pnglang_EPNGSizeExceedsText 64530
+#define pnglang_EPNGUnknownPalEntryText 64531
+#define pnglang_EPNGUnknownCriticalChunkText 64532
+#define pnglang_EPNGUnknownCompressionText 64533
+#define pnglang_EPNGUnknownInterlaceText 64534
+#define pnglang_EPNGCannotAssignChunkText 64535
+#define pnglang_EPNGUnexpectedEndText 64536
+#define pnglang_EPNGNoImageDataText 64537
+#define pnglang_EPNGCannotAddChunkText 64538
+#define pnglang_EPNGCannotAddInvalidImageText 64539
+#define pnglang_EPNGCouldNotLoadResourceText 64540
+#define pnglang_EPNGOutMemoryText 64541
+#define pnglang_EPNGCannotChangeTransparentText 64542
+#define pnglang_EPNGHeaderNotPresentText 64543
+#define ComConst_SCreateRegKeyError 64544
+#define ComConst_SOleError 64545
+#define ComConst_SObjectFactoryMissing 64546
+#define ComConst_SNoMethod 64547
+#define ComConst_SVarNotObject 64548
+#define ComConst_STooManyParams 64549
+#define ComConst_SDCOMNotInstalled 64550
+#define ComConst_SDAXError 64551
+#define ComConst_SAutomationWarning 64552
+#define ComConst_SNoCloseActiveServer1 64553
+#define ComConst_SNoCloseActiveServer2 64554
+#define pnglang_EPngInvalidCRCText 64555
+#define pnglang_EPNGInvalidIHDRText 64556
+#define pnglang_EPNGMissingMultipleIDATText 64557
+#define pnglang_EPNGZLIBErrorText 64558
+#define pnglang_EPNGInvalidPaletteText 64559
+#define XMLConst_SDOMNotSupported 64560
+#define XMLConst_SNodeExpected 64561
+#define XMLConst_SMSDOMNotInstalled 64562
+#define XMLConst_SNotActive 64563
+#define XMLConst_SNodeNotFound 64564
+#define XMLConst_SMissingNode 64565
+#define XMLConst_SNoAttributes 64566
+#define XMLConst_SInvalidNodeType 64567
+#define XMLConst_SMismatchedRegItems 64568
+#define XMLConst_SNotSingleTextNode 64569
+#define XMLConst_SNoDOMParseOptions 64570
+#define XMLConst_SMissingItemTag 64571
+#define XMLConst_SNodeReadOnly 64572
+#define XMLConst_SNoRefresh 64573
+#define XMLConst_SMissingFileName 64574
+#define XMLConst_SLine 64575
+#define Declar_cme_tboxfree 64576
+#define Declar_cme_imagehide 64577
+#define Declar_cme_frameedit 64578
+#define Declar_cme_framelock 64579
+#define Declar_cme_hideSQO 64580
+#define Declar_cme_coordsys 64581
+#define Declar_cme_showcoords 64582
+#define Declar_cme_showequation 64583
+#define Declar_cme_hidecoords 64584
+#define Declar_cme_hideequation 64585
+#define Declar_about_okaybtn 64586
+#define Declar_XViewerInternetPath 64587
+#define Declar_JViewerInternetPath 64588
+#define XMLConst_SDuplicateRegistration 64589
+#define XMLConst_SNoMatchingDOMVendor 64590
+#define XMLConst_SNoDOMNodeEx 64591
+#define Declar_cme_radius 64592
+#define Declar_cme_angle 64593
+#define Declar_cme_edit 64594
+#define Declar_cme_editrange 64595
+#define Declar_cme_editterm 64596
+#define Declar_cme_editfunc 64597
+#define Declar_cme_functable 64598
+#define Declar_cme_lowersum 64599
+#define Declar_cme_uppersum 64600
+#define Declar_cme_editRIcnt 64601
+#define Declar_cme_update 64602
+#define Declar_cme_zoomreset 64603
+#define Declar_cme_zoomin 64604
+#define Declar_cme_zoomout 64605
+#define Declar_cme_blinkbo 64606
+#define Declar_cme_tboxbind 64607
+#define Declar_cme_ptfix 64608
+#define Declar_cme_xedit 64609
+#define Declar_cme_xyedit 64610
+#define Declar_cme_xyfree 64611
+#define Declar_cme_setdotpt 64612
+#define Declar_cme_linestyle 64613
+#define Declar_cme_length 64614
+#define Declar_cme_fillstyle 64615
+#define Declar_cme_namhide 64616
+#define Declar_cme_namedit 64617
+#define Declar_cme_leanline 64618
+#define Declar_cme_fatline 64619
+#define Declar_cme_locpoints 64620
+#define Declar_cme_loccurve 64621
+#define Declar_cme_locdyna 64622
+#define Declar_cme_locstnd 64623
+#define Declar_id_objtxt103 64624
+#define Declar_id_objtxt104 64625
+#define Declar_id_objtxt105 64626
+#define Declar_id_objtxt106 64627
+#define Declar_id_objtxt107 64628
+#define Declar_id_objtxt108 64629
+#define Declar_id_objtxt109 64630
+#define Declar_cme_hide 64631
+#define Declar_cme_name 64632
+#define Declar_cme_rename 64633
+#define Declar_cme_hidename 64634
+#define Declar_cme_col 64635
+#define Declar_cme_ptform 64636
+#define Declar_cme_ptfree 64637
+#define Declar_cme_ptbind 64638
+#define Declar_cme_ptquant 64639
+#define Declar_id_objtxt87 64640
+#define Declar_id_objtxt88 64641
+#define Declar_id_objtxt89 64642
+#define Declar_id_objtxt90 64643
+#define Declar_id_objtxt91 64644
+#define Declar_id_objtxt92 64645
+#define Declar_id_objtxt93 64646
+#define Declar_id_objtxt94 64647
+#define Declar_id_objtxt95 64648
+#define Declar_id_objtxt96 64649
+#define Declar_id_objtxt97 64650
+#define Declar_id_objtxt98 64651
+#define Declar_id_objtxt99 64652
+#define Declar_id_objtxt100 64653
+#define Declar_id_objtxt101 64654
+#define Declar_id_objtxt102 64655
+#define Declar_id_objtxt71 64656
+#define Declar_id_objtxt72 64657
+#define Declar_id_objtxt73 64658
+#define Declar_id_objtxt74 64659
+#define Declar_id_objtxt75 64660
+#define Declar_id_objtxt76 64661
+#define Declar_id_objtxt77 64662
+#define Declar_id_objtxt78 64663
+#define Declar_id_objtxt79 64664
+#define Declar_id_objtxt80 64665
+#define Declar_id_objtxt81 64666
+#define Declar_id_objtxt82 64667
+#define Declar_id_objtxt83 64668
+#define Declar_id_objtxt84 64669
+#define Declar_id_objtxt85 64670
+#define Declar_id_objtxt86 64671
+#define Declar_id_objtxt55 64672
+#define Declar_id_objtxt56 64673
+#define Declar_id_objtxt57 64674
+#define Declar_id_objtxt58 64675
+#define Declar_id_objtxt59 64676
+#define Declar_id_objtxt60 64677
+#define Declar_id_objtxt61 64678
+#define Declar_id_objtxt62 64679
+#define Declar_id_objtxt63 64680
+#define Declar_id_objtxt64 64681
+#define Declar_id_objtxt65 64682
+#define Declar_id_objtxt66 64683
+#define Declar_id_objtxt67 64684
+#define Declar_id_objtxt68 64685
+#define Declar_id_objtxt69 64686
+#define Declar_id_objtxt70 64687
+#define Declar_id_objTxt39 64688
+#define Declar_id_objTxt40 64689
+#define Declar_id_objTxt41 64690
+#define Declar_id_objTxt42 64691
+#define Declar_id_objTxt43 64692
+#define Declar_id_objtxt44 64693
+#define Declar_id_objtxt45 64694
+#define Declar_id_objtxt46 64695
+#define Declar_id_objtxt47 64696
+#define Declar_id_objtxt48 64697
+#define Declar_id_objtxt49 64698
+#define Declar_id_objtxt50 64699
+#define Declar_id_objtxt51 64700
+#define Declar_id_objtxt52 64701
+#define Declar_id_objtxt53 64702
+#define Declar_id_objtxt54 64703
+#define Declar_id_objtxt23 64704
+#define Declar_id_objtxt24 64705
+#define Declar_id_objtxt25 64706
+#define Declar_id_objtxt26 64707
+#define Declar_id_objtxt27 64708
+#define Declar_id_objtxt28 64709
+#define Declar_id_objtxt29 64710
+#define Declar_id_objtxt30 64711
+#define Declar_id_objtxt31 64712
+#define Declar_id_objtxt32 64713
+#define Declar_id_objtxt33 64714
+#define Declar_id_objtxt34 64715
+#define Declar_id_objtxt35 64716
+#define Declar_id_objtxt36 64717
+#define Declar_id_objtxt37 64718
+#define Declar_id_objTxt38 64719
+#define Declar_id_objtxt07 64720
+#define Declar_id_objtxt08 64721
+#define Declar_id_objtxt09 64722
+#define Declar_id_objtxt10 64723
+#define Declar_id_objtxt11 64724
+#define Declar_id_objtxt12 64725
+#define Declar_id_objtxt13 64726
+#define Declar_id_objtxt14 64727
+#define Declar_id_objtxt15 64728
+#define Declar_id_objtxt16 64729
+#define Declar_id_objtxt17 64730
+#define Declar_id_objtxt18 64731
+#define Declar_id_objtxt19 64732
+#define Declar_id_objtxt20 64733
+#define Declar_id_objtxt21 64734
+#define Declar_id_objtxt22 64735
+#define Declar_id_startmsg24 64736
+#define Declar_id_startmsg25 64737
+#define Declar_id_startmsg26 64738
+#define Declar_id_startmsg27 64739
+#define Declar_id_startmsg28 64740
+#define Declar_id_startmsg29 64741
+#define Declar_id_startmsg30 64742
+#define Declar_id_startmsg31 64743
+#define Declar_id_startmsg32 64744
+#define Declar_id_objtxt00 64745
+#define Declar_id_objtxt01 64746
+#define Declar_id_objtxt02 64747
+#define Declar_id_objtxt03 64748
+#define Declar_id_objtxt04 64749
+#define Declar_id_objtxt05 64750
+#define Declar_id_objtxt06 64751
+#define Declar_id_startmsg08 64752
+#define Declar_id_startmsg09 64753
+#define Declar_id_startmsg10 64754
+#define Declar_id_startmsg11 64755
+#define Declar_id_startmsg12 64756
+#define Declar_id_startmsg13 64757
+#define Declar_id_startmsg14 64758
+#define Declar_id_startmsg15 64759
+#define Declar_id_startmsg16 64760
+#define Declar_id_startmsg17 64761
+#define Declar_id_startmsg18 64762
+#define Declar_id_startmsg19 64763
+#define Declar_id_startmsg20 64764
+#define Declar_id_startmsg21 64765
+#define Declar_id_startmsg22 64766
+#define Declar_id_startmsg23 64767
+#define Declar_id_optmsg06 64768
+#define Declar_id_optmsg07 64769
+#define Declar_id_optmsg08 64770
+#define Declar_id_optmsg09 64771
+#define Declar_id_optmsg10 64772
+#define Declar_id_optmsg11 64773
+#define Declar_id_optmsg12 64774
+#define Declar_id_optmsg13 64775
+#define Declar_id_startmsg00 64776
+#define Declar_id_startmsg01 64777
+#define Declar_id_startmsg02 64778
+#define Declar_id_startmsg03 64779
+#define Declar_id_startmsg04 64780
+#define Declar_id_startmsg05 64781
+#define Declar_id_startmsg06 64782
+#define Declar_id_startmsg07 64783
+#define Declar_id_filemsg30 64784
+#define Declar_id_filemsg31 64785
+#define Declar_id_filemsg32 64786
+#define Declar_id_filemsg33 64787
+#define Declar_id_filemsg34 64788
+#define Declar_id_filemsg35 64789
+#define Declar_id_filemsg36 64790
+#define Declar_id_filemsg37 64791
+#define Declar_id_filemsg38 64792
+#define Declar_id_filemsg39 64793
+#define Declar_id_optmsg00 64794
+#define Declar_id_optmsg01 64795
+#define Declar_id_optmsg02 64796
+#define Declar_id_optmsg03 64797
+#define Declar_id_optmsg04 64798
+#define Declar_id_optmsg05 64799
+#define Declar_id_filemsg14 64800
+#define Declar_id_filemsg15 64801
+#define Declar_id_filemsg16 64802
+#define Declar_id_filemsg17 64803
+#define Declar_id_filemsg18 64804
+#define Declar_id_filemsg19 64805
+#define Declar_id_filemsg20 64806
+#define Declar_id_filemsg21 64807
+#define Declar_id_filemsg22 64808
+#define Declar_id_filemsg23 64809
+#define Declar_id_filemsg24 64810
+#define Declar_id_filemsg25 64811
+#define Declar_id_filemsg26 64812
+#define Declar_id_filemsg27 64813
+#define Declar_id_filemsg28 64814
+#define Declar_id_filemsg29 64815
+#define Declar_id_makmsg47 64816
+#define Declar_id_makmsg48 64817
+#define Declar_id_filemsg00 64818
+#define Declar_id_filemsg01 64819
+#define Declar_id_filemsg02 64820
+#define Declar_id_filemsg03 64821
+#define Declar_id_filemsg04 64822
+#define Declar_id_filemsg05 64823
+#define Declar_id_filemsg06 64824
+#define Declar_id_filemsg07 64825
+#define Declar_id_filemsg08 64826
+#define Declar_id_filemsg09 64827
+#define Declar_id_filemsg10 64828
+#define Declar_id_filemsg11 64829
+#define Declar_id_filemsg12 64830
+#define Declar_id_filemsg13 64831
+#define Declar_id_makmsg31 64832
+#define Declar_id_makmsg32 64833
+#define Declar_id_makmsg33 64834
+#define Declar_id_makmsg34 64835
+#define Declar_id_makmsg35 64836
+#define Declar_id_makmsg36 64837
+#define Declar_id_makmsg37 64838
+#define Declar_id_makmsg38 64839
+#define Declar_id_makmsg39 64840
+#define Declar_id_makmsg40 64841
+#define Declar_id_makmsg41 64842
+#define Declar_id_makmsg42 64843
+#define Declar_id_makmsg43 64844
+#define Declar_id_makmsg44 64845
+#define Declar_id_makmsg45 64846
+#define Declar_id_makmsg46 64847
+#define Declar_id_makmsg15 64848
+#define Declar_id_makmsg16 64849
+#define Declar_id_makmsg17 64850
+#define Declar_id_makmsg18 64851
+#define Declar_id_makmsg19 64852
+#define Declar_id_makmsg20 64853
+#define Declar_id_makmsg21 64854
+#define Declar_id_makmsg22 64855
+#define Declar_id_makmsg23 64856
+#define Declar_id_makmsg24 64857
+#define Declar_id_makmsg25 64858
+#define Declar_id_makmsg26 64859
+#define Declar_id_makmsg27 64860
+#define Declar_id_makmsg28 64861
+#define Declar_id_makmsg29 64862
+#define Declar_id_makmsg30 64863
+#define Declar_id_mess159 64864
+#define Declar_id_makmsg00 64865
+#define Declar_id_makmsg01 64866
+#define Declar_id_makmsg02 64867
+#define Declar_id_makmsg03 64868
+#define Declar_id_makmsg04 64869
+#define Declar_id_makmsg05 64870
+#define Declar_id_makmsg06 64871
+#define Declar_id_makmsg07 64872
+#define Declar_id_makmsg08 64873
+#define Declar_id_makmsg09 64874
+#define Declar_id_makmsg10 64875
+#define Declar_id_makmsg11 64876
+#define Declar_id_makmsg12 64877
+#define Declar_id_makmsg13 64878
+#define Declar_id_makmsg14 64879
+#define Declar_id_mess143 64880
+#define Declar_id_mess144 64881
+#define Declar_id_mess145 64882
+#define Declar_id_mess146 64883
+#define Declar_id_mess147 64884
+#define Declar_id_mess148 64885
+#define Declar_id_mess149 64886
+#define Declar_id_mess150 64887
+#define Declar_id_mess151 64888
+#define Declar_id_mess152 64889
+#define Declar_id_mess153 64890
+#define Declar_id_mess154 64891
+#define Declar_id_mess155 64892
+#define Declar_id_mess156 64893
+#define Declar_id_mess157 64894
+#define Declar_id_mess158 64895
+#define Declar_id_mess127 64896
+#define Declar_id_mess128 64897
+#define Declar_id_mess129 64898
+#define Declar_id_mess130 64899
+#define Declar_id_mess131 64900
+#define Declar_id_mess132 64901
+#define Declar_id_mess133 64902
+#define Declar_id_mess134 64903
+#define Declar_id_mess135 64904
+#define Declar_id_mess136 64905
+#define Declar_id_mess137 64906
+#define Declar_id_mess138 64907
+#define Declar_id_mess139 64908
+#define Declar_id_mess140 64909
+#define Declar_id_mess141 64910
+#define Declar_id_mess142 64911
+#define Declar_id_mess111 64912
+#define Declar_id_mess112 64913
+#define Declar_id_mess113 64914
+#define Declar_id_mess114 64915
+#define Declar_id_mess115 64916
+#define Declar_id_mess116 64917
+#define Declar_id_mess117 64918
+#define Declar_id_mess118 64919
+#define Declar_id_mess119 64920
+#define Declar_id_mess120 64921
+#define Declar_id_mess121 64922
+#define Declar_id_mess122 64923
+#define Declar_id_mess123 64924
+#define Declar_id_mess124 64925
+#define Declar_id_mess125 64926
+#define Declar_id_mess126 64927
+#define Declar_id_mess95 64928
+#define Declar_id_mess96 64929
+#define Declar_id_mess97 64930
+#define Declar_id_mess98 64931
+#define Declar_id_mess99 64932
+#define Declar_id_mess100 64933
+#define Declar_id_mess101 64934
+#define Declar_id_mess102 64935
+#define Declar_id_mess103 64936
+#define Declar_id_mess104 64937
+#define Declar_id_mess105 64938
+#define Declar_id_mess106 64939
+#define Declar_id_mess107 64940
+#define Declar_id_mess108 64941
+#define Declar_id_mess109 64942
+#define Declar_id_mess110 64943
+#define Declar_id_mess79 64944
+#define Declar_id_mess80 64945
+#define Declar_id_mess81 64946
+#define Declar_id_mess82 64947
+#define Declar_id_mess83 64948
+#define Declar_id_mess84 64949
+#define Declar_id_mess85 64950
+#define Declar_id_mess86 64951
+#define Declar_id_mess87 64952
+#define Declar_id_mess88 64953
+#define Declar_id_mess89 64954
+#define Declar_id_mess90 64955
+#define Declar_id_mess91 64956
+#define Declar_id_mess92 64957
+#define Declar_id_mess93 64958
+#define Declar_id_mess94 64959
+#define Declar_id_mess63 64960
+#define Declar_id_mess64 64961
+#define Declar_id_mess65 64962
+#define Declar_id_mess66 64963
+#define Declar_id_mess67 64964
+#define Declar_id_mess68 64965
+#define Declar_id_mess69 64966
+#define Declar_id_mess70 64967
+#define Declar_id_mess71 64968
+#define Declar_id_mess72 64969
+#define Declar_id_mess73 64970
+#define Declar_id_mess74 64971
+#define Declar_id_mess75 64972
+#define Declar_id_mess76 64973
+#define Declar_id_mess77 64974
+#define Declar_id_mess78 64975
+#define Declar_id_mess47 64976
+#define Declar_id_mess48 64977
+#define Declar_id_mess49 64978
+#define Declar_id_mess50 64979
+#define Declar_id_mess51 64980
+#define Declar_id_mess52 64981
+#define Declar_id_mess53 64982
+#define Declar_id_mess54 64983
+#define Declar_id_mess55 64984
+#define Declar_id_mess56 64985
+#define Declar_id_mess57 64986
+#define Declar_id_mess58 64987
+#define Declar_id_mess59 64988
+#define Declar_id_mess60 64989
+#define Declar_id_mess61 64990
+#define Declar_id_mess62 64991
+#define Declar_id_mess31 64992
+#define Declar_id_mess32 64993
+#define Declar_id_mess33 64994
+#define Declar_id_mess34 64995
+#define Declar_id_mess35 64996
+#define Declar_id_mess36 64997
+#define Declar_id_mess37 64998
+#define Declar_id_mess38 64999
+#define Declar_id_mess39 65000
+#define Declar_id_mess40 65001
+#define Declar_id_mess41 65002
+#define Declar_id_mess42 65003
+#define Declar_id_mess43 65004
+#define Declar_id_mess44 65005
+#define Declar_id_mess45 65006
+#define Declar_id_mess46 65007
+#define Declar_id_mess15 65008
+#define Declar_id_mess16 65009
+#define Declar_id_mess17 65010
+#define Declar_id_mess18 65011
+#define Declar_id_mess19 65012
+#define Declar_id_mess20 65013
+#define Declar_id_mess21 65014
+#define Declar_id_mess22 65015
+#define Declar_id_mess23 65016
+#define Declar_id_mess24 65017
+#define Declar_id_mess25 65018
+#define Declar_id_mess26 65019
+#define Declar_id_mess27 65020
+#define Declar_id_mess28 65021
+#define Declar_id_mess29 65022
+#define Declar_id_mess30 65023
+#define Declar_id_hint119 65024
+#define Declar_id_mess00 65025
+#define Declar_id_mess01 65026
+#define Declar_id_mess02 65027
+#define Declar_id_mess03 65028
+#define Declar_id_mess04 65029
+#define Declar_id_mess05 65030
+#define Declar_id_mess06 65031
+#define Declar_id_mess07 65032
+#define Declar_id_mess08 65033
+#define Declar_id_mess09 65034
+#define Declar_id_mess10 65035
+#define Declar_id_mess11 65036
+#define Declar_id_mess12 65037
+#define Declar_id_mess13 65038
+#define Declar_id_mess14 65039
+#define Declar_id_hint103 65040
+#define Declar_id_hint104 65041
+#define Declar_id_hint105 65042
+#define Declar_id_hint106 65043
+#define Declar_id_hint107 65044
+#define Declar_id_hint108 65045
+#define Declar_id_hint109 65046
+#define Declar_id_hint110 65047
+#define Declar_id_hint111 65048
+#define Declar_id_hint112 65049
+#define Declar_id_hint113 65050
+#define Declar_id_hint114 65051
+#define Declar_id_hint115 65052
+#define Declar_id_hint116 65053
+#define Declar_id_hint117 65054
+#define Declar_id_hint118 65055
+#define Declar_id_hint87 65056
+#define Declar_id_hint88 65057
+#define Declar_id_hint89 65058
+#define Declar_id_hint90 65059
+#define Declar_id_hint91 65060
+#define Declar_id_hint92 65061
+#define Declar_id_hint93 65062
+#define Declar_id_hint94 65063
+#define Declar_id_hint95 65064
+#define Declar_id_hint96 65065
+#define Declar_id_hint97 65066
+#define Declar_id_hint98 65067
+#define Declar_id_hint99 65068
+#define Declar_id_hint100 65069
+#define Declar_id_hint101 65070
+#define Declar_id_hint102 65071
+#define Declar_id_hint71 65072
+#define Declar_id_hint72 65073
+#define Declar_id_hint73 65074
+#define Declar_id_hint74 65075
+#define Declar_id_hint75 65076
+#define Declar_id_hint76 65077
+#define Declar_id_hint77 65078
+#define Declar_id_hint78 65079
+#define Declar_id_hint79 65080
+#define Declar_id_hint80 65081
+#define Declar_id_hint81 65082
+#define Declar_id_hint82 65083
+#define Declar_id_hint83 65084
+#define Declar_id_hint84 65085
+#define Declar_id_hint85 65086
+#define Declar_id_hint86 65087
+#define Declar_id_hint55 65088
+#define Declar_id_hint56 65089
+#define Declar_id_hint57 65090
+#define Declar_id_hint58 65091
+#define Declar_id_hint59 65092
+#define Declar_id_hint60 65093
+#define Declar_id_hint61 65094
+#define Declar_id_hint62 65095
+#define Declar_id_hint63 65096
+#define Declar_id_hint64 65097
+#define Declar_id_hint65 65098
+#define Declar_id_hint66 65099
+#define Declar_id_hint67 65100
+#define Declar_id_hint68 65101
+#define Declar_id_hint69 65102
+#define Declar_id_hint70 65103
+#define Declar_id_hint39 65104
+#define Declar_id_hint40 65105
+#define Declar_id_hint41 65106
+#define Declar_id_hint42 65107
+#define Declar_id_hint43 65108
+#define Declar_id_hint44 65109
+#define Declar_id_hint45 65110
+#define Declar_id_hint46 65111
+#define Declar_id_hint47 65112
+#define Declar_id_hint48 65113
+#define Declar_id_hint49 65114
+#define Declar_id_hint50 65115
+#define Declar_id_hint51 65116
+#define Declar_id_hint52 65117
+#define Declar_id_hint53 65118
+#define Declar_id_hint54 65119
+#define Declar_id_hint23 65120
+#define Declar_id_hint24 65121
+#define Declar_id_hint25 65122
+#define Declar_id_hint26 65123
+#define Declar_id_hint27 65124
+#define Declar_id_hint28 65125
+#define Declar_id_hint29 65126
+#define Declar_id_hint30 65127
+#define Declar_id_hint31 65128
+#define Declar_id_hint32 65129
+#define Declar_id_hint33 65130
+#define Declar_id_hint34 65131
+#define Declar_id_hint35 65132
+#define Declar_id_hint36 65133
+#define Declar_id_hint37 65134
+#define Declar_id_hint38 65135
+#define Declar_id_hint07 65136
+#define Declar_id_hint08 65137
+#define Declar_id_hint09 65138
+#define Declar_id_hint10 65139
+#define Declar_id_hint11 65140
+#define Declar_id_hint12 65141
+#define Declar_id_hint13 65142
+#define Declar_id_hint14 65143
+#define Declar_id_hint15 65144
+#define Declar_id_hint16 65145
+#define Declar_id_hint17 65146
+#define Declar_id_hint18 65147
+#define Declar_id_hint19 65148
+#define Declar_id_hint20 65149
+#define Declar_id_hint21 65150
+#define Declar_id_hint22 65151
+#define ComStrs_sTabFailDelete 65152
+#define ComStrs_sTabFailRetrieve 65153
+#define ComStrs_sTabFailGetObject 65154
+#define ComStrs_sTabFailSet 65155
+#define ComStrs_sTabFailSetObject 65156
+#define ComStrs_sTabMustBeMultiLine 65157
+#define ComStrs_sPageIndexError 65158
+#define Declar_id_picname 65159
+#define Declar_id_and 65160
+#define Declar_id_hint00 65161
+#define Declar_id_hint01 65162
+#define Declar_id_hint02 65163
+#define Declar_id_hint03 65164
+#define Declar_id_hint04 65165
+#define Declar_id_hint05 65166
+#define Declar_id_hint06 65167
+#define Consts_SNameInactiveCaption 65168
+#define Consts_SNameInactiveCaptionText 65169
+#define Consts_SNameInfoBk 65170
+#define Consts_SNameInfoText 65171
+#define Consts_SNameMenu 65172
+#define Consts_SNameMenuBar 65173
+#define Consts_SNameMenuHighlight 65174
+#define Consts_SNameMenuText 65175
+#define Consts_SNameNone 65176
+#define Consts_SNameScrollBar 65177
+#define Consts_SName3DDkShadow 65178
+#define Consts_SName3DLight 65179
+#define Consts_SNameWindow 65180
+#define Consts_SNameWindowFrame 65181
+#define Consts_SNameWindowText 65182
+#define ComStrs_sTabFailClear 65183
+#define Consts_SNameActiveCaption 65184
+#define Consts_SNameAppWorkSpace 65185
+#define Consts_SNameBackground 65186
+#define Consts_SNameBtnFace 65187
+#define Consts_SNameBtnHighlight 65188
+#define Consts_SNameBtnShadow 65189
+#define Consts_SNameBtnText 65190
+#define Consts_SNameCaptionText 65191
+#define Consts_SNameDefault 65192
+#define Consts_SNameGradientActiveCaption 65193
+#define Consts_SNameGradientInactiveCaption 65194
+#define Consts_SNameGrayText 65195
+#define Consts_SNameHighlight 65196
+#define Consts_SNameHighlightText 65197
+#define Consts_SNameHotLight 65198
+#define Consts_SNameInactiveBorder 65199
+#define Consts_SNamePurple 65200
+#define Consts_SNameTeal 65201
+#define Consts_SNameGray 65202
+#define Consts_SNameSilver 65203
+#define Consts_SNameRed 65204
+#define Consts_SNameLime 65205
+#define Consts_SNameYellow 65206
+#define Consts_SNameBlue 65207
+#define Consts_SNameFuchsia 65208
+#define Consts_SNameAqua 65209
+#define Consts_SNameWhite 65210
+#define Consts_SNameMoneyGreen 65211
+#define Consts_SNameSkyBlue 65212
+#define Consts_SNameCream 65213
+#define Consts_SNameMedGray 65214
+#define Consts_SNameActiveBorder 65215
+#define Consts_SASCIIEncoding 65216
+#define Consts_SUnicodeEncoding 65217
+#define Consts_SBigEndianEncoding 65218
+#define Consts_SUTF8Encoding 65219
+#define Consts_SUTF7Encoding 65220
+#define Consts_SPageControlNotSet 65221
+#define Consts_SWindowsVistaRequired 65222
+#define Consts_SXPThemesRequired 65223
+#define Consts_STaskDlgButtonCaption 65224
+#define Consts_STaskDlgRadioButtonCaption 65225
+#define Consts_SInvalidTaskDlgButtonCaption 65226
+#define Consts_SNameBlack 65227
+#define Consts_SNameMaroon 65228
+#define Consts_SNameGreen 65229
+#define Consts_SNameOlive 65230
+#define Consts_SNameNavy 65231
+#define Consts_SPreviewLabel 65232
+#define Consts_SDockedCtlNeedsName 65233
+#define Consts_SDockTreeRemoveError 65234
+#define Consts_SDockZoneNotFound 65235
+#define Consts_SDockZoneHasNoCtl 65236
+#define Consts_SDockZoneVersionConflict 65237
+#define Consts_SColorBoxCustomCaption 65238
+#define Consts_SKeyCaption 65239
+#define Consts_SValueCaption 65240
+#define Consts_SKeyConflict 65241
+#define Consts_SKeyNotFound 65242
+#define Consts_SNoColumnMoving 65243
+#define Consts_SNoEqualsInKey 65244
+#define Consts_SErrorSettingCount 65245
+#define Consts_SListBoxMustBeVirtual 65246
+#define Consts_SANSIEncoding 65247
+#define Consts_SmkcCtrl 65248
+#define Consts_SmkcAlt 65249
+#define Consts_srNone 65250
+#define Consts_SOutOfRange 65251
+#define Consts_sAllFilter 65252
+#define Consts_SInsertLineError 65253
+#define Consts_SInvalidClipFmt 65254
+#define Consts_SIconToClipboard 65255
+#define Consts_SCannotOpenClipboard 65256
+#define Consts_SDefault 65257
+#define Consts_SInvalidMemoSize 65258
+#define Consts_SInvalidPrinterOp 65259
+#define Consts_SNoDefaultPrinter 65260
+#define Consts_SDuplicateMenus 65261
+#define Consts_SPictureLabel 65262
+#define Consts_SPictureDesc 65263
+#define Consts_SmkcBkSp 65264
+#define Consts_SmkcTab 65265
+#define Consts_SmkcEsc 65266
+#define Consts_SmkcEnter 65267
+#define Consts_SmkcSpace 65268
+#define Consts_SmkcPgUp 65269
+#define Consts_SmkcPgDn 65270
+#define Consts_SmkcEnd 65271
+#define Consts_SmkcHome 65272
+#define Consts_SmkcLeft 65273
+#define Consts_SmkcUp 65274
+#define Consts_SmkcRight 65275
+#define Consts_SmkcDown 65276
+#define Consts_SmkcIns 65277
+#define Consts_SmkcDel 65278
+#define Consts_SmkcShift 65279
+#define Consts_SMsgDlgWarning 65280
+#define Consts_SMsgDlgError 65281
+#define Consts_SMsgDlgInformation 65282
+#define Consts_SMsgDlgConfirm 65283
+#define Consts_SMsgDlgYes 65284
+#define Consts_SMsgDlgNo 65285
+#define Consts_SMsgDlgOK 65286
+#define Consts_SMsgDlgCancel 65287
+#define Consts_SMsgDlgHelp 65288
+#define Consts_SMsgDlgAbort 65289
+#define Consts_SMsgDlgRetry 65290
+#define Consts_SMsgDlgIgnore 65291
+#define Consts_SMsgDlgAll 65292
+#define Consts_SMsgDlgNoToAll 65293
+#define Consts_SMsgDlgYesToAll 65294
+#define Consts_SMsgDlgClose 65295
+#define Consts_SAbortButton 65296
+#define Consts_SAllButton 65297
+#define Consts_SCannotDragForm 65298
+#define Consts_SVMetafiles 65299
+#define Consts_SVEnhMetafiles 65300
+#define Consts_SVIcons 65301
+#define Consts_SVBitmaps 65302
+#define Consts_SVTIFFImages 65303
+#define Consts_SGridTooLarge 65304
+#define Consts_STooManyDeleted 65305
+#define Consts_SIndexOutOfRange 65306
+#define Consts_SFixedColTooBig 65307
+#define Consts_SFixedRowTooBig 65308
+#define Consts_SInvalidStringGridOp 65309
+#define Consts_SMaskErr 65310
+#define Consts_SMaskEditErr 65311
+#define Consts_SPrinting 65312
+#define Consts_SPrinterIndexError 65313
+#define Consts_SInvalidPrinter 65314
+#define Consts_SDeviceOnPort 65315
+#define Consts_SGroupIndexTooLow 65316
+#define Consts_SNoMDIForm 65317
+#define Consts_SImageCanvasNeedsBitmap 65318
+#define Consts_SControlParentSetToSelf 65319
+#define Consts_SOKButton 65320
+#define Consts_SCancelButton 65321
+#define Consts_SYesButton 65322
+#define Consts_SNoButton 65323
+#define Consts_SHelpButton 65324
+#define Consts_SCloseButton 65325
+#define Consts_SIgnoreButton 65326
+#define Consts_SRetryButton 65327
+#define Consts_SImageReadFail 65328
+#define Consts_SImageWriteFail 65329
+#define Consts_SWindowDCError 65330
+#define Consts_SWindowClass 65331
+#define Consts_SCannotFocus 65332
+#define Consts_SParentRequired 65333
+#define Consts_SParentGivenNotAParent 65334
+#define Consts_SMDIChildNotVisible 65335
+#define Consts_SVisibleChanged 65336
+#define Consts_SCannotShowModal 65337
+#define Consts_SPropertyOutOfRange 65338
+#define Consts_SMenuIndexError 65339
+#define Consts_SMenuReinserted 65340
+#define Consts_SMenuNotFound 65341
+#define Consts_SNoTimers 65342
+#define Consts_SNotPrinting 65343
+#define Consts_SInvalidIcon 65344
+#define Consts_SInvalidMetafile 65345
+#define Consts_SInvalidPixelFormat 65346
+#define Consts_SInvalidImage 65347
+#define Consts_SScanLine 65348
+#define Consts_SChangeIconSize 65349
+#define Consts_SChangeWicSize 65350
+#define Consts_SOleGraphic 65351
+#define Consts_SUnknownExtension 65352
+#define Consts_SUnknownClipboardFormat 65353
+#define Consts_SOutOfResources 65354
+#define Consts_SNoCanvasHandle 65355
+#define Consts_SInvalidImageSize 65356
+#define Consts_SInvalidImageList 65357
+#define Consts_SReplaceImage 65358
+#define Consts_SImageIndexError 65359
+#define RTLConsts_SInvalidDate 65360
+#define RTLConsts_SInvalidDateTime 65361
+#define RTLConsts_SInvalidInteger 65362
+#define RTLConsts_SInvalidTime 65363
+#define RTLConsts_STimeEncodeError 65364
+#define RTLConsts_SNoContext 65365
+#define RTLConsts_SNoContextFound 65366
+#define RTLConsts_SNoIndex 65367
+#define RTLConsts_SNoSearch 65368
+#define RTLConsts_SNoTableOfContents 65369
+#define RTLConsts_SNoTopics 65370
+#define RTLConsts_SNothingFound 65371
+#define Consts_SInvalidTabIndex 65372
+#define Consts_SInvalidTabPosition 65373
+#define Consts_SInvalidTabStyle 65374
+#define Consts_SInvalidBitmap 65375
+#define RTLConsts_SWriteError 65376
+#define RTLConsts_SThreadCreateError 65377
+#define RTLConsts_SThreadError 65378
+#define RTLConsts_SThreadExternalTerminate 65379
+#define RTLConsts_SThreadExternalWait 65380
+#define RTLConsts_SThreadStartError 65381
+#define RTLConsts_SParamIsNegative 65382
+#define RTLConsts_SInputBufferExceed 65383
+#define RTLConsts_SInvalidCharsInPath 65384
+#define RTLConsts_SPathTooLong 65385
+#define RTLConsts_SPathNotFound 65386
+#define RTLConsts_SPathFormatNotSupported 65387
+#define RTLConsts_SFileNotFound 65388
+#define RTLConsts_SInvalidDateDay 65389
+#define RTLConsts_hNoFilterViewer 65390
+#define RTLConsts_sInvalidTimeoutValue 65391
+#define RTLConsts_SListCapacityError 65392
+#define RTLConsts_SListCountError 65393
+#define RTLConsts_SListIndexError 65394
+#define RTLConsts_SMemoryStreamError 65395
+#define RTLConsts_SNoComSupport 65396
+#define RTLConsts_SPropertyException 65397
+#define RTLConsts_SReadError 65398
+#define RTLConsts_SReadOnlyProperty 65399
+#define RTLConsts_SRegCreateFailed 65400
+#define RTLConsts_SRegGetDataFailed 65401
+#define RTLConsts_SRegSetDataFailed 65402
+#define RTLConsts_SResNotFound 65403
+#define RTLConsts_SSeekNotImplemented 65404
+#define RTLConsts_SSortedListError 65405
+#define RTLConsts_SUnknownGroup 65406
+#define RTLConsts_SUnknownProperty 65407
+#define RTLConsts_SCheckSynchronizeError 65408
+#define RTLConsts_SClassNotFound 65409
+#define RTLConsts_SDuplicateClass 65410
+#define RTLConsts_SDuplicateItem 65411
+#define RTLConsts_SDuplicateName 65412
+#define RTLConsts_SDuplicateString 65413
+#define RTLConsts_SFCreateErrorEx 65414
+#define RTLConsts_SFOpenErrorEx 65415
+#define RTLConsts_SIniFileWriteError 65416
+#define RTLConsts_SInvalidFileName 65417
+#define RTLConsts_SInvalidImage 65418
+#define RTLConsts_SInvalidName 65419
+#define RTLConsts_SInvalidProperty 65420
+#define RTLConsts_SInvalidPropertyPath 65421
+#define RTLConsts_SInvalidPropertyValue 65422
+#define RTLConsts_SInvalidRegType 65423
+#define SysConst_SLongDayNameWed 65424
+#define SysConst_SLongDayNameThu 65425
+#define SysConst_SLongDayNameFri 65426
+#define SysConst_SLongDayNameSat 65427
+#define SysConst_SCannotCreateDir 65428
+#define SysConst_SInvalidSourceArray 65429
+#define SysConst_SInvalidDestinationArray 65430
+#define SysConst_SCharIndexOutOfBounds 65431
+#define SysConst_SByteIndexOutOfBounds 65432
+#define SysConst_SInvalidCharCount 65433
+#define SysConst_SInvalidDestinationIndex 65434
+#define SysConst_SInvalidCodePage 65435
+#define RTLConsts_SAncestorNotFound 65436
+#define RTLConsts_SAssignError 65437
+#define RTLConsts_SBitsIndexError 65438
+#define RTLConsts_SCantWriteResourceStreamError 65439
+#define SysConst_SLongMonthNameJul 65440
+#define SysConst_SLongMonthNameAug 65441
+#define SysConst_SLongMonthNameSep 65442
+#define SysConst_SLongMonthNameOct 65443
+#define SysConst_SLongMonthNameNov 65444
+#define SysConst_SLongMonthNameDec 65445
+#define SysConst_SShortDayNameSun 65446
+#define SysConst_SShortDayNameMon 65447
+#define SysConst_SShortDayNameTue 65448
+#define SysConst_SShortDayNameWed 65449
+#define SysConst_SShortDayNameThu 65450
+#define SysConst_SShortDayNameFri 65451
+#define SysConst_SShortDayNameSat 65452
+#define SysConst_SLongDayNameSun 65453
+#define SysConst_SLongDayNameMon 65454
+#define SysConst_SLongDayNameTue 65455
+#define SysConst_SShortMonthNameMar 65456
+#define SysConst_SShortMonthNameApr 65457
+#define SysConst_SShortMonthNameMay 65458
+#define SysConst_SShortMonthNameJun 65459
+#define SysConst_SShortMonthNameJul 65460
+#define SysConst_SShortMonthNameAug 65461
+#define SysConst_SShortMonthNameSep 65462
+#define SysConst_SShortMonthNameOct 65463
+#define SysConst_SShortMonthNameNov 65464
+#define SysConst_SShortMonthNameDec 65465
+#define SysConst_SLongMonthNameJan 65466
+#define SysConst_SLongMonthNameFeb 65467
+#define SysConst_SLongMonthNameMar 65468
+#define SysConst_SLongMonthNameApr 65469
+#define SysConst_SLongMonthNameMay 65470
+#define SysConst_SLongMonthNameJun 65471
+#define SysConst_SVarBadType 65472
+#define SysConst_SVarNotImplemented 65473
+#define SysConst_SVarUnexpected 65474
+#define SysConst_SExternalException 65475
+#define SysConst_SAssertionFailed 65476
+#define SysConst_SIntfCastError 65477
+#define SysConst_SSafecallException 65478
+#define SysConst_SMonitorLockException 65479
+#define SysConst_SNoMonitorSupportException 65480
+#define SysConst_SAssertError 65481
+#define SysConst_SAbstractError 65482
+#define SysConst_SModuleAccessViolation 65483
+#define SysConst_SOSError 65484
+#define SysConst_SUnkOSError 65485
+#define SysConst_SShortMonthNameJan 65486
+#define SysConst_SShortMonthNameFeb 65487
+#define SysConst_SWriteAccess 65488
+#define SysConst_SVarArrayCreate 65489
+#define SysConst_SVarArrayBounds 65490
+#define SysConst_SVarArrayLocked 65491
+#define SysConst_SInvalidVarCast 65492
+#define SysConst_SInvalidVarOp 65493
+#define SysConst_SInvalidVarNullOp 65494
+#define SysConst_SInvalidVarOpWithHResultWithPrefix 65495
+#define SysConst_SVarTypeOutOfRangeWithPrefix 65496
+#define SysConst_SVarTypeAlreadyUsedWithPrefix 65497
+#define SysConst_SVarTypeNotUsableWithPrefix 65498
+#define SysConst_SVarTypeTooManyCustom 65499
+#define SysConst_SVarTypeCouldNotConvert 65500
+#define SysConst_SVarTypeConvertOverflow 65501
+#define SysConst_SVarOverflow 65502
+#define SysConst_SVarInvalid 65503
+#define SysConst_SOverflow 65504
+#define SysConst_SUnderflow 65505
+#define SysConst_SInvalidPointer 65506
+#define SysConst_SInvalidCast 65507
+#define SysConst_SAccessViolationArg3 65508
+#define SysConst_SAccessViolationNoArg 65509
+#define SysConst_SStackOverflow 65510
+#define SysConst_SControlC 65511
+#define SysConst_SPrivilege 65512
+#define SysConst_SOperationAborted 65513
+#define SysConst_SException 65514
+#define SysConst_SExceptTitle 65515
+#define SysConst_SInvalidFormat 65516
+#define SysConst_SArgumentMissing 65517
+#define SysConst_SDispatchError 65518
+#define SysConst_SReadAccess 65519
+#define SysConst_SInvalidFloat 65520
+#define SysConst_SInvalidGUID 65521
+#define SysConst_SInvalidBoolean 65522
+#define SysConst_SDateEncodeError 65523
+#define SysConst_SOutOfMemory 65524
+#define SysConst_SInOutError 65525
+#define SysConst_STooManyOpenFiles 65526
+#define SysConst_SAccessDenied 65527
+#define SysConst_SEndOfFile 65528
+#define SysConst_SDiskFull 65529
+#define SysConst_SInvalidInput 65530
+#define SysConst_SDivByZero 65531
+#define SysConst_SRangeError 65532
+#define SysConst_SIntOverflow 65533
+#define SysConst_SInvalidOp 65534
+#define SysConst_SZeroDivide 65535
+STRINGTABLE
+BEGIN
+	TBaum_tbmsg20,	"Range error !"
+	TBaum_tbmsg21,	"You have used the old function names cx( ) bzw. cy( ) to get\r\nthe co-ordinates of a point. These are no longer supported.\r\n\nPlease use the new functions x( ) und y( ) instead!"
+	TBaum_tbmsg22,	"A user defined function could not be calculated!"
+	TBaum_tbmsg23,	"Value not available!"
+	TBaum_bbmsg01,	"Unexpected operator!"
+	TBaum_bbmsg02,	"Boolean expression expected!"
+	TBaum_bbmsg03,	"%s expected!"
+	TBaum_tbmsg04,	"' expected !"
+	TBaum_tbmsg05,	"\"(\" expected !"
+	TBaum_tbmsg06,	"Unknown identifier !"
+	TBaum_tbmsg07,	"Factor expected !"
+	TBaum_tbmsg08,	"Exponent expected !"
+	TBaum_tbmsg09,	"Division by zero !"
+	TBaum_tbmsg10,	"Invalid argument !"
+	TBaum_tbmsg11,	"Negative radicand !"
+	TBaum_tbmsg12,	"Argument of LN must be positive!"
+	TBaum_tbmsg13,	"Argument of LOG must be positive!"
+	TBaum_tbmsg14,	"Distance not found !"
+	TBaum_tbmsg15,	"Angle not found !"
+	TBaum_tbmsg16,	"Unknown operator !"
+	TBaum_tbmsg17,	"Term of a sum expected !"
+	TBaum_tbmsg18,	"No matching object found !"
+	TBaum_tbmsg19,	"Wrong object type !"
+	ZFDecConst_sProtectionCircular,	"Circular Protection detected, Protection Object is invalid."
+	ZFDecConst_sStringFormatExists,	"String Format \"%d\" not exists."
+	ZFDecConst_sInvalidStringFormat,	"Input is not an valid %s Format."
+	ZFDecConst_sInvalidFormatString,	"Input can not be convert to %s Format."
+	ZFDecConst_sFMT_COPY,	"copy Input to Output"
+	ZFDecConst_sFMT_HEX,	"Hexadecimal"
+	ZFDecConst_sFMT_HEXL,	"Hexadecimal lowercase"
+	ZFDecConst_sFMT_MIME64,	"MIME Base 64"
+	ZFDecConst_sFMT_UU,	"UU Coding"
+	ZFDecConst_sFMT_XX,	"XX Coding"
+	ZFDecConst_sInvalidKeySize,	"Length from Encryptionkey is invalid.\r\nKeysize for %s must be to %d-%d bytes"
+	ZFDecConst_sNotInitialized,	"%s is not initialized call Init() or InitKey() before."
+	TBaum_tbmsg00,	"Unknown object !"
+	TBaum_tbmsg01,	"\";\" expected !"
+	TBaum_tbmsg02,	"Invalid angle measure object !"
+	TBaum_tbmsg03,	"Syntax error !"
+	OleConst_SBadPropValue,	"'%s' is not a valid value for the property"
+	OleConst_SCannotActivate,	"Activation of the OLE element failed"
+	OleConst_SNoWindowHandle,	"The OLE element's window handle is not available"
+	OleConst_SInvalidLicense,	"The licence information for %s is invalid"
+	OleConst_SNotLicensed,	"Licence information for %s not found. You cannot use this element in design mode"
+	OleConst_sNoRunningObject,	"You cannot get a pointer to an executed object registered by OLE for %s/%s"
+	ZFConst_SConfirmOverwrite,	"Overwrite file \"%s\" with \"%s\""
+	ZFConst_SPasswordTitle,	"Password for \"%s\""
+	ZFConst_SPasswordPrompt,	"Enter password: "
+	ZFConst_SOnRequestBlankDisk,	"Please insert a blank disk #%d"
+	ZFConst_SOnRequestFirstDisk,	"Please insert the first disk"
+	ZFConst_SOnRequestLastDisk,	"Please insert the last disk"
+	ZFConst_SOnRequestMiddleDisk,	"Please insert disk #%d"
+	ZFConst_SOnDiskFull,	"Disk is full. Required free space: %d bytes, but available only: %d bytes. Clean the disk or find another blank disk"
+	ZFConst_SOnProcessFileFailure,	"%s. File processing error, possibly disk is full"
+	ZFConst_SWrongDiskRequestLastDisk,	"File '%s' not found on inserted disk. Please insert last disk with required file"
+	pnglang_EInvalidNewSize,	"The imge cannot be scaled to the new size."
+	pnglang_EInvalidSpec,	"The image could not be created because invalid image parameters were given."
+	JConsts_sChangeJPGSize,	"The size of the JPEG image cannot be changed"
+	JConsts_sJPEGError,	"JPEG error #%d"
+	JConsts_sJPEGImageFile,	"JPEG file"
+	Integers_sFLPAbort,	"FLP - Operation aborted"
+	Integers_sFLPDivByZero,	"%s\r\nDivision by 0"
+	Integers_sFLPDuplicatePtr,	"%s\r\n%s must point to distinct objects"
+	Integers_sFLPFileError,	"%s\r\nInvalid \"%s\" file"
+	Integers_sFLPIndexError,	"%s\r\nInvalid index"
+	Integers_sFLPInvalidArg,	"%s\r\nInvalid parameter\r\n%s"
+	Integers_sFLPOverflow,	"%s\r\nOverflow"
+	Integers_sFLPSizeError,	"%s\r\nInvalid size specification"
+	Integers_sFLPStreamError,	"%s\r\nInvalid stream"
+	Integers_sINT0002,	"(ByteCount < 0) or (ByteCount >= TInteger.MaxByteSize)"
+	Integers_sINT0005,	"(Shift < 0) or (Shift > TInteger.MaxBitSize)"
+	pnglang_EPNGInvalidFileHeaderText,	"The file read is not a valid PNG image because the header is missing. This file is probably damaged. Try to get a new version."
+	pnglang_EPNGIHDRNotFirstText,	"This PNG image is not supported or it is corrupt.\r\n(The IHDR part is not the first part in the file.)"
+	pnglang_EPNGSizeExceedsText,	"This PNG image is not supported because its width or height exceeds the maximum of 65535 pixels."
+	pnglang_EPNGUnknownPalEntryText,	"There is no such palette entry."
+	pnglang_EPNGUnknownCriticalChunkText,	"This PNG image contains an unknown but necessary part that cannot be decrypted."
+	pnglang_EPNGUnknownCompressionText,	"This PNG image was compressed with an unknown algorithm, and so cannot be expanded."
+	pnglang_EPNGUnknownInterlaceText,	"This PNG image uses an unknown interlace scheme that cannot be decoded."
+	pnglang_EPNGCannotAssignChunkText,	"The parts must be compatible in order to be assigned."
+	pnglang_EPNGUnexpectedEndText,	"This PNG image is invalid: the decoder has reached an unexpected end of file."
+	pnglang_EPNGNoImageDataText,	"This PNG image holds no data."
+	pnglang_EPNGCannotAddChunkText,	"The program tried to add an existing and necessary part to the actual image. This is not allowed."
+	pnglang_EPNGCannotAddInvalidImageText,	"It is not allowed to add a new part to an invalid image."
+	pnglang_EPNGCouldNotLoadResourceText,	"The PNG image could not be loaded from the resource data."
+	pnglang_EPNGOutMemoryText,	"There are not enough resources in the system to accomplish this operation. Please close some windows / some applications, and try again."
+	pnglang_EPNGCannotChangeTransparentText,	"Setting the transparent colour is not allowed for PNG images that hold alpha values for every pixel individually (COLOR_RGBALPHA and COLOR_GRAYSCALEALPHA)"
+	pnglang_EPNGHeaderNotPresentText,	"The file read is not a valid PNG image, because it holds no valid header."
+	ComConst_SCreateRegKeyError,	"Error creating a system registry entry"
+	ComConst_SOleError,	"OLE error %.8x"
+	ComConst_SObjectFactoryMissing,	"The object generator of the class %s is missing"
+	ComConst_SNoMethod,	"The method '%s' is not supported by the automation object"
+	ComConst_SVarNotObject,	"Variant does not refer an automation object"
+	ComConst_STooManyParams,	"Dispatch methods support not more than 64 parameters."
+	ComConst_SDCOMNotInstalled,	"DCOM is not installed"
+	ComConst_SDAXError,	"DAX error"
+	ComConst_SAutomationWarning,	"Warning of the COM server"
+	ComConst_SNoCloseActiveServer1,	"This application still contains active COM objects. At least one client points to these obejcts, so manually closing "
+	ComConst_SNoCloseActiveServer2,	"this application could lead to malfunction of the client applications.\r\n\r\nAre you sure you want to close this application?"
+	pnglang_EPngInvalidCRCText,	"This PNG image is invalid because part of the data show a CRC error"
+	pnglang_EPNGInvalidIHDRText,	"This PNG image is invalid because one of the main data areas (IHDR) seems to be damaged"
+	pnglang_EPNGMissingMultipleIDATText,	"This PNG image is invalid because there are no graphic data."
+	pnglang_EPNGZLIBErrorText,	"The graphic could not be decoded because part of the compressed data are corrupt.\r\nDescription: "
+	pnglang_EPNGInvalidPaletteText,	"This PNG image contains an invalid palette."
+	XMLConst_SDOMNotSupported,	"Property or method \"%s\" is not supported by DOM vendor \"%s\""
+	XMLConst_SNodeExpected,	"node must not be Null"
+	XMLConst_SMSDOMNotInstalled,	"Microsoft MSXML is not installed"
+	XMLConst_SNotActive,	"No active document"
+	XMLConst_SNodeNotFound,	"node \"%s\" not found"
+	XMLConst_SMissingNode,	"IDOMNode needed"
+	XMLConst_SNoAttributes,	"This node type does not support attributes"
+	XMLConst_SInvalidNodeType,	"Invalid node type"
+	XMLConst_SMismatchedRegItems,	"Parameters for RegisterChildNodes do not match"
+	XMLConst_SNotSingleTextNode,	"Element \"%s\" does not contain a single text node"
+	XMLConst_SNoDOMParseOptions,	"DOM implementation does not support IDOMParseOptions"
+	XMLConst_SMissingItemTag,	"The property ItemTag has not been initialized"
+	XMLConst_SNodeReadOnly,	"Node is read only"
+	XMLConst_SNoRefresh,	"Update is only supported after setting the property FileName or XML"
+	XMLConst_SMissingFileName,	"FileName must be specified"
+	XMLConst_SLine,	"row"
+	Declar_cme_tboxfree,	"Unsnap textbox from object"
+	Declar_cme_imagehide,	"Hide picture"
+	Declar_cme_frameedit,	"Show picture frame"
+	Declar_cme_framelock,	"Fix picture"
+	Declar_cme_hideSQO,	"Hide setsquare"
+	Declar_cme_coordsys,	"Edit co-ordinate system..."
+	Declar_cme_showcoords,	"Show coordinates"
+	Declar_cme_showequation,	"Show equation"
+	Declar_cme_hidecoords,	"Hide coordinates"
+	Declar_cme_hideequation,	"Hide equation"
+	Declar_about_okaybtn,	"Okay"
+	Declar_XViewerInternetPath,	"http://www.dynageo.de/download/dynageox3.cab"
+	Declar_JViewerInternetPath,	"http://www.dynageo.de/download/dynageoj.jar"
+	XMLConst_SDuplicateRegistration,	"DOM implementation \"%s\" is already registered"
+	XMLConst_SNoMatchingDOMVendor,	"No matching DOM vendor: \"%s\""
+	XMLConst_SNoDOMNodeEx,	"The selected DOM vendor does not support this property or method"
+	Declar_cme_radius,	"Radius..."
+	Declar_cme_angle,	"Angle..."
+	Declar_cme_edit,	"Edit..."
+	Declar_cme_editrange,	"Edit range..."
+	Declar_cme_editterm,	"Edit expression..."
+	Declar_cme_editfunc,	"Edit function term..."
+	Declar_cme_functable,	"Show table of function values..."
+	Declar_cme_lowersum,	"Change to lower sum"
+	Declar_cme_uppersum,	"Change to upper sum"
+	Declar_cme_editRIcnt,	"Edit number of subintervals..."
+	Declar_cme_update,	"Refresh drawing"
+	Declar_cme_zoomreset,	"Reset drawing scale (1:1)"
+	Declar_cme_zoomin,	"Enlarge drawing"
+	Declar_cme_zoomout,	"Reduce drawing"
+	Declar_cme_blinkbo,	"Blink base objects"
+	Declar_cme_tboxbind,	"Snap textbox to object"
+	Declar_cme_ptfix,	"Fix"
+	Declar_cme_xedit,	"Edit x - co-ordinate..."
+	Declar_cme_xyedit,	"Edit co-ordinates..."
+	Declar_cme_xyfree,	"Convert to a free point"
+	Declar_cme_setdotpt,	"Set a trace point"
+	Declar_cme_linestyle,	"Line style..."
+	Declar_cme_length,	"Segment length..."
+	Declar_cme_fillstyle,	"Fill pattern..."
+	Declar_cme_namhide,	"Hide name"
+	Declar_cme_namedit,	"Edit name..."
+	Declar_cme_leanline,	"Thin line"
+	Declar_cme_fatline,	"Thick line"
+	Declar_cme_locpoints,	"Show point set"
+	Declar_cme_loccurve,	"Show curve"
+	Declar_cme_locdyna,	"Dynamic"
+	Declar_cme_locstnd,	"Standard curve"
+	Declar_id_objtxt103,	"?  is the image of the regular polygon with %s vertices ? under the mapping ?."
+	Declar_id_objtxt104,	"?  is a lower sum of the area below the curve ?."
+	Declar_id_objtxt105,	"?  is an upper sum of the area below the curve ?."
+	Declar_id_objtxt106,	"?  is the circle through the 3 points ?, ? and ?."
+	Declar_id_objtxt107,	"?  is the ray starting in ? aus, im Winkel der Weite %s zur Geraden ( ? ; ? )"
+	Declar_id_objtxt108,	"?  is a conic supposed to contain all points of the locus line ?."
+	Declar_id_objtxt109,	"?  is the midpoint of the line segment ? ."
+	Declar_cme_hide,	"Hide"
+	Declar_cme_name,	"Name object..."
+	Declar_cme_rename,	"Rename..."
+	Declar_cme_hidename,	"Hide name"
+	Declar_cme_col,	"Colour..."
+	Declar_cme_ptform,	"Point style..."
+	Declar_cme_ptfree,	"Unsnap point from line"
+	Declar_cme_ptbind,	"Snap point to line..."
+	Declar_cme_ptquant,	"Step width..."
+	Declar_id_objtxt87,	"?  is an affine transformation with axis ? mapping ? to ?."
+	Declar_id_objtxt88,	"affine transformation with axis ? mapping ? to ?."
+	Declar_id_objtxt89,	"?  is a scaling with fixed lines ? and ?  mapping ? to ?."
+	Declar_id_objtxt90,	"?  is an affine rotation with centre ?  mapping ? to ? and ? to ?."
+	Declar_id_objtxt91,	"?  is an area between the curve ? and the  x-axis."
+	Declar_id_objtxt92,	"?  is an area between the curves ? and ?."
+	Declar_id_objtxt93,	"?  is the radical axis of ? and ?."
+	Declar_id_objtxt94,	"?  is the normal line on the curve ? in the point ?."
+	Declar_id_objtxt95,	"?  is the polar line of the polar point ? with respect to the conic ?."
+	Declar_id_objtxt96,	"?  is the polar point of the polar line ? with respect to the conic ?."
+	Declar_id_objtxt97,	"Display showing the area of ?"
+	Declar_id_objtxt98,	"?  is the centre of the circle ?."
+	Declar_id_objtxt99,	"?  is the centre of the ellipse ?."
+	Declar_id_objtxt100,	"?  is the centre of the hyperbola ?."
+	Declar_id_objtxt101,	"?  is the regular polygon with %s vertices over the line [ ? ; ? ]."
+	Declar_id_objtxt102,	"?  is a vertex of the regular polygon ?."
+	Declar_id_objtxt71,	"?  is the ellipse with centre ? through the the conjugate points ? and ?."
+	Declar_id_objtxt72,	"?  is the parabola with the focus ? and the directrix ?."
+	Declar_id_objtxt73,	"?  is a parabola through the points ? und ? with the tangent lines ? and ?."
+	Declar_id_objtxt74,	"?  is a hyperbola with the focal points ? und ? running through the point ?."
+	Declar_id_objtxt75,	"?  is a hyperbola with the asymptotes ? und ?  running through the point ?."
+	Declar_id_objtxt76,	"?  is an affine transformation mapping (?, ?, ?) to (?, ?, ?) ."
+	Declar_id_objtxt77,	"affine transformation mapping (?, ?, ?) to (?, ?, ?) ."
+	Declar_id_objtxt78,	"?  is an affine transformation given by a matrix."
+	Declar_id_objtxt79,	"affine transformation given by a matrix."
+	Declar_id_objtxt80,	"A trace of a point."
+	Declar_id_objtxt81,	"?  is a picture."
+	Declar_id_objtxt82,	"?  is an image of ?"
+	Declar_id_objtxt83,	"?  is a shear with axis ? mapping ? to ?."
+	Declar_id_objtxt84,	"?  is a simple orthogonal elongation with axis ? mapping ? to ?."
+	Declar_id_objtxt85,	"simple orthogonal elongation with axis ? mapping ? to ?."
+	Declar_id_objtxt86,	"?  is a shear reflection with axis ? mapping ? to ?."
+	Declar_id_objtxt55,	"?  is the expression %s."
+	Declar_id_objtxt56,	"?  is a dilation with centre ? and dilation factor %s."
+	Declar_id_objtxt57,	"dilation with centre ? and dilation factor %s."
+	Declar_id_objtxt58,	"?  is the image of the locus line ? under the "
+	Declar_id_objtxt59,	"?  is the filling of the area with the border %s."
+	Declar_id_objtxt60,	"?  is a circle supposed to contain all points of the locus line ?."
+	Declar_id_objtxt61,	"?  is a straight line supposed to contain all points of the locus line ?."
+	Declar_id_objtxt62,	"?  is a conic through the 5 points ?, ?, ?, ? and ?."
+	Declar_id_objtxt63,	"?  is an ellipse through the 5 points ?, ?, ?, ? and ?."
+	Declar_id_objtxt64,	"?  is a parabola through the 5 points ?, ?, ?, ? and ?."
+	Declar_id_objtxt65,	"?  is a hyperbola through the 5 points ?, ?, ?, ? and ?."
+	Declar_id_objtxt66,	"?  is a line through ? out of which the lines ? and ? cut out a segment of length %s."
+	Declar_id_objtxt67,	"?  is the graph of the function with ?(x) = %s."
+	Declar_id_objtxt68,	"?  is a tangent to the curve ? in ?."
+	Declar_id_objtxt69,	"?  is the ellipse with the focal points ? and ? running through the point ?."
+	Declar_id_objtxt70,	"?  is the ellipse with centre ?, major vertex ? and a minor auxiliary circle running through ?."
+	Declar_id_objTxt39,	"?  is a circle supposed to contain all points of the locus line ? "
+	Declar_id_objTxt40,	"?  is a straight line supposed to contain all points of the locus line ? "
+	Declar_id_objTxt41,	"?  is a ray starting in point ? and running through point ?"
+	Declar_id_objTxt42,	"?  is the image of the straight line ? under the "
+	Declar_id_objTxt43,	"?  is the imaage of the circle ? under the "
+	Declar_id_objtxt44,	"?  is the image of the point ? under the "
+	Declar_id_objtxt45,	"?  is the image of the conic ? under the "
+	Declar_id_objtxt46,	"?  is the vector translating ? to ? "
+	Declar_id_objtxt47,	"?  is another instance of the vector ?"
+	Declar_id_objtxt48,	"?  is a reflection in the line ?"
+	Declar_id_objtxt49,	"?  is a reflection in the point ?"
+	Declar_id_objtxt50,	"?  is a rotation with centre ? and rotation angle %s°"
+	Declar_id_objtxt51,	"?  is a translation by the vector ?"
+	Declar_id_objtxt52,	"?  is a reflection in the circle ?"
+	Declar_id_objtxt53,	"?  is a number object with the actual value %s."
+	Declar_id_objtxt54,	"?  is a point with determined co-ordinates  ( %s | %s )."
+	Declar_id_objtxt23,	"?  is the %d. intersection point of the line ? and the circle ?"
+	Declar_id_objtxt24,	"?  is the image point of ? under an affine transformation"
+	Declar_id_objtxt25,	"[=- ?  is a deprecated object with type name \"%s\") -=]"
+	Declar_id_objtxt26,	"?  is the intersection point of the lines ? and ?"
+	Declar_id_objtxt27,	"?  is the perpendicular bisector of the line segment [ ? ; ? ]"
+	Declar_id_objtxt28,	"?  is the bisector of the angle ( ? ; ? ; ? )"
+	Declar_id_objtxt29,	"?  is the perpendicular of  ? on ?"
+	Declar_id_objtxt30,	"?  is the parallel to ? through ?"
+	Declar_id_objtxt31,	"?  is a trace line of the point ?, when ? is dragged"
+	Declar_id_objtxt32,	"?  is a circle with centre point ? and radius %s cm"
+	Declar_id_objtxt33,	"?  is a straight line through ? building an angle of %s with the line ( ? ; ? )."
+	Declar_id_objtxt34,	"A trace of the point ?."
+	Declar_id_objtxt35,	"?  is a basis point snapped to ?."
+	Declar_id_objtxt36,	"A text box."
+	Declar_id_objtxt37,	"?  is the polygon ["
+	Declar_id_objTxt38,	"?  is an arc starting in point ? around midpoint ? until it meets the ray [ ? ; ? )"
+	Declar_id_objtxt07,	"?  is the circle around ? through ?"
+	Declar_id_objtxt08,	"?  is a basis circle"
+	Declar_id_objtxt09,	"?  is the circle around ? with the fixed radius %s cm"
+	Declar_id_objtxt10,	"?  is the angle ( ? ; ? ; ? )"
+	Declar_id_objtxt11,	"?  is the centre of the coordinate system"
+	Declar_id_objtxt12,	"?  is the x-axis of the coordiante system"
+	Declar_id_objtxt13,	"?  is the y-axis of the coordinate system"
+	Declar_id_objtxt14,	"?  is the unit point of the  x-axis"
+	Declar_id_objtxt15,	"?  is the unit point of the y-axis"
+	Declar_id_objtxt16,	"Name symbol for ?"
+	Declar_id_objtxt17,	"Measure symbol for the distance from  ?  to  ?"
+	Declar_id_objtxt18,	"Measure symbol for the angle  ( ? ; ? ; ? )"
+	Declar_id_objtxt19,	"?  is the midpoint of the line segment [ ? ; ? ]"
+	Declar_id_objtxt20,	"?  is the %d. intersection point of the conics ? and ?"
+	Declar_id_objtxt21,	"?  is the %d. intersection point of the line ? and the conic ?"
+	Declar_id_objtxt22,	"?  is the %d. intersection point of the circles ? and ?"
+	Declar_id_startmsg24,	"The file %s \r\ncould not be opened for writing. Perhaps you don't have\r\nsufficient rights in this directory.\r\n\nThe application will be closed."
+	Declar_id_startmsg25,	"Euklid DynaGeo  (c)1994/2008  R. Mechling"
+	Declar_id_startmsg26,	"  Animation  "
+	Declar_id_startmsg27,	"Failed to write the initialization data.\r\nPlease note that installation and updates of DynaGeo\r\nmust be performed with administrator rights!"
+	Declar_id_startmsg28,	"EUKLID DynaGeo is shareware. This copy can \r\nonly serve to view the data on this CD.\r\n\nFor educational use of the program, you need an\r\nExtended School Licence.\r\n\nFor further details see\r\n\n          http://www.dynageo.com/\r\n"
+	Declar_id_startmsg29,	"The actual copy is only valid to view the educational data on a CD.\r\n\nObviously, this is not the original CD.\r\nSo the programm is terminated."
+	Declar_id_startmsg30,	"Unfortunately, this file contains some invalid data.\r\n\nDynaGeo has tried to preserve as much as possible of the original construction,\r\nbut from %s objects only %s could been read without errors.\r\n\nDynaGeo cannot decide whether these objects have been reconstructed correctly.\r\nIf needs be, you must reconstruct the drawing again."
+	Declar_id_startmsg31,	"- start message 31 -"
+	Declar_id_startmsg32,	"- start message 32 -"
+	Declar_id_objtxt00,	"?  is a free basis point"
+	Declar_id_objtxt01,	"?  is a point with the fixed co-ordinates  ( %s | %s ) "
+	Declar_id_objtxt02,	"?  is the line segment  [ ? ; ? ] "
+	Declar_id_objtxt03,	"?  is the line segment with fixed length %s cm between ? and ?"
+	Declar_id_objtxt04,	"?  is the line  ( ? ; ? ) "
+	Declar_id_objtxt05,	"?  is a basis line"
+	Declar_id_objtxt06,	"?  is a line of fixed angle of  %s° with the line ( ? ; ? )"
+	Declar_id_startmsg08,	"EUKLID DynaGeo - [ "
+	Declar_id_startmsg09,	" ]"
+	Declar_id_startmsg10,	"You can test this program for %d more days.\r\n\nIf you want to continue using it after this time,you should buy a licence.\r\nFor further details see the help file or visit  http://www.dynageo.de/."
+	Declar_id_startmsg11,	"There is no help available because the file\r\n%s\r\ncould not be found."
+	Declar_id_startmsg12,	"EUKLID DynaGeo searches for licence data.\r\nPlease insert the installation disk into drive %s: !"
+	Declar_id_startmsg13,	"EUKLID DynaGeo has found an old version of the initialisation file\r\nand updated it successfully."
+	Declar_id_startmsg14,	"The licence data have been registered successfully. EUKLID DynaGeo is going to be closed now.\r\n\nAt the next start the program will come up as a licenced full version!"
+	Declar_id_startmsg15,	"EUKLID DynGeo is installed as licenced full version.\r\nWhen you proceed the registered licence data will be replaced by new ones. \r\nIn case of an error the licence could be lost.\r\n\nDo you want to cancel this task and better keep your actual licence data?"
+	Declar_id_startmsg16,	"version 3.0  (c) 1994/2007  R. Mechling"
+	Declar_id_startmsg17,	"Unregistered ShareWare version!"
+	Declar_id_startmsg18,	"Could not load the cursor \"%s\" ."
+	Declar_id_startmsg19,	"The file %s \r\ncould not be opened for writing. Perhaps you don't have\r\nsufficient rights in this directory.\r\n\nThe application will be closed."
+	Declar_id_startmsg20,	"The ShareWare test time of 8 weeks is over now.\r\nIf you want to continue using EUKLID DynaGeo,  you should buy a licence.\r\nFurther details can be found at http://www.dynageo.com/."
+	Declar_id_startmsg21,	"The initialisation data of the program are invalid.\r\nPlease de-install DynaGeo completely, restart Windows,\r\nthen re-install the program again."
+	Declar_id_startmsg22,	"This Shareware version of EUKLID DynaGeo was running for %d minutes.\r\n\n"
+	Declar_id_startmsg23,	"The ShareWare test time of 8 weeks is over now.\r\nIf you want to continue using EUKLID DynaGeo,  you should buy a licence.\r\nFor further details, please visit  http://www.dynageo.com/."
+	Declar_id_optmsg06,	"The actual user settings were saved successfully."
+	Declar_id_optmsg07,	"Could not save the actual user settings !\r\nEventually, the target drive is write protected."
+	Declar_id_optmsg08,	"Format error in the menu configuration data!"
+	Declar_id_optmsg09,	"You did not give a unique name to the new menu configuration yet."
+	Declar_id_optmsg10,	"- option message 10 -"
+	Declar_id_optmsg11,	"- option message 11 -"
+	Declar_id_optmsg12,	"- option message 12 -"
+	Declar_id_optmsg13,	"- option message 13 -"
+	Declar_id_startmsg00,	">>>>> ShareWare <<<<<"
+	Declar_id_startmsg01,	"for everybody who enjoys geometry."
+	Declar_id_startmsg02,	"------------"
+	Declar_id_startmsg03,	"NOT FOR EDUCATIONAL PURPOSES !!"
+	Declar_id_startmsg04,	" for"
+	Declar_id_startmsg05,	"The file \"%s\"\r\ndoes not contain any valid DynaGeo licence data. Perhaps it has been corrupted during transport."
+	Declar_id_startmsg06,	"This is an outdated Beta version of  EUKLID DynaGeo.\r\n\nPlease download a new version from the DynaGeo-Homepage:\r\n         http://www.dynageo.com "
+	Declar_id_startmsg07,	"Okay"
+	Declar_id_filemsg30,	"\r\n\nThere is not enough memory available to create this file.\r\nIf you tried to save a bitmap with high pixel density,\r\nit may help to reduce the resolution."
+	Declar_id_filemsg31,	"The file type \"%s\" is unknown.\r\n\nDynaGeo cannot write files of this type."
+	Declar_id_filemsg32,	"There were errors while DynaGeo tried to read the file\r\n \"%s\".\r\n\nThe data read could not be interpreted correctly.\r\nProbably the file is corrupted."
+	Declar_id_filemsg33,	"Mysterious file error!"
+	Declar_id_filemsg34,	"Unfortunately, %d objects could not be read from the file."
+	Declar_id_filemsg35,	"Obviously, the actual construction has not yet been saved.\r\n\nPlease save the construction before you export it \r\nto a HTML page!"
+	Declar_id_filemsg36,	"Obviously, this drawing has been changed since it was last saved.\r\nIf you proceed, the drawing will be exported in the state last saved, and not in the actual state.\r\n\nDo you really want to export the drawing in the old state?"
+	Declar_id_filemsg37,	"This drawing contains angle measurements in an outdated format.\r\nDynaGeo tried to convert them to into an actual format.\r\nBut if the drawing will not perform as expected, you must correct the errors manually.\r\nFor further details see the help file \"Reports from the workspace | The problem of measuring angles\"."
+	Declar_id_filemsg38,	"-- file message 38 --"
+	Declar_id_filemsg39,	"-- file message 39 --"
+	Declar_id_optmsg00,	"An input field contains invalid data."
+	Declar_id_optmsg01,	"- option message 01 -"
+	Declar_id_optmsg02,	"Could not reset the settings to their default values !"
+	Declar_id_optmsg03,	"Could not load the user settings !"
+	Declar_id_optmsg04,	"The settings were reset to their default values successfully."
+	Declar_id_optmsg05,	"The user settings were loaded successfully."
+	Declar_id_filemsg14,	"There were some wrong links found. DynaGeo tried to repair the data."
+	Declar_id_filemsg15,	"There were several problems during loading!"
+	Declar_id_filemsg16,	"The file \"%s\"\r\nhas an unknown format.\r\nPerhaps it was created with a newer version of EUKLID DynaGeo.\r\n\nPlease check if there is an update available at  http://www.dynageo.de/ !"
+	Declar_id_filemsg17,	"Cannot perform the automatic size check.\nThe objects of this drawing  might have wrong measures."
+	Declar_id_filemsg18,	"File type not clear!"
+	Declar_id_filemsg19,	" < unknown > "
+	Declar_id_filemsg20,	" < not saved yet > "
+	Declar_id_filemsg21,	"No data found!"
+	Declar_id_filemsg22,	"The file \"%s\"\r\ncould not be loaded correctly."
+	Declar_id_filemsg23,	"The file \"%s\"\r\ncontains an unreadable data header."
+	Declar_id_filemsg24,	"The file \"%s\"\r\ncontains no valid DynaGeo data."
+	Declar_id_filemsg25,	"\r\n\nObviously, the target file is write-protected.\r\nPlease change the filename or save the file to another folder\r\nwhere you have sufficient write access rights."
+	Declar_id_filemsg26,	"EUKLID DynaGeo cannot write files of type \"*%s\".\r\n\nPlease choose a valid file extension from the dialogue \"Save as...\"."
+	Declar_id_filemsg27,	"EUKLID DynaGeo can only import files in the deprecated GEOX-format.\r\nbut not write them any more.\r\n\nPlease save your construction to a file with another name\r\nand the extension \".geo\"."
+	Declar_id_filemsg28,	"The file \"%s\"\r\ncontains a fatal XML syntax error.\r\nThe loading of the construction has been aborted."
+	Declar_id_filemsg29,	"\r\n\nDo you want to look for it yourself?"
+	Declar_id_makmsg47,	"- makro message 47 -"
+	Declar_id_makmsg48,	"- makro message 48 -"
+	Declar_id_filemsg00,	"An unknown error occured while writing the file \r\n\"%s\" ."
+	Declar_id_filemsg01,	"Failed to sort the objects contained in the file \"%s\" ."
+	Declar_id_filemsg02,	"This drawing contains objects that cannot be exported to Geometria\r\n i.e. line segments of fixed length."
+	Declar_id_filemsg03,	"The filename's extension (\"%s\") does not match the \r\nselected file type filter (\"%s\").\r\n\nDo you want the filename to be changed to the extension \"%s\"?"
+	Declar_id_filemsg04,	"dd.mm.yyyy,  hh:mm "
+	Declar_id_filemsg05,	"Loading file \"%s\" ..."
+	Declar_id_filemsg06,	"The file \"%s\"\r\ncould not be found."
+	Declar_id_filemsg07,	"The program file is corrupt. Probably this is a virus attack or the file was damaged in another way.\r\nThe program is going to be closed.\r\n\nPlease download a new copy from  http://www.dynageo.com/ !"
+	Declar_id_filemsg08,	"The file \"%s\"\r\nis saved..."
+	Declar_id_filemsg09,	"The file \"%s\"\r\ncould not be written correctly."
+	Declar_id_filemsg10,	"\r\n\nPerhaps, it already exists and is write-protected,\r\nor you don't have sufficient rights in the target directory."
+	Declar_id_filemsg11,	"A file with this name already exists.\r\nShould it be overwritten?"
+	Declar_id_filemsg12,	"NONAME"
+	Declar_id_filemsg13,	"The actual construction may have been altered,\r\nbut not yet saved.\r\n\nDo you want to save it now?"
+	Declar_id_makmsg31,	"The macro \"%s\" has been created successfully;\r\na corresponding item has been added to the macro menu."
+	Declar_id_makmsg32,	"- makro message 32 -"
+	Declar_id_makmsg33,	"The macro recording has been aborted."
+	Declar_id_makmsg34,	"Macro No. "
+	Declar_id_makmsg35,	"-- No help available! --"
+	Declar_id_makmsg36,	"An expression in this macro could not be calculated."
+	Declar_id_makmsg37,	"The number of vertices of this polygon (%d) does not match the\r\nexpected number of vertices (%d).\r\n\nThe macro is aborted."
+	Declar_id_makmsg38,	"There is no macro registered with this menue item.\r\nPlease delete all macros, close EUKLID DynaGeo and restart the program!"
+	Declar_id_makmsg39,	"The macro is invalid, because it doesn't contain any start objects."
+	Declar_id_makmsg40,	"The macro is invalid, because it doesn't contain any target objects."
+	Declar_id_makmsg41,	"The file contains an invalid macro that could not be loaded."
+	Declar_id_makmsg42,	"You cannot use this object as a macro start object."
+	Declar_id_makmsg43,	"- makro message 45 -"
+	Declar_id_makmsg44,	"- makro message 44 -"
+	Declar_id_makmsg45,	"- makro message 45 -"
+	Declar_id_makmsg46,	"- makro message 46 -"
+	Declar_id_makmsg15,	"- makro message 15 -"
+	Declar_id_makmsg16,	"No macro loaded !"
+	Declar_id_makmsg17,	"Could not find the macro file \"%s\" !"
+	Declar_id_makmsg18,	"The macro file \"%s\"\r\nhas an unknown format !"
+	Declar_id_makmsg19,	"The macro \"%s\"\r\nhas just been recorded and is going to be saved with the actual construction.\r\nIn order to make it available to other constructions too, you must export it into an extra \"*.mak\"-file.\r\n\nDo you want to export your macro now? "
+	Declar_id_makmsg20,	"Help to macro \"%s\""
+	Declar_id_makmsg21,	"An unknown macro error has occured.\r\nPlease, delete the macro and create it once again!"
+	Declar_id_makmsg22,	"- makro message 22 -"
+	Declar_id_makmsg23,	"- makro message 23 -"
+	Declar_id_makmsg24,	"- makro message 24 -"
+	Declar_id_makmsg25,	"Macro : "
+	Declar_id_makmsg26,	"This target object cannot be derived from the start objects.\r\nThe macro recording is aborted."
+	Declar_id_makmsg27,	"An object cannot be both a start object and a target object at the same time!"
+	Declar_id_makmsg28,	"Could not execute the macro correctly!"
+	Declar_id_makmsg29,	"All start objects entered..."
+	Declar_id_makmsg30,	"All target objects entered..."
+	Declar_id_mess159,	""
+	Declar_id_makmsg00,	". start object: "
+	Declar_id_makmsg01,	"Enter a point!"
+	Declar_id_makmsg02,	"Enter a line segment!"
+	Declar_id_makmsg03,	"Enter a straight line or a line segment!"
+	Declar_id_makmsg04,	"Enter a circle!"
+	Declar_id_makmsg05,	"Enter a polygon with %d vertices!"
+	Declar_id_makmsg06,	"Enter a conic!"
+	Declar_id_makmsg07,	"- makro message 07 -"
+	Declar_id_makmsg08,	"- makro message 08 -"
+	Declar_id_makmsg09,	"- makro message 09 -"
+	Declar_id_makmsg10,	"- makro message 10 -"
+	Declar_id_makmsg11,	"- makro message 11 -"
+	Declar_id_makmsg12,	"- makro message 12 -"
+	Declar_id_makmsg13,	"- makro message 13 -"
+	Declar_id_makmsg14,	"- makro message 14 -"
+	Declar_id_mess143,	"An expression holds a link to an area that DynaGeo cannot calculate\r\nexactly. So an estimated value is used. It is explicitly recommended\r\nnot to use this unsecure value in your further construction.\r\n\nDo you nevertheless want DynaGeo to use this expression?"
+	Declar_id_mess144,	"The new configuration file for the user options was\r\ncreated successfully."
+	Declar_id_mess145,	"DynaGeo failed to create the new configuration file for the user options."
+	Declar_id_mess146,	"With this expression you finished to define a recursive function.\r\nBut those functions often show bad performance at runtime:\r\nthe computer may even \"freeze\" for hours!\r\nYou should start this adventure only if you really\r\nknow what you are doing.\r\n\nDo you want DynaGeo to try to show this function?"
+	Declar_id_mess147,	"The entered function term seems to produce no valid values.\r\nSo no function object can be created.\r\n\nPlease change the term to a valid one!"
+	Declar_id_mess148,	"Changes to the \"Expert options\" can result in severe changes to the behaviour of the program or your drawing.\r\nSo you should open the following window only if you really know what you are doing.\r\n\nDo you really want to edit the \"Expert options\"?"
+	Declar_id_mess149,	"From the %s objects of the drawing, %s cannot be handled correctly by\r\nthe actual JAVA viewer.\r\n\nList of these unexportable objects (marked green in the drawing):\r\n"
+	Declar_id_mess150,	"Do you want to export the drawing nevertheless?"
+	Declar_id_mess151,	"DynaGeo will interpret the angle width entered as radians.\r\nIf you however want the value to mean degrees, then please add a degree sign (°). \r\n\nDo you really want to enter the value without a final degree sign?"
+	Declar_id_mess152,	"The expression entered seems to describe an angle or a sum of angles.\r\nDo you want the term value to be displayed in degrees?"
+	Declar_id_mess153,	"It seems that all the locus line points lie on a conic.\r\n\nDo you want DynaGeo to try to substitute the original locus line by this conic?"
+	Declar_id_mess154,	""
+	Declar_id_mess155,	""
+	Declar_id_mess156,	""
+	Declar_id_mess157,	""
+	Declar_id_mess158,	""
+	Declar_id_mess127,	"This HTML file contains several <object>-tags for the DynaGeoX-Viewer.\r\nSo, no \"Text above the DynaGeoX object\" can be found."
+	Declar_id_mess128,	"This HTML file contains several <object>-tags for the DynaGeoX-Viewer.\r\nSo, no \"Text above the DynaGeoX object\" can be found."
+	Declar_id_mess129,	"The coordinate system has been invisible before.\r\nDo you want DynaGeo to hide it again?"
+	Declar_id_mess130,	" Number of vertices : "
+	Declar_id_mess131,	"This number of vertices is invalid.\r\nDynaGeo can only construct regular polygons with at least 3\r\nand at most 100 vertices.\r\n\nThe command is aborted."
+	Declar_id_mess132,	"This term contains at least one invalid @-variable.\r\nValid variable names are:  @1, @2, @3,.... @9."
+	Declar_id_mess133,	" Number of subintervals : "
+	Declar_id_mess134,	"Show the mapping's matrix"
+	Declar_id_mess135,	"The expressions of the matrix coefficients are determined by the parent objects of this mapping. So they cannot be edited directly."
+	Declar_id_mess136,	"Edit the mapping's matrix"
+	Declar_id_mess137,	"You can edit the coefficients of the mapping. Please insert the appropriate expressiions!"
+	Declar_id_mess138,	"This function has a rather big variation in its values. To draw the graph of such\r\na function may be a time-consuming task for any function plotter.\r\n\nPlease zoom up the drawing or reduce the interval of the x-values, so only a\r\nsmaller part of the graph has to be rendered.\r\n\nFor further details please see the DynaGeo help file."
+	Declar_id_mess139,	"\"%s\" is not a valid expression."
+	Declar_id_mess140,	"The point %s cannot take over all objects depending from the point %s, because he himself\r\nbelongs to these objects. This would cause a circular reference!\r\nFor further details see the help file.\r\n\nThe command is aborted."
+	Declar_id_mess141,	" Edit the x - co-ordinate :"
+	Declar_id_mess142,	"This area does not have a finite measure."
+	Declar_id_mess111,	"The correctness check could not be properly initialized.\r\n\nPerhaps the construction is corrupted, or\r\nthere were wrong destination objects entered."
+	Declar_id_mess112,	"Well done !!!"
+	Declar_id_mess113,	"This construction is correct."
+	Declar_id_mess114,	"Sorry !"
+	Declar_id_mess115,	"This construction is wrong."
+	Declar_id_mess116,	"The condition of correctness is still invalid:\r\nthe number of closing brackets does not match the number of opening brackets."
+	Declar_id_mess117,	"There is still a syntax error in the condition of correctness."
+	Declar_id_mess118,	"<b><i>Help:</i></b> (Click on the arrow!)<br><hr><br>{ Please insert your own help text here! }"
+	Declar_id_mess119,	"The viewer window seems to be rather big. Eventually, on some screens this may lead to display problems.\r\n\nDo you still want to keep it this way?"
+	Declar_id_mess120,	"The file \"%s\" \r\ndoes not exist yet.\r\n\nDo you still want to keep the link \"%s\" ?"
+	Declar_id_mess121,	"The condition of correctness is empty. If your construction already contains a correctness check, it will be deleted.\r\n\nDo you really want to continue?"
+	Declar_id_mess122,	"Deleting this object will invalidate the existing correctness check of your construction. So it is going to be deleted too.\r\n\nDo you really want to continue?"
+	Declar_id_mess123,	"Deleting this object will invalidate the existing correctness check of your construction.\r\nFurthermore, there are other objects depending on the object you are going to delete.\r\n\nDo you really want to continue?"
+	Declar_id_mess124,	"The given target file path \r\n   \"%s\"\r\nis not valid yet.\r\n\nDo you still want to keep it?"
+	Declar_id_mess125,	"You must enter a text to be displayed and a valid relative path to the target file.\r\n\nPlease enter these data completely."
+	Declar_id_mess126,	"This line does not enclose a measurable area."
+	Declar_id_mess95,	" Function expression f(x) = "
+	Declar_id_mess96,	"The point %s is a point of tangency on a curve.\r\nUnbinding the point %s from the curve will result in deleting not only the tangent but all objects depending on it.\r\n\nDo you really want to continue?"
+	Declar_id_mess97,	"shear"
+	Declar_id_mess98,	"simple orthogonal elongation"
+	Declar_id_mess99,	"shear reflection"
+	Declar_id_mess100,	"affine transformation"
+	Declar_id_mess101,	"scaling"
+	Declar_id_mess102,	"affine rotation"
+	Declar_id_mess103,	"general affine mapping"
+	Declar_id_mess104,	"No conics"
+	Declar_id_mess105,	"The locus could not be converted to a standard locus line."
+	Declar_id_mess106,	"The locus was successfully converted to a standard locus line."
+	Declar_id_mess107,	"You try to turn off the standard curve representation of a locus line.\r\nThis will delete all of the objects that depend on that standard line.\r\n\nDo you really want to proceed?"
+	Declar_id_mess108,	"The standard curve representation of this locus line has been turned off."
+	Declar_id_mess109,	"An expression contains a syntax error."
+	Declar_id_mess110,	"At this spot there are %d crossing lines.\r\n\nIf you want to create an intersection point of 2 lines, then please use the command\r\nBefehl \"Intersection of 2 lines\" and indicate the lines to be intersected.\r\n\nIf you want to create a free basis point, then\r\nyou can repeat the actual command. But please click at another spot of the drawing where there is more free space.\r\nLater you can drag the new point to any desired spot in the drawing."
+	Declar_id_mess79,	"This command will abort the currently running command."
+	Declar_id_mess80,	"\r\nDo you really want to do this ?"
+	Declar_id_mess81,	"This command will abort the current recording of a locus line."
+	Declar_id_mess82,	"This command will abort the currently running creation of a polygon."
+	Declar_id_mess83,	"This command will abort the currently running macro execution."
+	Declar_id_mess84,	"This command will abort the currently running macro recording."
+	Declar_id_mess85,	"This expression is invalid.\r\nIt contains a link, that causes a circular reference."
+	Declar_id_mess86,	"No mapping object found!"
+	Declar_id_mess87,	"An unknown error occured."
+	Declar_id_mess88,	"As in the meantime you used the former name of this object  \"%s\" to name another one, \r\nthe revived object must be renamed. So it's present name will be \"%s\"."
+	Declar_id_mess89,	"The name must contain at least one letter.\r\nEmpty names are not allowed."
+	Declar_id_mess90,	" Expression : "
+	Declar_id_mess91,	" Group \"%s\" "
+	Declar_id_mess92,	"This point cannot be converted to a free basis point because\r\nthis could lead to a circular reference."
+	Declar_id_mess93,	"The co-ordinate system is contained in a group that decides about its visibility. Actually,:\r\nall the members of the group are hidden. So the visibility dialog of the co-ordinate system is deactivated too.\r\n\nIf you still insist on calling it, the co-ordinate system will be removed from all visibility groups.\r\nDo you want DynaGeo to do this now?"
+	Declar_id_mess94,	"The co-ordinate system is contained in a group that decides about its visibility. So in the properties dialog\r\nof the co-ordinate system the visibility items are deactivated. They will return\r\n\nto active status when you remove the co-ordinate system from the group \"%s\"."
+	Declar_id_mess63,	"Please have a look at the DynaGeo homepage (www.dynageo.de)\r\nif perhaps an update is available."
+	Declar_id_mess64,	"A valid group must contain at least one object, but the actual group is empty.\r\n\nDo you want to delete the group \"%s\" ?"
+	Declar_id_mess65,	"Please give a unique name to the group!"
+	Declar_id_mess66,	"This name contains an invalid character."
+	Declar_id_mess67,	"This name is already used for another object."
+	Declar_id_mess68,	"( is read only )"
+	Declar_id_mess69,	"( can be edited )"
+	Declar_id_mess70,	"The actual mapping cannot be applied to this object."
+	Declar_id_mess71,	"Fatal GEO object link error. Please close EUKLID DynaGeo."
+	Declar_id_mess72,	"New menu configuration (%s)"
+	Declar_id_mess73,	"Edit group \"%s\""
+	Declar_id_mess74,	"Create a new group"
+	Declar_id_mess75,	"Only compass and rulers"
+	Declar_id_mess76,	"No measures"
+	Declar_id_mess77,	"No mappings, no conics"
+	Declar_id_mess78,	"The group \"%s\" could not be found!"
+	Declar_id_mess47,	"Such an object already existed as a hidden object;\r\nit has been made visible again."
+	Declar_id_mess48,	"Obviously this file was created on a computer with higher screen resolution\r\nfor it contains objects outside the screen range available here.\r\n\nDynaGeo will try to move these objects into the visible area of your screen. Nevertheless\r\n it's possible that they appear only after you switched the DynaGeo window to full screen mode."
+	Declar_id_mess49,	"This file contains objects outside the actual window that cannot be made visible by zooming.\r\n\nThey appear only after you enlarged the DynaGeo window or\r\nswitched to full screen mode."
+	Declar_id_mess50,	"Standard  ( all commands available )"
+	Declar_id_mess51,	"You have added %d commands to the viewer window, but the actual window\r\ncan hold %d commands at the most.\r\r\nEither you enlarge the height of the viewer window,\r\nor you reduce the number of commands."
+	Declar_id_mess52,	"Please make sure that the viewer window in the appropriate HTML page is large enough\r\nto hold all activated commands!"
+	Declar_id_mess53,	"Show the big logo"
+	Declar_id_mess54,	"Show the small logo"
+	Declar_id_mess55,	"Select object..."
+	Declar_id_mess56,	" Length of segment : "
+	Declar_id_mess57,	"Select macro..."
+	Declar_id_mess58,	"Edit term %s"
+	Declar_id_mess59,	"Invalid boolean condition!"
+	Declar_id_mess60,	"Perhaps this construction was created with a newer version of DynaGeo.\r\n"
+	Declar_id_mess61,	"It contains some unknown objects. These have been deactivated, so\r\nthe construction will appear incomplete.\r\r\n"
+	Declar_id_mess62,	"It contains some unknown objects from which some further objects depend.\r\nAll of these objects have been deactivated, so this version of DynaGeo cannot show this construction.\r\r\n"
+	Declar_id_mess31,	"The selected global menue configuration could not be registered as standard menue configuration!"
+	Declar_id_mess32,	"The actual options could not be registered as standard options!"
+	Declar_id_mess33,	"The current value is invalid."
+	Declar_id_mess34,	"An empty expression is not allowed here."
+	Declar_id_mess35,	" Radius of circle : "
+	Declar_id_mess36,	" Angle width : "
+	Declar_id_mess37,	"In (such) an empty drawing no replay is necessary."
+	Declar_id_mess38,	"The data were written successfully to the initialisation file."
+	Declar_id_mess39,	"The network options could not be saved!"
+	Declar_id_mess40,	"This will register the actual user options of the Administrator as standard options for all users.\r\n\nDo you really want to do this?"
+	Declar_id_mess41,	"The co-ordinate system cannot be deleted but hidden. Only the fixations of base points will be deleted.\r\n\nDo you really want to convert all points with fixed co-ordinates to base points?"
+	Declar_id_mess42,	"This textbox is not snapped to an object,\r\nso there is nothing to unsnap."
+	Declar_id_mess43,	"This point is bound  to another \"non base\" point by a segment of fixed length;\r\nin this case, no more binding is possible. "
+	Declar_id_mess44,	"No registered, valid step of construction to undo."
+	Declar_id_mess45,	"No deleted objects remain."
+	Declar_id_mess46,	"Error while updating the registration of DynaGeoX!"
+	Declar_id_mess15,	"The input objects must all be different from one another."
+	Declar_id_mess16,	"Such an object already exists and cannot be created once more."
+	Declar_id_mess17,	"All of this locus line's points seem to lie on a straight line.\r\n\nShould DynaGeo try to use and show this line instead of the locus line?"
+	Declar_id_mess18,	"All of this locus line's points seem to lie on a circle.\r\n\nShould DynaGeo try to use and show this circle instead of the locus line?"
+	Declar_id_mess19,	"The line could not be created.\nYou must redraw the line while pressing the left mouse button."
+	Declar_id_mess20,	"The circle could not be created.\nYou must redraw the circle while pressing the left mouse button."
+	Declar_id_mess21,	"The running replay will be aborted."
+	Declar_id_mess22,	"The drag mode update strategy has been changed to \"continual\".\r\n\nPlease note that this new setting is valid only for the actual drawing!"
+	Declar_id_mess23,	"The drag mode update strategy has been changed to \"deterministic\".\r\n\nThis is the standard setting that will be valid for every new drawing too."
+	Declar_id_mess24,	"Animations can be controlled by certain types of objects,\r\ni.e. by a number object or a base point bound to a line segment or a circle.\r\n\nUnfortunately, your drawing does not contain an appropriate object yet."
+	Declar_id_mess25,	"Edit number object %s"
+	Declar_id_mess26,	"Unknown command !"
+	Declar_id_mess27,	"Wrong object type!"
+	Declar_id_mess28,	"Abstrakte Methode (%s) aufgerufen!"
+	Declar_id_mess29,	"The selected global menue configuration could not be moved into the\r\nlist of the private menue configurations!"
+	Declar_id_mess30,	"The selected private menue configuration could not be moved into the\r\nlist of the global menue configurations!"
+	Declar_id_hint119,	""
+	Declar_id_mess00,	"- message 00 -"
+	Declar_id_mess01,	"Do you really want to delete all the marked objects?"
+	Declar_id_mess02,	"Enter all producing points..."
+	Declar_id_mess03,	"To avoid a circular reference, a point had to be released from the line it was bend to."
+	Declar_id_mess04,	"These two points are too closed together !"
+	Declar_id_mess05,	"The newly created line segment is invalid because its 2 endpoints lie inconvenient to each other.\r\nThe segment will become visible when you drag the endpoints to a better position."
+	Declar_id_mess06,	"This segment of fixed length cannot be created because it would cause a circular reference.\r\n\nDo you want to create a normal line segment instead?"
+	Declar_id_mess07,	"%s on %s"
+	Declar_id_mess08,	"This point cannot be snapped to that line, because their family relation is too close !"
+	Declar_id_mess09,	"You changed the colour of one axis of the co-ordinate system.\r\nDo you want the whole co-ordinate system to appear in this new colour?"
+	Declar_id_mess10,	" <  invalid  > "
+	Declar_id_mess11,	"Could not measure the angle !"
+	Declar_id_mess12,	"All hidden objects will be made permanent visible.\r\nThis can only be reversed by hiding all the objects one by one individually.\r\n\nDo you really want to make all hidden objects visible?"
+	Declar_id_mess13,	"There are no (more) valid hidden objects."
+	Declar_id_mess14,	"Sorry, this command is not available yet."
+	Declar_id_hint103,	"Specify the 2 endpoints of the line segment."
+	Declar_id_hint104,	"Specify the number of vertizes for the regular polygon."
+	Declar_id_hint105,	"Specify the border function and the interval of integration (2 points)!"
+	Declar_id_hint106,	"Specify the number of intervals and the kind of the Riemann sum."
+	Declar_id_hint107,	"Specify a segment for the radius, and then the centre point."
+	Declar_id_hint108,	"Specify the point you want to convert to a free basis point."
+	Declar_id_hint109,	"Specify the 2 points you want to join together."
+	Declar_id_hint110,	"Enter the new x - co-ordinate."
+	Declar_id_hint111,	"Click at the spot where the lattice point should be created."
+	Declar_id_hint112,	""
+	Declar_id_hint113,	""
+	Declar_id_hint114,	""
+	Declar_id_hint115,	""
+	Declar_id_hint116,	""
+	Declar_id_hint117,	""
+	Declar_id_hint118,	""
+	Declar_id_hint87,	"Specify the focal point and the directrix."
+	Declar_id_hint88,	"Specify the 2 focal points and 1 point on the hyperbola."
+	Declar_id_hint89,	"Specify the first point on the parabola and the direction of the appropriate tangent!"
+	Declar_id_hint90,	"Specify the second point on the parabola and then the direction of the appropriate tangent!"
+	Declar_id_hint91,	"Specify the 2 asymptotes and 1 point on the hyperbola!"
+	Declar_id_hint92,	"Specify the object to map."
+	Declar_id_hint93,	"Specify the (upper) border function and the interval of integration (2 points)!"
+	Declar_id_hint94,	"Specify the lower border function or click on the x-axis!"
+	Declar_id_hint95,	"Specify the target object(s)!"
+	Declar_id_hint96,	"Specify the curve in which the tangent should be drawn."
+	Declar_id_hint97,	"Specify the curve in which the normal should be drawn."
+	Declar_id_hint98,	"Specify 3 points through which the circle line should run."
+	Declar_id_hint99,	"Specify 2 points or circles."
+	Declar_id_hint100,	"Specify the polar point and the conic."
+	Declar_id_hint101,	"Specify the polar line and the conic."
+	Declar_id_hint102,	"Specify the area that should be measured."
+	Declar_id_hint71,	"Specify the half plane you want to fill!"
+	Declar_id_hint72,	"Specify the textbox you want to unsnap!"
+	Declar_id_hint73,	"Specify the area you want to move to the foreground!"
+	Declar_id_hint74,	"First choose the object that should control the animation!"
+	Declar_id_hint75,	"Animation running..."
+	Declar_id_hint76,	"Specify the line the point should be snapped to!"
+	Declar_id_hint77,	"Specify 5 points the conic should run through!"
+	Declar_id_hint78,	"Secify a point and 2 lines on which the ends of the segment should lie."
+	Declar_id_hint79,	"Click on an object to add it to the group or remove it."
+	Declar_id_hint80,	"Edit group properties..."
+	Declar_id_hint81,	"Specify the function term!"
+	Declar_id_hint82,	"Specify the tangent point!"
+	Declar_id_hint83,	"Specify the curve point where the normal should be drawn."
+	Declar_id_hint84,	"Specify the 2 focal points and 1 point on the ellipse."
+	Declar_id_hint85,	"Specify the centre point, a vertex and a point on the minor auxiliary circle."
+	Declar_id_hint86,	"Specify the centre point and 2 conjugate points on the ellipse."
+	Declar_id_hint55,	"Specify the object to reflect and the reflection centre."
+	Declar_id_hint56,	"Specify a point and the reflected point."
+	Declar_id_hint57,	"Specify the object to be reflected (point, line or circle) and the circle it should be reflected in."
+	Declar_id_hint58,	"Enter the number range and the actual value of the number object."
+	Declar_id_hint59,	"Enter the location where the number object should appear."
+	Declar_id_hint60,	" (%s preselected)"
+	Declar_id_hint61,	"Click the spot where the expression object should appear."
+	Declar_id_hint62,	"Enter a new expression or edit the existing one."
+	Declar_id_hint63,	"Specify a point, the dilation centre point and the image of the first point."
+	Declar_id_hint64,	"Specify the object to dilate, the dilation centre and the dilation factor."
+	Declar_id_hint65,	"You can stop the object's blinking by pressing ESC."
+	Declar_id_hint66,	"Choose the textbox to edit!"
+	Declar_id_hint67,	"Specify the textbox and then the object the box should be snapped to."
+	Declar_id_hint68,	"Specify the object the textbox should be snapped to."
+	Declar_id_hint69,	"Specify the border of the area to fill, or click an existing filling."
+	Declar_id_hint70,	"Specify the area, then the cut line, and at last choose the part you want to keep!"
+	Declar_id_hint39,	"Specify a free basis point."
+	Declar_id_hint40,	"Specify a co-ordinate point."
+	Declar_id_hint41,	"Specify a free basis point or a co-ordinate point."
+	Declar_id_hint42,	"Specify a point on the 1st side and the vertex point."
+	Declar_id_hint43,	"Specify the line segment to measure."
+	Declar_id_hint44,	"Define a point on the 1st side and the vertex."
+	Declar_id_hint45,	"Specify the starting point of the arc, its midpoint and a point marking its end."
+	Declar_id_hint46,	"Specify a polygon."
+	Declar_id_hint47,	"Specify the object and the line to reflect the object in."
+	Declar_id_hint48,	"Specify the starting point of the ray and a point indicating its direction."
+	Declar_id_hint49,	"Edit..."
+	Declar_id_hint50,	"Specify a point and the corresponding translated point."
+	Declar_id_hint51,	"Specify the object to translate and the translation vector."
+	Declar_id_hint52,	"Specify a point to rotate, the center of rotation and the rotated point."
+	Declar_id_hint53,	"Specify the object to rotate, the center and the angle of rotation."
+	Declar_id_hint54,	"Specify the start point and the end point of the vector, or specify the start point and a \"parent vector\" ."
+	Declar_id_hint23,	"Enter a value (or an expression) for the radius."
+	Declar_id_hint24,	"Specify the midpoint."
+	Declar_id_hint25,	"Enter a value for the length of the line segment."
+	Declar_id_hint26,	"Specify the starting point and a point indicating the direction."
+	Declar_id_hint27,	"Enter a value for the size of the angle."
+	Declar_id_hint28,	"Specify a point on the 1st side, the vertex and the orientation."
+	Declar_id_hint29,	"Specify the line on which you wish to create a point."
+	Declar_id_hint30,	"Specify an angle (directly or by entering 3 defining points)."
+	Declar_id_hint31,	"Specify the object you wish to name."
+	Declar_id_hint32,	"Specify the object you wish to delete."
+	Declar_id_hint33,	"Specify the object you wish to hide / to show."
+	Declar_id_hint34,	"Specify the vertices of the polygon."
+	Declar_id_hint35,	"Enter the expressions that shall be watched."
+	Declar_id_hint36,	"Specify the (new) position of the co-ordinate system's origin."
+	Declar_id_hint37,	"Specify the object to be edited."
+	Declar_id_hint38,	"Enter the expressions for the point's co-ordinates."
+	Declar_id_hint07,	"Draw a straight line."
+	Declar_id_hint08,	"Draw a circle."
+	Declar_id_hint09,	"Specify a point."
+	Declar_id_hint10,	"Specify 2 lines."
+	Declar_id_hint11,	"Specify a line segment (or 2 points)."
+	Declar_id_hint12,	"Specify the point to mirror and the centre or axis of symmetry, respectively. "
+	Declar_id_hint13,	"Specify a point on the 1st side, a vertex and a point on the 2nd side."
+	Declar_id_hint14,	"Specify a point and a line (or line segment)."
+	Declar_id_hint15,	"Specify the start objects."
+	Declar_id_hint16,	"Specify a basis point and a line."
+	Declar_id_hint17,	"Specify a point snapped to a line."
+	Declar_id_hint18,	"Specify 2 objects."
+	Declar_id_hint19,	"Move the drawing."
+	Declar_id_hint20,	"Specify the point the trace of which you want to record."
+	Declar_id_hint21,	"Drag a basis point...."
+	Declar_id_hint22,	"Replay : "
+	ComStrs_sTabFailDelete,	"Could not delete register page with index %d"
+	ComStrs_sTabFailRetrieve,	"Register page with index %d could not be read"
+	ComStrs_sTabFailGetObject,	"Object with index %d could not be read"
+	ComStrs_sTabFailSet,	"Register page  \"%s\" with index %d could not be set"
+	ComStrs_sTabFailSetObject,	"Failed to set object with index %d"
+	ComStrs_sTabMustBeMultiLine,	"For TabPosition tpLeft and tpRight the value of MultiLine must be True"
+	ComStrs_sPageIndexError,	"%d is an invalid PageIndex. PageIndex must lie between 0 and %d"
+	Declar_id_picname,	"Image"
+	Declar_id_and,	" and "
+	Declar_id_hint00,	"Drag mode"
+	Declar_id_hint01,	"Specify any object."
+	Declar_id_hint02,	"Create a point (by clicking)."
+	Declar_id_hint03,	"Specify start and terminal point of the line segment."
+	Declar_id_hint04,	"Specify 2 points."
+	Declar_id_hint05,	"Specify centre point and peripheral point."
+	Declar_id_hint06,	"Specify the 3 vertex points."
+	Consts_SNameInactiveCaption,	"Inactive caption"
+	Consts_SNameInactiveCaptionText,	"Inactive caption text"
+	Consts_SNameInfoBk,	"Info background"
+	Consts_SNameInfoText,	"Info text"
+	Consts_SNameMenu,	"Menu background"
+	Consts_SNameMenuBar,	"Menu bar"
+	Consts_SNameMenuHighlight,	"Highlighted menu"
+	Consts_SNameMenuText,	"Menu text"
+	Consts_SNameNone,	"None"
+	Consts_SNameScrollBar,	"Scrollbar"
+	Consts_SName3DDkShadow,	"3D dark shadow"
+	Consts_SName3DLight,	"3D light"
+	Consts_SNameWindow,	"Window background"
+	Consts_SNameWindowFrame,	"Window frame"
+	Consts_SNameWindowText,	"Window text"
+	ComStrs_sTabFailClear,	"Register elements could not be unloaded"
+	Consts_SNameActiveCaption,	"Active caption"
+	Consts_SNameAppWorkSpace,	"Work space"
+	Consts_SNameBackground,	"Background"
+	Consts_SNameBtnFace,	"Button background"
+	Consts_SNameBtnHighlight,	"Highlighted button"
+	Consts_SNameBtnShadow,	"Button shadow"
+	Consts_SNameBtnText,	"Button text"
+	Consts_SNameCaptionText,	"Caption text"
+	Consts_SNameDefault,	"Standard"
+	Consts_SNameGradientActiveCaption,	"Gradient of active caption"
+	Consts_SNameGradientInactiveCaption,	"Gradient of inactive caption"
+	Consts_SNameGrayText,	"Gray text"
+	Consts_SNameHighlight,	"Highlighted background"
+	Consts_SNameHighlightText,	"Highlighted text"
+	Consts_SNameHotLight,	"Light"
+	Consts_SNameInactiveBorder,	"Inactive frame"
+	Consts_SNamePurple,	"Purple"
+	Consts_SNameTeal,	"Teal"
+	Consts_SNameGray,	"Gray"
+	Consts_SNameSilver,	"Silver"
+	Consts_SNameRed,	"Red"
+	Consts_SNameLime,	"Lime"
+	Consts_SNameYellow,	"Yellow"
+	Consts_SNameBlue,	"Blue"
+	Consts_SNameFuchsia,	"Fuchsia"
+	Consts_SNameAqua,	"Aquamarin"
+	Consts_SNameWhite,	"White"
+	Consts_SNameMoneyGreen,	"Money green"
+	Consts_SNameSkyBlue,	"Sky blue"
+	Consts_SNameCream,	"Cream"
+	Consts_SNameMedGray,	"Medium gray"
+	Consts_SNameActiveBorder,	"Active border"
+	Consts_SASCIIEncoding,	"ASCII"
+	Consts_SUnicodeEncoding,	"Unicode"
+	Consts_SBigEndianEncoding,	"Big Endian Unicode"
+	Consts_SUTF8Encoding,	"UTF-8"
+	Consts_SUTF7Encoding,	"UTF-7"
+	Consts_SPageControlNotSet,	"PageControl must be assigned first"
+	Consts_SWindowsVistaRequired,	"For %s Windows Vista or higher is needed"
+	Consts_SXPThemesRequired,	"For %s activated themes are needed"
+	Consts_STaskDlgButtonCaption,	"Button%d"
+	Consts_STaskDlgRadioButtonCaption,	"RadioButton%d"
+	Consts_SInvalidTaskDlgButtonCaption,	"Caption mus not be empty"
+	Consts_SNameBlack,	"Black"
+	Consts_SNameMaroon,	"Maroon"
+	Consts_SNameGreen,	"Green"
+	Consts_SNameOlive,	"Olive"
+	Consts_SNameNavy,	"Navy"
+	Consts_SPreviewLabel,	"Preview"
+	Consts_SDockedCtlNeedsName,	"Docked control element needs a name."
+	Consts_SDockTreeRemoveError,	"Error removing the control element from the docking tree"
+	Consts_SDockZoneNotFound,	" - docking zone not found"
+	Consts_SDockZoneHasNoCtl,	" - docking zone contains no control element"
+	Consts_SDockZoneVersionConflict,	"Error loading the docking zone from the stream. Version %d expected, but %d found."
+	Consts_SColorBoxCustomCaption,	"Individual..."
+	Consts_SKeyCaption,	"Key"
+	Consts_SValueCaption,	"Value"
+	Consts_SKeyConflict,	"Key with name \"%s\" exists already"
+	Consts_SKeyNotFound,	"Key \"%s\" not found"
+	Consts_SNoColumnMoving,	"goColumnMoving is not supported"
+	Consts_SNoEqualsInKey,	"Key must not contain an Equals sign (\"=\")."
+	Consts_SErrorSettingCount,	"Error setting  %s.Count"
+	Consts_SListBoxMustBeVirtual,	"The listbox style of (%s) must be virtual sein to enable setting Count"
+	Consts_SANSIEncoding,	"ANSI"
+	Consts_SmkcCtrl,	"Ctrl+"
+	Consts_SmkcAlt,	"Alt+"
+	Consts_srNone,	"(None)"
+	Consts_SOutOfRange,	"Value must lie between %d and %d"
+	Consts_sAllFilter,	"All"
+	Consts_SInsertLineError,	"Cannot insert line"
+	Consts_SInvalidClipFmt,	"Invalid clipboard format"
+	Consts_SIconToClipboard,	"Clipboard does not support icons"
+	Consts_SCannotOpenClipboard,	"Clipboard cannot be opened: %s"
+	Consts_SDefault,	"Default"
+	Consts_SInvalidMemoSize,	"Text exceeds memo size"
+	Consts_SInvalidPrinterOp,	"Operation not available on the selected printer"
+	Consts_SNoDefaultPrinter,	"At the moment there is no default printer."
+	Consts_SDuplicateMenus,	"Menu '%s' already used by another form"
+	Consts_SPictureLabel,	"Graphic:"
+	Consts_SPictureDesc,	" (%dx%d)"
+	Consts_SmkcBkSp,	"Back"
+	Consts_SmkcTab,	"Tab"
+	Consts_SmkcEsc,	"Esc"
+	Consts_SmkcEnter,	"Enter"
+	Consts_SmkcSpace,	"Space"
+	Consts_SmkcPgUp,	"PageUp"
+	Consts_SmkcPgDn,	"PageDn"
+	Consts_SmkcEnd,	"End"
+	Consts_SmkcHome,	"Pos1"
+	Consts_SmkcLeft,	"Left"
+	Consts_SmkcUp,	"Up"
+	Consts_SmkcRight,	"Right"
+	Consts_SmkcDown,	"Down"
+	Consts_SmkcIns,	"Insert"
+	Consts_SmkcDel,	"Del"
+	Consts_SmkcShift,	"Shift+"
+	Consts_SMsgDlgWarning,	"Warning"
+	Consts_SMsgDlgError,	"Error"
+	Consts_SMsgDlgInformation,	"Information"
+	Consts_SMsgDlgConfirm,	"Confirm"
+	Consts_SMsgDlgYes,	"&Yes"
+	Consts_SMsgDlgNo,	"&No"
+	Consts_SMsgDlgOK,	"OK"
+	Consts_SMsgDlgCancel,	"Cancel"
+	Consts_SMsgDlgHelp,	"&Help"
+	Consts_SMsgDlgAbort,	"&Abort"
+	Consts_SMsgDlgRetry,	"&Repeat"
+	Consts_SMsgDlgIgnore,	"&Ignore"
+	Consts_SMsgDlgAll,	"&All"
+	Consts_SMsgDlgNoToAll,	"No to &all"
+	Consts_SMsgDlgYesToAll,	"Yes to a&ll"
+	Consts_SMsgDlgClose,	"&Close"
+	Consts_SAbortButton,	"Abort"
+	Consts_SAllButton,	"&All"
+	Consts_SCannotDragForm,	"Forms cannot be dragged"
+	Consts_SVMetafiles,	"Metafiles"
+	Consts_SVEnhMetafiles,	"Enhanced metafiles"
+	Consts_SVIcons,	"Icons"
+	Consts_SVBitmaps,	"Bitmaps"
+	Consts_SVTIFFImages,	"TIFF Graphics"
+	Consts_SGridTooLarge,	"Gitter zu groß für Operation"
+	Consts_STooManyDeleted,	"Deleted too much rows or columns"
+	Consts_SIndexOutOfRange,	"Grid index out of range"
+	Consts_SFixedColTooBig,	"The number of fixed columns must be less than the number of columns."
+	Consts_SFixedRowTooBig,	"The number of fixed rows must be less than the number of rows."
+	Consts_SInvalidStringGridOp,	"No rows can be deleted or inserted in this string grid."
+	Consts_SMaskErr,	"Invalid input value"
+	Consts_SMaskEditErr,	"Invalid input value. You can undo the changes by pressing the ESC key."
+	Consts_SPrinting,	"The printer is printing..."
+	Consts_SPrinterIndexError,	"Printer index out of range"
+	Consts_SInvalidPrinter,	"The selected printer is invalid"
+	Consts_SDeviceOnPort,	"%s on %s"
+	Consts_SGroupIndexTooLow,	"GroupIndex cannot be less than the GroupIndex of a preceeding menu item"
+	Consts_SNoMDIForm,	"Cannot create form. Currently there are no active MDI forms"
+	Consts_SImageCanvasNeedsBitmap,	"An image can only be edited when it contains a bitmap."
+	Consts_SControlParentSetToSelf,	"Control element cannot be its own parent"
+	Consts_SOKButton,	"OK"
+	Consts_SCancelButton,	"Cancel"
+	Consts_SYesButton,	"&Yes"
+	Consts_SNoButton,	"&No"
+	Consts_SHelpButton,	"&Help"
+	Consts_SCloseButton,	"&Close"
+	Consts_SIgnoreButton,	"&Ignore"
+	Consts_SRetryButton,	"&Repeat"
+	Consts_SImageReadFail,	"Failed to read image list data from stream"
+	Consts_SImageWriteFail,	"Failed to write image list data to stream"
+	Consts_SWindowDCError,	"Error creating device context"
+	Consts_SWindowClass,	"Error creating window class"
+	Consts_SCannotFocus,	"A deactivated or invisible window cannot get the focus"
+	Consts_SParentRequired,	"Element '%s' has no parent window"
+	Consts_SParentGivenNotAParent,	"The indicated element is not a parent of '%s'"
+	Consts_SMDIChildNotVisible,	"MDI child form cannot be hidden"
+	Consts_SVisibleChanged,	"Property Visible cannot be changed in OnShow or OnHide"
+	Consts_SCannotShowModal,	"A visible window cannot be changed to a modal one"
+	Consts_SPropertyOutOfRange,	"Property %s is out of range"
+	Consts_SMenuIndexError,	"Menu index out of range"
+	Consts_SMenuReinserted,	"Menu inserted twice"
+	Consts_SMenuNotFound,	"Menu not found"
+	Consts_SNoTimers,	"No more timers available"
+	Consts_SNotPrinting,	"The printer is not printing"
+	Consts_SInvalidIcon,	"Invalid icon"
+	Consts_SInvalidMetafile,	"Invalid meta file"
+	Consts_SInvalidPixelFormat,	"Invalid pixel format"
+	Consts_SInvalidImage,	"Invalid picture"
+	Consts_SScanLine,	"Scanline index out of range"
+	Consts_SChangeIconSize,	"Cannot change the size of an icon"
+	Consts_SChangeWicSize,	"The size of the WIC graphic cannot be changed."
+	Consts_SOleGraphic,	"Invalid operation for TOleGraphic"
+	Consts_SUnknownExtension,	"Unknown file extension (.%s)"
+	Consts_SUnknownClipboardFormat,	"Unknown clipboard format"
+	Consts_SOutOfResources,	"Out of system resources"
+	Consts_SNoCanvasHandle,	"Missing canvas handle"
+	Consts_SInvalidImageSize,	"Invalid image size"
+	Consts_SInvalidImageList,	"Invalid image list"
+	Consts_SReplaceImage,	"Cannot replace image"
+	Consts_SImageIndexError,	"Invalid image list index"
+	RTLConsts_SInvalidDate,	"'%s' is not a valid date"
+	RTLConsts_SInvalidDateTime,	"'%s' is not a valid Date and time value"
+	RTLConsts_SInvalidInteger,	"''%s'' is not a valid Integer value."
+	RTLConsts_SInvalidTime,	"'%s' is not a valid time."
+	RTLConsts_STimeEncodeError,	"Invalid argument to encode time."
+	RTLConsts_SNoContext,	"No context sensitive help system installed"
+	RTLConsts_SNoContextFound,	"No help found for this context"
+	RTLConsts_SNoIndex,	"Index cannot be opened"
+	RTLConsts_SNoSearch,	"Cannot open search"
+	RTLConsts_SNoTableOfContents,	"Table of contents not found"
+	RTLConsts_SNoTopics,	"No topic oriented help system installed"
+	RTLConsts_SNothingFound,	"No help for %s found"
+	Consts_SInvalidTabIndex,	"Tab index out of range"
+	Consts_SInvalidTabPosition,	"Register position is not compatible with the actual register style."
+	Consts_SInvalidTabStyle,	"Register style is not compatible with the actual position."
+	Consts_SInvalidBitmap,	"Bitmap is invalid"
+	RTLConsts_SWriteError,	"Stream write error"
+	RTLConsts_SThreadCreateError,	"Error creating thread: %s"
+	RTLConsts_SThreadError,	"Thread error: %s (%d)"
+	RTLConsts_SThreadExternalTerminate,	"An externally created thread cannot be terminated here."
+	RTLConsts_SThreadExternalWait,	"Cannot wait for an externally created thread."
+	RTLConsts_SThreadStartError,	"Start cannot be called for a running or suspended thread."
+	RTLConsts_SParamIsNegative,	"Parameter %s must not be negative"
+	RTLConsts_SInputBufferExceed,	"Input buffer for %s = %d, %s = %d exceeded"
+	RTLConsts_SInvalidCharsInPath,	"Invalid characters in path"
+	RTLConsts_SPathTooLong,	"This path is too long"
+	RTLConsts_SPathNotFound,	"This path was not found"
+	RTLConsts_SPathFormatNotSupported,	"This path format is not supported"
+	RTLConsts_SFileNotFound,	"This file was not found"
+	RTLConsts_SInvalidDateDay,	"(%d, %d) ist kein gültiger Wert für die Tagesangabe im Datum"
+	RTLConsts_hNoFilterViewer,	"No viewer available that supports filters"
+	RTLConsts_sInvalidTimeoutValue,	"Invalid value for time out: %s"
+	RTLConsts_SListCapacityError,	"List capacity is exhausted (%d)"
+	RTLConsts_SListCountError,	"Too much list items (%d)"
+	RTLConsts_SListIndexError,	"List index exceeds maximum (%d)"
+	RTLConsts_SMemoryStreamError,	"Not enough memory to expand memory stream"
+	RTLConsts_SNoComSupport,	"%s was not registered as COM class"
+	RTLConsts_SPropertyException,	"Error reading %s%s%s: %s"
+	RTLConsts_SReadError,	"Stream read error"
+	RTLConsts_SReadOnlyProperty,	"Property is read only"
+	RTLConsts_SRegCreateFailed,	"Failed to create key %s"
+	RTLConsts_SRegGetDataFailed,	"Failed to get data for '%s'"
+	RTLConsts_SRegSetDataFailed,	"Failed to set data for '%s'"
+	RTLConsts_SResNotFound,	"Ressource %s nicht gefunden"
+	RTLConsts_SSeekNotImplemented,	"%s.seek not implemented"
+	RTLConsts_SSortedListError,	"Operation not allowed for sorted lists"
+	RTLConsts_SUnknownGroup,	"%s is not in a class registration group"
+	RTLConsts_SUnknownProperty,	"Property %s does not exist"
+	RTLConsts_SCheckSynchronizeError,	"CheckSynchronize was called by thread $%x that is not the main thread."
+	RTLConsts_SClassNotFound,	"Class %s not found"
+	RTLConsts_SDuplicateClass,	"Duplicate class identifier %s "
+	RTLConsts_SDuplicateItem,	"List does not allow duplicates ($0%x)"
+	RTLConsts_SDuplicateName,	"A component named %s already exists"
+	RTLConsts_SDuplicateString,	"String list does not allow duplicates"
+	RTLConsts_SFCreateErrorEx,	"file \"%s\" cannot be created. %s"
+	RTLConsts_SFOpenErrorEx,	"File %s cannot be opened. %s"
+	RTLConsts_SIniFileWriteError,	"Cannot write to %s"
+	RTLConsts_SInvalidFileName,	"Invalid file name - %s"
+	RTLConsts_SInvalidImage,	"Invalid stream format"
+	RTLConsts_SInvalidName,	"''%s'' is not a valid component name"
+	RTLConsts_SInvalidProperty,	"Invalid property"
+	RTLConsts_SInvalidPropertyPath,	"Invalid property path"
+	RTLConsts_SInvalidPropertyValue,	"Invalid property value"
+	RTLConsts_SInvalidRegType,	"Invalid data type for '%s'"
+	SysConst_SLongDayNameWed,	"Wednesday"
+	SysConst_SLongDayNameThu,	"Thursday"
+	SysConst_SLongDayNameFri,	"Friday"
+	SysConst_SLongDayNameSat,	"Saturday"
+	SysConst_SCannotCreateDir,	"Cannot create directory"
+	SysConst_SInvalidSourceArray,	"Invalid source array"
+	SysConst_SInvalidDestinationArray,	"Invalid target array"
+	SysConst_SCharIndexOutOfBounds,	"Char index out of range (%d)"
+	SysConst_SByteIndexOutOfBounds,	"Start index out of bounds (%d)"
+	SysConst_SInvalidCharCount,	"Invalid count (%d)"
+	SysConst_SInvalidDestinationIndex,	"Invalid target index (%d)"
+	SysConst_SInvalidCodePage,	"Invalid code page"
+	RTLConsts_SAncestorNotFound,	"Parent of '%s' not found"
+	RTLConsts_SAssignError,	"%s cannot be assigned to %s"
+	RTLConsts_SBitsIndexError,	"Bits index out of range"
+	RTLConsts_SCantWriteResourceStreamError,	"You cannot write to a read only resource stream"
+	SysConst_SLongMonthNameJul,	"July"
+	SysConst_SLongMonthNameAug,	"August"
+	SysConst_SLongMonthNameSep,	"September"
+	SysConst_SLongMonthNameOct,	"October"
+	SysConst_SLongMonthNameNov,	"November"
+	SysConst_SLongMonthNameDec,	"December"
+	SysConst_SShortDayNameSun,	"Su"
+	SysConst_SShortDayNameMon,	"Mo"
+	SysConst_SShortDayNameTue,	"Tue"
+	SysConst_SShortDayNameWed,	"Wed"
+	SysConst_SShortDayNameThu,	"Thu"
+	SysConst_SShortDayNameFri,	"Fr"
+	SysConst_SShortDayNameSat,	"Sa"
+	SysConst_SLongDayNameSun,	"Sunday"
+	SysConst_SLongDayNameMon,	"Monday"
+	SysConst_SLongDayNameTue,	"Tuesday"
+	SysConst_SShortMonthNameMar,	"Mar"
+	SysConst_SShortMonthNameApr,	"Apr"
+	SysConst_SShortMonthNameMay,	"May"
+	SysConst_SShortMonthNameJun,	"Jun"
+	SysConst_SShortMonthNameJul,	"Jul"
+	SysConst_SShortMonthNameAug,	"Aug"
+	SysConst_SShortMonthNameSep,	"Sep"
+	SysConst_SShortMonthNameOct,	"Oct"
+	SysConst_SShortMonthNameNov,	"Nov"
+	SysConst_SShortMonthNameDec,	"Dec"
+	SysConst_SLongMonthNameJan,	"January"
+	SysConst_SLongMonthNameFeb,	"February"
+	SysConst_SLongMonthNameMar,	"March"
+	SysConst_SLongMonthNameApr,	"April"
+	SysConst_SLongMonthNameMay,	"May"
+	SysConst_SLongMonthNameJun,	"June"
+	SysConst_SVarBadType,	"Invalid variant type"
+	SysConst_SVarNotImplemented,	"Operation not supported"
+	SysConst_SVarUnexpected,	"Unexpected variant error"
+	SysConst_SExternalException,	"External exception %x"
+	SysConst_SAssertionFailed,	"Assertion failed"
+	SysConst_SIntfCastError,	"Interface nicht unterstützt"
+	SysConst_SSafecallException,	"Exception in safecall method"
+	SysConst_SMonitorLockException,	"No owner of the object lock"
+	SysConst_SNoMonitorSupportException,	"Support function for Monitor not initialised"
+	SysConst_SAssertError,	"%s (%s, line %d)"
+	SysConst_SAbstractError,	"Abstract error"
+	SysConst_SModuleAccessViolation,	"Access violation at address %p in modul '%s'. %s of address %p"
+	SysConst_SOSError,	"System error.  Code: %d.\r\n%s"
+	SysConst_SUnkOSError,	"A call to a OS function failed"
+	SysConst_SShortMonthNameJan,	"Jan"
+	SysConst_SShortMonthNameFeb,	"Feb"
+	SysConst_SWriteAccess,	"Write"
+	SysConst_SVarArrayCreate,	"Error with creating a variant or a secure array"
+	SysConst_SVarArrayBounds,	"Variant or secure array index out of range"
+	SysConst_SVarArrayLocked,	"Variant or secure array is locked"
+	SysConst_SInvalidVarCast,	"Invalid variant type cast"
+	SysConst_SInvalidVarOp,	"Invalid variant operation"
+	SysConst_SInvalidVarNullOp,	"Invalid NULL variant operation"
+	SysConst_SInvalidVarOpWithHResultWithPrefix,	"Invalid variant operation (%s%.8x)\n%s"
+	SysConst_SVarTypeOutOfRangeWithPrefix,	"Userdefined variant type (%s%.4x) out of range"
+	SysConst_SVarTypeAlreadyUsedWithPrefix,	"Userdefined variant type (%s%.4x) already used by %s"
+	SysConst_SVarTypeNotUsableWithPrefix,	"Userdefined variant type (%s%.4x) not usable"
+	SysConst_SVarTypeTooManyCustom,	"Too much unserdefinied variant types were registered."
+	SysConst_SVarTypeCouldNotConvert,	"Variant of type (%s) could not be converted into type (%s)"
+	SysConst_SVarTypeConvertOverflow,	"Overflow while converting a variant from type (%s) into type (%s)"
+	SysConst_SVarOverflow,	"Variant overflow"
+	SysConst_SVarInvalid,	"Invalid argument"
+	SysConst_SOverflow,	"Floating point overflow"
+	SysConst_SUnderflow,	"Floating point underflow"
+	SysConst_SInvalidPointer,	"Invalid pointer operation"
+	SysConst_SInvalidCast,	"Invalid type cast"
+	SysConst_SAccessViolationArg3,	"Access violation at address %p. %s at adress %p"
+	SysConst_SAccessViolationNoArg,	"Access violation"
+	SysConst_SStackOverflow,	"Stack overflow"
+	SysConst_SControlC,	"Ctrl+C pressed"
+	SysConst_SPrivilege,	"Privileged command"
+	SysConst_SOperationAborted,	"Operation aborted"
+	SysConst_SException,	"Exception %s in modul %s at %p.\r\n%s%s\r\n"
+	SysConst_SExceptTitle,	"Application error"
+	SysConst_SInvalidFormat,	"Format '%s' invalid or not compatible with the argument"
+	SysConst_SArgumentMissing,	"Missing argument for format '%s'"
+	SysConst_SDispatchError,	"Invalid variant method call"
+	SysConst_SReadAccess,	"Read"
+	SysConst_SInvalidFloat,	"'%s' is not a valid floating point value"
+	SysConst_SInvalidGUID,	"'%s' is no valid GUID value"
+	SysConst_SInvalidBoolean,	"'%s' is not a valid boolean value"
+	SysConst_SDateEncodeError,	"Invalid argument to encode date"
+	SysConst_SOutOfMemory,	"Out of memory"
+	SysConst_SInOutError,	"I/O error %d"
+	SysConst_STooManyOpenFiles,	"Too many open files"
+	SysConst_SAccessDenied,	"File access denied"
+	SysConst_SEndOfFile,	"Tried to read beyond end of file"
+	SysConst_SDiskFull,	"Disk full"
+	SysConst_SInvalidInput,	"Invalid input"
+	SysConst_SDivByZero,	"Division by Zero"
+	SysConst_SRangeError,	"Range error"
+	SysConst_SIntOverflow,	"Integer overflow"
+	SysConst_SInvalidOp,	"Invalid floating point operation"
+	SysConst_SZeroDivide,	"Floating point division by zero"
+END
+
+/* c:\program files (x86)\embarcadero\rad studio\7.0\lib\character.res */
+/* c:\program files (x86)\embarcadero\rad studio\7.0\lib\Controls.res */
+/* AskUser1.dfm */
+/* c:\program files (x86)\embarcadero\rad studio\7.0\lib\Buttons.res */
+/* ValidateResultWin.dfm */
+/* AssAffAbb_3b.dfm */
+/* AssAffAbb_3a.dfm */
+/* AssAffAbb_3.dfm */
+/* AssAffAbb_2d.dfm */
+/* AssAffAbb_2c.dfm */
+/* AssAffAbb_2b.dfm */
+/* AssAffAbb_2a.dfm */
+/* OKCANCL1.dfm */
+/* AssAffAbb_1.dfm */
+/* OKCheckConfWin.dfm */
+/* SelectXCmd.dfm */
+/* MemberWin.DFM */
+/* TagSelDlg.dfm */
+/* Preview.DFM */
+/* SysMem.DFM */
+/* LinkWin.dfm */
+/* c:\program files (x86)\embarcadero\rad studio\7.0\lib\SPIN.RES */
+/* NameDlg.DFM */
+/* MyWebWin.DFM */
+/* c:\program files (x86)\embarcadero\rad studio\7.0\lib\FileCtrl.res */
+/* c:\program files (x86)\embarcadero\rad studio\7.0\lib\ExtDlgs.res */
+/* c:\program files (x86)\embarcadero\rad studio\7.0\lib\Tabs.res */
+/* NetOptDlg.DFM */
+/* ExpertOptWin.dfm */
+/* MenuCfgNew.DFM */
+/* IniFDlg.DFM */
+/* WertEing.DFM */
+/* KonstEing.DFM */
+/* KoordEing.DFM */
+/* TermEdit.DFM */
+/* OkayWin.DFM */
+/* ConstrWin.DFM */
+/* CoordWin.DFM */
+/* PrnCfg.DFM */
+/* AboutWin.DFM */
+/* RegWin.DFM */
+/* SelectWin.DFM */
+/* Symbols.dfm */
+/* CommentWin.DFM */
+/* MakHelpEdit.DFM */
+/* MakHelpShow.DFM */
+/* FileProp.DFM */
+/* RangeEdit.DFM */
+/* QuantPoint.dfm */
+/* HTMLDynaGeoXSettings.DFM */
+/* HTMLDynaGeoJSettings.dfm */
+/* AniParams.dfm */
+/* GroupWin.dfm */
+/* AssAffAbb_2.dfm */
+/* AssAffAbb_2e.dfm */
+/* EditMappingWin.dfm */
+/* RiemannSum.dfm */
+/* WerteTabelle.dfm */
+/* MainWin.DFM */
+/* D:\Dokumente\Delphi2010\Projekte\DynaGeo36\DynaGeo.RES */
+/* D:\Dokumente\Delphi2010\Projekte\DynaGeo36\MYEUKLID.RES */
+/* D:\Dokumente\Delphi2010\Projekte\DynaGeo36\DynaGeo.drf */

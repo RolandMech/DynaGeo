@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>About functions and graphs</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="draw">
+        <PARAM NAME="Keyword" VALUE="function">
+        <PARAM NAME="Keyword" VALUE="graph">
+        <PARAM NAME="Keyword" VALUE="line">
+</OBJECT>
+
+<A NAME="idh_graph_varproblem"></A>
+
+
+<H2>About functions and graphs</H2>
+<HR>
+
+<p>The comfort of the command <i>Graph of a function</i> may lead some users to try to display function with rather complicated terms. But the greatest problems with graphs are not caused by complicated function terms, but by a rather inconspicuous class of functions. As an example we can take the function f with <nobr>f(x) = sin(x^3-x)</nobr>. When you enter this function term, you may get a graph like the following:<br>
+<br>
+<div align="center"><img src="../IMAGES/graphpro.png" alt="" border="0"></div><br>
+<br>
+You can see that the polynomial of degree 3 causes the density of the zeros of this function to increase with the absolute value of x. But between two neighbouring zeros, the function always reaches the values 1 or -1. So the length of the curve increases over any bound when the absolute value of x increases, and you get a <b>serious problem</b>: in the outer ranges the lines of the graph are thus dense that they build compact red blocks.</p>
+
+<p>You can create "blocks" like these with all <b>periodic functions</b>, i.e. whenever the function term contains one of the functions sin(), cos() or tan(), and in the argument of these trigonometric functions there are higher powers of x. This problem can not be solved by optimazing the program's algorithms: a curve with an length that increases over any bound cannot be drawn at once, even if your computer's processor would run at 100 GHz!</p>
+<br>
+
+<p>When you create a new graph, then DynaGeo checks, if the term contains suspicious parts. If it does, you get an appropriate <b>warning</b>. Now its your turn to decrease the visible x-range in order to avoid that DynaGeo has to draw those "blocks". And you should be prepared that your computer may need some time for the next steps.... </p>
+
+<p>When a function is suspicious of having a <b>very great length of curve</b>, DynaGeo also refuses to draw the graph with a fat line or a non-solid line. So the menu item "Line style..." is deleted from the context menu of those graphs. But this decision depends on the actually visible x-range. So it is verified after every change of the drawing. </p>
+<br>
+
+<p>This is a fundamental problem for every program that has do draw graphs of functions onto a pixel screen. If you want to draw a precise picture of the graph, you have to allow that this may take some time. And if you don't want to spend too much time for the graph, you must be content with some lack in quality. DynaGeo always tries to draw "correct graphs", but this may need some time; it is the user's job to provide "tidy functions" <nobr>;-)</nobr> </p>
+<br>
+
+<P><B><I>See also:</I></B>
+<ul>
+<a href="graph.htm">Graph of a function</a><br>
+<a href="recurs_fkt.htm">The problem of recursive functions</a>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

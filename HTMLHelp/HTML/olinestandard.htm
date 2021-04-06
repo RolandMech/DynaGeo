@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Standard-Ortslinien</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Ortslinien">
+</OBJECT>
+
+<A NAME="idh_LocLineStandard"></A>
+
+<H2>Standard-Ortslinien</H2>
+<HR>
+
+<p>Standard-Ortslinien sind eine spezielle Form von automatischen Ortslinien.</p>
+
+<P>Bei manchen Konstruktionen w&uuml;rde man ganz gerne eine Ortslinie mit einer anderen Linie schneiden. Dies ist in EUKLID DynaGeo bisher nicht m&ouml;glich, weil den Programmierer die Horrorvision schreckt, dass ein Benutzer die volle Tangens-Kurve mit der logarithmischen Spirale schneiden wollte ;-)</p>
+
+<p>Andererseits gibt es viele f&uuml;r den Mathematik-Unterricht relevante Situationen, in denen es sehr w&uuml;nschenswert w&auml;re, wenn man wenigstens f&uuml;r "einfachere" Ortslinien die M&ouml;glichkeit des Schnitts mit anderen Kurven h&auml;tte. Zu diesem Zweck ist in der aktuellen Version von EUKLID DynaGeo die M&ouml;glichkeit implementiert, <b>lineare</b> und <b>kreisf&ouml;rmige Ortslinien</b> in <b>echte Objekte</b> zu verwandeln.</p>
+
+<p>Wenn Sie diese Funktionalit&auml;t nutzen wollen, dann aktivieren Sie unter <a href="olineopt.htm">Einstellungen | Ortslinien</a> die Option "Neue Ortslinien falls m&ouml;glich in Standardkurven konvertieren". Bei jeder folgenden Ortslinien-Aufzeichnung wird dann gepr&uuml;ft, ob der erzeugende Punkt sich mit hinreichender Genauigkeit auf einer Geraden bzw. einem Kreis bewegt; ist dies der Fall, dann wird der Benutzer gefragt, ob statt der Bezier-N&auml;herung diese Gerade bzw. dieser Kreis als Approximation der "wahren" Ortslinie genommen werden soll. Wenn ja, wird die Ortslinie stets m&ouml;glichst durch diese Gerade bzw. diesen Kreis (kurz: diese "Standard-Kurve") dargestellt. Eine solche <b>Standard-Ortslinie</b> steht dann - wie jedes andere Geraden- bzw. Kreisobjekt - auch f&uuml;r Schnittoperationen zur Verf&uuml;gung!</p>
+<br>
+
+<p>Beim Umgang mit Standard-Ortslinien sollten Sie (u.a.!) die folgenden beiden <b>Probleme</b> im Auge behalten:<br>
+<ul>
+<li><i><b>Die Standardkurve k&ouml;nnte "zu gro&szlig;" sein.</b></i><br>
+Die Standardkurve kann eine echte Obermenge der Ortslinie sein: auch wenn alle Lagen des erzeugenden Punktes auf der ermittelten Standardkurve liegen, muss umgekehrt nicht jeder Punkt der Standardkurve eine m&ouml;gliche Lage des erzeugenden Punktes sein. Es ist also nicht unbedingt so, dass die Standardkurve die Ortslinie <b>ist</b>, sondern m&ouml;glicherweise nur so, dass sie sie <b>enth&auml;lt</b>!<br>
+<br>
+</li>
+<li><i><b>Die Ortslinie k&ouml;nnte "nur zuf&auml;llig" eine Standardkurve sein.</b></i><br>
+Auch wenn sich bei der Aufzeichnung der Ortslinie der erzeugende Punkt auf einer Standardkurve bewegt, k&ouml;nnte es ja sein, dass er diese Eigenschaft <b>nur f&uuml;r eine bestimmte Konfiguration</b> der Objekte Ihrer Zeichnung hat, f&uuml;r eine andere aber nicht. Daher wird bei jedem folgenden Verziehen der Zeichnung &uuml;berpr&uuml;ft, ob die Ortslinie nach wie vor eine Standardkurve der zuvor festgestellten Art ist. Sollte dies nicht der Fall sein, schaltet die Ortslinie in den "alten" Modus zur&uuml;ck und wird als Punkteserie dargestellt - wobei die Standardkurve <b>ung&uuml;ltig</b> wird, und alle von ihr abh&auml;ngigen Objekte ebenfalls!<br>
+</li>
+</ul>
+</p>
+<br>
+<br>
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<li><a href="olinedyn.htm">Dynamische Ortslinien</a></li>
+<li><a href="ortslinie.htm">Ortslinie erzeugen</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

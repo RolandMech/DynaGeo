@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Command line parameters</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="basics">
+        <PARAM NAME="Keyword" VALUE="installation">
+        <PARAM NAME="Keyword" VALUE="parameter">
+</OBJECT>
+
+<A NAME="idh_startparams"></A>
+
+<H2>Starting DynaGeo with command line parameters</H2>
+<HR>
+<br>
+
+<h3><font color="#0000FF">Basics</font></h3>
+
+<blockquote><p>WINDOWS can pass "<b>command line parameters</b>" to a starting program. These are short text commands which are added after the name of the executable file. To start a program with parameters you can call it from the command line, e.g. by the menu item <i>Start | Run...</i> in the <b>start menu</b>: a window appears with a single line where you can enter the program file's full path followed by the desired parameters. <br>
+<br>
+Alternatively, you may edit a <b>link</b> to this program: click "Properties" in the context menu of the link and add the parameters to the program call there. But please note that then the program will <u>always</u> be called with these parameters. If you want to apply the parameters <u>only once</u>, you should prefer the above described method using the start menu.</p>
+</blockquote><br>
+
+<h3><font color="#0000FF">Possible parameters</font></h3>
+
+<blockquote><P>EUKLID DynaGeo knows the following command line parameters:<br>
+<OL start="1" type="1">
+        <LI>the name resp. the full path of a <B><i>GEO</i> file</B><br>
+        The specified file will be loaded automatically when EUKLID DynaGeo starts. This makes it possible that when you double-click a <i>GEO</i> file in the WINDOWS explorer EUKLID DynaGeo is startet and the file is loaded. However this will work only if your operating system has properly registered EUKLID DynaGeo as an editor for <i>GEO</i> files. <BR>
+<BR>
+        <li><i>"/debug" </i><br>
+        This parameter (without the quotation marks) ought to be applied only in special cases of persistent problems. If this parameter is passed to the program, a log file named <i>hhdebug.txt</i> is created. Some details about your local WINDOWS system are reported there and several run time events are logged. The file is written to your operating system's <i>temp</i> directory (e.g. "c:\windows\temp\").</li>
+</ol>
+</p>
+</blockquote><br>
+</FONT>
+</BODY>
+</HTML>

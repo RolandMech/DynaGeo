@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Details zur Funktionen-Lupe</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Funktion">
+        <PARAM NAME="Keyword" VALUE="Funktionen-Lupe">
+        <PARAM NAME="Keyword" VALUE="Schaubild">
+        <PARAM NAME="Keyword" VALUE="Steigung">
+</OBJECT>
+
+<A NAME="idh_tipsLupe"></A>
+
+<H2>Details zur Funktionen-Lupe</H2>
+<HR>
+
+<P>Die Idee der Funktionen-Lupe geht auf einen Mathematik-Didaktiker namens Arnold Kirsch zur&uuml;ck, der sie 1980 publiziert hat. Von vielen Kollegen wurde die <b>Funktionen-Lupe</b> damals als eine "Notl&ouml;sung f&uuml;r ganz, ganz schwache Klassen" gesehen, was inzwischen aber nur noch wenige so skeptisch einsch&auml;tzen. Ein Grund f&uuml;r diese ver&auml;nderte Beurteilung mag sein, dass wir im Laufe der letzten Jahrzehnte durch das Internet in eine Welt der Bilder gef&uuml;hrt wurden, in der wir immer h&auml;ufiger versucht sind, uns mit einer <b>suggestiven Begr&uuml;ndung</b> anstelle eines strengen <b>formalen Beweises</b> zufrieden zu geben. So war denn auch der Boden hinreichend vorbereitet, als Herr Elschenbroich Ende 2014 Kirschs Idee in neuer Form als <b>"Funktionenmikroskop 2.0"</b> wiederauferstehen lie&szlig; (siehe Zeitschrift "mathematiklehren", Heft 187).</P>
+<br>
+
+<p>Schauen wir uns eine solche <b>Funktionen-Lupe</b> einmal im Detail an:<br>
+Gegeben sei eine <b>Funktion f</b> und ein <b>Punkt A</b>, der an den Graphen von f gebunden ist, also  genauer A(x<sub>A</sub>, f(x<sub>A</sub>)). Dabei hat x<sub>A</sub> einen weitgehend einstellbaren Wert, indem man n&auml;mlich den Punkt A mit der Maus auf seiner Tr&auml;gerlinie verzieht. Au&szlig;erdem werden zwei weitere Punkte <b>A<sub>re</sub></b> und <b>A<sub>li</sub></b> rechts und links im horizontalen Abstand h vom Punkt A erzeugt, die ebenfalls an das Schaubild von f gebunden sind, also A<sub>li</sub>(x<sub>A</sub>-h | f(x<sub>A</sub>-h)) und A<sub>re</sub>(x<sub>A</sub>+h | f(x<sub>A</sub>+h)). Der Wert von h wird durch ein <b>Zahlobjekt</b> mit Namen "h" festgelegt, und kann so ebenfalls mit der Maus manipuliert werden. Dabei ist der nutzbare Wertebereich auf das Intervall [0,0001 ... 1,0] voreingestellt.</p>
+<p>Schlie&szlig;lich wird um den Punkt A ein Quadrat der Seitenl&auml;nge 2h gezeichnet, und zwar so, dass A dabei stets der Diagonalen-Schnittpunkt dieses <b>"Lupen-Quadrats"</b> ist. &Auml;ndert man den Wert des Zahlobjektes h, dann ver&auml;ndert sich die Gr&ouml;&szlig;e des Lupen-Quadrats entsprechend.</p>
+
+<p>Wenn man nun <b>die Sekanten</b> s<sub>li</sub> = [A<sub>li</sub>;A] und s<sub>re</sub> = [A;A<sub>re</sub>] einzeichnet, dann kann man beide Sekanten gleichzeitig manipulieren, indem man h verkleinert. Dabei wird aber das Lupen-Quadrat ebenfalls schnell kleiner und verschwindet in seinem Zentrum A. Damit der Vorgang &uuml;berhaupt beobachtbar bleibt, erscheint ein zus&auml;tzliches Fenster am rechten Rand des DynaGeo-Zeichenbereiches, das sogenannte <b>"Lupen-Fenster"</b>. In diesem Fenster wird der aktuelle Inhalt des Lupen-Quadrats vergr&ouml;&szlig;ert dargestellt.</p>
+
+<p>Im <b>Kontextmen&uuml;</b> des Lupen-Quadrats ist der erste Eintrag <b>"Sekanten-Steigungen zeigen / entfernen"</b>. Wenn Sie die Sekanten im Lupen-Quadrat anzeigen lassen, werden im Lupen-Fenster zus&auml;tzlich die Werte m1 und m2 der Sekanten-Steigungen angezeigt. Spielt man eine Weile mit der Funktionenlupe herum, dann zeigt sich recht bald, dass weitgehend unabh&auml;ngig von der konkret verwendeten Funktion f gilt: "Wenn man h sehr klein macht, streben die Steigungen von s<sub>li</sub> und s<sub>re</sub> gegen einen gemeinsamen Wert m." Dann liegt es auch nahe, diesen Wert m als die Steigung der Funktion f im Punkt A festzulegen. Dies ist die von Kirsch urspr&uuml;nglich intendierte "visuelle Vermittlung einer Grundvorstellung vom Ableitungsbegriff".</p>
+
+<p>Man kann das oben beschriebene Verhalten der Sekanten-Steigungen auch als eine Eigenschaft des Schaubildes der Funktion f formulieren, z.B. so: "Bei hinreichend starker Ausschnittvergr&ouml;&szlig;erung rund um einen Punkt A auf dem Funktionsgraphen von f l&auml;sst sich der Verlauf des Graphen von einer Geraden nicht mehr unterscheiden." Es sollte aber unbedingt gekl&auml;rt werden, dass der Graph im Allgemeinen eben doch keine Gerade sein kann, auch wenn es in der lokalen Vergr&ouml;&szlig;erung so aussieht.</p>
+
+<p>Der zweite Eintrag im Kontextmen&uuml; des Lupen-Quadrats lautet: <b>"Sekanten-Steigungs-Funktionen zeigen / entfernen"</b>. Diese Sekanten-Steigungs-Funktionen erh&auml;lt man als Ortslinien der Punkte S<sub>li</sub>(x<sub>A</sub>, (f(x<sub>A</sub>) - f(x<sub>A</sub>-h)) / h) und S<sub>re</sub>(x<sub>A</sub>, (f(x<sub>A</sub>+h) - f(x<sub>A</sub>)) / h), wenn sich A auf dem Graphen von f bewegt. Wenn Sie &uuml;ber den Kontextmen&uuml;-Befehl diese beiden Sekanten-Steigungs-Funktionen erzeugen lassen, l&auml;sst sich sehr sch&ouml;n sehen, wie bei einem immer kleiner werdendem Wert von h nicht nur die Punkte S<sub>li</sub> und S<sub>re</sub> einer gemeinsamen Position (n&auml;mlich [mit der obigen Bezeichnung] S(x<sub>A</sub>, m)) zustreben, sondern die beiden Ortslinien sich recht schnell aufeinander zubewegen und in einer gemeinsamen Lage enden: die Folgen der oberen und der unteren Sekanten-Steigungs-Funktionen schachteln die Tangenten-Steigungs-Funktion ein!</p>
+
+<p>Der dritte Befehl im Kontextmen&uuml; des Lupen-Quadrats <b>"Approximierenden Kreis zeichnen / entfernen"</b> erzeugt (bzw. l&ouml;scht) einen Kreis durch die drei Punkte A<sub>li</sub>, A und A<sub>re</sub>. F&uuml;r gro&szlig;e Werte von h scheint die Behauptung, dass dieser Kreis eine Approximation des Schaubildes von f sein soll, einigerma&szlig;en gewagt zu sein. Verkleinert man aber h, dann stabilisieren sich Lage und Gr&ouml;&szlig;e dieses Kreises recht schnell: man erh&auml;lt so den <b>Kr&uuml;mmungskreis</b> des Graphen von f im Punkt A. Man erh&auml;lt so einen anschaulichen Zugang zum Begriff der Kr&uuml;mmung eines Funktionsgraphen: die Kr&uuml;mmung ist um so gr&ouml;&szlig;er, je kleiner der Kr&uuml;mmungs-Radius ist. Weitergehende Aussagen sind allerdings kaum zu erreichen, weil der Zusammenhang zwischen der Kr&uuml;mmung eines Funktionsgraphen und der 2. Ableitung dieser Funktion jenseits der Grenzen des in der gymnasialen Oberstufe Erreichbaren liegt.</p>
+
+<p>Wenn wir nun aber schon beim Approximieren einer Funktion f durch einfachere Kurven sind, kann man jedem Set [A<sub>li</sub>, A und A<sub>re</sub>] neben dem Kr&uuml;mmungskreis auch noch eine andere approximierende Kurve beilegen: durch 3 Punkte (mit verschiedenen x-Werten) ist n&auml;mlich auch jeweils eindeutig eine Parabel festgelegt. Der vierte Befehl im Kontextmen&uuml; des Lupen-Quadrats ist daher <b>"Approximierende Parabel zeigen / entfernen"</b>.  </p>
+<br>
+
+<P><font color="#FF0000"><b><i>Achtung !</i></b></font>
+<ul>
+<li>Wenn Sie die zu einem Lupen-Quadrat geh&ouml;renden und von ihm abgeleiteten Objekte wieder <b>l&ouml;schen</b> wollen, dann sollten Sie dazu keinesfalls den &uuml;blichen "L&ouml;schen"-Befehl benutzen. Bitte nehmen Sie f&uuml;r diese Aufgabe in jedem Fall den <b>entsprechenden Befehl aus dem Kontext-Men&uuml; des Lupen-Quadrats</b>! (M&ouml;glicherweise m&uuml;ssen Sie das Lupen-Quadrat zun&auml;chst vergr&ouml;&szlig;ern, ehe Sie sein Kontextmen&uuml; aufrufen k&ouml;nnen. Ziehen Sie dazu den Schieber des h-Zahlobjekts nach rechts, bis das Lupen-Quadrat hinreichend gro&szlig; dargestellt wird.)<br>
+<br>
+</li>
+<li>Das Lupen-Fenster selbst kann nur verschoben werden, wenn es zuvor durch einen Mausklick in seine Titelzeile zum "aktiven Objekt" gemacht und danach von der Maus in dieser seiner Titelzeile im Bereich des Fenster-Namens ("Funktionen-Lupe") gepackt wird.<br>
+<br>
+</li>
+<li>Beachten Sie, dass die Funktionen-Lupe in Teilen <b>noch experimentellen Charakter</b> hat. Ist eine Funktionen-Lupe aktiv, dann muss mit unerwarteten Verhaltensweisen einzelner DynaGeo-Zeichnungs-Objekte gerechnet werden.<br>
+</li>
+</ul>
+</P>
+<br>
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<li><a href="magnglass.htm">Funktionen-Lupe</a></li>
+<li><a href="graph.htm">Funktions-Schaubild</a></li>
+<li><a href="polynom.htm">Interpolations-Polynom-Funktion</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

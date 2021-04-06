@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Network installation</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="basics">
+        <PARAM NAME="Keyword" VALUE="installation">
+        <Param Name="Keyword" VALUE="network"></param>
+</OBJECT>
+
+<A NAME="idh_nethints"></A>
+
+<H2>Installation in networks</H2>
+<HR>
+
+<P>The following comments are for those that want to install EUKLID DynaGeo on a <B>network</B>.</P>
+<br>
+
+<h3><font color="#0000FF">Basics:</font></h3>
+
+<p>It is strongly recommended to install EUKLID DynaGeo <b>on the server</b>. Even less experienced administrators are to resist the temptation to install the program on every client locally! A correct network installation is not much more complicated than a local one, but it is much easier to maintain.</p>
+
+<p>To install EUKLID DynaGeo <b>on a network</b> the following steps are necessary:
+<ul>
+<li>Log in as network administrator.</li>
+<li>Start the installation archive (e.g. <i>EDG*.EXE</i>) and</li>
+<li>install EUKLID DynaGeo in a directory of your choice <b>on the server</b>.</li>
+<li>On every client computer, create a link to the file DYNAGEO.EXE on the server.</li>
+<li>Make sure that all EUKLID DynaGeo users have the right to <b>read</b> the files in the EUKLID DynaGeo directory. Normal users must not have write access here.</li>
+</ul>
+</p>
+<br>
+
+</p>After the install program has done its work, it calls the new DYNAGEO.EXE in the EUKLID DynaGeo directory. This first program start must be done with <b>write access to the EUKLID DynaGeo directory</b>, but this is guaranteed when you're logged in with administrator rights. Now DYNAGEO.EXE will create the common configuration file DYNAGEO.INI. Then it will search for a license data file (<i>*.DGL</i> file), namely in the directory that contains the installation archive. If a DGL file is found there, it will be copied to the EUKLID DynaGeo directory. (If no DGL file is found, the installed version is shareware and so the educational use is prohibited!) Now, the installation of EUKLID DynaGeo on the server is already done. </p>
+
+<p>On the client computer from which you started the installation, a <b>link to DYNAGEO.EXE</b> is added to the start menu. This allows to start the program on this client. If you want to start the program from <u>another</u> client you only need to create a corresponding link on that client, too. It doesn't matter if the link is in the start menu or on the desktop. That's all! EUKLID DynaGeo needs neither any special DLLs in the local windows directory nor any entries in the registry.</p>
+
+<p>To allow your <b>network users</b> to use the freshly installed EUKLID DynaGeo program, you must grant them the <b>rights to read, search and execute</b> files in the EUKLID DynaGeo directory on the server. These rights ought to be extended to the subdirectories too. So every user may have a look at the installed example files. In order to guarantee a high degree of operational safety, the "normal users" are to have <b>no write access</b> to the EUKLID DynaGeo directory and its subdirectories!</p>
+
+<p>Thus, the installation is done, and your users can work with EUKLID DynaGeo. In case of an update, you only need to update the files in the EUKLID DynaGeo directory on the server. No further work at the client computers is necessary!</p>
+<br>
+
+<h3><font color="#0000FF">Some technical details:</font></h3>
+
+<P>For a normal program start of a licensed version of EUKLID DynaGeo the following 4 files are needed:
+<ul>
+<li>DYNAGEO.EXE,</li>
+<li>DYNAGEO.INI,</li>
+<li>DYNAGEO.CHM and</li>
+<li>a license file *.DGL.</li>
+</ul>
+These 4 files must be located in the same directory. If there is no license file EUKLID DynaGeo will run as shareware version.</P>
+
+<P>To enable a user to save his private configuration EUKLID DynaGeo needs one more file. The private configuration file is named EDG_USER.INI, and the user needs write access to it. With older WINDOWS versions (95, 98, ME) this file is located in the EUKLID DynaGeo directory too. With the newer WINDOWS versions (NT4, 2000, XP,...) it is written into the profile of the user, namely to the directory <i>%appdata%\dynageo\</i>. You don't have to bother about that file - EUKLID DynaGeo will manage it all by itself. When the program closes, the actual configuration data are saved to this file - unless the administrator has disabled this option. At the next start, the last saved configuration data are restored again.</P>
+
+<P>It does not matter where the data files (i.e. the  <I>*.GEO</I>- and  <I>*.MAK</I> files) are located. Every user can write his data on any network drive that is accessible to him. </P>
+<br>
+<P><font color="#FF0000"><b><i>Please note:</i></b></font>
+<ul>It's true that for <B>normal use</B> EUKLID DynaGeo needs neither any DLLs in the local WINDOWS directory nor any entries in the registry. But if you want to use the <B>DynaGeoX-Viewer</B> to display dynamic drawings in HTML documents, then some entries in the registry are unavoidable. Fortunately, they are set automatically at the first start of the DynaGeoX viewer!</ul></P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,52 @@
+  Repeatable_Commands : Set of Byte = 
+  [cm_PtCoord..cm_MirrorObj, cm_PonLine, cm_ToggleVis..cm_DelObj, 
+   cm_EditDraw, cm_PCreate..cm_GRicht, cm_BindP2L..cm_MeasureDist,
+   cm_FixPt..cm_Clip2Grid];
+
+  also :
+  ======
+
+  cm_GRichtTerm   = 41; (ja, aber nur intern!)
+
+  cm_PtCoord      = 42; ja
+  cm_Strahl       = 43; ja
+  cm_Arc          = 44; ja
+  cm_MirrorObj    = 45; ja
+
+  cm_PonLine   = 109; ja
+  cm_ToggleVis = 112; ja
+  cm_NameObj   = 113; ja
+  cm_DelObj    = 114; ja
+
+  cm_EditDraw  = 119; (ja, aber nur intern!)
+
+  cm_PCreate   = 121; ja
+  cm_SCreate   = 122; ja
+  cm_GCreate   = 123; ja
+  cm_KCreate   = 124; ja
+  cm_DCreate   = 125; ja
+  cm_RCreate   = 126; ja
+  cm_FCreate   = 127; ja
+  cm_LCreate   = 128; ja
+  cm_MCreate   = 129; ja
+  cm_NCreate   = 131; ja
+
+  cm_Schnitt   = 132; ja
+  cm_Mitte     = 133; ja
+  cm_MirrorPt  = 134; ja
+  cm_MSenkr    = 135; ja
+  cm_WHalb     = 136; ja
+  cm_Parall    = 137; ja
+  cm_Lot       = 138; ja
+  cm_GRicht    = 139; ja
+
+  cm_BindP2L      = 152; ja
+  cm_ReleaseP     = 153; ja
+  cm_MarkAngle    = 154; ja
+  cm_MeasureAngle = 155; ja
+  cm_MeasureDist  = 156; ja
+
+  cm_FixPt        = 242; ja
+  cm_UnfixPt	  = 243; ja
+  cm_Clip2Grid	  = 244; ja
+

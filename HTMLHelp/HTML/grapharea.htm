@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Fl&auml;che unter einem Funktions-Schaubild</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Konstruieren">
+        <PARAM NAME="Keyword" VALUE="Funktion">
+        <PARAM NAME="Keyword" VALUE="Fl&auml;che">
+        <PARAM NAME="Keyword" VALUE="Schaubild">
+        <PARAM NAME="Keyword" VALUE="Integral">
+</OBJECT>
+
+<A NAME="idh_cm_grapharea"></A>
+
+<H2>Fl&auml;che unter einem Funktions-Schaubild&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../images/toolgrapharea.gif" ALT="" BORDER=0></H2>
+<HR>
+
+<P>Dieser Befehl zeichnet ein <b>"krummliniges Trapez"</b>, also eine Integralfl&auml;che.
+<ul><font size="-1">In der folgenden Beschreibung wird davon ausgegangen, dass die "obere" Randfunktion vollst&auml;ndig oberhalb einer eventuell vorhandenen "unteren" Randfunktion bzw. der x-Achse verl&auml;uft. Nat&uuml;rlich kann DynaGeo auch Integralfl&auml;chen zeichnen, f&uuml;r die diese Voraussetzungen <u>nicht</u> gelten. Dass sie hier trotzdem zun&auml;chst als erf&uuml;llt angesehen werden, dient lediglich der Vereinfachung der folgenden Beschreibung.<br></font></ul>
+Um die gew&uuml;nschte Fl&auml;che festzulegen, f&uuml;hren Sie bitte die folgenden drei Schritte aus:</p>
+
+<P>
+<ol type="1" start="1">
+<li>Geben Sie zun&auml;chst das <b>Funktions-Schaubild</b> an, das die Fl&auml;che nach oben begrenzt.<br>
+<br></li>
+<li>Markieren Sie dann das <b>Integrations-Intervall</b>: geben Sie dazu <b>zwei Punkte</b> an, deren <nobr>x-Koordinaten</nobr> das Integrations-Intervall bestimmen. Sie k&ouml;nnen entweder schon vorhandene Punkte benutzen oder neue Basispunkte durch einen Mausklick erzeugen. Sind die Begrenzungspunkte des Integrations-Intervalls ungebundene Basispunkte, dann werden sie bei der Erzeugung der Fl&auml;che an die x-Achse gebunden. <br>
+<br></li>
+<li>
+Schlie&szlig;lich ist noch die <b>untere Begrenzung</b> des krummlinigen Trapezes festzulegen. Dazu haben Sie zwei M&ouml;glichkeiten:<br>
+<br>
+<ol start="a" type="a">
+<li>Eine einfache "Fl&auml;che unter einer Kurve" wird nach unten durch die <nobr>x-Achse</nobr> begrenzt.<br>
+Klicken Sie in diesem Fall auf die <nobr><b>x-Achse.</b></nobr><br>
+<br></li>
+<li>Wenn Sie stattdessen eine "Fl&auml;che zwischen 2 Kurven" darstellen wollen,<br>
+klicken Sie auf ein <b>zweites Funktions-Schaubild.</b></li>
+</ol>
+</li>
+</ol>
+Danach wird ein entsprechendes Integralfl&auml;chen-Objekt erzeugt und auf dem Bildschirm angezeigt.<br>
+<br>
+<br>
+</P>
+
+<b>Bemerkungen:  </b>
+<br>
+<ul>
+<li>Die rechte und linke Begrenzung der Fl&auml;che wird durch Strecken orthogonal zur x-Achse geliefert. Die obere Begrenzung muss immer durch ein Funktions-Schaubild geliefert werden. Die untere Begrenzung ist entweder durch die x-Achse gegeben, oder durch ein zweites Funktions-Schaubild.<br>
+<br>
+</li>
+<li>Um den Fl&auml;cheninhalts-Wert einer solchen Fl&auml;che in einem Term zu verwenden, m&uuml;ssen Sie die Standard-Funktion <i>area()</i> benutzen. Hei&szlig;t das Fl&auml;chenobjekt z.B. "Int1", dann liefert der Term <nobr>"area(Int1)"</nobr> den aktuellen Inhalt dieser Fl&auml;che. Der Wert gibt jedoch den sogenannten "orientierten Fl&auml;cheninhalt" an, also das bestimmte Integral: so hat z.B. die Fl&auml;che, die eine volle Periode der Sinuskurve mit der x-Achse einschlie&szlig;t, den orientierten Inhalt 0 !<br>
+<br>
+</li>
+<li>Problemlos funktioniert die Berechnung der Integralfl&auml;chen bei auf ganz <b>R</b> <u>stetigen Randfunktionen</u>. Hat die Randfunktion hingegen einen eingeschr&auml;nkten Definitionsbereich, dann muss das Intergrations-Intervall komplett innerhalb des Definitionsbereichs liegen. Andernfalls wird die Integralfl&auml;che ung&uuml;ltig und verschwindet vom Bildschirm, oder die "area()"-Funktion liefert falsche Werte. Z.B. darf bei gebrochen-rationalen Randfunktionen das Integrations-Intervall keine Polstelle der Randfunktion enthalten.<br>
+<br>
+</li>
+<li>Einen Sonderfall stellen <u>unstetige Randfunktionen mit endlichen Sprungstellen</u> dar, wie z.B. floor(). DynaGeo kann solche Integrale nur dann korrekt berechnen, wenn die R&auml;nder des Integrations-Intervalls beide im sichtbaren Fenster liegen. Die Ergebnisse dieser Berechnungen sind jedoch deutlich ungenauer als die bei stetigen Randfunktionen erzielten.<br>
+</li>
+</ul>
+<br>
+<br>
+<p><b>ALT-Variante: <a href="riemannsum.htm">Riemann-Summen</a></b><br>
+<ul>Wenn Sie den Befehl <I>Fl&auml;che unter einem Funktions-Schaubild</I> &uuml;ber die Werkzeugleiste anw&auml;hlen und beim Klicken auf das entsprechende Icon die <I>ALT</I>-Taste gedr&uuml;ckt halten, dann wird statt der Integralfl&auml;che eine Riemann-Summe erzeugt. Es sind dazu einige zus&auml;tzliche Eingaben n&ouml;tig, deren genaue Beschreibung Sie in der Hilfe zum Befehl <a href="riemannsum.htm">Riemann-Summen</a> finden. </ul>
+</P>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\OKCANCL1.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\OKCANCL1.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715972222</prop>
+        <prop prop-type="OrigDateTime">40195.5508333333</prop>
+        <prop prop-type="XlatDateTime">37491.3333333333</prop>
+        <prop prop-type="Translated">2</prop>
+        <prop prop-type="UnTranslated">43</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:OKBottomDlg.Left" resname="O:OKBottomDlg.Left">
+        <source>539</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TOKBottomDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.Top" resname="O:OKBottomDlg.Top">
+        <source>110</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TOKBottomDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.BorderStyle" resname="O:OKBottomDlg.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TOKBottomDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.Caption" resname="O:OKBottomDlg.Caption">
+        <source>'Dialog'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TOKBottomDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.ClientHeight" resname="O:OKBottomDlg.ClientHeight">
+        <source>214</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TOKBottomDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.ClientWidth" resname="O:OKBottomDlg.ClientWidth">
+        <source>313</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TOKBottomDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.Color" resname="O:OKBottomDlg.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TOKBottomDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.ParentFont" resname="O:OKBottomDlg.ParentFont">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TOKBottomDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.OldCreateOrder" resname="O:OKBottomDlg.OldCreateOrder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TOKBottomDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.Position" resname="O:OKBottomDlg.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TOKBottomDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.PixelsPerInch" resname="O:OKBottomDlg.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TOKBottomDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.TextHeight" resname="O:OKBottomDlg.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TOKBottomDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:Bevel1.Left" resname="O:OKBottomDlg.O:Bevel1.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:Bevel1.Top" resname="O:OKBottomDlg.O:Bevel1.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:Bevel1.Width" resname="O:OKBottomDlg.O:Bevel1.Width">
+        <source>297</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:Bevel1.Height" resname="O:OKBottomDlg.O:Bevel1.Height">
+        <source>161</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:Bevel1.Shape" resname="O:OKBottomDlg.O:Bevel1.Shape">
+        <source>bsFrame</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:OKBtn.Left" resname="O:OKBottomDlg.O:OKBtn.Left">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:OKBtn.Top" resname="O:OKBottomDlg.O:OKBtn.Top">
+        <source>180</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:OKBtn.Width" resname="O:OKBottomDlg.O:OKBtn.Width">
+        <source>82</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:OKBtn.Height" resname="O:OKBottomDlg.O:OKBtn.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:OKBtn.Caption" resname="O:OKBottomDlg.O:OKBtn.Caption">
+        <source>'OK'</source>
+        <target>'Ok'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">1</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:OKBtn.Default" resname="O:OKBottomDlg.O:OKBtn.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:OKBtn.Font.Charset" resname="O:OKBottomDlg.O:OKBtn.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458291667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:OKBtn.Font.Color" resname="O:OKBottomDlg.O:OKBtn.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458291667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:OKBtn.Font.Height" resname="O:OKBottomDlg.O:OKBtn.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458291667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:OKBtn.Font.Name" resname="O:OKBottomDlg.O:OKBtn.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458291667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:OKBtn.Font.Style" resname="O:OKBottomDlg.O:OKBtn.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458291667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:OKBtn.ModalResult" resname="O:OKBottomDlg.O:OKBtn.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:OKBtn.ParentFont" resname="O:OKBottomDlg.O:OKBtn.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458291667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:OKBtn.TabOrder" resname="O:OKBottomDlg.O:OKBtn.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:CancelBtn.Left" resname="O:OKBottomDlg.O:CancelBtn.Left">
+        <source>159</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:CancelBtn.Top" resname="O:OKBottomDlg.O:CancelBtn.Top">
+        <source>180</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:CancelBtn.Width" resname="O:OKBottomDlg.O:CancelBtn.Width">
+        <source>82</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:CancelBtn.Height" resname="O:OKBottomDlg.O:CancelBtn.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:CancelBtn.Cancel" resname="O:OKBottomDlg.O:CancelBtn.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:CancelBtn.Caption" resname="O:OKBottomDlg.O:CancelBtn.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Cancel'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">1</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:CancelBtn.Font.Charset" resname="O:OKBottomDlg.O:CancelBtn.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458291667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:CancelBtn.Font.Color" resname="O:OKBottomDlg.O:CancelBtn.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458291667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:CancelBtn.Font.Height" resname="O:OKBottomDlg.O:CancelBtn.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458291667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:CancelBtn.Font.Name" resname="O:OKBottomDlg.O:CancelBtn.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458291667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:CancelBtn.Font.Style" resname="O:OKBottomDlg.O:CancelBtn.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458291667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:CancelBtn.ModalResult" resname="O:OKBottomDlg.O:CancelBtn.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:CancelBtn.ParentFont" resname="O:OKBottomDlg.O:CancelBtn.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458291667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:OKBottomDlg.O:CancelBtn.TabOrder" resname="O:OKBottomDlg.O:CancelBtn.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374645486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

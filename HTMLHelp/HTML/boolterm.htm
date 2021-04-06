@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Boole'sche Terme</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Bedingung">
+        <PARAM NAME="Keyword" VALUE="Beweis">
+        <PARAM NAME="Keyword" VALUE="Terme">
+</OBJECT>
+
+<A NAME="idh_boolterm"></A>
+
+<H2>Boole'sche Terme</H2>
+<HR>
+
+<p>An vielen Stellen verwendet EUKLID DynaGeo boole'sche Ausdr&uuml;cke, z.B. bei den Sichtbarkeits-Bedingungen dynamischer Sichtbarkeits-Gruppen, bei der Bedingung in der "Schalter-Funktion <b>if()</b>" und bei der Korrektheits-Bedingung f&uuml;r den automatischen Korrektheits-Tester. Boole'sche Terme unterscheiden sich von gew&ouml;hnlichen ("numerischen") Termen dadurch, dass sie nur die beiden Werte "wahr" oder "falsch" annehmen k&ouml;nnen. Damit k&ouml;nnen sie also ganz allgemein f&uuml;r Entscheidungen herangezogen werden.<br>
+</p>
+
+<P>Die naheliegendste Form eines boole'schen Ausdrucks ist durch <b>Vergleichs-Operationen</b> gegeben: wenn Sie zwei numerische Terme auswerten, k&ouml;nnen Sie entscheiden, ob der erste gr&ouml;&szlig;er als der zweite ist oder nicht. Solche Vergleiche sind also stets von der Form:
+<ul><font color="#FF0000">&lt;term1&gt; &lt;op&gt; &lt;term2&gt;</font></ul>
+Dabei steht &lt;op&gt; f&uuml;r einen der m&ouml;glichen Vergleichsoperatoren: <font color="#FF0000">=</font>, <font color="#FF0000">&lt;&gt;</font>, <font color="#FF0000">&lt;</font>, <font color="#FF0000">&lt;=</font>, <font color="#FF0000">&gt;</font>, oder <font color="#FF0000">&gt;=</font>. Da die verwendeten Terme ganz gew&ouml;hnliche numerische Terme sein k&ouml;nnen, ist damit schon eine Vielzahl von Bedingungen formulierbar, in denen z.B. auch Koordinatenwerte, L&auml;ngen und Winkel der aktuellen Zeichnung referenziert werden k&ouml;nnen.
+<ul><font color="#0000FF"><i>Beispiel:</i></font><br>
+Die Bedingung "(d(M;A) = d(M;B))" testet, ob der Punkt M von den beiden Punkten A und B gleich weit entfernt ist.</ul>
+<br>
+</p>
+
+Solche elementaren Vergleiche k&ouml;nnen mit Hilfe der <b>logischen Operatoren</b> <font color="#FF0000">not</font>, <font color="#FF0000">and</font> und <font color="#FF0000">or</font> zu komplizierteren boole'schen Ausdr&uuml;cken kombiniert werden. Dabei bindet <font color="#FF0000">not</font> st&auml;rker als <font color="#FF0000">and</font>, und <font color="#FF0000">and</font> st&auml;rker als <font color="#FF0000">or</font>. Damit der Term-Compiler die Ausdr&uuml;cke versteht, m&uuml;ssen die elementaren Vergleiche in Klammern eingeschlossen werden.
+<ul><font color="#0000FF"><i>Beispiel:</i></font><br>
+Die Bedingung "(d(M;A) = d(M;B)) and (d(M;B) = d(M;C))" testet, ob der Punkt M der Umkreis-Mittelpunkt des Dreiecks ABC ist.</ul>
+<br>
+</p>
+
+<P>Dar&uuml;berhinaus k&ouml;nnen Sie in boole'schen Termen auch einige spezielle boole'sche Funktionen verwenden: </P>
+<UL>
+<LI><font color="#FF0000"><b>parall(g1; g2)</b></font>  (oder  <font color="#FF0000"><b>parall(g1; P1; P2)</b></font>  oder  <font color="#FF0000"><b>parall(P1; P2; P3; P4)</b></font> ) <br>
+<ul>ist genau dann "wahr", wenn die beiden Geraden g1 und g2 parallel sind (bzw. die Gerade g1 parallel ist zur Geraden durch P1 und P2 bzw. die Gerade durch P1 und P2 parallel ist zur Geraden durch P3 und P4).<br>
+<br>
+</ul>
+</LI>
+<LI><font color="#FF0000"><b>ortho(g1; g2)</b></font>  (oder <font color="#FF0000"><b>ortho(g1; P1; P2)</b></font>  oder <font color="#FF0000"><b>ortho(P1; P2; P3; P4)</b></font> ) <br>
+<ul>ist genau dann "wahr", wenn die beiden Geraden g1 und g2 orthogonal zueinander sind (bzw. die Gerade g1 orthogonal ist zur Geraden durch P1 und P2  bzw.  die Geraden durch P1 und P2 orthogonal ist zur Geraden durch P3 und P4 ) <br>
+<br>
+</ul>
+</LI>
+<LI>"<font color="#FF0000"><b>incid(P; s)</b></font>"<br>
+<ul>ist genau dann "wahr", wenn der Punkt P auf der Linie s liegt. Dabei kann s eine beliebige Linie sein, also eine Strecke, eine (Halb-)Gerade, ein Kreis, ein Kegelschnitt oder sogar eine Ortslinie.<br>
+<br>
+</ul>
+</LI>
+<LI>"<font color="#FF0000"><b>valid(Obj)</b></font>"<br>
+<ul>ist genau dann "wahr", wenn das Objekt Obj g&uuml;ltig ist, d.h: wenn es seine Lage aus der seiner Eltern berechnen kann. So ist z.B. ein Schnittpunkt zweier Geraden genau dann g&uuml;ltig, wenn die beiden Geraden nicht parallel sind.<br>
+<br>
+</ul>
+</LI>
+</UL>
+Allerdings entscheiden diese Funktionen lediglich aufgrund von numerischen Berechnungen &uuml;ber ihren aktuellen Wert, nicht aufgrund logisch-geometrischer Zusammenh&auml;nge! Wenn also "incid(P; g)" den Wert "wahr" liefert, bedeutet das nicht, dass der Punkt P immer auf der Geraden g liegen wird, sondern nur, dass in der aktuellen Zeichnung sein Abstand von dieser Geraden kleiner ist als ein gewisses, programm-intern vorgegebenes positives <font face="Symbol">e</font>.</p>
+
+<p>Der isolierte Aufruf einer solchen boole'schen Standard-Funktion ist schon ein vollst&auml;ndiger boole'scher Term. Anf&auml;nger neigen gelegentlich zu Konstruktionen wie "incid(P; s) = true", in denen der Funktionswert mit einer boole'schen Konstanten ("true" oder "false" f&uuml;r wahr oder falsch) verglichen wird. Zwar sind solche Formulierungen durchaus zul&auml;ssig und liefern auch die gew&uuml;nschten Ergebnisse; ein einfaches "incid(P; s)" ist aber eleganter und funktions&auml;quivalent.</p>
+
+<br>
+<br>
+<b><i>Siehe auch:</i></b><br>
+<ul>
+<li><a href="termsyntax.htm">Die Syntax von Termen</a></li>
+<li><a href="termstandard.htm">Standardfunktionen f&uuml;r Terme</a></li>
+</ul>
+<br>
+</FONT>
+</BODY>
+</HTML>

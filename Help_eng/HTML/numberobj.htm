@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Build a number object</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="distance">
+        <PARAM NAME="Keyword" VALUE="angle">
+        <PARAM NAME="Keyword" VALUE="measure">
+        <PARAM NAME="Keyword" VALUE="term">
+</OBJECT>
+
+<A NAME="idh_cm_numberobj"></A>
+
+<H2>Create a number object&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/ToolNumberObj.gif" width="32" height="32" border="0" alt=""></H2>
+<HR>
+
+<P>A number object is a slide control that implements a <b>number</b>. The number's value can be changed in a predefined interval, by sliding the control knob of the number object. With the help of number objects you can realize an adjustable dilation factor or a parameter to make a point move on a certain path.</P>
+
+<P>When you choose this command, a number object is created, filled with standard data and displayed. It is automatically positioned at a free spot of your drawing. In the upper half of the number frame, the upper and lower bound of the interval and <b>the actual value</b> are shown. Below appears the <b>slider</b>.</p>
+
+<p>The interval is initially set to [-3; 5]. You can change these settings with help of the small "up" and "down" triangles next to the bounds' display. The actual value is initially set to 1. This value can be changed with the slider: just drag its knob.</P>
+
+<P>You can use the actual value of a number object Z1 in the expression of a <a href="termobj.htm">term object</a> by inserting the name "Z1" of the number object in the expression of the term object. For example, if you enter the expression "3*Z1" in the term object, then this will always show 3 times the value of the number object Z1. For further details see the page about <nobr><a href="termsyntax.htm">The syntax of terms</a></nobr>.</P>
+<BR>
+
+<p>Beside the usual items, the <A HREF="JavaScript:HHCTRL.TextPopup(pop_contextmenu,popfont,10,10,-1,-1)"
+Title="Click to see a definition!">context menu</A> of a number object contains another command:<br>
+<ul>
+<li><b>Edit range</b>:<br>
+<br>
+If you choose this entry, a window opens where you can edit the interval bounds and the actual value directly.<br>
+<br>
+In addition, you can enter a "<i>Step width</i>": this is used to force the number object to change its value only in steps of this given width. Thus, the value of the number object is "quantized". If for example you set the step width to "1", the number object's value will always be integer. If you set the width to "0.2" its value will always be a multiple of "0.2".</li>
+</ul>
+</p>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

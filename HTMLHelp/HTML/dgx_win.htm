@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Wie ver&auml;ndert DynaGeoX mein Windows-System?</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="DynaGeoX">
+        <PARAM NAME="Keyword" VALUE="HTML">
+        <PARAM NAME="Keyword" VALUE="ActiveX">
+</OBJECT>
+
+<A NAME="idh_dgx_winsys"></A>
+
+<H2>DynaGeoX und Windows</H2>
+<HR>
+
+<p><h3>Der Normalfall: Automatische Verwaltung von DynaGeoX</h3></p>
+<ul>
+<P>DynaGeoX ist eine ganz gew&ouml;hnliche <b>ActiveX-Komponente</b> und wird als solche weitgehend automatisch von Ihrem WINDOWS-System verwaltet. Wenn der Internet Explorer eine HTML-Seite anzeigt, f&uuml;r die eine ActiveX-Komponente ben&ouml;tigt wird, dann wird zuerst bei Windows nachgefragt, ob diese Komponente schon im Windows-System vorhanden ist und - wenn ja - ob in einer hinreichend aktuellen Version. Wenn dies der Fall ist, wird diese lokal schon vorhandene Kopie der Komponente eingesetzt, um das aktive Objekt auf der HTML-Seite darzustellen. F&uuml;r den anderen Fall enth&auml;lt die HTML-Seite einen Link zu einer "code base"; dies ist in der Regel eine Internet-Adresse, die angibt, von wo die Komponente heruntergeladen werden kann. Falls n&ouml;tig, wird also die ActiveX-Komponente von dort geholt, gegebenfalls ausgepackt, in Windows installiert und registriert. Schlie&szlig;lich kann das aktive Objekt auf der HTML-Seite mit dieser neu installierten Kopie der Komponente angezeigt werden.</P>
+
+<P>Gl&uuml;cklicherweise geschieht die Installation einer aus dem Internet geladenen ActiveX-Komponente durch den Internet Explorer <B>recht transparent</B>: im Windows-Verzeichnis richtet der IE ein Unterverzeichnis namens "Downloaded Program Files" ein, in das die Komponente kopiert wird. Wenn Sie im Explorer in dieses Verzeichnis wechseln und dann dort den Eintrag einer ActiveX-Komponente l&ouml;schen, dann entfernt der IE auch gleich deren Registrierung aus der Systemdatenbank (Registry). Somit k&ouml;nnen Sie eine heruntergeladene ActiveX-Komponente auch wieder problemlos aus Ihrem System entfernen. Wenn DynaGeoX auf Ihrem System installiert und registriert ist, dann sollte in diesem Verzeichnis ein entsprechender Eintrag zu finden sein.</P>
+</ul>
+<br>
+
+<p><h3>Wie Sie eine Installation / ein Update von DynaGeoX ausl&ouml;sen k&ouml;nnen:</h3></p>
+<ul>
+<p>Der DynaGeoX-Viewer geh&ouml;rt zum Standard-Lieferumfang von EUKLID DynaGeo, so dass er normalerweise gleich bei der Installation ins Betriebssystem eingebunden wird. Trotzdem k&ouml;nnte es sein, dass auf Ihrem Rechner doch kein DynaGeoX installiert ist, etwa weil Sie bei der Installation die Option <i>"DynaGeoX-Viewer installieren"</i> abgew&auml;hlt haben. Und schlie&szlig;lich kann es passieren, dass Ihre DynaGeoX-Installation veraltet ist. In all diesen F&auml;llen m&uuml;ssen Sie eine Installation bzw. ein Update des DynaGeoX-Viewers manuell ansto&szlig;en, wof&uuml;r es mehrere einfache M&ouml;glichkeiten gibt:</p>
+
+<ul>
+<li><p>Im Unterverzeichnis "Viewer" Ihres DynaGeo-Verzeichnisses finden Sie ein HTML-Dokument namens "InstallDGX_InternetSource.html". Wenn Sie diese Datei in Ihren Internet Explorer laden, wird dadurch eine automatische Installation bzw. ein Update von DynaGeoX ausgel&ouml;st. Weitere Hinweise (auch f&uuml;r den Fall, dass die Installation nicht klappt) finden Sie in diesem Dokument selbst.</p></li>
+
+<li><p>Alternativ k&ouml;nnen Sie DynaGeoX auch durch einen Besuch in der "Galerie" der <a href="http://www.dynageo.de/">DynaGeo-Homepage</a> aktualisieren. Wenn Sie dort auf die "Installations-Seite" gehen, wird automatisch &uuml;berpr&uuml;ft, ob in Ihrem System ein DynaGeoX-Viewer installiert und registriert ist; wenn DynaGeoX nicht installiert ist oder wenn die installierte Version veraltet ist, dann wird ein aktuelles DynaGeoX heruntergeladen und in Ihr Windows-System integriert.</p></li>
+</ul>
+
+<p>In diesen beiden F&auml;llen kommt der Viewer per Download auf Ihren Rechner. Bevor Windows ihn dann installiert, werden Sie allerdings nochmals gefragt, ob Sie dies auch wirklich wollen. Je nach Version des installierten InternetExplorers kann es sein, dass Windows die digitale Signatur von DynaGeoX nicht anerkennt und vor einer "nicht vertrauensw&uuml;rdigen Komponente" warnt. Dann m&uuml;ssen Sie Ihren ganzen Mut zusammennehmen und den Viewer eben trotzdem installieren lassen. Der Vorteil der "<b>Installation per Download</b>" ist aber, dass Sie dabei stets sicher sein k&ouml;nnen, die neueste DynaGeoX-Version zu bekommen. Diese Methoden sind daher auch geeignet, Ihre DynaGeoX-Installation auf den neuesten Stand zu bringen.</p>
+
+<p>Eine dritte M&ouml;glichkeit ist die <b>lokale Installation</b>:</p>
+<ul>
+<li><p>Wenn im Unterverzeichnis "Viewer" Ihres DynaGeo-Verzeichnisses die Datei "dynageox3.ocx" vorhanden ist, dann k&ouml;nnen Sie auch die ebenfalls dort stehende Datei "InstallDGX_LocalSource.html" in den IE laden. Diese Art der Installation braucht keinen Internet-Zugriff, weil DynaGeoX aus der lokal vorhanden OCX-Datei installiert wird. Der Nachteil ist, dass Sie dabei nicht sicher sein k&ouml;nnen, ob diese OCX-Datei noch aktuell ist. Daher sollten Sie diese Methode nur dann einsetzen, wenn Sie genau wissen, warum Sie das tun.</p></li>
+</ul>
+<br>
+<br>
+
+</FONT>
+</BODY>
+</HTML>

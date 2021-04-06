@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{ADBA1CFC-3CB8-48A7-9F62-F4BE2BB44593}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="..\DynaGeo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DynaGeo_ENG.bdsproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="DynaGeo">
+			<MSBuild Projects="..\DynaGeo.dproj"/>
+		</Target>
+		<Target Name="DynaGeo:Clean">
+			<MSBuild Targets="Clean" Projects="..\DynaGeo.dproj"/>
+		</Target>
+		<Target Name="DynaGeo:Make">
+			<MSBuild Targets="Make" Projects="..\DynaGeo.dproj"/>
+		</Target>
+		<Target Name="DynaGeo_ENG">
+			<MSBuild Projects="DynaGeo_ENG.bdsproj"/>
+		</Target>
+		<Target Name="DynaGeo_ENG:Clean">
+			<MSBuild Targets="Clean" Projects="DynaGeo_ENG.bdsproj"/>
+		</Target>
+		<Target Name="DynaGeo_ENG:Make">
+			<MSBuild Targets="Make" Projects="DynaGeo_ENG.bdsproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="DynaGeo;DynaGeo_ENG"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="DynaGeo:Clean;DynaGeo_ENG:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="DynaGeo:Make;DynaGeo_ENG:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

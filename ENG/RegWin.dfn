@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\RegWin.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\RegWin.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715972222</prop>
+        <prop prop-type="OrigDateTime">38375.6684722222</prop>
+        <prop prop-type="XlatDateTime">37754.4291898148</prop>
+        <prop prop-type="Translated">7</prop>
+        <prop prop-type="UnTranslated">58</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:RegisterDlg.Left" resname="O:RegisterDlg.Left">
+        <source>355</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256928356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.Top" resname="O:RegisterDlg.Top">
+        <source>268</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256937616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.HelpContext" resname="O:RegisterDlg.HelpContext">
+        <source>168</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256928356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.BorderStyle" resname="O:RegisterDlg.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256927199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.Caption" resname="O:RegisterDlg.Caption">
+        <source>'Suche nach Lizenz-Dateien'</source>
+        <target>'Search for a license file'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256927199</prop><prop prop-type="Status">1</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Bitte geben Sie Ihre Lizenzdaten ein:'</source>
+          <target>'Please enter your license data :'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40402.5474526157</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:RegisterDlg.ClientHeight" resname="O:RegisterDlg.ClientHeight">
+        <source>143</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256927199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.ClientWidth" resname="O:RegisterDlg.ClientWidth">
+        <source>475</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256927199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.Color" resname="O:RegisterDlg.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256928356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.Font.Charset" resname="O:RegisterDlg.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256928356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.Font.Color" resname="O:RegisterDlg.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256928356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.Font.Height" resname="O:RegisterDlg.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256928356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.Font.Name" resname="O:RegisterDlg.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256928356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.Font.Style" resname="O:RegisterDlg.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256928356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.OldCreateOrder" resname="O:RegisterDlg.OldCreateOrder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256936458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.Position" resname="O:RegisterDlg.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256937616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.OnCreate" resname="O:RegisterDlg.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980043982</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.PixelsPerInch" resname="O:RegisterDlg.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256937616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.TextHeight" resname="O:RegisterDlg.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256937616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TRegisterDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Bevel1.Left" resname="O:RegisterDlg.O:Bevel1.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256928356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Bevel1.Top" resname="O:RegisterDlg.O:Bevel1.Top">
+        <source>79</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256929514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Bevel1.Width" resname="O:RegisterDlg.O:Bevel1.Width">
+        <source>462</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256929514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Bevel1.Height" resname="O:RegisterDlg.O:Bevel1.Height">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256928356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Bevel1.Shape" resname="O:RegisterDlg.O:Bevel1.Shape">
+        <source>bsTopLine</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256928356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Label1.Left" resname="O:RegisterDlg.O:Label1.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256934143</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Label1.Top" resname="O:RegisterDlg.O:Label1.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256934143</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Label1.Width" resname="O:RegisterDlg.O:Label1.Width">
+        <source>157</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256934143</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>104</source>
+          <target>120</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40402.5474526157</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Label1.Height" resname="O:RegisterDlg.O:Label1.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256934143</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Label1.AutoSize" resname="O:RegisterDlg.O:Label1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256932986</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Label1.Caption" resname="O:RegisterDlg.O:Label1.Caption">
+        <source>'Pfad zur Lizenzdatei:'</source>
+        <target>'Path of license file :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256932986</prop><prop prop-type="Status">1</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:CancelBtn.Left" resname="O:RegisterDlg.O:CancelBtn.Left">
+        <source>313</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256929514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:CancelBtn.Top" resname="O:RegisterDlg.O:CancelBtn.Top">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256929514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:CancelBtn.Width" resname="O:RegisterDlg.O:CancelBtn.Width">
+        <source>113</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256929514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:CancelBtn.Height" resname="O:RegisterDlg.O:CancelBtn.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256929514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:CancelBtn.Caption" resname="O:RegisterDlg.O:CancelBtn.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Cancel'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256929514</prop><prop prop-type="Status">1</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:CancelBtn.Default" resname="O:RegisterDlg.O:CancelBtn.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256929514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:CancelBtn.Font.Charset" resname="O:RegisterDlg.O:CancelBtn.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:CancelBtn.Font.Color" resname="O:RegisterDlg.O:CancelBtn.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:CancelBtn.Font.Height" resname="O:RegisterDlg.O:CancelBtn.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:CancelBtn.Font.Name" resname="O:RegisterDlg.O:CancelBtn.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:CancelBtn.Font.Style" resname="O:RegisterDlg.O:CancelBtn.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:CancelBtn.ModalResult" resname="O:RegisterDlg.O:CancelBtn.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980043982</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:CancelBtn.ParentFont" resname="O:RegisterDlg.O:CancelBtn.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:CancelBtn.TabOrder" resname="O:RegisterDlg.O:CancelBtn.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256929514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:RegisterBtn.Left" resname="O:RegisterDlg.O:RegisterBtn.Left">
+        <source>49</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256936458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:RegisterBtn.Top" resname="O:RegisterDlg.O:RegisterBtn.Top">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256936458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:RegisterBtn.Width" resname="O:RegisterDlg.O:RegisterBtn.Width">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256936458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:RegisterBtn.Height" resname="O:RegisterDlg.O:RegisterBtn.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256936458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:RegisterBtn.Caption" resname="O:RegisterDlg.O:RegisterBtn.Caption">
+        <source>'Registrieren'</source>
+        <target>'Register'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256936458</prop><prop prop-type="Status">1</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:RegisterBtn.Font.Charset" resname="O:RegisterDlg.O:RegisterBtn.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:RegisterBtn.Font.Color" resname="O:RegisterDlg.O:RegisterBtn.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:RegisterBtn.Font.Height" resname="O:RegisterDlg.O:RegisterBtn.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:RegisterBtn.Font.Name" resname="O:RegisterDlg.O:RegisterBtn.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:RegisterBtn.Font.Style" resname="O:RegisterDlg.O:RegisterBtn.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:RegisterBtn.ParentFont" resname="O:RegisterDlg.O:RegisterBtn.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:RegisterBtn.TabOrder" resname="O:RegisterDlg.O:RegisterBtn.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256936458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:RegisterBtn.OnClick" resname="O:RegisterDlg.O:RegisterBtn.OnClick">
+        <source>RegisterBtnClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980043982</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:HelpButton.Left" resname="O:RegisterDlg.O:HelpButton.Left">
+        <source>185</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256932986</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:HelpButton.Top" resname="O:RegisterDlg.O:HelpButton.Top">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256932986</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:HelpButton.Width" resname="O:RegisterDlg.O:HelpButton.Width">
+        <source>113</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256932986</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:HelpButton.Height" resname="O:RegisterDlg.O:HelpButton.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256932986</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:HelpButton.Caption" resname="O:RegisterDlg.O:HelpButton.Caption">
+        <source>'Hilfe'</source>
+        <target>'Help'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256932986</prop><prop prop-type="Status">1</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:HelpButton.Font.Charset" resname="O:RegisterDlg.O:HelpButton.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:HelpButton.Font.Color" resname="O:RegisterDlg.O:HelpButton.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:HelpButton.Font.Height" resname="O:RegisterDlg.O:HelpButton.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:HelpButton.Font.Name" resname="O:RegisterDlg.O:HelpButton.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:HelpButton.Font.Style" resname="O:RegisterDlg.O:HelpButton.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:HelpButton.ParentFont" resname="O:RegisterDlg.O:HelpButton.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374884259</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:HelpButton.TabOrder" resname="O:RegisterDlg.O:HelpButton.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256932986</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:HelpButton.OnClick" resname="O:RegisterDlg.O:HelpButton.OnClick">
+        <source>HelpButtonClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256932986</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Edit1.Left" resname="O:RegisterDlg.O:Edit1.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256930671</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>121</source>
+          <target>136</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40402.5474526157</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Edit1.Top" resname="O:RegisterDlg.O:Edit1.Top">
+        <source>39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256930671</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Edit1.Width" resname="O:RegisterDlg.O:Edit1.Width">
+        <source>345</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256930671</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>336</source>
+          <target>321</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40402.5474526157</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Edit1.Height" resname="O:RegisterDlg.O:Edit1.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256929514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Edit1.TabOrder" resname="O:RegisterDlg.O:Edit1.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256930671</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Edit1.Text" resname="O:RegisterDlg.O:Edit1.Text">
+        <source>'Edit1'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256930671</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Button1.Left" resname="O:RegisterDlg.O:Button1.Left">
+        <source>371</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980043982</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Button1.Top" resname="O:RegisterDlg.O:Button1.Top">
+        <source>39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980043982</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Button1.Width" resname="O:RegisterDlg.O:Button1.Width">
+        <source>91</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980043982</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Button1.Height" resname="O:RegisterDlg.O:Button1.Height">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980043982</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Button1.Caption" resname="O:RegisterDlg.O:Button1.Caption">
+        <source>'Durchsuchen...'</source>
+        <target>'Browse...'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980043982</prop><prop prop-type="Status">1</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Button1.TabOrder" resname="O:RegisterDlg.O:Button1.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980043982</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:Button1.OnClick" resname="O:RegisterDlg.O:Button1.OnClick">
+        <source>Button1Click</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980043982</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:OpenDialog1.Filter" resname="O:RegisterDlg.O:OpenDialog1.Filter">
+        <source>'DynaGeo-Lizenzdateien (*.dgl)|*.dgl'</source>
+        <target>'DynaGeo Licence files (*.dgl)|*.dgl'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980043982</prop><prop prop-type="Status">1</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TOpenDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:OpenDialog1.Left" resname="O:RegisterDlg.O:OpenDialog1.Left">
+        <source>536</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980043982</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TOpenDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:RegisterDlg.O:OpenDialog1.Top" resname="O:RegisterDlg.O:OpenDialog1.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980043982</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TOpenDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

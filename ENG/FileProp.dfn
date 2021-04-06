@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\FileProp.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\FileProp.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715046296</prop>
+        <prop prop-type="OrigDateTime">40029.383587963</prop>
+        <prop prop-type="XlatDateTime">36484.6304861111</prop>
+        <prop prop-type="Translated">11</prop>
+        <prop prop-type="UnTranslated">121</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FileProps.Left" resname="O:FileProps.Left">
+        <source>647</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256646759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.Top" resname="O:FileProps.Top">
+        <source>124</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256657176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.BorderStyle" resname="O:FileProps.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.Caption" resname="O:FileProps.Caption">
+        <source>'Copyright-Vermerk editieren'</source>
+        <target>'Edit Copyright notice'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256645602</prop><prop prop-type="Status">1</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Datei-Eigenschaften'</source>
+          <target>'File properties'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2625097569</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:FileProps.ClientHeight" resname="O:FileProps.ClientHeight">
+        <source>287</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.ClientWidth" resname="O:FileProps.ClientWidth">
+        <source>501</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.Color" resname="O:FileProps.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256645602</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.Font.Charset" resname="O:FileProps.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256646759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.Font.Color" resname="O:FileProps.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256646759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.Font.Height" resname="O:FileProps.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256646759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.Font.Name" resname="O:FileProps.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256646759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.Font.Style" resname="O:FileProps.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256646759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.OldCreateOrder" resname="O:FileProps.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256657176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.Position" resname="O:FileProps.Position">
+        <source>poOwnerFormCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979732639</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.OnShow" resname="O:FileProps.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256657176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.PixelsPerInch" resname="O:FileProps.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256657176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.TextHeight" resname="O:FileProps.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256657176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFileProps</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:Bevel1.Left" resname="O:FileProps.O:Bevel1.Left">
+        <source>384</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:Bevel1.Top" resname="O:FileProps.O:Bevel1.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:Bevel1.Width" resname="O:FileProps.O:Bevel1.Width">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:Bevel1.Height" resname="O:FileProps.O:Bevel1.Height">
+        <source>260</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:Bevel1.Shape" resname="O:FileProps.O:Bevel1.Shape">
+        <source>bsLeftLine</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.Left" resname="O:FileProps.O:GroupBox2.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.Top" resname="O:FileProps.O:GroupBox2.Top">
+        <source>14</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.Width" resname="O:FileProps.O:GroupBox2.Width">
+        <source>352</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.Height" resname="O:FileProps.O:GroupBox2.Height">
+        <source>124</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.Caption" resname="O:FileProps.O:GroupBox2.Caption">
+        <source>' Copyright - Text '</source>
+        <target>' Copyright text '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">1</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.TabOrder" resname="O:FileProps.O:GroupBox2.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.O:ShowEditCaps.Left" resname="O:FileProps.O:GroupBox2.O:ShowEditCaps.Left">
+        <source>235</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.O:ShowEditCaps.Top" resname="O:FileProps.O:GroupBox2.O:ShowEditCaps.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.O:ShowEditCaps.Width" resname="O:FileProps.O:GroupBox2.O:ShowEditCaps.Width">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.O:ShowEditCaps.Height" resname="O:FileProps.O:GroupBox2.O:ShowEditCaps.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.O:ShowEditCaps.Alignment" resname="O:FileProps.O:GroupBox2.O:ShowEditCaps.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.O:ShowEditCaps.AutoSize" resname="O:FileProps.O:GroupBox2.O:ShowEditCaps.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.O:ShowEditCaps.Caption" resname="O:FileProps.O:GroupBox2.O:ShowEditCaps.Caption">
+        <source>'(nicht editierbar)'</source>
+        <target>'(not editable)'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">1</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.O:Memo1.Left" resname="O:FileProps.O:GroupBox2.O:Memo1.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.O:Memo1.Top" resname="O:FileProps.O:GroupBox2.O:Memo1.Top">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.O:Memo1.Width" resname="O:FileProps.O:GroupBox2.O:Memo1.Width">
+        <source>326</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.O:Memo1.Height" resname="O:FileProps.O:GroupBox2.O:Memo1.Height">
+        <source>78</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.O:Memo1.TabOrder" resname="O:FileProps.O:GroupBox2.O:Memo1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox2.O:Memo1.OnChange" resname="O:FileProps.O:GroupBox2.O:Memo1.OnChange">
+        <source>Memo1Change</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnOkay.Left" resname="O:FileProps.O:BtnOkay.Left">
+        <source>403</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256646759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnOkay.Top" resname="O:FileProps.O:BtnOkay.Top">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256647917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnOkay.Width" resname="O:FileProps.O:BtnOkay.Width">
+        <source>85</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256647917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnOkay.Height" resname="O:FileProps.O:BtnOkay.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256646759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnOkay.Caption" resname="O:FileProps.O:BtnOkay.Caption">
+        <source>'Okay'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256646759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnOkay.Font.Charset" resname="O:FileProps.O:BtnOkay.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnOkay.Font.Color" resname="O:FileProps.O:BtnOkay.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnOkay.Font.Height" resname="O:FileProps.O:BtnOkay.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnOkay.Font.Name" resname="O:FileProps.O:BtnOkay.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnOkay.Font.Style" resname="O:FileProps.O:BtnOkay.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnOkay.ParentFont" resname="O:FileProps.O:BtnOkay.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnOkay.TabOrder" resname="O:FileProps.O:BtnOkay.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256647917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnOkay.OnClick" resname="O:FileProps.O:BtnOkay.OnClick">
+        <source>BtnOkayClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256647917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.Left" resname="O:FileProps.O:GroupBox1.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.Top" resname="O:FileProps.O:GroupBox1.Top">
+        <source>149</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374697917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.Width" resname="O:FileProps.O:GroupBox1.Width">
+        <source>352</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.Height" resname="O:FileProps.O:GroupBox1.Height">
+        <source>124</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.Caption" resname="O:FileProps.O:GroupBox1.Caption">
+        <source>' Aktuelle Datei - Attribute '</source>
+        <target>' Actual file attributes '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">1</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.TabOrder" resname="O:FileProps.O:GroupBox1.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label1.Left" resname="O:FileProps.O:GroupBox1.O:Label1.Left">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label1.Top" resname="O:FileProps.O:GroupBox1.O:Label1.Top">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label1.Width" resname="O:FileProps.O:GroupBox1.O:Label1.Width">
+        <source>53</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label1.Height" resname="O:FileProps.O:GroupBox1.O:Label1.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label1.Alignment" resname="O:FileProps.O:GroupBox1.O:Label1.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label1.AutoSize" resname="O:FileProps.O:GroupBox1.O:Label1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label1.Caption" resname="O:FileProps.O:GroupBox1.O:Label1.Caption">
+        <source>'Name : '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">1</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DName.Left" resname="O:FileProps.O:GroupBox1.O:DName.Left">
+        <source>124</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DName.Top" resname="O:FileProps.O:GroupBox1.O:DName.Top">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DName.Width" resname="O:FileProps.O:GroupBox1.O:DName.Width">
+        <source>221</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DName.Height" resname="O:FileProps.O:GroupBox1.O:DName.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DName.AutoSize" resname="O:FileProps.O:GroupBox1.O:DName.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DName.Caption" resname="O:FileProps.O:GroupBox1.O:DName.Caption">
+        <source>'DName'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DName.ShowAccelChar" resname="O:FileProps.O:GroupBox1.O:DName.ShowAccelChar">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label2.Left" resname="O:FileProps.O:GroupBox1.O:Label2.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label2.Top" resname="O:FileProps.O:GroupBox1.O:Label2.Top">
+        <source>79</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label2.Width" resname="O:FileProps.O:GroupBox1.O:Label2.Width">
+        <source>110</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label2.Height" resname="O:FileProps.O:GroupBox1.O:Label2.Height">
+        <source>19</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label2.Alignment" resname="O:FileProps.O:GroupBox1.O:Label2.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label2.AutoSize" resname="O:FileProps.O:GroupBox1.O:Label2.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label2.Caption" resname="O:FileProps.O:GroupBox1.O:Label2.Caption">
+        <source>'mit dem Programm : '</source>
+        <target>'with the program : '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">1</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DProgVersion.Left" resname="O:FileProps.O:GroupBox1.O:DProgVersion.Left">
+        <source>124</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458430903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DProgVersion.Top" resname="O:FileProps.O:GroupBox1.O:DProgVersion.Top">
+        <source>79</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458430903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DProgVersion.Width" resname="O:FileProps.O:GroupBox1.O:DProgVersion.Width">
+        <source>221</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458430903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DProgVersion.Height" resname="O:FileProps.O:GroupBox1.O:DProgVersion.Height">
+        <source>19</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458430903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DProgVersion.AutoSize" resname="O:FileProps.O:GroupBox1.O:DProgVersion.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458430903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DProgVersion.Caption" resname="O:FileProps.O:GroupBox1.O:DProgVersion.Caption">
+        <source>'DProgVersion'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458430903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label3.Left" resname="O:FileProps.O:GroupBox1.O:Label3.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label3.Top" resname="O:FileProps.O:GroupBox1.O:Label3.Top">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label3.Width" resname="O:FileProps.O:GroupBox1.O:Label3.Width">
+        <source>111</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label3.Height" resname="O:FileProps.O:GroupBox1.O:Label3.Height">
+        <source>19</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label3.Alignment" resname="O:FileProps.O:GroupBox1.O:Label3.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label3.AutoSize" resname="O:FileProps.O:GroupBox1.O:Label3.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label3.Caption" resname="O:FileProps.O:GroupBox1.O:Label3.Caption">
+        <source>'Erstellt am : '</source>
+        <target>'Creation date : '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">1</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DCreateDat.Left" resname="O:FileProps.O:GroupBox1.O:DCreateDat.Left">
+        <source>124</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DCreateDat.Top" resname="O:FileProps.O:GroupBox1.O:DCreateDat.Top">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DCreateDat.Width" resname="O:FileProps.O:GroupBox1.O:DCreateDat.Width">
+        <source>130</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DCreateDat.Height" resname="O:FileProps.O:GroupBox1.O:DCreateDat.Height">
+        <source>19</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DCreateDat.AutoSize" resname="O:FileProps.O:GroupBox1.O:DCreateDat.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DCreateDat.Caption" resname="O:FileProps.O:GroupBox1.O:DCreateDat.Caption">
+        <source>'DCreateDat'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label5.Left" resname="O:FileProps.O:GroupBox1.O:Label5.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label5.Top" resname="O:FileProps.O:GroupBox1.O:Label5.Top">
+        <source>59</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label5.Width" resname="O:FileProps.O:GroupBox1.O:Label5.Width">
+        <source>111</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label5.Height" resname="O:FileProps.O:GroupBox1.O:Label5.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label5.Alignment" resname="O:FileProps.O:GroupBox1.O:Label5.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label5.AutoSize" resname="O:FileProps.O:GroupBox1.O:Label5.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label5.Caption" resname="O:FileProps.O:GroupBox1.O:Label5.Caption">
+        <source>'Letzte Änderung am : '</source>
+        <target>'Last change date : '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">1</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DChangeDat.Left" resname="O:FileProps.O:GroupBox1.O:DChangeDat.Left">
+        <source>124</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DChangeDat.Top" resname="O:FileProps.O:GroupBox1.O:DChangeDat.Top">
+        <source>59</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DChangeDat.Width" resname="O:FileProps.O:GroupBox1.O:DChangeDat.Width">
+        <source>124</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DChangeDat.Height" resname="O:FileProps.O:GroupBox1.O:DChangeDat.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DChangeDat.AutoSize" resname="O:FileProps.O:GroupBox1.O:DChangeDat.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DChangeDat.Caption" resname="O:FileProps.O:GroupBox1.O:DChangeDat.Caption">
+        <source>'DChangeDat'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label4.Left" resname="O:FileProps.O:GroupBox1.O:Label4.Left">
+        <source>59</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label4.Top" resname="O:FileProps.O:GroupBox1.O:Label4.Top">
+        <source>98</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label4.Width" resname="O:FileProps.O:GroupBox1.O:Label4.Width">
+        <source>59</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label4.Height" resname="O:FileProps.O:GroupBox1.O:Label4.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label4.Alignment" resname="O:FileProps.O:GroupBox1.O:Label4.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label4.AutoSize" resname="O:FileProps.O:GroupBox1.O:Label4.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:Label4.Caption" resname="O:FileProps.O:GroupBox1.O:Label4.Caption">
+        <source>'Größe : '</source>
+        <target>'Size : '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">1</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DSize.Left" resname="O:FileProps.O:GroupBox1.O:DSize.Left">
+        <source>124</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DSize.Top" resname="O:FileProps.O:GroupBox1.O:DSize.Top">
+        <source>98</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DSize.Width" resname="O:FileProps.O:GroupBox1.O:DSize.Width">
+        <source>91</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DSize.Height" resname="O:FileProps.O:GroupBox1.O:DSize.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DSize.Hint" resname="O:FileProps.O:GroupBox1.O:DSize.Hint">
+        <source>'(Bytes)'</source>
+        <target>'(bytes)'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">1</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DSize.AutoSize" resname="O:FileProps.O:GroupBox1.O:DSize.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:GroupBox1.O:DSize.Caption" resname="O:FileProps.O:GroupBox1.O:DSize.Caption">
+        <source>'DSize'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnCancel.Left" resname="O:FileProps.O:BtnCancel.Left">
+        <source>403</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnCancel.Top" resname="O:FileProps.O:BtnCancel.Top">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnCancel.Width" resname="O:FileProps.O:BtnCancel.Width">
+        <source>85</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnCancel.Height" resname="O:FileProps.O:BtnCancel.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnCancel.Caption" resname="O:FileProps.O:BtnCancel.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Cancel'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">1</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnCancel.Font.Charset" resname="O:FileProps.O:BtnCancel.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnCancel.Font.Color" resname="O:FileProps.O:BtnCancel.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnCancel.Font.Height" resname="O:FileProps.O:BtnCancel.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnCancel.Font.Name" resname="O:FileProps.O:BtnCancel.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnCancel.Font.Style" resname="O:FileProps.O:BtnCancel.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnCancel.ModalResult" resname="O:FileProps.O:BtnCancel.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnCancel.ParentFont" resname="O:FileProps.O:BtnCancel.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FileProps.O:BtnCancel.TabOrder" resname="O:FileProps.O:BtnCancel.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374699769</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

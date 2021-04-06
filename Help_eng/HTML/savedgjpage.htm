@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Als DynaGeoJ-HTML-Seite speichern</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="file">
+        <PARAM NAME="Keyword" VALUE="drawing">
+        <PARAM NAME="Keyword" VALUE="save">
+        <PARAM NAME="Keyword" VALUE="export">
+</OBJECT>
+
+<A NAME="idh_cm_savedgjhtml"></A>
+
+<H2>Save as DynaGeoJ HTML page...</H2>
+<HR>
+
+<P>This commands lets you <B>export your drawing into a DynaGeoJ HTML document</B>. When you load this HTML document into an Internet browser then the <B>DynaGeoJ viewer</B> cares for the representation of your drawing. Internal Details about this procedure can be found in the section <a href="dynadrawhtml.htm"><B>Dynamic drawings in HTML documents</B></a>. </P>
+
+<P>When you select this command, DynaGeo first checks if the viewer knows all of the objects of your drawing. There is a small number of DynaGeo objects not known to DynaGeoJ (yet). If such objects are found, you get a list of the unexportable objects and you are asked if you want to export the drawing nevertheless. If you refuse, the export procedure is canceled. But when DynaGeoJ knows all objects of your drawing, or you decide to export only those that are known to it, then a dialog window appears where you can specify the details of the HTML page to build:</P>
+
+<UL>
+        <LI><B>Target path of the HTML file: <BR>
+</B>Initially this field shows the full path to your current drawing, but with the extension "<i>.html</i>" instead of "<i>.geo</i>". You can edit this path as you like, but the extension needs to be "<i>.html</i>" (oder "<i>.htm</i>").<br>
+When you enter an existing HTML file, then DynaGeo will examine the content of this file. If it contains a  DynaGeoJ object that points to <b>another</b> GEO file than the one you want to export now, or if the HTML file holds even <b>more</b> than one DynaGeoJ objects, then a window <i>"Choose DynaGeoJ object"</i> is shown and you must decide how your actual drawing should be inserted into the HTML document. <BR>
+<BR><BR></LI>
+
+        <LI><B>Path of the DynaGeoJ viewer: <BR>
+</B>This path must point to an actual version of the DynaGeoJ Viewer. Normally you find a suitable file in the sub-directory <I>Viewer</I> of your DynaGeo directory. You can choose from two standard paths to the Viewer: the <b>local</b> one has the advantage that the Viewer can be called without any Internet access; on the other hand, the <b>Internet</b> path assures that you always work with the last recent version of the Viewer. Anyhow, this path must point to a JAR archieve that holds the DynaGeoJ viewer. The standard value provided is an <b>URL to the DynaGeo website</b> where you always may find an actual version of DynaGeoJ. Please change this path only if you know very well what you are doing!<br>
+<BR><BR></LI>
+
+        <LI><B>Text above the DynaGeoJ object: <BR>
+</B>Here you may enter any text you like. Hard line breaks (by pressing the <i>ENTER</i> key) are automatically converted to HTML breaks (”&lt;br&gt;”) umgesetzt. You can also use your own HTML tags here.
+<BR>
+<BR><BR></LI>
+
+        <LI><B>Viewer window: <BR>
+</B>Here you can adjust the width and height (in pixels) of the Viewer window. You should not size the window bigger than necessary, to make sure that your HTML page can also be displayed on smaller screens. Whenever you call the command "Save as DynaGeoJ HTML page" the width and size of the DynaGeoJ object are preset according to the following rules:<BR>
+<br>
+<ul>
+<li>If you had drawn a <u>selection frame</u> before, then its width and height are taken as preset values for the DynageoJ object size.</li>
+<li>If there is no selection frame, but the <u>target HTML file exists already</u>, then DynaGeo tries to take over the values of width and height from this file.</li>
+<li>If the target file does not exist yet, and the DynaGeo program does not appear maximized on the screen, then the width and height of the actual drawing window are taken as preset values.</li>
+<li>In any other case the width is set to 500 pixels and the height to 350 pixels.<br>
+<br></li>
+</ul>
+So it is appropriate to draw a selection frame <u>before</u> calling the command "Save as DynaGeoJ HTML page". Alternatively, you can also resize the DynaGeo window itself in order to let it show just the right part of your drawing. Then it is not necessary to change the size values manually.<br>
+<BR><BR></LI>
+
+        <LI><B>Viewer commands: <BR>
+</B>A click on this button opens a window, where you can choose from a list of commands which of them you want to be available in the viewer window. At runtime, the viewer will display a tool button for every selected command. These tool buttons will be placed in a vertical panel on the left side of the viewer window. <br>
+When <u>no</u> commands are selected, this tool panel is hidden and the whole viewer window space is available to your drawing. When on the other hand you try to select <u>too much</u> commands and not all tool buttons find place in the the tool panel, then you get an appropriate warning. <BR>
+<BR><BR></LI>
+
+        <LI><B>Author's name:<BR>
+</B>Whatever you enter here will be written to an appropriate "META" tag in the "HEAD" section of your HTML document. If you leave this field empty, then no such "META" tag will be created. But if you want to publish your document in the Internet it's a matter of "netiquette" to sign it with your name. <br></LI>
+</UL>
+<br>
+<P>When all options have been set to the desired values, a click on the button <I>Save</I> will create the HTML file containing a complete HTML page with a DynaGeoJ object tag. If the file already exists, only the new information is added to the existing file.<br>
+Additionally, the actual GEO file is saved too, to update it and register the selected viewer commands if necessary. </P>
+<br>
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="saveas.htm">Save as...</a></li>
+<li><a href="savedgxpage.htm">Save as DynaGeoX HTML page...</a></li>
+<li><a href="dynworksheets.htm">How to produce dynamic worksheets</a></li>
+<li><a href="DGX_CMDS.HTM">Construction commands in DynaGeoX and DynaGeoJ</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

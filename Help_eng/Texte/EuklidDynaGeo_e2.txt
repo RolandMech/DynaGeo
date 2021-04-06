@@ -1,0 +1,6827 @@
+
+Hot keys:
+
+
+
+ESC-key:
+
+       
+
+
+
+F1-key:
+
+       Calls the help text for the current command.
+
+       If the key is pressed while processing a menu command, then the help text for that menu command will be shown.
+
+       If the key is pressed when no command is being carried out, then the help contents page is called.
+
+
+
+F2-key:
+
+       Saves the present drawing (short-cut for the menu command File | Save cm_Save).
+
+
+
+F3-key or R-key
+
+       &lt;R&gt;epeats the last action if possible.
+
+
+
+F6-key:
+
+       Reduces the drawing in size, short-cut for the menu command Edit | Reduce drawing cm_ZoomUp ).
+
+
+
+F7-key:
+
+       Enlarges the drawing, short-cut for the menu command Edit | Enlarge drawing cm_ZoomDn ).
+
+
+
+B-key:
+
+       
+
+
+       
+
+
+
+
+
+
+The toolbars
+
+
+
+To simplify the access to often used commands EUKLID DynaGeo offers a toolbar. It is displayed below the main menu and shows a series of small icons. When you click an icon, the corresponding command will be executed as if it was selected from the appropriate menu.
+
+In order to include the majority of EUKLID DynaGeo commands without occupying too much valuable screen space there are four different tool palettes:
+
+  
+the main bar
+contains commands from the menus Files and Edit, as well as
+commands related to locus lines and mirror objects;
+  
+the construction bar 
+contains commands from the menus Drawing and Construction, which deal with “simple” objects;
+ 
+the shape&amp;colour
+bar cm_EditDraw includes commands for editing the drawing. No menu commands directly correspond to the individual icons;
+
+the measure&amp;calculate bar 
+includes the commands which relate to co-ordinates, distance and angle values, and calculation of expressions.
+
+For easy access to these tool palettes, each of them is named on a small menu tab. If you click there, you activate the corresponding toolbar.
+
+
+If you wish to repeat a certain command, you may activate automatic repeat: just press the shift key while clicking the icon in question.
+
+
+
+
+The Main Bar
+
+
+
+The Main bar contains the following icons:
+
+
+
+{bmc toolb101.bmp}            New drawing cm_New
+{bmc toolb102.bmp}            Save drawing cm_Load
+{bmc toolb103.bmp}            Save drawing cm_Save
+{bmc toolb104.bmp}            Print drawing cm_Print
+
+{bmc toolb112.bmp}            Undo last construction step 
+{bmc toolb113.bmp}            Redo last Undo cm_UndoUndo
+{bmc toolb105.bmp}            Name object cm_NameObj
+{bmc toolb106.bmp}            Hide / Show object cm_ToggleVis
+{bmc toolb107.bmp}            Delete object cm_DelObj
+
+{bmc toolb110.bmp}            Snap point to a line cm_BindP2L
+{bmc toolb111.bmp}            Undo snap point to a line 
+
+{bmc toolb108.bmp}            Record trace line cm_MakeLocLine
+{bmc toolb114.bmp}            Mirror object cm_MirrorObj
+
+{bmc toolb115.bmp}            Calls the Help contents.
+
+
+The Construction bar
+
+
+
+The Construction bar contains the following icons:
+
+
+
+{bmc toolb201.bmp}            Create a Point
+{bmc toolb202.bmp}            Create a Point with coordinates (x|y) 
+{bmc toolb203.bmp}            Create a Point on a line cm_PonLine.
+{bmc toolb204.bmp}            Construct an Intersection between two lines 
+{bmc toolb206.bmp}            Create a Midpoint on a line segment cm_Mitte.
+{bmc toolb205.bmp}            Create a Mirror point cm_MirrorPt .
+
+{bmc toolb207.bmp}            Create a Line segment between two points 
+{bmc toolb208.bmp}            Create a Line segment of a fixed length 
+{bmc toolb221.bmp}            Create a Ray cm_Strahl.
+
+{bmc toolb211.bmp}            Create a Line through two points cm_GCreate.
+{bmc toolb212.bmp}            Drop a Perpendicular cm_Lot.
+{bmc toolb213.bmp}            Draw a Parallel cm_Parall line.
+{bmc toolb214.bmp}            Draw a Perpendicular bisector cm_MSenkr.
+{bmc toolb215.bmp}            Draw a Bisector cm_WHalb.
+{bmc toolb216.bmp}            Draw a Line in a given angle  cm_GRicht.
+
+{bmc toolb218.bmp}            Create a Circle from centre and point on periphery
+{bmc toolb219.bmp}            Create a Circle of a given radius
+{bmc toolb222.bmp}            Create an Arc cm_Arc.
+
+{bmc toolb501.bmp}            Create a Triangle cm_DCreate.
+{bmc toolb502.bmp}            Create a Polygon cm_NCreate.
+
+{bmc toolb220.bmp}            Calls the Construction help.
+
+
+
+
+The Shape &amp; Colour bar
+
+
+
+If you click on an object in Edit mode the object will adopt the graphic parameters from the current options in the Shape and Colour bar.
+
+The icons of the Shape &amp; Colour bar always show the actual values of the graphical
+attributes that you assign to an object by clicking on it. If you want to
+change one of these values, just click on the appropriate icon. A menue or a
+window appears where you can choose the new current value for this attribute.
+
+
+
+
+
+With the first button you can adjust the type of a line. The possible values are:
+
+{bmc toolb301.bmp}
+
+
+
+The second button selects the shape of a point. The available shapes are:
+
+{bmc toolb302.bmp}
+
+
+
+The third button chooses a polygon fill pattern from this list:
+
+{bmc toolb303.bmp}
+
+
+
+The fourth button is to select a colour for the objects. If you click on this
+button, the standard WINDOWS colour dialogue will appear. When you close this
+dialogue, the colour button will show the colour you chose, e.g. red:
+
+{bmc toolb304.bmp}
+
+
+
+
+
+The fifth button
+{bmc toolb115.bmp} activates the Shape &amp; Colour help.
+
+
+
+If you press the Shift
+key while moving the mouse cursor across your drawing, the cursor will
+change to a pipette. This tool serves to transfer the graphical
+attributes of an object into the Shape &amp; Colour bar and make them the current
+ones.
+
+
+
+
+
+See also:
+
+            Automatic selectAutoChoose
+
+
+
+
+
+
+#+K$The Measure&amp;Calculate bar
+
+
+
+The
+Measure&amp;Calculate bar contains the following icons:
+
+
+
+{bmc toolb401.bmp}            Change Co-ordinate system cm_CoordSys
+
+
+
+{bmc toolb402.bmp}            Fix a point cm_FixPt
+
+{bmc toolb403.bmp}            Snap point to nearest grid point cm_Clip2Grid
+
+{bmc toolb404.bmp}            Undo Fix of a point cm_UnfixPt
+
+
+
+{bmc toolb405.bmp}            Measure distance cm_MeasureDist
+
+{bmc toolb406.bmp}            Measure angle cm_MeasureAngle
+
+{bmc toolb407.bmp}            Type expression cm_TermInput
+
+
+
+{bmc toolb408.bmp}            Activates the Measure&amp;Calculate help.
+
+
+
+
+
+
+#+Automatic select
+
+
+
+When you are in
+Edit mode and click on the screen where there are several objects, EUKLID
+DynaGeo must find out which object you mean. Therefore, the different
+object types are sorted in an order of decreasing priority:
+
+
+
+        Point / Line segment / Line /
+Circle / Name / Measurement object / Polygon.
+
+
+
+If, when applying
+this priority list, EUKLID DynaGeo is able to distinguish without doubt
+which object you mean, then this object will be edited. If however, the cursor
+is in a position where two different line segments - but no point - might be in
+question, EUKLID DynaGeo will open a selection box asking you to
+specify.
+
+
+
+When creating and
+deleting objects, this automatic selection is disabled, so that EUKLID DynaGeo does not create or delete the wrong object by mistake.
+
+
+
+
+
+
+#$K+The File menu
+
+
+
+The File menu
+allows you to save, load and print EUKLID DynaGeo drawings. In
+addition, you may reset the program to a new start, and finally terminate the
+program when the work is done.
+
+
+
+          New cm_New
+
+          Load... cm_Load
+
+          Save cm_Save
+
+          Save as... cm_SaveAs
+
+          Properties... cm_FileProp
+
+          Printer options cm_PrnInit
+
+          Print cm_Print
+
+          Exit cm_Exit
+
+
+
+
+
+
+#$K+
+
+File
+| New     {bmc toolb101.bmp}
+
+
+
+Deletes the
+drawing board, and the file name in the title bar is reset to NONAME.GEO.
+
+
+
+
+If the drawing
+board already contains a valid drawing, you will be asked if you want to
+discard this drawing. If you confirm, the drawing is deleted, otherwise you
+return to your drawing.
+
+
+
+
+
+
+#$K+File | Load     {bmc
+toolb102.bmp}
+
+
+
+A dialogue window
+displays a list of the available EUKLID DynaGeo files (*.GEO) in
+the current directory. From a second list you may select the current
+sub-directory or drive.
+
+
+
+When you confirm
+your choice (Ok) the selected file is opened, and the objects are
+displayed on the screen.
+
+
+
+
+
+
+#$K+File | Save     {bmc
+toolb103.bmp}
+
+
+
+If the EUKLID
+DynaGeo title bar already contains a valid file name, then the current
+drawing is saved under this name. An already existing file using this name will
+be overwritten without asking for permission.
+
+
+
+If the file name
+in the title bar is NONAME.GEO, a dialogue window is opened for you to
+type in a valid name. When you confirm (Ok) the current drawing is saved
+to this file, and the title line will display the file name.
+
+
+
+See also:
+
+          File | Save as... cm_SaveAs
+
+
+
+
+
+
+#$K+File | Save as...
+
+
+
+You may type in
+the new file name in a dialogue window. In order to inform you, a list
+displays the already existing names of saved .GEO-files. You may choose one of
+these names or enter a new name into the edit field File name. When you
+confirm (Ok) the current drawing is saved with this file name. If a file
+by this name already exists, you are asked to confirm if you really want to
+overwrite it.
+
+
+
+The title line
+now displays the new file name as the name of the current drawing.
+
+
+
+From this
+dialogue window you may also save an EUKLID DynaGeo drawing as a BMP,
+WMF or EMF file. Choose the option BMP, WMF or EMF
+in the file type window (bottom right). A list of the previously saved BMP (or
+WMF or EMF) files will be shown. If you have framed a part of the drawing in a selection
+frameAuswahlrahmen before
+opening the dialogue window, only this part of the drawing is saved to the
+graphic file.
+
+
+
+
+
+
+#$K+File | Properties...
+
+
+
+This menu item
+leads to a window that shows the properties of the currently loaded GEO file,
+e.g. the date of creation of the file, the date of the last changes
+and the EUKLID DynaGeo version that was last used to edit this
+file.
+
+
+
+Moreover, if you
+hold an EUKLID DynaGeo licence, you can add a copyright note to
+your EUKLID DynaGeo GEO files. Nobody but you can edit and change this
+copyright note. When you load a GEO file copyrighted by someone else, the
+copyright edit window is read-only.
+
+
+
+
+
+Attention!  Your copyright
+note does not write protect your GEO file! Every user can edit his copy
+of your drawing, change your constructions, delete some of your objects and add
+some other...Only the copyright note is protected against alteration.
+
+
+
+
+
+
+#$K+File | Printer options...
+
+
+
+Allows you to
+choose between the various printers (if installed in your WINDOWS system).
+
+
+
+Press the Edit
+printer options button to open a dialogue box for adjusting the printer
+set-up. The precise content varies from printer to printer, but factors such as
+paper format and orientation, or print quality may usually be adjusted.
+
+
+
+The input field Scaling
+factor contains the current factor by which one cm on the logical screen is
+multiplied before printout. E.g. if the scaling factor is 0.666, a line segment
+of 10 cm on the logical screen is printed out as a line segment of 6.66 cm.
+However, if your drawing includes measurement objects, these values are not
+re-calculated, but printed out shown on the screen. A perfect 1:1 relationship
+is thus only achieved by a scaling factor of 1.000 .
+
+
+
+The input field Relative
+margin contains the relative width of the margin in percent of the current
+print area. In landscape format the print area is the entire sheet; in portrait
+format only the upper half of the sheet. E.g. if the relative margin is 5, then
+the printout width is (100 - 2x5)% = 90% of the total width or height of the
+printable area.
+
+
+
+
+
+
+#$K+File | Print     {bmc
+toolb104.bmp}
+
+
+
+Prints the
+current drawing.
+
+
+
+Unfortunately,
+not all black &amp; white printers reproduce screen colours properly. Some do
+not print lines and dotted lines correctly. This is due to inappropriate
+printer drivers and/or limitations in the WINDOWS system itself. Be careful
+with the choice of colours in your drawings if this is the case for your printer.
+
+
+
+
+If your printer
+cannot print dotted or dashed lines, you can make EUKLIDDynaGeo
+simulate these attributes when printing (see also Options cm_options).
+
+
+
+
+
+
+#$K+
+
+File
+| Exit
+
+
+
+Exits the EUKLID
+DynaGeo program.
+
+
+
+
+
+
+#$K+
+
+The Edit menu
+
+
+
+The Edit menu
+allows you to change the properties of the individual objects on the screen:
+
+You may name the
+objects, choose colour and style, and hide or delete an object. Furthermore,
+you may scale, move or delete the drawing, as well as export the entire drawing
+or parts of it to the clipboard.
+
+
+
+          Undo last construction cm_Undo
+
+          Redo last undo cm_UndoUndo
+
+          Copy cm_WriteToCB
+
+
+
+          Name object cm_NameObj
+
+          Hide / show object cm_ToggleVis
+
+          Delete object cm_DelObj
+
+
+
+          Snap point to line cm_BindP2L
+
+          Unsnap point from line cm_ReleaseP
+
+
+
+          Bring polygon to foreground cm_Poly2Foregr
+
+
+
+          Drawing... | ...edit cm_MenuEditDraw
+
+          Drawing... | ...enlarge cm_ZoomDn
+
+          Drawing... | ...reduce cm_ZoomUp
+
+          Drawing .. | ...move cm_Slide
+
+
+
+
+
+
+#$K+Edit | Undo last construction    
+{bmc toolb112.bmp}
+
+
+
+This command
+takes the construction process one-step-back. The object which was
+constructed last is deleted, and any binding of basis points to this object are
+lost. The one-step-back command is thus equivalent to deleting the last
+created object by Edit | Delete object cm_DelObj. In both cases the deleted object may be
+re-activated by the command Edit | Redo last undo cm_UndoUndo.
+
+
+
+Note :
+
+The command only refers to the last executed construction
+step. In this way it differs from the one-step-back in other WINDOWS
+programs. An example may show the difference: when you
+
+       a)  use Construct |
+Line segment between 2 points  to
+draw a line from point to point, then
+
+       b)  use Edit | Edit
+drawing to colour the end points red, and now
+
+       c)  use Undo last
+construction
+
+then the points will not return to black (as when you use the one-step-back
+in e.g. PaintBrush), but the line will be deleted. The points will remain red.
+
+
+
+See
+also:
+
+          More about deleteDelBasics
+
+
+
+
+
+
+#$K+Edit | Redo last undo     {bmc
+toolb113.bmp}
+
+
+
+This command annuls
+your last delete, and re-creates the last deleted object.  It does not matter if you deleted the object
+by Undo last construction cm_Undo
+or by Delete object cm_DelObj.
+The annul command works as if the deleted object had been newly created.
+
+
+
+Note :
+
+Also if you have deleted a whole series of objects at one go by your
+last Delete object cm_DelObj
+command, then the annul command only affects one single object,
+i.e. the last deleted object. To re-create more objects you have to apply the
+command repeatedly.
+
+
+
+See
+also:
+
+          More about deleteDelBasics
+
+
+
+
+
+
+#$K+Edit | Copy
+
+
+
+This command
+copies the current contents of the EUKLID DynaGeo window to the clipboard.
+From there you are able to import EUKLID DynaGeo drawings into other
+WINDOWS programs.
+
+
+
+If before copying
+you have made a selection frameAuswahlrahmen
+on the drawing, then only the framed part of the drawing will be copied.
+
+
+
+The drawing is
+copied to the clipboard in two formats:
+
+            a) in BMP format (as bitmap
+graphics)
+
+            b) in EMF format (as vector
+graphics)
+
+
+
+When you import
+an EUKLID DynaGeo drawing from the clipboard into e.g. WINWORD, then
+WINWORD will insert it as a EMF image in vector
+format. This means that after inserting the image with a positioning frame at
+the right position in the text, you may change the size of the image without
+reducing its quality. You should not however try to re-work the drawing
+with MSDraw. This program has only a limited drawing capability, and does not
+understand (for example) the arcs used in EUKLID DynaGeo.
+
+
+
+See also:
+
+          Clipping-problems during export of
+drawingsProb5
+
+
+
+
+
+
+#$K+Edit | Name object     {bmc
+toolb105.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Click the object
+you wish to name, and rename it in the opened dialogue box. Every object
+is automatically given an original name comprised by a letter for the type of
+object (e.g. P for point) and a serial number. You are however allowed
+to type any name, but EUKLID DynaGeo checks if the name contains invalid
+characters or if it is perhaps already in use. In any of these cases you get a
+corresponding message.
+
+
+
+If you leave the
+dialogue box by clicking OK, the new name is given to the object. If you
+leave the window by clicking Cancel, the object will keep its old name.
+
+
+
+
+
+
+#$K+Edit | Hide/show object     {bmc
+toolb106.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+If you select
+this command, then all of the objects in your drawing are displayed on the
+screen, even the invisible ones: they are displayed in a grey colour.
+
+You may then
+click on any object:
+
+
+
+            if it was visible before, it
+will be invisible.
+
+            If it was invisible before,
+it will become visible.
+
+
+
+If you hide
+the co-ordinate system, all points with fixed co-ordinates will remain
+fixed and cannot be dragged. If you wish to cancel the fixing of all these
+points then you must use the command Delete object cm_DelObj instead of  Hide/show object cm_ToggleVis to hide the co-ordinate
+system.
+
+
+
+
+
+
+#$K+Edit | Delete object     {bmc
+toolb107.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+First you must
+select the object to be deleted by clicking on it with the mouse. If other
+objects are being constructed from it, these objects will become green,
+and the program will ask you if you really want to delete all these objects. If
+Yes, they are deleted, otherwise not.
+
+
+
+If you wish to
+delete an object, and there are no other objects depending on it, this object
+is immediately deleted, when you click on it.
+
+
+
+However,  you cannot delete the co-ordinate system.
+You may only hide it. Only the fixing of the coordinate points will be deleted:
+all points with fixed co-ordinates will be converted into basis points. Then
+finally the co-ordinate system is hidden. If you wish to keep the co-ordinate
+points fixed, you have to use the command Hide / show object cm_ToggleVis to hide the co-ordinate
+system.
+
+
+
+See also:
+
+          More about deleteDelBasics
+
+
+
+
+
+
+#$KMore about delete
+
+
+
+When you delete
+an object it is no longer visible on the screen. However, it is not yet
+physically deleted, but saved internally in case you regret it was deleted.
+Actually, such an object internally behaves very much like a hidden object. It
+is not visible on the screen, and you cannot use it as a parent to construct
+other objects.
+
+
+
+Does EUKLID
+DynaGeo keep remembering all these delete-marked objects forever?
+
+Of course not. As
+long as you do not save your drawing, you have the possibility to revive all
+delete-marked objects by the command Undo last delete cm_UndoUndo. But if there are many
+delete-marked objects in your drawing, they will take up space in memory and
+perhaps slow down the program. To avoid this, just save your drawing, but then
+all delete-marked objects are lost forever.
+
+
+
+
+
+
+
+
+#$K+Edit | Snap point to line    
+{bmc toolb110.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+First click the
+point you want to snap to a line, then click the line. The point will now move
+onto the line, dragging with it all its depending objects. When later you dragVerziehen this point it will move only
+on its carrier line. It can only leave this line after you released the
+snapping.
+
+
+
+Any existing
+straight line or circle or arc can serve as a carrier line for snapped points.
+
+
+
+Attention !
+
+Only basis points can be snapped to carrier lines.
+However, a point can never be snapped to a line that is constructed with
+reference to this point and so is depending on it.
+
+
+
+
+
+See also:
+
+            Unsnap point from line cm_ReleaseP
+
+          Internal detailsInternals
+
+
+
+
+
+
+#$K+Edit | Unsnap point from line    
+{bmc toolb111.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Click the snapped
+point you want to unsnap.
+
+
+
+The snapping will
+be released. When later you dragVerziehen
+this point, it will follow the mouse cursor wherever you lead it.
+
+
+
+See also:
+
+          Snap point to line cm_BindP2L
+
+
+
+
+
+
+#$K+ Edit | Bring polygon to foreground        {bmc toolb505.bmp}
+
+
+
+With this command
+you can control the mutual overlapping of polygons:
+
+
+
+When you click on
+a polygon that is partially covered by another one, then the clicked polygon is
+put into the foreground; so it becomes totally visible and the other polygon is
+covered to some extent.
+
+
+
+
+
+
+#$K+Edit | Drawing... | ...edit
+
+
+
+This command
+opens the Shape and colour bar cm_EditDraw
+enabling you to change the graphical appearance of the objects in the current
+drawing.
+
+
+
+A left click
+on an object assigns those attributes to this object that fit to its type:
+
+
+
+·
+a point
+takes the colour and the point shape;
+
+·
+a line takes
+the colour and the line style;
+
+·
+a polygon
+takes the colour and the actual fill style.
+
+
+
+Conversely you
+can assign the attributes of an object to the Shape and colour bar by holding
+down the Shift key while clicking on the object.
+
+
+
+To end this Edit
+mode, just press the ESC key or change to another tool bar.
+
+
+
+
+
+
+#$K+Edit | Drawing... | ...enlarge
+
+
+
+This command
+enlarges the drawing in the working area. The centre of enlargement is the
+centre of the actual drawing window. You may change the Zoom factor by
+the command Miscelleaneous | Options cm_options.
+
+
+
+If the drawing includes
+co-ordinate points (points fixed at a certain co-ordinate value), these points
+will remain at their positions. This may result in peculiar changes within your
+drawing, especially if co-ordinate points and basis points are mixed. It is
+therefore a good idea to change the drawing’s size exclusively when working
+without co-ordinates.
+
+
+
+See also:
+
+          Special keys cm_HotKeys
+
+
+
+
+
+
+#$K+Edit | Drawing... | ...reduce
+
+
+
+This command
+reduces the drawing in the working area. The centre of reduction is the centre
+of the actual drawing window. You may change the Zoom factor by the
+command Miscelleaneous | Options cm_options.
+
+
+
+If the drawing
+includes co-ordinate points (points fixed at a certain co-ordinate value),
+these points will remain at their positions. This may result in peculiar
+changes of the drawing, especially if co-ordinate points and basis points are
+mixed. It is therefore a good idea to change the drawing’s size exclusively
+when working without co-ordinates.
+
+
+
+See also:
+
+          Special keys cm_HotKeys.
+
+
+
+
+
+
+#$K+
+
+Edit
+| Drawing... | ...move
+
+
+
+Selecting this
+command turns the mouse arrow into a hand. Move the entire drawing by pressing
+the left mouse button and keeping it down while moving the mouse. Releasing the
+button places the drawing at the current position, and the mouse hand turns
+back into an arrow.
+
+
+
+Short-cut:      Point with
+the mouse to an empty area on the drawing, hold down the Shift key while
+pressing the left mouse button, and then move the mouse.
+
+
+
+See also:
+
+          The shape of the mouse cursor cm_MouseCursors
+
+
+
+
+
+
+#$K+Draw Menu
+
+
+
+The draw menu
+allows to draw objects which do not originate from an already existing object.
+These are the so called basis objectsBasisobjekt. Furthermore it includes combined objects as
+triangles and polygons.
+
+
+
+          Point cm_PCreate
+
+          Point on a line cm_PonLine
+
+          Point with co-ordinates (x|y) cm_PtCoord
+
+
+
+          Straight line cm_RCreate
+
+          Circle cm_FCreate
+
+
+
+          Triangle cm_DCreate
+
+          Polygon cm_NCreate
+
+
+
+          Record a point’s trace cm_MakeLocLine
+
+
+
+
+
+
+#$K+Draw | Point     {bmc
+toolb201.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Clicking the left
+mouse button at any position in the working area produces a point. The
+initial shape of such a basis pointBasisobjekt is a filled black square.
+
+
+
+
+
+
+#$K+Draw | Point with co-ordinates (x|y)    
+{bmc toolb202.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Use this command
+to construct a co-ordinate point. The initial shape of a co-ordinate point is a
+hollow square.
+
+
+
+Enter the
+co-ordinates of the point in the window now opened. When you confirm and close
+the window by clicking OK the co-ordinate point is drawn at the given
+position.
+
+
+
+
+
+
+#$K+Draw | Point on a line     {bmc
+toolb203.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Click with the
+mouse on the carrier line on which you want to draw a point. Then the point is
+created and bound to this line. Any straight line, line segment, circle or arc
+can serve as a carrier line.
+
+
+
+To detach the
+point from the line, use the menu item Miscelleaneous | Undo snap of point
+to line cm_ReleaseP.
+
+
+
+
+
+
+#$K+Draw | Straight line     {bmc
+toolb210.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Click the mouse
+at any position in the working area and hold down the mouse button while you dragVerziehen the mouse. Then a basis
+line is drawn which passes through the start position to the point where
+you release the mouse button.
+
+
+
+In contrast to an
+normal line cm_GCreate you
+cannot afterwards change the direction of a basis lineBasisobjekt. You can slide it, but not
+turn it.
+
+
+
+See also:
+
+          Line through two points cm_GCreate
+
+          Line of a fixed angle cm_GRicht
+
+
+
+
+
+
+#$K+Draw | Circle     {bmc
+toolb217.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Click with the
+left mouse button at any position in the working area and keep the button
+pressed while you move the mouse. A circle is drawn. Its centre is the position
+where you first clicked the mouse and it runs through the actual mouse
+position. When the mouse button is released this basis circle is
+complete.
+
+
+
+In contrast to a normal
+circle cm_KCreate you cannot
+change the radius of a basis circleBasisobjekt. If you drag a basis circle, you move its position. Its
+radius is not changed, and its centre is not displayed.
+
+
+
+See also:
+
+          Circle from centre and peripheral
+point cm_KCreate
+
+          Circle with determined radius cm_MCreate
+
+
+
+
+
+
+#$K+Draw | Triangle     {bmc
+toolb503.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Click with the
+left mouse button at the positions of the 3 vertices to draw the triangle.
+
+
+
+If you click in
+the working area where there is no point, a new point is produced at this
+position.
+
+
+
+You also have the
+option of re-using an existing line segment as one side of a triangle. When you
+click on a line segment, its end points are used as the two vertices of a new
+triangle.
+
+
+
+Normally
+triangles are filled with a pattern. EUKLID DynaGeo automatically looks
+for a combination of pattern style and colour that is not yet used in the
+actual drawing.
+
+
+
+
+
+
+#$K+Draw | Polygon       {bmc
+toolb504.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Click with the
+mouse to mark the vertices of the polygon you wish to draw. You may either use
+already existing points or draw new ones with the mouse.
+
+
+
+You close the
+polygon by either clicking once again on the first defined vertex of the
+polygon or by double clicking on the last defining vertex.
+
+
+
+Normally polygons
+are filled with a pattern. EUKLID DynaGeo automatically looks for a
+combination of pattern style and colour that is not yet used in the actual
+drawing.
+
+
+
+
+
+
+#$K+Draw | Record a point’s trace    
+{bmc toolb108.bmp}
+
+
+
+Click on the point
+that is to leave a trace. This point is hereafter called the producing point
+. Then drag any of the basis objectsBasisobjekt the producing point is depending on. This
+point is called the dragging point of the trace. When now the producing
+point moves due to the moving of the dragging point, a series of positions is
+marked indicating the producing point’s former positions. When you
+release the mouse button to end dragging, the trace is drawn as a smooth line
+through all of these recorded positions.
+
+
+
+If you want to
+record several traces simultaneously, hold down the Shift key
+while clicking the first producing point. This indicates to the program that
+several traces are to be drawn. A window is opened with only an Ok, done!
+button. Now click (without Shift!) on all the points which should leave a
+trace. Finish by clicking the Ok, done! button. Finally, by dragging the
+common dragging point the selected producing points all leave a trace (if
+moving the dragging point also causes the producing points to move).
+
+
+
+See also:
+
+          More about traces cm_LocLine
+
+
+
+
+
+
+#$K
+
+More
+about traces
+
+
+
+If the dragging
+point itself is bound to a line, then EUKLID DynaGeo will produce dynamical
+traces: if later you drag your drawing, these traces are dragged too and
+updated accordingly. However, EUKLID DynaGeo can only compute a numerical
+approximation of the “real trace”. To get satisfying results you should pay
+attention to the following hints:
+
+
+
+  (1)  The recorded
+positions of the producing points must be sufficiently near to one another.
+You can adjust the minimal
+distance of the recorded positions under the menu item “Miscelleaneous |
+Options” on the page Presentationopt_darst. But even if you initially meet this requirement, it may
+fail during subsequent dragging actions. In this case you’d better delete the
+trace and create it anew.
+
+
+
+  (2)  The traces should
+only depend on objects without measures,
+i.e. there should not be
+any parent that depends on any distance or angle width or absolute
+co-ordinates. If you can’t do without those measure objects, you’d better be
+prepared that your traces may suffer badly from being dragged. In the worst
+case they will become invalid and vanish.
+
+
+
+  (3)  While recording,
+the trace should only be covered once.
+Multiple covered parts of the
+trace eventually can lead to wrong representations during subsequent dragging.
+
+
+
+
+
+Despite all these
+precautions some traces pose a problem, especially when they have more than one
+branch. When several different points of the trace line belong to the
+same position of the generator point, EUKLID DynaGeo sometimes can’t decide
+how to fit the curve through the recorded generator positions. So the trace may
+jump between two (or more) shapes when it is dragged.
+
+
+
+It is much too
+difficult for the program (and the programmer!) to decide in advance
+which of the possible traces will work correctly and which won’t. If any safe
+and universally valid criteria to sort out the possibly problematical traces
+were applied in advance, the abilities of the program to create traces at all
+would suffer drastic restrictions. So it seems better to charge the user with
+the responsibility for correct traces.
+
+
+
+Traces are nearly
+true objects: they can be saved, loaded and named, they can change
+colour and line style, and they are deleted just like any other object. The
+only thing they lack is: they cannot (yet) get any children, i.e. you cannot
+construct any object that depends on a trace.
+
+
+
+
+
+
+#$K+
+
+Construct menu
+
+
+
+The construction
+menu enables you to draw child objects derived from already existing parent
+objects. The position of the new objects is always determined completely by the
+position of the parent objects. You can also activate almost all
+commands in this menu from the construction bar cm_Construct.
+
+
+
+          Intersection of two lines cm_Schnitt
+
+          Midpoint cm_Mitte
+
+          Symmetrical point cm_MirrorPt
+
+
+
+          Line segment between two points cm_SCreate
+
+          Line segment of fixed length cm_LCreate
+
+          Ray cm_Strahl
+
+
+
+          Line through two points cm_GCreate
+
+          Perpendicular bisector cm_MSenkr
+
+          Bisector cm_WHalb
+
+          Parallel line cm_Parall
+
+          Drop/raise a perpendicular cm_Lot
+
+          Line of determined angle cm_GRicht
+
+
+
+          Circle from centre and peripheral
+point cm_KCreate
+
+          Circle with determined radius cm_MCreate
+
+          Arc cm_Arc
+
+
+
+          Mirror object cm_MirrorObj
+
+
+
+
+
+
+#$K+Construct | Intersection of two lines     {bmc toolb204.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Click with the
+left mouse button on the two lines, line segments or circles in question. The
+point of intersection is constructed and displayed.
+
+
+
+If there are two
+intersections, e.g. between a circle and a line, both will be constructed and
+displayed. If, however, EUKLID DynaGeo notes that one of them already exists,
+then only the new point will be constructed.
+
+
+
+
+
+
+#$K+Construct | Symmetrical point    
+{bmc toolb205.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+First click with
+the left mouse button on the point whose symmetrical point you are searching
+for.
+
+
+
+Then you may
+click on either a point or a line, depending on whether you want to construct a
+point-symmetrical or an axis-symmetrical position for the newly produced point.
+
+
+
+EUKLIDDynaGeo
+then constructs the symmetrical point.
+
+
+
+
+
+
+#$K+Construct | Midpoint     {bmc
+toolb206.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Click on the two
+points whose midpoint you wish to find.
+
+Or
+
+Click on the line
+segment whose midpoint you wish to find.
+
+
+
+EUKLIDDynaGeo
+then draws the appropriate midpoint.
+
+
+
+
+
+
+#$K+Construct | Line segment between two points     {bmc toolb207.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Click with the
+left mouse button on the two end points of the line segment required. The line
+will be drawn.
+
+
+
+You may choose
+already existing points as end points. If you click on an empty area, a new
+point will be constructed. So a line segment will always have a start and an
+end point.
+
+
+
+See also:
+
+          Line segment of fixed length cm_LCreate
+
+
+
+
+
+
+#$K+Construct | Line segment of fixed length    {bmc toolb208.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Upon choosing
+this menu item a small window opens in which the length of the line segment (
+in cms) may be typed.
+
+
+
+Then, using the
+mouse, click first on the start point of the line segment and next on a second
+point to define its direction. If this direction point is moveable, it is
+automatically dragged to the correct distance from the start point. If it is
+not moveable however, a new end point is created at the correct distance.
+
+
+
+See also:
+
+          Line segment between two points cm_SCreate
+
+
+
+
+
+
+#$K+ Construct | Ray       {bmc
+toolb221.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+When you click
+with the left mouse button on two points, the ray is created that starts at the
+first point and runs through the second.
+
+
+
+As always, you
+can use existing points or create new ones by clicking on an empty spot of your
+drawing.
+
+
+
+
+
+
+#$K+Construct | Line through two points    
+{bmc toolb211.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+When two points
+are clicked on with the left mouse button, then a line is drawn through these
+two points.
+
+
+
+If you click on
+an empty spot in the working area, a new point is produced there. So every line
+produced by this command has always two visible carrier points.
+
+
+
+See also:
+
+          Draw a line cm_RCreate
+
+          Line of determined angle cm_GRicht
+
+
+
+
+
+
+#$K+Construct | Perpendicular bisector    
+{bmc toolb214.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Using the left
+mouse button, click on a line segment or on two points. A perpendicular
+bisector is drawn on the line segment between the two points.
+
+
+
+
+
+
+#$K+Construct | Bisector     {bmc
+toolb215.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Click on the
+three points forming the angle you wish to bisect.
+
+Follow this
+procedure:
+
+
+
+ 
+(1)      Click on a point at the
+first side of the angle.
+
+ 
+(2)      Click on the vertex.
+
+ 
+(3)      Click on a point at the
+other side of the angle.
+
+
+
+If the angle is
+already marked with an angle arc (see Measure | Mark angle cm_MarkAngle), you can just click on
+the arc, too.
+
+
+
+EUKLIDDynaGeo
+draws the bisector.
+
+
+
+
+
+
+#$K+Construct | Parallel line    
+{bmc toolb213.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+With the left
+mouse button, first click on the point where you want the parallel line to be
+drawn through, and then on the existing line or line segment that you wish the
+line to become parallel with.
+
+
+
+EUKLID DynaGeo draws
+the parallel line.
+
+
+
+
+
+
+#$K+Construct | Drop/Raise a perpendicular     {bmc toolb212.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+With the left
+mouse button, first click on the point where the new perpendicular line should
+pass through, and then click on the line from/to which the perpendicular line
+is dropped/raised.
+
+
+
+EUKLIDDynaGeo
+draws the perpendicular line.
+
+
+
+
+
+
+#$K+Construct | Line of determined angle    
+{bmc toolb216.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+This menu item
+allows you to draw a line which crosses a given line or a line segment (called
+the reference line) at a given angle.
+
+This is
+accomplished in the following way:
+
+
+
+ 
+(1)      First a small window is
+opened where you type the size of the angle (in degrees).
+
+
+
+ 
+(2)      Then click on an existing
+point on the reference line which the new line is not to cross (to identify the
+reference line).
+
+
+
+ 
+(3)      Next click on an (also
+already existing) point on the reference line which the new line must
+cross (to identify the point).
+
+
+
+ 
+(4)      If you typed a positive
+number as the angle, EUKLID DynaGeo will wait for you to click on that half
+plane with respect to the reference line where you want the angle line to run
+through (to identify on which side of the line the angle should be drawn).
+
+
+
+The construction
+of such a line follows the same procedure as the construction of an angle from
+three points:
+
+
+
+ 
+(1)      a point of the first side
+of the angle (here the reference line);
+
+ 
+(2)      the vertex (here the
+intersection between the reference line and the new line);
+
+ 
+(3)      a point on the other side
+of the angle (here a point on the 'angle' side of the reference line).
+
+
+
+Instead of a
+constant angle size you may type a formula or expressionTerm. In this case it is impossible
+to define a third point for the orientation of the angle. The angle will be
+oriented according to the sign of the current expression.
+
+
+
+Hint:    The
+reference line does not necessarily have to exist as an object, only two points
+on the (perhaps imaginary) reference line must exist.
+
+If the reference line does exist, but no useful
+points are positioned on it, then these will be constructed by mouse clicks (2)
+and (3). However, they are not yet snapped to the line. You have to do this
+yourself. Otherwise there is a risk that the points 'are released' next time
+you move the reference line.
+
+
+
+
+
+See also:
+
+          Line through two points cm_GCreate
+
+          Draw a line cm_RCreate
+
+
+
+
+
+
+
+
+#$K+Construct | Circle from centre and peripheral point     {bmc toolb218.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+With the left
+mouse button, first click to mark the centre of the circle and then on a point
+to define its periphery. The points do not have to exist already.
+
+
+
+The circles so
+produced will always have a visible centre point and a visible point on the
+periphery.
+
+
+
+See also:
+
+          Draw circle cm_FCreate
+
+          Circle with determined radius cm_MCreate
+
+
+
+
+
+
+#$K+Construct | Circle with determined radius     {bmc toolb219.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Upon selecting
+this menu item, a small window is opened. There you enter the radius of the
+circle. Its value may be a constant or an expressionTerm. Then you click on the screen to
+mark the centre of the circle.
+
+
+
+See also:
+
+          Circle from centre and peripheral
+point cm_KCreate
+
+          Draw circle cm_FCreate
+
+
+
+
+
+
+#$K+Construct | Arc       {bmc
+toolb222.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+An arc is
+determined by 3 points:
+
+
+
+ 
+(1)      the starting point of the
+arc,
+
+ 
+(2)      the midpoint of the circle
+containing the arc and
+
+ 
+(3)      a third point to state
+where the arc should end: it will run until it reaches the ray that starts in
+the midpoint and runs through this third point.
+
+
+
+Arcs are always
+drawn with mathematically positive orientation.
+
+
+
+
+
+Attention !
+
+You cannot mirror an arc at a line just by mirroring
+the 3 defining points and then create the appropriate arc depending on the
+mirrored points. This will lead to wrong results due to the fact that mirroring
+at a line reverses the orientation. You better use the Mirror object cm_MirrorObj command.
+
+
+
+
+
+
+#$K+Construct | Mirror object      
+{bmc toolb114.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+With this command
+you can mirror any object of your drawing at a line or a point.
+It is even possible to mirror complete polygons.
+
+
+
+Just click on the
+object to mirror and then on the mirror line or the mirror central point
+respectively. Then the mirror image is created and shown in your drawing.
+
+
+
+
+
+
+#$K+Measure menu
+
+
+
+This menu includes instructions for measuring the distance of points and
+lines and the size of angles as well as calculation of formula or expressionsTerm. Additionally, the menu includes
+instructions affecting the co-ordinate system and manipulating points with
+fixed co-ordinates.
+
+Most of the
+commands of this menu can be activated from the menu bar Measure&amp;Calculate cm_Meas_Calc.
+
+
+
+          Measure distance cm_MeasureDist
+
+          Measure angle width cm_MeasureAngle
+
+          Define formula cm_TermInput
+
+
+
+          Mark angle cm_MarkAngle
+
+          Fix point cm_FixPt
+
+          Clip point to grid cm_Clip2Grid
+
+          Undo fix of point cm_UnfixPt
+
+
+
+          Co-ordinate system cm_CoordSys
+
+
+
+
+
+
+#$K+Measure | Measure distance    
+{bmc toolb405.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+With the left
+mouse button, click on the two objects between which you want to measure the
+distance. You can choose any combination of points, lines and circles, and the
+objects may be selected in any order.
+
+
+
+If the distance
+between the selected objects is positive, a so-called line of distance is
+constructed. Its length is shown in a small frame. For two intersecting lines
+and/or circles no line of distance is constructed. Their distance is assumed to
+be zero.
+
+
+
+You may dragVerziehen the display frame with the
+mouse.
+
+
+
+Important!
+
+            If
+you want to measure the distance between a line segment and another
+object, internally EUKLID DynaGeo uses the line including the line
+segment. It is thereby easier to e.g. measure the perpendicular in all
+triangles. For all combinations of points, lines and circles a correct
+topological concept of distance is used: The distance between two sets of
+points is the shortest of all distances between points of one set to points of
+the other set.
+
+
+
+
+
+A hint for
+profs...pt2
+
+
+
+
+
+
+#
+
+If you select the
+instruction Measure distance via the toolbar and click on the
+corresponding icon while pressing down the Ctrl key, only one input
+object - a line segment - is expected. This procedure considerably simplifies
+measuring the length of line segments.
+
+
+
+
+
+
+#$K+Measure | Measure angle width    
+{bmc toolb406.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Click on an
+angle’s arc. Then the size of the angle stated in degrees is displayed in a
+small frame. The angle’s size is never negative.
+
+
+
+If you have not
+yet marked the angle you want to measure, and thus no arc is displayed, then
+you may identify the angle by 3 defining points in the following order:
+
+
+
+(1)
+Select a
+point on the first side of the angle
+
+(2)
+Select the
+vertex of the angle
+
+(3)
+Select a
+point on the other side of the angle
+
+
+
+The angle is then
+marked and measured.
+
+
+
+You may dragVerziehen the angle size display with
+the mouse (if in drag mode).
+
+
+
+
+
+
+#$K+Measure | Define formula     {bmc
+toolb407.bmp}
+
+
+
+This command
+gives access to a window where you may enter up to two mathematical formulas
+or expressionsTerm.
+
+
+
+In addition to
+the usual mathematical standard functions and constants you can also use variables
+in your expressions to represent distances and angle sizes. Before you use such
+a variable in your formula you’d better create the appropriate measurement
+object in your drawing (see Measure distance cm_MeasureDist  and
+Measure angles cm_MeasureAngle).
+Then you can easily enter the variable into the opened formula window: when you
+click on the measurement object a corresponding measure name is
+automatically inserted into your expression:
+
+
+
+·
+Distances
+are noted ’d(x;y)’ where x and y are the names of the objects the
+distance is measured between.
+Example: If in a triangle ABC the side c is the line segment [AB], then
+‘d(A;B)’ denotes the length of the side c. Accordingly ‘d(C;c)’ means the
+distance between the point C and the side c (or more precisely: the distance
+between C and the line containing the line segment [AB] ).
+
+
+
+·
+Angle sizes
+are denoted ‘w(x;y;z)’ where x, y and z are the 3 defining points of
+this angle.
+Example: If a is the angle with vertex B whose first side runs
+through the point A and the second one through C, then ‘w(A;B;C)’ is the size
+of a measured in degrees.
+
+
+
+
+
+Close the window
+by clicking Ok when you have finished typing the expression(s). A small
+result window appears in the upper right corner of the EUKLID DynaGeo window,
+displaying the current value of the expression. You may close this window if it
+is no longer needed. It will be closed automatically as soon as you delete any of the measured objects
+used in the expressions.
+
+
+
+
+
+
+#$K+Measure | Mark angle
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+Click with the
+(left) mouse on three points that define the angle. Follow the procedure:
+
+
+
+ 
+(1)      Point on first side
+
+  (2)      Vertex
+point
+
+  (3)      Point
+on other side
+
+
+
+Then an arc is
+drawn to mark the angle.
+
+
+
+See also:
+
+          More about angle arcs cm_Angle
+
+
+
+
+
+
+#$KMore about angle arcs
+
+
+
+You may change
+the size of the angle arc by draggingVerziehen it (with the mouse in drag mode).
+
+
+
+A 90º angle is
+displayed with a right angle symbol. Miscelleaneous | Options cm_options offers a possibility to
+adjust the size of the interval around 90º where an angle is accepted as a
+right angle as well as two different ways to mark a right angle.
+
+
+
+In the same
+dialogue box you may define if EUKLID DynaGeo shall pay attention to the orientation
+of angles.
+
+
+
+If Yes, then all
+angles are considered mathematically positive, meaning oriented clockwise. In
+this way also angles greater than 180º can be marked.
+
+
+
+If No, the
+orientation is always chosen so that the marked angle is less than 180º.
+
+
+
+
+
+Note
+
+         EUKLID DynaGeo considers angle arcs as  non-objects. E.g. they are never
+‘parents’ to other objects. Like names, measures and textboxes they only serve
+as illustrations.
+
+
+
+
+
+
+#$K+Measure | Co-ordinate system    
+{bmc toolb401.bmp}
+
+
+
+This command
+opens a dialogue box allowing you to select how to display the co-ordinate
+system.
+
+
+
+·
+First you
+may choose if the co-ordinate system shall be visible or not.
+
+·
+If you
+choose a visible co-ordinate system, you may choose if in addition to the axes and origin also a grid shall be displayed or
+not.
+
+·      If you choose grid marks, not all grid
+points have to be marked. You may define the distance between marked grid point
+to be 1, 2 or 5 cm.
+
+·      Finally you can select if the axes will be
+lettered.
+
+
+
+Please note:
+
+            The
+more objects on the screen the more time is spent on drawing them. This effect
+is especially felt during the draggingVerziehen of drawings.
+
+
+
+
+
+
+#$K+Measure | Fix a point     {bmc
+toolb402.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+This instruction
+enables you to fix a basis point to a point in the co-ordinate system. This
+turns the basis point into a so called co-ordinate point, i.e. to a point with
+fixed co-ordinates.
+
+
+
+
+
+
+#$K+Measure | Clip point to grid    
+{bmc toolb403.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+This instruction
+snaps a basis point or a co-ordinate point to the nearest grid point.
+
+
+
+Applying the
+instruction to a basis point automatically turns the point into a co-ordinate
+point.
+
+
+
+
+
+
+#$K+Measure | Undo fix of point    
+{bmc toolb404.bmp}
+
+(automatically
+repeatableAutoRepeat)
+
+
+
+This instruction
+cancels the fix of a co-ordinate point, and the point is transformed into a
+basis point (a point without fixed co-ordinates) which you can drag around
+freely.
+
+
+
+
+
+
+#$K+Macro Menu
+
+
+
+This menu hosts
+the handling of macros. You may create, save, load and of course apply macros.
+If you create a new macro or open a macro from a macro file, a new line is
+added to the macro menu, displaying the name of the macro. Click on this line
+to apply the macro.
+
+
+
+          Create new macro cm_DefMakro
+
+          Edit macro description cm_EditHlpMakro
+
+          Remove macro cm_DelMakro
+
+          Load macro cm_LoadMakro
+
+          Save macro cm_SaveMakro
+
+
+
+          Run macro cm_RunMakro
+
+          More about macrosMakro_Details
+
+
+
+
+
+
+#$K+Macro | Create new macro
+
+
+
+Before creating a
+new macro you have to carry out the complete construction that later should be
+constructed by this macro. Then the macro is created in three steps:
+
+
+
+(i)      Upon
+selecting the ‘create new macro’ command, a small window is opened in the
+working area. The only button of this window is Ok, done!  Now you must click on the start objects
+of the macro. If a start object required is hidden behind the Ok, done!
+window, you can move this window to a different position on the screen by
+clicking on its header and then draggingVerziehen it.
+
+If the selection of a start object is not unique, a window is opened
+displaying the possible relevant objects. Select the object from the list.
+
+Click the Ok, done!  button after
+selecting (with the mouse) all the start objects you need for the macro.
+
+
+
+(ii)     After
+you have selected all your start objects the title bar of the Ok, done!
+button window changes: you are now requested to select the target objects
+for the macro in the same way you selected the start objects. Click on the Ok,
+done! button to finish this selection process, too.
+
+If you select a target object which cannot be derived from the start objects,
+an error message appears on the screen, and the creation of the macro is
+canceled.
+
+
+
+(iii)     Finally
+a bigger dialogue box is opened, in which the name of the macro and a help
+text may be typed. This name is the menu item that will be appended to
+the macro menu after the macro is correctly built. The corresponding help text
+is displayed at any time you ask for help about this macro. This can be done by
+clicking the F1 key while running the macro.
+
+The available key commands to format the help text are explained via the menu Keyboard
+and mouse | Special keys cm_HotKeys.
+
+
+
+After you have
+completed the three steps, the macro is completed and added as a new entry in
+the macro menu.
+
+
+
+
+
+
+#$K+Macro | Edit macro description
+
+
+
+This instruction
+enables you to edit the name and the help text of a macro. However, this only
+applies to macros which are presently loaded. If more than one macro is loaded,
+a list is displayed from which you may select the macro you want to edit.
+
+
+
+
+
+
+#$K+
+
+Macro
+| Remove macro
+
+
+
+If more than one
+macro is loaded a list is displayed with the names of the macros. Click on the
+macro you wish to remove, and the macro is deleted from the macro menu and from
+RAM.
+
+
+
+Important:            If
+a corresponding macro file exists, this file is not deleted by
+this command. If you wish to delete a macro file you can use the WINDOWS' file
+explorer. Macro files carry the extension *.MAK.
+
+
+
+
+
+
+#$K+Macro | Load macro…
+
+
+
+A file window
+displays the existing macro files (*.MAK). Select the one you need, and
+click the Ok button. This loads the macro and adds its name to the macro
+menu.
+
+
+
+
+
+
+#$K+Macro | Save macro…
+
+
+
+If multiple macros
+are currently available they are displayed in a list. Click on the macro you
+want to save. This opens a window on the screen. Type the file name of the
+macro file, and choose the directory in which you want to save the macro. When
+you confirm, the macro file is saved to the selected directory.
+
+
+
+Macro file names
+should always carry the extension  *.MAK.
+
+
+
+
+
+
+#$K+Macro | Run macro
+
+
+
+All currently
+loaded macros are displayed in the macro menu. Select a macro, and click on the
+relevant start object(s). The status bar at the bottom of the EUKLIDDynaGeo
+window always shows the type of the expected start object.
+
+
+
+After the last
+start object has been given, the construction steps stored in the macro are
+carried out and the corresponding objects will be displayed on screen.
+
+
+
+
+
+
+#$K+More about macros
+
+
+
+Upon requests
+from EUKLID DynaGeo users, an automatic procedure has been built into the
+program, where if a line segment is start object, you also have the end
+points of this line segment for use within the macro. Sometimes this
+practical extension turns out to be annoying because the user loses control of
+the orientation of the start line segment while running the macro. It is
+thus a good idea to use the end points instead of the line segment as start
+objects whenever the orientation is important. Correspondingly with every
+circle entered as start object, its midpoint is made available to the macro,
+too. The same is true for the vertices of a polygon used as start object.
+
+
+
+All geometrical
+objects used during the construction process, are also valid in macros.
+However, notice that any target object must be produceable from the stated
+start objects. This is very important to bear in mind when applying  e.g. circles of determined radii or lines of
+determined angles: a formula or expression containing distances
+or angle widths may depend on another object, which may have been forgotten to
+choose as start object.
+
+
+
+Consider
+carefully  every step when programming a macro.  Even so it may very well happen that objects
+drawn by the macro look different from what you expected. In these cases you
+should test if the conditions during running the macro correspond to the
+conditions while recording it.
+
+
+
+Be conscious when
+programming a macro, of the relative orientation of start and target
+objects. If more start objects of the same kind should be typed one after
+another, it is a good idea to explain to the user - in the help text -
+how the order of start objects influences the position of the target objects.
+
+
+
+
+
+
+#$K+Miscelleaneous menu
+
+
+
+This menu
+contains all the items that do not really fit into any of the other menu
+headlines.
+
+
+
+          Replay cm_ShowGrowth
+
+          Show construction text cm_ConstrText
+
+          Add text box cm_Comment
+
+
+
+          Options cm_options
+
+
+
+
+
+
+#$K+Miscelleaneous | Replay
+
+
+
+This menu item
+allows the course of the construction of the actual drawing to be
+replayed like a film.
+
+
+
+First the EUKLID
+DynaGeo window is erased, and only the first object displayed. Every click
+with the left mouse button (or press of the ENTER key) inserts a further
+object, and the status displays a short description. Valid objects
+that have been hidden are shown in grey for the duration of the replay. If the
+drawing contains objects that have become invalid, then these will be bypassed.
+
+
+
+As with every
+other command, the replay can be canceled with the ESC-key. The normal complete
+drawing is displayed again.
+
+
+
+
+
+
+#$K+Miscelleaneous | Show construction text.
+
+
+
+This command
+displays a window in which a construction description of the present
+drawing is listed. One line of text is given for every object constructed.
+(This is the same text which is also displayed as an object description during
+Replay). The description of hidden objects is shown in simple round brackets.
+If the object is invalid then the description is between double complex
+brackets.
+
+
+
+The window size
+and position can be changed. Though the text cannot be edited, it can be
+marked and then with CTRL-INSERT copied into the clipboard. From there
+it can be transferred to a word processor for further work.
+
+
+
+To continue
+working on the drawing, the construction text window must be closed.
+
+
+
+
+
+
+#$K+Miscelleaneous | Add textbox
+
+
+
+This command
+displays an editor window in which any desired text may be put. When the window
+is closed with Okay, then the text is displayed in your drawing in a
+rectangular area but without a frame. It may be draggedVerziehen with the mouse, and so
+placed at another location.
+
+
+
+The size
+of the textbox is defined during the editing phase. The box is as wide as the
+editor window from which it receives its text, and high enough to contain the
+entire text.
+
+
+
+The textbox can
+also be worked on. A double click with the left mouse button in the text
+displays the editor window again, where the text can be changed or a new width
+set.
+
+
+
+Note:
+
+         Textboxes
+can considerably reduce the program performance in drag mode. Therefore use
+them with care and only sparingly. (A textbox can theoretically hold up to
+10000 characters, but you’d better not try this!) You may however hide
+textboxes like normal EUKLID DynaGeo objects, and only make them visible when
+required.
+
+
+
+
+
+
+#$K+Options | Menu configuration
+
+
+
+This page of the
+options window allows to choose among various menu configurationsopt_menu. Select the configuration
+that suits your needs from the drop-down menu and close the window with Okay.
+All commands marked as not available in the chosen menu configuration will be
+deactivated in the menues of the program.
+
+
+
+Note:
+
+The prepared menu configurations are supplied in two
+versions, whereby one contains the addition &quot;locked&quot; in its
+name. In this &quot;locked&quot; version the menu command  Miscelleaneous / Options  is de-activated too. It is thus not
+possible to switch to another configuration once it has been chosen, as the
+required command is no longer available. When in doubt, select the appropriate
+unlocked configuration.
+
+
+
+If the
+configurations provided are not sufficient, then you may produce your own
+additional ones. The button New...opt_newcfg leads to a window where you can define your
+personal menu configuration(s).
+
+
+
+The button
+Edit  allows you to make changes to
+the actually selected menu configuration if this is one of your ‘private
+configs’ If one of the five predefined menu configurations is actually selected
+this button is disabled.
+
+
+
+The button Delete
+deletes the last item from the list displayed in the drop down menu
+provided that it doesn’t point to one of the five predefined configurations.
+
+
+
+See also: 
+
+          Create private menu configurationsopt_newcfg
+
+          Notes about startparametersStartParams
+
+
+
+
+
+
+#$K+Create private menu configurations
+
+
+
+To define your
+own menu configuration you should first of all give it a definite name.
+Then you can edit the command list by marking all those commands that
+should not be available in your menu configuration. The command list
+only holds the commands that seem suitable for being disabled.
+
+
+
+When you leave
+this dialogue clicking on the Save button, your data will be written to
+the file EUKLID DynaGeo.INI.
+
+
+
+Please consider
+that deactivating the menu item  Miscelleaneous
+| Options  leads to a situation that
+cannot be undone easily: you cannot change the menu configuration any more if
+you disable the corresponding menu item. So be careful if you work with these locked
+configurations!
+
+
+
+If you loaded a
+locked menu configuration by mistake, read the Notes about start parametersStartParams to learn how to get back
+the full menu command set again.
+
+
+
+
+
+
+#$K+Miscelleaneous | Options
+
+
+
+This serves to
+change the options that influence the object display. Wherever meaningful, a
+range of valid values is given in the following description, in the format
+
+            [ Minimum.....(Standard
+value).....Maximum ]
+
+
+
+Due to the
+reasonable number of options they are distributed over several pages of
+a tabbed notebook:
+
+
+
+Start upopt_start
+
+Presentationopt_darst
+
+Measurementsopt_meas
+
+
+Internalsopt_intern
+
+Menu configuration cm_ConfigMenues
+
+Construction textopt_kons
+
+
+Exportopt_export
+
+
+
+Below these pages
+there are two buttons:
+
+
+
+a Cancel button to leave the window and
+reject the changes;
+
+an Apply these settings button
+to set all options to the new values.
+
+
+
+At the upper edge
+of the window there is a local menu allowing to load and save the
+settings:
+
+
+
+Options data menuopt_konfdat
+
+
+
+
+
+
+#$K+Options | Options data menu
+
+
+
+The local menu in
+the  Options  window contains three items:
+
+
+
+Load standard
+settings
+
+This command will reset all options to their initial
+values.
+
+
+
+Load user
+settings
+
+This command recalls the user defined settings that
+were saved last. If you changed to your settings temporarily without saving
+them, you can undo the changes with this command.
+
+
+
+Save user
+settings
+
+This command lets you save your actual settings.
+
+
+
+Normally, you
+will rarely need this menu because EUKLID DynaGeo saves your settings
+automatically at program exit and loads them again at the next start up.
+
+
+
+
+
+
+#$K+Options | Start up
+
+
+
+Starting
+EUKLID DynaGeo:
+
+Here you can choose the size of the EUKLIDDynaGeo
+window at start up.
+
+
+
+Starting a new
+drawing:
+
+Here you choose if a new EUKLID DynaGeo drawing
+should show a co-ordinate system, and how it should look.
+
+
+
+
+
+
+#+$KOptions | Presentation
+
+
+
+Point size:
+
+This parameter controls the size of a point on the
+screen. The value is the radius of a circular displayed point in pixels.
+
+Range:   [ 2
+........ (5) ........ 10 ]
+
+
+
+Minimum
+distance of trace points:
+
+When a trace is produced, a new point can only be
+joined to the line when it is sufficiently far away from the last registered
+point. This minimum distance may be defined here (in pixels).
+
+Range:   [ 1
+........ (5) ........20 ]
+
+
+
+Plot new
+traces as smooth curves:
+
+If this check box is set, any new trace will be drawn
+as a smooth curve through the recorded locus points. If not, then all of the
+locus points are shown.
+
+
+
+Name colour
+follows object colour:
+
+If this checkbox is checked, the colour of any
+object’s name will always be the same as the colour of the object itself. If
+not, the two colours are independent of one another.
+
+
+
+
+
+
+#+$KOptions | Measurements
+
+
+
+Distance unit
+string:
+
+Angle unit
+string:
+
+Here you can edit the unit strings used in
+measurement objects.
+
+
+
+Initial radius
+of angle arcs:
+
+This is the initialisation value for the radius of
+the arc that is used to mark an angle.
+
+(Also see Mark angle cm_MarkAngle)
+
+Range:   [ 5
+........ (30) ..........50 ]
+
+
+
+Care for angle
+orientation:
+
+This switch defines if EUKLID DynaGeo should pay
+attention to the orientation (&lt;180 or &gt;180) of any angles input. See also
+Mark angle cm_MarkAngle
+
+
+
+Mark right
+angles with a point:
+
+Checking this box will cause right angles to be
+marked by a point inside their angle arc. Otherwise right angles are marked
+with a hook instead of the angle arc.
+
+
+
+Frame
+measurement objects:
+
+This check box decides if measurement objects appear
+with or without a frame. (This is a pure matter of your personal taste...)
+
+
+
+
+
+
+
+
+#+$KOptions | Internals
+
+
+
+Mouse capture
+area:
+
+This parameter controls how close the mouse pointer
+must be to a geometrical point before it is captured. The capture distance is
+measured in pixels.
+
+Range:   [
+1........ (5) ......... 10 ]
+
+
+
+Zoom factor:
+
+This is the &quot;stretching&quot; factor by which
+the picture is expanded when the menu command Edit | Enlarge drawing cm_ZoomDn is applied.
+
+Range:  . [ 1
+...... (1.5) ....... 10 ]
+
+
+
+Tolerance for
+angle comparison:
+
+An angle w1 
+is taken as being the same as another angle w2  when w1  lies within the interval [w2-dw, w2+dw].
+Here, the dw value in degrees can be set.
+
+Range:   [ 10-5........(0.5)........10
+]
+
+
+
+Tolerance for
+distance comparison:
+
+A distance d1 
+is taken as being the same as another distance d2  when d1  lies within the interval [d2-dd, d2+dd].
+Here, the dd value in degrees can be set.
+Range: [ 1*10-20.......(1*10-8).......10 ]
+
+
+
+Clip lines
+internally:
+
+With some few graphic cards, the WINDOWS drivers are
+so buggy that EUKLID DynaGeo even fails to correctly draw straight lines on the
+screen. Especially when the line crosses through the window’s client area with
+its start and end points lying outside the window, some drivers do not show the
+line at all. To avoid this problem, EUKLID DynaGeo can do the clipping of lines
+itself, thus assuring the start and end point of any line to lie inside the
+actual window.
+
+
+
+Look for smooth paths:
+
+When you drag a drawing there may be two different
+possible positions for a depending point. Normally EUKLID DynaGeo chooses the
+new position of a point in this way that the length of the point’s path
+becomes as small as possible. But sometimes the choice is not quite easy to
+decide because both of the new positions lie rather closed to the old one. In
+these cases you can make EUKLID DynaGeo take into account the respective change
+of direction of the two possible paths: the one with the smaller change of
+direction will be preferred. So EUKLID DynaGeo will drive points on the most
+smooth paths possible.
+
+
+
+
+
+
+
+
+#$+KOptions | Construction text
+
+
+
+No names and
+measures in construction texts
+
+If you check this box the construction text will only
+show the true geometrical objects of your drawing, but no name objects or
+measurement objects. Leaving this box unchecked will lead to a complete list of
+all objects created.
+
+
+
+
+
+
+
+
+#$K+Options | Export
+
+
+
+Simulate line
+style when printing
+
+Simulate line
+style when copying to clipboard
+
+Simulate curve
+style when printing
+
+Simulate curve
+style when copying to clipboard
+
+These options adapt EUKLID DynaGeo to the
+capabilities of your printer. Many older printers cannot produce dashed or
+dotted lines. To prevent these attributes from being lost when printing, the
+line styles can be simulated by EUKLID DynaGeo internally.
+
+EUKLID DynaGeo drawings exported to the clipboard usually cannot be edited any
+more without losing accuracy or partly destroying them. So it is important to
+export the drawings ready for printing. This is why the respective options for
+the export to the clipboard are provided, too.
+
+
+
+
+
+
+#+Help Menu
+
+
+
+Here you get help
+for EUKLID DynaGeo whilst the program is running. This menu also offers
+additional information concerning the license conditions as well as program
+registration possibilities.
+
+
+
+    Contents:
+
+Displays the list of contents for the EUKLIDDynaGeo
+help
+
+
+
+    Help about the actual command:
+
+When this command is chosen, a help page for the
+actual command is displayed. If there is no command active at the time (i.e. if
+you are in dragging modeVerziehen!),
+then the help contents is displayed. The usual short cut for this command is
+implemented too: just press the F1 key!
+
+
+
+    Help about Windows help:
+
+Leads to the WINDOWS help system.
+
+
+
+    Basics cm_HelpBasics:
+
+Leads to a text which explains the basic ideas of the
+EUKLID DynaGeo program.
+
+
+
+    The EUKLID DynaGeo window cm_HelpScreen:
+
+Explains the external appearance of the EUKLID
+DynaGeo program.
+
+
+
+    Keyboard and mouse cm_HelpKeyMouse:
+
+Gives an overview of the possibilities to control the
+EUKLID DynaGeo program.
+
+
+
+    License conditions cm_Licence:
+
+Displays the license conditions.
+
+
+
+    Registration cm_Register:
+
+This command only appears in the Shareware-version.
+It opens a window in which a licensed full version can be made from a shareware
+version by entering correct license data.
+
+
+
+    About EUKLID DynaGeo:
+
+Calls the title window in which the version number,
+program license data etc. are displayed.
+
+
+
+
+
+
+#$+Internal Details
+
+
+
+This section
+contains some information about the internal running of the EUKLIDDynaGeo
+program.
+
+
+
+          Start procedure cm_StartUp
+
+          Hints about
+installation in networksNetHints
+
+          Co-ordinate system
+basicsCoordSystem
+
+          Relationships between
+EUKLID DynaGeo objectsRelativities
+
+
+
+
+
+
+#$K+Start procedure:
+
+
+
+When EUKLID
+DynaGeo is started, first of all the title window appeares. This shows
+the program name, the version number, a copyright notice, the program symbol,
+and the license data of the present version of the program. (When a fully
+licensed version is used this consists of the name and address of the license
+holder and the license number.) A shareware version displays only that it is a
+shareware version.
+
+
+
+At the bottom of
+the title window there is an action button, that at first displays Please
+wait. As long as this text is shown, clicking on the button produces no
+reaction. EUKLID DynaGeo needs some time to initialise and check
+if a shareware or fully licensed version is being used. In addition, a check is
+made at every new start that the program file is in its original condition. If
+EUKLID DynaGeo finds that the .EXE file has been altered, then the
+program is stopped with an appropriate notice.
+
+
+
+EUKLIDDynaGeo
+reads the initialisation data from a file called EUKLID DynaGeo.INI  that is looked for in the current directory.
+If the file is not found there, then the program looks for it in the directory
+where the EXE file is to be found. If it is not found even there, then
+the program is terminated with an appropriate error message. As the INI
+data is essential for EUKLID DynaGeo’s operation, this file should be carefully
+preserved.
+
+
+
+Normally the
+program tries to return to the same conditions as existed when it was
+last ended. This concerns the options for the screen display of geometrical
+objects (point size, capture area, etc.) and the menu configurationopt_menu as well as previously loaded
+macros.
+
+
+
+When this
+procedure is successfully carried out, the button displays Okay, and a
+click on it closes the title window.
+
+
+
+Also see: 
+
+          Notes
+about start parametersStartParams
+
+
+
+
+
+
+#$K+Command line parameters
+
+
+
+On calling the
+program, it is possible to place 2 parameters after the program name:
+
+
+
+ 
+(1)      The name (or full path) of
+a GEO-file that should be loaded automatically at the start of EUKLID
+DynaGeo. This property allows to associate GEO files with the EUKLIDDynaGeo
+program: if you double click on a GEO file (e.g. in the WINDOWS file manager or
+in Explorer), EUKLID DynaGeo will start automatically, and the file will be
+loaded.
+If this association isn’t established yet and you double click a GEO file,
+WINDOWS will ask with which of the registered programs you want to edit the
+files of this type. Since EUKLID DynaGeo normally doesn’t write anything into
+the WINDOWS registry, the program isn’t registered. So you have to choose
+“Other...” and enter the full path to EUKLID DynaGeo.EXE. From now on, WINDOWS
+will know that GEO files are to be edited by EUKLID DynaGeo.
+
+
+
+ 
+(2)      A parameter in the
+form   /c=x. This selects a menu
+configurationopt_menu
+which should be loaded automatically at the start of EUKLID DynaGeo. The x
+is either 0 or the (positive) number of a configuration registered in
+the EUKLID DynaGeo.INI file. With the start parameter  /c=0  the complete
+command set is chosen.
+
+
+
+The order in
+which these parameters are given is unimportant, and each of them may be used
+alone.
+
+
+
+
+
+
+#$K+Hints about installation in networks
+
+
+
+The following
+information is aimed primarily at those who wish to install EUKLID DynaGeo on a
+network.
+
+
+
+The files EUKLID
+DynaGeo.EXE and EUKLID DynaGeo.HLP must be together in any selected
+directory, which hereafter will be called the EUKLID DynaGeo directory.
+On calling the program, the EUKLID DynaGeo directory does not have to be the
+present directory. The file EUKLID DynaGeo.INI can either be in the
+present directory or in the EUKLID DynaGeo directory. These three files must be
+available for every EUKLID DynaGeo user, but only read access is necessary. It
+is a good idea that the user has no write access in the EUKLIDDynaGeo
+directory, so that the original files are strictly protected. In some networks
+it might be helpful to declare EUKLID DynaGeo.EXE and especially EUKLID
+DynaGeo.HLP as shareable so that many users have parallel access.
+
+
+
+In order that a
+user may save his private options, he requires write access for the EUKLID
+DynaGeo.INI file. This may mean, for example, that he possesses a copy
+of  EUKLID DynaGeo.INI  in his HOME directory. This HOME
+directory should be the actual directory (or working directory) when EUKLID
+DynaGeo is started, and so you have to call the program by giving the full
+path. If there is a file EUKLID DynaGeo.INI in the EUKLIDDynaGeo
+directory, as well as in the actual directory, then the actual directory has
+precedence. EUKLID DynaGeo notes the path to this file when starting, and later
+accesses it as required, even when in the meantime the actual directory (or
+drive) has changed.
+
+
+
+The place where
+the data files are kept (*.GEO and *.MAK) is irrelevant to EUKLID
+DynaGeo. A user has access within the program to all drives and directories
+known to him within the network.
+
+
+
+
+
+
+#$K+Coordinate system basics
+
+
+
+Every EUKLID
+DynaGeo drawing contains a Cartesian co-ordinate system with a unit
+length of 1 cm. The origin can be draggedVerziehen with the mouse. Thus the axes and co-ordinate
+points are also moved, and all other dependent objects too.
+
+
+
+The co-ordinate
+system can be hidden, but remains available for use. This means that even with
+no co-ordinate system displayed, a point with fixed co-ordinates can still be
+produced. To keep the use relatively simple, any scaling of the co-ordinate
+system has been omitted. As long as your drawing contains points with fixed
+co-ordinates, it therefore makes little sense to expand or contract the
+drawing, as this action only affects those objects without a direct
+relationship to the co-ordinate system. Co-ordinate points stay in their old
+places.
+
+
+
+It is very likely
+that the displayed co-ordinate system on the screen is not exactly to scale.
+Due to the poor screen resolution, the WINDOWS screen centimeter often is as
+long as 15 real millimeter. It is however not of any great importance that you
+cannot &quot;scratch around&quot; with a Tri-square and compasses on the
+display screen, as all measurements are accomplished via software with EUKLID
+DynaGeo, and can be displayed exactly. Hard copy print-outs should
+however be to scale, and can therefore be worked on with a ruler and compasses.
+The WINDOWS printer centimetre is a great deal more reliable than the WINDOWS
+screen centimetre.
+
+
+
+
+
+
+#$K+Relationships between EUKLID DynaGeo-objects
+
+
+
+The following
+explanation is not essential for the normal use of EUKLID DynaGeo. It may
+however give you a small view of the data structures used, to give you a chance
+to perhaps understand the situation when the program behaviour deviates from
+that expected. Also the causes for some of the limitations of the EUKLID
+DynaGeo program may become clear by studying this section.
+
+
+
+The geometrical
+objects used in the EUKLID DynaGeo program have various relationships with each
+other. The most important and often used one is the parent-child
+relationship. If for example, on a line with the end points P1 and P2  a perpendicular bisector ms is
+constructed, then the position of the bisector is uniquely defined by the
+points P1 and P2. These two points are therefore called the parents
+of the perpendicular bisector ms, and ms itself is the child of the two
+points P1 and P2.
+
+
+
+Obviously,
+children can also produce children, so that a family-tree-like structure of
+geometrical objects can be built up. In addition to this normal descent,
+there is also adoption: when a point is bound (snapped) to a line, then
+the point becomes a child of that line, and the line becomes a parent of the
+point.
+
+
+
+The peace of this
+beautifully clear, but strictly hierarchical family tree, is severely disturbed
+through introduction of line segments with a fixed length. The endpoints of
+such segments should react equally to manipulation. When however one endpoint
+is dragged, then the other must be dragged after it at the other end of the
+segment. It becomes practically a child of the dragged endpoint, which in turn,
+takes the parent role. If however you have dragged the other end of the
+segment, the parent and child roles are reversed. This reciprocal relationship
+of such points is called friendship within EUKLID DynaGeo. Among (real) friends
+he decides who can best, under the prevailing conditions.
+
+
+
+Thus an EUKLID
+DynaGeo object can have parents, children and friends. In order that no
+senseless circular relationships can develop with objects, where for
+example one point could be its own grandfather (and at the same time its own grandchild!),
+the process of adoption must be strictly limited. Thus a point can never be
+bound to a line that was born from that point. Additionally, the line may not
+even have been born from a friend of the point to be bound, while otherwise, at
+least at times, a circular relationship could be formed. (Depending for
+example, on which basis objectBasisobjekt
+you drag).
+
+
+
+With this
+protective mechanism in place, it should be guaranteed that the family tree of
+the geometrical objects never shows a circular relationship. But if it does,
+this can lead to cases of harmless, (but annoying) false interpretation of
+line segments with a fixed length, which apparently forget their fixed length
+when being dragged. In the worst case, EUKLID DynaGeo runs in a recursive loop,
+which cannot be broken, and ends with a total hang up of the program.
+Unfortunately, you can never be sure if the brain of the programmer has worked
+out to prevent circular relationships in all cases. If, whilst dragging in your
+drawing, a point should become loose from its line segment, then it is quite
+likely that you have succeeded in fooling the internal protection against
+circular relationships.
+
+
+
+
+
+
+#$K+Problems and limits
+
+
+
+Like every
+program, EUKLID DynaGeo has its limits. The following description should enable
+you to understand the resulting limitations.
+
+
+
+Problems with object representation on the
+screenProb6
+
+Problems with the clipboardProb5
+
+Problems with scalingProb2
+
+Problems with printingProb4
+
+
+
+How to get further help with more
+difficult problems cm_Problem
+
+
+
+
+
+
+#+Problems with scaling
+
+
+
+a) Scaling on
+the screen:
+
+
+
+EUKLIDDynaGeo
+obtains its information about the available computer hardware from WINDOWS,
+and WINDOWS cannot always know everything. When WINDOWS finds that there is a
+15 inch monitor connected, run with 1024 x 768 pixels, then the result is
+so-many pixels per centimetre. This is transferred to EUKLID DynaGeo, and it is
+started so that a line segment of 5 cm occupies exactly 5 WINDOWS-cm on the
+screen. But due to the poor resolution of the actually available screens,
+usually the WINDOWS screen centimetre is about 50% longer than the real world
+centimeter.
+
+
+
+
+
+Scaling on the
+printer:
+
+
+
+If the scaling
+factor is set to 1.00 (in the Printer options dialogue), then the
+drawing is printed as if WINDOWS believed the scale is 1:1, i.e. every WINDOWS
+centimeter will be converted to a printer centimeter. As printers are generally
+more truthful than monitors, this is mostly almost correct. However, using a
+scaling factor &gt; 1.00 ( &lt; 1.00 ) allows the print-out to be expanded (or
+contracted).
+
+
+
+
+
+
+#+Problems with printing
+
+
+
+a) Why do some
+objects not appear in the print-out ?
+
+
+
+When a EUKLID
+DynaGeo drawing is sent to a black and white printer, then the screen colours
+are changed into grey scales or black and white by the printer driver.
+The resultant print quality depends almost entirely on how well the driver does
+its job. You should test to see which colours print out best, and then use this
+knowledge when colouring the drawing.
+
+
+
+When for example,
+the co-ordinate system is missing from your print-out, even though displayed on
+the screen, then it is a sign that the printer driver interprets the light grey
+(standard colour) of the co-ordinate system as white. In that case use another
+colour for the co-ordinate system (such as black), then it should print
+correctly.
+
+
+
+
+
+b) Why do my
+dashed lines become solid when printed?
+
+
+
+Many older
+printers cannot produce dashed or dotted lines. If this is true for your
+printer too, EUKLID DynaGeo can simulate these attributes when printing. If you
+choose the appropriate options on the Export page of the Options dialogue cm_Options, the program produces a
+series of short solid lines instead of one dashed line.
+
+
+
+
+
+
+#+Problems with the clipboard
+
+
+
+Clipping
+problems:
+
+
+
+When a drawing is
+totally, or partly exported into the clipboard, and then imported to another
+program (e.g. WINWORD), then it is possible that the print-out has the straight
+lines just outside the picture area running straight through the
+neighbouring text, although the screen and perhaps even the printer preview
+is okay.
+
+
+
+Such an error is
+apparently due to the printer driver which does not carry out correct
+clipping when interpreting vector graphic data. In most cases this problem can
+be overcome by putting an additional frame around the drawing in the receiving
+program. In WINWORD for example, it is sufficient just to surround the imported
+drawing with a positioning frame. This also eases changes in the
+document’s layout. (Some people are however somewhat allergic to WINWORD
+positioning frames!)
+
+
+
+
+
+b) Size and
+aspect problems:
+
+
+
+Some older text
+programs do not import drawings in correct size from the clipboard. Even worse,
+sometimes the imported drawing even shows wrong aspect ratio. Though it is
+nearly always possible to easily resize the drawing after importing it, you
+unfortunately have to guess the correct aspect.
+
+
+
+This ugly
+behaviour of some text systems is due to the fact that they don’t know the new EMF
+graphics format, but only the older WMF format. This is even true for
+WINWORD up to version 7! WORD 97 (i.e. WINWORD 8) is the first version
+supporting the EMF format and so preserving size and aspect of vector graphics
+imported from the clipboard.
+
+
+
+
+
+c) Why can’t I
+work on my drawing after importing it?
+
+
+
+If you try to
+work on an imported EUKLID DynaGeo drawing, you often will get unsatisfying
+results. This is due to the fact that many vector graphic editors don’t know
+all of the objects and commands used by EUKLID DynaGeo in WMF/EMF data streams.
+So it’s better not to edit imported EUKLID DynaGeo drawings any more.
+
+
+
+
+
+
+#+Problems with object representation on the screen:
+
+
+
+Why do parts
+of lines sometimes remain on the screen?
+
+
+
+This is
+apparently a WINDOWS problem. It seems that WINDOWS, in rare cases of internal
+confusion (stress due to overloading?), breaks off a graphics output, before it
+has correctly ended. EUKLID DynaGeo relies however on that every
+graphics output is exactly carried out, right down to the pixel. If this does
+not occur, then unsightly traces are left on the screen.
+
+
+
+If you notice
+such traces on your drawing, then you must make EUKLID DynaGeo draw a totally
+new output. In many WINDOWS graphics programs, there is a menu point redraw.
+EUKLID DynaGeo does not have such a menu item, however the same effect is
+obtained with a press of  the U-key
+(screen Update).
+
+
+
+
+
+b) Why do some
+straight lines not show?
+
+
+
+On some few
+computer systems, EUKLID DynaGeo correctly draws line segments, but no (long)
+lines. This is due to a faulty graphics driver which fails to clip lines
+correctly. To avoid this problem, EUKLID DynaGeo can do the clipping internally
+(see Options | Internalsopt_intern
+).
+
+
+
+
+
+
+#$K+License conditions and limitation of liability
+
+
+
+EUKLID DynaGeo is
+shareware. It is distributed in a compressed archive file via the
+Internet. The shareware version may (and should) be copied and re-distributed
+on condition that all files contained in the original archive are
+included. You may use the program for 8 weeks to test its suitability. If after
+this time you want to continue using EUKLID DynaGeo, you must buy a license. The
+use of the shareware version in schools and similar educational establishments
+is strictly prohibited.
+
+
+
+Registered
+users receive their
+personal license data to convert the shareware to a licensed version.
+Moreover, they get updates to a higher main version number at a discount, if
+not even free. Additionally, registered users can receive latest updates
+within the main version number (e.g. 2.x) 
+free. See also: How do I get an update?Update).
+
+
+
+
+
+A single user
+license costs US $  30,--
+
+and allows the use of the program within the usual conditions (on one
+computer at a time, similar to the use of a book).
+
+
+
+An extended
+school license costs US $  150,--
+
+
+and allows not only the use of the program on all computers and networks
+within the school, but also on the private computers of all teachers and
+students of that school.
+
+
+
+These prices are
+only valid outside the European community. If you live inside the EC,
+please have a look at my homepage (address see below!) to get the actual
+prices.
+
+
+
+
+
+To avoid
+difficulties with payment, I shall give EUKLID DynaGeo to a professional shareware
+distribution service. Thus you can choose between different paying modes.
+Especially, you can buy a license online with your credit card.
+In January 2000, the details still need to be fixed. But I hope to get along
+with this during the next few weeks. If you are interested in an EUKLIDDynaGeo
+license, please have a look at the “English pages” of my Internet homepage:
+
+
+
+http://www.mechling.de
+
+
+
+
+
+As the English
+version of EUKLID DynaGeo is exclusively distributed via the Internet, I
+presume that everyone buying a license will download the program from the
+Internet. I do not send any disks around. If there are any problems, please
+send me an E-Mail:
+
+
+
+roland@mechling.de
+
+
+
+
+
+I have prepared
+the program with the greatest possible care. However, I cannot guarantee
+freedom from error. I also cannot take any legal responsibility or liability of
+any kind for damage caused by use of this program, even if caused by a program
+error, or errors in the documentation. I also undertake no guarantee that the
+program functions will meet the expectations of the user, or that the program
+runs without error.
+
+
+
+But as I have an
+interest that you are satisfied with EUKLID DynaGeo, I would thank you for any
+information concerning possible errors, or suggestions about possible improvements.
+Just send me an e-mail!
+
+
+
+
+
+Acknowledgments:
+
+
+
+I wish to thank
+my wife who in the difficult time of program development supported her computer
+addicted husband with patience and constructive help. My thanks also go to my
+colleagues who taught me the techniques of programming, like Bernd Ebbmeier,
+Dr. Klaus Heidler and Dr. Konrad Dammeier. I also want to thank all those who
+helped me with the English version, especially Joergen Christiansen, Leo
+Poulsen, R. Philpott and W. Hellwig, who were busy with translating, and last
+not least H.J.Elschenbroich, who pulled the strings and made up the
+connections.
+
+
+
+
+
+
+$K+#How do I get an update ?
+
+
+
+If you require an
+update, it is enough that you obtain a new shareware version and install it
+over your old licensed version. It is a really good idea to backup your EUKLID
+DynaGeo directory before updating! Special care should be taken to the file
+named EUKLID DynaGeo.INI, because it contains your license data!
+
+
+
+You can always
+download a &quot;new&quot; shareware version from my Internet homepage.
+
+The address is:
+
+http://www.mechling.de
+
+
+
+Please follow the
+link to the English pages !
+
+
+
+
+
+
+#$K+Registration
+
+
+
+Normally, I don’t
+deliver any disk containing the EUKLID DynaGeo program, but only a bill and the
+data of your personal license. While installing a shareware version you
+get the opportunity to enter this license data, from which a full
+licensed version is produced on your hard disk.
+
+
+
+The Registration
+window of the shareware version allows you to make a full licensed version from
+an already installed shareware version. Type your valid license data into the
+input fields of the dialogue window, as presented on your bill. Click on the Okay
+button, and now the shareware notices, as well as any operational limitations
+will be turned off. In a licensed version the item Registration
+disappears from the Help menu, as it is no longer required.!
+
+
+
+Note !
+
+Distribution of the installed full version or of the
+license data outside the validation area of the appropriate license is
+forbidden.
+
+The shareware version may be copied and
+distributed freely, as long as all files are copied and distributed.
+
+
+
+
+#$K+ How do I get help with problems ?
+
+
+
+If your version
+of EUKLID DynaGeo behaves strangely or has any kind of errors, then try the
+on-line help. I should especially point to the section Requirements cm_Required as well as section Limits
+and problemsProblems. In the
+last named section are explanations concerning unexpected behaviour of the
+program.
+
+
+
+When you cannot
+find anything helpful in the on-line help, then look at the EUKLIDDynaGeo
+homepage:
+
+http://www.mechling.de
+
+to see if there
+can be found anything about your problem. If not, send me a problem
+description, preferably via e-mail ( roland@mechling.de ), perhaps with
+an attached GEO or MAK file showing the problem (if several then please ZIP
+them!).
+
+
+
+You can also send
+me a letter:
+
+Roland Mechling,
+Fuchshaldeweg 24a, D-77654 Offenburg, Germany
+
+or a Fax
+(+49(0)781 - 43268), but I think the easiest way to exchange information is
+e-mail.
+
+
+
+The more accurate
+your bug description, the greater the chances I can help you! Always include a
+description of your hardware (processor speed, graphic card, memory) and
+software (operation system version, network software)! In any case I shall try
+to help you as fast as possible.
+
+
+
+
+
+
+#
+
+Dragging with the mouse:
+
+
+
+Place the mouse cursor over the object to be dragged.
+Press the left mouse button, and hold it pressed, while pushing the mouse. The
+object follows the movement of the mouse cursor until the left mouse button is
+released.
+
+
+
+
+
+
+#
+
+Basis objects:
+
+
+
+An object whose data is not related to any other
+object is called a basis object. If, for example, you produce a point using a
+mouse click, then it is a basis point. It obtains its co-ordinates from the
+mouse. When however, a point is defined as the intersection point of two lines,
+then it is not a basis point. Its co-ordinates are dependent on the location of
+the two lines.
+
+
+
+Basis objects may be draggedVerziehen at any time. EUKLIDDynaGeo
+acknowledges the following basis objects:
+
+
+
+Basis points are points whose positions are independent of all
+other objects, and have thus been set using the mouse.
+
+
+
+Basis lines are lines whose direction is set at their creation
+and cannot later be changed. Such lines can be pushed or dragged, but not
+rotated.
+
+
+
+Basis circles are circles whose radius is set at their creation
+and cannot be changed later. Their centre point is not useable as an object (as
+otherwise the circle would be dependent on this point) and is thus never
+displayed.
+
+
+
+
+
+
+#
+
+Selection frames:
+
+
+
+Click with the left mouse button on a spot of the
+present drawing, that contains no object, and then holding the button
+pressed, drag the mouse. There appears a dotted selection frame.
+
+
+
+Such a frame is actually intended for export into the
+clipboard, as well as saving a part of a EUKLID DynaGeo drawing in BMP or
+WMF/EMF format to a file. Then, instead of the entire drawing, only this
+section is copied or saved.
+
+
+
+To remove the frame again, click with the left mouse
+button on another free spot of the drawing or press the ESC key.
+
+
+
+
+
+
+#
+
+Formulas or expressions:
+
+
+
+When typing in formula or expressions, then all
+customary mathematical operations (+, - , * , /, ^), some elementary functions
+(e.g. sqrt, sin, cos, tan, exp, and the inverse functions) as well as brackets
+may be used. Additionally, the actually displayed length or angle measurements
+may be used as variables within the expression. Just click on the value
+given in the drawing, and the appropriate variable will be inserted in the
+expression being worked on.
+
+
+
+
+
+
+#
+
+Menu configuration:
+
+
+
+A menu configuration is a particular choice of active
+commands from the whole of the EUKLID DynaGeo command set. You can reduce the
+command possibilities by de-activating some commands.
+
+
+
+De-activated menu commands are displayed in grey
+(instead of black) and cannot be selected. If an icon from a toolbar belongs to
+the de-activated command, then this icon is also removed.
+
+
+
+
+
+
+#
+
+Repeating commands automatically:
+
+
+
+When you hold down the Shift key while
+clicking on a tool bar icon, the appropriate command will be activated in Auto
+repeat mode: if the command is suited for this, it will be called again
+automatically after having finished its work successfully.
+
+
+
+You leave the Auto repeat mode by clicking the ESC
+key.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$ Contents
+
+
+
+
+
++ Einf:002
+
+
+
+
+
+#  cm_Required
+
+
+
+
+
+$ Requirements
+
+
+
+
+
+K basics;requirements
+
+
+
+
+
++ Einf:005
+
+
+
+
+
+$ Basics
+
+
+
+
+
+K basics;objects
+
+
+
+
+
++ Einf:010
+
+
+
+
+
+$ The EUKLID DynaGeo window
+
+
+
+
+
+K basics
+
+
+
+
+
+$ Keyboard and mouse
+
+
+
+
+
+K basics;keyboard;mouse
+
+
+
+
+
++ Einf:015
+
+
+
+
+
+#  cm_MouseCursors
+
+
+
+
+
+$ Mouse cursor shapes
+
+
+
+
+
+K basics;mouse
+
+
+
+
+
++ Einf:020
+
+
+
+
+
+#  cm_HotKeys
+
+
+
+
+
+$ Hotkeys
+
+
+
+
+
+K basics;keyboard
+
+
+
+
+
++ Einf:025
+
+
+
+
+
+#  cm_ToolBar
+
+
+
+
+
+$ The toolbar
+
+
+
+
+
+K basics;toolbar
+
+
+
+
+
++ Einf:030
+
+
+
+
+
+$ The main menu
+
+
+
+
+
+# Hauptleiste
+
+
+
+
+
+K toolbar
+
+
+
+
+
++ Leiste:005
+
+
+
+
+
+$ The construct menu
+
+
+
+
+
+#  cm_Construct
+
+
+
+
+
+K toolbar
+
+
+
+
+
++ Leiste:010
+
+
+
+
+
+$ The shape and colour menu
+
+
+
+
+
+#  cm_EditDraw
+
+
+
+
+
+K toolbar
+
+
+
+
+
++ Leiste:015
+
+
+
+
+
+#  cm_Meas_Calc
+
+
+
+
+
++ Leiste:018
+
+
+
+
+
+K toolbar
+
+
+
+
+
+$ The measure&amp;calculate menu
+
+
+
+
+
+# AutoChoose
+
+
+
+
+
++ Leiste:020
+
+
+
+
+
+$ The file menu
+
+
+
+
+
+K menus;file
+
+
+
+
+
++ Menu:005
+
+
+
+
+
+#  cm_New
+
+
+
+
+
+$ New
+
+
+
+
+
+K file;drawing
+
+
+
+
+
++ Datei:005
+
+
+
+
+
+#  cm_Load
+
+
+
+
+
+$ Load
+
+
+
+
+
+K file;drawing;load
+
+
+
+
+
++ Datei:010
+
+
+
+
+
+#  cm_Save
+
+
+
+
+
+$ Save
+
+
+
+
+
+K file;drawing;save
+
+
+
+
+
++ Datei:015
+
+
+
+
+
+#  cm_SaveAs
+
+
+
+
+
+$ Save as
+
+
+
+
+
+K file;drawing;save
+
+
+
+
+
++ Datei:020
+
+
+
+
+
+#  cm_FileProp
+
+
+
+
+
+$ Properties
+
+
+
+
+
+K file;drawing;options
+
+
+
+
+
++ Datei:023
+
+
+
+
+
+#  cm_PrnInit
+
+
+
+
+
+$ Printer options
+
+
+
+
+
+K file;print;printer;options
+
+
+
+
+
++ Datei:025
+
+
+
+
+
+#  cm_Print
+
+
+
+
+
+$ Print
+
+
+
+
+
+K file;print;drawing
+
+
+
+
+
++ Datei:030
+
+
+
+
+
+#  cm_Exit
+
+
+
+
+
+$ Exit
+
+
+
+
+
+K file
+
+
+
+
+
++ Datei:035
+
+
+
+
+
+$ The Edit menu
+
+
+
+
+
+K menus;edit
+
+
+
+
+
++ Menu:010
+
+
+
+
+
+#  cm_Undo
+
+
+
+
+
+$ Undo last construction
+
+
+
+
+
+K delete;objects;undo;redo
+
+
+
+
+
++ Bearb:002
+
+
+
+
+
+#  cm_UndoUndo
+
+
+
+
+
+$ Redo last undo
+
+
+
+
+
+K delete;objects;redo;undo
+
+
+
+
+
++ Bearb:003
+
+
+
+
+
+#  cm_WriteToCB
+
+
+
+
+
+$ Copy
+
+
+
+
+
+K copy;clipboard
+
+
+
+
+
++ Bearb:005
+
+
+
+
+
+#  cm_NameObj
+
+
+
+
+
+$ Name object
+
+
+
+
+
+K edit;objects;rename
+
+
+
+
+
++ Bearb:010
+
+
+
+
+
+#  cm_ToggleVis
+
+
+
+
+
+$ Hide / show object
+
+
+
+
+
+K edit;objects;show;hide
+
+
+
+
+
++ Bearb:015
+
+
+
+
+
+#  cm_DelObj
+
+
+
+
+
+$ Delete object
+
+
+
+
+
+K edit;objects;delete
+
+
+
+
+
++ Bearb:020
+
+
+
+
+
+# DelBasics
+
+
+
+
+
+$ More about delete
+
+
+
+
+
+K edit;objects;delete
+
+
+
+
+
+#  cm_BindP2L
+
+
+
+
+
+$ Snap point to line
+
+
+
+
+
+K objects;snap;points
+
+
+
+
+
++ Bearb:022
+
+
+
+
+
+#  cm_ReleaseP
+
+
+
+
+
+$ Unsnap point from line
+
+
+
+
+
+K objects;snap;points
+
+
+
+
+
++ Bearb:023
+
+
+
+
+
+#  cm_Poly2Foregr
+
+
+
+
+
+$ Bring polygon to foreground
+
+
+
+
+
+K objects;polygon
+
+
+
+
+
++ Bearb:024
+
+
+
+
+
+#  cm_MenuEditDraw
+
+
+
+
+
+$ Change drawing
+
+
+
+
+
+K edit;drawing;change
+
+
+
+
+
++ Bearb:025
+
+
+
+
+
+#  cm_ZoomDn
+
+
+
+
+
+$ Enlarge drawing
+
+
+
+
+
+K edit;drawing;scaling;enlarge
+
+
+
+
+
++ Bearb:030
+
+
+
+
+
+#  cm_ZoomUp
+
+
+
+
+
+$ Reduce drawing
+
+
+
+
+
+K edit;drawing;scaling;reduce
+
+
+
+
+
++ Bearb:035
+
+
+
+
+
+#  cm_Slide
+
+
+
+
+
+$ Move drawing
+
+
+
+
+
+K edit;drawing;move
+
+
+
+
+
++ Bearb:040
+
+
+
+
+
+#  cm_Basics
+
+
+
+
+
+$ Draw menu
+
+
+
+
+
+K menues;draw
+
+
+
+
+
++ Menu:013
+
+
+
+
+
+#  cm_PCreate
+
+
+
+
+
+$ Point
+
+
+
+
+
+Kdraw;point
+
+
+
+
+
++ Zeich:005
+
+
+
+
+
+#  cm_PtCoord
+
+
+
+
+
+$ Points with coordinates (x|y)
+
+
+
+
+
+K draw;point;coordinates
+
+
+
+
+
++ Zeich:010
+
+
+
+
+
+#  cm_PonLine
+
+
+
+
+
+$ Points on a line
+
+
+
+
+
+K draw;point
+
+
+
+
+
++ Zeich:015
+
+
+
+
+
+#  cm_RCreate
+
+
+
+
+
+$ Draw a straight line
+
+
+
+
+
+K draw;line;straight line
+
+
+
+
+
++ Zeich:020
+
+
+
+
+
+#  cm_FCreate
+
+
+
+
+
+$ Draw circle
+
+
+
+
+
+K draw;circle;line
+
+
+
+
+
++ Zeich:025
+
+
+
+
+
+#  cm_DCreate
+
+
+
+
+
+$ Triangle
+
+
+
+
+
+K draw;line;triangle;polygon
+
+
+
+
+
++ Zeich:030
+
+
+
+
+
+#  cm_NCreate
+
+
+
+
+
+$ Polygon
+
+
+
+
+
+K draw;lines;polygon;triangle
+
+
+
+
+
++ Zeich:035
+
+
+
+
+
+#  cm_MakeLocLine
+
+
+
+
+
+$ Draw trace
+
+
+
+
+
+K construct;trace
+
+
+
+
+
++ Vers:010
+
+
+
+
+
+#  cm_LocLine
+
+
+
+
+
+$ More about traces
+
+
+
+
+
+K trace
+
+
+
+
+
+#  cm_Draw
+
+
+
+
+
+$ Construct menu
+
+
+
+
+
+K menues;construct
+
+
+
+
+
++ Menu:015
+
+
+
+
+
+#  cm_Schnitt
+
+
+
+
+
+$ Intersections
+
+
+
+
+
+K construct;point
+
+
+
+
+
++ Konstr:010
+
+
+
+
+
+#  cm_MirrorPt
+
+
+
+
+
+$ Symmetrical point
+
+
+
+
+
+K construct;point
+
+
+
+
+
++ Konstr:015
+
+
+
+
+
+#  cm_Mitte
+
+
+
+
+
+$ Midpoint
+
+
+
+
+
+K construct;point
+
+
+
+
+
++ Konstr:020
+
+
+
+
+
+#  cm_SCreate
+
+
+
+
+
+$ Line segment
+
+
+
+
+
+K construct;line segment;line;straight line
+
+
+
+
+
++ Konstr:025
+
+
+
+
+
+#  cm_LCreate
+
+
+
+
+
+$ Line segment of fixed length
+
+
+
+
+
+K construct;line segment;line;straight line
+
+
+
+
+
++ Konstr:030
+
+
+
+
+
+#  cm_Strahl
+
+
+
+
+
+$ Ray
+
+
+
+
+
+K construct;line segment;line;ray
+
+
+
+
+
++ Konstr:032
+
+
+
+
+
+#  cm_GCreate
+
+
+
+
+
+$ Line through two points
+
+
+
+
+
+K construct;line segment;line;straight line
+
+
+
+
+
++ Konstr:035
+
+
+
+
+
+#  cm_MSenkr
+
+
+
+
+
+$ Perpendicular bisector
+
+
+
+
+
+K construct;line segment;line;straight line
+
+
+
+
+
++ Konstr:040
+
+
+
+
+
+#  cm_WHalb
+
+
+
+
+
+$ Bisector
+
+
+
+
+
+K construct;line segment;line;straight line
+
+
+
+
+
++ Konstr:045
+
+
+
+
+
+#  cm_Parall
+
+
+
+
+
+$ Parallel line
+
+
+
+
+
+K construct;line segment;line;straight line
+
+
+
+
+
++ Konstr:050
+
+
+
+
+
+#  cm_Lot
+
+
+
+
+
+$ Drop / raise perpendicular
+
+
+
+
+
+K construct;line segment;line;straight line
+
+
+
+
+
++ Konstr:055
+
+
+
+
+
+#  cm_GRicht
+
+
+
+
+
+$ Line of a given angle
+
+
+
+
+
+K construct;line segment;line;straight line;angle
+
+
+
+
+
++ Konstr:060
+
+
+
+
+
+#  cm_KCreate
+
+
+
+
+
+$ Circle from centre and point on periphery
+
+
+
+
+
+K construct;circle;line
+
+
+
+
+
++ Konstr:065
+
+
+
+
+
+#  cm_MCreate
+
+
+
+
+
+$ Circle with fixed radius
+
+
+
+
+
+K construct;circle;line
+
+
+
+
+
++ Konstr:070
+
+
+
+
+
+#  cm_Arc
+
+
+
+
+
+$ Arc
+
+
+
+
+
+K construct;circle;arc;line
+
+
+
+
+
++ Konstr:080
+
+
+
+
+
+#  cm_MirrorObj
+
+
+
+
+
+$ Mirror object
+
+
+
+
+
+K mirror;object
+
+
+
+
+
++ Konstr:090
+
+
+
+
+
+#  cm_Measure
+
+
+
+
+
+$ Menu measure
+
+
+
+
+
+K menues;measure;calculate
+
+
+
+
+
++ Menu:017
+
+
+
+
+
+#  cm_MeasureDist
+
+
+
+
+
+$ Measure distance
+
+
+
+
+
+K distance;measure
+
+
+
+
+
++ Mess:010
+
+
+
+
+
+# pt2
+
+
+
+
+
+#  cm_MeasureAngle
+
+
+
+
+
+$ Measure angles
+
+
+
+
+
+K angle;measure
+
+
+
+
+
++ Mess:020
+
+
+
+
+
+#  cm_TermInput
+
+
+
+
+
+$ Define formula
+
+
+
+
+
+K distance;angle;measure;formula;expression
+
+
+
+
+
++ Mess:030
+
+
+
+
+
+#  cm_MarkAngle
+
+
+
+
+
+$ Mark angle
+
+
+
+
+
+K angle;mark angle
+
+
+
+
+
++ Zeich:040
+
+
+
+
+
+#  cm_Angle
+
+
+
+
+
+$ More about angle arcs
+
+
+
+
+
+K angle
+
+
+
+
+
+#  cm_CoordSys
+
+
+
+
+
+$ Co-ordinate system
+
+
+
+
+
+Kco-ordinate system;co-ordinate
+
+
+
+
+
++ Mess:040
+
+
+
+
+
+#  cm_FixPt
+
+
+
+
+
+$ Fix a point
+
+
+
+
+
+K co-ordinate
+
+
+
+
+
++ Mess:040
+
+
+
+
+
+#  cm_Clip2Grid
+
+
+
+
+
+$ Snap a point to a grid point
+
+
+
+
+
+K co-ordinate
+
+
+
+
+
++ Mess:050
+
+
+
+
+
+#  cm_UnfixPt
+
+
+
+
+
+$ Undo fix of a point
+
+
+
+
+
+K co-ordinate
+
+
+
+
+
++ Mess:060
+
+
+
+
+
+$ Macro menu
+
+
+
+
+
+K menues; macro
+
+
+
+
+
++ Menu:020
+
+
+
+
+
+#  cm_DefMakro
+
+
+
+
+
+$ Create new macro
+
+
+
+
+
+K macro
+
+
+
+
+
++ Makr:005
+
+
+
+
+
+#  cm_EditHlpMakro
+
+
+
+
+
+$ Edit macro description
+
+
+
+
+
+K macro
+
+
+
+
+
++ Makr:007
+
+
+
+
+
+#  cm_DelMakro
+
+
+
+
+
+$ Delete old macro
+
+
+
+
+
+K macro;delete
+
+
+
+
+
++ Makr:010
+
+
+
+
+
+#  cm_LoadMakro
+
+
+
+
+
+$ Load macro
+
+
+
+
+
+K macro;load
+
+
+
+
+
++ Makr:015
+
+
+
+
+
+#  cm_SaveMakro
+
+
+
+
+
+$ Save macro
+
+
+
+
+
+K macro;save
+
+
+
+
+
++ Makr:020
+
+
+
+
+
+#  cm_RunMakro
+
+
+
+
+
+$ Run macro
+
+
+
+
+
+K macro;run
+
+
+
+
+
++ Makr:025
+
+
+
+
+
+# Makro_Details
+
+
+
+
+
+$ More about macros
+
+
+
+
+
+K macro
+
+
+
+
+
++ Makr:030
+
+
+
+
+
+$ Menu Miscelleaneous
+
+
+
+
+
+K menues
+
+
+
+
+
++ Menu:025
+
+
+
+
+
+#  cm_ShowGrowth
+
+
+
+
+
+$ Replay
+
+
+
+
+
+K replay;drawing
+
+
+
+
+
++ Vers:060
+
+
+
+
+
+#  cm_ConstrText
+
+
+
+
+
+$ Show construction text
+
+
+
+
+
+K replay;construction text
+
+
+
+
+
++ Vers:070
+
+
+
+
+
+#  cm_Comment
+
+
+
+
+
+$ Insert textbox
+
+
+
+
+
+K textbox;construction text
+
+
+
+
+
++ Vers:080
+
+
+
+
+
+#  cm_ConfigMenues
+
+
+
+
+
+$ Select menu configuration
+
+
+
+
+
+K options;menu configuration
+
+
+
+
+
++ Einst:003
+
+
+
+
+
+# opt_newcfg
+
+
+
+
+
+$ Create private menu configurations
+
+
+
+
+
+K options;menu configuration
+
+
+
+
+
++ Einst:070
+
+
+
+
+
+#  cm_Options
+
+
+
+
+
+$ Object display
+
+
+
+
+
+K options;objects
+
+
+
+
+
++ Einst:005
+
+
+
+
+
+# opt_konfdat
+
+
+
+
+
+$ Options data menu
+
+
+
+
+
+K options;configuration file
+
+
+
+
+
++ Einst:150
+
+
+
+
+
+# opt_start
+
+
+
+
+
+$ Start up options
+
+
+
+
+
+K options;start up
+
+
+
+
+
++ Einst:020
+
+
+
+
+
+# opt_darst
+
+
+
+
+
++ Einst:030
+
+
+
+
+
+$ Presentation options
+
+
+
+
+
+K options
+
+
+
+
+
+# opt_meas
+
+
+
+
+
++ Einst:040
+
+
+
+
+
+$ Measurement options
+
+
+
+
+
+K options;measure;length;distance;angle;angle width
+
+
+
+
+
+# opt_intern
+
+
+
+
+
++ Einst:050
+
+
+
+
+
+$ Internal options
+
+
+
+
+
+K options
+
+
+
+
+
+# opt_kons
+
+
+
+
+
+$ Construction text options
+
+
+
+
+
++ Einst:080
+
+
+
+
+
+K options
+
+
+
+
+
+# opt_export
+
+
+
+
+
+$ Export options
+
+
+
+
+
+K options;printer;print;export;clipboard
+
+
+
+
+
++ Einst:090
+
+
+
+
+
++ Menu:030
+
+
+
+
+
+# Internals
+
+
+
+
+
+$ Internal details
+
+
+
+
+
++ Sonst:005
+
+
+
+
+
+#  cm_StartUp
+
+
+
+
+
+$ Start procedur
+
+
+
+
+
+K basics;installation
+
+
+
+
+
++ Int:005
+
+
+
+
+
+# StartParams
+
+
+
+
+
+$ Start parameters
+
+
+
+
+
+K basics;installation;start parameters
+
+
+
+
+
++ Int:007
+
+
+
+
+
+# NetHints
+
+
+
+
+
+$ Hints about installation in networks
+
+
+
+
+
+K basics;installation
+
+
+
+
+
++ Int:010
+
+
+
+
+
+# CoordSystem
+
+
+
+
+
+$ Coordinate system basics
+
+
+
+
+
+K basics;coordinates
+
+
+
+
+
++ Int:012
+
+
+
+
+
+# Relativities
+
+
+
+
+
+$ Relationships between EUKLID DynaGeo-objects
+
+
+
+
+
+K relationship
+
+
+
+
+
++ Int:015
+
+
+
+
+
+# Problems
+
+
+
+
+
+$ Problems and limits
+
+
+
+
+
+K basics
+
+
+
+
+
++ Int:020
+
+
+
+
+
+# Prob2
+
+
+
+
+
++ Prob:010
+
+
+
+
+
+# Prob4
+
+
+
+
+
++ Prob:020
+
+
+
+
+
+# Prob5
+
+
+
+
+
++ Prob:025
+
+
+
+
+
+# Prob6
+
+
+
+
+
++ Prob:030
+
+
+
+
+
+#  cm_Licence
+
+
+
+
+
+$ License conditions
+
+
+
+
+
+K license conditions
+
+
+
+
+
++ Sonst:010
+
+
+
+
+
+$ Update
+
+
+
+
+
+K license conditions;update
+
+
+
+
+
++ Sonst:012
+
+
+
+
+
+# Update
+
+
+
+
+
+#  cm_Register
+
+
+
+
+
+$ Registriation
+
+
+
+
+
+K license conditions
+
+
+
+
+
++ Sonst:015
+
+
+
+
+
+#  cm_Problem
+
+
+
+
+
+$ Help with problems
+
+
+
+
+
+K problems
+
+
+
+
+
++ Sonst:020
+
+
+
+
+
+# Verziehen
+
+
+
+
+
+# Basisobjekt
+
+
+
+
+
+# Auswahlrahmen
+
+
+
+
+
+# Term
+
+
+
+
+
+# opt_menu
+
+
+
+
+
+# AutoRepeat
+
+
+
+
+
+
+
+
+
+
+
+
+
+# cm_HelpIndex
+
+
+
+
+
+# cm_HelpBasics
+
+
+
+
+
+# cm_HelpScreen
+
+
+
+
+
+# cm_HelpKeyMouse
+
+
+
+
+
+# cm_File
+
+
+
+
+
+# cm_Work
+
+
+
+
+
+# cm_Makro
+
+
+
+
+
+# cm_Misc
+
+
+
+
+
+# cm_Help
+
+
+
+
+
+

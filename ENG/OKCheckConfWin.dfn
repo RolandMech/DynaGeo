@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\OKCheckConfWin.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\OKCheckConfWin.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715972222</prop>
+        <prop prop-type="OrigDateTime">40630.4466898148</prop>
+        <prop prop-type="XlatDateTime">39159.8639351852</prop>
+        <prop prop-type="Translated">16</prop>
+        <prop prop-type="UnTranslated">122</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:ConfigOKCheckDlg.Left" resname="O:ConfigOKCheckDlg.Left">
+        <source>624</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TConfigOKCheckDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.Top" resname="O:ConfigOKCheckDlg.Top">
+        <source>155</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TConfigOKCheckDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.BorderStyle" resname="O:ConfigOKCheckDlg.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TConfigOKCheckDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.Caption" resname="O:ConfigOKCheckDlg.Caption">
+        <source>'Korrektheits-Prüfung konfigurieren'</source>
+        <target>'Configure the correctness check :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TConfigOKCheckDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.ClientHeight" resname="O:ConfigOKCheckDlg.ClientHeight">
+        <source>379</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TConfigOKCheckDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.ClientWidth" resname="O:ConfigOKCheckDlg.ClientWidth">
+        <source>527</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TConfigOKCheckDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.Color" resname="O:ConfigOKCheckDlg.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TConfigOKCheckDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.ParentFont" resname="O:ConfigOKCheckDlg.ParentFont">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TConfigOKCheckDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.OldCreateOrder" resname="O:ConfigOKCheckDlg.OldCreateOrder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TConfigOKCheckDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.Position" resname="O:ConfigOKCheckDlg.Position">
+        <source>poOwnerFormCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TConfigOKCheckDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.OnShow" resname="O:ConfigOKCheckDlg.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TConfigOKCheckDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.PixelsPerInch" resname="O:ConfigOKCheckDlg.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TConfigOKCheckDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.TextHeight" resname="O:ConfigOKCheckDlg.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TConfigOKCheckDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Bevel1.Left" resname="O:ConfigOKCheckDlg.O:Bevel1.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Bevel1.Top" resname="O:ConfigOKCheckDlg.O:Bevel1.Top">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Bevel1.Width" resname="O:ConfigOKCheckDlg.O:Bevel1.Width">
+        <source>497</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Bevel1.Height" resname="O:ConfigOKCheckDlg.O:Bevel1.Height">
+        <source>313</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Bevel1.Shape" resname="O:ConfigOKCheckDlg.O:Bevel1.Shape">
+        <source>bsFrame</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label1.Left" resname="O:ConfigOKCheckDlg.O:Label1.Left">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label1.Top" resname="O:ConfigOKCheckDlg.O:Label1.Top">
+        <source>28</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label1.Width" resname="O:ConfigOKCheckDlg.O:Label1.Width">
+        <source>241</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label1.Height" resname="O:ConfigOKCheckDlg.O:Label1.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label1.AutoSize" resname="O:ConfigOKCheckDlg.O:Label1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label1.Caption" resname="O:ConfigOKCheckDlg.O:Label1.Caption">
+        <source>'Korrektheits-Bedingung : '</source>
+        <target>'Condition of correctness : '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label1.Font.Charset" resname="O:ConfigOKCheckDlg.O:Label1.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label1.Font.Color" resname="O:ConfigOKCheckDlg.O:Label1.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label1.Font.Height" resname="O:ConfigOKCheckDlg.O:Label1.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label1.Font.Name" resname="O:ConfigOKCheckDlg.O:Label1.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label1.Font.Style" resname="O:ConfigOKCheckDlg.O:Label1.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label1.ParentFont" resname="O:ConfigOKCheckDlg.O:Label1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label2.Left" resname="O:ConfigOKCheckDlg.O:Label2.Left">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label2.Top" resname="O:ConfigOKCheckDlg.O:Label2.Top">
+        <source>84</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label2.Width" resname="O:ConfigOKCheckDlg.O:Label2.Width">
+        <source>97</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label2.Height" resname="O:ConfigOKCheckDlg.O:Label2.Height">
+        <source>57</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label2.AutoSize" resname="O:ConfigOKCheckDlg.O:Label2.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label2.Caption" resname="O:ConfigOKCheckDlg.O:Label2.Caption">
+        <source>'Typen der darin verwendeten Variablen : '</source>
+        <target>'Types of the variables used : '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label2.WordWrap" resname="O:ConfigOKCheckDlg.O:Label2.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label3.Left" resname="O:ConfigOKCheckDlg.O:Label3.Left">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label3.Top" resname="O:ConfigOKCheckDlg.O:Label3.Top">
+        <source>228</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label3.Width" resname="O:ConfigOKCheckDlg.O:Label3.Width">
+        <source>225</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label3.Height" resname="O:ConfigOKCheckDlg.O:Label3.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label3.AutoSize" resname="O:ConfigOKCheckDlg.O:Label3.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label3.Caption" resname="O:ConfigOKCheckDlg.O:Label3.Caption">
+        <source>'Links zur nächsten Zeichnung : '</source>
+        <target>'Links to the next drawing : '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label3.Font.Charset" resname="O:ConfigOKCheckDlg.O:Label3.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label3.Font.Color" resname="O:ConfigOKCheckDlg.O:Label3.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label3.Font.Height" resname="O:ConfigOKCheckDlg.O:Label3.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label3.Font.Name" resname="O:ConfigOKCheckDlg.O:Label3.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label3.Font.Style" resname="O:ConfigOKCheckDlg.O:Label3.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label3.ParentFont" resname="O:ConfigOKCheckDlg.O:Label3.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label4.Left" resname="O:ConfigOKCheckDlg.O:Label4.Left">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label4.Top" resname="O:ConfigOKCheckDlg.O:Label4.Top">
+        <source>252</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label4.Width" resname="O:ConfigOKCheckDlg.O:Label4.Width">
+        <source>89</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label4.Height" resname="O:ConfigOKCheckDlg.O:Label4.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label4.AutoSize" resname="O:ConfigOKCheckDlg.O:Label4.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label4.Caption" resname="O:ConfigOKCheckDlg.O:Label4.Caption">
+        <source>'Bei Erfolg :'</source>
+        <target>'After success :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label5.Left" resname="O:ConfigOKCheckDlg.O:Label5.Left">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label5.Top" resname="O:ConfigOKCheckDlg.O:Label5.Top">
+        <source>284</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label5.Width" resname="O:ConfigOKCheckDlg.O:Label5.Width">
+        <source>89</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label5.Height" resname="O:ConfigOKCheckDlg.O:Label5.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label5.AutoSize" resname="O:ConfigOKCheckDlg.O:Label5.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label5.Caption" resname="O:ConfigOKCheckDlg.O:Label5.Caption">
+        <source>'Bei Fehlschlag : '</source>
+        <target>'After failure :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label6.Left" resname="O:ConfigOKCheckDlg.O:Label6.Left">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label6.Top" resname="O:ConfigOKCheckDlg.O:Label6.Top">
+        <source>164</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label6.Width" resname="O:ConfigOKCheckDlg.O:Label6.Width">
+        <source>137</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label6.Height" resname="O:ConfigOKCheckDlg.O:Label6.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label6.AutoSize" resname="O:ConfigOKCheckDlg.O:Label6.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Label6.Caption" resname="O:ConfigOKCheckDlg.O:Label6.Caption">
+        <source>'Hinweis-Text :'</source>
+        <target>'Hint text :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:OKBtn.Left" resname="O:ConfigOKCheckDlg.O:OKBtn.Left">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:OKBtn.Top" resname="O:ConfigOKCheckDlg.O:OKBtn.Top">
+        <source>340</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:OKBtn.Width" resname="O:ConfigOKCheckDlg.O:OKBtn.Width">
+        <source>105</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:OKBtn.Height" resname="O:ConfigOKCheckDlg.O:OKBtn.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:OKBtn.Caption" resname="O:ConfigOKCheckDlg.O:OKBtn.Caption">
+        <source>'OK'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:OKBtn.Default" resname="O:ConfigOKCheckDlg.O:OKBtn.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:OKBtn.Font.Charset" resname="O:ConfigOKCheckDlg.O:OKBtn.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:OKBtn.Font.Color" resname="O:ConfigOKCheckDlg.O:OKBtn.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:OKBtn.Font.Height" resname="O:ConfigOKCheckDlg.O:OKBtn.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:OKBtn.Font.Name" resname="O:ConfigOKCheckDlg.O:OKBtn.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:OKBtn.Font.Style" resname="O:ConfigOKCheckDlg.O:OKBtn.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:OKBtn.ParentFont" resname="O:ConfigOKCheckDlg.O:OKBtn.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:OKBtn.TabOrder" resname="O:ConfigOKCheckDlg.O:OKBtn.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:OKBtn.OnClick" resname="O:ConfigOKCheckDlg.O:OKBtn.OnClick">
+        <source>OKBtnClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:CancelBtn.Left" resname="O:ConfigOKCheckDlg.O:CancelBtn.Left">
+        <source>262</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:CancelBtn.Top" resname="O:ConfigOKCheckDlg.O:CancelBtn.Top">
+        <source>340</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:CancelBtn.Width" resname="O:ConfigOKCheckDlg.O:CancelBtn.Width">
+        <source>107</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:CancelBtn.Height" resname="O:ConfigOKCheckDlg.O:CancelBtn.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:CancelBtn.Cancel" resname="O:ConfigOKCheckDlg.O:CancelBtn.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:CancelBtn.Caption" resname="O:ConfigOKCheckDlg.O:CancelBtn.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Cancel'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:CancelBtn.Font.Charset" resname="O:ConfigOKCheckDlg.O:CancelBtn.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:CancelBtn.Font.Color" resname="O:ConfigOKCheckDlg.O:CancelBtn.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:CancelBtn.Font.Height" resname="O:ConfigOKCheckDlg.O:CancelBtn.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:CancelBtn.Font.Name" resname="O:ConfigOKCheckDlg.O:CancelBtn.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:CancelBtn.Font.Style" resname="O:ConfigOKCheckDlg.O:CancelBtn.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:CancelBtn.ModalResult" resname="O:ConfigOKCheckDlg.O:CancelBtn.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:CancelBtn.ParentFont" resname="O:ConfigOKCheckDlg.O:CancelBtn.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:CancelBtn.TabOrder" resname="O:ConfigOKCheckDlg.O:CancelBtn.TabOrder">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.Left" resname="O:ConfigOKCheckDlg.O:VLEditor.Left">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.Top" resname="O:ConfigOKCheckDlg.O:VLEditor.Top">
+        <source>84</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.Width" resname="O:ConfigOKCheckDlg.O:VLEditor.Width">
+        <source>225</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.Height" resname="O:ConfigOKCheckDlg.O:VLEditor.Height">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.KeyOptions" resname="O:ConfigOKCheckDlg.O:VLEditor.KeyOptions">
+        <source>[keyUnique]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.Strings.Strings[0]" resname="O:ConfigOKCheckDlg.O:VLEditor.Strings.Strings[0]">
+        <source>'@1=Punkt'</source>
+        <target>'@1=point'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.Strings.Strings[1]" resname="O:ConfigOKCheckDlg.O:VLEditor.Strings.Strings[1]">
+        <source>'@2=Strecke'</source>
+        <target>'@2=segment'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.Strings.Strings[2]" resname="O:ConfigOKCheckDlg.O:VLEditor.Strings.Strings[2]">
+        <source>'@3=Gerade'</source>
+        <target>'@3=line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.Strings.Strings[3]" resname="O:ConfigOKCheckDlg.O:VLEditor.Strings.Strings[3]">
+        <source>'@4=Kreis'</source>
+        <target>'@4=circle'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.Strings.Strings[4]" resname="O:ConfigOKCheckDlg.O:VLEditor.Strings.Strings[4]">
+        <source>'@5=Kegelschnitt'</source>
+        <target>'@5=conic'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.TabOrder" resname="O:ConfigOKCheckDlg.O:VLEditor.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.TitleCaptions.Strings[0]" resname="O:ConfigOKCheckDlg.O:VLEditor.TitleCaptions.Strings[0]">
+        <source>'Variable'</source>
+        <target>'variable'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.TitleCaptions.Strings[1]" resname="O:ConfigOKCheckDlg.O:VLEditor.TitleCaptions.Strings[1]">
+        <source>'Typ'</source>
+        <target>'type'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">1</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.ColWidths[0]" resname="O:ConfigOKCheckDlg.O:VLEditor.ColWidths[0]">
+        <source>55</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:VLEditor.ColWidths[1]" resname="O:ConfigOKCheckDlg.O:VLEditor.ColWidths[1]">
+        <source>147</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TValueListEditor</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_LinkSuccess.Left" resname="O:ConfigOKCheckDlg.O:Ed_LinkSuccess.Left">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_LinkSuccess.Top" resname="O:ConfigOKCheckDlg.O:Ed_LinkSuccess.Top">
+        <source>252</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_LinkSuccess.Width" resname="O:ConfigOKCheckDlg.O:Ed_LinkSuccess.Width">
+        <source>345</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_LinkSuccess.Height" resname="O:ConfigOKCheckDlg.O:Ed_LinkSuccess.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_LinkSuccess.TabOrder" resname="O:ConfigOKCheckDlg.O:Ed_LinkSuccess.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_LinkFail.Left" resname="O:ConfigOKCheckDlg.O:Ed_LinkFail.Left">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_LinkFail.Top" resname="O:ConfigOKCheckDlg.O:Ed_LinkFail.Top">
+        <source>284</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_LinkFail.Width" resname="O:ConfigOKCheckDlg.O:Ed_LinkFail.Width">
+        <source>345</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_LinkFail.Height" resname="O:ConfigOKCheckDlg.O:Ed_LinkFail.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_LinkFail.TabOrder" resname="O:ConfigOKCheckDlg.O:Ed_LinkFail.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Hint.Left" resname="O:ConfigOKCheckDlg.O:Ed_Hint.Left">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Hint.Top" resname="O:ConfigOKCheckDlg.O:Ed_Hint.Top">
+        <source>180</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Hint.Width" resname="O:ConfigOKCheckDlg.O:Ed_Hint.Width">
+        <source>449</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Hint.Height" resname="O:ConfigOKCheckDlg.O:Ed_Hint.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Hint.TabOrder" resname="O:ConfigOKCheckDlg.O:Ed_Hint.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Term.Left" resname="O:ConfigOKCheckDlg.O:Ed_Term.Left">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Term.Top" resname="O:ConfigOKCheckDlg.O:Ed_Term.Top">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Term.Width" resname="O:ConfigOKCheckDlg.O:Ed_Term.Width">
+        <source>449</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Term.Height" resname="O:ConfigOKCheckDlg.O:Ed_Term.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Term.Cursor" resname="O:ConfigOKCheckDlg.O:Ed_Term.Cursor">
+        <source>crDefault</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460610069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Term.ParentColor" resname="O:ConfigOKCheckDlg.O:Ed_Term.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460610069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Term.TabOrder" resname="O:ConfigOKCheckDlg.O:Ed_Term.TabOrder">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.737487338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Term.DefaultFont.Charset" resname="O:ConfigOKCheckDlg.O:Ed_Term.DefaultFont.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460610069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Term.DefaultFont.Color" resname="O:ConfigOKCheckDlg.O:Ed_Term.DefaultFont.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460610069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Term.DefaultFont.Height" resname="O:ConfigOKCheckDlg.O:Ed_Term.DefaultFont.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460610069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Term.DefaultFont.Name" resname="O:ConfigOKCheckDlg.O:Ed_Term.DefaultFont.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460610069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Term.DefaultFont.Style" resname="O:ConfigOKCheckDlg.O:Ed_Term.DefaultFont.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460610069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:ConfigOKCheckDlg.O:Ed_Term.OnExit" resname="O:ConfigOKCheckDlg.O:Ed_Term.OnExit">
+        <source>Ed_TermExit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40701.7159828819</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

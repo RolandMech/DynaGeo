@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>The problem of the intersection</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Schnitt">
+        <PARAM NAME="Keyword" VALUE="Schnittpunkt">
+</OBJECT>
+
+<A NAME="idh_intersect"></A>
+
+<H2>The problem of the intersection</H2>
+<HR>
+
+<h3><font color="#0000FF"><i>Elementary intersection tasks</i></font></h3>
+
+<P>One of the fundamental tasks in geometry is to calculate the common points of two geometric objects. In most cases, these objects are lines. If you keep to the classical tools of geometry (circle and ruler), you have to solve the following 3 standard tasks: </P>
+<ol style="1" start="1">
+<li>Intersect two straight lines</li>
+<li>Intersect a straight line and a circle</li>
+<li>Intersect two circles</li>
+</ol>
+
+<p>The first task seems to be easy: if the two straight lines are not parallel then there is exactly one point of intersection. If the lines are parallel and do not coincide, then there is no common point in the Euklidian plane. Sometimes someone may talk about an "intersection point at inifinity", but looking at the rather limited drawing area of the DynaGeo window, we can leave this problem to the projective geometry. But if the two straight lines coincide then every point on one line also lies on the other. In this case the set of common points is the whole straight line (and it does not matter which of the two we take). </p>
+
+<p>This is a situation that cannot easily be handled by a geometry program: in most cases, the set of intersection points contains exactly one point, but sometimes the set is empty, and in other rare cases, it contains an infinite number of points! Such an extent of polymorphism is difficult to manage. So DynaGeo suppresses the last case of an infinite number of intersection points: the program expects that an intersection of two lines contains only a finite number of isolated points. So the task of intersecting a straight line with itself is considered unsolvable. DynaGeo always tries to calculate the (unique) point of intersection of two straight lines, and when this is done successfully, this intersection point is displayed. If the computation fails, "the" intersection point becomes invalid and is no longer displayed on the screen. </p>
+
+<p>The second task needs a bit more efforts: a straight line and a circle may have none, one or two intersection points. To be prepared for all possible cases, we must provide two points of intersection.If there is only one common point, only one of the intersection points will be used, while the other is switched to "invalid". During subsequent dragging operations, the number of intersections may vary. Thus the intersection points have to be updated constantly.</p>
+
+<p>The third task does not add new difficulties: two circles may have none, one or two points in common - just like a straight line and a circle. So this case can be managed too by providing two points of intersection.</p>
+<br>
+
+<h3><font color="#0000FF"><i>Further intersection tasks</i></font></h3>
+
+<p>As with every DGS, DynaGeo can create much more "lines" than circles and straight lines. E.g., you can construct a logarithmic spiral (as a special locus line), or the graph of the tan-function. And who could stop you trying to intersect the logarithmic spiral with the graph of the tan-function? Even if you managed to ask DynaGeo this question, but the program will not deliver an answer!</p>
+
+<p>Actually, DynaGeo will not even admit the question: there is only a rather small set of possible object classes that are suitable as parameters of the <i>"intersect"</i> command. Beneath straight lines and circles you can use all parts of straight lines and circles (e.g. segments and arcs). Moreover, only conics are admitted. Why is DynaGeo so restrictive? The answer lies in the algebra that is working behind the drawing. Every intersection task leads to an equation, the solutions of which deliver the intersection points. At the time being, DynaGeo can only solve rational equations of up to 4th order. This is sufficient to solve all intersection problems between straight lines, circles and conics. </p>
+
+<p>However, the previously mentioned problem of intersecting the logarithmic spiral with the tan-function leads to a transcendental equation that even a professional CAS has some difficulties to solve: there is an infinite number of isolated intersection points, and they are not very regulary distributed in the plane... </p>
+
+<p>The actually "hardest" task DynaGeo is able to solve is the intersection of two conics. There can be up to four intersection points, so a quadruple of intersection points must be provided. If there are only less than four intersection points, the unused points are declared "invalid". Do you have an idea what tricky problem is comming up here?</p>
+
+<p>The real difficulty with managing these sets of intersection points arises when after a dragging action the intersection points are to be updated. If e.g. you intersect an ellipse with a circle, and you solved the corresponding equation of 4th order, how can you now find out which of the solutions of the equation corresponds to which intersection point? Unfortunately, during dragging, the assignement of the solutions to the intersection points may change!</p>
+<br>
+
+<h3><font color="#0000FF"><i>The assignment problem</i></font></h3>
+
+<p>This problem appears already when you intersect a circle with a straight line. There you have to assign the two solutions of a quadratic equation to the two possible intersection points. For the coefficients of the equation depend on the data of the circle and the line which are changing constantly while you drag your drawing, there is no hope that the solving algorithm itself could deliver a reliable assignment. Experiments prove that this sceptical view is well-founded. </p>
+
+<p>But in case of intersecting a circle with a straight line, you can put the two intersection points into a stable order by assigning a <b>direction</b> to the straight line! Because the two intersection points lie on the line too, you can always decide which of the two points lies "before" the other one on this oriented line. So after a dragging action you can order the two points on this line in the same way they were ordered before.</p>
+
+<p>In case of intersecting two circles, you can use a similiar method to put the two points in a stable order: just use the vector from the first circle's midpoint to the midpoint of the second one as a reference. Then it is always possible to order the two intersection points in a way that the vector pointing from the first to the second intersection point runs in the same direction as the image of the reference vector rotated by 90° counterclockwise. So here a stable order of the two points is achieved too. </p>
+
+<p>Unfortunately, this method is not easily expandable to the case of four intersection points when you intersect two conics. It's a matter of fact that up till now, no one has found a convincing solution to this problem.</p>
+
+<p>On the other hand, there is an interesting solution that uses the logic of the continous drag strategy: if you drag your drawing then you expect that normally small displacements of the dragged object result in small displacements of all the dragged objects. With this in mind, you can calculate the new positions of all intersection points and then choose just this assignment for which the sum of the absolute lengths of all displacements becomes a minimum. As always, the details are a bit more complicated, especially with regard to those intersection points that change their validity while you drag the drawing. But since version 3.0, DynaGeo uses such an algorithm to try to get a stable order in case of quadruble intersection points too. </p>
+<br>
+
+<h3><font color="#0000FF"><i>What can you achieve?</i></font></h3>
+
+<p>When you take a further look at the example of intersecting an ellipse with a circle, and you test your drawing with many dragging actions, then you may learn that sometimes the intersection points will change their roles without any obvious reason. This happens especially when the number of valid intersection points changes during the dragging action. Suppose an intersection becomes invalid because at its position the curves don't meet anymore. But later, somewhere else the curves run into one another, and a new intersection point arises. If the place of disappearance is far enough away from the place of reappearance, then the data of the old spot cannot help very much in finding the "best assignment" - and DynaGeo is forced to guess!</p>
+
+<p>I am not sure if in the near future there will be any progress with the management of the quadruple intersection points at all. So at least the "new born intersection points" will stick to their sometimes surprising behaviour. But if the number of intersection points is constant during your dragging, DynaGeo tries to move even the quadruple intersection points just in the way the user expects it. </p>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

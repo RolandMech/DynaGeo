@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Probleme beim Export</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+
+<A NAME="idh_prob_export"></A>
+
+<H2>Probleme beim Export von Zeichnungen</H2>
+<HR>
+
+<P><B>a) Clipping-Probleme:</B></P>
+
+<P>Wenn Sie eine Zeichnung ganz oder teilweise in die Zwischenablage exportiert und von dort in ein anderes Programm, z.B. WinWORD, importiert haben, dann konnte es in fr&uuml;heren Versionen von EUKLID DynaGeo passieren, dass zwar auf dem Bildschirm und eventuell auch in der Druckbildvorschau alles wunschgem&auml;&szlig; aussah, dass aber im Ausdruck die Geraden &uuml;ber den Rand des Bildbereiches hinaus <B>quer durch den benachbarten Text</B> weiterliefen. Ein &auml;hnliches Problem konnte auftreten, wenn die Zeichnung ein Koordinatensystem enthielt, welches sich dann ebenfalls im Ausdruck au&szlig;erhalb des Bildbereichs in den benachbarten Text hinein fortsetzte.</P>
+
+<P>F&uuml;r ein solches Fehlverhalten scheint der <B>Druckertreiber</B> verantwortlich zu sein, der bei der Interpretation von MetaFile-Daten kein korrektes Clipping durchf&uuml;hrt. In den meisten F&auml;llen l&auml;sst sich das Problem jedoch dadurch l&ouml;sen, dass Sie der Zeichnung im aufnehmenden Programm einen zus&auml;tzlichen Rahmen verpassen, welcher explizit Clipping erzwingt. In WinWORD z.B. gen&uuml;gt es auf vielen Systemen, die importierte Zeichnung mit einem <B>Positionsrahmen</B> zu umgeben. Dieser vereinfacht auch &Auml;nderungen im Layout des Dokuments. (Allerdings sind manche Leute allergisch gegen WinWord-Positionsrahmen, was ich inzwischen zum Teil verstehen kann...)</P>
+<br>
+
+<P><B>b) Skalierungs-Probleme:</B></P>
+
+<P>In manchen (alten) Textverarbeitungen erscheint eine aus der Zwischenablage importierte Zeichnung nicht in der Originalgr&ouml;&szlig;e, schlimmer noch: die importierte Zeichnung beh&auml;lt noch nicht einmal das Seitenverh&auml;ltnis der Originalzeichnung bei. Sie k&ouml;nnen die Zeichnung zwar ohne Probleme <B>nachtr&auml;glich skalieren</B>, indem Sie sie markieren und dann ihre R&auml;nder in die richtige Lage ziehen; im Allgemeinen m&uuml;ssen Sie aber dabei das korrekte Seitenverh&auml;ltnis erraten, was nat&uuml;rlich l&auml;stig ist.</P>
+
+<p>DynaGeo bietet Ihnen die M&ouml;glichkeit, Ihre Zeichnung vor dem Export &uuml;ber die Zwischenablage entsprechend vorzuverzerren. Die entsprechenden Steuer-Parameter finden Sie im Fenster "Verschiedenes | Einstellungen..." auf der Register-Seite <a href="optexport.htm">"Export"</a>. Damit Sie auf diesem Weg Ihr Ziel erreichen, sind jedoch exakte Vorversuche zur Ermittlung der passenden Parameterwerte ("SFx" und "SFy/SFx") n&ouml;tig.</p>
+<br>
+
+<P><B>c) Qualit&auml;ts-Verluste:</B></P>
+
+<P>Wenn Sie eine DynaGeo-Zeichnung als Grafik in eine Datei exportiert haben, diese Grafik dann in WORD importieren und das Dokument dann ausdrucken, dann kann es sein, dass der Ausdruck eine h&auml;&szlig;liche "Kl&ouml;tzchengrafik" niederer Aufl&ouml;sung zeigt. Dies passiert, wenn Sie die Grafik in einem Pixel-Format abgespeichert haben.</P>
+
+<P>Sie k&ouml;nnen dies vermeiden, wenn Sie die Grafik in einem Vektor-Format abspeichern, vorzugsweise im <b>EMF-Format</b>. Dann kann die Grafik beim Drucken mit der vollen Aufl&ouml;sung des Druckers ausgegeben werden. Auch beim Export einer Grafik von DynaGeo &uuml;ber die Zwischenablage ist das EMF-Format verf&uuml;gbar. Sollte Ihr WORD die Grafik nicht automatisch in diesem Format aus der Zwischenablage einf&uuml;gen, dann benutzen Sie bitte den Befehl "Bearbeiten | Inhalte einf&uuml;gen", der Ihnen die Auswahl des zu importierenden Formats erlaubt.</P>
+
+<p>Wenn Sie Ihre Zeichnung aus dringenden Gr&uuml;nden doch in einem Pixel-Format exportieren wollen, dann k&ouml;nnen Sie inzwischen die <b>Aufl&ouml;sung</b> der BMP-, PNG- oder JPG-Datei erh&ouml;hen. Die entsprechenden Steuer-Parameter finden Sie im Fenster "Verschiedenes | Einstellungen..." auf der Register-Seite <a href="optexport.htm">"Export"</a>. </p>
+<br>
+
+<P><B>d) Nachbearbeitung:</B></P>
+
+<P>In den meisten Textverarbeitungsprogrammen l&auml;sst sich eine importierte EUKLID DynaGeo - Zeichnung  <B>nicht nachbearbeiten</B>.  Z.B. beherrscht das Zeichenprogramm von WORD nur eine Teilmenge der Grafik-Befehle, die EUKLID DynaGeo nutzt. Daher k&ouml;nnen Sie eine solche Zeichnung in WORD nicht nachtr&auml;glich &uuml;berarbeiten.</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

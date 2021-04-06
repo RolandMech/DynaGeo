@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Start procedure</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="basics">
+        <PARAM NAME="Keyword" VALUE="installation">
+</OBJECT>
+
+<A NAME="idh_startproc"></A>
+
+<H2>Initialisations at program start</H2>
+<HR>
+
+<P>When you start EUKLID DynaGeo the <B>title window</B> appears. It shows the program's name and version, and the license details. While this window is shown, EUKLID DynaGeo checks its own executable file: if there have been made any changes to this file, it is assumed that the file is infected by a virus and the program is terminated with a corresponding message. If you get a <b>virus warning</b> from EUKLID DynaGeo, please <b>take it seriously</b>! In almost all cases, the diagnosis is correct and the system really is infected by a virus.</P>
+
+<p>If the executable file passes the test, the <b>configuration data</b> are read and applied. EUKLID DynaGeo reads these data from two files:<br>
+<ol start="1" type="1">
+<li><b>The common standard configuration data</b> are read from the file <i>DYNAGEO.INI</i> in the EUKLID DynaGeo directory. If there is no such file an attempt is made to create it. If this fails the program is terminated with an appropriate message. <i>DYNAGEO.INI</i> is necessary for a correct program start!<br>
+</li>
+<br>
+<li><b>The user-specific ("private") configuration data</b> are read from a file named <i>EDG_USER.INI</i>. On computers with a newer version of WINDOWS (2000, XP, Vista,...), it is placed in the directory <i>%appdata%\dynageo\</i>. In networks this directory usually is contained in the users profile or in his <i>%home%</i> directory.<br>
+</li>
+</ol>
+</p>
+<P>As long as you do not restrict the <a href="netopt.htm">network options</a>, the program will try to return to the same conditions as existed when it was last ended. This includes the options for the screen display of geometrical objects (point size, capture area, etc.), the menu configuration, the LRU list and the previously loaded
+macros.</P>
+<br>
+
+<P>After this procedure is finished successfully, the title window is closed, and the <B>EUKLID DynaGeo window</B> appears.</P>
+<br>
+<br>
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="startparams.htm">Starting DynaGeo with command line parameters</a></li>
+</ul>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

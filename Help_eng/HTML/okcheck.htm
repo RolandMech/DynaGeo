@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Basics about the correctness check</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="construction">
+        <PARAM NAME="Keyword" VALUE="proof">
+        <PARAM NAME="Keyword" VALUE="correctness">
+</OBJECT>
+
+<A NAME="idh_OkCheck"></A>
+
+<H2>Basics about the correctness check</H2>
+<HR>
+<br>
+In DynaGeo teachers can prepare worksheets with a built-in <b>correctness check</b>: after the student has constructed what he thinks to be a solution of the problem in this worksheet, DynaGeo can run an automated check and decide, if the students solution is right or wrong. DynaGeo uses the same method as a teacher does when he has to decide quickly, whether a student's construction is correct: he drags the drawing! If the solution is correct, every dragged version of the drawing will also be a solution to the problem. But in case of a wrong construction, this is not true. Now DynaGeo has learned to do this automatically.<br>
+<br>
+But while a teacher during dragging just looks at the screen and simply "sees" if the drawing is still correct, DynaGeo needs help to decide this tricky question. So it is the job of the teacher to provide a <b>condition of correctness</b>. This is a <a href="boolterm.htm">Boolean condition</a> that is true if and only if the construction is correct.<br>
+<br>
+A simple <b>example</b> may clarify the situation:<br>
+Suppose you are the teacher. You build a worksheet with a <b>triangle ABC</b> and leave your student with the problem to construct the <b>circumcentre</b> of this triangle. Then the student's construction solves the problem, if and only if the he constructs a point M that has the same distance from all 3 vertices of the triangle. So the condition of correctness may be: <br>
+
+<ul><font color="#0000FF">(d(A;M) = d(B;M)) and (d(B;M) = d(C;M))</font></ul>
+
+To avoid that the name of the circumcentre must be fixed before by the teacher, DynaGeo allows to refer the <b>target objects</b> in the condition of correctness by the dummy names "@1", "@2", "@3", ... "@9". So the condition of correctness may be written as:<br>
+
+<ul><font color="#0000FF">(d(A;@1) = d(B;@1)) and (d(B;@1) = d(C;@1))</font></ul>
+
+Before DynaGeo can run the check, it must be cleared which of the constructed objects of the drawing should play the role of "@1": so the command "<i>Check correctness of construction</i>" first demands to enter all target objects. The situation is similiar to the input of the start objects for any normal constrution command of DynaGeo! In our special example, we have only one target object, the constructed circumcentre. <br>
+<br>
+After all target objects are entered, the dragging process is internally calculated. When in all of the dragged configurations of the drawing the condition of correctness holds, there is a (very) high propability that the construction is correct. <br>
+
+<ul><font size="-1">The algorithm of such an correctness check was first published by Prof. Richter-Gebert und Prof. Kortenkamp who implemented it in their DGS "Cinderella". They called this function a "probabilistic proof". This name illustrates rather well the gap between the security of a (correct) proof and the insecurity of a propabilistic statement. But I think we'd better not merge these different logical categories. A proof of a proposition is a correct chain of logical arguments that starts with the preconditions and leads to the proposition. So it delivers the total security about the truth of this proposition. But the algorithm of the "probabilistic proof" can never deliver more than a high probability that the statement is correct, because only "some single configurations" of the drawing have been checked.  Prof. Kortenkamp indicates that the error propability is really very small. Nevertheless, I tend to avoid the word "proof" in this context. Let's better talk of a "check".</font></ul><br>
+
+
+Let's have a look at another version of the problem given above:<br>
+<br>
+For a given triangle ABC the student has to construct the <b>circumference</b>. In this case the problem is solved, if the student constructs a circle running through all of the 3 vertices of the triangle. Beware that now the target object is the circumference, not its centre! So we must provide another condition of correctness, e.g. this:<br>
+
+<ul><font color="#0000FF">incid(A;@1) and incid(B;@1) and incid(C;@1)</font></ul>
+
+Here the Boolean function "incid(P;s)" is used. This function is true, if and only if the point P lies on the line s. The condition of correctness is nearly the definition of "circumference", packed into an expression! <br>
+<br>
+There is no doubt that while producing such a worksheet the main work is to compose a condition of correctness that fits best to the problem of the worksheet. When this is done, you must decide for every target variable (@1, @2,...) of which type the corresponding object should be. This information is needed for DynaGeo to assure that it can evaluate the condition of correctness successfully.<br>
+<br>
+<br>
+<br>
+<b><i>See also:</i></b><br>
+<ul>
+<li><a href="termsyntax.htm">The syntax of terms</a></li>
+<li><a href="boolterm.htm">Boolean terms</a></li>
+</ul>
+</li>
+<br>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Als DynaGeoX-HTML-Seite speichern</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Datei">
+        <PARAM NAME="Keyword" VALUE="Zeichnung">
+        <PARAM NAME="Keyword" VALUE="Speichern">
+        <PARAM NAME="Keyword" VALUE="Exportieren">
+</OBJECT>
+
+<A NAME="idh_cm_savedgxhtml"></A>
+
+<H2>Als DynaGeoX-HTML-Seite speichern...</H2>
+<HR>
+
+<P>Dieser Befehl erm&ouml;glicht Ihnen den <B>Export einer Zeichnung in ein DynaGeoX-HTML-Dokument</B>. Wenn Sie dieses HTML-Dokument in den Internet Explorer laden, dann &uuml;bernimmt der <B>DynaGeoX-Viewer</B> die Darstellung Ihrer Konstruktion als dynamische Zeichnung. Interne Details zu diesem nicht ganz einfachen Vorgang finden Sie im Abschnitt <B>DynaGeoX: Export ins WWW</B>. </P>
+
+<P>Wenn Sie diesen Befehl anw&auml;hlen, wird ein Dialogfenster ge&ouml;ffnet, in dem Sie die Optionen f&uuml;r die neu zu erstellende HTML-Seite eingeben k&ouml;nnen:</P>
+
+<UL>
+        <LI><B>Zielpfad f&uuml;r die HTML-Datei: <BR>
+</B>Hier steht normalerweise der vollst&auml;ndige Dateipfad Ihrer aktuellen Zeichnung, jedoch mit der Datei-Kennung ”.html” statt ”.geo”. Sie k&ouml;nnen diesen Pfad aber auch beliebig ver&auml;ndern. Die Endung muss aber ".html" (oder ".htm") lauten.<br>
+Wenn Sie hier eine schon vorhandene HTML-Datei eintragen, dann wird EUKLID DynaGeo zun&auml;chst den Inhalt dieser Datei genau untersuchen. Wenn sie ein DynaGeoX-Objekt enth&auml;lt, das auf eine <u>andere</u> als Ihre aktuelle GEO-Datei zeigt, oder wenn die HTML-Datei gar <u>mehr</u> als ein DynaGeoX-Objekt enth&auml;lt, dann erscheint ein Fenster namens <i>"DynaGeoX-Objekt ausw&auml;hlen"</i>, in dem Sie entscheiden k&ouml;nnen (und m&uuml;ssen!), auf welche Art und Weise Ihre aktuelle Zeichnung in die HTML-Datei eingef&uuml;gt werden soll.<BR>
+<BR><BR></LI>
+
+        <LI><B>Pfad zum DynaGeoX-Viewer: <BR>
+</B>Dieser Pfad muss auf eine Datei zeigen, die den DynaGeoX-Viewer enth&auml;lt. Als Standard ist hier eine <b>URL zur DynaGeo-Website</b> eingetragen, unter der stets eine aktuelle Version von DynaGeoX zum Herunterladen bereit steht. &Auml;ndern Sie diesen Eintrag bitte nur, wenn Sie genau wissen, was Sie tun!<br>
+Falls Sie im Unterverzeichnis <I>Viewer</I> des DynaGeo-Verzeichnisses eine <b>lokale Kopie</b> der OCX-Datei des Viewers haben, k&ouml;nnen Sie mit Hilfe der Auswahlbox unter der Eingabezeile zwischen zwei Standardpfaden zum Viewer w&auml;hlen: der <u>lokale Pfad</u> hat den Vorzug, dass beim Aufruf des Viewers kein Internet-Zugriff n&ouml;tig ist; andererseits liefert Ihnen der <u>Internet-Pfad</u> zur DynaGeo-Website stets die aktuellste Version des Viewers. Falls <b>keine</b> lokale Kopie des Viewers im <i>Viewer</i>-Verzeichnis steht, ist die Auswahlbox deaktiviert.<BR>
+<BR><BR></LI>
+
+        <LI><B>Text oberhalb des DynaGeoX-Objekts: <BR>
+</B>Hier k&ouml;nnen Sie einen beliebigen Text eingeben. Harte Zeilenumbr&uuml;che (durch Dr&uuml;cken der <i>EINGABE</i>-Taste) werden automatisch in HTML-Breaks (”&lt;br&gt;”) umgesetzt. Au&szlig;erdem werden die deutschen Sonderzeichen in ihre entsprechenden HTML-Codes umgesetzt. Wenn Sie wollen, k&ouml;nnen Sie in diesem Text auch schon eigene HTML-Tags zur Formatierung des Textes verwenden; diese bleiben erhalten.<BR>
+<BR><BR></LI>
+
+        <LI><B>Viewer-Fenster: <BR>
+</B>Hier stellen Sie die Abmessungen des Viewer-Fensters im HTML-Ziel-Dokument ein. Generell sollten Sie das Viewer-Fenster nicht gr&ouml;&szlig;er w&auml;hlen als wirklich n&ouml;tig, damit Ihre HTML-Seite auch auf kleineren Bildschirmen noch ohne Probleme dargestellt werden kann. Breite und H&ouml;he des Viewer-Fensters werden in Pixeln gemessen. Beim jedem Aufruf des Befehls "Als DynaGeoX-HTML-Seite speichern" werden f&uuml;r diese Abmessungen Voreinstellungen gesetzt, und zwar nach folgenden Regeln:<BR>
+<br>
+<ul>
+<li>Wenn Sie im DynaGeo-Fenster einen <u>Auswahlrahmen</u> aufgezogen haben, dann werden stets dessen Daten zur Ermittlung der Viewer-Fenstergr&ouml;&szlig;e herangezogen.</li>
+<li>Wenn es keinen Auswahlrahmen gibt, aber die <u>Ziel-HTML-Datei schon vorhanden</u> ist, dann bem&uuml;ht sich DynaGeo, die darin gespeicherte Fenstergr&ouml;&szlig;e zu &uuml;bernehmen.</li>
+<li>Wird die Zieldatei hingegen neu erstellt, und ist das <u>DynaGeo-Fenster nicht maximiert</u>, dann wird die aktuelle Gr&ouml;&szlig;e des DynaGeo-Zeichenbereiches zur Festlegung der Viewer-Fenster-Gr&ouml;&szlig;e benutzt.</li>
+<li>Andernfalls wird ein 500 Pixel breites und 350 Pixel hohes Viewer-Fenster eingestellt.<br>
+<br></li>
+</ul>
+Es ist also sinnvoll, <u>vor</u> dem Aufruf des Befehls "Als DynaGeoX-HTML-Seite speichern" entweder einen Auswahlrahmen aufzuziehen oder das DynaGeo-Fenster so zu verkleinern, dass es genau den Ausschnitt Ihrer Zeichnung zeigt, der auch im Viewer-Fenster zu sehen sein soll. Dann m&uuml;ssen Sie die Eintr&auml;ge f&uuml;r die Gr&ouml;&szlig;e des Viewer-Fensters nicht mehr manuell &auml;ndern.<br>
+<BR><BR></LI>
+
+        <LI><B>Viewer-Befehle: <BR>
+</B>Ein Klick auf diesen Knopf &ouml;ffnet ein Fenster, in dem Sie in einer vorbereiteten Liste von Konstruktionsbefehlen diejenigen markieren k&ouml;nnen, die Sie im Viewer zur Verf&uuml;gung stellen wollen. Wird Ihre Zeichnung dann sp&auml;ter im Viewer ge&ouml;ffnet, dann wird am linken Rand des Viewer-Fensters eine senkrechte Werkzeugleiste erscheinen, welche f&uuml;r jeden von Ihnen hier gew&auml;hlten Befehl einen entsprechenden Knopf enth&auml;lt.<br>
+Wenn Sie <u>keine</u> Befehle ausgew&auml;hlt haben, wird diese Werkzeugleiste nicht erscheinen, und das gesamte Viewer-Fenster steht Ihrer Zeichnung zur Verf&uuml;gung. Wenn Sie <u>mehr</u> Befehle gew&auml;hlt haben als in das aktuelle Viewer-Fenster hinein passen, erhalten Sie beim Schlie&szlig;en des Befehls-Auswahl-Fensters eine entsprechende Warnung. <BR>
+<BR><BR></LI>
+
+        <LI><B>Name des Autors: <BR>
+</B>Was Sie hier eingeben, wird im "HEAD"-Abschnitt des erzeugten HTML-Dokuments in einem Meta-Tag als "Autor" eingetragen. Wenn Sie das Feld leer lassen, wird kein solcher Eintrag gemacht. Es ist aber guter Stil, bei zur Ver&ouml;ffentlichung gedachten Dokumenten stets einen Hinweis auf den Autor zu geben.<br></LI>
+</UL>
+<br>
+<P>Wenn Sie schlie&szlig;lich nach korrekter Eingabe aller Daten auf den Knopf <I>Speichern</I>  klicken, dann werden im Zielverzeichnis (d.h. in dem von Ihnen angegebenen Verzeichnis der HTML-Datei!) zwei Dateien geschrieben: </P>
+
+<OL>
+        <LI>die HTML-Datei, die eine vollst&auml;ndige HTML-Seite mit (mindestens) einer DynaGeoX-Objekt-Referenz enth&auml;lt;<BR><BR></LI>
+
+        <LI>die GEO-Datei, die Ihre Zeichnung enth&auml;lt.</LI>
+</OL>
+
+<p>Wenn die HTML-Datei schon existiert, wird EUKLID DynaGeo ihren Inhalt soweit wie irgend m&ouml;glich erhalten. Es werden dann lediglich das entsprechende &lt;object&gt;-Tag am Ende der Datei hinzugef&uuml;gt oder (sofern es schon vorhanden ist) aktualisiert. Nur wenn die Datei leer ist oder kein syntaktisch korrektes HTML-Dokument enth&auml;lt, wird EUKLID DynaGeo sie komplett neu schreiben.
+<br>
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<li><a href="saveas.htm">Datei | Speichern unter...</a></li>
+<li><a href="savedgjpage.htm">Datei | Als DynaGeoJ-HTML-Seite speichern...</a></li>
+<li><a href="dynworksheets.htm">Wie stelle ich dynamische Arbeitsbl&auml;tter her?</a></li>
+<li><a href="DGX_CMDS.HTM">Konstruktionsbefehle in DynaGeoX</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

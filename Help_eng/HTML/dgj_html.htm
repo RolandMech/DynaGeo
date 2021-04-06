@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Geometria</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Exportieren">
+        <PARAM NAME="Keyword" VALUE="Geometria">
+        <PARAM NAME="Keyword" VALUE="Speichern">
+</OBJECT>
+
+<A NAME="idh_dgj_include"></A>
+
+<H2>How to integrate DynaGeoJ in a HTML page</H2>
+<HR>
+
+<P>Normally, it will not be necessary that you yourself create the HTML code described in the following section. EUKLID DynaGeo will do this job when you choose the menu command <nobr><a href="savedgjpage.htm"><i>Save as DynaGeoJ HTML page...</i></a>.</nobr> But to benefit from this automatically produced code you need to understand it.</P>
+
+<P>Suppose you created a drawing with EUKLID DynaGeo and saved it in GEO format, e.g. to the file <i>D:\MyData\DynaGeo\GeoFiles\example.geo</i>. If now you want to embed this dynamic drawing in a HTML page, you have to insert the following "&lt;APPLET&gt;...&lt;/APPLET&gt;" declaration into the source text of this page: </P>
+
+<font color="#0000FF">
+<ul>
+<p>&lt;APPLET
+  <ul>code="applet.DynaGeoJ"<br>
+  archive="../dynageoj.jar"<br>
+  width=501<br>
+  height=330<br>
+  </ul>
+&gt;<BR>
+&lt;param name="geofile" value="example.geo"&gt;<BR>
+&lt;/APPLET&gt;</P>
+</ul>
+</font>
+
+<P>Some details about the parameters:</P>
+<UL >
+<LI>"code" contains an unique <B>identification</B> of the entry point in the DynaGeoJ-Applet.<br>
+<br>
+</LI>
+<LI>"archive" holds a path to the JAR file containing the DynaGeoJ applet: either you use a relative local path that leads from the HTML file to the JAR file (when both files are on the same server) - or a full <B>Internet address</B> where the DynaGeoJ-Viewer can be downloaded (e.g. "http://www.dynageo.de/download/dynageoj.jar").<br>
+<br></LI>
+
+<LI>"width" and "height" specify the <B>size</B> (in pixels) of the drawing's display window.<br>
+<br></LI>
+
+<LI>"param" holds the <B>name of the GEO file</B> containing your drawing:<BR>
+"name" must have the value "geofile" while "value" is set to the GEO file's name (without a path!). To enable the IE to find the GEO file it must be <b>in the same directory</b> as the HTML file itself!<br>
+<br>
+<br>
+</LI>
+</UL>
+
+<p>
+<b>Further hints:</b><br>
+<ul>
+<li>If you edit the HTML document later, you should take care to obey some <b>syntax rules</b>. It must be asured that DynaGeo can always recognize the complete &lt;Applet&gt; tag:<br>
+<br>
+<ul>
+<li><b>Upper case and lower case</b> are not important for tag names, but may be very important for <b>file names</b>: even if WINDOWS does not distinguish between upper and lower case in file names, there are many LINUX servers in the web that run <b>case-sensitive file systems</b>. So be careful if you want to place your HTML file in the web!<br>
+<br>
+</li>
+<li>Take care that the tags "&lt;APPLET..." and "&lt;/APPLET&gt;" always stand <b>alone in an own line</b> of the HTML text.<br>
+<br>
+</li>
+</ul>
+The best way is to leave the "&lt;APPLET&gt;" tags <b>untouched</b> and in the state they were created by DynaGeo!<br>
+<br>
+</li>
+<li>In a newly created DynaGeoJ HTML page, the file name of the HTML document and the file name of the drawing are the same and differ only in the extension. It is recommended to stick to this <b>strong synchronisation</b> and to be content with <b><u>one</u> DynaGeoJ applet per HTML page</b>. It is possible to show more than one GEO file in one HTML page by adding several &lt;Applet&gt; tags that point to different GEO files. But in some cases this may lead to trouble.<br>
+<br></li>
+<li>If you use a <b>full internet address</b> in the "archive" tag, you get a <b>freely movable</b> HTML document. If you use a <b>relative path</b> pointing to a <b>local JAR file</b>, this is no longer valid on another computer. Nevertheless, it is recommended to use a <u>relative path from the HTML document to a local copy of the JAR file</u> when publishing HTML pages on your own web server because in this case, your page will not depend on external ressources!</li>
+</ul>
+</P>
+<br>
+<br>
+
+</FONT>
+</BODY>
+</HTML>

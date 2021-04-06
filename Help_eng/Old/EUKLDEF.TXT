@@ -1,0 +1,21 @@
+.topic IDH_AUTOCHOOSE
+Wenn Sie im Editier-Modus an eine Stelle des Bildschirms klicken, an der sich mehrere Objekte befinden, bemüht sich EUKLID DynaGeo herauszufinden, welches der Objekte Sie nun wohl meinen. Dazu ist jeder der verschiedenen Objektarten eine charakteristische Priorität zugeordnet, und zwar gemäß der folgenden (nach abnehmender Priorität geordneten) Reihe:
+
+     Punkte / Strecken / Geraden / Kreise / Namen / Maßobjekte / Polygone.
+
+Kann EUKLID DynaGeo nach dieser Reihe zweifelsfrei entscheiden, welches Objekt gemeint ist, dann wird ohne weitere Nachfrage dieses Objekt bearbeitet. Steht der Auswahlcursor jedoch z.B. so, daß 2 verschiedene Strecken gemeint sein könnten, aber kein Punkt, dann fragt EUKLID DynaGeo mit einer Auswahlbox nach, welches Objekt Sie nun tatsächlich bearbeiten wollen.
+
+Beim Erzeugen und Löschen von Objekten ist die automatische Auswahl abgeschaltet, damit EUKLID DynaGeo nicht aufgrund eines Mißverständnisses ein verkehrtes Objekt erzeugt bzw. das verkehrte Objekt löscht.
+
+.topic IDH_BASISOBJEKT
+Ein Objekt, dessen Daten nicht von anderen Objekten abhängen, heißt Basisobjekt. Wenn Sie z.B. einen Punkt durch einen Mausklick erzeugen, dann ist dies ein Basispunkt: er erhält seine Koordinaten von der Maus. Wenn jedoch ein Punkt als Schnittpunkt zweier Geraden definiert ist, dann ist er kein Basispunkt: seine Koordinaten hängen von der Lage dieser beiden Geraden ab.
+
+Basisobjekte lassen sich jederzeit mit der Maus ziehen. EUKLID DynaGeo kennt folgende Basisobjekte:
+
+Basispunkte sind Punkte, deren Lage nicht von anderen Objekten abhängig ist, sondern mit der Maus festgelegt wird.
+
+Basisgeraden sind Geraden, deren Richtung bei ihrer Erzeugung festgelegt wird und später nicht mehr geändert werden kann. Solche Geraden können nur verschoben, nicht aber gedreht werden.
+
+Basiskreise sind Kreise, deren Radius bei Ihrer Erzeugung festgelegt wird und später nicht mehr verändert werden kann. Ihr Mittelpunkt ist als Objekt nicht verfügbar (weil der Kreis ja sonst von diesem Punkt abhängig wäre!) und wird daher auch nie angezeigt.
+
+

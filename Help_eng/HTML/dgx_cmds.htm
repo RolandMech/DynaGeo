@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Construct commands in DynaGeoX and DynaGeoJ</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Export">
+        <PARAM NAME="Keyword" VALUE="DynaGeoX">
+        <PARAM NAME="Keyword" VALUE="DynaGeoJ">
+        <PARAM NAME="Keyword" VALUE="HTML">
+        <PARAM NAME="Keyword" VALUE="ActiveX">
+</OBJECT>
+
+<A NAME="idh_dgxj_cmds"></A>
+
+<H2>Construct commands in DynaGeoX and DynaGeoJ</H2>
+<HR>
+
+<P>Beside purely displaying dynamic drawings the viewers DynaGeoX und DynaGeoJ permit the <b>construction of new objects</b> too. It's you who decides which construction commands will be available to the user of your html page. This is done during exporting the drawing: in the dialog "Save as DynaGeoX HTML page" or "Save as DynaGeoJ HTML page" just click the button "Viewer commands...". A dialog "Select Viewer commands" appears which presents a check list with the available construction commands. Just check the ones you want to be shown to your user. When later the HTML page will be dispayed in a browser, there will be a vertical <b>tool bar</b> at the left side of the viewer window holding a button for every command you selected. </P>
+
+<p>The number of commands you can select is limited to <b>at most 12</b>, and if you use a shareware version, there are no more than 3 commands available. If the number of selected commands has reached its maximum, the rest of the command list items are disabled and you cannot select any further commands. Only when you deselect one of the previously chosen commands, the remaining commands will be reactivated.</p>
+<br>
+
+<P>Additionally, the viewers provide some more commands in the <b>context menues</b>:
+<ul>
+<li>Clicking with the right mouse button on an empty spot of the drawing will evoke the <b>context menu of the drawing</b>. It holds commands to <b>enlarge</b> or <b>reduce</b> the drawing, <b>reset it</b> to the original state and <b>write the actual drawing to a file</b>. Additionally, a command to <b>delete</b> any of the objects is provided. <br>
+<br>
+<ul><font size="-1">But please be careful when deleting objects: the viewer cannot undo a delete action! This comfort is only provided in the original DynaGeo program itself.</font></ul>
+<br></li>
+<li>Clicking with the right mouse button on an object of the drawing will evoke the <b>context menu of this object</b>. The menu entries will depend on the type of the object. Usually, you can change the attributes of the object's representation in the drawing, like colour or line style. Furthermore, the context menu of a (free) point allows to snap the point to a line and to unsnap it from the line it is bound to.<br>
+<br>
+<ul><font size="-1">Although the context menu of an object holds an entry to <b>"Hide"</b> this object, you'd better be careful with this command: there is no easy way to recall a hidden object in the viewers, because you cannot open the context menu of a hidden object! In case of emergency you can use the command <b>"Show all hidden objects"</b> from the context menu <u>of the drawing</u> - but this will make visible <b>all</b> the hidden objects of the drawing!</font></ul><br>
+<br></li>
+</ul></p>
+
+<p>These construction commands considerably expand the didactical scope of the viewers. Nevertheless, the viewers are only meant to allow the students to <b>work</b> with geometrical worksheets. The <b>production</b> of these worksheets is definitely left to the original DynaGeo program. To keep the use of the viewers simple, their construction capabilities will always remain far below the level of the DynaGeo program itself. So if you miss any feature in the viewer while constructing a tricky drawing, please use DynaGeo instead!</p>
+
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

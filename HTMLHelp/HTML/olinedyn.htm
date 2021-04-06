@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Dynamische Ortslinien</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Ortslinien">
+</OBJECT>
+
+<A NAME="idh_LocLineDyna"></A>
+
+<H2>Dynamische Ortslinien</H2>
+<HR>
+
+<P>Wenn Sie eine Ortslinie aufzeichnen, dann erzeugt EUKLID DynaGeo nach M&ouml;glichkeit eine <B>dynamische Ortslinie</B>, die bei sp&auml;terem Verziehen einer Zeichnung entsprechend nachgef&uuml;hrt werden kann. Damit dies gelingt, muss eine der folgenden Voraussetzungen erf&uuml;llt sein:<br>
+<ul>
+<li>Der Punkt, dessen Ortslinie Sie aufzeichnen wollen, (der "Generatorpunkt") h&auml;ngt ab von der Lage eines anderen Punktes (des sogenannte "Zugpunktes"), der seinerseits an eine "Tr&auml;gerlinie" gebunden sein muss; Sie zeichnen die Ortslinie auf, indem Sie diesen Zugpunkt entlang seiner Tr&auml;gerlinie ziehen.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>oder:</i> </li>
+<li>Die Koordinaten des Generatorpunkts h&auml;ngen vom Wert eines Zahlobjekts ab, und Sie zeichnen die Ortslinie auf, indem Sie am Einstellknopf dieses Zahlobjekts ziehen. </li>
+</ul>
+Beim Aufzeichnen der Ortslinie wird eine Liste der relativen Positionen des Zugpunktes auf seiner Tr&auml;gerlinie (bzw. des Einstellknopfes im Zahlobjekt) angelegt; zudem werden die jeweils zugeh&ouml;rigen Lagen des Generatorpunktes in der Liste vermerkt. Nach der Aufzeichnung wird dann die Ortslinie angezeigt, in der Regel als eine Bezierkurve durch die Punkte dieser Liste.</P>
+
+<p>Wenn Sie nun Ihre Zeichnung verziehen, dann muss EUKLID DynaGeo neben allen anderen Objekten auch die Ortslinie aktualisieren. Dazu wird in einer internen Simulation der Zugpunkt nochmals an jede der zuvor aufgezeichneten relativen Positionen auf seiner Tr&auml;gerlinie gesetzt, wobei zu jeder Lage des Zugpunktes die jeweils zugeh&ouml;rige Lage des Generatorpunktes errechnet und protokolliert wird. Auf diese Weise wird die Liste der "St&uuml;tzpunkte" f&uuml;r die Ortslinie aktualisiert, so dass schlie&szlig;lich die Ortslinie in der neuen Lage gezeichnet werden kann.</p>
+
+<ul><font size="-1"><p>Wird die Ortslinie als <u>Punkteserie</u> dargestellt, dann wird die schon vorhandene St&uuml;tzpunktliste weiter verwendet. Wenn die Ortslinie jedoch als eine <u>Kurve</u> dargestellt werden soll, wird w&auml;hrend des Zugvorganges auch die Liste der St&uuml;tzpunkte <b>automatisch</b> neu aufgebaut. Dadurch wird vermieden, dass beim Verziehen zu gro&szlig;e L&uuml;cken zwischen den St&uuml;tzpunkten entstehen. Die automatisch erzeugten St&uuml;tzpunktlisten enthalten in der Regel weit mehr Punkte als die w&auml;hrend der Aufzeichnung der Ortslinie registrierten: um die Kurve m&ouml;glichst genau zu modellieren, setzt DynaGeo die Punkte dort besonders dicht, wo eine st&auml;rkere Kr&uuml;mmung der Ortslinie zu erwarten ist. </p>
+<p>Wenn Sie eine Ortslinie aufziehen, deren Zugpunkt <i>nicht an eine andere Linie gebunden</i> ist, dann erzeugt EUKLID DynaGeo keine dynamische Ortslinie, sondern nur eine <b>statische Spur</b>: diese verbleibt bei allen nachfolgenden Zugoperationen unbeeinflusst an ihrem Platz stehen.</p>   </font></ul>
+<br>
+
+<P>Beachten Sie, dass dies eine <B>rein numerische Approximation</B> einer dynamischen Ortslinie ist, die nicht in allen F&auml;llen fehlerlos funktionieren kann. Um befriedigende Ergebnisse zu erhalten, sollten Sie die folgenden <b><font color="#0000FF">Hinweise</font></b> beherzigen:</P>
+
+<OL>
+<LI><font color="#0000FF">Die Lage des Zugpunktes muss die Lage des Generatorpunktes <b>eindeutig</b> bestimmen.</font><br>
+Wenn es zu einer Lage des Zugpunktes <b>verschiedene M&ouml;glichkeiten</b> f&uuml;r die Lage des Generatorpunktes gibt, dann hat die betrachtete Ortslinie <b>mehrere Zweige</b>; in diesem Fall wird EUKLID DynaGeo <b>nur einen Teil</b> der Ortslinie darstellen.<br>
+<br>
+</LI>
+
+<LI><font color="#0000FF">Beim Erzeugen der Ortslinie sollte der Zugpunkt seine Tr&auml;gerlinie <b>nur einmal durchlaufen</b>.</font> <BR>
+Beim sp&auml;teren Verziehen der Zeichnung wird EUKLID DynaGeo in einer internen Simulation den Zugpunkt ebenfalls nur einmal l&auml;ngs seiner Tr&auml;gerlinie entlang f&uuml;hren und dann dabei die jeweils zugeh&ouml;rigen Lagen des Generatorpunktes errechnen.<BR>
+<br></LI>
+
+<li><font color="#0000FF">Sie sollten Ortslinien nur im "deterministischen Aktualisierungsmodus" aufzeichnen.</font><br>
+Dies ist inzwischen die Standard-Voreinstellung f&uuml;r alle neuen Zeichnungen. Sie sollten den "stetigen Modus" &uuml;berhaupt nur dann einschalten, wenn Sie sehr genau wissen, was Sie tun.<br>
+<br></li>
+</OL>
+
+<P>Wenn Sie sich an diese Regeln halten, sollten Sie stets stabile und reproduzierbare Ortslinien-Darstellungen bekommen. Hat die untersuchte Ortslinie jedoch mehrere Zweige, dann wird nur einer davon dargestellt werden.</p>
+
+<ul><font size="-1">Auch wenn Sie beim Aufzeichnen von Ortslinien mit verschiedenen Zweigen den Zugpunkt mehrfach l&auml;ngs seiner Tr&auml;gerlinie hin- und herf&uuml;hren, wird es Ihnen in der Regel nicht gelingen, EUKLID DynaGeo dauerhaft zur vollst&auml;ndigen und korrekten Darstellung solcher Ortslinien zu &uuml;berreden: stattdessen ”springen” diese Linien &uuml;blicherweise beim Verziehen zwischen den verschiedenen Zweigen hin und her, im schlimmsten Fall sogar nur abschnittsweise, was zu skurrilen Ergebnissen f&uuml;hren kann.</font></ul>
+<br>
+
+<P>F&uuml;r besondere F&auml;lle l&auml;sst eine <B>dynamische Ortslinie</B> auch in eine <B>statische Spur</B> verwandeln, die dann nicht mehr am Zugmodus teilnimmt. Dies k&ouml;nnen Sie &uuml;ber das Kontextmen&uuml; der Ortslinie bewerkstelligen, indem sie die &uuml;blicherweise gesetzte Eigenschaft <I>Dynamisch</I> abschalten.</P>
+<br>
+<br>
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<li><a href="olinestandard.htm">Standard-Ortslinien</a></li>
+<li><a href="ortslinie.htm">Ortslinie erzeugen</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

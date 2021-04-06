@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Boolean terms</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Bedingung">
+        <PARAM NAME="Keyword" VALUE="Beweis">
+        <PARAM NAME="Keyword" VALUE="Terme">
+</OBJECT>
+
+<A NAME="idh_boolterm"></A>
+
+<H2>Boolean terms</H2>
+<HR>
+
+<p>In many situations DynaGeo uses boolean expressions, e.g. as visibility conditions in dynamic visibility groups, or as branch conditions in the "switch function <b>if()</b>", or as correctness  condition in the correctness check. Boolean terms differ from normal ("numerical") terms: they can only take one of the two values "true" or "false". So they are a general tool to implement decisions.<br>
+</p>
+
+<P>The easiest form of a boolean expression uses <b>comparations</b>: if you compare two numerical expressions, you can decide if the value of the first is greater than the value of the second. These comparisons are always of the form:
+<ul><font color="#FF0000">&lt;term1&gt; &lt;op&gt; &lt;term2&gt;</font></ul>
+Here &lt;op&gt; stands for any possible compare operator: <font color="#FF0000">=</font>, <font color="#FF0000">&lt;&gt;</font>, <font color="#FF0000">&lt;</font>, <font color="#FF0000">&lt;=</font>, <font color="#FF0000">&gt;</font>, or <font color="#FF0000">&gt;=</font>. Because the terms used are just ordinary numerical terms, you can express a large variety of conditions that may additionally include references to co-ordinate values, length values or angle values of objects in the actual drawing.
+<ul><font color="#0000FF"><i>Example:</i></font><br>
+The condition "(d(M;A) = d(M;B))" checks if the point M has equal distances from the points A and B.</ul>
+<br>
+</p>
+
+Several of those elementary comparisons can now be build together with the help of <b>logical operators</b> <font color="#FF0000">not</font>, <font color="#FF0000">and</font> and <font color="#FF0000">or</font>, adding up to eventually complicated boolean expressions. The priority of <font color="#FF0000">not</font> is higher than that of <font color="#FF0000">and</font>, and <font color="#FF0000">and</font> is binding stronger than <font color="#FF0000">or</font>. The elementary comparisons must be enclosed in brackets.
+<ul><font color="#0000FF"><i>Example:</i></font><br>
+The expression "(d(M;A) = d(M;B)) and (d(M;B) = d(M;C))" checks if the point M is the midpoint of the circumcircle of triangle ABC.</ul>
+<br>
+</p>
+
+<P>Additionally, you can use some special boolean functions in your boolean expressions:</P>
+<UL>
+<LI><font color="#FF0000"><b>parall(g1; g2)</b></font>  (or  <font color="#FF0000"><b>parall(g1; P1; P2)</b></font>  or  <font color="#FF0000"><b>parall(P1; P2; P3; P4)</b></font> ) <br>
+<ul>is true if and only if the the two lines g1 and g2 are parallel (resp. the line g1 is parallel to the line through the points P1 and P2  resp.  the line through P1 and P2 is parallel to the line through P3 and P4).<br>
+<br>
+</ul>
+</LI>
+<LI><font color="#FF0000"><b>ortho(g1; g2)</b></font>  (or <font color="#FF0000"><b>ortho(g1; P1; P2)</b></font>  or <font color="#FF0000"><b>ortho(P1; P2; P3; P4)</b></font> ) <br>
+<ul>is "true" if and only if the two lines g1 and g2 are orthogonal (resp. the line g1 is orthogonal to the line through P1 and P2  resp.  the line through P1 and P2 is orthogonal to the line through P3 and P4)<br>
+<br>
+</ul>
+</LI>
+<LI>"<font color="#FF0000"><b>incid(P; s)</b></font>"<br>
+<ul>is "true" if and only if the point P lies on the line s. Here s can be any line, that is a straight line, a segment, a ray, a circle, a conic or even a locus line.<br>
+<br>
+</ul>
+</LI>
+<LI>"<font color="#FF0000"><b>valid(Obj)</b></font>"<br>
+<ul>is "true" if and only if the object Obj is valid, i.e. it is able to calculate its own state from the states of its parents (which also all must be valid). So an intersection point of two straight lines is valid if and only if these lines are not parallel.<br>
+<br>
+</ul>
+</LI>
+</UL>
+Please note that these functions decide about their values only on the basis of numerical calculations. They do not take into consideration the logical or geometrical dependencies between the objects! So if "incid(P; g)" delivers the value "true", this does not mean, that the point P will always be on the line g, but only, that his actual distance from this line is smaller than a certain positiv value <font face="Symbol">e</font> that serves as threshold.</p>
+
+<p>The isolated call to such a boolean standard function already delivers a complete boolean term. Beginners tend to use constructions like "incid(P; s) = true" where they compare the (boolean) result of the function with the boolean constant "true". Although these constructions are allowed and produce correct results, the shorter "incid(P; s)" delivers in any case the same results and so is to prefer for reasons of simplicity.</p>
+
+<br>
+<br>
+<b><i>See also:</i></b><br>
+<ul>
+<li><a href="termsyntax.htm">The syntax of terms</a></li>
+<li><a href="termstandard.htm">Standard functions for terms</a></li>
+</ul>
+<br>
+</FONT>
+</BODY>
+</HTML>

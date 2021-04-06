@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Wie wird DynaGeoX in eine HTML-Seite eingebunden?</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="DynaGeoX">
+        <PARAM NAME="Keyword" VALUE="HTML">
+        <PARAM NAME="Keyword" VALUE="ActiveX">
+</OBJECT>
+
+<A NAME="idh_dgx_include"></A>
+
+<H2>Wie wird DynaGeoX in eine HTML-Seite eingebunden?</H2>
+<HR>
+
+<P>Normalerweise werden Sie den in diesem Abschnitt beschriebenen HTML-Code <B>nicht selbst erzeugen</B> m&uuml;ssen. Dies erledigt EUKLID DynaGeo f&uuml;r Sie, wenn Sie den Befehl <i>Datei | Als DynaGeoX-HTML-Seite speichern...</i> anw&auml;hlen. Falls Sie das HTML-Dokument jedoch weiterbearbeiten wollen oder den erzeugten HTML-Code in anderen HTML-Dokumenten weiterverwenden wollen, sollten Sie verstehen, wie DynaGeoX eingebunden wird. Daher wird hier der HTML-Code f&uuml;r die Verwendung von DynaGeoX mit dem Internet Explorer (ab Version 5) beschrieben: </P>
+
+<P>Sie haben mit EUKLID DynaGeo eine Zeichung erstellt und diese in einer GEO-Datei abgespeichert, z.B. unter C:\Programme\DynaGeo\Daten\BEISPIEL.GEO. Wenn Sie nun diese Zeichnung in einer HTML-Seite angezeigt haben wollen, dann m&uuml;ssen Sie an der entsprechenden Stelle des HTML-Quelltextes die folgende "&lt;OBJECT&gt;...&lt;/OBJECT&gt;"-Deklaration einf&uuml;gen:</P>
+
+<font color="#0000FF">
+<ul>
+<p>&lt;OBJECT
+  <ul>classid="clsid:2EF98DE5-183F-11D4-83EC-EC6A1DB6E213"<br>
+  codebase="http://www.dynageo.de/download/dynageox3.cab#version=3,5,5,0"<br>
+  width=501<br>
+  height=330<br>
+  </ul>
+&gt;<BR>
+&lt;param name="DataFile" value="beispiel.geo"&gt;<BR>
+&lt;/OBJECT&gt;</P>
+</ul>
+</font>
+
+<P>Ein paar Erl&auml;uterungen zu den einzelnen Parametern:</P>
+<UL>
+<LI>"classid" enth&auml;lt eine eindeutige <B>Identifikationsnummer</B> f&uuml;r die DynaGeoX-Komponente. </LI>
+
+<LI>"codebase" enth&auml;lt die <B>Internet-Adresse</B>, unter der der DynaGeoX-Viewer verf&uuml;gbar ist. Die Zeile enth&auml;lt au&szlig;erdem eine Versions-Information: die eingebundene Zeichnung kann mit der hier angegebenen oder einer neueren Version des DynaGeoX-Viewers angezeigt werden, eventuell (bzw. sehr wahrscheinlich) aber nicht mit einer &auml;lteren Version!</LI>
+
+<LI>"width" und "height" geben die <B>Abmessungen</B> des Ausgabefensters (in Pixeln) an.</LI>
+
+<LI>"param" enth&auml;lt den <B>Namen der GEO-Datei</B>, die die Zeichnung enth&auml;lt:<BR>
+"name" muss hier den Wert "DataFile" haben, und in "value" steht der Name (ohne Pfad!) der anzuzeigenden GEO-Datei. Dabei wird vorausgesetzt, dass sich diese Datei <b>im selben Verzeichnis</b> befindet wie die HTML-Datei. </LI>
+</UL>
+
+<P>Um sich den Internet-Zugriff bei der erstmaligen Installation von DynaGeoX zu ersparen (z.B. in Ihrem schulischen Intranet), k&ouml;nnen Sie auch eine lokale Quelle als "codebase" angeben, z.B.:</P>
+
+<ul>
+<font color="#0000FF">codebase="file:///k:/public/utils/DynaGeoX/dynageox3.cab#version=3,5,5,0"  </font>
+</ul>
+
+<P>wenn Sie die Datei dynageox3.cab ins Verzeichnis  K:\Public\Utils\DynaGeoX  kopiert haben. Damit die automatische Installation des Viewers (oder ein Update!) auch klappt, muss dieser Pfad jedoch als URL formuliert sein.</P>
+
+<p>Im Allgemeinen sollten Sie aber bei allen selbsterstellten DynaGeoX-HTML-Dokumenten f&uuml;r "codebase" den <b>Internet-Pfad</b> verwenden, weil Sie nur so frei distributierbare Dokumente bekommen: ein <u>lokaler</u> Pfad ist nat&uuml;rlich nicht mehr g&uuml;ltig, wenn Sie das Dokument auf einen <u>anderen Rechner</u> transportieren! Und wenn in Ihrem Windows-System schon eine aktuelle Version von DynaGeoX installiert und registriert ist, dann wird trotz der Verwendung des Internet-Pfades zum DynaGeoX-Viewer selbst beim ersten &Ouml;ffnen eines DynaGeoX-HTML-Dokuments kein Internet-Zugriff ben&ouml;tigt!</P>
+
+<p>
+<br>
+<br>
+<b>Weitere Hinweise:</b><br>
+<ul>
+<li>Wenn Sie das HTML-Dokument weiterbearbeiten, m&uuml;ssen Sie ein paar <b>Syntax-Regeln</b> beachten. Damit Sie sich die M&ouml;glichkeit einer zuk&uuml;nftigen &Uuml;berarbeitung der Datei in EUKLID DynaGeo erhalten, muss sichergestellt werden, dass EUKLID DynaGeo die DynaGeoX-Objekte auch stets zuverl&auml;ssig erkennen kann:
+<ul>
+<li><u>Gro&szlig;- und Kleinschreibung</u> spielt bei den Tag-Namen keine Rolle. Seien Sie aber bei <u>Dateinamen</u> in dieser Beziehung sehr vorsichtig, wenn Sie ihre Dateien ins Netz stellen wollen: im Gegensatz zur Praxis unter WINDOWS ist f&uuml;r LINUX-Server die Gro&szlig;- und Kleinschreibung bei Pfadangaben signifikant! </li>
+<li>Achten Sie stets darauf, dass die umschlie&szlig;enden Tags "&lt;OBJECT..." und "&lt;/OBJECT&gt;" immer <u>alleine in einer eigenen Zeile</u> des HTML-Quelltextes stehen. Es darf also weder <u>vor</u> dem "&lt;OBJECT..."-Tag noch <u>nach</u> dem "&lt;/OBJECT&gt;"-Tag irgend eine andere wesentliche HTML-Information stehen. Lediglich ein Zeilenumbruch ("&lt;BR&gt;") ist erlaubt.</li>
+</ul>
+Am besten belassen Sie die "&lt;OBJECT&gt;"-Tags einfach in dem Zustand, in dem sie von EUKLID&nbsp;DynaGeo erzeugt wurden!<br>
+<br></li>
+<li>Bei neu erzeugten DynaGeoX-HTML-Seiten stimmen &uuml;blicherweise der Dateiname des HTML-Dokuments und der Dateiname der referenzierten Zeichnung bis auf die Erweiterung &uuml;berein. Sie k&ouml;nnen diese <b>strenge Synchronisation</b> zwischen den Dateinamen aufbrechen, indem Sie im Fenster <i>"Als DynaGeoX-HTML-Seite speichern"</i> eine andere, eventuell schon bestehende HTML-Datei als Ziel ausw&auml;hlen. Auf diese Art und Weise ist es sogar m&ouml;glich, <u>mehrere</u> DynaGeoX-Fenster in <u>eine</u> HTML-Seite einzuf&uuml;gen. Beachten Sie aber, dass Sie in einem solchen Fall selbst daf&uuml;r verantwortlich sind, dass beim Transport der HTML-Datei in eine andere Umgebung auch alle zugeh&ouml;rigen GEO-Dateien mitgenommen werden! Normalerweise sollten Sie sich auf <b><nobr><u>ein</u> DynaGeoX-Objekt</nobr> <nobr>pro HTML-Seite</nobr></b> beschr&auml;nken und die Dateinamen synchron belassen.</li>
+</ul>
+</P>
+<br>
+<br>
+
+</FONT>
+</BODY>
+</HTML>

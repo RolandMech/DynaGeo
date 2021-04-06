@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Termobjekt erstellen</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Zahlobjekt">
+        <PARAM NAME="Keyword" VALUE="Termobjekt">
+        <PARAM NAME="Keyword" VALUE="Abst&auml;nde">
+        <PARAM NAME="Keyword" VALUE="Winkel">
+        <PARAM NAME="Keyword" VALUE="Fl&auml;che">
+        <PARAM NAME="Keyword" VALUE="Messen">
+        <PARAM NAME="Keyword" VALUE="Terme">
+</OBJECT>
+
+<A NAME="idh_cm_TermInput"></A>
+
+<H2>Termobjekt erstellen&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../images/toolb407.gif" ALT="" BORDER=0></H2>
+<HR>
+
+<P>Ein Term-Objekt ist ein Objekt, das in einem Rahmen <b>zwei Textzeilen</b> auf dem Bildschirm darstellen kann: in der ersten Zeile wird ein von Ihnen <b>eingegebener Term</b> angezeigt, in der zweiten Zeile sein jeweils <b>aktueller Wert</b>.</p>
+
+<p>Wenn Sie den Befehl anw&auml;hlen, erscheint ein Term-Eingabefenster. Nachdem Sie Ihren Term vollst&auml;ndig eingegeben haben, schlie&szlig;en Sie dieses Fenster mit einem Klick auf <i>Okay</i>. Dann wird das Termobjekt erzeugt und automatisch an einer freien Stelle Ihrer Zeichnung angezeigt.<br>
+<br>
+<ul><font size="-1">(In fr&uuml;heren Versionen von EUKLID DynaGeo mussten Sie zus&auml;tzlich noch angeben, <u>wo</u> in Ihrer Zeichnung das Termobjekt dargestellt werden sollte; dies ist inzwischen &uuml;berfl&uuml;ssig. Wenn Sie mit der automatischen Plazierung nicht zufrieden sind, k&ouml;nnen Sie das Termobjekt ja jederzeit an eine andere Stelle schieben!)</font></ul></P>
+
+<p>Wenn Sie f&uuml;r den Term nur eine <b>Konstante</b> eingeben, wird im erzeugten Termobjekt die erste Zeile mit der Anzeige des Terms unterdr&uuml;ckt und <b>nur der Wert</b> angezeigt. Das Termobjekt wird in diesem Fall also nur einzeilig dargestellt. </p>
+
+<p>Wenn Sie einen Term eingeben, pr&uuml;ft DynaGeo automatisch, ob es sich hierbei um einen <b>Winkelwert</b> bzw. eine <b>Winkelsumme</b> handeln k&ouml;nnte. In diesem Fall erscheint eine Nachfrage, in der Ihnen angeboten wird, dass der Wert des Terms stets im <b>Gradma&szlig;</b> angezeigt wird. Wenn Sie dies ablehnen, obwohl der Term einen Winkelwert darstellt, wird das Bogenma&szlig; verwendet. Ihre Wahl beeinflusst jedoch in keinem Fall den intern gespeicherten Wert des Terms (- dieser wird n&auml;mlich <u>immer</u> im Bogenma&szlig; gespeichert -), sondern nur das Format, das f&uuml;r die Darstellung des Wertes auf dem Bildschirm verwendet wird. Au&szlig;erdem k&ouml;nnen Sie diese Einstellung jederzeit nachtr&auml;glich &uuml;ber das Kontextmen&uuml; des Termobjekts &auml;ndern (siehe unten!).</p>
+
+<p>Welche Ausdr&uuml;cke Sie in Termen verwenden k&ouml;nnen, erfahren Sie auf der Seite &uuml;ber die <nobr><a href="termsyntax.htm">Syntax von Termen</a></nobr>. Referenzen auf Werte von Objekten Ihrer Zeichnung (z.B. Abst&auml;nde oder Winkelwerte) k&ouml;nnen Sie in den Term einf&uuml;gen, indem Sie bei ge&ouml;ffnetem Term-Eingabefenster das entsprechende Objekt anklicken.</p>
+<br>
+
+<p>Das <A HREF="JavaScript:HHCTRL.TextPopup(pop_contextmenu,popfont,10,10,-1,-1)"
+Title="Klicken Sie, um eine Definition zu sehen!">Kontext-Men&uuml;</A> eines Termobjekts enth&auml;lt zus&auml;tzlich zu den &uuml;blichen Eintr&auml;gen noch einen weiteren Punkt:<br>
+<ul>
+<li><b>Term editieren</b>:<br>
+<br>
+Wenn Sie diesen Men&uuml;punkt anklicken, &ouml;ffent sich ein Fenster, in dem Sie den eingegebenen Term <b>&auml;ndern</b> k&ouml;nnen.<br>
+<br>
+Dar&uuml;berhinaus k&ouml;nnen Sie <b>Optionen f&uuml;r die Darstellung</b> des Termobjekts setzen:<br>
+<br>
+<ul>
+<li>mit der Anzahl der "<i>geltenden Stellen</i>" stellen Sie die Genauigkeit ein, mit der der Termwert angezeigt wird;<br>
+<br>
+</li>
+<li>wenn Sie die Option "<i>Term anzeigen</i>" <u>abw&auml;hlen</u>, dann wird die erste Zeile der Term-Anzeige (mit dem Term und eventuell dem Namen und einem Kommentar) unterdr&uuml;ckt und - in einem entsprechend verkleinerten Rahmen - nur der aktuelle Wert angezeigt.<br>
+<br>
+</li>
+</ul>
+<ul>Nur wenn Sie "<b>Term anzeigen</b>" <u>angew&auml;hlt</u> haben, sind die beiden folgenden Optionen &uuml;berhaupt verf&uuml;gbar:<br> </ul>
+<br>
+<ul>
+<li>die Option "<i>Name anzeigen</i>" entscheidet dar&uuml;ber, ob <u>vor</u> dem Term der interne Name des Termobjekts angezeigt wird;<br>
+<br>
+</li>
+<li>die Option "<i>Kommentar anzeigen</i>" gibt Ihnen die M&ouml;glichkeit, <u>hinter</u> dem Term einen von Ihnen eingegebenen Kommentar anzuzeigen, der automatisch in geschweifte Klammern gesetzt wird.<br>
+<br>
+</li>
+<li>in der Auswahlbox "<i>Ausgabe-Format</i>" stellen Sie ein, wie der in dem Zahlobjekt gespeicherte Wert angezeigt werden soll. Voreingestellt ist "normal"; die beiden anderen Optionen sind nur f&uuml;r die Darstellung von Winkelwerten sinnvoll: diese k&ouml;nnen sowohl im "Gradma&szlig;" als auch als "Vielfache von pi" angezeigt werden. In keinem Fall jedoch hat die Formatwahl einen Einfluss auf den aktuellen internen Wert des Termobjekts.<br>
+</li>
+</ul>
+</li>
+</ul>
+</p>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

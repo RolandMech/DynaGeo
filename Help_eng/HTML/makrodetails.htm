@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Details about macros</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="macro">
+</OBJECT>
+
+<A NAME="idh_makro_details"></A>
+
+<H2>Details about macros</H2>
+<HR>
+
+<P><B><I>What's that, a macro?</I></B>
+<ul>A macro is a composition of several DynaGeo construction commands that can be used as one new construction command. To create a macro, you first have to create a drawing that contains the complete construction that you want to pack into the macro. After this, you can "record" the macro by indicating the full list of the "<b>start objects</b>" and the list of the "<b>target objects</b>". A more detailed description how to record a macro is given on the page <a href="makroneu.htm">Create a new macro</a>. The target objects are these objects, that the macro should build when you run it. The start objects are all the objects the target objects are dependent from. If the ancestor tree of any target objects contains only one object that is not included in the list of the start objects, the macro will fail. This is very important to bear in mind when applying&xnbsp; e.g. circles of determined radii or lines of determined angles: a formula or expression containing distances or angle widths may depend on another object, which may have been forgotten to choose as start object. </ul>
+<br>
+
+<P><B><I>How macros are managed</I></B>
+<ul>After you created a macro it belongs to the drawing where it was created and is saved with this drawing to the GEO file. When you reload this GEO file, the macro is available again for further runs.<br>
+To use this macro in another drawing, you have to <a href="makrosave.htm">export</a> it from its original drawing and <a href="makroload.htm">import</a> it into the other drawing. During this export, the macro is written to a file with the extension ".mak". When you import it, DynaGeo will read the corresponding ".mak" file and add its content to the actual drawing. Even if it is not strictly necessary to write a ".mak" file for every new macro, it can be appropriate if you only see a slight chance that later on your new macro may be of use in another drawing.</ul>
+<br>
+
+<P><B><I>Internal details about start objects</I></B>
+<ul>
+<P>All geometrical objects that can be used as "parents" during the construction process, are also valid start objects in macros. However, you cannot use locus lines in macros. And when you use polygons then take care that the number of vertices at macro run time is the same as at the macro's recording time. Otherwise, you'll get an error message and the macro is aborted.</p>
+
+<P>The start objects that you choose while recording the macro determine the possible start object types that you can choose when running the macro:</P>
+
+<div align="center">
+<TABLE border cols="2" cellpadding="10" cellspacing="0" frame="void" width="450">
+
+<TR VALIGN="top">
+<TD width=40%> <B>Start object at recording time</B>
+</TD>
+<TD width=60%><B>Possible object types at runtime</B>
+</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>a point</TD>
+<TD width=60%>all types of points</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>a line segment</TD>
+<TD width=60%>all types of line segments</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>a (straight) line</TD>
+<TD width=60%>all types of (straight) lines, including segments</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>a circle</TD>
+<TD width=60%>all types of circles</TD>
+</TR>
+</TABLE><BR>
+</div>
+
+<P>Please note the special treatment of <b>segments</b> and <b>lines</b>:<br>
+If your user is to choose a certain start object and you want to allow him to take <b>a segment or a line</b>, then you <b>must</b> use a line here while recording the macro (and not a segment). If at recording time you use a segment, then at runtime only segments can be taken. <BR>
+<font size="-1">(In short: the type class "segment" is included in the type class "line".)</font></P>
+
+<p>When you select a segment as start object, not only the segment itself is added to the start object list, but its two endpoints too. So the endpoints of a segment are treated as <b>"implicit" start objects</b>. But relying on this automation may cause some trouble because you cannot control the order of these two points in the start object list. So when your macro needs a certain order of the two endpoints of a segment, you'd better add the two endpoints to the start object list yourself and care for the desired order instead of adding the segment. </p>
+
+There are some more cases where implicit start objects are registered: adding a circle as start object will also add its centre point (if this is available as a parent object of the circle). And with a polygon, all of its vertices are added to the start object list, too.<br>
+</ul>
+<br>
+
+<P><B><I>Plan and document your macro exactly:</I></B>
+<ul>
+<P>Consider carefully every step when programming a macro. Even so it may very well happen that objects drawn by the macro look different from what you expected. In these cases you should test if the conditions during running the macro correspond to the conditions while recording it. Especially be conscious of the <b>relative orientation</b> of start and target objects. If more start objects of the same kind should be typed one after another, it is a good idea to explain to the user - in the help text - how the order of start objects influences the position of the target objects.<br>
+<br>
+The <b>help text</b> of the macros should at least contain the list of the <b>start objects</b> and the list of the <b>target objects</b>. Moreover, it is helpful to add the details of how the target objects depend on the start objects. </P>
+</ul>
+<br>
+<br>
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="menumakro.htm">Macro menu</a></li>
+</ul>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Warum ActiveX und nicht JAVA?</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="DynaGeoX">
+        <PARAM NAME="Keyword" VALUE="JAVA">
+        <PARAM NAME="Keyword" VALUE="HTML">
+        <PARAM NAME="Keyword" VALUE="ActiveX">
+</OBJECT>
+
+<A NAME="idh_dgx_nojava"></A>
+
+<H2>DynaGeoJ versus DynaGeoX: warum zwei M&ouml;glichkeiten?</H2>
+<HR>
+
+<P>
+<B>Sicherheits-Aspekte</B></P>
+
+<P>Zur Darstellung "aktiver Inhalte" kommen im Internet gew&ouml;hnlich JAVA-Applets zum Einsatz. EUKLID DynaGeo ist aber ein genuines <B>Windows-Programm</B>, das mit Borland Delphi in der Sprache Object Pascal erstellt wurde. In dieser Situation ist die Erstellung einer ActiveX-Komponente zur Darstellung dynamischer Zeichnungen in Webseiten sehr viel einfacher zu realisieren als die Programmierung eines entsprechenden JAVA-Applets. Letztere erfordert n&auml;mlich eine aufw&auml;ndige Portierung der DynaGeo-Objektbibliotheken von Pascal nach JAVA, weshalb ich mich entschlossen habe, zun&auml;chst einmal den DynaGeoX-Viewer in der Microsoft-eigenen ActiveX-Technologie zur Verf&uuml;gung zu stellen.</P>
+
+<P>Grunds&auml;tzlich stellt jede Art von aktiven Objekten in HTML-Seiten ein nicht unerhebliches <B>Sicherheitsrisiko</B> dar. Um dieses zu beherrschen, wurde f&uuml;r die JAVA-Technologie die "sand box" entwickelt, ein "Sandkasten" innerhalb Ihres Rechners also, mit einer genau definierten Begrenzung. Durch diesen "Rand" wird festgelegt, was das aktive Objekt auf dem Rechner darf und was nicht. Obwohl auch die "sand box"-Technik ihre T&uuml;cken hat und nicht frei von Risiken und Nebenwirkungen ist, muss man fairerweise zugeben, dass ActiveX-Komponenten ein weit <B>gr&ouml;&szlig;eres Ma&szlig; an Vertrauen</B> vom Anwender einfordern als gew&ouml;hnliche JAVA-Applets. ActiveX-Komponenten sind effektiv "verkleidete EXE-Dateien" und k&ouml;nnen damit denselben Schaden auf dem Rechner des Anwenders anrichten wie jedes andere ausf&uuml;hrbare Programm. Der Anwender ist also darauf angewiesen, dass der Programmierer einer solchen Komponente daf&uuml;r sorgt, dass sie zur Laufzeit keinen Unsinn auf dem Rechner anstellen wird. (Hoffen wir, dass er das kann!) </P>
+
+<P>An dieser Situation &auml;ndert auch die ganze <B>Zertifizierung</B>s-Maschinerie wenig, die MS inszeniert hat, um der ActiveX-Technologie den Ruch der Gef&auml;hrlichkeit zu nehmen. Der Hersteller einer ActiveX-Komponente muss einen nicht gerade geringen Aufwand betreiben, um ein Zertifikat zu erhalten: man kauft ein solches Authenticode-Zertifikat von einer "Certification Authority", z.B. dem deutschen "TC TrustCenter", welches dabei die Aufgabe &uuml;bernimmt, f&uuml;r die Echtheit der Signatur einer damit unterschriebenen Software zu garantieren. Den eigentlichen Anspruch, den User verl&auml;sslich dar&uuml;ber zu informieren, welcher Code vertrauenw&uuml;rdig ist und welcher nicht, kann aber auch die Authenticode-Technologie letztlich nicht einl&ouml;sen: zum Schluss muss stets der Benutzer selbst entscheiden, ob er eine heruntergeladene Datei &ouml;ffnet oder nicht. </P>
+
+<p>Der <b>Sicherheits-Vorsprung</b> von JAVA-Applets gegen&uuml;ber ActiveX-Komponenten schmilzt aber langsam dahin. Auch bei SUN hat man n&auml;mlich eingesehen, dass Applets, die sich nur innerhalb einer "sand box" bewegen, f&uuml;r viele Anwendungsf&auml;lle nicht leistungsf&auml;hig genug sind. Deshalb wurde die M&ouml;glichkeit geschaffen, die Reichweite eines JAVA-Applets zu vergr&ouml;&szlig;ern, indem man es "signiert", es also genau wie eine ActiveX-Komponente mit einem Zertifikat versieht. Solche signierten Applets haben dann zum Beispiel denselben Zugriff auf das Dateisystem des Anwender-Rechners wie eine (signierte) ActiveX-Komponente.  Damit wird aber die vielgepriesene "Sicherheit von JAVA-Applets" zu einem M&auml;rchen aus der Vergangenheit...;-)
+<ul><font size="-1">W&auml;hrend die Signaturen f&uuml;r ActiveX-Komponenten teuer bei den entsprechenden "Certification Authorities" gekauft werden m&uuml;ssen, kann jeder einigerma&szlig;en sachkundige Hacker in 10 Minuten eine g&uuml;ltige JAVA-Signatur selbst erstellen und damit ein eigenes Applet unterschreiben: das Java-SDK enth&auml;lt alle Tools, die man dazu ben&ouml;tigt. Eine genaue Anleitung finden Sie z.B. in dem sch&ouml;nen Buch "Java ist auch eine Insel" von Christian Ullenboom. Die Vertrauensw&uuml;rdigkeit einer solchen selbsterstellten JAVA-Signatur kann prinzipiell &uuml;berhaupt nicht getestet werden.</font></ul></p>
+<br>
+
+<P>
+<B>Die Situation in den Schulnetzen</B></P>
+
+<p>Bei einem Programm, das vorwiegend f&uuml;r den Einsatz im Schulunterricht gedacht ist, muss man aber auch die reale Situation an den Schulen in Betracht ziehen. Und unter den <b>Administratoren der Schulnetze</b> wird die ActiveX-Technologie von Microsoft nahezu einstimmig abgelehnt: sie ist im Netzwerk schwierig zu verwalten und gilt als gef&auml;hrlich. Dies f&uuml;hrt dazu, dass mit DynaGeoX erstellte Internet-Seiten in den allermeisten Schulnetzen nicht funktionieren: das f&uuml;r die Zeichnung vorgesehene Fenster bleibt einfach leer. Andererseits ist in nahezu allen Schulnetzen eine Laufzeitumgebung von JAVA installiert, weil dieselben Administratoren meinen, dass <b>JAVA-Applets notwendig, n&uuml;tzlich und sicher</b> seien. </p>
+
+<P>Will man als Programm-Autor nicht den Anschluss verpassen, muss man also eine JAVA-basierte M&ouml;glichkeit des Exports von dynamischen Zeichnungen in Webseiten zur Verf&uuml;gung stellen. Ab der Version 2.4 gab es in DynaGeo daher die M&ouml;glichkeit des Exports von Zeichnungen in HTML-Seiten, die dann zur Darstellung das JAVA-Applet <b>"Geometria" von Dr. Timo Ehmke</b> benutzten. Da es sich bei diesem Applet aber um ein <u>externes</u> Tool handelte, gab es diverse Inkompatibilit&auml;ten zwischen den beiden Programmen, was f&uuml;r den Benutzer zu gewissen Einschr&auml;nkungen in der Praxis f&uuml;hrte. Insgesamt erfreute sich der Geometria-Export unter den DynaGeo-Benutzern keiner gro&szlig;en Beliebtheit, weshalb er mit der Version 4 wieder aus DynaGeo entfernt wurde. </p>
+<br>
+
+<P>
+<B>DynaGeoJ: ein eigener JAVA-Viewer</B></P>
+
+<p>Im Jahr 2006 begannen Arbeiten an <b>DynaGeoJ</b>, einem "eigenen" JAVA-basierten Viewer f&uuml;r DynaGeo-Zeichnungen. Ich hatte damals an meiner Schule einen au&szlig;ergew&ouml;hnlich leistungsf&auml;higen Informatik-Kurs mit zahlreichen hochmotivierten und erfahrenen JAVA-Kundigen, die sich f&uuml;r dieses Projekt begeisterten und es recht eigentlich auf den Weg brachten. Leider machten diese Sch&uuml;ler schon recht bald ihr Abitur und gingen ihrer Wege, so dass ich schlie&szlig;lich alleine zur&uuml;ckblieb mit den bis dahin erarbeiteten Quelltexten. Die weiteren Arbeiten zogen sich in die L&auml;nge, bis schlie&szlig;lich 2009 eine erste Version des "DynaGeoJ-Viewers" ver&ouml;ffentlicht wurde. Zwar leidet dieser noch unter deutlichen Einschr&auml;nkungen und Inkompatibilit&auml;ten gegen&uuml;ber dem DynaGeo-"Mutter"-Programm; aber weil DynaGeoJ nun ein eigenes Programm ist, kann es auch weiterentwickelt und mit DynaGeo synchron gehalten werden.</p
+
+<p>W&auml;hrend der Entwicklung von DynaGeoJ konnte ich mich immer wieder davon &uuml;berzeugen, dass ein Vorwurf an die JAVA-Technologie inzwischen immer weniger begr&uuml;ndet ist, n&auml;mlich dass JAVA-Programme langsam sind. Nat&uuml;rlich produziert JAVA als plattform&uuml;begreifende Sprache nicht so performante Programme wie ein maschinensprache-erzeugender Pascal-Compiler, dessen Output dem Prozessor "auf den Leib geschrieben" ist. Aber in der Praxis verliert dieser Unterschied immer mehr an Bedeutung: die Leistungsf&auml;higkeit der Hardware steigt st&auml;ndig, und die JAVA-Entwickler arbeiten nat&uuml;rlich auch selbst an diesem Problem.</p>
+<br>
+
+<P>
+<B>DynaGeoX versus DynaGeoJ: ein Vergleich</B></P>
+
+<P>Der gr&ouml;&szlig;te Vorteil von JAVA ist eben, dass es eine plattform&uuml;bergreifende Programmierung erlaubt: "write once, run everywhere" ist das Versprechen der JAVA-Entwickler! Es ist also zu erwarten, dass f&uuml;r DynaGeoJ erstellte Internet-Seiten auch auf dem MAC und unter Linux korrekt angesehen werden k&ouml;nnen, w&auml;hrend Sie bei Seiten, die f&uuml;r DynaGeoX erzeugt wurden, auf Windows und den Internet Explorer beschr&auml;nkt bleiben. Auf der anderen Seite verf&uuml;gt DynaGeoX &uuml;ber eine viel vollst&auml;ndigere Implementierung der F&auml;higkeiten von DynaGeo, wohingegen DynaGeoJ diesen Grad an inniger Verwandtschaft m&ouml;glicherweise nie erreichen wird. Je nach dem, welches Argument f&uuml;r Sie wichtiger ist, haben Sie nun die Wahl. Die folgende Tabelle soll Ihnen einen &Uuml;berblick &uuml;ber die spezifischen Vor- und Nachteile der beiden Viewer-Varianten geben:</P>
+
+<table cellpadding="5" align="center" frame="box" bordercolor="#000000">
+<tr>
+ <th>&nbsp;</th>
+ <th>DynaGeoX </th>
+ <th>DynaGeoJ </th>
+</tr>
+<tr align="center">
+ <th>Betriebssystem </th>
+ <td>nur Windows</td>
+ <td>plattform-&uuml;bergreifend(!)</td>
+</tr>
+<tr align="center">
+ <th>Browser </th>
+ <td>nur MS Internet Explorer</td>
+ <td>alle JAVA-f&auml;higen Browser</td>
+</tr>
+<tr align="center">
+ <th>Verf&uuml;gbarkeit in Schulnetzen </th>
+ <td>sehr gering</td>
+ <td>hoch</td>
+</tr>
+<tr align="center">
+ <th>Kompatibilit&auml;t mit DynaGeo </th>
+ <td>sehr hoch </td>
+ <td>m&auml;&szlig;ig<br>(work in progress...) </td>
+</tr>
+<tr align="center">
+ <th>Sicherheit</th>
+ <td>befriedigend</td>
+ <td>befriedigend</td>
+</tr>
+<tr align="center">
+ <th>Performance </th>
+ <td>gut</td>
+ <td>befriedigend<br>(wird immer besser)</td>
+</tr>
+</table>
+<br>
+
+<p>Wenn Sie sich ein wenig wundern, dass ich die Sicherheit beider Viewer <u>gleich</u> beurteile: ja, ich bin ernsthaft der Meinung, dass es hier keinen wesentlichen Unterschied gibt. Aktive Inhalte sind <b>immer</b> gef&auml;hrlich, aber es macht keinen Unterschied, ob es sich um eine signierte ActiveX-Komponente oder ein signiertes JAVA-Applet handelt. Beide haben ein vergleichbar hohes Schadenspotenzial, und bei beiden ist es f&uuml;r den Anwender &auml;hnlich schwierig, zu entscheiden, ob sie vertrauensw&uuml;rdig sind oder nicht.</p>
+</FONT>
+</BODY>
+</HTML>

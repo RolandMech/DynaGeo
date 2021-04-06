@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Zwei Punkte zusammenf&uuml;hren</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Objekte">
+        <PARAM NAME="Keyword" VALUE="Punkte">
+        <PARAM NAME="Keyword" VALUE="Zusammenf&uuml;hren">
+        <PARAM NAME="Keyword" VALUE="Verwandeln">
+</OBJECT>
+
+<A NAME="idh_cm_CombinePts"></A>
+
+<H2>Zwei Punkte zusammenf&uuml;hren</H2>
+<HR>
+
+<P>Mit diesem Befehl k&ouml;nnen Sie zwei zuvor erzeugte Punkte <b>in einem Punkt zusammenf&uuml;hren</b>. Der Befehl erwartet die Eingabe von zwei Punkten, die jedoch auf sehr unterschiedliche Art und Weise bearbeitet werden. Der erste eingegebene Punkt wird im Folgenden als "Quellpunkt" bezeichnet, der zweite als "Zielpunkt". </P>
+
+<P>Zur Anwendung dieses Befehls klicken Sie mit der linken Maustaste zun&auml;chst auf den <b>Quellpunkt</b> und dann auf den <b>Zielpunkt</b>. Danach werden die folgenden Operationen ausgef&uuml;hrt:<br>
+<ol start="1" type="1">
+<li>Alle vom Quellpunkt direkt abh&auml;ngigen Objekte werden vom Quellpunkt abgekoppelt und als vom Zielpunkt abh&auml;ngig verbucht; anschaulich gesprochen: der Zielpunkt adoptiert alle Kinder des Quellpunktes.<br>
+<br></li>
+<li>Schlie&szlig;lich wird der Quellpunkt gel&ouml;scht.<br></li>
+</ol>
+</P>
+<br>
+
+<p>Bei einem solch rigorosen Eingriff in die Verwandtschaftsbeziehungen zwischen den Objekten einer Konstruktion muss nat&uuml;rlich streng darauf geachtet werden, dass <b>keine zirkul&auml;ren Bez&uuml;ge</b> entstehen. Dieses ist dann der Fall, wenn der Zielpunkt vom Quellpunkt abh&auml;ngt, also ein Nachkomme des Quellpunkts ist und damit selbst in der Menge der vom Quellpunkt abh&auml;ngigen Objekten vorkommt. In einem solchen Fall zeigt Ihnen EUKLID DynaGeo eine entsprechende Fehlermeldung und verweigert die Ausf&uuml;hrung des Befehls. Wenn Sie danach den Befehl nochmals aufrufen, aber die beiden Punkte die Rollen tauschen lassen, dann wird der Befehl mit hoher Wahrscheinlichkeit erfolgreich ausgef&uuml;hrt werden k&ouml;nnen. Ob das Ergebnis allerdings Ihren Erwartungen entsprechen wird, ist noch nicht sicher: es wird nun der <u>andere</u> der beiden Punkte diesen Befehl &uuml;berleben und alle Kinder &uuml;bernehmen, und nicht der urspr&uuml;nglich gemeinte Zielpunkt! </p>
+<br>
+<br>
+
+<P><font color="#FF0000"><b><i>Achtung !</i></b></font>
+<ul>Bitte beachten Sie, dass es im Allgemeinen keine einfache M&ouml;glichkeit gibt, diesen Befehl wieder r&uuml;ckg&auml;ngig zu machen. Mit "Letzte L&ouml;schung widerrufen" k&ouml;nnen Sie zwar den gel&ouml;schte Quellpunkt wieder erscheinen lassen, aber die Liste seiner Kinder bleibt leer! Wenn Sie sich Ihrer Sache nicht ganz sicher sind, dann sollten Sie Ihre Zeichnung <u>vor</u> der Anwendung dieses Befehls abspeichern.</ul></P>
+<br>
+<br>
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<li><a href="pt2basept.htm">Punkt in freien Basispunkt verwandeln</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

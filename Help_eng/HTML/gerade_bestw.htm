@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Line of determined angle</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="construct">
+        <PARAM NAME="Keyword" VALUE="line">
+        <PARAM NAME="Keyword" VALUE="angle">
+</OBJECT>
+
+<A NAME="idh_cm_gricht"></A>
+
+<H2>Line of determined angle&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../images/toolb216.gif" ALT="" BORDER=0></H2>
+<HR>
+
+<P><font size="-1">(<a HREF="JavaScript:HHCTRL.TextPopup(pop_autorepeat,popfont,10,10,-1,-1)"
+Title="Click to see a definition!">automatically repeatable</a>)</font></P>
+
+<P>This menu item allows you to draw a line which crosses a given line or a line segment (called the "reference line") at a given angle. This is accomplished in the following way:
+</P>
+<OL>
+        <LI>First a small window is opened where you type the size of the angle (in degrees).<BR><BR></LI>
+
+        <LI>Then click on an existing point on the reference line which the new line is not to cross (to identify the reference line).<BR><BR></LI>
+
+        <LI>Next click on an (also already existing) point on the reference line which the new line must cross (to identify the point).<BR><BR></LI>
+
+        <LI>If you typed a positive number as the angle, EUKLID DynaGeo will wait for you to click on that half plane with respect to the reference line where you want the angle line to run through (to identify on which side of the line the angle should be drawn).</LI>
+</OL>
+
+<P> The construction of such a line follows the same procedure as the construction of an angle from three points:
+<OL>
+        <LI>a point of the first side of the angle (here the reference line);<BR><BR></LI>
+
+        <LI>the vertex (here the intersection between the reference line and the new line);<BR><BR></LI>
+
+        <LI>a point on the other side of the angle (here a point on the 'angle' side of the reference line).</LI>
+</OL>
+<br>
+
+<P>Instead of a constant angle value you may type a formula or <a href="termsyntax.htm"><b>expression</b></a>. In this case it is impossible to define a third point for the orientation of the angle. The angle will be oriented according to the <b>sign</b> of the current expression.</P>
+
+<P>Beside the standard items the <A HREF="JavaScript:HHCTRL.TextPopup(pop_contextmenu,popfont,10,10,-1,-1)"
+Title="Click to see a definition!">context menu</A> of a line in determined angle shows an entry named<br>
+<ul>
+<li><b>angle...</b>,<br>
+that allows to edit the angle's value (or expression) afterwards.</li>
+</ul></P>
+<br>
+
+<P><font color="#FF0000"><b><i>Please note:</i></b></font>
+<ul>The reference line does not necessarily have to exist as an object, only two points on the (perhaps imaginary) reference line must exist.<br>
+<br>
+If the reference line does exist, but no useful points are positioned on it, then these will be constructed by mouse clicks (2) and (3). However, they are not yet snapped to the line. You have to do this yourself. Otherwise there is a risk that the points are released next time you move the reference line.</ul></P>
+<br>
+<br>
+
+<p><b>ALT variant: Ray of determined angle</b><br>
+<ul>If you start this command by clicking the tool button on the <i>Construct bar</i>, and you hold down the <i>ALT&nbsp;key</i> while you click, then the same parameter objects are expected, but instead of a line only a <b>ray of determined angle</b> is created. </ul>
+</P>
+<br>
+
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="gerade_ptpt.htm">Line through two points</a></li>
+<li><a href="gerade_basis.htm">Straight line</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

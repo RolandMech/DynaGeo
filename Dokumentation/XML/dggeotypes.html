@@ -1,0 +1,881 @@
+<html>
+<head>
+<title>DynaGeo Geometric Types</title>
+<meta name="author" content="Roland">
+<meta name="generator" content="Ulli Meybohms HTML EDITOR">
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#FF0000" alink="#FF0000" vlink="#FF0000">
+<font face="VERDANA,ARIAL,HELVETICA">
+<div align="center"><h1>Geometric Types used in DynaGeo</h1>
+</div>
+<br>
+<hr noshade size="3">
+<br>
+<br>
+<h2>1&nbsp;&nbsp;&nbsp;Introduction</h2>
+&nbsp;<br>
+<p><h3>1.1&nbsp;&nbsp;&nbsp;Version of this document</h3>
+Version number: 1.3 <br>
+Last changes: 01.01.2009<br>
+&nbsp;<br>
+</p>
+<p><h3>1.2&nbsp;&nbsp;&nbsp;Overview</h3>
+This document gives an overview of the different kinds of object nodes in a <i>tobjlist</i> structure. Because several objects of different <b>geometric type</b> may be represented by the same <b>data type</b> structure, the data type does not completely determine an object. Here, all possible geometric types used in DynaGeo are listed, and for every geometric type there is indicated which data type is used to represent it. <br>
+&nbsp;<br>
+</p>
+<p><h3>1.3&nbsp;&nbsp;&nbsp;Definition of type groups</h3>
+There are some type group identifiers used below to put several similar geometric types together in a group and thus simplify the notation of parent types. These special identifier always start with "Any..." followed by the name of a typical representative of this group of types. The possible type groups and their respective member types are:<br>
+<br>
+<div align="center">
+<table width="80%" border="1" frame="void" cellpadding="5" bgcolor="#EFEFEF">
+<tr bgcolor="#00C0FF">
+ <th width="25%"> <b>Type group name</b> </th>
+ <th> <b>Member types</b> </th>
+</tr>
+<tr>
+ <td align="center"> <b>AnyPoint</b> </td>
+ <td> Point, Origin, UnityPoint, PointWDC, PointLXL, IntersectPoint, MidPoint, MappedPoint</td>
+</tr>
+<tr>
+ <td align="center"> <b>AnyLine</b> </td>
+ <td> Line, LineWDD, Perpendicular, PerpBisector, Bisector, ParallelLine, BasisLine, MappedLine, LineTrace, Axis, Ray, Segment, Stick, Vector, VergingLine </td>
+</tr>
+<tr>
+ <td align="center"> <b>AnyCircle</b> </td>
+ <td> Circle, BasisCircle, MappedCircle, CircleWDR, CircleTrace, Arc</td>
+</tr>
+<tr>
+ <td align="center"> <b>AnyConic</b> </td>
+ <td> Conic, EllipseF, EllipseS, EllipseK, ParabelF, ParabelT, HyperbelF, HyperbelA</td>
+</tr>
+<tr>
+ <td align="center"> <b>AnyMapping</b> </td>
+ <td> Similiarity, AffineMapping, Inversion </td>
+</tr>
+</table>
+</div>
+<br>
+These type group identifiers are <b>not</b> used in the <a href="dg13.xsd">DynaGeo XSD file</a>. They only serve to simplify the notation of the possible types of an object's parents in the following sections.<br>
+</p>
+<br>
+<br>
+<br>
+<h2>2&nbsp;&nbsp;&nbsp;The geometric types</h2>
+<p>The following tables list the possible <b>geometric types</b> (given by the <b>node name</b>) and indicate the according <b>data type</b>. Additionally, for every geometric type there are information about the <b>parents' types</b>. If there is more than one possibility how the list of parents may look like, the different cases are enumerated. Finally, there are some remarks about objects of this type and the <b>update algorithm</b> they use to calculate their own new data from the data of their parents. For reasons of clarity the object types are combined into several groups, mainly according to their geometric shape.</p>
+<br>
+<br>
+<a name="iho">
+</a><h3>2.1&nbsp;&nbsp;&nbsp;Invisible helper objects : </h3>
+<br>
+<div align="center">
+<table width="85%" border="1" frame="void" cellpadding="5">
+<tr>
+ <th width="25%" bgcolor="#00C0FF"> node name </th>
+ <th width="20%" bgcolor="#FFC000"> <i>data type</i> </th>
+ <th rowspan="2" bgcolor="#CFCFCF"> Remarks (Update algorithm) </th>
+</tr>
+<tr>
+ <th colspan="2" bgcolor="#CFCFCF"> ordered list of parents </th>
+</tr>
+<tr>
+ <td align="center" bgcolor="#00FFFF"> DoubleIntersection </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tmulti_intersect</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> Intersects its parents.<br>
+  The 2 intersection points S1 and S2 are ordered<br>
+  (a) due to the orientation of the line g1 or <br>
+  (b) in the following way: take the line M1M2 joining the center points of the two circles c1 and c2, rotate it counterclockwise by pi/2, then it has the same orientation as the line S1S2.<br>
+  The object only provides the coordinate data without displaying any point on the screen; this is done by its children!</td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> (a) g1: AnyLine; c1: AnyCircle or AnyConic <br>
+ (b) c1, c2: AnyCircle (but no Conic!) </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> QuadIntersection </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tmulti_intersect</i> </td>
+ <td rowspan="2"> Intersects its parents. <br>
+ The object only provides the coordinate data without displaying any point on the screen; this is done by its children!</td>
+</tr>
+<tr>
+ <td colspan="2"> (a) c1, c2: AnyConic<br>
+ (b) c1: AnyCircle, c2: AnyConic </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Similiarity </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tmapping</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> An elementary similiarity mapping; the value of <i>map_type</i> (given here in "[ ]") decides about the respective mapping type. The following mappings are available: <br>
+ <br>
+  [1] reflection in a line g1; <br>
+  [2] reflection in a point P1; <br>
+  [3] translation by a vector v1; <br>
+  [4] rotation with centre point P1 and angle ra; <br>
+  [7] dilation with centre point P1 and factor df. <br>
+</td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF"> [1] g1: AnyLine;<br>
+ [2] P1: AnyPoint;<br>
+ [3] v1: Vector;<br>
+ [4] P1: AnyPoint, ra: Angle or Arc or Number or Term; <br>
+ [7] P1: AnyPoint, df: Number or Term </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> AffineMapping </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tmapping</i> </td>
+ <td rowspan="2"> An affine mapping; the value of <i>map_type</i> (given here in "[ ]") decides about the respective mapping type. The following mappings are available: <br>
+ <br>
+ [10] sheer with axis g1, that maps P1 to Q1;<br>
+ [11] orthogonal dilation with axis g1 mapping P1 to Q1;<br>
+ [12] sheer reflection with axis g1 mapping P1 to Q1;<br>
+ [13] general axial mapping with axis g1 mapping P1 to Q1;<br>
+ [14] Euler's affine mapping with fixed lines g1 and g2 mapping P1 to Q1<br>
+ [15] affine rotation with centre P0 mapping P1 to Q1 and P2 to Q2;<br>
+ [18] general affine mapping defined by 3 pairs [P<sub>i</sub>, Q<sub>i</sub>] of <nobr>point P<sub>i</sub></nobr> and <nobr>image point Q<sub>i</sub></nobr><br>
+ [19] general affine mapping defined by a matrix (M(i,j), i=1..3, j=1..2)<br></td>
+</tr>
+<tr>
+ <td colspan="2"> [10] g1: AnyLine; P1, Q1: AnyPoint;<br>
+  [11] g1: AnyLine; P1, Q1: AnyPoint;<br>
+  [12] g1: AnyLine; P1, Q1: AnyPoint;<br>
+  [13] g1: AnyLine; P1, Q1: AnyPoint;<br>
+  [14] g1, g2: AnyLine; P1, Q1: AnyPoint;<br>
+  [15] P0, P1, Q1, P2, Q2: AnyPoint;<br>
+  [18] P1, Q1, P2, Q2, P3, Q3: AnyPoint<br>
+  [19] If the M(i,j) are expressions refering other objects of the drawing, these objects must be listed in the <i>parent</i> list.<br>
+ </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Inversion </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tmapping</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A reflection in a circle c1 (<i>map_type</i> = 20)</td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> c1: AnyCircle</td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> CheckControl </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tcco</i> </td>
+ <td rowspan="2"> This object contains the data needed to check if a construction is correct by calculating the boolean value of a correctness function. As long as you don't edit the correctness term, this object needs no update. When you delete any object the correctness term refers to, the correctness check must be deleted too.<br></td>
+</tr>
+<tr>
+ <td colspan="2"> Every object the correctness term refers to must appear in the <nobr><i>parent</i> list.</nobr><br>
+ </td>
+</tr>
+
+
+
+</table>
+</div>
+<br>
+<br>
+<br>
+
+<h3>2.2&nbsp;&nbsp;&nbsp;Point-like objects : </h3>
+<br>
+<div align="center">
+<table width="85%" border="1" frame="void" cellpadding="5">
+<tr>
+ <th width="25%" bgcolor="#00C0FF"> Node name </th>
+ <th width="20%" bgcolor="#FFC000"> <i>Data type</i> </th>
+ <th rowspan="2" bgcolor="#CFCFCF"> Remarks (Update algorithm) </th>
+</tr>
+<tr>
+ <th colspan="2" bgcolor="#CFCFCF"> Ordered list of parents </th>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Point </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tpoint</i> </td>
+ <td rowspan="2"> This is a basis point: it gets its coordinates directly from the mouse. When it is bound to a line c, this line is added to the parent list.</td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> (a) (none)<br>
+ (b) c: AnyLine </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Origin </td>
+ <td align="center" bgcolor="#FFFF00"> <i>torigin</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> This is a basis point:<br>
+  it gets its coordinates directly from the mouse. </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> (none) </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> UnityPoint </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tpoint</i> </td>
+ <td rowspan="2"> Normally, the UnityPoints are totally invisible.<br>
+ (They are basis points bound to their respective axis a.)<br>
+  </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> a: Axis </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> PointWDC </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tpoint</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A point with determined coordinates:<br>
+  it updates its coordinates by recalculating values of the stored coordinate terms.</td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> depends on the coordinate terms </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> PointLXL </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tpoint</i> </td>
+ <td rowspan="2"> Intersection point of two straight lines:<br>
+  it gets its coordinates by intersecting g1 and g2. </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> g1, g2: AnyLine </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> IntersectPoint </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tpoint</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> The value of <i>plist_index</i> indicates from which of the entries of MI.<i>pointlist</i> the IntersectPoint has to fetch its coordinate values.</td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> MI: DoubleIntersection or QuadIntersection</td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> MidPoint </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tpoint</i> </td>
+ <td rowspan="2"> The midpoint calculates its new coordinates as the arithmetic mean of the appropriate coordinates of its parents P1 and P2.</td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> P1, P2 : AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> PolPoint </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tpoint</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> This is the pole point of the polare line PL with respect to the conic C.</td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> PL: AnyLine, C: AnyCircle or AnyConic </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> MappedPoint </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tpoint</i> </td>
+ <td rowspan="2"> This is the image of P1 mapped by M.</td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> P1: AnyPoint; M: AnyMapping </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Vertex </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tpoint</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> This is a vertex point of the regular polygon RP. The value of <i>plist_index</i> indicates which of the vertices of RP this one should be.</td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> RP: RegPoly </td>
+</tr>
+
+</table>
+</div>
+<br>
+<br>
+<br>
+<h3>2.3&nbsp;&nbsp;&nbsp;Straight line objects : </h3>
+<br>
+<div align="center">
+<table width="85%" border="1" frame="void" cellpadding="5">
+<tr>
+ <th width="25%" bgcolor="#00C0FF"> node name </th>
+ <th width="20%" bgcolor="#FFC000"> <i>data type</i> </th>
+ <th rowspan="2" bgcolor="#CFCFCF"> Remarks (Update algorithm) </th>
+</tr>
+<tr>
+ <th colspan="2" bgcolor="#CFCFCF"> ordered list of parents </th>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Line </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2"> This is a (long) straight line running through P1 and P2.<br>
+ Its orientation is from P1 to P2.</td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> P1, P2 : AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> LineWDD </td>
+ <td align="center" bgcolor="#FFFF00"> <i>ttermline</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A LineWDD object is a "line with determined direction", so a line through P2 that forms an (orientated) angle with the ray P2P1. This angle's width is determined by the value delivered from A. </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> P1, P2: AnyPoint, <br>
+ A: Angle or Arc or Number or Term</td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Perpendicular </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2"> This is the perpendicular on g1 through P1. You get its orientation by rotating the orientation of g1 by the angle of pi/2 counterclockwise. </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> P1: AnyPoint, g1: AnyLine </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> PerpBisector </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> This line runs orthogonally through the midpoint of the segment P1P2. You get its orientation by rotating the orientation of P1P2 counterclockwise by the angle of pi/2. </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> P1, P2: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Bisector </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2">  This line bisects the angle P1P2P3 with vertex P2. The line's orientation is normally chosen the way that it looks towards the smaller one of the angles P1P2P3 and P3P2P1. </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> P1, P2, P3: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> ParallelLine </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> This line runs through P1 and is parallel to g1. Its orientation is the same as that of g1.</td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> P1: AnyPoint, g1: AnyLine </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> BasisLine </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2">  This is a line that gets its direction and orientation from the mouse while it is created. Later, a BasisLine object can only be moved parallel to itself. </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> (none) </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> LineTrace </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> If all of the points of a locus line t1 lie in a straight line, then a LineTrace object can be used to represent the locus line. It gets all its data from the parent locus line t1.</td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> t1: Trace </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Axis </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2"> A special line used only to build up a coordinate system. </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> O1: Origin </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Ray </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A ray starting in P1 and running through P2. The orientation is from P1 to P2. </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> P1, P2: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Segment </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2"> A line segment starting in P1 and ending in P2. The orientation is from P1 to P2. </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> P1, P2: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Stick </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tstick</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A line segment of fixed length, starting in P1 and ending in P2. The orientation is from P1 to P2. </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> P1: AnyPoint, P2: Point </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Vector </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2"> A vector (a) starting in P1 and running to P2 or (b) representing an other v1 instance starting in P1. The orientation is from start point to end point. </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> (a) P1, P2: AnyPoint<br>
+ (b) P1: AnyPoint, v1: Vector </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Tangent </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A line touching the curve c in the point P1 lying on c. The orientation is in the direction of increasing x-values. </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> P1: AnyPoint; c: AnyCircle or AnyConic or Trace or Graph </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Normal </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2"> A line running through the point P1 lying on c and being perperdicular to c. </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> P1: AnyPoint; c: AnyCircle or AnyConic or Trace or Graph </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Polar </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> The polare line of the pole point P with respect to the conic c. </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> P: AnyPoint; c: AnyCircle or AnyConic </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Chordal </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2"> The radical axis of two circles (or points). In case of 2 intersecting circles, this line runs through the 2 intersection points. In case of 2 points, it coincides with the perpendicular bisector. </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> PC1, PC2: AnyPoint or AnyCircle </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> MappedLine </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> This line is the image of the line g1 under the <nobr>mapping M</nobr></td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> g1: AnyLine; M: AnyMapping </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> VergingLine </td>
+ <td align="center" bgcolor="#FFFF00"> <i>ttermline</i> </td>
+ <td rowspan="2"> This is an object beyond the scope of circles and rulers. A VergingLine object is a line running through P1 and cutting g1 and g2 in two points S1 and S2, while the distance between S1 and S2 always is equal to the value given by N. </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> P1: AnyPoint;<br>
+ g1, g2: AnyLine;<br>
+ N: MeasureDistance or Number or Term </td>
+</tr>
+
+</table>
+</div>
+<br>
+<br>
+<br>
+<h3>2.4&nbsp;&nbsp;&nbsp;Circle-like objects : </h3>
+<br>
+<div align="center">
+<table width="85%" border="1" frame="void" cellpadding="5">
+<tr>
+ <th width="25%" bgcolor="#00C0FF"> node name </th>
+ <th width="20%" bgcolor="#FFC000"> <i>data type</i> </th>
+ <th rowspan="2" bgcolor="#CFCFCF"> Remarks (Update algorithm) </th>
+</tr>
+<tr>
+ <th colspan="2" bgcolor="#CFCFCF"> ordered list of parents </th>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Circle </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tcircle</i> </td>
+ <td rowspan="2"> A circle with center M, running through P.</td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> M, P: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> BasisCircle </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tcircle</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A BasisCircle object gets its radius from the mouse during creation. Later, you can only move the circle, but not edit its radius. </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> (none) </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> CircleWDR </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tcircle</i> </td>
+ <td rowspan="2"> A CircleWDR object is a "circle with determined radius", so a circle with center M and a radius equal to the value given by N.</td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> M: AnyPoint, N: Number or Term </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> MappedCircle </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tcircle</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> The image of the circle c when mapped by M </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> c: AnyCircle, M: AnyMapping</td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Circle3P </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tcircle</i> </td>
+ <td rowspan="2">  This is a "circle through 3 points". If the 3 points lie in a straight line, the circle's radius is assumed to be infinite and the circle is represented by this straight line. </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> P1, P2, P3: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> CircleTrace </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tcircle</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF">  If all of the points of a locus line t1 lie in a circular line, then a CircleTrace object can be used to represent the locus line. It gets all its data from the parent locus line t1.</td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> t1: Trace </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Arc </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tarc</i> </td>
+ <td rowspan="2"> An arc starting in P1 and running around the center P2 until it reaches the ray P2P3. Normally the arc runs counterclockwise, but if the <i>tarc.direction.inverted</i> attribute is set to <i>true</i> the orientation is reversed.</td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> P1, P2, P3: AnyPoint </td>
+</tr>
+
+</table>
+</div>
+<br>
+<br>
+<br>
+<h3>2.5&nbsp;&nbsp;&nbsp;Curve objects : </h3>
+<br>
+<div align="center">
+<table width="85%" border="1" frame="void" cellpadding="5">
+<tr>
+ <th width="25%" bgcolor="#00C0FF"> node name </th>
+ <th width="20%" bgcolor="#FFC000"> <i>data type</i> </th>
+ <th rowspan="2" bgcolor="#CFCFCF"> Remarks (Update algorithm) </th>
+</tr>
+<tr>
+ <th colspan="2" bgcolor="#CFCFCF"> ordered list of parents </th>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Trace </td>
+ <td align="center" bgcolor="#FFFF00"> <i>ttrace</i> </td>
+ <td rowspan="2"> The "dragging point" D must be a basis point bound to a line, a circle or a polygon. A Trace object represents the locus line on which the "producing point" P moves while (a) the point D is dragged along its carrier line or (b) the number stored in N runs through the whole permitted interval.</td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> (a) D: Point; P: AnyPoint<br>
+ (b) N: Number; P: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> MappedTrace </td>
+ <td align="center" bgcolor="#FFFF00"> <i>ttrace</i> </td>
+ <td rowspan="2"> An image of a trace t1 under the mapping M (that must not be an inversion). </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> t1: Trace; M: AnyMapping (except inversion) </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Graph </td>
+ <td align="center" bgcolor="#FFFF00"> <i>ttrace</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A graph of a function;<br>
+ the function's term is provided in the <nobr>attribute <i>term</i></nobr>.</td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> If the function's term refers any other objects of the drawing, these objects must appear in the <i>parent</i> list.</td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Polygon </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2"> A Polygon object is a closed ring of line segments that joins every parent point with its successor, and the last one (Pn) with the first (P1). </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> P1, P2,....,Pn: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> RegPoly </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tline</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A regular polygon with the segment [P1;P2] as one of the sides. The number n of vertices is set when the object is constructed and stored in the attribute <i>position.vcount</i>. Moving from P1 to P2 will start a way counterclockwise around the regular polygon.</td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> P1, P2: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Conic </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tconic</i> </td>
+ <td rowspan="2"> A conic running through the five points P1 to P5 </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> P1, P2, P3, P4, P5: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> MappedConic </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tconic</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> An image of a conic c under the mapping M (that must not be an inversion). </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> c: Conic; M: AnyMapping (except inversion) </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> EllipseF </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tconic</i> </td>
+ <td rowspan="2"> An ellipse with the focal points F1 and F2 running through P </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> F1, F2, P: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> EllipseS </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tconic</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> An ellipse with centre point M, major vertex V, and a semiminor axis equal to the distance between P and M </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> M, V, P: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> EllipseK </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tconic</i> </td>
+ <td rowspan="2"> An ellipse with centre point M; <nobr>K1 and K2</nobr> are endpoints of conjugated diameters of the ellipse </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> M, K1, K2: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> ParabelF </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tconic</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A parabola with <nobr>focus point F</nobr> and <nobr>directrix g</nobr> </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> F: AnyPoint, g: Line </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> ParabelT </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tconic</i> </td>
+ <td rowspan="2"> A parabola running through the points P1 and P2 in a direction parallel <nobr>to g1 resp. g2</nobr>; </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> P1, P2: AnyPoint; g1, g2: AnyLine </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> HyperbelF </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tconic</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A hyperbola with the <nobr>focus points F1 and F2</nobr>, running through <nobr>the point P</nobr> </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> F1, F2, P: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> HyperbelA </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tconic</i> </td>
+ <td rowspan="2"> A hyperbola with the <nobr>asymptotes g1 and g2</nobr>, running through <nobr>the point P</nobr> </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> g1, g2: AnyLine; P: AnyPoint </td>
+</tr>
+
+</table>
+</div>
+<br>
+<br>
+<br>
+<h3>2.6&nbsp;&nbsp;&nbsp;Numerical objects : </h3>
+<br>
+<div align="center">
+<table width="85%" border="1" frame="void" cellpadding="5">
+<tr>
+ <th width="25%" bgcolor="#00C0FF"> node name </th>
+ <th width="20%" bgcolor="#FFC000"> <i>data type</i> </th>
+ <th rowspan="2" bgcolor="#CFCFCF"> Remarks (Update algorithm) </th>
+</tr>
+<tr>
+ <th colspan="2" bgcolor="#CFCFCF"> ordered list of parents </th>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> MeasureDistance </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tmeasure</i> </td>
+ <td rowspan="2"> A MeasureDistance object connects its 2 parent objects by a dotted line and shows their distance. </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> G1, G2: AnyPoint or AnyLine </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> MeasureAngle </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tmeasure</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A MeasureAngle object shows the width of the angle A. </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> A: Angle </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> MeasureArea </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tmeasure</i> </td>
+ <td rowspan="2"> A MeasureAera object shows the size of the area A resp. the size of the area inside the closed curve C. If C is an arc, the area of the corresponding circular sector is shown.</td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> A: Angle or C: AnyCircle or AnyConic</td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Number </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tnumber</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A Number object stores a numerical value <i>tnumber.value.actual</i> that can be adjusted between <i>tnumber.value.min</i> and <i>tnumber.value.max</i> by the user with the help of a slider. </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> (none) </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Term </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tterm</i> </td>
+ <td rowspan="2"> A Term object holds an expression and delivers its actual value. It is updated by recalculating the stored expression. </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> If the stored expression refers to other objects of the drawing, these objects must be listed in the <i>parent</i> list. </td>
+</tr>
+</table>
+</div>
+<br>
+<br>
+<br>
+<h3>2.7&nbsp;&nbsp;&nbsp;Decorative objects : </h3>
+<br>
+<div align="center">
+<table width="85%" border="1" frame="void" cellpadding="5">
+<tr>
+ <th width="25%" bgcolor="#00C0FF"> node name </th>
+ <th width="20%" bgcolor="#FFC000"> <i>data type</i> </th>
+ <th rowspan="2" bgcolor="#CFCFCF"> Remarks (Update algorithm) </th>
+</tr>
+<tr>
+ <th colspan="2" bgcolor="#CFCFCF"> ordered list of parents </th>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Angle </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tangle</i> </td>
+ <td rowspan="2"> An Angle object marks an angle given by three points: P1 lies on the first side of the angle, P2 is the angle's vertex, P3 lies on the second side. The angle is marked with a small arc with radius <i>tangle.line.radius</i>. Normally, the angle is orientated counterclockwise, but if <i>tangle.line.reversed</i> is "true" the orientation is reversed.</td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> P1, P2, P3: AnyPoint </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Area </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tarea</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> (a) Area objects are used to fill regions surrounded by a closed border line B.<br>
+ (b) If there are several border lines, the filled regions are combined in the way the characters in the string <i>tarea.operators</i> describe: "*" stands for an intersection, "-" for a subtraction. </td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> (a) B: Polygon or AnyCircle or AnyLine<br>
+ (b) B1, B2,...,Bn: Polygon or AnyCircle or AnyLine</td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> IntArea </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tarea</i> </td>
+ <td rowspan="2"> An IntArea object marks the integral area under the graph f1 in the interval [x1, x2] where x1 = x(P1) and x2 = x(P2). Either the area is closed by the x-axis, or it is closed by another graph f2.</td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> (a) f1: Graph; P1, P2: AnyPoint<br>
+ (b) f1: Graph; P1, P2: AnyPoint; f2: Graph </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> RiemannArea </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tarea</i> </td>
+ <td rowspan="2"> A RiemannArea object marks an approximation for the integral area under the graph f1 in the interval [x1, x2] by a series of n equally spaced rectangular columns. You can choose between 2 flavours: "lowersum" or "uppersum".</td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> f1: Graph; P1, P2: AnyPoint;<br>
+  n: an integer term</td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> ObjectName </td>
+ <td align="center" bgcolor="#FFFF00"> <i>ttextobj</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A small text field that shows the name of G. It will follow its parent object G. Dragging the text field with the mouse will affect its position relative to G.</td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> G: AnyObject </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Textbox </td>
+ <td align="center" bgcolor="#FFFF00"> <i>ttextobj</i> </td>
+ <td rowspan="2"> A text box that holds any user-defined text. (a) The text box can be moved by the mouse. (b) You can bind the textbox to any object P. Then if P moves, the text box moves with it. Dragging the text box with the mouse will affect its position relative to P. </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> (a) (none)<br>
+ (b) P: AnyObject </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> Picture </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tpicture</i> </td>
+ <td rowspan="2" bgcolor="#EFEFEF"> A background picture. It can be moved and resized with the mouse.</td>
+</tr>
+<tr>
+ <td colspan="2" bgcolor="#EFEFEF" align="center"> (none) </td>
+</tr>
+
+<tr>
+ <td align="center" bgcolor="#00FFFF"> MappedPicture </td>
+ <td align="center" bgcolor="#FFFF00"> <i>tpicture</i> </td>
+ <td rowspan="2"> An image of a Picture Img1 under the mapping M (that must not be an inversion). </td>
+</tr>
+<tr>
+ <td colspan="2" align="center"> Img1: Picture; M: AnyMapping (except inversion) </td>
+</tr>
+</table>
+</div>
+<br>
+<br>
+<br>
+
+<br>
+<h2>3&nbsp;&nbsp;&nbsp;Final remarks</h2>
+Though I tried my best do give a correct and comprehensive description of the DynaGeo objects, there may be faults and gaps. If anyone uses any information contained herein, he will do so on his own risk. To allow further improvements, I reserve the right to alter and expand the DynaGeo XML file format without prior notice. <br>
+<br>
+<br>
+<br>
+<hr noshade size="3">
+<br>
+<font size="-1">(c) 2005/2008  Roland Mechling</font>
+</font>
+</body>
+</html>

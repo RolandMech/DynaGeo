@@ -1,0 +1,138 @@
+body {
+	color: black; font-family: Arial, sans-serif; font-size: 10pt; font-weight: normal; background-color: white;
+}
+.Href {
+	color: green; font-family: Arial, sans-serif; font-size: 10pt; font-weight: normal; text-decoration: underline;
+}
+p {
+	text-align: justify; color: black; font-family: Arial, sans-serif; font-size: 10pt;
+}
+dl {
+	text-align: justify; color: black; font-family: Arial, sans-serif; font-size: 10pt; font-weight: normal;
+}
+dt {
+	text-align: justify; color: green; font-family: Arial, sans-serif; font-size: 10pt; font-weight: bold;
+}
+dt.NormRef {
+	text-align: justify; color: red; font-family: Arial, sans-serif; font-size: 10pt; font-weight: bold;
+}
+dd {
+	text-align: justify; color: black; font-family: Arial, sans-serif; font-size: 10pt; font-weight: normal; margin-left: 12pt;
+}
+p.Annex {
+	text-align: center; color: black; font-family: Arial, sans-serif; font-size: 10pt;
+}
+p.Parameters {
+	text-align: justify; color: green; font-family: Arial, sans-serif; font-size: 10pt;
+}
+p.Parameterlist {
+	text-align: justify; color: black; font-family: Arial, sans-serif; font-size: 10pt; margin-left: 10pt;
+}
+p.Description {
+	text-align: justify; color: green; font-family: Arial, sans-serif; font-size: 10pt;
+}
+p.Descriptionpara {
+	text-align: justify; color: black; font-family: Arial, sans-serif; font-size: 10pt;
+}
+p.NormRefDef {
+	text-align: justify; color: black; font-family: Arial, sans-serif; font-size: 10pt; font-weight: normal;
+}
+p.References {
+	text-align: justify; color: green; font-family: Arial, sans-serif; font-size: 10pt;
+}
+p.Referencelist {
+	text-align: justify; color: black; font-family: Arial, sans-serif; font-size: 10pt; margin-left: 10pt;
+}
+p.Reference {
+	text-align: justify; color: black; font-family: Arial, sans-serif; font-size: 10pt; font-style: italic;
+}
+p.CoverRight {
+	text-align: right; color: black; font-family: Arial, sans-serif; font-size: 12pt; font-weight: bold;
+}
+p.CoverLeft {
+	text-align: left; color: black; font-family: Arial, sans-serif; font-size: 10pt; font-weight: bold;
+}
+p.CoverTitle {
+	text-align: left; color: black; font-family: Arial, sans-serif; font-size: 14pt; font-weight: bold;
+}
+ul {
+	text-align: justify; color: black; font-family: Arial, sans-serif; font-size: 10pt;
+}
+ol {
+	text-align: justify; color: black; font-family: Arial, sans-serif; font-size: 10pt; list-style-type: lower-alpha;
+}
+li.Contents {
+	text-align: left; color: black; font-family: Arial, sans-serif; font-size: 10pt; font-weight: bold;
+}
+li {
+	text-align: justify; color: black; font-family: Arial, sans-serif; font-size: 10pt;
+}
+div.pagethrow {
+	page-break-before: always;
+}
+h1 {
+	text-align: justify; color: blue; font-family: Arial, sans-serif; font-size: 14pt; font-weight: bold;
+}
+h1.Annex {
+	text-align: center; color: black; font-family: Arial, sans-serif; font-size: 14pt; font-weight: bold;
+}
+h2 {
+	text-align: justify; color: red; font-family: Arial, sans-serif; font-size: 12pt; font-weight: bold;
+}
+h3 {
+	text-align: justify; color: black; font-family: Arial, sans-serif; font-size: 10pt; font-weight: bold;
+}
+h4 {
+	text-align: justify; color: black; font-family: Arial, sans-serif; font-size: 10pt; font-weight: bold;
+}
+h5 {
+	text-align: justify; color: black; font-family: Arial, sans-serif; font-size: 10pt; font-weight: normal;
+}
+p.Figuretitle {
+	text-align: center; color: black; line-height: 11pt; font-family: Arial, sans-serif; font-size: 10pt; font-weight: bold;
+}
+p.Equationtitle {
+	text-align: center; color: black; line-height: 11pt; font-family: Arial, sans-serif; font-size: 10pt; font-weight: bold;
+}
+p.Equationcentre {
+	text-align: center; color: black; line-height: 11pt; font-family: Arial, sans-serif; font-size: 10pt;
+}
+p.Tabletitle {
+	text-align: center; color: red; font-family: Arial, sans-serif; font-size: 10pt; font-weight: bold;
+}
+p.Note {
+	text-align: justify; color: maroon; font-family: Arial, sans-serif; font-size: 8pt;
+}
+span.chunk {
+	color: purple; font-family: Courier; font-size: 10pt; font-weight: bold;
+}
+span.Definition {
+	color: green; font-style: italic;
+}
+span.xref {
+	color: blue;
+}
+span.NormRef {
+	color: red;
+}
+span.bibref {
+	color: green;
+}
+table.Regular {
+	border: 1px solid black; color: black; font-family: Arial, sans-serif; font-size: 10pt; margin-top: 4pt; border-collapse: collapse;
+}
+table.ISTitle {
+	color: black; font-family: Arial, sans-serif; font-size: 14pt; font-weight: bold;
+}
+td.ISTitle {
+	color: black; font-family: Arial, sans-serif; font-size: 10pt;
+}
+td.Regular {
+	padding: 2pt; border: 1px solid black; color: black; font-family: Arial, sans-serif; font-size: 10pt; vertical-align: top;
+}
+th {
+	padding: 2pt; border: 1px solid black; color: green; font-family: Arial, sans-serif; font-size: 10pt; vertical-align: top;
+}
+pre {
+	color: black; font-size: 10pt;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Why ActiveX and not JAVA?</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="DynaGeoX">
+        <PARAM NAME="Keyword" VALUE="JAVA">
+        <PARAM NAME="Keyword" VALUE="HTML">
+        <PARAM NAME="Keyword" VALUE="ActiveX">
+</OBJECT>
+
+<A NAME="idh_dgx_nojava"></A>
+
+<H2>DynaGeoX: Why ActiveX and not JAVA?</H2>
+<HR>
+
+<P>Most often JAVA applets are used to display "active contents" in the internet. But EUKLID DynaGeo is a genuine <B>WINDOWS program</B> written with BORLAND Delphi in Object Pascal. Porting the sources to JAVA would be a rather big task, and a lot of the WINDOWS luxuries would be lost. So I decided to use Microsoft's ActiveX technology for the DynaGeoX-Viewer not least because Delphi offers a (relatively) easy access to ActiveX.</P>
+
+<P>HTML pages with active objects are always a rather severe security risk. To reduce this problem, JAVA implements the "sandbox": it defines what an active object is allowed to do on your computer and what is forbidden. Unfortunately, Microsoft didn't implement an equivalent solution for ActiveX to limit the abilities of the active objects on the local host. Though the sandbox technology suffers from hidden weakness too, one must admit that the risks of ActiveX components are by far greater than that of JAVA applets because ActiveX components can do all what every normal local program can do on the client computer - it may even try to format your hard disk! So the user depends on the programmer of the ActiveX component having taken appropriate precautions. (Let's hope he was able to do this!)</P>
+
+<P>And all the <B>certification stuff</B> set in scene by MS does not change the situation significantly. The programmer has to put some work (and money) into signing his component with a certificate that persuades the Internet Explorer to install the ActiveX component if required. But no certificate can protect the user from the need to trust the programmer of the ActiveX component! If he does not, he'd better not install the component. </P>
+<br>
+
+<P><B>Is there no good side to ActiveX at all?</B></P>
+
+<P>There <b>is</b> an advantage of ActiveX over JAVA:<BR>
+While a JAVA applet must be downloaded every time you browse to a page that uses it, an ActiveX component is downloaded once and then remains installed on your client computer. So you save a lot of download time! Additionally, ActiveX components tend to run faster than equivalent JAVA applets.</P>
+
+<P>
+<br>
+<br>
+<h3>Hint:</h3></P>
+
+<P><ul>Even if after reading this you are filled with deep distrust of ActiveX, you still can reach the goal of dynamic drawings in HTML documents by using the JAVA tool GEOMETRIA by Timo Ehmke instead of DynaGeoX.</ul></P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

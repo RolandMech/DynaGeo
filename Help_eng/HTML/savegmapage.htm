@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Save as Geometria HTML page</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="file">
+        <PARAM NAME="Keyword" VALUE="drawing">
+        <PARAM NAME="Keyword" VALUE="save">
+        <PARAM NAME="Keyword" VALUE="export">
+</OBJECT>
+
+<A NAME="idh_cm_savegmahtml"></A>
+
+<H2>File | Save as Geometria HTML Page...</H2>
+<HR>
+
+<P>This commands allows to <B>export a drawing to a Geometria HTML document</B>. When you load this document into any JAVA enabled browser, then the JAVA applet <B>Geometria</B> by Timo Ehmke will show your dynamic drawing inside the HTML page.</P>
+
+<p><font color="#FF0000"><b>Please notice:</b></font>
+<ul>The JAVA program "geometria.jar" is <b>not</b> included with EUKLID DynaGeo! It is freely available to all users from the <a href="http://www.geometria.de/">Geometria Homepage</a>. If you download the program and copy "geometria.jar" to the sub-directory "Viewer" of your EUKLID DynaGeo directory, you are prepared to perform the Geometria export in a comfortable way.</ul></p>
+
+<br>
+<P>Choosing this command will open a dialog box where you can enter the options of the new HTML page:</P>
+
+<UL>
+        <LI><B>Target path for the HTML file:<BR>
+</B>Initially this field shows the full path to your current drawing, but with the extension "<i>.html</i>" instead of "<i>.geo</i>". You can edit this path as you like, but the extension needs to be "<i>.html</i>" (oder "<i>.htm</i>").<BR>
+<BR><BR></LI>
+
+        <LI><B>Copy "geometria.jar" to the target directory:</B><BR>
+This checkbox is activ only if the sub-directory "Viewer" of your EUKLID DynaGeo directory contains a copy of the file "geometria.jar".<br>
+<br>
+If you check this box, EUKLID DynaGeo will copy "geometria.jar" into the target directory, if necessary. When you leave this box unchecked, you must copy this file manually. <BR>
+<BR><BR></LI>
+
+        <LI><B>Text above the Geoemtria object:<BR>
+</B>Here you can enter any desired text. Hard line breaks (by pressing <i>ENTER</i>) are automatically converted to HTML breaks (”&lt;br&gt;”). If you use HTML tags to format your text, these tags will be preserved.<BR>
+<BR><BR></LI>
+
+
+        <LI><B>Viewer window:<BR>
+</B>Here you can adjust the width and height (in pixels) of the Viewer window. <BR>
+<BR><BR></LI>
+
+        <li><b>Style:</b><br>
+Here you decide in which style the drawing will be presented: you can choose between a "DynaGeo style" or a "Geometria style".<br>
+<br><br></li>
+
+        <LI><B>Author's name:<BR>
+</B>Whatever you enter here will be written to an appropriate "META" tag in the "HEAD" section of your HTML document. If you leave this field empty, then no such "META" tag will be created. But if you want to publish your document in the Internet it's a matter of "netiquette" to sign it with your name. <br>
+</LI>
+</UL>
+<br>
+<P>When all options have been set to the desired values, a click on the button <I>Save</I> will create two files in the target directory:
+<OL>
+        <LI>a <i>HTML</i> file containing a complete HTML page with a Geometria object tag;<BR><BR></LI>
+
+        <LI>a <i>SCRIPT</i> file containing the drawing data in Geometria format;<BR><BR></LI>
+
+        <li>a <i>STYLE</i> file containing the presentation details.</li>
+</OL>
+The last two files carry the same name as the HTML file, but there extensions are "<i>.script</i>" and "<i>.style</i>" instead of "<i>.html</i>". If possible and desired, a copy of "geometria.jar" is written to the destination directory too.</p>
+<br>
+<p>Never use another <b>STYLE file</b> but the one created by EUKLID DynaGeo! The size of the applet window is written to the STYLE file as well as to the &lt;APPLET&gt; tag in the HTML file. The easiest way to keep the corresponding values synchronized is to leave the whole job to EUKLID DynaGeo.</p>
+
+
+<br>
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="dynworksheets.htm">How to produce dynamic worksheets</a></li>
+<li><a href="geometria.htm">Geometria - the JAVA way</a></li>
+<li><a href="savedgxpage.htm">Save as DynaGeoX HTML page...</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

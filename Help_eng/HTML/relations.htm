@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Relations between EUKLID DynaGeo objects</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="relation">
+</OBJECT>
+
+<A NAME="idh_relativities"></A>
+
+<H2>Relations between EUKLID DynaGeo objects</H2>
+<HR>
+
+<P>The following explanation is not essential for the normal use of EUKLID DynaGeo. It may however give you a small view of the data structures used, to give you a chance to understand the situation when the program behaviour deviates from what you expected. Also the causes for some of the limitations of the EUKLID DynaGeo program may become clear by studying this section.</P>
+
+<P>The geometrical objects used in the EUKLID DynaGeo program have various relationships with each other. The most important and often used one is the <b>parent-child relationship</b>. If for example, on a segment with the end points P<sub>1</sub> and P<sub>2</sub> a perpendicular bisector m<sub>s</sub> is constructed, then the position of the bisector is uniquely defined by the points P<sub>1</sub> and P<sub>2</sub>. These two points are therefore called the parents of the perpendicular bisector m<sub>s</sub>, and m<sub>s</sub> itself is the child of the two points P<sub>1</sub> and P<sub>2</sub>.</P>
+
+<P>Obviously, children can also produce children, so that a family-tree-like structure of geometrical objects can be built up. In addition to this <b>normal descent</b>, there is also <b>adoption</b>: when a point is bound (snapped) to a line, then the point becomes a child of that line, and the line becomes a parent of the point.</P>
+
+<P>The peace of this beautifully clear, but strictly hierarchical family tree, is severely disturbed through introduction of line segments with a fixed length. The endpoints of such segments should react equally to manipulation. When however one endpoint is dragged, then the other must be dragged after it at the other end of the
+segment. It becomes practically a child of the dragged endpoint, which in turn, takes the parent role. If however you have dragged the other end of the segment, the parent and child roles are reversed. This reciprocal relationship
+of such points is called <b>friendship</b> within EUKLID DynaGeo. Among (real) <b>friends</b> he decides who can best, under the prevailing conditions.</P>
+
+<P>Thus an EUKLID DynaGeo object can have parents, children and friends. In order that no senseless <b>circular relationships</b> can develop with objects, where for example one point could be its own grandfather (and at the same time its own grandchild!), the process of adoption must be strictly limited. Thus a point can never be bound to a line that was born from that point. Additionally, the line may not even have been born from a friend of the point to be bound, while otherwise, at least at times, a circular relationship could be formed. (Depending for example, on which <A HREF="JavaScript:HHCTRL.TextPopup(pop_baseobj,popfont,10,10,-1,-1)" Title="Click to see a definition!">basis object</A> you drag).</P>
+
+<P>With this protective mechanism in place, it should be guaranteed that the family tree of the geometrical objects never shows a circular relationship. But if it does, this can lead to cases of harmless, (but annoying) <b>false interpretation</b> of line segments with a fixed length, which apparently forget their fixed length when being dragged. In the worst case, EUKLID DynaGeo runs in a recursive loop, which cannot be broken, and ends with a total hang up of the program. Unfortunately, you can never be sure if the brain of the programmer has worked out to prevent circular relationships in all cases. If, whilst dragging in your drawing, a point should become loose from its line segment, then it is quite likely that you have succeeded in fooling the internal protection against circular relationships.</P>
+
+<P>Unfortunately the protection against circular reference makes it impossible to create a <b>closed loop</b> of line segments of fixed length. So you can only construct a triangle from 3 sides of fixed length by using circles with fixed radii. But then, at least one vertex of the triangle is not a basis point and so cannot be dragged.</P>
+
+<p>EUKLID DynaGeo is always trying to keep track of the object's family tree. So it assures that the parents are always there <b>before</b> the children. This may seen trivial, but when you snap a point to a line, it can be necessary to rearrange the order of the objects. So don't be surprised if the sequence of your drawing's objects in the construction text changes. </p>
+
+<P>Not all of the EUKLID DynaGeo objects are "fertile". Normal locus lines and polygons never have children: you cannot intersect them with other lines. But you can bind a point to them, so at least they can serve as adoptive parents. And if all of the points of a locus line lie on a straight line or a circle, it can be converted to a "real object" that can be re-used in the drawing. For details see the page about <nobr><a href="olinestandard.htm">Standard locus lines</a></nobr>. </P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

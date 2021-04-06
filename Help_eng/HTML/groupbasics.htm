@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>About grouping objects</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="object">
+        <PARAM NAME="Keyword" VALUE="group">
+        <PARAM NAME="Keyword" VALUE="basics">
+</OBJECT>
+
+<A NAME="idh_GroupBasics"></A>
+
+<H2>About grouping objects</H2>
+<HR>
+
+<P>A new drawing contains no groups. With the menu command "View | Gather objects in groups..." you open a submenu that contains at least the menu item <b>"Create a new group"</b>. When you activate this command, a dialogue appears where you can give a <b>name</b> to the new group. Additionally, you must define which way the decision about the visibility of the group's objects will be reached. There are 2 sorts of visibility groups:<br>
+<ul>
+<li>For <b>static groups</b> <u>you</u> decide during the definition of the group whether their objects will be shown or not. This decision may later be revised by an appropriate action of the user. So you decide only about the initial visibility of the group's objects.<br>
+<br></li>
+<li>For <b>dynamic groups</b> you have to create a <u>visibility condition</u>: if the condition is true then the objects area shown, if not, then they are hidden. The condition is a boolean term which may contain comparisons of measures taken from the drawing.</li>
+</ul>
+The button "Add / remove objects" closes this dialogue and opens a new window in the upper left corner. This window allows you to <b>select the objects</b> that should be added to the group. If you click on an object, it begins to blink. All blinking objects belong to the group. If you click on one of the blinking obejcts, it stops blinking and is revoked from the group. When you click the window's "Okay"-button, all the blinking objects are put into the group, the window is closed and the visibility of the group's objects is set according to your previously entered decision. </p>
+<br>
+
+<p>After the creation of the new group, the user interface is updated:<br>
+<ul>
+<li>To the <b>submenu</b> of "View | Put objects into groups..." a <b>new menu item</b> is added, which shows the <b>name of the new group</b>. A click on this new item opens the above dialogue, which is now initialized with the data of this group. <br>
+<br></li>
+<li>Additionally in the lower right corner of the <b>status bar</b> appears a small square that symbolizes the group. If you created several groups then several such <b>group symbols</b> will show up. If you hold the mouse pointer on such a symbol, the name of the corresponding group is shown - so you can find out which symbol belongs to which group.</li>
+</ul></p>
+
+<p>A click with the <b>left mouse button</b> on the symbol of a static group toggles its visibility. If the group is visible, then the symbol shows a black square; is the group is switched to "not visible", the symbol shows a white square. Dynamic groups have a gray square symbol. In this case, the mouse click has no effect at all: it's the condition entered before that decides about the visibility.</P>
+
+<P>There is no command to <b>delete</b> a group. If you want to get rid of a previously created group,  just remove all objects from the group: empty groups are automatically deleted - after an appropriate warning. </P>
+
+<p>If an object belongs to <b>several groups</b> at the same time, it will be shown if at least one of the groups is set to visible. The composed visibility is calculated by combining the single visibilities with a logical "<b>or</b>".</p>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

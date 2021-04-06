@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\AssAffAbb_2e.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\AssAffAbb_2e.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715046296</prop>
+        <prop prop-type="OrigDateTime">40248.4755324074</prop>
+        <prop prop-type="XlatDateTime">39029.8553009259</prop>
+        <prop prop-type="Translated">13</prop>
+        <prop prop-type="UnTranslated">217</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:AffAbb_2e_Dlg.Caption" resname="I:AffAbb_2e_Dlg.Caption">
+        <source>'Festlegen einer affinen Abbildung durch eine Matrix'</source>
+        <target>'Defining a general affinity by a matrix'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">1</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TAffAbb_2e_Dlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.ClientWidth" resname="I:AffAbb_2e_Dlg.ClientWidth">
+        <source>430</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TAffAbb_2e_Dlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.PixelsPerInch" resname="I:AffAbb_2e_Dlg.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TAffAbb_2e_Dlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.TextHeight" resname="I:AffAbb_2e_Dlg.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TAffAbb_2e_Dlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label2.Caption" resname="I:AffAbb_2e_Dlg.I:Label2.Caption">
+        <source>'Zur Festlegung einer Affinität durch eine Abbildungs-Matrix geben Sie bitte die folgenden 6 Koeffizienten ein:'</source>
+        <target>'To define a general affinity by a matrix, just enter the following 6 coefficients:'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">1</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label3.Left" resname="I:AffAbb_2e_Dlg.I:Label3.Left">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label3.Top" resname="I:AffAbb_2e_Dlg.I:Label3.Top">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label3.Width" resname="I:AffAbb_2e_Dlg.I:Label3.Width">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label3.Height" resname="I:AffAbb_2e_Dlg.I:Label3.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label3.AutoSize" resname="I:AffAbb_2e_Dlg.I:Label3.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label3.Caption" resname="I:AffAbb_2e_Dlg.I:Label3.Caption">
+        <source>'('</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">1</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label3.Font.Height" resname="I:AffAbb_2e_Dlg.I:Label3.Font.Height">
+        <source>-27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label3.Font.Name" resname="I:AffAbb_2e_Dlg.I:Label3.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label3.Font.Style" resname="I:AffAbb_2e_Dlg.I:Label3.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label3.ExplicitLeft" resname="I:AffAbb_2e_Dlg.I:Label3.ExplicitLeft">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458311574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label3.ExplicitTop" resname="I:AffAbb_2e_Dlg.I:Label3.ExplicitTop">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458311574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label3.ExplicitWidth" resname="I:AffAbb_2e_Dlg.I:Label3.ExplicitWidth">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458311574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label3.ExplicitHeight" resname="I:AffAbb_2e_Dlg.I:Label3.ExplicitHeight">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458311574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label1.Left" resname="I:AffAbb_2e_Dlg.O:Label1.Left">
+        <source>56</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TLabel [3]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label1.Top" resname="I:AffAbb_2e_Dlg.O:Label1.Top">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLabel [3]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label1.Width" resname="I:AffAbb_2e_Dlg.O:Label1.Width">
+        <source>34</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLabel [3]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label1.Height" resname="I:AffAbb_2e_Dlg.O:Label1.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLabel [3]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label1.Caption" resname="I:AffAbb_2e_Dlg.O:Label1.Caption">
+        <source>')=('</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">1</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLabel [3]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label1.Font.Charset" resname="I:AffAbb_2e_Dlg.O:Label1.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel [3]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label1.Font.Color" resname="I:AffAbb_2e_Dlg.O:Label1.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLabel [3]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label1.Font.Height" resname="I:AffAbb_2e_Dlg.O:Label1.Font.Height">
+        <source>-27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel [3]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label1.Font.Name" resname="I:AffAbb_2e_Dlg.O:Label1.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLabel [3]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label1.Font.Style" resname="I:AffAbb_2e_Dlg.O:Label1.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel [3]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label1.ParentFont" resname="I:AffAbb_2e_Dlg.O:Label1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel [3]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label7.Left" resname="I:AffAbb_2e_Dlg.O:Label7.Left">
+        <source>232</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel [4]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label7.Top" resname="I:AffAbb_2e_Dlg.O:Label7.Top">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel [4]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label7.Width" resname="I:AffAbb_2e_Dlg.O:Label7.Width">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLabel [4]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label7.Height" resname="I:AffAbb_2e_Dlg.O:Label7.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel [4]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label7.Caption" resname="I:AffAbb_2e_Dlg.O:Label7.Caption">
+        <source>' )('</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">1</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLabel [4]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label7.Font.Charset" resname="I:AffAbb_2e_Dlg.O:Label7.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLabel [4]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label7.Font.Color" resname="I:AffAbb_2e_Dlg.O:Label7.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel [4]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label7.Font.Height" resname="I:AffAbb_2e_Dlg.O:Label7.Font.Height">
+        <source>-27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLabel [4]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label7.Font.Name" resname="I:AffAbb_2e_Dlg.O:Label7.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLabel [4]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label7.Font.Style" resname="I:AffAbb_2e_Dlg.O:Label7.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLabel [4]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label7.ParentFont" resname="I:AffAbb_2e_Dlg.O:Label7.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLabel [4]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label9.Left" resname="I:AffAbb_2e_Dlg.O:Label9.Left">
+        <source>280</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLabel [5]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label9.Top" resname="I:AffAbb_2e_Dlg.O:Label9.Top">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TLabel [5]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label9.Width" resname="I:AffAbb_2e_Dlg.O:Label9.Width">
+        <source>34</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TLabel [5]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label9.Height" resname="I:AffAbb_2e_Dlg.O:Label9.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TLabel [5]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label9.Caption" resname="I:AffAbb_2e_Dlg.O:Label9.Caption">
+        <source>')+('</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">1</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TLabel [5]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label9.Font.Charset" resname="I:AffAbb_2e_Dlg.O:Label9.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLabel [5]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label9.Font.Color" resname="I:AffAbb_2e_Dlg.O:Label9.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TLabel [5]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label9.Font.Height" resname="I:AffAbb_2e_Dlg.O:Label9.Font.Height">
+        <source>-27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TLabel [5]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label9.Font.Name" resname="I:AffAbb_2e_Dlg.O:Label9.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TLabel [5]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label9.Font.Style" resname="I:AffAbb_2e_Dlg.O:Label9.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TLabel [5]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label9.ParentFont" resname="I:AffAbb_2e_Dlg.O:Label9.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TLabel [5]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label10.Left" resname="I:AffAbb_2e_Dlg.O:Label10.Left">
+        <source>392</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TLabel [6]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label10.Top" resname="I:AffAbb_2e_Dlg.O:Label10.Top">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TLabel [6]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label10.Width" resname="I:AffAbb_2e_Dlg.O:Label10.Width">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TLabel [6]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label10.Height" resname="I:AffAbb_2e_Dlg.O:Label10.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TLabel [6]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label10.Caption" resname="I:AffAbb_2e_Dlg.O:Label10.Caption">
+        <source>')'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">1</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TLabel [6]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label10.Font.Charset" resname="I:AffAbb_2e_Dlg.O:Label10.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TLabel [6]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label10.Font.Color" resname="I:AffAbb_2e_Dlg.O:Label10.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TLabel [6]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label10.Font.Height" resname="I:AffAbb_2e_Dlg.O:Label10.Font.Height">
+        <source>-27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TLabel [6]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label10.Font.Name" resname="I:AffAbb_2e_Dlg.O:Label10.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TLabel [6]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label10.Font.Style" resname="I:AffAbb_2e_Dlg.O:Label10.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TLabel [6]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label10.ParentFont" resname="I:AffAbb_2e_Dlg.O:Label10.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TLabel [6]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label11.Left" resname="I:AffAbb_2e_Dlg.O:Label11.Left">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TLabel [7]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label11.Top" resname="I:AffAbb_2e_Dlg.O:Label11.Top">
+        <source>216</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TLabel [7]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label11.Width" resname="I:AffAbb_2e_Dlg.O:Label11.Width">
+        <source>289</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TLabel [7]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label11.Height" resname="I:AffAbb_2e_Dlg.O:Label11.Height">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TLabel [7]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label11.AutoSize" resname="I:AffAbb_2e_Dlg.O:Label11.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TLabel [7]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label11.Caption" resname="I:AffAbb_2e_Dlg.O:Label11.Caption">
+        <source>'Die 6 Koeffizienten können Konstanten sein, aber auch Terme, die Referenzen auf andere Objekte der Zeichnung enthalten.'</source>
+        <target>'The 6 coefficients can be constant values, but expressions with references to other objects in the construction are also allowed.'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">1</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TLabel [7]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label11.Font.Charset" resname="I:AffAbb_2e_Dlg.O:Label11.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374672569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TLabel [7]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label11.Font.Color" resname="I:AffAbb_2e_Dlg.O:Label11.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TLabel [7]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label11.Font.Height" resname="I:AffAbb_2e_Dlg.O:Label11.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TLabel [7]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label11.Font.Name" resname="I:AffAbb_2e_Dlg.O:Label11.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TLabel [7]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label11.Font.Style" resname="I:AffAbb_2e_Dlg.O:Label11.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TLabel [7]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label11.ParentFont" resname="I:AffAbb_2e_Dlg.O:Label11.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TLabel [7]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label11.WordWrap" resname="I:AffAbb_2e_Dlg.O:Label11.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TLabel [7]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label12.Left" resname="I:AffAbb_2e_Dlg.O:Label12.Left">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TLabel [8]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label12.Top" resname="I:AffAbb_2e_Dlg.O:Label12.Top">
+        <source>304</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TLabel [8]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label12.Width" resname="I:AffAbb_2e_Dlg.O:Label12.Width">
+        <source>289</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TLabel [8]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label12.Height" resname="I:AffAbb_2e_Dlg.O:Label12.Height">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TLabel [8]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label12.AutoSize" resname="I:AffAbb_2e_Dlg.O:Label12.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TLabel [8]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label12.Caption" resname="I:AffAbb_2e_Dlg.O:Label12.Caption">
+        <source>'Der "Weiter"-Knopf ist nur aktiviert, wenn alle 6 Koeffizienten gültige Konstanten oder Terme enthalten.'</source>
+        <target>'The "Next" button is only activated after you entered valid constants or terms for all of the 6 coefficients.'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">1</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TLabel [8]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label12.Font.Charset" resname="I:AffAbb_2e_Dlg.O:Label12.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TLabel [8]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label12.Font.Color" resname="I:AffAbb_2e_Dlg.O:Label12.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TLabel [8]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label12.Font.Height" resname="I:AffAbb_2e_Dlg.O:Label12.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TLabel [8]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label12.Font.Name" resname="I:AffAbb_2e_Dlg.O:Label12.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TLabel [8]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label12.Font.Style" resname="I:AffAbb_2e_Dlg.O:Label12.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TLabel [8]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label12.ParentFont" resname="I:AffAbb_2e_Dlg.O:Label12.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TLabel [8]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label12.WordWrap" resname="I:AffAbb_2e_Dlg.O:Label12.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TLabel [8]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label8.Left" resname="I:AffAbb_2e_Dlg.O:Label8.Left">
+        <source>264</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TLabel [9]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label8.Top" resname="I:AffAbb_2e_Dlg.O:Label8.Top">
+        <source>152</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TLabel [9]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label8.Width" resname="I:AffAbb_2e_Dlg.O:Label8.Width">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TLabel [9]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label8.Height" resname="I:AffAbb_2e_Dlg.O:Label8.Height">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TLabel [9]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label8.Caption" resname="I:AffAbb_2e_Dlg.O:Label8.Caption">
+        <source>'y'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">1</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TLabel [9]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label8.Font.Charset" resname="I:AffAbb_2e_Dlg.O:Label8.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TLabel [9]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label8.Font.Color" resname="I:AffAbb_2e_Dlg.O:Label8.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TLabel [9]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label8.Font.Height" resname="I:AffAbb_2e_Dlg.O:Label8.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TLabel [9]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label8.Font.Name" resname="I:AffAbb_2e_Dlg.O:Label8.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TLabel [9]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label8.Font.Style" resname="I:AffAbb_2e_Dlg.O:Label8.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TLabel [9]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label8.ParentFont" resname="I:AffAbb_2e_Dlg.O:Label8.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TLabel [9]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label8.WordWrap" resname="I:AffAbb_2e_Dlg.O:Label8.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TLabel [9]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label6.Left" resname="I:AffAbb_2e_Dlg.O:Label6.Left">
+        <source>264</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TLabel [10]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label6.Top" resname="I:AffAbb_2e_Dlg.O:Label6.Top">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TLabel [10]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label6.Width" resname="I:AffAbb_2e_Dlg.O:Label6.Width">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TLabel [10]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label6.Height" resname="I:AffAbb_2e_Dlg.O:Label6.Height">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TLabel [10]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label6.Caption" resname="I:AffAbb_2e_Dlg.O:Label6.Caption">
+        <source>'x'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">1</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TLabel [10]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label6.Font.Charset" resname="I:AffAbb_2e_Dlg.O:Label6.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TLabel [10]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label6.Font.Color" resname="I:AffAbb_2e_Dlg.O:Label6.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TLabel [10]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label6.Font.Height" resname="I:AffAbb_2e_Dlg.O:Label6.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TLabel [10]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label6.Font.Name" resname="I:AffAbb_2e_Dlg.O:Label6.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TLabel [10]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label6.Font.Style" resname="I:AffAbb_2e_Dlg.O:Label6.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TLabel [10]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label6.ParentFont" resname="I:AffAbb_2e_Dlg.O:Label6.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TLabel [10]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:Label6.WordWrap" resname="I:AffAbb_2e_Dlg.O:Label6.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TLabel [10]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label4.Left" resname="I:AffAbb_2e_Dlg.I:Label4.Left">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label4.Top" resname="I:AffAbb_2e_Dlg.I:Label4.Top">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label4.Width" resname="I:AffAbb_2e_Dlg.I:Label4.Width">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label4.Height" resname="I:AffAbb_2e_Dlg.I:Label4.Height">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label4.AutoSize" resname="I:AffAbb_2e_Dlg.I:Label4.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label4.Caption" resname="I:AffAbb_2e_Dlg.I:Label4.Caption">
+        <source>'x'#39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">1</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label4.Visible" resname="I:AffAbb_2e_Dlg.I:Label4.Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label4.ExplicitLeft" resname="I:AffAbb_2e_Dlg.I:Label4.ExplicitLeft">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458311574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label4.ExplicitTop" resname="I:AffAbb_2e_Dlg.I:Label4.ExplicitTop">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458311574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label4.ExplicitWidth" resname="I:AffAbb_2e_Dlg.I:Label4.ExplicitWidth">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458311574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label4.ExplicitHeight" resname="I:AffAbb_2e_Dlg.I:Label4.ExplicitHeight">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458311574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label5.Left" resname="I:AffAbb_2e_Dlg.I:Label5.Left">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label5.Top" resname="I:AffAbb_2e_Dlg.I:Label5.Top">
+        <source>152</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label5.Width" resname="I:AffAbb_2e_Dlg.I:Label5.Width">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label5.Height" resname="I:AffAbb_2e_Dlg.I:Label5.Height">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label5.AutoSize" resname="I:AffAbb_2e_Dlg.I:Label5.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label5.Caption" resname="I:AffAbb_2e_Dlg.I:Label5.Caption">
+        <source>'y'#39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">1</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label5.Visible" resname="I:AffAbb_2e_Dlg.I:Label5.Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label5.ExplicitLeft" resname="I:AffAbb_2e_Dlg.I:Label5.ExplicitLeft">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458311574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label5.ExplicitTop" resname="I:AffAbb_2e_Dlg.I:Label5.ExplicitTop">
+        <source>152</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458311574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label5.ExplicitWidth" resname="I:AffAbb_2e_Dlg.I:Label5.ExplicitWidth">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458313426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:Label5.ExplicitHeight" resname="I:AffAbb_2e_Dlg.I:Label5.ExplicitHeight">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458313426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:OKBtn.Enabled" resname="I:AffAbb_2e_Dlg.I:OKBtn.Enabled">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:OKBtn.ModalResult" resname="I:AffAbb_2e_Dlg.I:OKBtn.ModalResult">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:OKBtn.TabOrder" resname="I:AffAbb_2e_Dlg.I:OKBtn.TabOrder">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:OKBtn.OnClick" resname="I:AffAbb_2e_Dlg.I:OKBtn.OnClick">
+        <source>OKBtnClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:CancelBtn.TabOrder" resname="I:AffAbb_2e_Dlg.I:CancelBtn.TabOrder">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.I:HelpBtn.TabOrder" resname="I:AffAbb_2e_Dlg.I:HelpBtn.TabOrder">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.Left" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.Left">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.Top" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.Top">
+        <source>157</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.Width" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.Width">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.Height" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.Cursor" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.Cursor">
+        <source>crDefault</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.ParentColor" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.TabOrder" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.DefaultFont.Charset" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.DefaultFont.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.DefaultFont.Color" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.DefaultFont.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.DefaultFont.Height" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.DefaultFont.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.DefaultFont.Name" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.DefaultFont.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.DefaultFont.Style" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.DefaultFont.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.WordWrap" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.WordWrap">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.OnEnter" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.OnEnter">
+        <source>MyEditEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit2.OnExit" resname="I:AffAbb_2e_Dlg.O:FormatEdit2.OnExit">
+        <source>MyEditExit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.Left" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.Left">
+        <source>168</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.Top" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.Top">
+        <source>132</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.Width" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.Width">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.Height" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.Cursor" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.Cursor">
+        <source>crDefault</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.ParentColor" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.TabOrder" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.DefaultFont.Charset" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.DefaultFont.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.DefaultFont.Color" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.DefaultFont.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.DefaultFont.Height" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.DefaultFont.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.DefaultFont.Name" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.DefaultFont.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.DefaultFont.Style" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.DefaultFont.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.WordWrap" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.WordWrap">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.OnEnter" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.OnEnter">
+        <source>MyEditEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit3.OnExit" resname="I:AffAbb_2e_Dlg.O:FormatEdit3.OnExit">
+        <source>MyEditExit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.Left" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.Left">
+        <source>168</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.Top" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.Top">
+        <source>157</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.Width" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.Width">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.Height" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.Cursor" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.Cursor">
+        <source>crDefault</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.ParentColor" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.TabOrder" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.DefaultFont.Charset" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.DefaultFont.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.DefaultFont.Color" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.DefaultFont.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.DefaultFont.Height" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.DefaultFont.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.DefaultFont.Name" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.DefaultFont.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.DefaultFont.Style" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.DefaultFont.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.WordWrap" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.WordWrap">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.OnEnter" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.OnEnter">
+        <source>MyEditEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit4.OnExit" resname="I:AffAbb_2e_Dlg.O:FormatEdit4.OnExit">
+        <source>MyEditExit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.Left" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.Left">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.Top" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.Top">
+        <source>132</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.Width" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.Width">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.Height" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.Cursor" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.Cursor">
+        <source>crDefault</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.ParentColor" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.TabOrder" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.DefaultFont.Charset" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.DefaultFont.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.DefaultFont.Color" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.DefaultFont.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.DefaultFont.Height" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.DefaultFont.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.DefaultFont.Name" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.DefaultFont.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.DefaultFont.Style" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.DefaultFont.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.WordWrap" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.WordWrap">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.OnEnter" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.OnEnter">
+        <source>MyEditEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit1.OnExit" resname="I:AffAbb_2e_Dlg.O:FormatEdit1.OnExit">
+        <source>MyEditExit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.Left" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.Left">
+        <source>320</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.Top" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.Top">
+        <source>132</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.Width" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.Width">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.Height" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.Cursor" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.Cursor">
+        <source>crDefault</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.ParentColor" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">205</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.TabOrder" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">206</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.DefaultFont.Charset" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.DefaultFont.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">207</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.DefaultFont.Color" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.DefaultFont.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">208</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.DefaultFont.Height" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.DefaultFont.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">209</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.DefaultFont.Name" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.DefaultFont.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">210</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.DefaultFont.Style" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.DefaultFont.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">211</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.WordWrap" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.WordWrap">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">212</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.OnEnter" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.OnEnter">
+        <source>MyEditEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">213</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit5.OnExit" resname="I:AffAbb_2e_Dlg.O:FormatEdit5.OnExit">
+        <source>MyEditExit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">214</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.Left" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.Left">
+        <source>320</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">215</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.Top" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.Top">
+        <source>156</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">216</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.Width" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.Width">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">217</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.Height" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">218</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.Cursor" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.Cursor">
+        <source>crDefault</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">219</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.ParentColor" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">220</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.TabOrder" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.TabOrder">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">221</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.DefaultFont.Charset" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.DefaultFont.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">222</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.DefaultFont.Color" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.DefaultFont.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">223</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.DefaultFont.Height" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.DefaultFont.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">224</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.DefaultFont.Name" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.DefaultFont.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">225</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.DefaultFont.Style" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.DefaultFont.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">226</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.WordWrap" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.WordWrap">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">227</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.OnEnter" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.OnEnter">
+        <source>MyEditEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">228</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:AffAbb_2e_Dlg.O:FormatEdit6.OnExit" resname="I:AffAbb_2e_Dlg.O:FormatEdit6.OnExit">
+        <source>MyEditExit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374674421</prop><prop prop-type="Status">0</prop><prop prop-type="Order">229</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

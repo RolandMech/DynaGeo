@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Polynom-Funktion</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Kurven">
+        <PARAM NAME="Keyword" VALUE="Funktion">
+        <PARAM NAME="Keyword" VALUE="Interpolation">
+        <PARAM NAME="Keyword" VALUE="Polynom">
+</OBJECT>
+
+<A NAME="idh_cm_Polynom"></A>
+
+<H2>Interpolations-Polynom-Funktion</H2>
+<HR>
+
+<P>Dieser Befehl berechnet eine ganzrationale Funktion vom Grad n (oder kleiner), deren Graph durch (n+1) vom Benutzer vorzugebende Punkte verl&auml;uft. Dabei m&uuml;ssen die x-Werte der definierenden Punkte paarweise voneinander verschieden sein. Dieser Befehl erlaubt also zum Beispiel die Konstruktion einer Parabel-Funktion durch 3 Punkte; aber auch Polynome von h&ouml;herem Grad lassen sich konstruieren. Bei der Erzeugung einer solchen Polynom-Funktion k&ouml;nnen Sie folgenderma&szlig;en vorgehen:</P>
+<OL>
+<LI>Stellen Sie zun&auml;chst alle Punkte her, durch die das Schaubild der Interpolations-Funktion verlaufen soll. F&uuml;r erste Experimente ist es sinnvoll, daf&uuml;r <a href="punkt_gitter.htm">Gitterpunkte</a> zu benutzen: dann k&ouml;nnen Sie leicht kontrollieren, ob die Punkte wirklich alle paarweise verschiedene x-Koordinaten haben.<BR><BR></LI>
+<LI>W&auml;hlen Sie dann den Befehl "Interpolations-Polynom-Funktion".<BR><BR></LI>
+<LI>Klicken Sie alle definierenden Punkte an. Um dem Programm das Ende der Punkteliste zu signalisieren, k&ouml;nnen Sie entweder auf einen schon vorgemerkten (und daher blinkenden) Punkt klicken, oder den letzten Punkt mit einen Doppelklick (statt eines einfachen Klicks) anw&auml;hlen.</LI>
+</OL>
+Danach wird intern das Interpolations-Polynom berechnet und dann das Schaubild der Funktion gezeichnet.
+</p>
+
+<p>Im Kontextmen&uuml; einer Interpolations-Funktion finden Sie fast alle Eintr&auml;ge, die Sie auch bei allgemeinen <a href="graph.htm">Funktions-Schaubildern</a> finden; lediglich der Eintrag "Funktionsterm editieren" fehlt nat&uuml;rlich, da der Funktionsterm intern durch die Liste der Tr&auml;gerpunkte festgelegt ist.</P>
+<br>
+
+<P><font color="#FF0000"><b><i>Achtung !</i></b></font>
+<ul>Wenn Sie beim nachtr&auml;glichen Verziehen der Tr&auml;gerpunkte zwei Tr&auml;gerpunkte mit gleicher x-Koordinate bekommen, wird die Interpolations-Funktion ung&uuml;ltig, und die Berechnung des Funktionsterms scheitert. Es wird dann kein Schaubild mehr angezeigt, bis durch weiteres Verziehen die x-Koordinaten aller Tr&auml;gerpunkt wieder verschieden geworden sind.</ul>
+</P>
+<br>
+<br>
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<li><a href="graph.htm">Funktions-Schaubild</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

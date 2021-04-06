@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>The basics of animations</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="animation">
+</OBJECT>
+
+<A NAME="idh_anibasics"></A>
+
+<H2>The basics of animations</H2>
+<HR>
+
+<P>An <b>animation</b> is a <b>controlled change</b> of your drawing's configuration <b>in time</b>. It is started by you, but then it runs independently. It can be interpreted as an <b>automation of the drag mode</b>. The role of the basis object dragged by the mouse is now played by the so-called <b>steering object</b>: in both cases, all dependent object are dragged accordingly.</p>
+
+<p>So if you want to animate your drawing, you must construct it in a way that all objects that are to move dependend on a <b>steering object</b>. Possible steering objects are all objects that can be manipulated internally by the program in a controlled way. At the time being, there are only two types of steering objects:<br>
+<ol start="1" type="1">
+<li><b>basis points</b> that are bound to line segments, circles or polygons</li>
+<li><b>number objects</b></li>
+</ol>
+Please note that basis points bound to lines, rays or locus lines can not be used as steering objects. The position of the basis point on its carrier line is described by a <b>position parameter</b>. If the point is to serve as steering object, its position parameter's values must be all inside a finite interval. This is no problem for all the carrier lines of finite length like segments and circles, but (long) lines are "to big" with respect to animations. And in case of locus lines it is a matter of caution to better avoid them: even if a locus line now has finite length, nobody can guarantee if this still holds after the next dragging action. </p>
+<br>
+
+<h3>Basis points as steering objects:</h3>
+
+<ul><p>If you want to run an animation controlled by a bound basis point, you must choose this point as the animation's steering object. The dialogue "<a href="aniparams.htm"><i><nobr>Params of animation</nobr></i></a>" lets you choose from <b>a list of possible steering objects</b>. Choose the desired point and close the dialogue. Then the "<a href="tool_animation.htm"><i>Animation toolbar</i></a>" will show the buttons of the <b>Navigation commands</b> that allow you to start and stop the animation.</p>
+
+<p>If e.g. you click on the green arrow pointing to the right, the animation will start. While it is running the internal position parameter of the steering point is incremented by the step width, then the point's new position and the new positions of all of its "children" are calculated and the drawing is updated. Then the position parameter is incremented once more.... </p>
+
+<p>Normally, the animation stops when the position parameter reaches the border of its preset interval. But if the steering object is a point bound to a <b>closed line</b> then the parameter interval is thought to be "closed" too: when the position parameter reaches one border of its interval, it automatically jumps to the other border and the animation continues. This leads to an endless loop, and such an animation can only be terminated by pressing the "<i>stop button</i>". </p>
+</ul>
+<br>
+
+<h3>Number objects as steering objects:</h3>
+
+<ul><p>The second kind of steering objects are the <b>number objects</b>. With them, the number value itself plays the role of the position paramter. If you want to use a number object N1 as steering object, the objects you want to animate must be dependent from N1. To achieve this, you can use <b>objects with numeric parameters</b>, like (points with determined co-ordinates, circles with determined radii,...). In contrast to the case of basis points now you can choose the <b>bounds of the parameter interval</b> freely: the appropriate edit fields in the dialogue <i>"<a href="aniparams.htm"><nobr><i>Parameters of animation</i></nobr></a>"</i> can be edited if a number object is chosen as steering object. The course of the animation works as described above.</P>
+</ul>
+<br>
+
+<p>The <b>speed of the animation</b> depends directly on the size of the <b>param step</b>: greater steps lead to faster animations, smaller steps result in slower ones. But please note that the animation is not really time-controlled! The same step width can lead to very different speeds of animation. What speed you get depends mainly on the complexity of the animated drawing, but also on the hardware power of your computer!</p>
+
+<br>
+<br>
+
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="aniparams.htm">Parameters of animation</a></li>
+<li><a href="tool_animation.htm">The animation bar</a></li>
+</ul>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

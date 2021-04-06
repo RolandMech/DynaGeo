@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Term-Syntax</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Abst&auml;nde">
+        <PARAM NAME="Keyword" VALUE="Winkel">
+        <PARAM NAME="Keyword" VALUE="Messen">
+        <PARAM NAME="Keyword" VALUE="Terme">
+</OBJECT>
+
+<A NAME="idh_term"></A>
+
+<H2>Die Syntax von Termen</H2>
+<HR>
+
+<p>DynaGeo hat einen integrierten <b>Term-Compiler</b>, der eine Vielzahl von Funktionen handhaben kann. Wenn Sie einen Term eingeben, wird er intern auf Korrektheit &uuml;berpr&uuml;ft. Allerdings kann es selbst bei syntaktisch korrekten Termen zu <b>Fehlern</b> beim Berechnen des Term-Wertes kommen. Dies geschieht z.B. dann, wenn eine Funktion mit einem unzul&auml;ssigen Argument aufgerufen wird. In einem solchen Fall wird der gesamte Term <b>ung&uuml;ltig</b>.</p>
+<br>
+
+<P>Bei der Eingabe von Termen k&ouml;nnen Sie alle g&auml;ngigen mathematischen <B>Operationen</B> (<font color="#FF0000">+</font>, <font color="#FF0000">-</font> , <font color="#FF0000">*</font> , <font color="#FF0000">/</font>, <font color="#FF0000">^</font>), eine Vielzahl <B><a href="termstandard.htm">mathematischer Standard-Funktionen</a></B> sowie beliebige Schachtelungen von <B>Klammern</B> benutzen. Au&szlig;erdem stehen Ihnen die <b>Konstanten</b> <font color="#FF0000">pi</font> und <font color="#FF0000">e</font> zur Verf&uuml;gung.</P>
+
+<P>Dar&uuml;berhinaus k&ouml;nnen Sie auch Funktionen verwenden, welche <b>Abst&auml;nde</b> und <b>Winkelgr&ouml;&szlig;en</b> aus Ihrer Zeichnung auslesen. Um eine solche Funktion in den Term einzuf&uuml;gen, sollten Sie zuvor in Ihrer Zeichnung f&uuml;r das gew&uuml;nschte Ma&szlig; ein Ma&szlig;objekte erzeugt haben (siehe <a href="abstand.htm"><i>Abst&auml;nde&nbsp;messen</i></a>  bzw. <a href="winkel.htm"><i>Winkel&nbsp;messen</i></a>). Wenn Sie dann bei ge&ouml;ffnetem Term-Eingabefenster auf das Ma&szlig;objekt in Ihrer Zeichnung klicken, wird ein entsprechender Funktionsaufruf in Ihren Term eingef&uuml;gt:</P>
+<UL>
+<LI>"<font color="#FF0000"><b>d(Obj1; Obj2)</b></font>"<br>
+<ul>liefert den Abstand der Objekte Obj1 und Obj2.<br>
+<font color="#0000FF"><i>Beispiele:</i></font><br>
+In einem Dreieck ABC sei c die Strecke [AB], dann stellt "d(A;B)" die L&auml;nge von c dar, w&auml;hrend "d(C; c)" den Abstand des Punktes C zur gegen&uuml;berliegenden Seite c referenziert (genauer: den Abstand von C zu derjenigen Geraden, auf der die Seite c liegt).<br></ul>
+</LI>
+<br>
+<LI>"<font color="#FF0000"><b>w(P1; P2; P3)</b></font>"<br>
+<ul>liefert das Bogenma&szlig; des Winkels, der durch die drei Punkte P1, P2 und P3 festgelegt ist.<br>
+<font color="#0000FF"><i>Beispiel:</i></font><br>
+Ist <I>beta</I> der Winkel mit Scheitel B, dessen erster Schenkel durch C und dessen zweiter Schenkel durch A verl&auml;uft, dann ist "w(C; B; A)" die Winkelweite (im Bogenma&szlig;) von <I>beta</I>.</ul>
+</LI>
+</UL>
+<br>
+
+<p>Weiter k&ouml;nnen Sie den <b>Wert eines Zahlobjekts</b> in den Term &uuml;bernehmen, indem Sie den Namen des Zahlobjekts in den Term einf&uuml;gen. Dies erreichen Sie bei ge&ouml;ffnetem Term-Eingabefenster am einfachsten durch einen Klick auf das entsprechende Zahlobjekt:</p>
+<ul>
+<li>"<font color="#FF0000"><b>ZObj</b></font>"<br>
+<ul>liefert den aktuellen Wert des Zahlobjekts ZObj.<br>
+<font color="#0000FF"><i>Beispiel:</i></font><br>
+Ist ein Zahlobjekt Z1 in der Zeichnung vorhanden, dann bezeichnet der Term "Z1*2" das Doppelte des aktuellen Werte von Z1.</ul>
+</li>
+</ul>
+
+<p>Auf dieselbe Art und Weise kann in den Term eines Termobjekts eine Referenz auf den aktuellen <b>Wert eines anderen Termobjekts</b> eingef&uuml;gt werden:</p>
+<ul>
+<li>"<font color="#FF0000"><b>TObj</b></font>"<br>
+<ul>liefert den aktuellen Wert des Termobjekts TObj. Da sich mit dieser Funktion Termobjekte gegenseitig aufeinander beziehen k&ouml;nnen, besteht hier die Gefahr zirkul&auml;rer Abh&auml;ngigkeiten.<br>
+<font color="#0000FF"><i>Beispiel:</i></font><br>
+Ist ein Termobjekt T1 in der Zeichnung vorhanden, dann bezeichnet der Term "T1^2" das Quadrat des aktuellen Wertes von T1. Wenn Sie diesen Term in ein Termobjekt T2 eingeben, dann m&uuml;ssen Sie selbst darauf achten, dass der Term von T1 keine Referenz auf T2 oder irgend ein von T2 abgeleitetes Objekt enth&auml;lt. Andernfalls l&auml;uft das Programm in eine nicht abbrechende Rekursion, was unweigerlich zu einem Stack&uuml;berlauf und damit zum Programmabsturz f&uuml;hrt.</ul>
+</li>
+</ul>
+
+<p><font size="-1"><i>(Die in vorigen Versionen von EUKLID DynaGeo implementierte Funktion "val()" ist inzwischen &uuml;berfl&uuml;ssig; sie k&ouml;nnen stattdessen die Term- und Zahlobjekte direkt &uuml;ber deren Namen referenzieren.)</i></font>
+</p>
+<br>
+
+<P>F&uuml;r den Zugriff auf <B>Punkt-Koordinaten</B>, <B>Kreisradien</B>, <b>Streckenl&auml;ngen</b>, <b>Fl&auml;cheninhalte</b>, <b>Teilverh&auml;ltnisse</b> und <b>Werte von benutzerdefinierten Funktionen</b> aus Ihrer Zeichnung gibt es derzeit noch kein "graphisches Interface". Daher m&uuml;ssen Sie die folgenden Funktionen jeweils selbst in Ihre Terme einf&uuml;gen:</P>
+
+<UL>
+<LI>"<font color="#FF0000"><b>x(P)</b></font>" und "<font color="#FF0000"><b>y(P)</b></font>"<br>
+<ul> liefern die x- bzw. die y-Koordinate des Punktes P. <br>
+<font size="-1"><i>(Diese Funktionen ersetzen die in fr&uuml;heren Versionen von EUKLID DynaGeo implementierten Funktionen "cx()" und "cy()".)</i></font><br>
+<font color="#0000FF"><i>Beipiel:</i></font><br>
+Ist ein Dreieck ABC gegeben, dann sind liefern die Terme <nobr>"[x(A)+x(B)+x(C)]/3"</nobr> und <nobr>"[y(A)+y(B)+y(C)]/3"</nobr> stets die Schwerpunkt-Koordinaten dieses Dreiecks.</ul>
+</LI>
+<br>
+<li>"<font color="#FF0000"><b>radius(K)</b></font>"<br>
+<ul>liefert den Radius des Kreises K.<br>
+<font color="#0000FF"><i>Beispiel:</i></font><br>
+Ist der Kreis k1 in der Zeichnung vorhanden, dann &uuml;bergibt "radius(k1)" seinen aktuellen Radius.</ul>
+</li>
+<br>
+<li>"<font color="#FF0000"><b>len(Obj)</b></font>"<br>
+<ul>liefert die L&auml;nge einer einfachen endlichen Linie. Die folgende Tabelle zeigt die m&ouml;glichen Typen f&uuml;r das Argument Obj und die Bedeutung des jeweils zur&uuml;ckgelieferten Wertes:<br>
+<br>
+<table align="center" border frame="void" cellspacing="0" cellpadding="10">
+<tr>
+ <th><i>Obj ist:</i></th>
+ <th><i>len(Obj) liefert:</i></th>
+</tr>
+<tr align="center">
+ <td> eine Strecke </td>
+ <td> die Streckenl&auml;nge </td>
+</tr>
+<tr align="center">
+ <td> ein Vektor </td>
+ <td> den Betrag des Vektors </td>
+</tr>
+<tr align="center">
+ <td> ein Kreis </td>
+ <td> den Umfang </td>
+</tr>
+<tr align="center">
+ <td> ein Kreisbogen </td>
+ <td> die Bogenl&auml;nge</td>
+</tr>
+<tr align="center">
+ <td> ein Polygon </td>
+ <td> den Umfang </td>
+</tr>
+</table>
+<font color="#0000FF"><i>Beispiele:</i></font><br>
+Ist die Strecke s1 in der Zeichnung vorhanden, dann &uuml;bergibt "len(s1)" ihre aktuelle L&auml;nge. Ist k1 ein Kreis, dann liefert len(k1) den Umfang dieses Kreises.</ul>
+</li>
+<br>
+<li>"<font color="#FF0000"><b>area(N)</b></font>", "<font color="#FF0000"><b>area(K)</b></font>"<br>
+<ul>liefert den Inhalt der vom Polygon N bzw. dem Kreis K umschlossenen Fl&auml;che. Im Falle der Polygonfl&auml;che wird jedoch vorausgesetzt, dass sich der Rand von N nicht selbst schneidet. F&uuml;r solche "&uuml;berschlagenen" Polygone liefert die area-Funktion falsche Werte.<br>
+<font color="#0000FF"><i>Beispiel:</i></font><br>
+Ist das Dreieck N1 in der Zeichnung vorhanden, dann &uuml;bergibt "area(N1)" seinen aktuellen Fl&auml;cheninhalt.</ul>
+</li>
+<br>
+<li>"<font color="#FF0000"><b>tv(A; B; C)</b></font>"<br>
+<ul>liefert das Teilverh&auml;ltnis des Punktes A bez&uuml;glich des geordneten Punktepaares (B, C).<br>
+B ist dabei der Nullpunkt, C der Einspunkt der auf der Geraden (BC) errichteten Teilverh&auml;ltnis-Skala. Wenn A nicht auf (BC) liegt, wird statt A der Fu&szlig;punkt A' der Orthogonalen von A auf (BC) genommen, so dass das die tv-Funktion auch f&uuml;r nicht-kollineare Punktetripel stets einen sinnvollen Wert liefert. Wenn B und C zusammenfallen, ist das Teilverh&auml;ltnis nicht definiert; dann liefert tv den (falschen!) Wert 0.<br>
+<font color="#0000FF"><i>Beispiel:</i></font><br>
+Ist das Dreieck ABC in der Zeichnung vorhanden, dann &uuml;bergibt "tv(A; B; C)" das Teilverh&auml;ltnis des H&ouml;henfu&szlig;punkts Ha bez&uuml;glich der Ecken B und C.</ul>
+</li>
+<br>
+<li>"<font color="#FF0000"><b>Fn1(x)</b></font>"<br>
+<ul>liefert den aktuellen Wert der Funktion Fn1 an der Stelle x. Dabei muss die Zeichnung schon ein zuvor definiertes Funktions-Objekt dieses Namens enthalten. Bitte beachten Sie, dass nach dem  Funktionsnamen unbedingt ein Argument angegeben werden muss, damit gekl&auml;rt ist, an welcher Stelle der Funktionswert berechnet werden soll.<br>
+<font color="#0000FF"><i>Beispiele:</i></font><br>
+Ist in der Zeichnung schon eine Funktion Fn1 vorhanden, dann kann bei der Definition einer zweiten Funktion Fn2 auf den Funktionsterm der ersten Bezug genommen werden. Wenn Sie zum Beispiel als Term f&uuml;r die zweite Funktion <nobr>"-Fn1(x)"</nobr> eingeben, dann erhalten Sie das an der x-Achse gespiegelte Schaubild, mit <nobr>"Fn1(-x)"</nobr> das an der y-Achse gespiegelte, und mit <nobr>"Fn1(x-3) + 2"</nobr> das um 3 nach rechts und um 2 nach oben verschobene Schaubild.<br>
+Nat&uuml;rlich darf die Definition von Fn1 nun nicht nachtr&auml;glich so ge&auml;ndert werden, dass deren Funktionsterm eine Referenz auf Fn2 enth&auml;lt: dies w&auml;re eine zirkul&auml;rer Abh&auml;ngigkeit, und solche gef&auml;hrlichen Situationen m&uuml;ssen Sie unbedingt vermeiden.</ul>
+</li>
+<br>
+<li>"<font color="#FF0000"><b>slope(g)</b></font>"<br>
+<ul>liefert den aktuellen Wert der Steigung der Geraden g. Dabei muss die Zeichnung schon eine zuvor definierte Gerade dieses Namens enthalten. Statt einer Geraden kann auch das Schaubild einer linearen Funktion angegebenen werden. <br>
+<font color="#0000FF"><i>Beispiele:</i></font><br>
+Ist in der Zeichnung eine Gerade g1 vorhanden, dann k&ouml;nnen Sie mit dem Term "slope(g1)" den aktuellen Wert der Steigung dieser Geraden z.B. in einem Term-Objekt anzeigen lassen. Wird g1 in eine Lage parallel zur y-Achse gezogen, dann hat die Steigung keinen endlichen Wert mehr, und der Term "slope(g1)" wird ung&uuml;ltig.<br>
+Ist Fn1 ein Funktions-Objekt mit dem Funktionsterm "m/2*x + c" (mit Bezug auf zwei Zahlobjekte m und c), dann liefert "slope(Fn1)" den aktuellen Wert von m/2. </ul>
+</li>
+<br>
+</UL>
+</P>
+<p>Wenn Sie das Term-Eingabefenster mit <i>Okay</i> schlie&szlig;en, wird der Term auf syntaktische Korrektheit gepr&uuml;ft und im Erfolgsfall an das anfordernde Objekt &uuml;bergeben. Enth&auml;lt der Term noch Fehler, erhalten Sie eine entsprechende Meldung, und das Term-Eingabefenster bleibt ge&ouml;ffnet.</p>
+
+<p>
+Bitte beachten Sie, dass es selbst bei einem syntaktisch korrekten Term zu Fehlern bei der sp&auml;teren Termwert-Berechnung kommen kann. In diesem Fall wird der gesamte Term als ung&uuml;ltig deklariert.</p>
+
+<br>
+<br>
+<b><i>Siehe auch:</i></b><br>
+<ul>
+<li><a href="termstandard.htm">Standardfunktionen f&uuml;r Terme</a></li>
+<li><a href="boolterm.htm">Boole'sche Terme</a></li>
+</ul>
+<br>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Join 2 points together</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Objekte">
+        <PARAM NAME="Keyword" VALUE="Punkte">
+        <PARAM NAME="Keyword" VALUE="Zusammenf&uuml;hren">
+        <PARAM NAME="Keyword" VALUE="Verwandeln">
+</OBJECT>
+
+<A NAME="idh_cm_CombinePts"></A>
+
+<H2>Join 2 points together</H2>
+<HR>
+
+<P>With this command you can unify 2 existing points into one point. The command expects two points as input objects, but they are processed rather differently. In the following text, the first point is called the "source point" and the second one the "target point".</P>
+
+<P>To apply this command, click the "source point" with the left mouse button, and then the "target point". After that, the following actions are carried out:<br>
+<ol start="1" type="1">
+<li>All objects that depend on the "source point" are uncoupled from it and become dependent on the "target point". Clearly spoken: all children of the "source point" are adopted by the "target point".<br>
+<br></li>
+<li>Finally the "source point" is deleted.<br></li>
+</ol>
+</P>
+<br>
+
+<p>When such an extensive manipulation of the objects' relations are performed, care must be taken to avoid <b>circular references</b> between the objects. This is the case if the target point itself is dependent from the source point. Then DynaGeo shows an appropriate error message and refuses to execute the command. When this happens you can try to repeat this command once more, but now with reversed order of the two points. The probability is high that then the command will work.</p>
+<br>
+<br>
+
+<P><font color="#FF0000"><b><i>Attention !</i></b></font>
+<ul>Please notice that normally there is <b>no easy way to undo</b> the execution of this command. With "Redo last undo" you can revive the deleted "source point", but the list of its children will remain empty! So it's a good idea to save the drawing <u>before</u> running this command.</ul>
+</P>
+<br>
+<br>
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="pt2basept.htm">Convert a constructed point to a free point</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

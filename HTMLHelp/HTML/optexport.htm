@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Optionen f&uuml;r den Export</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Einstellungen">
+        <PARAM NAME="Keyword" VALUE="Optionen">
+        <PARAM NAME="Keyword" VALUE="Drucken">
+</OBJECT>
+
+<A NAME="idh_opt_export"></A>
+
+<H2>Einstellungen | Export</H2>
+<HR>
+<p>Die Seite enth&auml;lt drei Abschnitte. Der erste dient der Konfiguration der Drucker-Ausgabe, der zweite enth&auml;lt Optionen f&uuml;r den Export Ihrer Zeichnung in die Zwischenablage, der dritte betrifft den Export von Pixelbildern. Im Einzelnen sind die folgenden Einstellungen verf&uuml;gbar:</p>
+<br>
+<p><u><i><font size="+1">1) Optionen f&uuml;r die Drucker-Ausgabe:</font></i></u></p>
+<ul>
+<p><B>
+Geraden-Stil intern bilden<br>
+Kreislinien-Stil intern bilden<br>
+</B></p>
+<UL>Manche Drucker k&ouml;nnen keine gestrichelten oder punktierten Linien darstellen, wenn sie breiter sind als 1 Pixel. Damit auch beim Ausdruck auf solchen Druckern die Linienattribute zumindest f&uuml;r gerade Linien und Kreislinien nicht verloren gehen, k&ouml;nnen Sie mit diesen Optionen einstellen, welche von diesen Aufgaben, die eigentlich der Druckertreiber zu erledigen h&auml;tte, EUKLID DynaGeo nun selbst &uuml;bernehmen soll. Beachten Sie aber, dass f&uuml;r allgemeine Kurven wie Kegelschnitte, Ortslinien und Funktionsgraphen kein interner Linien-Stil gebildet wird.</ul>
+<p><b>
+Gestrichelte F&uuml;llungen erlauben<br>
+Rasterf&uuml;llungen erlauben<br>
+</b></p>
+<ul>Wenn Sie diese Optionen anw&auml;hlen, werden Fl&auml;chenf&uuml;llungen, die auf dem Bildschirm gestrichelt oder mit einem Punktemuster dargestellt werden, auch genau so ausgedruckt. Leider kennen manche Drucker keine gestrichelten F&uuml;llungen, andere k&ouml;nnen nicht mit Raster-Fl&auml;chenf&uuml;llungen umgehen. Schlimmer noch ist allerdings, dass die Qualit&auml;t vieler Druckertreiber inzwischen auf einem traurig niedrigen Niveau angekommen ist, weshalb Windows nicht mehr zuverl&auml;ssig Auskunft &uuml;ber die F&auml;higkeiten des jeweiligen Druckers geben kann. Im vorliegenden Fall der Fl&auml;chenf&uuml;llungen bleibt Ihnen nichts anderes &uuml;brig als dies selbst auszuprobieren! Wenn Ihr Drucker mit gestrichelten oder Raster-F&uuml;llungen nicht zurechtkommt, dann sollten Sie die entsprechende(n) Option(en) abw&auml;hlen. Die betroffenen Fl&auml;chenf&uuml;llungen werden dann im Ausdruck ersatzweise mit einem dem Drucker bekannten Standard-F&uuml;llmuster ausgegeben.</ul>
+</ul>
+<br>
+<br>
+<p><u><i><font size="+1">2) Optionen f&uuml;r den Export in die Zwischenablage:</font></i></u></p>
+<ul>
+<p><b>
+Geraden-Stil intern bilden<br>
+Kreislinien-Stil intern bilden<br>
+</b></p>
+<ul>Da &uuml;ber die Zwischenablage exportierte EUKLID DynaGeo - Zeichnungen in aller Regel nicht mehr einfach nachbearbeitet werden k&ouml;nnen, sind entsprechende Optionen zur internen Bildung der Geraden- und Kreislinien-Stile auch hier verf&uuml;gbar. Sie sind standardm&auml;&szlig;ig aktiviert, um sicherzustellen, dass Dokumente mit exportierten EUKLID DynaGeo - Zeichnungen auch auf weniger leistungsf&auml;higen Druckern korrekt ausgedruckt werden k&ouml;nnen. Beachten Sie aber, dass allgemeine Kurven wie Kegelschnitte, Ortslinien und Funktionsgraphen m&ouml;glicherweise nur mit durchgezogenen Linien exportiert werden k&ouml;nnen.
+</ul>
+<p><b>
+Streckfaktor in x-Richtung ( SFx )<br>
+Y/X-Aspekt ( = SFy / SFx )<br>
+</b></p>
+<ul>Mit Hilfe dieser beiden Werte k&ouml;nnen Spezialisten die relative Gr&ouml;&szlig;e der exportierten Zeichnungen sehr genau justieren, und zwar f&uuml;r beide Achsenrichtungen getrennt. Beide Zahlen sollten jedoch m&ouml;glichst dicht beim Standardwert 1.00 liegen, also z.B. innerhalb des Intervalls [0,8..1,25]; bei gr&ouml;&szlig;eren Abweichungen kann die Qualit&auml;t der exportierten Zeichnungen leiden. Wenn Sie Ihre Zeichnung z.B. in x-Richtung um 5% vergr&ouml;&szlig;ert, aber in y-Richtung um 3% verkleinert exportieren wollen, dann stellen Sie <nobr>SFx = 1,05</nobr> und <nobr>SFy / SFx =</nobr> <nobr>0,97 / 1.05</nobr> <nobr>= 0,9238</nobr> ein.
+</ul>
+</ul>
+<br>
+<br>
+<p><u><i><font size="+1">3) Optionen f&uuml;r den Export von Pixelbildern:</font></i></u></p>
+<ul>
+<p><b>
+Aufl&ouml;sung der Grafik-Datei<br>
+</b></p>
+<ul>Hier k&ouml;nnen Sie einstellen, welche Pixeldichte die BMP-, PNG- oder JPG-Dateien haben sollen, die von DynaGeo geschrieben werden. Sie k&ouml;nnen die gew&uuml;nschte Aufl&ouml;sung aus einer aufklappbaren Liste ausw&auml;hlen. Der erste Eintrag dieser Liste ist mit dem Zusatz "[Screen]" markiert: er enth&auml;lt die Aufl&ouml;sung Ihres Bildschirms. Wenn Sie diesen Wert w&auml;hlen, enthalten die exportierten Pixel-Grafik-Dateien einfache Bildschirmkopien. Sollten Sie mit deren Qualit&auml;t nicht zufrieden sein, dann k&ouml;nnen Sie einen gr&ouml;&szlig;eren Wert w&auml;hlen, bis hin zu 1200 dpi. Bedenken Sie aber, dass zur Herstellung hochaufgel&ouml;ster Grafiken ziemlich viel Speicher gebraucht wird und die entstehenden Dateien auch recht gro&szlig; werden k&ouml;nnen (speziell beim BMP-Format).
+</ul>
+</ul>
+<br>
+</FONT>
+</BODY>
+</HTML>

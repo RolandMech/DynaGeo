@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Rotate an object</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="map">
+        <PARAM NAME="Keyword" VALUE="mapping">
+        <PARAM NAME="Keyword" VALUE="rotation">
+</OBJECT>
+
+<A NAME="idh_cm_rotateobj"></A>
+
+<H2>Rotate an object&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../images/toolrotobj.gif" ALT="" BORDER=0></H2>
+<HR>
+
+<P><font size="-1">(<a HREF="JavaScript:HHCTRL.TextPopup(pop_autorepeat,popfont,10,10,-1,-1)"
+Title="Click to see a definition!">automatically repeatable</a>)</font></P>
+
+<P>Indicate the object to rotate, the centre of rotation and the angle of rotation.</P>
+
+<p>Before you can perform a rotation, its angle must exist in the drawing. There are different possibilities how to provide an angle of rotation:
+<ul>
+<li>You can use one of the angles that already exist in your drawing. If e.g. one of the angles of a triangle is already marked, you can click on its angle arc. Then the actual width of this angle is used as rotation angle.<br>
+<br></li>
+<li>You can click on an existing number object (or an existing term object). Then its actual value is used as the width of the rotation angle. Please note that this value is supposed to be in radians. If you want the value to be interpreted as degrees, please add a degree sign (°) to the term!</li>
+<li>You can enter any term that may contain several references to objects in your drawing. The value of the term is also taken to be in radians. If you want it to be in degrees, please add a degree sign (°) to the term. (If it's a sum of several members, you may put brackets around the whole term before adding the degree sign.)</li>
+</ul>
+</p>
+
+<P>The corresponding rotated object is created and displayed. Each defining point of the original object is connected with its image point by a dotted trace line, as long as you did not deactivate the "automatic trace generation" in <a href="optabb.htm"><i>Options | Mappings</i></a>.</P>
+<br>
+<br>
+<P><B><I>Please note:</I></B>
+<ul>
+<li>DynaGeo takes the rotation angle always positiv oriented, i.e. it rotates counterclockwise. If you want to rotate clockwise, please provide a negative angle value.<br>
+<br></li>
+<li>If you let this cammand repeat automatically, all subsequent rotations use the same rotation centre and rotation angle as the first one.</li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

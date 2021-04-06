@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Funktionen-Lupe</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Funktion">
+        <PARAM NAME="Keyword" VALUE="Funktionen-Lupe">
+        <PARAM NAME="Keyword" VALUE="Schaubild">
+        <PARAM NAME="Keyword" VALUE="Steigung">
+</OBJECT>
+
+<A NAME="idh_magnglass"></A>
+
+<H2>Funktionen-Lupe&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../images/toolglass.bmp" ALT="" BORDER=0></H2>
+<HR>
+
+<P>Dieser Befehl startet eine "Funktionen-Lupe", die zur Untersuchung lokaler Eigenschaften einer gegebenen Funktion eingesetzt werden kann. Dazu m&uuml;ssen die folgenden <b>Voraussetzungen</b> erf&uuml;llt sein:</P>
+<OL>
+<LI>Die Zeichnung muss ein Funktions-Schaubild enthalten.<BR><BR></LI>
+<LI>Es muss einen (Basis-) Punkt geben, der an das Schaubild gebunden ist, so dass er sich beim Verziehen stets nur auf diesem Schaubild bewegt. <BR><BR></LI>
+</OL>
+
+<P>Wenn diese Voraussetzungen erf&uuml;llt sind, k&ouml;nnen Sie eine <b>Funktionen-Lupe</b> erzeugen. Sei nun also f die Funktion, deren Schaubild angezeigt wird, und A der Punkt, der an das Schaubild gebunden ist.</p>
+
+<p>Wenn Sie nun den Befehl "Funktionen-Lupe" ausw&auml;hlen und den Punkt A anklicken, dann geschieht folgendes:<br>
+<OL>
+<li>Zun&auml;chst wird der Punkt A mit einem "Lupen-Quadrat" der Kantenl&auml;nge 2*h umfasst. Das Quadrat wird im Folgenden stets so positioniert, dass A immer der Diagonalenschnittpunkt des Quadrats ist. Die Kantenl&auml;nge hingegen ist ver&auml;nderlich: am Anfang ist h = 1 cm, also die (Anfangs-) Kantenl&auml;nge 2 cm.<br><br>
+</li>
+<li>Sodann wird ein zweites Fenster ge&ouml;ffnet, das den eigentlichen "Blick durch die Lupe" liefert: in diesem "Lupen-Fenster" wird der Inhalt des Lupen-Quadrats vergr&ouml;&szlig;ert dargestellt.<br><br>
+</li>
+<li>Au&szlig;erdem werden zwei Punkte A<sub>li</sub>(x<sub>A</sub>-h | f(x<sub>A</sub>-h)) und A<sub>re</sub>(x<sub>A</sub>+h | f(x<sub>A</sub>+h)) erzeugt, die beide stets auf dem Schaubild von f liegen.<br><br>
+</li>
+<li>Schlie&szlig;lich wird in der linken oberen Ecke des DynaGeo-Zeichenbereichs ein Schieberegler eingeblendet, mit dem der Wert von h f&uuml;r das obige Lupen-Quadrat bzw. die Punkte A<sub>li</sub> und A<sub>re</sub> eingestellt werden kann. Dieser Schieberegler dient zur Steuerung des eigentlich "Zoom-Prozesses": h kann etwa im Bereich [0,0001....1,0] L&auml;ngeneinheiten variiert werden.<br>
+</li>
+</OL>
+Durch Verschieben von A auf dem Schaubild von f k&ouml;nnen Sie nun das Zoom-Zentrum w&auml;hlen, und am h-Schieberegler k&ouml;nnen Sie die gew&uuml;nschte Vergr&ouml;&szlig;erung einstellen. Weitere Details zum didaktisch sinnvollen Einsatz der Funktionen-Lupe finden Sie im Abschnitt <a href ="tipsLupe.htm">Details zur Funktionen-Lupe</a>.
+</P>
+<br>
+<p>Im <A HREF="JavaScript:HHCTRL.TextPopup(pop_contextmenu,popfont,10,10,-1,-1)"
+Title="Klicken Sie, um eine Definition zu sehen!">Kontextmen&uuml;</A> des Lupen-Quadrats finden Sie die folgenden Befehle:<br>
+<br>
+<UL>
+<li><b>Sekanten-Steigungen zeigen / entfernen</b>:<br>
+<ul>blendet die Sekanten und die Werte Ihrer Steigungen ein bzw. aus;<br></ul>
+<br>
+</li>
+<LI><B>Sekantensteigungs-Funktionen zeigen / entfernen</B>:<br>
+<ul>blendet die rechtsseitige und die linksseitige Sekantensteigungs-Funktion ein bzw. aus.</ul>
+<br>
+</LI>
+<LI><B>Kr&uuml;mmungskreis zeigen / entfernen</B>:<br>
+<ul>blendet einen Kreis durch die 3 Punkte A<sub>li</sub>, A und A<sub>re</sub> ein bzw. aus;<br></ul>
+<br>
+</LI>
+<LI><B>Schmiege-Parabel zeigen / entfernen</B>:<br>
+<ul>blendet eine Parabel durch die 3 Punkte A<sub>li</sub>, A und A<sub>re</sub> ein bzw. aus;<BR></ul>
+<br>
+</LI>
+</UL>
+</p>
+<br>
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<li><a href="graph.htm">Funktions-Schaubild</a></li>
+<li><a href="tipsLupe.htm">Details zur Funktionen-Lupe</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

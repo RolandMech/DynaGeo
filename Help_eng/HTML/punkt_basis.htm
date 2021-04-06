@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Point</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="construct">
+        <PARAM NAME="Keyword" VALUE="point">
+</OBJECT>
+
+<A NAME="idh_cm_pcreate"></A>
+
+<H2>Point&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../images/toolb201.gif" ALT="" BORDER=0></H2>
+<HR>
+
+<P><font size="-1">(<a HREF="JavaScript:HHCTRL.TextPopup(pop_autorepeat,popfont,10,10,-1,-1)"
+Title="Click to see a definition!">automatically repeatable</a>)</font></P>
+
+
+<P>Clicking the left mouse button at any position in the working area produces a <b>point</b>. The
+initial shape of such a <A HREF="JavaScript:HHCTRL.TextPopup(pop_baseobj,popfont,10,10,-1,-1)"
+Title="Click to see a definition!">basis point</A>is a filled black square.</P>
+
+<P>In addition to the standard items the <A HREF="JavaScript:HHCTRL.TextPopup(pop_contextmenu,popfont,10,10,-1,-1)"
+Title="Click to see a definition!">context menu</A> of such a basis point holds the following commands:<br>
+<ul>
+<li><b>Snap point to line...</b> respectively <b>Unsnap point from line</b> :<br>
+When the point is "free", the command <i>Snap point to line</i> can bind the point to a straight line, a circle, a polygon or a locus line. When it is already bound, the command <i>Unsnap point from line</i> will release the binding and change the point back to a free point again.<br>
+<br>
+</li>
+<li><b>Steps...</b> :<br>
+This command will bring up a window where you can specify how the point will move when dragged by the mouse:<br>
+<br>
+<ul type=circle>
+<li>most <b>smoothly</b>, i.e.: <br>
+the point follows the mouse pixel by pixel;<br>
+<br>
+</li>
+<li><b>in jumps</b> of adjustable width, i.e.: <br>
+while following the mouse the point will jump to the next point of a (virtual) grid. In this case you can specify the <b>step width</b> (i.e.: the distance of the grid lines). Setting the width to 1 will force the point to always have integer co-ordinates.<br>
+<br>
+</li>
+</ul>
+This menu item is only available for unsnapped basis points.<br>
+<br>
+</li>
+<li><b>Fix</b> :<br>
+This commands converts a basis point to a point with fixed co-ordinates.</li>
+</ul>
+</P>
+<br>
+<br>
+
+<p><b>ALT variant: Lattice point</b><br>
+<ul>If you start this command by clicking the tool button on the <i>Construct bar</i>, and you hold down the <i>ALT&nbsp;key</i> while you click, then a <b>lattice point</b> is created instead of a basis point. A lattice point is a special basis point that has always integer co-ordinate values. This is achieved by setting the "steps" parameter of this point to the value "1.0" when creating such a point. It can be dragged by the mouse, but instead of following smoothly, it just jumps from one lattice spot to the next.</ul>
+</P>
+<br>
+<br>
+
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="ptonline.htm">Point on a line</a></li>
+<li><a href="koordpunkt.htm">Point with co-ordinates (x|y)</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

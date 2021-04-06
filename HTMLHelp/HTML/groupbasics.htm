@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Grunds&auml;tzliches zum Gruppieren</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Objekte">
+        <PARAM NAME="Keyword" VALUE="Gruppen">
+        <PARAM NAME="Keyword" VALUE="Grundlagen">
+</OBJECT>
+
+<A NAME="idh_GroupBasics"></A>
+
+<H2>Grunds&auml;tzliches zum Gruppieren</H2>
+<HR>
+
+<P>Eine neu erstellte Zeichnung enth&auml;lt zun&auml;chst noch keine Gruppen. &Uuml;ber den Men&uuml;-Befehl "Ansicht | Objekte gruppieren..." &ouml;ffnen Sie ein Untermen&uuml;, das zun&auml;chst den einzigen Men&uuml;punkt <b>"Neue Gruppe einrichten"</b> enth&auml;lt. Wenn Sie diesen Befehl anw&auml;hlen, erscheint ein Fenster, in dem Sie der neuen Gruppe zun&auml;chst einen <b>Namen</b> geben m&uuml;ssen. Sodann ist noch festzulegen, wie &uuml;ber die Sichtbarkeit der Objekte in der neuen Gruppe entschieden werden soll. Es gibt zwei verschiedene Sorten von Gruppen:<br>
+<ul>
+<li>F&uuml;r <b>statische Gruppen</b> legen <u>Sie</u> bei der Erstellung der Gruppe fest, ob sie angezeigt werden oder nicht. Diese Entscheidung kann sp&auml;ter jederzeit revidiert werden, aber stets nur durch eine entsprechende Aktion des Benutzers. Sie legen also zun&auml;chst nur den Anfangswert f&uuml;r die Sichtbarkeit fest.<br>
+<br></li>
+<li>F&uuml;r <b>dynamische Gruppen</b> geben Sie eine <u>Bedingung</u> an, anhand welcher &uuml;ber die Sichtbarkeit der Gruppenobjekte entschieden wird: ist die Bedingung erf&uuml;llt, werden die Objekte angezeigt, ist sie nicht erf&uuml;llt, werden sie verborgen. Diese Bedingung ist ein boole'scher Ausdruck, in dem auch aus der Zeichnung entnommene Gr&ouml;&szlig;en (also Abstands-, Winkel-, Zahl- und Termwerte) verglichen werden k&ouml;nnen.</li>
+</ul>
+Der Knopf "Objekte hinzuf&uuml;gen / entfernen" schlie&szlig;t dieses Fenster und &ouml;ffnet links oben ein neues, welches Ihnen erlaubt, von den Objekten der Zeichnung diejenigen <b>auszuw&auml;hlen</b>, die in diese Gruppe eingef&uuml;gt werden sollen. Wenn Sie in diesem Zustand ein Objekt anklicken, wird es angew&auml;hlt und beginnt zu blinken. Wenn Sie auf ein blinkendes Objekt klicken, dann h&ouml;rt es auf zu blinken und ist damit wieder abgew&auml;hlt. Wenn Sie auf den "Okay"-Knopf des Fensters klicken, werden alle derzeit blinkenden Objekte in die Gruppe aufgenommen, das Fenster geschlossen und die Sichtbarkeit der gruppierten Objekte entsprechend der von Ihnen festgelegten Vorgaben gesetzt.</p>
+<br>
+
+<p>Nach dem Einrichten einer neuen Gruppe wird die Benutzer-Oberfl&auml;che an die neuen Verh&auml;ltnisse angepasst:<br>
+<ul>
+<li>Dem <b>Untermen&uuml;</b> von "Bearbeiten | Objekte gruppieren..." wird ein <b>neuer Eintrag</b> hinzugef&uuml;gt, der den <b>Namen der Gruppe</b> zeigt. Ein Klick auf diesen Men&uuml;punkt &ouml;ffnet wieder das erste der oben beschriebenen Fenster, welches aber in diesem Fall mit den Daten der schon existierenden Gruppe initialisiert wird.<br>
+<br></li>
+<li>Au&szlig;erdem erscheint rechts unten in der <b>Statuszeile</b> ein kleines Quadrat, das die Gruppe symbolisiert. Wenn Sie mehrere Gruppen eingerichtet haben, werden entsprechend mehrere solche <b>Gruppensymbole</b> nebeneinander aufgereiht. Wenn Sie mit der Maus &uuml;ber einem solchen Gruppensymbol verharren, wird der Name der zugeh&ouml;rigen Gruppe angezeigt - so k&ouml;nnen Sie herausfinden, welches Symbol zu welcher Gruppe geh&ouml;rt.</li>
+</ul></p>
+
+<p>Ein Klick mit der <b>linken Maustaste</b> auf das Symbol einer statischen Gruppe schaltet deren Sichtbarkeit um. Ist die Gruppe sichtbar, dann zeigt das Symbol ein schwarzes Quadrat; ist die Gruppe auf "nicht sichtbar" geschaltet, zeigt das Symbol ein wei&szlig;es Quadrat. Dynamische Gruppen werden durch ein graues Symbol dargestellt. In diesem Fall bleibt ein Mausklick auf das Symbol ohne Wirkung: &uuml;ber die Sichtbarkeit wird anhand der eingegebenen Bedingung entschieden.</P>
+
+<P>Es gibt keinen Befehl, um eine Gruppe zu <b>l&ouml;schen</b>. Wenn Sie eine einmal eingerichtete Gruppe wieder loswerden wollen, m&uuml;ssen Sie einfach alle Objekte aus ihr entfernen. Leere Gruppen werden (nach einer entsprechenden R&uuml;ckfrage) automatisch gel&ouml;scht.</P>
+
+<p>Wenn ein Objekt gleichzeitig zu <b>mehreren Sichtbarkeitsgruppen</b> geh&ouml;rt, so wird es genau dann angezeigt, wenn mindestens eine der Gruppen auf "sichtbar" geschaltet ist. &Uuml;ber die Sichtbarkeit eines Objekts wird also entschieden, indem die Sichtbarkeits-Attribute aller Gruppen, zu denen dieses Objekt geh&ouml;rt, mit "<b>oder</b>" verbunden werden.</p>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>The problem of the recursive functions</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="function">
+        <PARAM NAME="Keyword" VALUE="graph">
+        <PARAM NAME="Keyword" VALUE="recursion">
+</OBJECT>
+
+<A NAME="idh_Recursion"></A>
+
+<H2>The problem of the recursive functions</H2>
+<HR>
+
+<p>Normally (i.e. with the standard settings), DynaGeo does not allow any  <b>recursive function definition</b>. As long as you don't have very profound reasons, you should stick to this behaviour: you'll be rewarded with DynaGeo working more reliably. And you avoid much of the trouble that may be introduced with the recursive definition of functions.<br>
+<br>
+But for the fearless adventurers, the possibility to define recursive functions is implemented. When you decide to use this feature, you should be aware of the risks and dangers for your actual drawing: never make such experiments with your precious original drawings but with especially created working copies! The programme's author rejects all responsibility for whatever consequences will arise....<br>
+<br>
+For those of you who think "No risk, no fun!", here are some hints to help you finding your way through the mine field of recursive function terms. Please read carefully!</p>
+<br>
+
+<h3><font color="#0000FF"><i>Recursion needs circular references</i></font></h3>
+
+<P>The easiest way to define a function f recursively is by <b>direct recursion</b>: just let the function term contain a reference to the function itself. For example:
+<ul>f(x) := f(x-1) + 1</ul>
+Obviously, such a definition will crash your computer during the first attempt to calculate a value of this function. If for instance you want to calculate f(5), then first f(4) must be calculated; to get this you must first calculate f(3), and f(2), and f(1), f(0), f(-1).... etc., without ever coming to an end. What we need is a starting point of the recursion. This can be implemented by using the <b>if()</b> standard function:
+<ul>f(x) := if(x &lt; 0; 0; f(x-1) + 1) </ul>
+For all negative arguments x, the function delivers the value zero. Only for positive arguments, there will occure the recursive descent. The graph of this function is disappointingly simple:<br>
+<br>
+<div align="center"><img src="../IMAGES/rec_fkt_01.png" alt="" border="0"></div>
+</P>
+
+<p>On the other hand, you can as well use an <b>indirect recursion</b>: several functions with terms that contain references to each other, define one another simultaneously. For example:
+<ul>f(x) := if(x &lt; 0; 0; g(x) + 1) </ul>
+<ul>g(x) := f(x-1)</ul>
+The graph of the function f is equal to the one shown above, that of the function g is shifted by one unity in the positive x-direction.
+</p>
+
+<p>Technically, every recursion is a circular reference. This is shown very clearly by the second example: the definition of f contains a call to the function g, and the definition of g holds a call to f. In DynaGeo's object list, those situations must be avoided normally, because any circular reference will lead to a recursive stack overflow the next time the object list is updated. But when you define recursive functions correctly, then the infinite regress can be avoided by providing solid starting points for the recursion. This is done using the <b>if()</b> function.</p>
+<br>
+
+<h3><font color="#0000FF"><i>The input problem</i></font></h3>
+
+<p>A first problem is how to enter a recursive function term: if the term contains a reference to another function, this other function must already exist! So you cannot insert a new function when it's term holds a reference to this function itself, because at this time, the function is not yet added to the list of referable DynaGeo objects! This problem can be solved by a simple trick: just define the function with another (non-recursive!) term, e.g. a constant like "1". This will add the function to the object list. Then change the function's term by editing it: now you can insert references to the function itself because it exists already! </p>
+
+<p>In the above case of the indirect recursive definition of f and g, you could proceed this way:
+<ul>
+<li>You define g preliminarily by g(x) := 3</li>
+<li>Then you define f: f(x) := if(x &lt; 0; 0; g(x) + 1) </li>
+<li>Finally, you edit the term of g and change it to g(x) := f(x-1) </li>
+</ul>
+Only the last step will close the circle of references, and DynaGeo will show an appropriate warning.</p>
+<br>
+
+<h3><font color="#0000FF"><i>The stability problem</i></font></h3>
+
+<p>Unfortunately, the technical input problem is not the only difficulty that is associated with recursion. A much greater problem lies in the fact, that it is nearly impossible to provide an algorithm that recognizes all logical problems with recursive definitions and sends appropriate warnings to the user. For instance, the above definition of f and g turns into complete nonsense if only you alter the minus sign in the definition of g to a plus sign! This shows that we cannot really hope to reach stability by providing e.g. a prophylactic syntax check because the range of creative decisions of the users is much too wide. And besides: a correct syntax does not guaranty for correct semantics!</p>
+
+<p>So it's your turn to provide stability and avoid the stack overflow crash! If you use recursive function definitions, it's merely you who is responsible for your success. Do only those steps that you are sure they don't lead to desaster - just like in real life ;-) </p>
+<br>
+
+<h3><font color="#0000FF"><i>The runtime problem</i></font></h3>
+
+<p>Even if you entered your recursive function definitions successfully and they are syntactically and semantically correct, there remain some more problems. Although professionals in computer science take recursion for a usefull and elegant programming tool, they also know that it usually tends to produce longwinded and <b>slow code</b> and so may lead to some runtime problems. A good example for this behaviour is the classical definition of Fibonacci's sequence:
+<ul>f(x) := if(x &lt; 2; 1; f(x-2) + f(x-1))</ul>
+When your nice new computer is to calculate and show the graph of this function, the speed depends to a great degree on the actual size of your DynaGeo window. The task is easy for negative arguments, and even <nobr>f(5)</nobr> does not reveal any problems. But when you draw the right border of your drawing window to the right and the function values up to x = 15 must be calculated, then the computer will be held up. The calculation of <nobr>f(15)</nobr> needs at least 1973 calls to f. You may claim that this is no real problem for your computer, but unfortunately, DynaGeo needs to verify every point of jump discontinuity numerically and so it has to calculate far more values of f! And when you stay believing in the power of your hardware, then please calculate <nobr>f(30)</nobr> - it needs at least 2692537 calls to f() ;-)  </p>
+
+<p>The rapid growth of the time needed to calculate the Fibonacci numbers is caused by the fact, that in the definition of the function f there are <u>two</u> recursive references. So in every recursion level, the number of calls to f is doubled. This leads to an exponential growth in calculation time.<p>
+
+<p>With special recursive functions of even more complicated kind, your normally speedy computer may hang heavily over the calculation of your function's values. So, in addition to the problems mentioned above, you must be prepared to face a serious runtime problem.</P>
+<br>
+
+<h3><font color="#0000FF"><i>Good luck!</i></font></h3>
+
+<p>Maybe, you don't tend any more to inspect recursive functions with DynaGeo. This decision will save you a lot of trouble. Stay to DynaGeo as a "dynamic geometry" tool, that originally was built to draw points and lines!</p>
+
+<p>But perhaps, you are attracted by the challenge of exploring this dangerous field. Then I hope that you start with clever plans. And don't be discouraged if your nice new computer may occasionally crash. Please, before starting with recursive functions, prepare your machine in such a way that even a BSOD will not cause any permanent damage to your programs and data files! </p>
+
+<p>And then, again: <b>good luck!</b> </p>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

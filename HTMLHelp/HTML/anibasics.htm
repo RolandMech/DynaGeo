@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Grunds&auml;tzliches zu Animationen</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Animation"/>
+</OBJECT>
+
+<A NAME="idh_anibasics"></A>
+
+<H2>Grunds&auml;tzliches zu Animationen</H2>
+<HR>
+
+<P>Eine <b>Amination</b> ist eine <b>kontrollierte Ver&auml;nderung</b> Ihrer Zeichnung <b>in der Zeit</b>. Sie wird durch den Benutzer gestartet, l&auml;uft dann aber selbstst&auml;ndig ab. Sie kann damit als eine <b>Automatisierung des Zugmodus</b> angesehen werden. Die Rolle des von der Maus gezogenen Objekts &uuml;bernimmt nun ein sogenanntes <b>Steuerobjekt</b>: in beiden F&auml;llen werden die vom bewegten Objekt abh&auml;ngigen Objekte ihrerseits entsprechend mitbewegt.</p>
+
+<p> Wenn Sie also eine Zeichnung animieren wollen, m&uuml;ssen Sie sie so konstruieren, dass die zu bewegenden Objekte von einem <b>Steuerobjekt</b> abstammen. Allerdings kommen als Steuerobjekte nur solche Objekte in Frage, die vom Programm intern kontrolliert ver&auml;ndert werden k&ouml;nnen. Es gibt derzeit in DynaGeo zwei Arten von Steuerobjekten f&uuml;r Animationen:<br>
+<ol start="1" type="1">
+<li><b>Basispunkte</b>, die an Strecken, Kreise oder Polygone gebunden sind</li>
+<li><b>Zahlobjekte</b></li>
+</ol>
+Beachten Sie, dass Basispunkte, die an Geraden oder Ortslinien gebunden sind, <u>nicht</u> als Steuerobjekte geeignet sind. Der Ort des gebundenen Basispunktes auf seiner Tr&auml;gerlinie wird n&auml;mlich intern durch einen <b>Positions-Parameter</b> beschrieben, der f&uuml;r eine Animation auf ein <b>abgeschlossenes Intervall</b> eingeschr&auml;nkt sein muss. Dies ist bei Linien endlicher L&auml;nge wie Strecken und Kreisen kein Problem, w&auml;hrend Geraden als Tr&auml;gerlinien im Hinblick auf Animationen quasi "zu gro&szlig;" sind. Und im Falle von Ortslinien mahnt die schiere Vorsicht zur Zur&uuml;ckhaltung: ob eine Ortslinie f&uuml;r alle k&uuml;nftigen Konfigurationen Ihrer Zeichnung stets von beschr&auml;nkter L&auml;nge sein wird, ist numerisch kaum sicher zu entscheiden.</p>
+<br>
+
+<h3>Basispunkte als Steuerobjekte:</h3>
+
+<ul><p>Wenn Sie nun eine Animation mit einem Basispunkt S als Steuerobjekt ablaufen lassen wollen, m&uuml;ssen Sie zun&auml;chst diesen Punkt S zum Steuerobjekt ernennen: im Dialogfenster <i>Animations-Parameter</i> wird Ihnen eine <b>Liste m&ouml;glicher Steuerobjekte</b> angeboten. Ist der Punkt S an eine geeigenete Linie gebunden, wird er in dieser Liste angezeigt, und Sie k&ouml;nnen ihn <b>ausw&auml;hlen</b>. Nach dem Schlie&szlig;en des Dialogs erscheinen auf der Werkzeugleiste "Animation" die Schaltfl&auml;chen f&uuml;r die <b>Navigationsbefehle</b>: mit deren Hilfe k&ouml;nnen Sie die Animation starten und wieder anhalten.</p>
+
+<p>Wenn Sie z.B. auf den gr&uuml;nen Pfeil nach rechts klicken, startet die Animation. Solange sie l&auml;uft, wird "einfach" der obengenannte Positions-Parameter des Punktes S intern um eine bestimmte <b>Schrittweite</b> ver&auml;ndert, die neue Position von S errechnet und S dorthin verschoben; und schlie&szlig;lich werden alle von S abh&auml;ngigen Objekte ebenfalls an ihre entsprechenden neuen Positionen gebracht. Danach wird der Parameter wieder um die Schrittweite ver&auml;ndert usw... </p>
+
+<p>Normalerweise stoppt die Animation automatisch, wenn der Parameterwert den Rand des vorgegebenen Intervalls erreicht. Wenn das Steuerobjekt jedoch ein Basispunkt ist, der an eine <b>geschlossene Linie</b> gebunden ist, dann wird das Parameter-Intervall intern ebenfalls "geschlossen" gedacht: wenn das eine Ende erreicht wird, erfolgt automatisch ein R&uuml;ck-Sprung zum anderen Ende. Dies f&uuml;hrt zu einer <b>Endlos-Animation</b>, die nur noch durch einen Klick auf die "Stop-Taste" angehalten werden kann.</p>
+</ul>
+<br>
+
+<h3>Zahlobjekte als Steuerobjekte:</h3>
+
+<ul><p>Die zweite Sorte von Steuerobjekten sind die <b>Zahlobjekte</b>. Bei diesen &uuml;bernimmt der Zahlwert selbst die Rolle des obengenannten Positionsparamters. Wenn Sie das Zahlobjekt Z1 als Steuerobjekt f&uuml;r eine Animation benutzen wollen, m&uuml;ssen Sie die zu bewegenden Objekte in Abh&auml;ngigkeit von Z1 konstruieren. Dies ist zum Beipiel m&ouml;glich, indem Sie <b>Objekte mit numerischen Parametern</b> verwenden (Punkte mit bestimmten Koordinaten, Kreise mit bestimmtem Radius und Geraden in bestimmtem Winkel). Im Gegensatz zum Fall der Basispunkt-Steuerobjekte k&ouml;nnen Sie bei den Zahlobjekten die <b>Grenzen des Parameter-Intervalls</b> frei w&auml;hlen: im Dialog <i>"Animations-Parameter"</i> sind die entsprechenden Felder nun editierbar. Ansonsten funktioniert eine durch ein Zahlobjekt gesteuerte Animation genau wie oben beschrieben.</P>
+</ul>
+<br>
+
+<p>Die <b>Geschwindigkeit der Animation</b> ist direkt von der <b>Schrittweite</b> abh&auml;ngig, mit der der Positionsparameter ver&auml;ndert wird: gro&szlig;e Schrittweiten f&uuml;hren zu einem schnellen Ablauf, kleine zu einem langsameren. Auch die Schrittweite k&ouml;nnen Sie im Dialog <i>"Animations-Parameter"</i> einstellen. Beachten Sie aber, dass die Animation nicht "echtzeit-gesteuert" l&auml;uft: dieselbe Schrittweite kann in zwei verschiedenen Zeichnungen zu sehr unterschiedlichen Ablaufgeschwindigkeiten f&uuml;hren, wenn diese sich in Gr&ouml;&szlig;e (d.h. Anzahl der Objekte) oder Komplexit&auml;t (d.h. Art der Objekte) deutlich voneinander unterscheiden. Ebenso kann die Ablaufgeschwindigkeit von Computer zu Computer variieren, da der konkrete Zeitbedarf f&uuml;r einen Animationsschritt eben auch von der Leistungsf&auml;higkeit des verwendeten Prozessors abh&auml;ngt. Gegebenenfalls k&ouml;nnen Sie den Wert f&uuml;r die Schrittweite zur Laufzeit der Animation mit Hilfe der "Plus"- und "Minus"-Tasten im numerischen Ziffernblock Ihrer Tastatur anpassen.</p>
+
+<br>
+<br>
+
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<li><a href="aniparams.htm">Animations-Parameter einstellen</a></li>
+<li><a href="tool_animation.htm">Die Animations-Leiste</a></li>
+</ul>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Standard locus lines</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="locus line">
+</OBJECT>
+
+<A NAME="idh_locline_standard"></A>
+
+<H2>Standard locus lines</H2>
+<HR>
+
+<p>Standard locus lines are a special kind of dynamic locus lines.</p>
+
+<P>One drawback of the dynamic locus lines is that they cannot be intersected with other lines. EUKLID DynaGeo's programmer was frightened by the horror vision that some user would try to intersect the locus line of the full tan function with the one of the logarithmic helix ;-)</p>
+
+<p>On the other hand, in some situation you may want to intersect at least some simple locus lines with another line. To achieve this EUKLID DynaGeo implements the <b>"standard mode"</b> for locus lines: if a dynamic locus line obviously is a <b>straight line</b> or it is a <b>circle</b>, then the context menu of the locus line contains an item <i>"Standard curve"</i>. If you select this item, then a standard curve object (i.e. a straight line object resp. a circle object) is created as a "child" of the locus line. In the following, instead of the locus line's Bezier approximation this standard curve is shown. If you want EUKLID DynaGeo to convert every new created locus line to a standard curve if possible, then go to <a href="olineopt.htm">Options | Locus lines</a> and activate the appropriate option.</p>
+
+<p>Please note the following <b>problems</b>:<br>
+<ul>
+<li><i><b>The standard curve may be too big.</b></i><br>
+The standard curve may hold more points than the original locus line did. Surely every position of the generator point lies on the standard curve, but conversely not every point of the standard curve must be a possible position of the generator point! So the standard curve may not <b>be</b> the locus line, but only <b>include</b> it!<br>
+<br>
+</li>
+<li><i><b>The locus line may be a standard curve purely by chance.</b></i><br>
+Even if during recording all of the generator point's positions lie on a standard curve, this may be true only for a special configuration of your construction. After dragging the drawing the locus line may change its shape and no longer be a standard curve. So after every drag action all standard locus lines are checked if they still meet the demands. If a standard locus line fails this test, it is <b>converted back</b> to a normal dynamic locus line by invalidating the appropriate standard line object. Any further objects derived from the former standard line become invalid too. <br>
+</li>
+</ul>
+</p>
+<br>
+<br>
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="olinedyn.htm">Dynamic locus lines</a></li>
+<li><a href="ortslinie.htm">Record a point's locus line</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

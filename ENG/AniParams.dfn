@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\AniParams.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\AniParams.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715046296</prop>
+        <prop prop-type="OrigDateTime">40248.4755324074</prop>
+        <prop prop-type="XlatDateTime">37754.3759027778</prop>
+        <prop prop-type="Translated">8</prop>
+        <prop prop-type="UnTranslated">68</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:AniParamsWin.Left" resname="O:AniParamsWin.Left">
+        <source>462</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.Top" resname="O:AniParamsWin.Top">
+        <source>122</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.HelpContext" resname="O:AniParamsWin.HelpContext">
+        <source>212</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.BorderStyle" resname="O:AniParamsWin.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.Caption" resname="O:AniParamsWin.Caption">
+        <source>'Animations-Parameter'</source>
+        <target>'Params of animation'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">1</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.ClientHeight" resname="O:AniParamsWin.ClientHeight">
+        <source>194</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.ClientWidth" resname="O:AniParamsWin.ClientWidth">
+        <source>319</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.Color" resname="O:AniParamsWin.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.Font.Charset" resname="O:AniParamsWin.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.Font.Color" resname="O:AniParamsWin.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.Font.Height" resname="O:AniParamsWin.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.Font.Name" resname="O:AniParamsWin.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.Font.Style" resname="O:AniParamsWin.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.OldCreateOrder" resname="O:AniParamsWin.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.OnShow" resname="O:AniParamsWin.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.PixelsPerInch" resname="O:AniParamsWin.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.TextHeight" resname="O:AniParamsWin.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TAniParamsWin</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Label5.Left" resname="O:AniParamsWin.O:Label5.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Label5.Top" resname="O:AniParamsWin.O:Label5.Top">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Label5.Width" resname="O:AniParamsWin.O:Label5.Width">
+        <source>92</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Label5.Height" resname="O:AniParamsWin.O:Label5.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Label5.Alignment" resname="O:AniParamsWin.O:Label5.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Label5.AutoSize" resname="O:AniParamsWin.O:Label5.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Label5.Caption" resname="O:AniParamsWin.O:Label5.Caption">
+        <source>'Steuer-Objekt : '</source>
+        <target>'Steering object : '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979701389</prop><prop prop-type="Status">1</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:CancelBtn.Left" resname="O:AniParamsWin.O:CancelBtn.Left">
+        <source>171</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:CancelBtn.Top" resname="O:AniParamsWin.O:CancelBtn.Top">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:CancelBtn.Width" resname="O:AniParamsWin.O:CancelBtn.Width">
+        <source>113</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:CancelBtn.Height" resname="O:AniParamsWin.O:CancelBtn.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:CancelBtn.Caption" resname="O:AniParamsWin.O:CancelBtn.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Cancel'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">1</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:CancelBtn.Font.Charset" resname="O:AniParamsWin.O:CancelBtn.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374658102</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:CancelBtn.Font.Color" resname="O:AniParamsWin.O:CancelBtn.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374658102</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:CancelBtn.Font.Height" resname="O:AniParamsWin.O:CancelBtn.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374658102</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:CancelBtn.Font.Name" resname="O:AniParamsWin.O:CancelBtn.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374658102</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:CancelBtn.Font.Style" resname="O:AniParamsWin.O:CancelBtn.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374658102</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:CancelBtn.ModalResult" resname="O:AniParamsWin.O:CancelBtn.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:CancelBtn.ParentFont" resname="O:AniParamsWin.O:CancelBtn.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374658102</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:CancelBtn.TabOrder" resname="O:AniParamsWin.O:CancelBtn.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:OkayBtn.Left" resname="O:AniParamsWin.O:OkayBtn.Left">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:OkayBtn.Top" resname="O:AniParamsWin.O:OkayBtn.Top">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:OkayBtn.Width" resname="O:AniParamsWin.O:OkayBtn.Width">
+        <source>124</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:OkayBtn.Height" resname="O:AniParamsWin.O:OkayBtn.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:OkayBtn.Caption" resname="O:AniParamsWin.O:OkayBtn.Caption">
+        <source>'Okay'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">1</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:OkayBtn.Default" resname="O:AniParamsWin.O:OkayBtn.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:OkayBtn.Font.Charset" resname="O:AniParamsWin.O:OkayBtn.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374658102</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:OkayBtn.Font.Color" resname="O:AniParamsWin.O:OkayBtn.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374658102</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:OkayBtn.Font.Height" resname="O:AniParamsWin.O:OkayBtn.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374658102</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:OkayBtn.Font.Name" resname="O:AniParamsWin.O:OkayBtn.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374658102</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:OkayBtn.Font.Style" resname="O:AniParamsWin.O:OkayBtn.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374658102</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:OkayBtn.ParentFont" resname="O:AniParamsWin.O:OkayBtn.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374658102</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:OkayBtn.TabOrder" resname="O:AniParamsWin.O:OkayBtn.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:OkayBtn.OnClick" resname="O:AniParamsWin.O:OkayBtn.OnClick">
+        <source>OkayBtnClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:ComboBox1.Left" resname="O:AniParamsWin.O:ComboBox1.Left">
+        <source>111</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:ComboBox1.Top" resname="O:AniParamsWin.O:ComboBox1.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:ComboBox1.Width" resname="O:AniParamsWin.O:ComboBox1.Width">
+        <source>189</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:ComboBox1.Height" resname="O:AniParamsWin.O:ComboBox1.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:ComboBox1.Hint" resname="O:AniParamsWin.O:ComboBox1.Hint">
+        <source>'Wählen Sie das Zahlobjekt aus,\ndas die Animation steuern soll !'</source>
+        <target>'The object controling the animation'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">1</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:ComboBox1.Style" resname="O:AniParamsWin.O:ComboBox1.Style">
+        <source>csDropDownList</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:ComboBox1.TabOrder" resname="O:AniParamsWin.O:ComboBox1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:ComboBox1.OnSelect" resname="O:AniParamsWin.O:ComboBox1.OnSelect">
+        <source>ComboBox1Select</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.Left" resname="O:AniParamsWin.O:Panel1.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.Top" resname="O:AniParamsWin.O:Panel1.Top">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.Width" resname="O:AniParamsWin.O:Panel1.Width">
+        <source>306</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.Height" resname="O:AniParamsWin.O:Panel1.Height">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.TabOrder" resname="O:AniParamsWin.O:Panel1.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label1.Left" resname="O:AniParamsWin.O:Panel1.O:Label1.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label1.Top" resname="O:AniParamsWin.O:Panel1.O:Label1.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label1.Width" resname="O:AniParamsWin.O:Panel1.O:Label1.Width">
+        <source>85</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label1.Height" resname="O:AniParamsWin.O:Panel1.O:Label1.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label1.AutoSize" resname="O:AniParamsWin.O:Panel1.O:Label1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label1.Caption" resname="O:AniParamsWin.O:Panel1.O:Label1.Caption">
+        <source>'Untere Grenze :'</source>
+        <target>'Lower bound :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">1</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label3.Left" resname="O:AniParamsWin.O:Panel1.O:Label3.Left">
+        <source>208</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label3.Top" resname="O:AniParamsWin.O:Panel1.O:Label3.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label3.Width" resname="O:AniParamsWin.O:Panel1.O:Label3.Width">
+        <source>79</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label3.Height" resname="O:AniParamsWin.O:Panel1.O:Label3.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label3.AutoSize" resname="O:AniParamsWin.O:Panel1.O:Label3.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label3.Caption" resname="O:AniParamsWin.O:Panel1.O:Label3.Caption">
+        <source>'Obere Grenze :'</source>
+        <target>'Upper bound :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">1</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label4.Left" resname="O:AniParamsWin.O:Panel1.O:Label4.Left">
+        <source>111</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label4.Top" resname="O:AniParamsWin.O:Panel1.O:Label4.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label4.Width" resname="O:AniParamsWin.O:Panel1.O:Label4.Width">
+        <source>78</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label4.Height" resname="O:AniParamsWin.O:Panel1.O:Label4.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label4.AutoSize" resname="O:AniParamsWin.O:Panel1.O:Label4.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:Label4.Caption" resname="O:AniParamsWin.O:Panel1.O:Label4.Caption">
+        <source>'Schrittweite :'</source>
+        <target>'Param step :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">1</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit1.Left" resname="O:AniParamsWin.O:Panel1.O:FloatEdit1.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit1.Top" resname="O:AniParamsWin.O:Panel1.O:FloatEdit1.Top">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit1.Width" resname="O:AniParamsWin.O:Panel1.O:FloatEdit1.Width">
+        <source>85</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit1.Height" resname="O:AniParamsWin.O:Panel1.O:FloatEdit1.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit1.TabOrder" resname="O:AniParamsWin.O:Panel1.O:FloatEdit1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit1.Text" resname="O:AniParamsWin.O:Panel1.O:FloatEdit1.Text">
+        <source>'-2'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit1.OnExit" resname="O:AniParamsWin.O:Panel1.O:FloatEdit1.OnExit">
+        <source>FloatEdit1Exit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit3.Left" resname="O:AniParamsWin.O:Panel1.O:FloatEdit3.Left">
+        <source>208</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit3.Top" resname="O:AniParamsWin.O:Panel1.O:FloatEdit3.Top">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit3.Width" resname="O:AniParamsWin.O:Panel1.O:FloatEdit3.Width">
+        <source>85</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit3.Height" resname="O:AniParamsWin.O:Panel1.O:FloatEdit3.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit3.TabOrder" resname="O:AniParamsWin.O:Panel1.O:FloatEdit3.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit3.Text" resname="O:AniParamsWin.O:Panel1.O:FloatEdit3.Text">
+        <source>'5'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit3.OnExit" resname="O:AniParamsWin.O:Panel1.O:FloatEdit3.OnExit">
+        <source>FloatEdit3Exit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit2.Left" resname="O:AniParamsWin.O:Panel1.O:FloatEdit2.Left">
+        <source>111</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit2.Top" resname="O:AniParamsWin.O:Panel1.O:FloatEdit2.Top">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit2.Width" resname="O:AniParamsWin.O:Panel1.O:FloatEdit2.Width">
+        <source>85</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit2.Height" resname="O:AniParamsWin.O:Panel1.O:FloatEdit2.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit2.TabOrder" resname="O:AniParamsWin.O:Panel1.O:FloatEdit2.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit2.Text" resname="O:AniParamsWin.O:Panel1.O:FloatEdit2.Text">
+        <source>'0,001'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:AniParamsWin.O:Panel1.O:FloatEdit2.OnExit" resname="O:AniParamsWin.O:Panel1.O:FloatEdit2.OnExit">
+        <source>FloatEdit2Exit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979707176</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TFloatEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

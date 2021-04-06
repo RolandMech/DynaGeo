@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Why ActiveX and JAVA?</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="DynaGeoX">
+        <PARAM NAME="Keyword" VALUE="JAVA">
+        <PARAM NAME="Keyword" VALUE="HTML">
+        <PARAM NAME="Keyword" VALUE="ActiveX">
+</OBJECT>
+
+<A NAME="idh_dgx_dgj"></A>
+
+<H2>DynaGeoJ versus DynaGeoX: why are there 2 viewers?</H2>
+<HR>
+
+<P>
+<B>How to present a dynamic drawing in a HTML page</B></P>
+<ul>
+<p>No one of the usual browsers can render a dynamic drawing by itself. You must load an appropriate "plug-in" to expand the browser's capabilities. If a HTML page contains a dynamic drawing, the browser calls a "viewer program" that will do the job of displaying the drawing. This <b>viewer</b> also allows the user to manipulate the drawing. </p>
+
+<p> There are several possibilities to realize such a viewer. The most common solution uses <b>JAVA applets</b>, but sometimes <b>ActiveX components</b> are used to provide the same functionallity. Unfortunately, ActiveX components run only inside the Microsoft Internet Explorer.<br>
+</p>
+</ul>
+<br>
+
+<P>
+<B>Aspects of security</B></P>
+<ul>
+<P>In principle, every kind of viewer program running inside the browser is a substantial <B>security risk</B>. To minimize this risk, the authors of JAVA developed the "sand box": the border of the "sand box" defines what the applet can do and what it cannot. Although the sand box technology is not free from side effects, we must admit that an ActiveX component needs much <B>more confidence</B> from the user than an usual JAVA applet. This is due to the fact that ActiveX components are effectively "masked EXE files" and so can cause the same damage to the user's computer as any other runnable program. So the user must trust the author of the ActiveX program that the program does no harm to his machine! </P>
+
+<P>To limit the risks of ActiveX components, Microsoft provided a way the author can <b>sign</b> his ActiveX components digitally. So the user can be sure that the software really comes from this author and has not been altered on its (long) way through the web. Even if the author has to spend some effort (and money) to digitally sign his work, the signature does not really improve the situation of the user: at last, he must decide if he trusts the author of the ActiveX component, or not. </P>
+
+<p>But the <b>security advantage</b> of JAVA applets is melting away. Applets that act only inside the limited area of the "sand box" are of very limited capabilities. So the authors of JAVA created a way to enlarge the range of an applet by signing it digitally! A "signed" applet may have the same unlimited reach on the user's computer as an ActiveX component! So the "security of JAVA applets" is a fairy tale from ancient days...;-)<br>
+<ul><font size="-1"><br>
+While the digital signatures for ActiveX components must be bought for a lot of money from "Certification Authorities", any not too bad programmer can produce a valid JAVA signatur by himself within 10 minutes and sign his applet with it: the Java SDK contains all you need!</font></ul>
+</p>
+
+<p>When a programm is designed to be predominantly used in schools, we have to consider the real situation at these schools. And most the <b>administrators of school webs</b> reject Microsoft's ActiveX technology, because it is complicated to implement in local webs where most of the users work with rather limited rights. So in many schools internet pages with DynaGeoX will not run: the DynaGeoX viewer window just stays empty. On the other hand, the same admins install JAVA on the client computer of the school web because they think that <b>JAVA applets are necessary, useful and secure</b>. </p>
+</ul>
+<br>
+
+<P>
+<B>The DynaGeo viewers</B></P>
+<ul>
+<p>DynaGeo is a genuine <B>Windows program</B>, build with Delphi in Object Pascal. In this situation it is much easier to implement an ActiveX component based viewer than a JAVA applet. The latter needs all the Pascal sources to be ported to JAVA! So I decided to begin with a <b>DynaGeoX</b>-Viewer using Microsoft's ActiveX technology. This viewer was published with DynaGeo 2.3 in the year 2000. </P>
+
+<P>But many DynaGeo user wanted a JAVA based export possibility for dynamic drawings. So in 2006 the <b>DynaGeoJ project</b> was started. Then I've had a computer science course with extraordinarily talented young JAVA programmers who started working on the project with high commitment and intensity. Unfortunately, they soon passed the Abitur and went away - leaving me with the first pieces of a project with a considerable way to go yet. But <b>DynaGeoJ</b> was on its way, and finally in 2009 a first preview was published.<br>
+<ul><font size="-1"><br>
+An often heard argument against JAVA programs is that they tend to be slow. During the development of DynaGeoJ I learned that is no more true. Naturely, a cross-platform program cannot run as fast as one that is optimized for a certain processor: you must pay tribute to the "VM". But for all situations in every day life, JAVA applets can be fast enough. </font></p> </ul>
+</ul>
+<br>
+
+<P>
+<B>DynaGeoX versus DynaGeoJ: a comparison</B></P>
+
+<ul>
+<P>The greatest advantage of JAVA is the plattform independence of the implemented programs: "write once, run everywhere" is the promise of the JAVA authors! So you can expect that DynaGeoJ internet pages produced under Windows will also run on Apple's MAC computers, and on Linux systems too. If the same page used DynaGeoX, it would only run on Windows computers that use the IE.</p>
+
+<p> On the other hand, DynaGeoX has a far more complete implementation of the capabilities of DynaGeo. So it's your choice to decide which argument is more important for you. The following table lists the specific advantages and drawbacks of the two viewers: </P>
+
+<table cellpadding="10" bgcolor="#DFDFDF" align="center" frame="box" bordercolor="#000000">
+<tr>
+ <th>&nbsp;</th>
+ <th>DynaGeoX </th>
+ <th>DynaGeoJ </th>
+</tr>
+<tr align="center">
+ <th>Operating systems </th>
+ <td bgcolor="#FF8080">Windows only</td>
+ <td bgcolor="#80FF80">cross-plattform</td>
+</tr>
+<tr align="center">
+ <th>Browser </th>
+ <td bgcolor="#FF8080">only MS Internet Explorer</td>
+ <td bgcolor="#80FF80">all browsers with a JAVA VM</td>
+</tr>
+<tr align="center">
+ <th>Availability in school webs </th>
+ <td bgcolor="#FF8080">insufficient</td>
+ <td bgcolor="#80FF80">very good</td>
+</tr>
+<tr align="center">
+ <th>Compatibility with DynaGeo </th>
+ <td bgcolor="#80FF80">very good </td>
+ <td bgcolor="#FFFF80">satisfactory<br>(will become better...) </td>
+</tr>
+<tr align="center">
+ <th>Performance </th>
+ <td bgcolor="#80FF80">good</td>
+ <td bgcolor="#FFFF80">satisfactory</td>
+</tr>
+<tr align="center">
+ <th>Security </th>
+ <td bgcolor="#FFFF80">satisfactory</td>
+ <td bgcolor="#FFFF80">satisfactory</td>
+</tr>
+</table>
+<br>
+
+<p>Perhaps you are a bit astonished that I judge the security of both technologies as <u>equal</u>: yes, I really think that there is no substantial difference. Active content is <b>always</b> dangerous - and it makes no difference if you run a signed ActiveX component or a signed JAVA applet! Both can cause the same damage to your computer, and in both cases it is equally difficult for the user to decide if he can trust the plug-in's author, or not. </p>
+</ul>
+<br>
+<br>
+
+</FONT>
+</BODY>
+</HTML>

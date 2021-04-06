@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Gerade in bestimmtem Winkel</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Konstruieren">
+        <PARAM NAME="Keyword" VALUE="Geraden">
+        <PARAM NAME="Keyword" VALUE="Gerade Linien">
+        <PARAM NAME="Keyword" VALUE="Linien">
+        <PARAM NAME="Keyword" VALUE="Winkel">
+</OBJECT>
+
+<A NAME="idh_cm_GRicht"></A>
+
+<H2>Gerade in bestimmtem Winkel&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../images/toolb216.gif" ALT="" BORDER=0></H2>
+<HR>
+
+<P><font size="-1">(<a HREF="JavaScript:HHCTRL.TextPopup(pop_autorepeat,popfont,10,10,-1,-1)"
+Title="Klicken Sie, um eine Definition zu sehen!">automatisch wiederholbar</a>)</font></P>
+
+
+<P>Dieser Men&uuml;punkt dient zum Zeichnen einer Geraden, die mit  einer gegebenen Geraden oder Strecke (im folgenden als <I>Bezugslinie</I> bezeichnet) einen von Ihnen festgelegten Winkel einschlie&szlig;t. Dies geschieht in den folgenden Schritten:</P>
+
+<OL>
+        <LI>Zun&auml;chst &ouml;ffnet sich ein kleines Fenster, in dem Sie die gew&uuml;nschte <B>Winkelweite</B> eingeben k&ouml;nnen. Wenn Sie eine konstante Winkelweite in Grad angeben wollen, m&uuml;ssen Sie der Ma&szlig;zahl ein Gradzeichen (°) hinzuf&uuml;gen. Einer Referenz auf einen schon existierenden Winkel darf hingegen kein Gradzeichen angef&uuml;gt werden.<br>
+(<a href="angle_unit.htm">Weitere Details dazu...</a>)<BR><BR></LI>
+
+        <LI>Sodann geben Sie (mit der Maus) einen (schon existierenden) <B>Punkt</B> auf der Bezugslinie an, durch den die zu erzeugende Gerade <B>nicht</B> durchgehen soll. <BR><BR></LI>
+
+        <LI>Als n&auml;chstes geben Sie den (ebenfalls schon existierenden) <B>Punkt</B> der Bezugslinie ein, durch den die zu zeichnende Gerade gehen soll.<BR><BR></LI>
+
+        <LI>Falls Sie eine konstante Winkelweite <B>ohne Vorzeichen</B> eingegeben haben, erwartet EUKLID DynaGeo noch die Eingabe eines weiteren Punktes, der bestimmt, auf welcher Seite der Bezuglinie der Winkel angetragen werden soll</LI>
+</OL>
+
+<P>Die Eingabe einer solchen Geraden erfolgt also analog der Eingabe eines Winkels durch 3 definierende Punkte:
+
+<OL>
+        <LI>ein Punkt auf dem 1. Schenkel (hier: auf der Bezugslinie);<BR><BR></LI>
+
+        <LI>der Scheitelpunkt (hier: Schnittpunkt der Bezugslinie mit der zu erzeugenden Geraden)  <BR><BR></LI>
+
+        <LI>ein Punkt auf dem 2. Schenkel (hier: ein Punkt auf derjenigen Seite der Bezugslinie, auf der der Winkel angetragen werden soll).</LI>
+</OL>
+
+<P>Wenn Sie die f&uuml;r die Winkelweite eine Konstante <B>mit Vorzeichen</B> oder einen <a href="termsyntax.htm"><b>Term</b></a> eingeben, wird <B>kein</B> dritter Punkt zur Winkelorientierung erwartet; der Winkel wird dann automatisch gem&auml;&szlig; dem <B>Vorzeichen</B> des jeweils aktuellen Termwertes orientiert. Details &uuml;ber die Verwendung von Ma&szlig;en und Koordinatenwerten in solchen Termen finden Sie unter <i>Messen | Termeingabe</i>.</P>
+
+<P>Im <A HREF="JavaScript:HHCTRL.TextPopup(pop_contextmenu,popfont,10,10,-1,-1)"
+Title="Klicken Sie, um eine Definition zu sehen!">Kontext-Men&uuml;</A> einer Gerade in bestimmtem Winkel finden Sie neben den Standardbefehlen noch einen Eintrag namens<br>
+<ul>
+<li><b>Winkel...</b>,<br>
+der Ihnen gestattet, den Winkel(term) nachtr&auml;glich zu &auml;ndern.</li>
+</ul></P>
+<br>
+
+<P><font color="#FF0000"><b><i>Achtung !</i></b></font>
+<ul>Die Bezugslinie muss nicht notwendigerweise als Objekt vorhanden sein. Lediglich die beiden Punkte auf der (eventuell nur gedachten) Bezugslinie m&uuml;ssen existieren.<br>
+<br>
+Falls jedoch diese Punkte noch nicht vorhanden sind, werden sie beim Klicken auf die Bezugslinie neu erzeugt. Allerdings werden diese neuen Punkte nicht automatisch an die Bezugslinie gebunden, selbst wenn diese schon vorhanden ist: sie bleiben zun&auml;chst als freie Basispunkte erhalten. Wenn Sie eine Bindung der neuen Punkte an eine schon existierende Bezugslinie w&uuml;nschen, k&ouml;nnen Sie diese jederzeit nachtr&auml;glich einrichten.</ul></P>
+<br>
+<br>
+<br>
+<p><b>ALT-Variante: Halbgerade in bestimmtem Winkel</b><br>
+<ul>Wenn Sie den Befehl <I>Gerade in bestimmtem Winkel</I> &uuml;ber die Werkzeugleiste anw&auml;hlen und beim Klicken auf das entsprechende Icon die <I>ALT</I>-Taste gedr&uuml;ckt halten, dann erwartet der Befehl dieselben Eingabeobjekte, konstruiert aber eine <b>Halbgerade</b>, welche in dem zweiten eingegebenen Punkt, also dem Scheitelpunkt des Winkels anf&auml;ngt. Die Verwendung dieses alternativen Befehls ist vor allem dann sinnvoll, wenn der freie Schenkel eines gegebenen Winkels konstruiert werden soll.</ul><br>
+<br>
+<br>
+
+</p>
+<P><B><I>Siehe auch:</I></B>
+<ul>
+<li><a href="gerade_ptpt.htm">Gerade durch 2 Punkte</a></li>
+<li><a href="gerade_basis.htm">Gerade aufziehen</a></li>
+<li><a href="angle_unit.htm">Das Problem der Winkelma&szlig;-Einheit</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

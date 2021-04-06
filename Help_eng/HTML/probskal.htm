@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Problems with scaling</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+
+<A NAME="idh_prob_skal"></A>
+
+<H2>Problems with scaling</H2>
+<HR>
+
+<P><B>a) Scaling on the screen:</B></P>
+
+<blockquote><P>EUKLID DynaGeo tries to start every new drawing with a scale of 1:1. So it has to find out how many screen pixel make up an inch, and it asks WINDOWS about that. When WINDOWS finds that there is a 15 inch monitor connected, run with 1024 x 768 pixels, then the result is so-many pixels per centimetre. This information is transferred to EUKLID DynaGeo, and it is started so that a line segment of 5 cm occupies exactly 5 WINDOWS-cm on the screen. But due to the poor resolution of the actually available screens, usually the WINDOWS screen centimetre is about 50% longer than the real world centimeter.</P>
+
+<p>In the meantime, EUKLID DynaGeo has learned to <b>zoom</b> the whole drawing. So you can freely adjust the scale at your demands.</p>
+</blockquote>
+<br>
+
+<P><B>b) Scaling on the printer:</B></P>
+
+<blockquote><P>If the scaling factor is set to 1.00 (in the <a href="druckeropt.htm">Printer options dialogue</a>), then the
+drawing is printed as if WINDOWS believed the scale is 1:1, i.e. every WINDOWS centimeter will be converted to a printer centimeter. As printers are generally more truthful than monitors, this is mostly almost correct. However, using a scaling factor &gt; 1.00 ( &lt; 1.00 ) allows the print-out to be expanded (or contracted).</P>
+</blockquote>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

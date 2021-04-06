@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\HTMLDynaGeoXSettings.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\HTMLDynaGeoXSettings.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715046296</prop>
+        <prop prop-type="OrigDateTime">40129.9033101852</prop>
+        <prop prop-type="XlatDateTime">37754.3918055556</prop>
+        <prop prop-type="Translated">23</prop>
+        <prop prop-type="UnTranslated">118</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.Left" resname="O:HTMLDynaGeoXDataForm.Left">
+        <source>570</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.Top" resname="O:HTMLDynaGeoXDataForm.Top">
+        <source>122</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.HelpContext" resname="O:HTMLDynaGeoXDataForm.HelpContext">
+        <source>39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.BorderStyle" resname="O:HTMLDynaGeoXDataForm.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.Caption" resname="O:HTMLDynaGeoXDataForm.Caption">
+        <source>'Zeichnung in DynaGeoX-HTML-Seite speichern'</source>
+        <target>'Save as DynaGeoX HTML page'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">4</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.ClientHeight" resname="O:HTMLDynaGeoXDataForm.ClientHeight">
+        <source>382</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.ClientWidth" resname="O:HTMLDynaGeoXDataForm.ClientWidth">
+        <source>529</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.Color" resname="O:HTMLDynaGeoXDataForm.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.Font.Charset" resname="O:HTMLDynaGeoXDataForm.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.Font.Color" resname="O:HTMLDynaGeoXDataForm.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.Font.Height" resname="O:HTMLDynaGeoXDataForm.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.Font.Name" resname="O:HTMLDynaGeoXDataForm.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.Font.Style" resname="O:HTMLDynaGeoXDataForm.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.OldCreateOrder" resname="O:HTMLDynaGeoXDataForm.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.Position" resname="O:HTMLDynaGeoXDataForm.Position">
+        <source>poMainFormCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.OnCloseQuery" resname="O:HTMLDynaGeoXDataForm.OnCloseQuery">
+        <source>FormCloseQuery</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.OnShow" resname="O:HTMLDynaGeoXDataForm.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.PixelsPerInch" resname="O:HTMLDynaGeoXDataForm.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.TextHeight" resname="O:HTMLDynaGeoXDataForm.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">THTMLDynaGeoXDataForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label1.Left" resname="O:HTMLDynaGeoXDataForm.O:Label1.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label1.Top" resname="O:HTMLDynaGeoXDataForm.O:Label1.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label1.Width" resname="O:HTMLDynaGeoXDataForm.O:Label1.Width">
+        <source>280</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label1.Height" resname="O:HTMLDynaGeoXDataForm.O:Label1.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label1.AutoSize" resname="O:HTMLDynaGeoXDataForm.O:Label1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label1.Caption" resname="O:HTMLDynaGeoXDataForm.O:Label1.Caption">
+        <source>'Zielpfad für die HTML-Datei :'</source>
+        <target>'Target path of the HTML file :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label2.Left" resname="O:HTMLDynaGeoXDataForm.O:Label2.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label2.Top" resname="O:HTMLDynaGeoXDataForm.O:Label2.Top">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label2.Width" resname="O:HTMLDynaGeoXDataForm.O:Label2.Width">
+        <source>326</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label2.Height" resname="O:HTMLDynaGeoXDataForm.O:Label2.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label2.AutoSize" resname="O:HTMLDynaGeoXDataForm.O:Label2.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label2.Caption" resname="O:HTMLDynaGeoXDataForm.O:Label2.Caption">
+        <source>'Pfad zum DynaGeoX-Viewer  ( nicht direkt editierbar ! ) :'</source>
+        <target>'Path of the DynaGeoX viewer  ( can'#39't be edited directly ! ) :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label3.Left" resname="O:HTMLDynaGeoXDataForm.O:Label3.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label3.Top" resname="O:HTMLDynaGeoXDataForm.O:Label3.Top">
+        <source>176</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label3.Width" resname="O:HTMLDynaGeoXDataForm.O:Label3.Width">
+        <source>241</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label3.Height" resname="O:HTMLDynaGeoXDataForm.O:Label3.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label3.AutoSize" resname="O:HTMLDynaGeoXDataForm.O:Label3.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label3.Caption" resname="O:HTMLDynaGeoXDataForm.O:Label3.Caption">
+        <source>'Text oberhalb des DynaGeoX-Objekts :'</source>
+        <target>'Text above the DynaGeoX object :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Bevel1.Left" resname="O:HTMLDynaGeoXDataForm.O:Bevel1.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Bevel1.Top" resname="O:HTMLDynaGeoXDataForm.O:Bevel1.Top">
+        <source>319</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Bevel1.Width" resname="O:HTMLDynaGeoXDataForm.O:Bevel1.Width">
+        <source>514</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Bevel1.Height" resname="O:HTMLDynaGeoXDataForm.O:Bevel1.Height">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Bevel1.Shape" resname="O:HTMLDynaGeoXDataForm.O:Bevel1.Shape">
+        <source>bsBottomLine</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label6.Left" resname="O:HTMLDynaGeoXDataForm.O:Label6.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label6.Top" resname="O:HTMLDynaGeoXDataForm.O:Label6.Top">
+        <source>273</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label6.Width" resname="O:HTMLDynaGeoXDataForm.O:Label6.Width">
+        <source>248</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label6.Height" resname="O:HTMLDynaGeoXDataForm.O:Label6.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label6.AutoSize" resname="O:HTMLDynaGeoXDataForm.O:Label6.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:Label6.Caption" resname="O:HTMLDynaGeoXDataForm.O:Label6.Caption">
+        <source>'Name des Autors:'</source>
+        <target>'Author'#39's name :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnBrowseViewer.Left" resname="O:HTMLDynaGeoXDataForm.O:BtnBrowseViewer.Left">
+        <source>397</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnBrowseViewer.Top" resname="O:HTMLDynaGeoXDataForm.O:BtnBrowseViewer.Top">
+        <source>85</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnBrowseViewer.Width" resname="O:HTMLDynaGeoXDataForm.O:BtnBrowseViewer.Width">
+        <source>111</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnBrowseViewer.Height" resname="O:HTMLDynaGeoXDataForm.O:BtnBrowseViewer.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnBrowseViewer.Caption" resname="O:HTMLDynaGeoXDataForm.O:BtnBrowseViewer.Caption">
+        <source>'Durchsuchen...'</source>
+        <target>'Browse...'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnBrowseViewer.TabOrder" resname="O:HTMLDynaGeoXDataForm.O:BtnBrowseViewer.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnBrowseViewer.OnClick" resname="O:HTMLDynaGeoXDataForm.O:BtnBrowseViewer.OnClick">
+        <source>BtnBrowseViewerClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditTargetPath.Left" resname="O:HTMLDynaGeoXDataForm.O:EditTargetPath.Left">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditTargetPath.Top" resname="O:HTMLDynaGeoXDataForm.O:EditTargetPath.Top">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditTargetPath.Width" resname="O:HTMLDynaGeoXDataForm.O:EditTargetPath.Width">
+        <source>352</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditTargetPath.Height" resname="O:HTMLDynaGeoXDataForm.O:EditTargetPath.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditTargetPath.TabOrder" resname="O:HTMLDynaGeoXDataForm.O:EditTargetPath.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditTargetPath.Text" resname="O:HTMLDynaGeoXDataForm.O:EditTargetPath.Text">
+        <source>'EditTargetPath'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditTargetPath.OnChange" resname="O:HTMLDynaGeoXDataForm.O:EditTargetPath.OnChange">
+        <source>EditTargetPathChange</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374706944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnBrowseHTML.Left" resname="O:HTMLDynaGeoXDataForm.O:BtnBrowseHTML.Left">
+        <source>397</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnBrowseHTML.Top" resname="O:HTMLDynaGeoXDataForm.O:BtnBrowseHTML.Top">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnBrowseHTML.Width" resname="O:HTMLDynaGeoXDataForm.O:BtnBrowseHTML.Width">
+        <source>111</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnBrowseHTML.Height" resname="O:HTMLDynaGeoXDataForm.O:BtnBrowseHTML.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnBrowseHTML.Caption" resname="O:HTMLDynaGeoXDataForm.O:BtnBrowseHTML.Caption">
+        <source>'Durchsuchen...'</source>
+        <target>'Browse...'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnBrowseHTML.TabOrder" resname="O:HTMLDynaGeoXDataForm.O:BtnBrowseHTML.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnBrowseHTML.OnClick" resname="O:HTMLDynaGeoXDataForm.O:BtnBrowseHTML.OnClick">
+        <source>BtnBrowseHTMLClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditViewerPath.Left" resname="O:HTMLDynaGeoXDataForm.O:EditViewerPath.Left">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditViewerPath.Top" resname="O:HTMLDynaGeoXDataForm.O:EditViewerPath.Top">
+        <source>85</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditViewerPath.Width" resname="O:HTMLDynaGeoXDataForm.O:EditViewerPath.Width">
+        <source>352</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditViewerPath.Height" resname="O:HTMLDynaGeoXDataForm.O:EditViewerPath.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditViewerPath.ReadOnly" resname="O:HTMLDynaGeoXDataForm.O:EditViewerPath.ReadOnly">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditViewerPath.TabOrder" resname="O:HTMLDynaGeoXDataForm.O:EditViewerPath.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditViewerPath.Text" resname="O:HTMLDynaGeoXDataForm.O:EditViewerPath.Text">
+        <source>'EditViewerPath'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.Left" resname="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.Left">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.Top" resname="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.Top">
+        <source>111</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.Width" resname="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.Width">
+        <source>482</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.Height" resname="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.Height">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.Caption" resname="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.Caption">
+        <source>' Standard-Viewer-Pfad zeigt '</source>
+        <target>' Standard viewer path points to...  '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.ItemIndex" resname="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.ItemIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.Items.Strings[0]" resname="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.Items.Strings[0]">
+        <source>'ins Internet (zur EUKLID DynaGeo Homepage)'</source>
+        <target>'...the EUKLID DynaGeo homepage'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.Items.Strings[1]" resname="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.Items.Strings[1]">
+        <source>'auf diesen Rechner bzw. ins lokale Netz'</source>
+        <target>'...this computer or into the local network'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.TabOrder" resname="O:HTMLDynaGeoXDataForm.O:RG_ViewerPathMode.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.Left" resname="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.Left">
+        <source>299</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.Top" resname="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.Top">
+        <source>130</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.Width" resname="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.Width">
+        <source>196</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.Height" resname="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.Hint" resname="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.Hint">
+        <source>'Setzt den Pfad zum Viewer auf den gewählten Standardpfad zurück'</source>
+        <target>'Resets the viewer path to standard'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.Caption" resname="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.Caption">
+        <source>'Zurücksetzen auf den Standard-Pfad'</source>
+        <target>'Reset to standard path'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.ParentShowHint" resname="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.ShowHint" resname="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.TabOrder" resname="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.TabOrder">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.OnClick" resname="O:HTMLDynaGeoXDataForm.O:BtnResetViewerPath.OnClick">
+        <source>BtnResetViewerPathClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:PreText.Left" resname="O:HTMLDynaGeoXDataForm.O:PreText.Left">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:PreText.Top" resname="O:HTMLDynaGeoXDataForm.O:PreText.Top">
+        <source>195</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:PreText.Width" resname="O:HTMLDynaGeoXDataForm.O:PreText.Width">
+        <source>352</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:PreText.Height" resname="O:HTMLDynaGeoXDataForm.O:PreText.Height">
+        <source>66</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:PreText.ScrollBars" resname="O:HTMLDynaGeoXDataForm.O:PreText.ScrollBars">
+        <source>ssVertical</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374706944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:PreText.TabOrder" resname="O:HTMLDynaGeoXDataForm.O:PreText.TabOrder">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnSave.Left" resname="O:HTMLDynaGeoXDataForm.O:BtnSave.Left">
+        <source>152</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnSave.Top" resname="O:HTMLDynaGeoXDataForm.O:BtnSave.Top">
+        <source>338</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnSave.Width" resname="O:HTMLDynaGeoXDataForm.O:BtnSave.Width">
+        <source>113</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnSave.Height" resname="O:HTMLDynaGeoXDataForm.O:BtnSave.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnSave.Caption" resname="O:HTMLDynaGeoXDataForm.O:BtnSave.Caption">
+        <source>'Speichern'</source>
+        <target>'Save'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnSave.Font.Charset" resname="O:HTMLDynaGeoXDataForm.O:BtnSave.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnSave.Font.Color" resname="O:HTMLDynaGeoXDataForm.O:BtnSave.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnSave.Font.Height" resname="O:HTMLDynaGeoXDataForm.O:BtnSave.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnSave.Font.Name" resname="O:HTMLDynaGeoXDataForm.O:BtnSave.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnSave.Font.Style" resname="O:HTMLDynaGeoXDataForm.O:BtnSave.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnSave.ModalResult" resname="O:HTMLDynaGeoXDataForm.O:BtnSave.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnSave.ParentFont" resname="O:HTMLDynaGeoXDataForm.O:BtnSave.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnSave.TabOrder" resname="O:HTMLDynaGeoXDataForm.O:BtnSave.TabOrder">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnCancel.Left" resname="O:HTMLDynaGeoXDataForm.O:BtnCancel.Left">
+        <source>280</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnCancel.Top" resname="O:HTMLDynaGeoXDataForm.O:BtnCancel.Top">
+        <source>338</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnCancel.Width" resname="O:HTMLDynaGeoXDataForm.O:BtnCancel.Width">
+        <source>97</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnCancel.Height" resname="O:HTMLDynaGeoXDataForm.O:BtnCancel.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnCancel.Caption" resname="O:HTMLDynaGeoXDataForm.O:BtnCancel.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Cancel'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnCancel.Font.Charset" resname="O:HTMLDynaGeoXDataForm.O:BtnCancel.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnCancel.Font.Color" resname="O:HTMLDynaGeoXDataForm.O:BtnCancel.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnCancel.Font.Height" resname="O:HTMLDynaGeoXDataForm.O:BtnCancel.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnCancel.Font.Name" resname="O:HTMLDynaGeoXDataForm.O:BtnCancel.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnCancel.Font.Style" resname="O:HTMLDynaGeoXDataForm.O:BtnCancel.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnCancel.ModalResult" resname="O:HTMLDynaGeoXDataForm.O:BtnCancel.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnCancel.ParentFont" resname="O:HTMLDynaGeoXDataForm.O:BtnCancel.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnCancel.TabOrder" resname="O:HTMLDynaGeoXDataForm.O:BtnCancel.TabOrder">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.Left" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.Left">
+        <source>397</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.Top" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.Top">
+        <source>176</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.Width" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.Width">
+        <source>111</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.Height" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.Height">
+        <source>85</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.Caption" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.Caption">
+        <source>' Viewer-Fenster '</source>
+        <target>' Viewer window  '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.TabOrder" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.TabOrder">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label4.Left" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label4.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label4.Top" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label4.Top">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label4.Width" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label4.Width">
+        <source>39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label4.Height" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label4.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label4.Alignment" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label4.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label4.AutoSize" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label4.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label4.Caption" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label4.Caption">
+        <source>'Breite :'</source>
+        <target>'Width :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label5.Left" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label5.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label5.Top" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label5.Top">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label5.Width" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label5.Width">
+        <source>39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label5.Height" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label5.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label5.Alignment" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label5.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label5.AutoSize" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label5.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label5.Caption" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:Label5.Caption">
+        <source>'Höhe :'</source>
+        <target>'Height :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinWidth.Left" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinWidth.Left">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TIntEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinWidth.Top" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinWidth.Top">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TIntEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinWidth.Width" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinWidth.Width">
+        <source>46</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TIntEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinWidth.Height" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinWidth.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TIntEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinWidth.TabOrder" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinWidth.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TIntEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinWidth.Text" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinWidth.Text">
+        <source>'0'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TIntEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.Left" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.Left">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TIntEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.Top" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.Top">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TIntEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.Width" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.Width">
+        <source>46</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TIntEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.Height" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TIntEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.TabOrder" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TIntEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.Text" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.Text">
+        <source>'0'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TIntEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.OnChange" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.OnChange">
+        <source>IEditWinHeightChange</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374706944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TIntEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.OnExit" resname="O:HTMLDynaGeoXDataForm.O:GB_ViewerDimensions.O:IEditWinHeight.OnExit">
+        <source>IEditWinHeightExit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374706944</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TIntEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditAuthorName.Left" resname="O:HTMLDynaGeoXDataForm.O:EditAuthorName.Left">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditAuthorName.Top" resname="O:HTMLDynaGeoXDataForm.O:EditAuthorName.Top">
+        <source>293</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditAuthorName.Width" resname="O:HTMLDynaGeoXDataForm.O:EditAuthorName.Width">
+        <source>352</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditAuthorName.Height" resname="O:HTMLDynaGeoXDataForm.O:EditAuthorName.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:EditAuthorName.TabOrder" resname="O:HTMLDynaGeoXDataForm.O:EditAuthorName.TabOrder">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.Left" resname="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.Left">
+        <source>397</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.Top" resname="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.Top">
+        <source>280</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.Width" resname="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.Width">
+        <source>111</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.Height" resname="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.Hint" resname="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.Hint">
+        <source>'Konfiguriert die im Viewer verfügbaren Konstruktionsbefehle'</source>
+        <target>'Lets you choose the construction commands\navailable in the viewer window'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.Caption" resname="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.Caption">
+        <source>'Viewer-Befehle...'</source>
+        <target>'Viewer commands...'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.ParentShowHint" resname="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.ShowHint" resname="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.TabOrder" resname="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.TabOrder">
+        <source>11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.OnClick" resname="O:HTMLDynaGeoXDataForm.O:BtnViewerCmds.OnClick">
+        <source>BtnViewerCmdsClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:SaveHTMLFile.Filter" resname="O:HTMLDynaGeoXDataForm.O:SaveHTMLFile.Filter">
+        <source>'HTML-Dateien (*.html)|*.html'</source>
+        <target>'HTML files (*.html)|*.html'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TSaveDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:SaveHTMLFile.Title" resname="O:HTMLDynaGeoXDataForm.O:SaveHTMLFile.Title">
+        <source>'Als HTML-Seite speichern'</source>
+        <target>'Save as DynaGeoX HTML page'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979739583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TSaveDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:SaveHTMLFile.Left" resname="O:HTMLDynaGeoXDataForm.O:SaveHTMLFile.Left">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.897974537</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TSaveDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:SaveHTMLFile.Top" resname="O:HTMLDynaGeoXDataForm.O:SaveHTMLFile.Top">
+        <source>424</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.897974537</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TSaveDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:ViewerPathDlg.Filter" resname="O:HTMLDynaGeoXDataForm.O:ViewerPathDlg.Filter">
+        <source>'DynaGeoX-Viewer|dynageox3.ocx;dynageox3.cab'</source>
+        <target>'DynaGeoX viewer|dynageox3.ocx;dynageox3.cab'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.897974537</prop><prop prop-type="Status">1</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TOpenDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:ViewerPathDlg.Title" resname="O:HTMLDynaGeoXDataForm.O:ViewerPathDlg.Title">
+        <source>'DynaGeoX-Viewer suchen'</source>
+        <target>'Search for DynaGeoX viewer'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458472569</prop><prop prop-type="Status">1</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TOpenDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:ViewerPathDlg.Left" resname="O:HTMLDynaGeoXDataForm.O:ViewerPathDlg.Left">
+        <source>64</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.897974537</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TOpenDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:HTMLDynaGeoXDataForm.O:ViewerPathDlg.Top" resname="O:HTMLDynaGeoXDataForm.O:ViewerPathDlg.Top">
+        <source>424</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.897974537</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TOpenDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

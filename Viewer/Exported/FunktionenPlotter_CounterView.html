@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+<TITLE>EUKLID DynaGeoX: FunktionenPlotter.html </TITLE>
+</HEAD>
+<BODY>
+<center>
+<h2>Lokale Installation des DynaGeoX-Viewers</h2><br>
+<object
+        classid="clsid:2EF98DE5-183F-11D4-83EC-EC6A1DB6E213"
+        codebase=".\dynageox3.ocx#version=3,8,0,0"
+        width="737"
+        height="496"
+>
+<param name="DataFile" value="FunktionenPlotter.geo">
+</object><br>
+<br>
+Wenn in diesem Fenster der "Funktionen-Plotter" erscheint,<br>
+dann wurde <font color="#0000FF">DynaGeoX 3.8</font> (oder neuer) auf Ihrem Rechner<br>
+erfolgreich installiert.<br>
+<br>
+<font size="-1">
+<br>(Eventuell m&uuml;ssen Sie eine Sicherheitswarnung Ihres IE mutig ignorieren<br>
+und die als "nicht vertrauensw&uuml;rdig" verd&auml;chtigte Komponente<br>
+eben <b>doch</b> installieren lassen.)<br>
+</font>
+<br>
+<hr>
+<br>
+<h3><font color="#FF0000">Und wenn die Zeichnung <b>nicht</b> erscheint?</font></h3>
+</center>
+Dann ist kein hinreichend neuer DynaGeoX-Viewer in Ihrem Windows-System registriert.<br>
+Dies kann verschiedene Ursachen haben:
+<ul>
+<li>Wenn das obige Fenster in seiner linken oberen Ecke lediglich <b>ein kleines Kreuz</b> zeigt, dann ist im Unterverzeichnis "Viewer" Ihres DynaGeo-Verzeichnisses keine Datei "dynageox3.ocx" vorhanden. M&ouml;glicherweise haben Sie statt dessen dort eine Datei namens "dynageox3.cab". Dies ist ein Archiv, das die Datei "dynageox3.ocx" in komprimierter Form enth&auml;lt. In diesem Fall m&uuml;ssen Sie die OCX-Datei aus der CAB-Datei mit Hilfe eines Entpackers (wie z.B. "WinZIP") extrahieren. Kopieren Sie die erhaltene Datei "dynageox3.ocx" in das Unterverzeichnis "Viewer" Ihres DynaGeo-Verzeichnisses.<br>
+Sollten Sie auch keine CAB-Datei haben, dann k&ouml;nnen Sie sich diese von der DynaGeo-Homepage herunterladen; die Adresse ist:<br>
+<center>
+<a href="http://www.dynageo.de/download/dynageox3.cab"> http://www.dynageo.de/download/dynageox3.cab </a>
+</center>
+<br>
+</li>
+<li>Wenn in dem Fenster zwar kein kleines Kreuz, aber statt des Funktionen-Plotters nur <b>eine Fehlermeldung</b> erscheint, da&szlig; n&auml;mlich die Datei "FunktionenPlotter.geox" ein unbekanntes Format hat, dann ist die auf Ihrem System verf&uuml;gbare Version des DynaGeoX-Viewers veraltet. Holen Sie sich in diesem Fall eine aktuelle Version der Datei "dynageoviewer.cab" von der DynaGeo-Homepage (Adresse siehe oben), extrahieren Sie die enthaltene Datei "dynageox3.ocx" und kopieren Sie diese Datei ins Unterverzeichnis "Viewer" Ihres DynaGeo-Verzeichnisses, wo sie die alte Version ersetzt.<br>
+<br>
+</li>
+</ul>
+Wenn Sie die Fehlerursache nach den obigen Anleitungen beseitigt haben, dann laden Sie die Datei "InstallDynaGeoXViewer.html" nochmals in den IE. Nun sollte das obige Fenster den Funktionen-Plotter korrekt anzeigen.<br>
+<br>
+<hr>
+</BODY>
+</HTML>

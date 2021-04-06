@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\CoordWin.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\CoordWin.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715046296</prop>
+        <prop prop-type="OrigDateTime">39494.4271064815</prop>
+        <prop prop-type="XlatDateTime">39159.8735648148</prop>
+        <prop prop-type="Translated">34</prop>
+        <prop prop-type="UnTranslated">154</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:CoordDlg.Left" resname="O:CoordDlg.Left">
+        <source>563</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256215509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.Top" resname="O:CoordDlg.Top">
+        <source>120</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256221296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.HelpContext" resname="O:CoordDlg.HelpContext">
+        <source>241</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256215509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.BorderStyle" resname="O:CoordDlg.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.Caption" resname="O:CoordDlg.Caption">
+        <source>'Koordinatensystem ändern'</source>
+        <target>'Edit co-ordinate system'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256214352</prop><prop prop-type="Status">1</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.ClientHeight" resname="O:CoordDlg.ClientHeight">
+        <source>325</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.ClientWidth" resname="O:CoordDlg.ClientWidth">
+        <source>600</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.Color" resname="O:CoordDlg.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256214352</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.Font.Charset" resname="O:CoordDlg.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256214352</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.Font.Color" resname="O:CoordDlg.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256214352</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.Font.Height" resname="O:CoordDlg.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256214352</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.Font.Name" resname="O:CoordDlg.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256214352</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.Font.Style" resname="O:CoordDlg.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256214352</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.OldCreateOrder" resname="O:CoordDlg.OldCreateOrder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256221296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.Position" resname="O:CoordDlg.Position">
+        <source>poMainFormCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979719907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.OnShow" resname="O:CoordDlg.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172454861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.PixelsPerInch" resname="O:CoordDlg.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256221296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.TextHeight" resname="O:CoordDlg.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256221296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TCoordDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Bevel1.Left" resname="O:CoordDlg.O:Bevel1.Left">
+        <source>312</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Bevel1.Top" resname="O:CoordDlg.O:Bevel1.Top">
+        <source>232</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Bevel1.Width" resname="O:CoordDlg.O:Bevel1.Width">
+        <source>272</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Bevel1.Height" resname="O:CoordDlg.O:Bevel1.Height">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Bevel1.Shape" resname="O:CoordDlg.O:Bevel1.Shape">
+        <source>bsBottomLine</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Bevel1.Style" resname="O:CoordDlg.O:Bevel1.Style">
+        <source>bsRaised</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.Left" resname="O:CoordDlg.O:GroupBox1.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256217824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.Top" resname="O:CoordDlg.O:GroupBox1.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256220139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.Width" resname="O:CoordDlg.O:GroupBox1.Width">
+        <source>276</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256220139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.Height" resname="O:CoordDlg.O:GroupBox1.Height">
+        <source>209</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256217824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.Caption" resname="O:CoordDlg.O:GroupBox1.Caption">
+        <source>' Form '</source>
+        <target>' Shape '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256216667</prop><prop prop-type="Status">1</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.TabOrder" resname="O:CoordDlg.O:GroupBox1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256220139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_CoordSysVisible.Left" resname="O:CoordDlg.O:GroupBox1.O:CB_CoordSysVisible.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256217824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_CoordSysVisible.Top" resname="O:CoordDlg.O:GroupBox1.O:CB_CoordSysVisible.Top">
+        <source>36</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256217824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_CoordSysVisible.Width" resname="O:CoordDlg.O:GroupBox1.O:CB_CoordSysVisible.Width">
+        <source>183</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256217824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_CoordSysVisible.Height" resname="O:CoordDlg.O:GroupBox1.O:CB_CoordSysVisible.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256217824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_CoordSysVisible.Caption" resname="O:CoordDlg.O:GroupBox1.O:CB_CoordSysVisible.Caption">
+        <source>'Koordinatenachsen sichtbar'</source>
+        <target>'axes visible'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256217824</prop><prop prop-type="Status">1</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Koordinatensystem sichtbar'</source>
+          <target>'co-ordinate system visible'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2625018056</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_CoordSysVisible.TabOrder" resname="O:CoordDlg.O:GroupBox1.O:CB_CoordSysVisible.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256217824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_CoordSysVisible.OnClick" resname="O:CoordDlg.O:GroupBox1.O:CB_CoordSysVisible.OnClick">
+        <source>CB_CoordSysVisibleClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256217824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_MarkGridPoints.Left" resname="O:CoordDlg.O:GroupBox1.O:CB_MarkGridPoints.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256218981</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_MarkGridPoints.Top" resname="O:CoordDlg.O:GroupBox1.O:CB_MarkGridPoints.Top">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256218981</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_MarkGridPoints.Width" resname="O:CoordDlg.O:GroupBox1.O:CB_MarkGridPoints.Width">
+        <source>170</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256220139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_MarkGridPoints.Height" resname="O:CoordDlg.O:GroupBox1.O:CB_MarkGridPoints.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256218981</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_MarkGridPoints.Caption" resname="O:CoordDlg.O:GroupBox1.O:CB_MarkGridPoints.Caption">
+        <source>'Gitter zeichnen'</source>
+        <target>'draw grid'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256218981</prop><prop prop-type="Status">1</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Gitterpunkte markieren'</source>
+          <target>'mark grid points'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2625018056</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_MarkGridPoints.TabOrder" resname="O:CoordDlg.O:GroupBox1.O:CB_MarkGridPoints.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256218981</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_MarkGridPoints.OnClick" resname="O:CoordDlg.O:GroupBox1.O:CB_MarkGridPoints.OnClick">
+        <source>CB_MarkGridPointsClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256218981</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_ScaleAxis.Left" resname="O:CoordDlg.O:GroupBox1.O:CB_ScaleAxis.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_ScaleAxis.Top" resname="O:CoordDlg.O:GroupBox1.O:CB_ScaleAxis.Top">
+        <source>55</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_ScaleAxis.Width" resname="O:CoordDlg.O:GroupBox1.O:CB_ScaleAxis.Width">
+        <source>176</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_ScaleAxis.Height" resname="O:CoordDlg.O:GroupBox1.O:CB_ScaleAxis.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_ScaleAxis.Caption" resname="O:CoordDlg.O:GroupBox1.O:CB_ScaleAxis.Caption">
+        <source>'Zahlen an den Achsen zeigen'</source>
+        <target>'show numbers at the axes'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">1</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_ScaleAxis.TabOrder" resname="O:CoordDlg.O:GroupBox1.O:CB_ScaleAxis.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridSpacing.Left" resname="O:CoordDlg.O:GroupBox1.O:GridSpacing.Left">
+        <source>40</source>
+        <target>32</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">1</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridSpacing.Top" resname="O:CoordDlg.O:GroupBox1.O:GridSpacing.Top">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridSpacing.Width" resname="O:CoordDlg.O:GroupBox1.O:GridSpacing.Width">
+        <source>217</source>
+        <target>233</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">1</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridSpacing.Height" resname="O:CoordDlg.O:GroupBox1.O:GridSpacing.Height">
+        <source>41</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridSpacing.Caption" resname="O:CoordDlg.O:GroupBox1.O:GridSpacing.Caption">
+        <source>' Abstand der Markierungen '</source>
+        <target>' Distance of marks '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">1</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridSpacing.Columns" resname="O:CoordDlg.O:GroupBox1.O:GridSpacing.Columns">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridSpacing.ItemIndex" resname="O:CoordDlg.O:GroupBox1.O:GridSpacing.ItemIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridSpacing.Items.Strings[0]" resname="O:CoordDlg.O:GroupBox1.O:GridSpacing.Items.Strings[0]">
+        <source>' eng'</source>
+        <target>' narrow'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">1</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridSpacing.Items.Strings[1]" resname="O:CoordDlg.O:GroupBox1.O:GridSpacing.Items.Strings[1]">
+        <source>' mittel'</source>
+        <target>' medium'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">1</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridSpacing.Items.Strings[2]" resname="O:CoordDlg.O:GroupBox1.O:GridSpacing.Items.Strings[2]">
+        <source>' weit'</source>
+        <target>' wide'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">1</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridSpacing.TabOrder" resname="O:CoordDlg.O:GroupBox1.O:GridSpacing.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridMarks.Left" resname="O:CoordDlg.O:GroupBox1.O:GridMarks.Left">
+        <source>40</source>
+        <target>32</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374690741</prop><prop prop-type="Status">1</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridMarks.Top" resname="O:CoordDlg.O:GroupBox1.O:GridMarks.Top">
+        <source>152</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridMarks.Width" resname="O:CoordDlg.O:GroupBox1.O:GridMarks.Width">
+        <source>217</source>
+        <target>233</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridMarks.Height" resname="O:CoordDlg.O:GroupBox1.O:GridMarks.Height">
+        <source>41</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridMarks.Caption" resname="O:CoordDlg.O:GroupBox1.O:GridMarks.Caption">
+        <source>' Art der Markierungen '</source>
+        <target>' Type of marks '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridMarks.Columns" resname="O:CoordDlg.O:GroupBox1.O:GridMarks.Columns">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridMarks.ItemIndex" resname="O:CoordDlg.O:GroupBox1.O:GridMarks.ItemIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridMarks.Items.Strings[0]" resname="O:CoordDlg.O:GroupBox1.O:GridMarks.Items.Strings[0]">
+        <source>'Kreuze'</source>
+        <target>'cross'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridMarks.Items.Strings[1]" resname="O:CoordDlg.O:GroupBox1.O:GridMarks.Items.Strings[1]">
+        <source>'Linien'</source>
+        <target>'solid line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridMarks.Items.Strings[2]" resname="O:CoordDlg.O:GroupBox1.O:GridMarks.Items.Strings[2]">
+        <source>'Punktiert'</source>
+        <target>'dotted line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:GridMarks.TabOrder" resname="O:CoordDlg.O:GroupBox1.O:GridMarks.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TRadioGroup</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_OriginVisible.Left" resname="O:CoordDlg.O:GroupBox1.O:CB_OriginVisible.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458351389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_OriginVisible.Top" resname="O:CoordDlg.O:GroupBox1.O:CB_OriginVisible.Top">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458351389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_OriginVisible.Width" resname="O:CoordDlg.O:GroupBox1.O:CB_OriginVisible.Width">
+        <source>188</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458351389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_OriginVisible.Height" resname="O:CoordDlg.O:GroupBox1.O:CB_OriginVisible.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458351389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_OriginVisible.Caption" resname="O:CoordDlg.O:GroupBox1.O:CB_OriginVisible.Caption">
+        <source>'Ursprung sichtbar'</source>
+        <target>'origin visible'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458351389</prop><prop prop-type="Status">1</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_OriginVisible.TabOrder" resname="O:CoordDlg.O:GroupBox1.O:CB_OriginVisible.TabOrder">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458351389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox1.O:CB_OriginVisible.OnClick" resname="O:CoordDlg.O:GroupBox1.O:CB_OriginVisible.OnClick">
+        <source>CB_OriginVisibleClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3458351389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Okay.Left" resname="O:CoordDlg.O:Okay.Left">
+        <source>350</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256220139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Okay.Top" resname="O:CoordDlg.O:Okay.Top">
+        <source>264</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256220139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Okay.Width" resname="O:CoordDlg.O:Okay.Width">
+        <source>91</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256220139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Okay.Height" resname="O:CoordDlg.O:Okay.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256220139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Okay.Caption" resname="O:CoordDlg.O:Okay.Caption">
+        <source>'Okay'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256220139</prop><prop prop-type="Status">1</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Okay.Font.Charset" resname="O:CoordDlg.O:Okay.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Okay.Font.Color" resname="O:CoordDlg.O:Okay.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Okay.Font.Height" resname="O:CoordDlg.O:Okay.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Okay.Font.Name" resname="O:CoordDlg.O:Okay.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Okay.Font.Style" resname="O:CoordDlg.O:Okay.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Okay.ParentFont" resname="O:CoordDlg.O:Okay.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Okay.TabOrder" resname="O:CoordDlg.O:Okay.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256220139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Okay.OnClick" resname="O:CoordDlg.O:Okay.OnClick">
+        <source>OkayClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172454861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Abbrechen.Left" resname="O:CoordDlg.O:Abbrechen.Left">
+        <source>462</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256215509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Abbrechen.Top" resname="O:CoordDlg.O:Abbrechen.Top">
+        <source>264</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256215509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Abbrechen.Width" resname="O:CoordDlg.O:Abbrechen.Width">
+        <source>91</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256215509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Abbrechen.Height" resname="O:CoordDlg.O:Abbrechen.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256215509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Abbrechen.Caption" resname="O:CoordDlg.O:Abbrechen.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Cancel'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256215509</prop><prop prop-type="Status">1</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Abbrechen.Font.Charset" resname="O:CoordDlg.O:Abbrechen.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Abbrechen.Font.Color" resname="O:CoordDlg.O:Abbrechen.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Abbrechen.Font.Height" resname="O:CoordDlg.O:Abbrechen.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Abbrechen.Font.Name" resname="O:CoordDlg.O:Abbrechen.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Abbrechen.Font.Style" resname="O:CoordDlg.O:Abbrechen.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Abbrechen.ModalResult" resname="O:CoordDlg.O:Abbrechen.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256215509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Abbrechen.ParentFont" resname="O:CoordDlg.O:Abbrechen.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:Abbrechen.TabOrder" resname="O:CoordDlg.O:Abbrechen.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256215509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.Left" resname="O:CoordDlg.O:GroupBox3.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.Top" resname="O:CoordDlg.O:GroupBox3.Top">
+        <source>232</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.Width" resname="O:CoordDlg.O:GroupBox3.Width">
+        <source>276</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.Height" resname="O:CoordDlg.O:GroupBox3.Height">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.Caption" resname="O:CoordDlg.O:GroupBox3.Caption">
+        <source>' Achsen-Bezeichnungen '</source>
+        <target>' Names of the axes '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.TabOrder" resname="O:CoordDlg.O:GroupBox3.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Label1.Left" resname="O:CoordDlg.O:GroupBox3.O:Label1.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Label1.Top" resname="O:CoordDlg.O:GroupBox3.O:Label1.Top">
+        <source>23</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Label1.Width" resname="O:CoordDlg.O:GroupBox3.O:Label1.Width">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Label1.Height" resname="O:CoordDlg.O:GroupBox3.O:Label1.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Label1.Alignment" resname="O:CoordDlg.O:GroupBox3.O:Label1.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Label1.AutoSize" resname="O:CoordDlg.O:GroupBox3.O:Label1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Label1.Caption" resname="O:CoordDlg.O:GroupBox3.O:Label1.Caption">
+        <source>'x-Achse : '</source>
+        <target>'x-axis : '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Label2.Left" resname="O:CoordDlg.O:GroupBox3.O:Label2.Left">
+        <source>25</source>
+        <target>8</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Label2.Top" resname="O:CoordDlg.O:GroupBox3.O:Label2.Top">
+        <source>47</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Label2.Width" resname="O:CoordDlg.O:GroupBox3.O:Label2.Width">
+        <source>47</source>
+        <target>64</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Label2.Height" resname="O:CoordDlg.O:GroupBox3.O:Label2.Height">
+        <source>13</source>
+        <target>18</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Label2.Alignment" resname="O:CoordDlg.O:GroupBox3.O:Label2.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Label2.AutoSize" resname="O:CoordDlg.O:GroupBox3.O:Label2.AutoSize">
+        <source></source>
+        <target>False</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39181.4055161227</prop><prop prop-type="Status">1</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Label2.Caption" resname="O:CoordDlg.O:GroupBox3.O:Label2.Caption">
+        <source>'y-Achse : '</source>
+        <target>'y-axis : '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Ed_xName.Left" resname="O:CoordDlg.O:GroupBox3.O:Ed_xName.Left">
+        <source>78</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Ed_xName.Top" resname="O:CoordDlg.O:GroupBox3.O:Ed_xName.Top">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Ed_xName.Width" resname="O:CoordDlg.O:GroupBox3.O:Ed_xName.Width">
+        <source>111</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Ed_xName.Height" resname="O:CoordDlg.O:GroupBox3.O:Ed_xName.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Ed_xName.TabOrder" resname="O:CoordDlg.O:GroupBox3.O:Ed_xName.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Ed_xName.Text" resname="O:CoordDlg.O:GroupBox3.O:Ed_xName.Text">
+        <source>'Ed_xName'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Ed_yName.Left" resname="O:CoordDlg.O:GroupBox3.O:Ed_yName.Left">
+        <source>78</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Ed_yName.Top" resname="O:CoordDlg.O:GroupBox3.O:Ed_yName.Top">
+        <source>46</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Ed_yName.Width" resname="O:CoordDlg.O:GroupBox3.O:Ed_yName.Width">
+        <source>111</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Ed_yName.Height" resname="O:CoordDlg.O:GroupBox3.O:Ed_yName.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Ed_yName.TabOrder" resname="O:CoordDlg.O:GroupBox3.O:Ed_yName.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox3.O:Ed_yName.Text" resname="O:CoordDlg.O:GroupBox3.O:Ed_yName.Text">
+        <source>'Ed_yName'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.Left" resname="O:CoordDlg.O:GroupBox2.Left">
+        <source>312</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172454861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.Top" resname="O:CoordDlg.O:GroupBox2.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172454861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.Width" resname="O:CoordDlg.O:GroupBox2.Width">
+        <source>273</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172454861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.Height" resname="O:CoordDlg.O:GroupBox2.Height">
+        <source>209</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172454861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.Caption" resname="O:CoordDlg.O:GroupBox2.Caption">
+        <source>' Achsen-Skalierung '</source>
+        <target>' Scaling of the axes '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172454861</prop><prop prop-type="Status">1</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>' Hintergrund-Bild '</source>
+          <target>' Background picture '</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2625018056</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.TabOrder" resname="O:CoordDlg.O:GroupBox2.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36690.9172454861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label3.Left" resname="O:CoordDlg.O:GroupBox2.O:Label3.Left">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label3.Top" resname="O:CoordDlg.O:GroupBox2.O:Label3.Top">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label3.Width" resname="O:CoordDlg.O:GroupBox2.O:Label3.Width">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label3.Height" resname="O:CoordDlg.O:GroupBox2.O:Label3.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label3.Alignment" resname="O:CoordDlg.O:GroupBox2.O:Label3.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label3.AutoSize" resname="O:CoordDlg.O:GroupBox2.O:Label3.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label3.Caption" resname="O:CoordDlg.O:GroupBox2.O:Label3.Caption">
+        <source>'Pixel pro Einheit :'</source>
+        <target>'pixel per unit :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label4.Left" resname="O:CoordDlg.O:GroupBox2.O:Label4.Left">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label4.Top" resname="O:CoordDlg.O:GroupBox2.O:Label4.Top">
+        <source>107</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label4.Width" resname="O:CoordDlg.O:GroupBox2.O:Label4.Width">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label4.Height" resname="O:CoordDlg.O:GroupBox2.O:Label4.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label4.Alignment" resname="O:CoordDlg.O:GroupBox2.O:Label4.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label4.AutoSize" resname="O:CoordDlg.O:GroupBox2.O:Label4.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label4.Caption" resname="O:CoordDlg.O:GroupBox2.O:Label4.Caption">
+        <source>'Pixel pro x-Einheit :'</source>
+        <target>'pixel per x-unit :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label5.Left" resname="O:CoordDlg.O:GroupBox2.O:Label5.Left">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label5.Top" resname="O:CoordDlg.O:GroupBox2.O:Label5.Top">
+        <source>134</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label5.Width" resname="O:CoordDlg.O:GroupBox2.O:Label5.Width">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label5.Height" resname="O:CoordDlg.O:GroupBox2.O:Label5.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label5.Alignment" resname="O:CoordDlg.O:GroupBox2.O:Label5.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label5.AutoSize" resname="O:CoordDlg.O:GroupBox2.O:Label5.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Label5.Caption" resname="O:CoordDlg.O:GroupBox2.O:Label5.Caption">
+        <source>'Pixel pro y-Einheit :'</source>
+        <target>'pixel per y-unit :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.Left" resname="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.Top" resname="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.Top">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.Width" resname="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.Width">
+        <source>241</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.Height" resname="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.Caption" resname="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.Caption">
+        <source>'gleiche Einheit auf beiden Achsen '</source>
+        <target>'same scale on both axes'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.Checked" resname="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.Checked">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.TabOrder" resname="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.TabStop" resname="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.TabStop">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.OnClick" resname="O:CoordDlg.O:GroupBox2.O:RB_Isotrop.OnClick">
+        <source>RB_IsotropClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Anisotrop.Left" resname="O:CoordDlg.O:GroupBox2.O:RB_Anisotrop.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Anisotrop.Top" resname="O:CoordDlg.O:GroupBox2.O:RB_Anisotrop.Top">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Anisotrop.Width" resname="O:CoordDlg.O:GroupBox2.O:RB_Anisotrop.Width">
+        <source>241</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Anisotrop.Height" resname="O:CoordDlg.O:GroupBox2.O:RB_Anisotrop.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Anisotrop.Caption" resname="O:CoordDlg.O:GroupBox2.O:RB_Anisotrop.Caption">
+        <source>'verschiedene Einheiten auf den Achsen '</source>
+        <target>'different scales on the axes '</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Anisotrop.TabOrder" resname="O:CoordDlg.O:GroupBox2.O:RB_Anisotrop.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:RB_Anisotrop.OnClick" resname="O:CoordDlg.O:GroupBox2.O:RB_Anisotrop.OnClick">
+        <source>RB_AnisotropClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_Unit.Left" resname="O:CoordDlg.O:GroupBox2.O:Ed_Unit.Left">
+        <source>160</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_Unit.Top" resname="O:CoordDlg.O:GroupBox2.O:Ed_Unit.Top">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_Unit.Width" resname="O:CoordDlg.O:GroupBox2.O:Ed_Unit.Width">
+        <source>97</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_Unit.Height" resname="O:CoordDlg.O:GroupBox2.O:Ed_Unit.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_Unit.TabOrder" resname="O:CoordDlg.O:GroupBox2.O:Ed_Unit.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_Unit.Text" resname="O:CoordDlg.O:GroupBox2.O:Ed_Unit.Text">
+        <source>'Ed_Unit'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_UnitX.Left" resname="O:CoordDlg.O:GroupBox2.O:Ed_UnitX.Left">
+        <source>160</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_UnitX.Top" resname="O:CoordDlg.O:GroupBox2.O:Ed_UnitX.Top">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_UnitX.Width" resname="O:CoordDlg.O:GroupBox2.O:Ed_UnitX.Width">
+        <source>97</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_UnitX.Height" resname="O:CoordDlg.O:GroupBox2.O:Ed_UnitX.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_UnitX.TabOrder" resname="O:CoordDlg.O:GroupBox2.O:Ed_UnitX.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_UnitX.Text" resname="O:CoordDlg.O:GroupBox2.O:Ed_UnitX.Text">
+        <source>'Ed_UnitX'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_UnitY.Left" resname="O:CoordDlg.O:GroupBox2.O:Ed_UnitY.Left">
+        <source>160</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_UnitY.Top" resname="O:CoordDlg.O:GroupBox2.O:Ed_UnitY.Top">
+        <source>132</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_UnitY.Width" resname="O:CoordDlg.O:GroupBox2.O:Ed_UnitY.Width">
+        <source>97</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_UnitY.Height" resname="O:CoordDlg.O:GroupBox2.O:Ed_UnitY.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_UnitY.TabOrder" resname="O:CoordDlg.O:GroupBox2.O:Ed_UnitY.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Ed_UnitY.Text" resname="O:CoordDlg.O:GroupBox2.O:Ed_UnitY.Text">
+        <source>'Ed_UnitY'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Btn_Reset.Left" resname="O:CoordDlg.O:GroupBox2.O:Btn_Reset.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Btn_Reset.Top" resname="O:CoordDlg.O:GroupBox2.O:Btn_Reset.Top">
+        <source>168</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Btn_Reset.Width" resname="O:CoordDlg.O:GroupBox2.O:Btn_Reset.Width">
+        <source>241</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Btn_Reset.Height" resname="O:CoordDlg.O:GroupBox2.O:Btn_Reset.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Btn_Reset.Caption" resname="O:CoordDlg.O:GroupBox2.O:Btn_Reset.Caption">
+        <source>'Skalierung auf Standardwerte zurücksetzen '</source>
+        <target>'Reset scaling to standard values'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">1</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Btn_Reset.TabOrder" resname="O:CoordDlg.O:GroupBox2.O:Btn_Reset.TabOrder">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:CoordDlg.O:GroupBox2.O:Btn_Reset.OnClick" resname="O:CoordDlg.O:GroupBox2.O:Btn_Reset.OnClick">
+        <source>Btn_ResetClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374692477</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

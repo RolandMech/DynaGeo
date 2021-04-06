@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\KonstEing.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\KonstEing.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715277778</prop>
+        <prop prop-type="OrigDateTime">38375.653912037</prop>
+        <prop prop-type="XlatDateTime">37754.3559722222</prop>
+        <prop prop-type="Translated">4</prop>
+        <prop prop-type="UnTranslated">42</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:KonstEingabeDlg.Left" resname="O:KonstEingabeDlg.Left">
+        <source>360</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256779977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.Top" resname="O:KonstEingabeDlg.Top">
+        <source>256</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256783449</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.HelpContext" resname="O:KonstEingabeDlg.HelpContext">
+        <source>128</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979796296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.BorderIcons" resname="O:KonstEingabeDlg.BorderIcons">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256778819</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.BorderStyle" resname="O:KonstEingabeDlg.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256778819</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.Caption" resname="O:KonstEingabeDlg.Caption">
+        <source>'Streckenlänge:'</source>
+        <target>'Segment length :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256778819</prop><prop prop-type="Status">1</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Konstanten-Eingabe'</source>
+          <target>'Enter a constant value:'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40402.3376873495</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.ClientHeight" resname="O:KonstEingabeDlg.ClientHeight">
+        <source>97</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256778819</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.ClientWidth" resname="O:KonstEingabeDlg.ClientWidth">
+        <source>188</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256778819</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.Color" resname="O:KonstEingabeDlg.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3586920139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.Font.Charset" resname="O:KonstEingabeDlg.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256778819</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.Font.Color" resname="O:KonstEingabeDlg.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256778819</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.Font.Height" resname="O:KonstEingabeDlg.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256779977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.Font.Name" resname="O:KonstEingabeDlg.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256779977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.Font.Style" resname="O:KonstEingabeDlg.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256779977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.OldCreateOrder" resname="O:KonstEingabeDlg.OldCreateOrder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3586920139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.Position" resname="O:KonstEingabeDlg.Position">
+        <source>poMainFormCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979796296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.OnCreate" resname="O:KonstEingabeDlg.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979796296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.OnShow" resname="O:KonstEingabeDlg.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256782292</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.PixelsPerInch" resname="O:KonstEingabeDlg.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256783449</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.TextHeight" resname="O:KonstEingabeDlg.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256783449</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TKonstEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Bevel1.Left" resname="O:KonstEingabeDlg.O:Bevel1.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256779977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Bevel1.Top" resname="O:KonstEingabeDlg.O:Bevel1.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256779977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Bevel1.Width" resname="O:KonstEingabeDlg.O:Bevel1.Width">
+        <source>163</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256779977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Bevel1.Height" resname="O:KonstEingabeDlg.O:Bevel1.Height">
+        <source>45</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256779977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Bevel1.Shape" resname="O:KonstEingabeDlg.O:Bevel1.Shape">
+        <source>bsFrame</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256779977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Label1.Left" resname="O:KonstEingabeDlg.O:Label1.Left">
+        <source>143</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3586920139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Label1.Top" resname="O:KonstEingabeDlg.O:Label1.Top">
+        <source>23</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3586920139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Label1.Width" resname="O:KonstEingabeDlg.O:Label1.Width">
+        <source>27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3586920139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Label1.Height" resname="O:KonstEingabeDlg.O:Label1.Height">
+        <source>19</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3586920139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Label1.AutoSize" resname="O:KonstEingabeDlg.O:Label1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3586920139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Label1.Caption" resname="O:KonstEingabeDlg.O:Label1.Caption">
+        <source>'cm'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3586920139</prop><prop prop-type="Status">1</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.Left" resname="O:KonstEingabeDlg.O:OKBtn.Left">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256782292</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.Top" resname="O:KonstEingabeDlg.O:OKBtn.Top">
+        <source>62</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256782292</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.Width" resname="O:KonstEingabeDlg.O:OKBtn.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256782292</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.Height" resname="O:KonstEingabeDlg.O:OKBtn.Height">
+        <source>27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256782292</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.Caption" resname="O:KonstEingabeDlg.O:OKBtn.Caption">
+        <source>'OK'</source>
+        <target>'Okay'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256782292</prop><prop prop-type="Status">1</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.Default" resname="O:KonstEingabeDlg.O:OKBtn.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256782292</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.Font.Charset" resname="O:KonstEingabeDlg.O:OKBtn.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374737732</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.Font.Color" resname="O:KonstEingabeDlg.O:OKBtn.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374737732</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.Font.Height" resname="O:KonstEingabeDlg.O:OKBtn.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374737732</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.Font.Name" resname="O:KonstEingabeDlg.O:OKBtn.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374737732</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.Font.Style" resname="O:KonstEingabeDlg.O:OKBtn.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374737732</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.ModalResult" resname="O:KonstEingabeDlg.O:OKBtn.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256782292</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.ParentFont" resname="O:KonstEingabeDlg.O:OKBtn.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.TabOrder" resname="O:KonstEingabeDlg.O:OKBtn.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256782292</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:OKBtn.OnClick" resname="O:KonstEingabeDlg.O:OKBtn.OnClick">
+        <source>OKBtnClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256782292</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.Left" resname="O:KonstEingabeDlg.O:CancelBtn.Left">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256781134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.Top" resname="O:KonstEingabeDlg.O:CancelBtn.Top">
+        <source>62</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256781134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.Width" resname="O:KonstEingabeDlg.O:CancelBtn.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256781134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.Height" resname="O:KonstEingabeDlg.O:CancelBtn.Height">
+        <source>27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256779977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.Cancel" resname="O:KonstEingabeDlg.O:CancelBtn.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256779977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.Caption" resname="O:KonstEingabeDlg.O:CancelBtn.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Cancel'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256779977</prop><prop prop-type="Status">1</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.Font.Charset" resname="O:KonstEingabeDlg.O:CancelBtn.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.Font.Color" resname="O:KonstEingabeDlg.O:CancelBtn.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.Font.Height" resname="O:KonstEingabeDlg.O:CancelBtn.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.Font.Name" resname="O:KonstEingabeDlg.O:CancelBtn.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.Font.Style" resname="O:KonstEingabeDlg.O:CancelBtn.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.ModalResult" resname="O:KonstEingabeDlg.O:CancelBtn.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256781134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.ParentFont" resname="O:KonstEingabeDlg.O:CancelBtn.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.TabOrder" resname="O:KonstEingabeDlg.O:CancelBtn.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256781134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:CancelBtn.OnClick" resname="O:KonstEingabeDlg.O:CancelBtn.OnClick">
+        <source>CancelBtnClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256781134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Edit1.Left" resname="O:KonstEingabeDlg.O:Edit1.Left">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256781134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Edit1.Top" resname="O:KonstEingabeDlg.O:Edit1.Top">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256781134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Edit1.Width" resname="O:KonstEingabeDlg.O:Edit1.Width">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256782292</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Edit1.Height" resname="O:KonstEingabeDlg.O:Edit1.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256781134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Edit1.TabOrder" resname="O:KonstEingabeDlg.O:Edit1.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256781134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KonstEingabeDlg.O:Edit1.Text" resname="O:KonstEingabeDlg.O:Edit1.Text">
+        <source>'5'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256781134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

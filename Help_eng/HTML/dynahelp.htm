@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Dynamic Help Window</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Textbox">
+        <PARAM NAME="Keyword" VALUE="Konstruktionstext">
+</OBJECT>
+
+<A NAME="idh_cm_DynaHelp"></A>
+
+<H2>Create a dynamic help window</H2>
+<HR>
+
+<P>This command creates a <b>dynamic help window</b>. This is a textbox with some extended capabilities:<br>
+<ol start="1" type="1">
+<li>At runtime, first of all only the <b>first paragraph</b> of the whole text appears. By clicking on the small "arrow pointing down" below the last line you make the <b>next paragraph</b> visible. So the text can be made visible piece by piece. If the end of the text is reached, below the last line an "arrow pointing up" is shown: if you click on it, all the paragraphs of the help text except the first one are hidden.<br>
+<br>
+The <b>end of each paragraph</b> is set at design time by a click on the <nobr>"<i>End of paragraph</i>" button</nobr> that inserts a horizontal line in the text. <br>
+<br></li>
+<li>The text of a dynamic help window can hold <b>links</b> to other GEO files (or HTML files). You can insert such a link by clicking the <nobr>"<i>Insert a link</i>" button</nobr>. This opens a window where you can specify the <b>text</b> of the link and its <b>target file</b>. The path to the target file can be given relative to the path of the actual GEO file. If both files are in the same folder, the pure file name is sufficient.<br>
+If the user double-clicks such a link at runtime, the linked GEO file is loaded.<br>
+<br></li>
+</ol>
+<br>
+Otherwise, these dynamic help windows act just like normal textboxes. But while you can edit a normal textbox by double-clicking its text, this is not true for dynamic help windows: here the double-click is needed to activate the links in the text! If you want to edit the help windows contents, you can call the editor by the context menu of the help window: just click the menu item "Edit...", and the editor will come up. <br>
+<br>
+If you want to <b>edit an existing link</b>, place the cursor on the link's text, before you click the <nobr><i>Insert a link</i> button</nobr>. Then the <i>link</i> dialog will be initialized with the data of this already existing link.<br>
+<br>
+<br>
+<br>
+<font color="#FF0000"><b><i>Attention !</i></b></font>
+<ul>
+<li>When you want to provide several help items in a dynamic help window, then every "logical leaf" of this text must be <u>framed by "end of paragraph" marks</u>. If your text contains only one "end of paragraph" line, this is deleted because no paragraph exists that is "framed" by these lines. <br>
+<br>
+</li>
+<li>If you close the help window editor and the text of your dynamic help window does neither contain a link nor (valid) "end of paragraph" lines, then the help window looses its "dynamic" state and is reset to a "normal" textbox. When you later edit this textbox again, the buttons <i>Insert a link</i> and <i>end of paragraph</i> will have disappeared. <br>
+<br>
+</li>
+</ul>
+<br>
+<br>
+<P><B><I>See also:</I></B>
+<ul>
+<li><a href="textbox.htm">Insert a textbox</a></li>
+</ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\KoordEing.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\KoordEing.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715277778</prop>
+        <prop prop-type="OrigDateTime">38881.5362962963</prop>
+        <prop prop-type="XlatDateTime">37754.35625</prop>
+        <prop prop-type="Translated">5</prop>
+        <prop prop-type="UnTranslated">67</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:KoordEingabeDlg.Left" resname="O:KoordEingabeDlg.Left">
+        <source>644</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256792708</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.Top" resname="O:KoordEingabeDlg.Top">
+        <source>225</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256798611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.HelpContext" resname="O:KoordEingabeDlg.HelpContext">
+        <source>42</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36567.3853467593</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.BorderIcons" resname="O:KoordEingabeDlg.BorderIcons">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256791551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.BorderStyle" resname="O:KoordEingabeDlg.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256791551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.Caption" resname="O:KoordEingabeDlg.Caption">
+        <source>'Koordinaten eingeben :'</source>
+        <target>'Enter the co-ordinates :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256791551</prop><prop prop-type="Status">1</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.ClientHeight" resname="O:KoordEingabeDlg.ClientHeight">
+        <source>139</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256791551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.ClientWidth" resname="O:KoordEingabeDlg.ClientWidth">
+        <source>482</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256792708</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.Color" resname="O:KoordEingabeDlg.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36567.3853467593</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.Font.Charset" resname="O:KoordEingabeDlg.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256792708</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.Font.Color" resname="O:KoordEingabeDlg.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256792708</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.Font.Height" resname="O:KoordEingabeDlg.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256792708</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.Font.Name" resname="O:KoordEingabeDlg.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256792708</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.Font.Style" resname="O:KoordEingabeDlg.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256792708</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.FormStyle" resname="O:KoordEingabeDlg.FormStyle">
+        <source>fsStayOnTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979796296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.KeyPreview" resname="O:KoordEingabeDlg.KeyPreview">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36632.3228944444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.OldCreateOrder" resname="O:KoordEingabeDlg.OldCreateOrder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36567.3853467593</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.Position" resname="O:KoordEingabeDlg.Position">
+        <source>poMainFormCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8979796296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.OnHide" resname="O:KoordEingabeDlg.OnHide">
+        <source>FormHide</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3586920139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.OnShow" resname="O:KoordEingabeDlg.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256798611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.PixelsPerInch" resname="O:KoordEingabeDlg.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256798611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.TextHeight" resname="O:KoordEingabeDlg.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256798611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TKoordEingabeDlg</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Bevel1.Left" resname="O:KoordEingabeDlg.O:Bevel1.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256792708</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Bevel1.Top" resname="O:KoordEingabeDlg.O:Bevel1.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256792708</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Bevel1.Width" resname="O:KoordEingabeDlg.O:Bevel1.Width">
+        <source>465</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256792708</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Bevel1.Height" resname="O:KoordEingabeDlg.O:Bevel1.Height">
+        <source>71</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256792708</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Bevel1.Shape" resname="O:KoordEingabeDlg.O:Bevel1.Shape">
+        <source>bsFrame</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256792708</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Label1.Left" resname="O:KoordEingabeDlg.O:Label1.Left">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256796296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Label1.Top" resname="O:KoordEingabeDlg.O:Label1.Top">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256796296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Label1.Width" resname="O:KoordEingabeDlg.O:Label1.Width">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256796296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Label1.Height" resname="O:KoordEingabeDlg.O:Label1.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256796296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Label1.Alignment" resname="O:KoordEingabeDlg.O:Label1.Alignment">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256795023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Label1.AutoSize" resname="O:KoordEingabeDlg.O:Label1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256796296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Label1.Caption" resname="O:KoordEingabeDlg.O:Label1.Caption">
+        <source>'x : '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256796296</prop><prop prop-type="Status">1</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Label2.Left" resname="O:KoordEingabeDlg.O:Label2.Left">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256797454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Label2.Top" resname="O:KoordEingabeDlg.O:Label2.Top">
+        <source>46</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256797454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Label2.Width" resname="O:KoordEingabeDlg.O:Label2.Width">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256797454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Label2.Height" resname="O:KoordEingabeDlg.O:Label2.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256796296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Label2.Alignment" resname="O:KoordEingabeDlg.O:Label2.Alignment">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256796296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Label2.AutoSize" resname="O:KoordEingabeDlg.O:Label2.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256796296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Label2.Caption" resname="O:KoordEingabeDlg.O:Label2.Caption">
+        <source>'y :'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256796296</prop><prop prop-type="Status">1</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.Left" resname="O:KoordEingabeDlg.O:OKBtn.Left">
+        <source>128</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256797454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.Top" resname="O:KoordEingabeDlg.O:OKBtn.Top">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256797454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.Width" resname="O:KoordEingabeDlg.O:OKBtn.Width">
+        <source>108</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256798611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.Height" resname="O:KoordEingabeDlg.O:OKBtn.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256797454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.Caption" resname="O:KoordEingabeDlg.O:OKBtn.Caption">
+        <source>'OK'</source>
+        <target>'Okay'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256797454</prop><prop prop-type="Status">1</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.Default" resname="O:KoordEingabeDlg.O:OKBtn.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256797454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.Font.Charset" resname="O:KoordEingabeDlg.O:OKBtn.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.Font.Color" resname="O:KoordEingabeDlg.O:OKBtn.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.Font.Height" resname="O:KoordEingabeDlg.O:OKBtn.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374739583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.Font.Name" resname="O:KoordEingabeDlg.O:OKBtn.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.Font.Style" resname="O:KoordEingabeDlg.O:OKBtn.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.ModalResult" resname="O:KoordEingabeDlg.O:OKBtn.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256797454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.ParentFont" resname="O:KoordEingabeDlg.O:OKBtn.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.TabOrder" resname="O:KoordEingabeDlg.O:OKBtn.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256797454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:OKBtn.OnClick" resname="O:KoordEingabeDlg.O:OKBtn.OnClick">
+        <source>OKBtnClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256797454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.Left" resname="O:KoordEingabeDlg.O:CancelBtn.Left">
+        <source>248</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256793866</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.Top" resname="O:KoordEingabeDlg.O:CancelBtn.Top">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256793866</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.Width" resname="O:KoordEingabeDlg.O:CancelBtn.Width">
+        <source>106</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256793866</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.Height" resname="O:KoordEingabeDlg.O:CancelBtn.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256793866</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.Cancel" resname="O:KoordEingabeDlg.O:CancelBtn.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256793866</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.Caption" resname="O:KoordEingabeDlg.O:CancelBtn.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Cancel'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256793866</prop><prop prop-type="Status">1</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.Font.Charset" resname="O:KoordEingabeDlg.O:CancelBtn.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.Font.Color" resname="O:KoordEingabeDlg.O:CancelBtn.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.Font.Height" resname="O:KoordEingabeDlg.O:CancelBtn.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.Font.Name" resname="O:KoordEingabeDlg.O:CancelBtn.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.Font.Style" resname="O:KoordEingabeDlg.O:CancelBtn.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.ModalResult" resname="O:KoordEingabeDlg.O:CancelBtn.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256793866</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.ParentFont" resname="O:KoordEingabeDlg.O:CancelBtn.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.TabOrder" resname="O:KoordEingabeDlg.O:CancelBtn.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256793866</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:CancelBtn.OnClick" resname="O:KoordEingabeDlg.O:CancelBtn.OnClick">
+        <source>CancelBtnClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256793866</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.Left" resname="O:KoordEingabeDlg.O:Edit1.Left">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256795023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.Top" resname="O:KoordEingabeDlg.O:Edit1.Top">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256795023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.Width" resname="O:KoordEingabeDlg.O:Edit1.Width">
+        <source>409</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256795023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.Height" resname="O:KoordEingabeDlg.O:Edit1.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256793866</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.Cursor" resname="O:KoordEingabeDlg.O:Edit1.Cursor">
+        <source>crDefault</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.ParentColor" resname="O:KoordEingabeDlg.O:Edit1.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.TabOrder" resname="O:KoordEingabeDlg.O:Edit1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36632.3228944444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.DefaultFont.Charset" resname="O:KoordEingabeDlg.O:Edit1.DefaultFont.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.DefaultFont.Color" resname="O:KoordEingabeDlg.O:Edit1.DefaultFont.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.DefaultFont.Height" resname="O:KoordEingabeDlg.O:Edit1.DefaultFont.Height">
+        <source>-15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.DefaultFont.Name" resname="O:KoordEingabeDlg.O:Edit1.DefaultFont.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.DefaultFont.Style" resname="O:KoordEingabeDlg.O:Edit1.DefaultFont.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.ScrollBars" resname="O:KoordEingabeDlg.O:Edit1.ScrollBars">
+        <source>ssNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.WantReturns" resname="O:KoordEingabeDlg.O:Edit1.WantReturns">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36632.3228944444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.WordWrap" resname="O:KoordEingabeDlg.O:Edit1.WordWrap">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36632.3228944444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.OnEnter" resname="O:KoordEingabeDlg.O:Edit1.OnEnter">
+        <source>MyEditEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3586920139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit1.OnExit" resname="O:KoordEingabeDlg.O:Edit1.OnExit">
+        <source>MyEditExit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.Left" resname="O:KoordEingabeDlg.O:Edit2.Left">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256795023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.Top" resname="O:KoordEingabeDlg.O:Edit2.Top">
+        <source>46</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256795023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.Width" resname="O:KoordEingabeDlg.O:Edit2.Width">
+        <source>409</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256795023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.Height" resname="O:KoordEingabeDlg.O:Edit2.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36484.4256795023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.Cursor" resname="O:KoordEingabeDlg.O:Edit2.Cursor">
+        <source>crDefault</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.ParentColor" resname="O:KoordEingabeDlg.O:Edit2.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.TabOrder" resname="O:KoordEingabeDlg.O:Edit2.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36632.3228951389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.DefaultFont.Charset" resname="O:KoordEingabeDlg.O:Edit2.DefaultFont.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.DefaultFont.Color" resname="O:KoordEingabeDlg.O:Edit2.DefaultFont.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.DefaultFont.Height" resname="O:KoordEingabeDlg.O:Edit2.DefaultFont.Height">
+        <source>-15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.DefaultFont.Name" resname="O:KoordEingabeDlg.O:Edit2.DefaultFont.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.DefaultFont.Style" resname="O:KoordEingabeDlg.O:Edit2.DefaultFont.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.ScrollBars" resname="O:KoordEingabeDlg.O:Edit2.ScrollBars">
+        <source>ssNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.WantReturns" resname="O:KoordEingabeDlg.O:Edit2.WantReturns">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36632.3228951389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.WordWrap" resname="O:KoordEingabeDlg.O:Edit2.WordWrap">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36632.3228951389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.OnEnter" resname="O:KoordEingabeDlg.O:Edit2.OnEnter">
+        <source>MyEditEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">36977.3586920139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:KoordEingabeDlg.O:Edit2.OnExit" resname="O:KoordEingabeDlg.O:Edit2.OnExit">
+        <source>MyEditExit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374741319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TFormatEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Hinweise f&uuml;r die Installation in Netzen</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Grundlagen">
+        <PARAM NAME="Keyword" VALUE="Installation">
+</OBJECT>
+
+<A NAME="idh_NetHints"></A>
+
+<H2>Hinweise f&uuml;r die Installation in Netzen</H2>
+<HR>
+
+<P>Die folgenden Ausf&uuml;hrungen richten sich vor allem an diejenigen, die EUKLID DynaGeo in einem <B>Netzwerk</B> installieren wollen (oder m&uuml;ssen).</P>
+<br>
+
+<h3><font color="#0000FF">Grunds&auml;tzliches:</font></h3>
+
+<ul>
+<p>EUKLID DynaGeo sollte in Rechnernetzen <b>unbedingt auf dem Server</b> installiert werden. Auch weniger routinierte Administratoren sollten der Versuchung widerstehen, das Programm an jeder Arbeitsstation lokal zu installieren! Eine korrekte Netzwerk-Installation von EUKLID DynaGeo ist insgesamt weit weniger aufwendig als die "lokale Variante" und vor allem viel einfacher zu pflegen!<br>
+Zur Installation von EUKLID DynaGeo <b>f&uuml;r den Netzbetrieb</b> sind folgende Arbeitsschritte n&ouml;tig:<br>
+<br>
+<ul>
+<li>Loggen Sie sich an einer Arbeitsstation als Administrator ein.</li>
+<li>Starten Sie das Installationsarchiv <i>EDG*.EXE</i> und</li>
+<li>installieren EUKLID DynaGeo in ein Verzeichnis Ihrer Wahl auf Ihrem Server.</li>
+<li>Erstellen Sie an allen Client-Rechnern eine Verkn&uuml;pfung zur DYNAGEO.EXE auf dem Server.</li>
+<li>Geben Sie Ihren Benutzern im DynaGeo-Verzeichnis Lese-Rechte.</li>
+</ul>
+</p>
+</ul>
+<br>
+
+<h3><font color="#0000FF">Erl&auml;uterungen:</font></h3>
+<ul>
+<p>Der erste Unterschied zu einer lokalen Installation ist, dass Sie sich <b>als Administrator</b> anmelden m&uuml;ssen, damit Sie n&auml;mlich in das Zielverzeichnis der Installation ("DynaGeo-Verzeichnis") auf Ihrem Server &uuml;berhaupt schreiben d&uuml;rfen. Starten Sie dann das Installationsarchiv.</p>
+
+<p>Es macht wenig Sinn, mehr als das "normale" <nobr>EUKLID DynaGeo-Programm</nobr> auf dem Server zu installieren. Weder die Installation der Viewer noch die Registrierung der DynaGeo-Datei-Typen auf dem Server bringt Ihnen einen wesentlichen Nutzen an den Clients in Ihrem Netz. W&auml;hlen Sie daher im entsprechenden Auswahldialog des Installations-Programms alle "zus&auml;tzlichen Aufgaben" ab!</p>
+
+</p>Wenn das Installationsprogramm seine Arbeit getan hat, ruft es die neu erstellte DYNAGEO.EXE aus dem DynaGeo-Verzeichnis auf. Dieser erste Start von EUKLID DynaGeo muss unbedingt mit <b>Schreibrechten im DynaGeo-Verzeichnis</b> geschehen, was durch Ihre Anmeldung als Administrator ja gew&auml;hrleistet ist. Nun wird im DynaGeo-Verzeichnis die globale Konfigurationsdatei DYNAGEO.INI erstellt. Zur Ermittlung der Lizenzdaten sucht das Programm dann nach einer <i>*.DGL</i>-Datei, und zwar in <u>dem</u> Verzeichnis, in dem auch das Installationsarchiv steht. Wird eine DGL-Datei gefunden, dann wird eine Kopie dieser Datei ins DynaGeo-Verzeichnis geschrieben. (Wird keine DGL-Datei gefunden, ist die installierte Version Freeware - und der Unterrichtseinsatz damit erlaubt!) Damit ist EUKLID DynaGeo auf dem Server schon fertig installiert. </p>
+
+<p>An der Arbeitsstation, von der aus Sie die Installation durchf&uuml;hren, wird dar&uuml;berhinaus im Startmen&uuml; eine <b>Verkn&uuml;pfung</b> zur <i>DYNAGEO.EXE</i> auf dem Server erstellt, mit der Sie das Programm an dieser Arbeitsstation auch schon starten k&ouml;nnen. Damit das auch an den <b>anderen Client-Rechnern</b> Ihres Netzes funktioniert, m&uuml;ssen Sie an jedem dieser Rechner <b>nur noch diese Verkn&uuml;pfung</b> zur <i>DYNAGEO.EXE</i> auf dem Server erstellen, je nach Geschmack auf dem Desktop oder im Startmen&uuml;. Mehr ist nicht n&ouml;tig! EUKLID DynaGeo braucht an den Client-Rechnern keine DLLs im lokalen Windows-Verzeichnis und auch keine Eintr&auml;ge in der Registry.</p>
+
+<p>Damit nun auch Ihre <b>Benutzer</b> in den Genuss des neuinstallierten EUKLID DynaGeo kommen, m&uuml;ssen Sie ihnen noch die <b>Rechte zum Lesen, Suchen und Ausf&uuml;hren</b> von Dateien im DynaGeo-Verzeichnis auf dem Server geben. Diese Rechte sollten auch f&uuml;r die Unterverzeichnisse des DynaGeo-Verzeichnisses gelten, damit jeder Benutzer auch Zugriff auf die Beispieldateien hat. Zur Gew&auml;hrleistung der Betriebssicherheit sollten die "gew&ouml;hnlichen Benutzer" aber <b>keinerlei Schreibrechte</b> im DynaGeo-Verzeichnis und seinen Unterverzeichnissen haben!</p>
+
+<p>Damit ist die Installation abgeschlossen, und EUKLID DynaGeo sollte allen Benutzern, denen Sie den Zugriff erlauben, zur Verf&uuml;gung stehen. Der Aufwand einer Netzwerk-Installation ist also wirklich weit geringer als der, den Sie treiben m&uuml;ssten, um das Programm lokal an allen Arbeitsstationen zu installieren. Und beim n&auml;chsten <b>Update</b> brauchen Sie nur noch das <b>DynaGeo-Verzeichnis auf dem Server</b> zu aktualisieren; an den Client-Rechnern sind keine weiteren Nacharbeiten mehr n&ouml;tig!</p>
+</ul>
+<br>
+
+<h3><font color="#0000FF">Technische Interna:</font></h3>
+<ul>
+<P>F&uuml;r einen normalen Programmstart werden die 3 Dateien DYNAGEO.EXE, DYNAGEO.CHM und DYNAGEO.INI gebraucht. Diese drei Dateien m&uuml;ssen zusammen in einem beliebigen Verzeichnis stehen, das im folgenden <B>DynaGeo-Verzeichnis</B> genannt wird. Jeder EUKLID DynaGeo-Benutzer muss auf diese 3 Dateien mindestens lesenden Zugriff haben. &Uuml;blicherweise sollten normale Benutzer im DynaGeo-Verzeichnis <B>keinerlei Schreibrechte</B> haben; so sind die Originaldateien sicher aufbewahrt. Sie sollten jedoch DYNAGEO.EXE und vor allem DYNAGEO.CHM  gegebenenfalls als "shareable" deklarieren, damit viele User parallelen Zugriff haben.</P>
+
+<P>Damit ein Benutzer seine privaten Einstellungen auch abspeichern kann, braucht DynaGeo eine weitere Konfigurationsdatei namens EDG_USER.INI, f&uuml;r die der Benutzer Schreibrechte hat. Diese Datei befindet sich bei &auml;lteren Windows-Versionen (95, 98, ME) ebenfalls im DynaGeo-Verzeichnis; bei den moderneren NT-Varianten (NT4, 2000, XP,...) wird sie ins Profil des aktuellen Benutzers geschrieben, und zwar ins Verzeichnis <i>%appdata%\dynageo\</i>. Sie brauchen sich um die Erstellung dieser Datei nicht zu k&uuml;mmern - DynaGeo macht das automatisch! Beim Start werden die zuletzt abgespeicherten Benutzer-Einstellungen aus dieser Datei ausgelesen. Am Ende der Arbeitssitzung werden die nun aktuellen Einstellungen wiederum dort abgespeichert. Bei jedem Start wird sich das Programm bem&uuml;hen, m&ouml;glichst genau dieselben Verh&auml;ltnisse wieder herzustellen, wie sie am Ende der vorigen Arbeitssitzung herrschten.</P>
+
+<P>Wo die Daten (also die  <I>*.GEO</I>- und  <I>*.MAK</I>-Dateien) stehen, ist f&uuml;r EUKLID DynaGeo v&ouml;llig egal. Ein Benutzer kann innerhalb des Programms auf alle ihm im Netz bekannten Laufwerke und Verzeichnisse zugreifen. </P>
+<br>
+<P><font color="#FF0000"><b><i>Achtung !</i></b></font>
+<ul>EUKLID DynaGeo braucht f&uuml;r <B>den normalen Betrieb</B> weder irgendwelche DLLs im lokalen Windows-Verzeichnis noch irgendwelche Eintr&auml;ge in der Registry. <BR>
+<BR>
+Wenn Sie jedoch den <B>DynaGeoX-Viewer</B> einsetzen wollen, um dynamischer Zeichnungen in HTML-Dokumenten darzustellen, dann sind dazu einige Eintr&auml;ge in die <b>lokale Registry</b> des Client-Rechners bzw. des jeweiligen Benutzers n&ouml;tig; diese werden aber beim ersten Aufruf von DynaGeoX automatisch gesetzt - sofern Sie als Administrator das in Ihrem Netz erlaubt haben! Ebenso werden nat&uuml;rlich die Informationen &uuml;ber die mit EUKLID DynaGeo <b>assoziierten Datei-Typen</b> (*.geo und eventuell das veraltete *.geox) in der Registry vermerkt. Und f&uuml;r den Fall, dass Sie das Programm wieder von einem Rechner entfernen wollen, werden <b>De-Installations-Daten</b> in der Registrierungsdatenbank hinterlegt - obwohl ich mir kaum vorstellen kann, dass Sie EUKLID&nbsp;DynaGeo jemals wieder deinstallieren wollen... ;-) </ul></P>
+</ul>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

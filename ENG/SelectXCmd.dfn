@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\SelectXCmd.dfm" source-language="de-DE" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\Dokumente\Delphi2010\Projekte\DynaGeo36\SelectXCmd.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">40871.7715972222</prop>
+        <prop prop-type="OrigDateTime">40195.5543518519</prop>
+        <prop prop-type="XlatDateTime">37754.4634490741</prop>
+        <prop prop-type="Translated">45</prop>
+        <prop prop-type="UnTranslated">57</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:SelectXCmdForm.Left" resname="O:SelectXCmdForm.Left">
+        <source>684</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.Top" resname="O:SelectXCmdForm.Top">
+        <source>126</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.HelpContext" resname="O:SelectXCmdForm.HelpContext">
+        <source>1218</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37754.4560367708</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.BorderStyle" resname="O:SelectXCmdForm.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.Caption" resname="O:SelectXCmdForm.Caption">
+        <source>'Befehle auswählen...'</source>
+        <target>'Choose commands...'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">1</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.ClientHeight" resname="O:SelectXCmdForm.ClientHeight">
+        <source>385</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.ClientWidth" resname="O:SelectXCmdForm.ClientWidth">
+        <source>524</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.Color" resname="O:SelectXCmdForm.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.Font.Charset" resname="O:SelectXCmdForm.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.Font.Color" resname="O:SelectXCmdForm.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.Font.Height" resname="O:SelectXCmdForm.Font.Height">
+        <source>-10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.Font.Name" resname="O:SelectXCmdForm.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.Font.Style" resname="O:SelectXCmdForm.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.OldCreateOrder" resname="O:SelectXCmdForm.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.Position" resname="O:SelectXCmdForm.Position">
+        <source>poOwnerFormCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.OnCreate" resname="O:SelectXCmdForm.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.PixelsPerInch" resname="O:SelectXCmdForm.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.TextHeight" resname="O:SelectXCmdForm.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TSelectXCmdForm</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:Label1.Left" resname="O:SelectXCmdForm.O:Label1.Left">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:Label1.Top" resname="O:SelectXCmdForm.O:Label1.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:Label1.Width" resname="O:SelectXCmdForm.O:Label1.Width">
+        <source>195</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:Label1.Height" resname="O:SelectXCmdForm.O:Label1.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:Label1.AutoSize" resname="O:SelectXCmdForm.O:Label1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:Label1.Caption" resname="O:SelectXCmdForm.O:Label1.Caption">
+        <source>'Verfügbare Befehle :'</source>
+        <target>'Available commands :'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">1</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:Bevel1.Left" resname="O:SelectXCmdForm.O:Bevel1.Left">
+        <source>394</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:Bevel1.Top" resname="O:SelectXCmdForm.O:Bevel1.Top">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:Bevel1.Width" resname="O:SelectXCmdForm.O:Bevel1.Width">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:Bevel1.Height" resname="O:SelectXCmdForm.O:Bevel1.Height">
+        <source>370</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:Bevel1.Shape" resname="O:SelectXCmdForm.O:Bevel1.Shape">
+        <source>bsRightLine</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TBevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Left" resname="O:SelectXCmdForm.O:CmdListBox.Left">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Top" resname="O:SelectXCmdForm.O:CmdListBox.Top">
+        <source>39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Width" resname="O:SelectXCmdForm.O:CmdListBox.Width">
+        <source>365</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Height" resname="O:SelectXCmdForm.O:CmdListBox.Height">
+        <source>282</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.OnClickCheck" resname="O:SelectXCmdForm.O:CmdListBox.OnClickCheck">
+        <source>CmdListBoxClickCheck</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Columns" resname="O:SelectXCmdForm.O:CmdListBox.Columns">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.ItemHeight" resname="O:SelectXCmdForm.O:CmdListBox.ItemHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[0]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[0]">
+        <source>'Punkt'</source>
+        <target>'Point'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">1</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[1]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[1]">
+        <source>'Punkt auf einer Linie'</source>
+        <target>'Point on a line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">1</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Strecke zwischen 2 Punkten'</source>
+          <target>'Line segment between 2 points'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[2]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[2]">
+        <source>'Schnittpunkt(e) zweier Linien'</source>
+        <target>'Intersection of 2 lines'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">1</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Gerade durch 2 Punkte'</source>
+          <target>'Line through 2 points'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[3]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[3]">
+        <source>'Mittelpunkt zwischen 2 Punkten'</source>
+        <target>'Midpoint between 2 points'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">1</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Halbgerade'</source>
+          <target>'Ray'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[4]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[4]">
+        <source>'Strecke zwischen 2 Punkten'</source>
+        <target>'Segement between 2 points'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980050926</prop><prop prop-type="Status">1</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Kreis um Mittelpunkt durch Kreispunkt'</source>
+          <target>'Circle from center and peripheral point'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[5]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[5]">
+        <source>'Vektor'</source>
+        <target>'Vector'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Punkt auf einer Linie'</source>
+          <target>'Point on a line'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[6]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[6]">
+        <source>'Gerade durch 2 Punkte'</source>
+        <target>'Line through 2 points'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Schnittpunkt(e) zweier Linien'</source>
+          <target>'Intersection of 2 lines'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[7]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[7]">
+        <source>'Gerade in bestimmtem Winkel'</source>
+        <target>'Line in determined angle'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Mittelpunkt zwischen 2 Punkten'</source>
+          <target>'Midpoint'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[8]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[8]">
+        <source>'Orthogonale'</source>
+        <target>'Perpendicular line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Mittelsenkrechte'</source>
+          <target>'Perpendicular bisector'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[9]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[9]">
+        <source>'Parallele'</source>
+        <target>'Parallel line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Winkelhalbierende'</source>
+          <target>'Bisector'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[10]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[10]">
+        <source>'Mittelsenkrechte'</source>
+        <target>'Perpendicular bisector'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Parallele'</source>
+          <target>'Parallel line'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[11]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[11]">
+        <source>'Winkelhalbierende'</source>
+        <target>'Bisector'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Lot, Senkrechte'</source>
+          <target>'Perpendicular'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[12]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[12]">
+        <source>'Halbgerade'</source>
+        <target>'Ray'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Objekt an Achse spiegeln'</source>
+          <target>'Reflect object in a line'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[13]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[13]">
+        <source>'Kreis um Mittelpunkt durch Kreispunkt'</source>
+        <target>'Circle from centre and peripheral point'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Objekt an Punkt spiegeln'</source>
+          <target>'Reflect object in a point'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[14]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[14]">
+        <source>'Kreis mit bestimmtem Radius'</source>
+        <target>'Circle with determined radius'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Objekt verschieben'</source>
+          <target>'Translate object'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[15]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[15]">
+        <source>'N-Eck'</source>
+        <target>'Polygon'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Objekt drehen'</source>
+          <target>'Rotate object'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[16]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[16]">
+        <source>'Punkt an Linie binden'</source>
+        <target>'Snap point to line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Objekt zentrisch strecken'</source>
+          <target>'Dilate object'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[17]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[17]">
+        <source>'Punktbindung lösen'</source>
+        <target>'Unsnap point'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Punkt an Kreis spiegeln'</source>
+          <target>'Reflect point in a circle'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[18]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[18]">
+        <source>'Objekt an Achse spiegeln'</source>
+        <target>'Reflect object in an axis'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">1</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Ortslinie aufzeichnen'</source>
+          <target>'Record a locus line'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[19]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[19]">
+        <source>'Objekt an Punkt spiegeln'</source>
+        <target>'Reflect object in a point'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37754.4560368866</prop><prop prop-type="Status">1</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Objekt löschen'</source>
+          <target>'Delete object'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[20]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[20]">
+        <source>'Objekt verschieben'</source>
+        <target>'Translate object'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37754.4560368866</prop><prop prop-type="Status">1</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      <alt-trans>  <source>'Abstand messen'</source>
+          <target>'Measure distance'</target>
+          <prop-group name="ITEFieldProp">
+          <prop prop-type="Modified">40399.2627336458</prop></prop-group>
+        </alt-trans></trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[21]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[21]">
+        <source>'Objekt drehen'</source>
+        <target>'Rotate object'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[22]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[22]">
+        <source>'Objekt zentrisch strecken'</source>
+        <target>'Dilate object'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[23]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[23]">
+        <source>'Objekt an Kreis spiegeln'</source>
+        <target>'Reflect object in a circle'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[24]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[24]">
+        <source>'Ortslinie aufzeichnen'</source>
+        <target>'Record a locus line'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[25]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[25]">
+        <source>'Objekt löschen'</source>
+        <target>'Delete obejct'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[26]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[26]">
+        <source>'Abstand messen'</source>
+        <target>'Measure distance'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[27]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[27]">
+        <source>'Winkelweite messen'</source>
+        <target>'Measure angle'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[28]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[28]">
+        <source>'Flächeninhalt messen'</source>
+        <target>'Measure area'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[29]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[29]">
+        <source>'Speichern unter...'</source>
+        <target>'Save as...'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[30]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[30]">
+        <source>'Animation starten/stoppen'</source>
+        <target>'Start / stop animation'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[31]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[31]">
+        <source>'Textbox erzeugen'</source>
+        <target>'Create textbox'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[32]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[32]">
+        <source>'Zahlobjekt erzeugen'</source>
+        <target>'Create number object'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[33]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[33]">
+        <source>'Termobjekt erzeugen'</source>
+        <target>'Create term object'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[34]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[34]">
+        <source>'Makro'</source>
+        <target>'Macro'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[35]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[35]">
+        <source>'Korrektheit prüfen'</source>
+        <target>'Check correctness'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[36]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[36]">
+        <source>'Ellipse'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[37]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[37]">
+        <source>'Parabel'</source>
+        <target>'Parabolal'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[38]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[38]">
+        <source>'Hyperbel'</source>
+        <target>'Hyperbola'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.Items.Strings[39]" resname="O:SelectXCmdForm.O:CmdListBox.Items.Strings[39]">
+        <source>'Funktions-Schaubild'</source>
+        <target>'Function graph'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:CmdListBox.TabOrder" resname="O:SelectXCmdForm.O:CmdListBox.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">37664.8980056713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnOkay.Left" resname="O:SelectXCmdForm.O:BtnOkay.Left">
+        <source>416</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnOkay.Top" resname="O:SelectXCmdForm.O:BtnOkay.Top">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnOkay.Width" resname="O:SelectXCmdForm.O:BtnOkay.Width">
+        <source>89</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnOkay.Height" resname="O:SelectXCmdForm.O:BtnOkay.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnOkay.Caption" resname="O:SelectXCmdForm.O:BtnOkay.Caption">
+        <source>'Okay'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnOkay.Default" resname="O:SelectXCmdForm.O:BtnOkay.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460671644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnOkay.Font.Charset" resname="O:SelectXCmdForm.O:BtnOkay.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnOkay.Font.Color" resname="O:SelectXCmdForm.O:BtnOkay.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnOkay.Font.Height" resname="O:SelectXCmdForm.O:BtnOkay.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnOkay.Font.Name" resname="O:SelectXCmdForm.O:BtnOkay.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnOkay.Font.Style" resname="O:SelectXCmdForm.O:BtnOkay.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnOkay.ModalResult" resname="O:SelectXCmdForm.O:BtnOkay.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnOkay.ParentFont" resname="O:SelectXCmdForm.O:BtnOkay.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnOkay.TabOrder" resname="O:SelectXCmdForm.O:BtnOkay.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnCancel.Left" resname="O:SelectXCmdForm.O:BtnCancel.Left">
+        <source>416</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnCancel.Top" resname="O:SelectXCmdForm.O:BtnCancel.Top">
+        <source>86</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnCancel.Width" resname="O:SelectXCmdForm.O:BtnCancel.Width">
+        <source>89</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnCancel.Height" resname="O:SelectXCmdForm.O:BtnCancel.Height">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnCancel.Cancel" resname="O:SelectXCmdForm.O:BtnCancel.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">40399.3460671644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnCancel.Caption" resname="O:SelectXCmdForm.O:BtnCancel.Caption">
+        <source>'Abbrechen'</source>
+        <target>'Abort'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnCancel.Font.Charset" resname="O:SelectXCmdForm.O:BtnCancel.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnCancel.Font.Color" resname="O:SelectXCmdForm.O:BtnCancel.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnCancel.Font.Height" resname="O:SelectXCmdForm.O:BtnCancel.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnCancel.Font.Name" resname="O:SelectXCmdForm.O:BtnCancel.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnCancel.Font.Style" resname="O:SelectXCmdForm.O:BtnCancel.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnCancel.ModalResult" resname="O:SelectXCmdForm.O:BtnCancel.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnCancel.ParentFont" resname="O:SelectXCmdForm.O:BtnCancel.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnCancel.TabOrder" resname="O:SelectXCmdForm.O:BtnCancel.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnDelSel.Left" resname="O:SelectXCmdForm.O:BtnDelSel.Left">
+        <source>148</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnDelSel.Top" resname="O:SelectXCmdForm.O:BtnDelSel.Top">
+        <source>342</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnDelSel.Width" resname="O:SelectXCmdForm.O:BtnDelSel.Width">
+        <source>117</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnDelSel.Height" resname="O:SelectXCmdForm.O:BtnDelSel.Height">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnDelSel.Caption" resname="O:SelectXCmdForm.O:BtnDelSel.Caption">
+        <source>'Auswahl löschen'</source>
+        <target>'Delete selection'</target>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">1</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnDelSel.TabOrder" resname="O:SelectXCmdForm.O:BtnDelSel.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:SelectXCmdForm.O:BtnDelSel.OnClick" resname="O:SelectXCmdForm.O:BtnDelSel.OnClick">
+        <source>BtnDelSelClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">39159.7374887847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

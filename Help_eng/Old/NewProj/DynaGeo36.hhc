@@ -1,0 +1,210 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Contents">
+		<param name="Local" value="HTML\inhalt.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction">
+		<param name="Local" value="HTML\newbies.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Basics">
+			<param name="Local" value="HTML\grundlagen.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Requirements">
+			<param name="Local" value="HTML\voraussetzungen.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="The DynaGeo window">
+			<param name="Local" value="HTML\euklwindow.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Keyboard and mouse">
+			<param name="Local" value="HTML\tastaturmaus.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Mouse cursor shapes">
+			<param name="Local" value="HTML\mousearrows.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Hot keys">
+			<param name="Local" value="HTML\specialkeys.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="The Main Menu">
+		<param name="Local" value="HTML\menues.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="File Menu">
+			<param name="Local" value="HTML\menudatei.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="New ">
+				<param name="Local" value="HTML\neu.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Load">
+				<param name="Local" value="HTML\load.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Save">
+				<param name="Local" value="HTML\speichern.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Save as">
+				<param name="Local" value="HTML\saveas.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Save as DynaGeoX HTML page">
+				<param name="Local" value="HTML\savedgxpage.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Save as DynaGeoJ HTML page">
+				<param name="Local" value="HTML\savedgjpage.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="HTML\dateieigensch.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Printer options">
+				<param name="Local" value="HTML\druckeropt.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Print preview">
+				<param name="Local" value="HTML\printpreview.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Print">
+				<param name="Local" value="HTML\drucken.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Exit">
+				<param name="Local" value="HTML\ende.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Edit Menu">
+			<param name="Local" value="HTML\menubearb.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="View Menu">
+			<param name="Local" value="HTML\menuansicht.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Construct Menu">
+			<param name="Local" value="HTML\menukonstr.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Mappings Menu">
+			<param name="Local" value="HTML\menuabb.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Measure Menu">
+			<param name="Local" value="HTML\menumess.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Macro Menu">
+			<param name="Local" value="HTML\menumakro.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Miscellaneous Menu">
+			<param name="Local" value="HTML\menudivers.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Help Menu">
+			<param name="Local" value="HTML\menuhelp.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="The Toolbars">
+		<param name="Local" value="HTML\toolbar.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Main Bar">
+			<param name="Local" value="HTML\tool_mainbar.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Construct Bar">
+			<param name="Local" value="HTML\tool_konstruieren.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Mappings Bar">
+			<param name="Local" value="HTML\tool_abbilden.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Curves Bar">
+			<param name="Local" value="HTML\tool_curves.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Shape &amp;amp; Colour Bar">
+			<param name="Local" value="HTML\tool_formfarbe.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Edit point and line properties">
+				<param name="Local" value="HTML\editobjskin.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Fill area">
+				<param name="Local" value="HTML\fillarea.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Cut a filling">
+				<param name="Local" value="HTML\cutarea.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Measure &amp;amp; Calculate Bar">
+			<param name="Local" value="HTML\tool_messrech.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Animation Bar">
+			<param name="Local" value="HTML\tool_animation.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Some looks behing the curtains">
+		<param name="Local" value="HTML\lookinside.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Reports from the programmer's workshop">
+		<param name="Local" value="HTML\reports.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Help in case of trouble">
+		<param name="Local" value="HTML\probhelp.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Installation">
+		<param name="Local" value="HTML\install.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Licence conditions">
+		<param name="Local" value="HTML\lizbed.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Contact">
+		<param name="Local" value="HTML\impressum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Thanks...">
+		<param name="Local" value="HTML\danke.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

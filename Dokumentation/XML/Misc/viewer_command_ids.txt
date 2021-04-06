@@ -1,0 +1,37 @@
+
+
+const TBData : Array[0..MaxSelXCmdIndex] of tTBDataLine =
+  ((cmd_id: 121; fname : 'toolb201.bmp';   hint_str : 'Basispunkt'),                    
+    cmd_id: 109; fname : 'toolb203.bmp';   hint_str : 'Punkt auf einer Linie'),
+    cmd_id: 132; fname : 'toolb204.bmp';   hint_str : 'Schnittpunkt(e) zweier Linien'),
+    cmd_id: 133; fname : 'toolb206.bmp';   hint_str : 'Mittelpunkt'),
+    cmd_id: 122; fname : 'toolb207.bmp';   hint_str : 'Strecke zwischen 2 Punkten'),
+    cmd_id:  45; fname : 'toolvector.bmp'; hint_str : 'Vektor'),
+    cmd_id: 123; fname : 'toolb211.bmp';   hint_str : 'Gerade durch 2 Punkte'),
+    cmd_id: 139; fname : 'toolb216.bmp';   hint_str : 'Gerade in bestimmtem Winkel'),
+    cmd_id: 138; fname : 'toolb212.bmp';   hint_str : 'Orthogonale'),
+    cmd_id: 137; fname : 'toolb213.bmp';   hint_str : 'Parallele'),
+    cmd_id: 135; fname : 'toolb214.bmp';   hint_str : 'Mittelsenkrechte'),
+    cmd_id: 136; fname : 'toolb215.bmp';   hint_str : 'Winkelhalbierende'),
+    cmd_id: 124; fname : 'toolb218.bmp';   hint_str : 'Kreis um Mittelpunkt durch Kreispunkt'),
+    cmd_id: 129; fname : 'toolb219.bmp';   hint_str : 'Kreis mit bestimmtem Radius'),
+    cmd_id: 131; fname : 'toolb504.bmp';   hint_str : 'N-Eck'),
+    cmd_id:  47; fname : 'toolmirroraxisobj.bmp';   hint_str : 'Objekt an Achse spiegeln'),
+    cmd_id:  49; fname : 'toolmirrorcentreobj.bmp'; hint_str : 'Objekt an Punkt spiegeln'),
+    cmd_id:  51; fname : 'toolmoveobj.bmp';         hint_str : 'Objekt verschieben'),
+    cmd_id:  53; fname : 'toolrotobj.bmp';          hint_str : 'Objekt drehen'),
+    cmd_id:  55; fname : 'toolstretchobj.bmp';      hint_str : 'Objekt zentrisch strecken'),
+    cmd_id:  56; fname : 'toolmirrorcirclept.bmp';  hint_str : 'Punkt an Kreis spiegeln'),
+    cmd_id: 158; fname : 'toolb108.bmp';   hint_str : 'Ortslinie aufzeichnen'),
+    cmd_id: 114; fname : 'toolb107.bmp';   hint_str : 'Objekt löschen'),
+    cmd_id: 156; fname : 'toolb405.bmp';   hint_str : 'Abstand messen'),
+    cmd_id: 155; fname : 'toolb406.bmp';   hint_str : 'Winkel messen'),
+    cmd_id: 104; fname : 'toolb103.bmp';   hint_str : 'Zeichnung speichern unter...'),
+    cmd_id: 215; fname : 'toolb423.bmp';   hint_str : 'Animation'),
+    cmd_id:  90; fname : 'tooltextbox2.bmp';  hint_str : 'Neue Textbox'),
+    cmd_id:  78; fname : 'toolnuberobj.bmp';  hint_str : 'Zahlobjekt'),
+    cmd_id:  79; fname : 'toolb407.bmp';   hint_str : 'Termobjekt'),
+    cmd_id: 145; fname : 'toolaction.bmp'; hint_str : 'Makros'));
+
+
+

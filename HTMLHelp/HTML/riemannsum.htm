@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+
+<OBJECT id=HHCTRL type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+</OBJECT>
+
+<SCRIPT language=javascript SRC="eukldef.js">
+</SCRIPT>
+
+<TITLE>Riemann-Summe</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="Konstruieren">
+        <PARAM NAME="Keyword" VALUE="Funktion">
+        <PARAM NAME="Keyword" VALUE="Schaubild">
+        <PARAM NAME="Keyword" VALUE="Integral">
+        <PARAM NAME="Keyword" VALUE="Riemannsumme">
+        <PARAM NAME="Keyword" VALUE="Obersumme">
+        <PARAM NAME="Keyword" VALUE="Untersumme">
+        <PARAM NAME="Keyword" VALUE="Fl&auml;che">
+</OBJECT>
+
+<A NAME="idh_cm_riemann"></A>
+
+<H2>Riemann-Summen</H2>
+<HR>
+
+<P>Dieser Befehl zeichnet eine <b>"Riemann-Summe"</b>, also eine Serie von (gleichbreiten) Rechtecken, die die Integralfl&auml;che zwischen einem Funktionsschaubild und der x-Achse approximiert. Um die gew&uuml;nschte Fl&auml;che festzulegen, f&uuml;hren Sie bitte die folgenden drei Schritte aus:</p>
+
+<P>
+<ol type="1" start="1">
+<li>Geben Sie zun&auml;chst das <b>Funktions-Schaubild</b> an, das die gew&uuml;nschte Fl&auml;che nach oben begrenzt.<br>
+<br></li>
+<li>Markieren Sie danach das <b>Integrations-Intervall</b>: geben Sie dazu <b>zwei Punkte</b> an, deren <nobr>x-Koordinaten</nobr> das Integrations-Intervall bestimmen. Sie k&ouml;nnen entweder schon vorhandene Punkte benutzen oder neue Basispunkte durch einen Mausklick erzeugen. Sind die Begrenzungspunkte des Integrations-Intervalls ungebundene Basispunkte, dann werden sie bei der Erzeugung der Fl&auml;che an die x-Achse gebunden. <br>
+<br></li>
+<li>Schlie&szlig;lich erscheint ein Fenster, in dem Sie den Typ der Riemann-Summe (<b>Ober- oder Untersumme</b>) und die <b>Anzahl der Teilintervalle</b> eingeben k&ouml;nnen. Diese Anzahl kann auch durch einen Term festgelegt werden, der eine Referenz auf ein Zahlobjekt enth&auml;lt; dann k&ouml;nnen Sie die Anzahl der Teilintervalle sp&auml;ter bequem dynamisch &auml;ndern. Die minimale Anzahl der Teilintervalle ist 1, die maximale 256.<br>
+<br></li>
+</ol>
+Danach wird ein entsprechendes Riemann-Summen-Objekt erzeugt und auf dem Bildschirm angezeigt.<br>
+<br>
+<br>
+</P>Im <A HREF="JavaScript:HHCTRL.TextPopup(pop_contextmenu,popfont,10,10,-1,-1)"
+Title="Klicken Sie, um eine Definition zu sehen!">Kontext-Men&uuml;</A> einer Riemann-Summe finden Sie neben den f&uuml;r Fl&auml;chen-Objekte typischen Eintr&auml;gen zus&auml;tzlich noch den folgenden Men&uuml;punkt:<br>
+<ul>
+<li><b>Anzahl der Teilintervalle &auml;ndern...</b><br>
+Wenn Sie diesen Men&uuml;punkt anklicken, erscheint wieder das Fenster zur Eingabe der Anzahl der Teilintervalle der Riemann-Summe. So k&ouml;nnen Sie diese Anzahl nachtr&auml;glich &auml;ndern, selbst wenn Sie bei der Erzeugung des Riemannsummen-Objekts als Anzahl eine Konstante eingegeben haben. <br>
+<br>
+</li>
+</ul>
+<br>
+<br>
+<b>Beachten Sie bitte:</b>
+<ul>
+<li>Wenn Ihre Randfunktion f nicht &uuml;berall positive Werte hat, mag es sein, dass die von DynaGeo gezeichnete Untersumme nicht ganz Ihren Erwartungen entspricht. Zur Klarstellung sei hier nochmals explizit darauf hingewiesen, dass f&uuml;r die Untersummen in jedem Teilintervall als (vorzeichenbehaftete!) H&ouml;he des Rechteck-Streifens jeweils der <u>kleinste Wert</u> genommen wird, den die Funktion f in diesem Teilintervall annimmt, bei den Obersummen entsprechend der <u>gr&ouml;&szlig;te Wert</u>. Nur so ist gew&auml;hrleistet, dass stets gilt:<br>
+<br>
+<div align="center"><b>U</b>(f,a,b) &lt;= <b>I</b>(f,a,b) &lt;= <b>O</b>(f,a,b)</div>
+<br>
+wobei <b>U</b> der Wert der Untersumme ist, <b>I</b> der Wert des Integrals und <b>O</b> der Wert der Obersumme.<br>
+<br></li>
+<li>Um den Aufwand bei der numerische Berechnung einer Riemannsumme auf ein vern&uuml;nftiges Ma&szlig; zu begrenzen, ist die maximale Anzahl der Teilintervalle auf 256 festgesetzt. Wenn Sie eine gr&ouml;&szlig;ere Anzahl anfordern, wird DynaGeo trotzdem intern stets mit h&ouml;chstens 256 Teilintervallen rechnen. Sollte Ihnen diese Grenze zu eng sein,k&ouml;nnen Sie die maximal m&ouml;gliche Anzahl der Teilintervalle unter "<a href="optmeasure.htm">Verschiedenes | Einstellungen | Messen</a>" h&ouml;her setzen.<br>
+<br></li>
+</li>
+</ul>
+<br>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

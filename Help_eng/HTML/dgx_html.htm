@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>How to integrate DynaGeoX in a HTML page</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<FONT FACE="ARIAL">
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+        <PARAM NAME="Keyword" VALUE="DynaGeoX">
+        <PARAM NAME="Keyword" VALUE="HTML">
+        <PARAM NAME="Keyword" VALUE="ActiveX">
+</OBJECT>
+
+<A NAME="idh_dgx_include"></A>
+
+<H2>How to integrate DynaGeoX in a HTML page</H2>
+<HR>
+
+<P>Normally, it will not be necessary that you yourself create the HTML code described in the following section. EUKLID DynaGeo will do this job when you choose the menu command <nobr><a href="savedgxpage.htm"><i>Save as DynaGeoX HTML page...</i></a>.</nobr> But to benefit from this automatically produced code you need to understand it.</P>
+
+<P>Suppose you created a drawing with EUKLID DynaGeo and saved it in GEOX format, e.g. to the file <i>C:\Programme\DynaGeo\Daten\example.geox</i>. If now you want to embed this dynamic drawing in a HTML page, you have to insert the following "&lt;OBJECT&gt;...&lt;/OBJECT&gt;" declaration into the source text of this page :
+<font color="#0000FF">
+<pre>
+   &lt;OBJECT
+       classid="clsid:2EF98DE5-183F-11D4-83EC-EC6A1DB6E213"
+       codebase="http://www.dynageo.com/download/dynageoviewer.cab#version=2,5,1,0"
+       width=501
+       height=330
+   &gt;
+   &lt;param name="DataFile" value="example.geox"&gt;
+   &lt;/OBJECT&gt;
+</pre>
+</font>
+</P>
+<br>
+
+<P>Some details about the parameters:</P>
+<UL>
+<LI>"classid" contains the <B>unique identification number</B> of the DynaGeoX component. This number is set by the programmer of DynaGeoX and must not be changed.</LI>
+
+<LI>"codebase" contains the <B>internet address</B> from where the DynaGeoX viewer can be downloaded. There is a version info too: the embedded drawing can be displayed by the indicated version of the viewer or a newer one. In most cases, an older viewer version will not do!</LI>
+
+<LI>"width" and "height" specify the <B>size</B> (in pixels) of the drawing's display window.</LI>
+
+<LI>"param" holds the <B>name of the GEOX file</B> containing your drawing:<BR>
+"name" must have the value "DataFile" while "value" is set to the GEOX file's name (without a path!). To enable the IE to find the GEOX file it must be <b>in the same directory</b> as the HTML file itself! </LI>
+</UL>
+<br>
+
+<P>To spare the internet access when DynaGeoX is needed for the first time you can also specify a <b>local codebase</b>. If e.g. you copied the file <i>DynaGeoViewer.cab</i> into the directory  <i>K:\Public\Utils\DynaGeoX</i>  of your local network, the following codebase can be used:
+<ul>
+codebase="file:///k:/public/utils/DynaGeoX/DynaGeoViewer.cab#version=2,5,1,0"
+</ul>
+The path must be formulated as an <b>URL</b>. Only then the IE can install (or update) the component automatically.</P>
+
+<p>However, in order to create <b>tranportable documents</b> it is strongly recommended to always use the <b>internet codebase</b>. If you specify a local codebase this path usually becomes invalid when you move your document to another computer. And even with an internet codebase there will be no internet access if a sufficiently actual version of the viewer is already installed on your local computer. </ul>
+</P>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>
