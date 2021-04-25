@@ -20,7 +20,6 @@ uses
   CoordWin in 'CoordWin.pas' {CoordDlg},
   TermEdit in 'TermEdit.pas' {TermEditDlg},
   PrnCfg in 'PrnCfg.pas' {PrinterCfgDlg},
-  RegWin in 'RegWin.pas' {RegisterDlg},
   SelectWin in 'SelectWin.pas' {SelectDlg},
   CommentWin in 'CommentWin.pas' {TextWin},
   KonstEing in 'KonstEing.pas' {KonstEingabeDlg},

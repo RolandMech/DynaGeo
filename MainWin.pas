@@ -14,7 +14,7 @@ uses
 
   MathLib, Declar, GlobVars, TBaum, Utility, FileIO, FileIO2, FileIO3,
   GeoTypes, GeoMakro, IniFDlg, WertEing, KonstEing, KoordEing, TermEdit,
-  NameDlg, OkayWin, ConstrWin, CoordWin, PrnCfg, AboutWin, RegWin,
+  NameDlg, OkayWin, ConstrWin, CoordWin, PrnCfg, AboutWin,
   SelectWin, CommentWin, MakHelpEdit, MakHelpShow, SysMem, FileProp,
   SpeedBtnData, TermForm, Preview, RangeEdit, QuantPoint,
   HTMLDynaGeoXSettings, HTMLDynaGeoJSettings,
@@ -61,7 +61,6 @@ type
     DasEuklidFenster1: TMenuItem;
     TastaturundMaus1: TMenuItem;
     Lizenzbedingungen1: TMenuItem;
-    Registrierung1: TMenuItem;
     UeberEuklid1: TMenuItem;
     Rckblende1: TMenuItem;
     KonstruktionsText1: TMenuItem;
@@ -418,7 +417,6 @@ type
     procedure TabSet1DrawTab(Sender: TObject; TabCanvas: TCanvas; R: TRect;
       Index: Integer; Selected: Boolean);
     procedure UeberEuklid1Click(Sender: TObject);
-    procedure Registrierung1Click(Sender: TObject);
     procedure TextBoxClick(Sender: TObject);
     procedure NeuesMakroerstellen1Click(Sender: TObject);
     procedure Makrobeschreibungeditieren1Click(Sender: TObject);
@@ -1489,40 +1487,6 @@ procedure THauptfenster.FirstIdle(Sender: TObject; var Done: Boolean);
       Skip := True;
       end;
     end;
-
-  If (Not Skip) and
-     (Not AutoRegister) and
-     IsShareWare then begin
-    SW_DaysLeft := 60; // IniFile.TimeCheck;
-                       // ShareWareNag killed 04.01.2016
-    SpyOut('SWDaysLeft = %d', [SW_DaysLeft]);
-    Case SW_DaysLeft of
-       0,
-      -1 : { Shareware-Test-Zeit abgelaufen }
-           If UserIsAdmin then begin
-             If MessageDlg(MyStartMsg[20],
-                           mtInformation,
-                           [mbYes, mbNo], 0) = mrYes then
-               Registrierung1Click(Self);
-             Skip := IsShareWare;
-             end
-           else begin
-             MessageDlg(MyStartMsg[23], mtInformation, [mbOk], 0);
-             Skip := True;
-             end;
-      -2 : begin          { Crack-Versuch ? }
-           MessageDlg(MyStartMsg[21], mtError, [mbOk], 0);
-           Skip := True;
-           end;
-      -3 : begin          { CD-Version auf falscher CD }
-           MessageDlg(MyStartMsg[29], mtError, [mbOk], 0);
-           Skip := True;
-           end;
-    else
-      MyPickCursor  := #$D6;
-      MyCatchCursor := #$3C;
-    end; { of case }
-    end; { of then }
 
   If Skip then begin
     AppShouldClose := True;    { Aussteigen !!! }
@@ -5653,8 +5617,7 @@ procedure THauptfenster.ProcessPopupCommands(var Msg: TMessage);
 { =========== Externe Befehle bearbeiten =========}
 
 procedure THauptfenster.ProcessExternCommands(var Msg: TMessage);
-  var RegisterDlg : TRegisterDlg;
-      err  : Integer;
+  var err  : Integer;
       newO : TGeoObj;
       newF : TGFunktion;
       R    : TRect;
@@ -5728,20 +5691,6 @@ procedure THauptfenster.ProcessExternCommands(var Msg: TMessage);
                      If Assigned(FunkTabelle) then
                        FunkTabelle.UpdateData;
                      Reset2DragMode;
-                     end;
-      cmd_Register : begin
-                     RegisterDlg := TRegisterDlg.Create(Self);
-                     try
-                       If RegisterDlg.ShowModal = mrOk then begin
-                         MessageDlg(MyStartMsg[14], mtInformation, [mbOk], 0);
-                         Reset2DragMode;
-                         Application.Terminate;
-                         end
-                       else
-                         Reset2DragMode;
-                     finally
-                       RegisterDlg.Release;
-                     end;
                      end;
       cmd_NameObj  : If Drawing.IndexOf(LastSelectedObj) >= 0 then begin
                        Start.Clear;
@@ -8322,23 +8271,6 @@ procedure THauptfenster.Lizenzbedingungen1Click(Sender: TObject);
   Application.HelpCommand(Help_Context, cmd_Licence);
   If Sender = TabSet1 then
     MyStopCursor := #$A1;
-  end;
-
-procedure THauptfenster.Registrierung1Click(Sender: TObject);
-  var RegisterDlg : TRegisterDlg;
-  begin
-  RegisterDlg := TRegisterDlg.Create(Self);
-  Try
-    If UserWants2Break4(cmd_Register) and
-       (RegisterDlg.ShowModal = mrOk) then begin
-      IsShareWare := False;
-      HilfeMenu.Remove(Registrierung1);
-      MessageDlg(MyStartMsg[14], mtInformation, [mbOk], 0);
-      Application.Terminate;
-      end;
-  finally
-    RegisterDlg.Release;
-  end;
   end;
 
 procedure THauptfenster.UeberEuklid1Click(Sender: TObject);
