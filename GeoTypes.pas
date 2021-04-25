@@ -20451,7 +20451,7 @@ procedure TGNumberObj.SetAniValue(nav: Double);
   var i : Integer;
   begin
   If FValue <> nav then begin
-    FValue := Math.Max(FValue, Boxed(nav));
+    FValue := Boxed(nav);
     SetPositionFromValue;
     For i := 1 to Pred(ObjList.DragList.Count) do
       TGeoObj(ObjList.DragList[i]).UpdateParams;
